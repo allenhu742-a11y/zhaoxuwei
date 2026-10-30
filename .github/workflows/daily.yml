@@ -1,12 +1,15 @@
-name: Daily DE price snapshot
+name: Daily EU price snapshot
 
 on:
   schedule:
     - cron: "0 9 * * *"   # 09:00 UTC = 柏林 10:00（冬令时）/ 11:00（夏令时）
   workflow_dispatch:
     inputs:
+      countries:
+        description: "Countries, comma-separated (blank = DE,FR,RO,PL,TR)"
+        required: false
       brands:
-        description: "Comma-separated brands (blank = all)"
+        description: "Brands, comma-separated (blank = all)"
         required: false
 
 permissions:
@@ -17,9 +20,26 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  snapshot:
+  prep:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    outputs:
+      date: ${{ steps.p.outputs.date }}
+      matrix: ${{ steps.p.outputs.matrix }}
+    steps:
+      - id: p
+        run: |
+          echo "date=$(TZ=Europe/Berlin date +%F)" >> "$GITHUB_OUTPUT"
+          C="${{ github.event.inputs.countries }}"; C="${C:-DE,FR,RO,PL,TR}"
+          echo "matrix=$(echo "$C" | tr -d ' ' | jq -Rc 'split(",")')" >> "$GITHUB_OUTPUT"
+
+  scrape:
+    needs: prep
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      matrix:
+        country: ${{ fromJSON(needs.prep.outputs.matrix) }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -27,15 +47,47 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
-      - run: python -m playwright install --with-deps chromium
-      - name: Scrape
+      - run: python -m playwright install --with-deps chromium && sudo apt-get install -y xvfb
+      - name: Scrape ${{ matrix.country }}
         continue-on-error: true
         run: |
-          if [ -n "${{ github.event.inputs.brands }}" ]; then
-            python -m scraper.run --brands "${{ github.event.inputs.brands }}"
-          else
-            python -m scraper.run
-          fi
+          xvfb-run -a python -m scraper.run --country ${{ matrix.country }} --date ${{ needs.prep.outputs.date }} \
+            ${{ github.event.inputs.brands && format('--brands "{0}"', github.event.inputs.brands) || '' }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: snap-${{ matrix.country }}
+          path: |
+            data/snapshots/${{ needs.prep.outputs.date }}/${{ matrix.country }}.json
+            debug/${{ matrix.country }}/
+          if-no-files-found: ignore
+
+  merge:
+    needs: [prep, scrape]
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: snap-*
+          path: _art
+      - name: Place files
+        run: |
+          D=${{ needs.prep.outputs.date }}
+          mkdir -p data/snapshots/$D
+          for dir in _art/snap-*; do
+            CC=${dir##*snap-}
+            f=$(find "$dir" -name "$CC.json" -path "*snapshots*" | head -1)
+            [ -n "$f" ] && cp "$f" data/snapshots/$D/$CC.json
+            dbg=$(find "$dir" -type d -path "*debug/$CC" | head -1)
+            if [ -n "$dbg" ]; then mkdir -p debug/$CC && cp -r "$dbg"/. debug/$CC/; fi
+          done
+          rm -rf _art
+          ls -la data/snapshots/$D
       - name: Build history + dashboard
         run: python -m scraper.build
       - name: Commit
@@ -44,5 +96,6 @@ jobs:
           git config user.name "price-bot"
           git config user.email "price-bot@users.noreply.github.com"
           git add data docs debug
-          git diff --cached --quiet || git commit -m "snapshot $(TZ=Europe/Berlin date +%F)"
+          git diff --cached --quiet || git commit -m "snapshot ${{ needs.prep.outputs.date }}"
+          git pull --rebase --autostash || true
           git push
