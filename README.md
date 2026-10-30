@@ -1,12 +1,12 @@
-# 德国官网价格追踪 / DE Official Store Price Tracker
+# 欧洲官网价格追踪 / EU Official Store Price Tracker
 
-Every day this records the German official-store prices (incl. VAT) of phones, tablets, wearables and audio products from **Apple, Samsung, Google, Xiaomi, Huawei, Honor, Motorola and OnePlus**. Each storage variant is its own row, and colours are merged at the lowest price. It keeps a snapshot per day and flags price changes.
+Every day this records official-store prices (incl. VAT) in **DE, FR, RO, PL and TR**, in local currency plus EUR at the ECB daily rate, of phones, tablets, wearables and audio products from **Apple, Samsung, Google, Xiaomi, Huawei, Honor, Motorola and OnePlus**. Each storage variant is its own row, and colours are merged at the lowest price. It keeps a snapshot per day and flags price changes.
 
-- `data/snapshots/YYYY-MM-DD.json`: raw daily snapshot
-- `data/history.csv`: long-format price history (date × SKU)
+- `data/snapshots/YYYY-MM-DD/<CC>.json`: raw daily snapshot per country (an older `YYYY-MM-DD.json` file is read as DE)
+- `data/history.csv`: long-format price history (date × country × SKU, local + EUR, listing rank)
 - `data/changes.csv`: every change event (`up` / `down` / `new` / `gone`)
-- `docs/index.html`: dashboard (SKU × date grid; changed cells are highlighted)
-- `debug/<Brand>.json`: what each page returned, used to fix brands that come back with 0 SKUs
+- `docs/index.html` + `docs/data/<CC>.json`: dashboard with a country switch, a local/EUR toggle, a model trend chart (min/avg/max × rank) and the SKU × date grid
+- `debug/<CC>/<Brand>.json`: what each page returned, used to fix brands that come back with 0 SKUs
 
 ## Setup (one time, about 5 minutes)
 
@@ -39,3 +39,14 @@ python -m scraper.build
 Monthly instalments, trade-in bonuses and coupon amounts are ignored. Accessories are filtered out.
 
 **Note:** official stores change their page structure often. When a brand shows ⚠ 0 in the dashboard status line, open `debug/<Brand>.json` to see which URLs failed and what the page returned, then adjust `scraper/config.py` (seed URLs or link pattern) or add a parser in `scraper/extract.py`.
+
+## Model trend (CLI)
+```bash
+python -m scraper.model --model "Galaxy A07"                 # every country that sells it
+python -m scraper.model --model "Galaxy A07" --country PL --eur
+python -m scraper.model --model "Galaxy A07" --country PL --png a07.png   # price × rank dual-axis chart (pip install matplotlib)
+```
+For each day this prints the min / avg / max price across the model's storage variants, plus its **listing rank**. Listing rank is the model's position on the brand's own category page (1 = shown first), counted within that brand and category. Samsung's rank uses the store's default "recommended" order. The dashboard shows the same view: pick a model in 型号走势, or click any model name in the grid. You can deep-link with `?country=PL&model=Galaxy%20A07&cur=eur`.
+
+## Countries
+The workflow runs one parallel job per country, then a merge job builds the dashboard. If a store redirects a country to another site (for example, a brand with no shop in that country), the run records it as *skipped*, so no prices from the wrong country are saved. To re-run part of a day, use **Run workflow** and enter countries (e.g. `PL,TR`) and/or brands.
