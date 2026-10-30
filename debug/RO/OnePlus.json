@@ -1,0 +1,162 @@
+{
+ "brand": "OnePlus",
+ "country": "RO",
+ "pages": [
+  {
+   "url": "https://www.oneplus.com/ro/store/phone",
+   "status": 200,
+   "final_url": "https://www.oneplus.com/ro/store/phone",
+   "title": "OnePlus Phone Store - OnePlus (România)",
+   "json_urls": [
+    "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/config/fetch",
+    "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
+    "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
+    "https://cdn0.forter.com/e38666f12941/e6a3da5e80b04d0fae1faa3b59f6fe97/prop.json?_=1793350022844",
+    "https://cdn0.forter.com/e38666f12941/e6a3da5e80b04d0fae1faa3b59f6fe97/prop.json?_=1793350023069",
+    "https://cdn0.forter.com/e38666f12941/e6a3da5e80b04d0fae1faa3b59f6fe97/prop.json?_=1793350023076",
+    "https://cdn0.forter.com/e38666f12941/e6a3da5e80b04d0fae1faa3b59f6fe97/wpt.json",
+    "https://mallapi-eu.oneplus.com/v2/api/router"
+   ],
+   "links": [],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Skip to main content You are visiting România (English/EUR) site. Switch to United States (English/USD) 【Important】Notice of OnePlus Business Adjustment >> Store Phone Tablet Wearables Audio More Products OneTopia Community Support OnePlus Phone Store Store Phone Tablet Wearables Audio Cases & Protection Power & Cables Bundles Lifestyle Offers With Gift On Sale Rank by Recommended Uh-oh! Nothing is found. Try searching with different filters. Home Phone Phones OnePlus 15 OnePlus 15R OnePlus 13 OnePlus Nord 5 OnePlus Nord CE5 Accessories Tablet Wearables Audio Cases & Protection Power & Cables Bundles Lifestyle Programs Link your OnePlus Devices Discount Program Affiliate Program OnePlus Trade-in Support Shopping FAQs Software Upgrade Repair Service User Manuals Contact Us Troubleshooting Accessibility Legea UE privind protecția datelor Company About OnePlus Community Red Cable Club OnePlus Store App OxygenOS Careers Sustainability Press Get Support From OnePlus Privacy Policy User Agreement Terms of Sale Security Response Center (OneSRC) Cookies Cookie Settings © 2013 - 2026 OnePlus. All Rights Reserved. România (English) Dragi prieteni OnePlus, Călătoria noastră din ultimii ani a fost incredibilă și ne-am bucurat de fiecare moment petrecut împreună. Chiar dacă OnePlus nu mai lansează noi produse în Europa, pasiunea de care am dat dovadă împreună rămâne neschimbată. Vrem să te asigurăm că vei beneficia în continuare de asistență, servicii de garanție, actualizări sof",
+   "json_samples": [
+    {
+     "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/config/fetch",
+     "body": "{\"success\": true, \"data\": {\"categoryList\": [{\"categoryName\": \"Store\", \"categoryCode\": \"CAT00001010\", \"urlKey\": \"store/all\", \"categoryImage\": {\"whiteCategoryImage\": \"https://image01-eu.oneplus.net/ebp/202207/25/1-M00-53-95-rBpB6mLeodeAMO_oAABPSqotiPU128.svg\", \"blankCategoryImage\": \"https://image01-eu.oneplus.net/ebp/202207/25/1-M00-53-95-rBpB6mLeodeAMO_oAABPSqotiPU128.svg\"}, \"filterGroups\": [{\"groupName\": \"Offers\", \"groupType\": null, \"groupMutilSelect\": null, \"filterOptions\": [{\"storeViewCode\": null, \"optCode\": \"OFFER_BUY_WITH_GIFT\", \"optName\": \"With Gift\", \"optCatOrTagCodes\": null, \"optSort\": \"1\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": \"\", \"defaultName\": \"With Gift\", \"customOpt\": null}, {\"storeViewCode\": null, \"optCode\": \"OFFER_DISCOUNTED\", \"optName\": \"On Sale\", \"optCatOrTagCodes\": null, \"optSort\": \"4\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": \"\", \"defaultName\": \"On Sale\", \"customOpt\": null}], \"groupCode\": \"OFFER\", \"groupSortCode\": 1, \"customGroup\": null}], \"sortOptions\": [{\"storeViewCode\": null, \"optCode\": \"LATEST\", \"optName\": \"Newest\", \"optCatOrTagCodes\": null, \"optSort\": \"2\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": null, \"defaultName\": \"Newest\", \"customOpt\": null}, {\"storeViewCode\": null, \"optCode\": \"PRICEL2H\", \"optName\": \"Price(Low to High)\", \"optCatOrTagCodes\": null, \"optSort\": \"3\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": null, \"defaultName\": \"Price(Low to High)\", \"customOpt\": null}, {\"storeViewCode\": null, \"optCode\": \"PRICEH2L\", \"optName\": \"Price(High to Low)\", \"optCatOrTagCodes\": null, \"optSort\": \"4\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": null, \"defaultName\": \"Price(High to Low)\", \"customOpt\": null}, {\"storeViewCode\": null, \"optCode\": \"DISCOUNT\", \"optName\": \"Discount Rate\", \"optCatOrTagCodes\": null, \"optSort\": \"5\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": null, \"defaultName\": \"Discount Rate\", \"customOpt\": null}, {\"storeViewCode\": null, \"optCode\": \"RECOMMENDED\", \"optName\": \"Recommended\", \"optCatOrTagCodes\": null, \"optSort\": \"1\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": null, \"defaultName\": \"Recommended\", \"customOpt\": null}], \"compareAction\": {\"type\": \"H5_INNER\", \"uri\": \"\", \"uriDesc\": null, \"appUri\": null, \"appUriDesc\": null, \"text\": null, \"img\": null, \"fontColor\": null, \"buttonColor\": null, \"backgroundColor\": null, \"eventKey\": null, \"eventParams\": null, \"params\": null, \"checkLogin\": false, \"show\": false, \"summeryText\": "
+    },
+    {
+     "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
+     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"91918529d4d026ab320a8215b0936d85-117\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": {\"totalRecord\": 0, \"totalPage\": 0, \"startRec\": 0, \"endRec\": 0, \"currentPage\": 1, \"pageSize\": 12}}"
+    },
+    {
+     "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
+     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"89b211f0c51239830bb680738e4a1785-208\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
+    },
+    {
+     "url": "https://mallapi-eu.oneplus.com/v2/api/router",
+     "body": "{\"success\": true, \"data\": null, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"a3471350d2cc20b8caa6e612316b6719-154\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
+    }
+   ]
+  },
+  {
+   "url": "https://www.oneplus.com/ro/store/tablet",
+   "status": 200,
+   "final_url": "https://www.oneplus.com/ro/store/tablet",
+   "title": "OnePlus Tablet Store - OnePlus (România)",
+   "json_urls": [
+    "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/config/fetch",
+    "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
+    "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
+    "https://cdn0.forter.com/e38666f12941/e6a3da5e80b04d0fae1faa3b59f6fe97/prop.json?_=1793350045770",
+    "https://cdn0.forter.com/e38666f12941/e6a3da5e80b04d0fae1faa3b59f6fe97/prop.json?_=1793350045820",
+    "https://mallapi-eu.oneplus.com/v2/api/router",
+    "https://cdn0.forter.com/e38666f12941/e6a3da5e80b04d0fae1faa3b59f6fe97/prop.json?_=1793350046031",
+    "https://cdn0.forter.com/e38666f12941/e6a3da5e80b04d0fae1faa3b59f6fe97/wpt.json"
+   ],
+   "links": [],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Skip to main content You are visiting România (English/EUR) site. Switch to United States (English/USD) 【Important】Notice of OnePlus Business Adjustment >> Store Phone Tablet Wearables Audio More Products OneTopia Community Support OnePlus Tablet Store Store Phone Tablet Wearables Audio Cases & Protection Power & Cables Bundles Lifestyle Offers On Sale With Gift Rank by Newest Uh-oh! Nothing is found. Try searching with different filters. Home Tablet Phones OnePlus 15 OnePlus 15R OnePlus 13 OnePlus Nord 5 OnePlus Nord CE5 Accessories Tablet Wearables Audio Cases & Protection Power & Cables Bundles Lifestyle Programs Link your OnePlus Devices Discount Program Affiliate Program OnePlus Trade-in Support Shopping FAQs Software Upgrade Repair Service User Manuals Contact Us Troubleshooting Accessibility Legea UE privind protecția datelor Company About OnePlus Community Red Cable Club OnePlus Store App OxygenOS Careers Sustainability Press Get Support From OnePlus Privacy Policy User Agreement Terms of Sale Security Response Center (OneSRC) Cookies Cookie Settings © 2013 - 2026 OnePlus. All Rights Reserved. România (English) Dragi prieteni OnePlus, Călătoria noastră din ultimii ani a fost incredibilă și ne-am bucurat de fiecare moment petrecut împreună. Chiar dacă OnePlus nu mai lansează noi produse în Europa, pasiunea de care am dat dovadă împreună rămâne neschimbată. Vrem să te asigurăm că vei beneficia în continuare de asistență, servicii de garanție, actualizări softwa",
+   "json_samples": [
+    {
+     "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/config/fetch",
+     "body": "{\"success\": true, \"data\": {\"categoryList\": [{\"categoryName\": \"Store\", \"categoryCode\": \"CAT00001010\", \"urlKey\": \"store/all\", \"categoryImage\": {\"whiteCategoryImage\": \"https://image01-eu.oneplus.net/ebp/202207/25/1-M00-53-95-rBpB6mLeodeAMO_oAABPSqotiPU128.svg\", \"blankCategoryImage\": \"https://image01-eu.oneplus.net/ebp/202207/25/1-M00-53-95-rBpB6mLeodeAMO_oAABPSqotiPU128.svg\"}, \"filterGroups\": [{\"groupName\": \"Offers\", \"groupType\": null, \"groupMutilSelect\": null, \"filterOptions\": [{\"storeViewCode\": null, \"optCode\": \"OFFER_BUY_WITH_GIFT\", \"optName\": \"With Gift\", \"optCatOrTagCodes\": null, \"optSort\": \"1\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": \"\", \"defaultName\": \"With Gift\", \"customOpt\": null}, {\"storeViewCode\": null, \"optCode\": \"OFFER_DISCOUNTED\", \"optName\": \"On Sale\", \"optCatOrTagCodes\": null, \"optSort\": \"4\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": \"\", \"defaultName\": \"On Sale\", \"customOpt\": null}], \"groupCode\": \"OFFER\", \"groupSortCode\": 1, \"customGroup\": null}], \"sortOptions\": [{\"storeViewCode\": null, \"optCode\": \"LATEST\", \"optName\": \"Newest\", \"optCatOrTagCodes\": null, \"optSort\": \"2\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": null, \"defaultName\": \"Newest\", \"customOpt\": null}, {\"storeViewCode\": null, \"optCode\": \"PRICEL2H\", \"optName\": \"Price(Low to High)\", \"optCatOrTagCodes\": null, \"optSort\": \"3\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": null, \"defaultName\": \"Price(Low to High)\", \"customOpt\": null}, {\"storeViewCode\": null, \"optCode\": \"PRICEH2L\", \"optName\": \"Price(High to Low)\", \"optCatOrTagCodes\": null, \"optSort\": \"4\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": null, \"defaultName\": \"Price(High to Low)\", \"customOpt\": null}, {\"storeViewCode\": null, \"optCode\": \"DISCOUNT\", \"optName\": \"Discount Rate\", \"optCatOrTagCodes\": null, \"optSort\": \"5\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": null, \"defaultName\": \"Discount Rate\", \"customOpt\": null}, {\"storeViewCode\": null, \"optCode\": \"RECOMMENDED\", \"optName\": \"Recommended\", \"optCatOrTagCodes\": null, \"optSort\": \"1\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": null, \"defaultName\": \"Recommended\", \"customOpt\": null}], \"compareAction\": {\"type\": \"H5_INNER\", \"uri\": \"\", \"uriDesc\": null, \"appUri\": null, \"appUriDesc\": null, \"text\": null, \"img\": null, \"fontColor\": null, \"buttonColor\": null, \"backgroundColor\": null, \"eventKey\": null, \"eventParams\": null, \"params\": null, \"checkLogin\": false, \"show\": false, \"summeryText\": "
+    },
+    {
+     "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
+     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"cab103853a5eae1a57b78e0eb861087d-154\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": {\"totalRecord\": 0, \"totalPage\": 0, \"startRec\": 0, \"endRec\": 0, \"currentPage\": 1, \"pageSize\": 12}}"
+    },
+    {
+     "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
+     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"f3381d3c9107412db1fed7d160757aa2-230\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
+    },
+    {
+     "url": "https://mallapi-eu.oneplus.com/v2/api/router",
+     "body": "{\"success\": true, \"data\": null, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"369b133acea0789afa24608890841f86-117\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
+    }
+   ]
+  },
+  {
+   "url": "https://www.oneplus.com/ro/store/audio",
+   "status": 200,
+   "final_url": "https://www.oneplus.com/ro/store/audio",
+   "title": "OnePlus Audio Store - OnePlus (România)",
+   "json_urls": [
+    "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/config/fetch",
+    "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
+    "https://cdn0.forter.com/e38666f12941/e6a3da5e80b04d0fae1faa3b59f6fe97/prop.json?_=1793350065752",
+    "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
+    "https://cdn0.forter.com/e38666f12941/e6a3da5e80b04d0fae1faa3b59f6fe97/prop.json?_=1793350065867",
+    "https://cdn0.forter.com/e38666f12941/e6a3da5e80b04d0fae1faa3b59f6fe97/prop.json?_=1793350065936",
+    "https://cdn0.forter.com/e38666f12941/e6a3da5e80b04d0fae1faa3b59f6fe97/wpt.json",
+    "https://mallapi-eu.oneplus.com/v2/api/router"
+   ],
+   "links": [],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Skip to main content You are visiting România (English/EUR) site. Switch to United States (English/USD) 【Important】Notice of OnePlus Business Adjustment >> Store Phone Tablet Wearables Audio More Products OneTopia Community Support OnePlus Audio Store Store Phone Tablet Wearables Audio Cases & Protection Power & Cables Bundles Lifestyle Offers On Sale With Gift Rank by Recommended Uh-oh! Nothing is found. Try searching with different filters. Home Audio Phones OnePlus 15 OnePlus 15R OnePlus 13 OnePlus Nord 5 OnePlus Nord CE5 Accessories Tablet Wearables Audio Cases & Protection Power & Cables Bundles Lifestyle Programs Link your OnePlus Devices Discount Program Affiliate Program OnePlus Trade-in Support Shopping FAQs Software Upgrade Repair Service User Manuals Contact Us Troubleshooting Accessibility Legea UE privind protecția datelor Company About OnePlus Community Red Cable Club OnePlus Store App OxygenOS Careers Sustainability Press Get Support From OnePlus Privacy Policy User Agreement Terms of Sale Security Response Center (OneSRC) Cookies Cookie Settings © 2013 - 2026 OnePlus. All Rights Reserved. România (English) Dragi prieteni OnePlus, Călătoria noastră din ultimii ani a fost incredibilă și ne-am bucurat de fiecare moment petrecut împreună. Chiar dacă OnePlus nu mai lansează noi produse în Europa, pasiunea de care am dat dovadă împreună rămâne neschimbată. Vrem să te asigurăm că vei beneficia în continuare de asistență, servicii de garanție, actualizări sof",
+   "json_samples": [
+    {
+     "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/config/fetch",
+     "body": "{\"success\": true, \"data\": {\"categoryList\": [{\"categoryName\": \"Store\", \"categoryCode\": \"CAT00001010\", \"urlKey\": \"store/all\", \"categoryImage\": {\"whiteCategoryImage\": \"https://image01-eu.oneplus.net/ebp/202207/25/1-M00-53-95-rBpB6mLeodeAMO_oAABPSqotiPU128.svg\", \"blankCategoryImage\": \"https://image01-eu.oneplus.net/ebp/202207/25/1-M00-53-95-rBpB6mLeodeAMO_oAABPSqotiPU128.svg\"}, \"filterGroups\": [{\"groupName\": \"Offers\", \"groupType\": null, \"groupMutilSelect\": null, \"filterOptions\": [{\"storeViewCode\": null, \"optCode\": \"OFFER_BUY_WITH_GIFT\", \"optName\": \"With Gift\", \"optCatOrTagCodes\": null, \"optSort\": \"1\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": \"\", \"defaultName\": \"With Gift\", \"customOpt\": null}, {\"storeViewCode\": null, \"optCode\": \"OFFER_DISCOUNTED\", \"optName\": \"On Sale\", \"optCatOrTagCodes\": null, \"optSort\": \"4\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": \"\", \"defaultName\": \"On Sale\", \"customOpt\": null}], \"groupCode\": \"OFFER\", \"groupSortCode\": 1, \"customGroup\": null}], \"sortOptions\": [{\"storeViewCode\": null, \"optCode\": \"LATEST\", \"optName\": \"Newest\", \"optCatOrTagCodes\": null, \"optSort\": \"2\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": null, \"defaultName\": \"Newest\", \"customOpt\": null}, {\"storeViewCode\": null, \"optCode\": \"PRICEL2H\", \"optName\": \"Price(Low to High)\", \"optCatOrTagCodes\": null, \"optSort\": \"3\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": null, \"defaultName\": \"Price(Low to High)\", \"customOpt\": null}, {\"storeViewCode\": null, \"optCode\": \"PRICEH2L\", \"optName\": \"Price(High to Low)\", \"optCatOrTagCodes\": null, \"optSort\": \"4\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": null, \"defaultName\": \"Price(High to Low)\", \"customOpt\": null}, {\"storeViewCode\": null, \"optCode\": \"DISCOUNT\", \"optName\": \"Discount Rate\", \"optCatOrTagCodes\": null, \"optSort\": \"5\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": null, \"defaultName\": \"Discount Rate\", \"customOpt\": null}, {\"storeViewCode\": null, \"optCode\": \"RECOMMENDED\", \"optName\": \"Recommended\", \"optCatOrTagCodes\": null, \"optSort\": \"1\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": null, \"defaultName\": \"Recommended\", \"customOpt\": null}], \"compareAction\": {\"type\": \"H5_INNER\", \"uri\": \"\", \"uriDesc\": null, \"appUri\": null, \"appUriDesc\": null, \"text\": null, \"img\": null, \"fontColor\": null, \"buttonColor\": null, \"backgroundColor\": null, \"eventKey\": null, \"eventParams\": null, \"params\": null, \"checkLogin\": false, \"show\": false, \"summeryText\": "
+    },
+    {
+     "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
+     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"081e379e457db5da947db87b02ae5723-117\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": {\"totalRecord\": 0, \"totalPage\": 0, \"startRec\": 0, \"endRec\": 0, \"currentPage\": 1, \"pageSize\": 12}}"
+    },
+    {
+     "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
+     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"e4f03127d81c6303c3e20d92cba17ac6-117\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
+    },
+    {
+     "url": "https://mallapi-eu.oneplus.com/v2/api/router",
+     "body": "{\"success\": true, \"data\": null, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"aa060e5be39efb238a1904d156262c24-154\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
+    }
+   ]
+  },
+  {
+   "url": "https://www.oneplus.com/ro/store/wearables",
+   "status": 200,
+   "final_url": "https://www.oneplus.com/ro/store/wearables",
+   "title": "OnePlus Wearables Store - OnePlus (România)",
+   "json_urls": [
+    "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/config/fetch",
+    "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
+    "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
+    "https://cdn0.forter.com/e38666f12941/e6a3da5e80b04d0fae1faa3b59f6fe97/prop.json?_=1793350091128",
+    "https://cdn0.forter.com/e38666f12941/e6a3da5e80b04d0fae1faa3b59f6fe97/prop.json?_=1793350091191",
+    "https://cdn0.forter.com/e38666f12941/e6a3da5e80b04d0fae1faa3b59f6fe97/prop.json?_=1793350091205",
+    "https://mallapi-eu.oneplus.com/v2/api/router",
+    "https://cdn0.forter.com/e38666f12941/e6a3da5e80b04d0fae1faa3b59f6fe97/wpt.json"
+   ],
+   "links": [],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Skip to main content You are visiting România (English/EUR) site. Switch to United States (English/USD) 【Important】Notice of OnePlus Business Adjustment >> Store Phone Tablet Wearables Audio More Products OneTopia Community Support OnePlus Wearables Store Store Phone Tablet Wearables Audio Cases & Protection Power & Cables Bundles Lifestyle Offers On Sale With Gift Rank by Newest Uh-oh! Nothing is found. Try searching with different filters. Home Wearables Phones OnePlus 15 OnePlus 15R OnePlus 13 OnePlus Nord 5 OnePlus Nord CE5 Accessories Tablet Wearables Audio Cases & Protection Power & Cables Bundles Lifestyle Programs Link your OnePlus Devices Discount Program Affiliate Program OnePlus Trade-in Support Shopping FAQs Software Upgrade Repair Service User Manuals Contact Us Troubleshooting Accessibility Legea UE privind protecția datelor Company About OnePlus Community Red Cable Club OnePlus Store App OxygenOS Careers Sustainability Press Get Support From OnePlus Privacy Policy User Agreement Terms of Sale Security Response Center (OneSRC) Cookies Cookie Settings © 2013 - 2026 OnePlus. All Rights Reserved. România (English) Dragi prieteni OnePlus, Călătoria noastră din ultimii ani a fost incredibilă și ne-am bucurat de fiecare moment petrecut împreună. Chiar dacă OnePlus nu mai lansează noi produse în Europa, pasiunea de care am dat dovadă împreună rămâne neschimbată. Vrem să te asigurăm că vei beneficia în continuare de asistență, servicii de garanție, actualizări ",
+   "json_samples": [
+    {
+     "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/config/fetch",
+     "body": "{\"success\": true, \"data\": {\"categoryList\": [{\"categoryName\": \"Store\", \"categoryCode\": \"CAT00001010\", \"urlKey\": \"store/all\", \"categoryImage\": {\"whiteCategoryImage\": \"https://image01-eu.oneplus.net/ebp/202207/25/1-M00-53-95-rBpB6mLeodeAMO_oAABPSqotiPU128.svg\", \"blankCategoryImage\": \"https://image01-eu.oneplus.net/ebp/202207/25/1-M00-53-95-rBpB6mLeodeAMO_oAABPSqotiPU128.svg\"}, \"filterGroups\": [{\"groupName\": \"Offers\", \"groupType\": null, \"groupMutilSelect\": null, \"filterOptions\": [{\"storeViewCode\": null, \"optCode\": \"OFFER_BUY_WITH_GIFT\", \"optName\": \"With Gift\", \"optCatOrTagCodes\": null, \"optSort\": \"1\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": \"\", \"defaultName\": \"With Gift\", \"customOpt\": null}, {\"storeViewCode\": null, \"optCode\": \"OFFER_DISCOUNTED\", \"optName\": \"On Sale\", \"optCatOrTagCodes\": null, \"optSort\": \"4\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": \"\", \"defaultName\": \"On Sale\", \"customOpt\": null}], \"groupCode\": \"OFFER\", \"groupSortCode\": 1, \"customGroup\": null}], \"sortOptions\": [{\"storeViewCode\": null, \"optCode\": \"LATEST\", \"optName\": \"Newest\", \"optCatOrTagCodes\": null, \"optSort\": \"2\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": null, \"defaultName\": \"Newest\", \"customOpt\": null}, {\"storeViewCode\": null, \"optCode\": \"PRICEL2H\", \"optName\": \"Price(Low to High)\", \"optCatOrTagCodes\": null, \"optSort\": \"3\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": null, \"defaultName\": \"Price(Low to High)\", \"customOpt\": null}, {\"storeViewCode\": null, \"optCode\": \"PRICEH2L\", \"optName\": \"Price(High to Low)\", \"optCatOrTagCodes\": null, \"optSort\": \"4\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": null, \"defaultName\": \"Price(High to Low)\", \"customOpt\": null}, {\"storeViewCode\": null, \"optCode\": \"DISCOUNT\", \"optName\": \"Discount Rate\", \"optCatOrTagCodes\": null, \"optSort\": \"5\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": null, \"defaultName\": \"Discount Rate\", \"customOpt\": null}, {\"storeViewCode\": null, \"optCode\": \"RECOMMENDED\", \"optName\": \"Recommended\", \"optCatOrTagCodes\": null, \"optSort\": \"1\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": null, \"defaultName\": \"Recommended\", \"customOpt\": null}], \"compareAction\": {\"type\": \"H5_INNER\", \"uri\": \"\", \"uriDesc\": null, \"appUri\": null, \"appUriDesc\": null, \"text\": null, \"img\": null, \"fontColor\": null, \"buttonColor\": null, \"backgroundColor\": null, \"eventKey\": null, \"eventParams\": null, \"params\": null, \"checkLogin\": false, \"show\": false, \"summeryText\": "
+    },
+    {
+     "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
+     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"5ee5e8a744ddff5c3d90c7627840864d-154\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": {\"totalRecord\": 0, \"totalPage\": 0, \"startRec\": 0, \"endRec\": 0, \"currentPage\": 1, \"pageSize\": 12}}"
+    },
+    {
+     "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
+     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"1dd4408ada54fe20fcc3c1865207d2f2-230\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
+    },
+    {
+     "url": "https://mallapi-eu.oneplus.com/v2/api/router",
+     "body": "{\"success\": true, \"data\": null, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"b4f020341b5559d459e6fd562b5c8989-154\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
+    }
+   ]
+  }
+ ]
+}

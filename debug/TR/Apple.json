@@ -1,0 +1,813 @@
+{
+ "brand": "Apple",
+ "country": "TR",
+ "pages": [
+  {
+   "url": "https://www.apple.com/tr/shop/buy-iphone",
+   "status": 200,
+   "final_url": "https://www.apple.com/tr/shop/buy-iphone",
+   "title": "iPhone Satın Alın - Apple (TR)",
+   "json_urls": [
+    "https://www.apple.com/tr/shop/api/digital-mat?path=library/step0_iphone/digitalmat&fae=true",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
+    "https://www.apple.com/tr/shop/bag/status?apikey=SJHJUH4YFCTTPD4F4",
+    "https://www.apple.com/shop/shld/work/s3/q?jr=30"
+   ],
+   "links": [
+    "https://www.apple.com/tr/shop/buy-iphone/iphone-duo",
+    "https://www.apple.com/tr/shop/buy-iphone/iphone-18-pro",
+    "https://www.apple.com/tr/shop/buy-iphone/iphone-air",
+    "https://www.apple.com/tr/shop/buy-iphone/iphone-17",
+    "https://www.apple.com/tr/shop/buy-iphone/iphone-17e",
+    "https://www.apple.com/tr/shop/buy-iphone/iphone-16"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "Başlangıç fiyatı: 229.999 TL",
+    "Başlangıç fiyatı: 229.999 TL",
+    "Başlangıç fiyatı: 229.999 TL",
+    "Başlangıç fiyatı: 229.999 TL",
+    "Başlangıç fiyatı: 229.999 TL",
+    "Başlangıç fiyatı: 137.999 TL",
+    "Başlangıç fiyatı: 137.999 TL",
+    "Başlangıç fiyatı: 137.999 TL",
+    "Başlangıç fiyatı: 137.999 TL",
+    "Başlangıç fiyatı: 137.999 TL"
+   ],
+   "items_by_source": {},
+   "text_sample": "wzlhp Store Mac iPad iPhone Watch AirPods Ev Eğlence Aksesuarlar Destek 0 + iPhone Satın Alın Bir Uzman ile görüşün (Yeni pencerede açılır) Bir Apple Store bulun (yeni bir pencerede açılır) Tüm Modeller Alışveriş Rehberleri Aksesuarlar Kurulum ve Destek iPhone deneyimi Tüm modeller. Dilediğinizi seçin. YENİ iPhone Duo - YENİ Daha yakından bakın - iPhone Duo Başlangıç fiyatı: 229.999 TL Satın Alın - iPhone Duo YENİ iPhone 18 Pro ve iPhone 18 Pro Max - YENİ Daha yakından bakın - iPhone 18 Pro ve iPhone 18 Pro Max Başlangıç fiyatı: 137.999 TL Satın Alın - iPhone 18 Pro ve iPhone 18 Pro Max iPhone Air Daha yakından bakın - iPhone Air Başlangıç fiyatı: 122.999 TL Satın Alın - iPhone Air iPhone 17 Daha yakından bakın - iPhone 17 Başlangıç fiyatı: 99.999 TL Satın Alın - iPhone 17 iPhone 17e Daha yakından bakın - iPhone 17e Başlangıç fiyatı: 72.999 TL Satın Alın - iPhone 17e iPhone 16 Daha yakından bakın - iPhone 16 Başlangıç fiyatı: 85.999 TL Satın Alın - iPhone 16 iPhone aksesuarlarını keşfedin. Önceki - Tüm modeller. Sonraki - Tüm modeller. Alışveriş rehberleri. Karar veremediniz mi? Buradan başlayın. TÜM MODELLERİ KARŞILAŞTIRIN Size en uygun iPhone hangisi? - (Yeni pencerede açılır) Apple Intelligence ve Siri AI. Çok daha kişisel. Çok daha güçlü. Dipnot 1 IPHONE UZMANI Uzmandan bire bir yardım alarak alışveriş yapın. Online veya mağazada. Today at Apple Apple Intelligence’ı Keşfedin. Apple Store’da ücretsiz etkinliğe gelin, deneyimleyin. IPHONE’A GEÇİŞ YAPIN Android’den iPhone’",
+   "json_samples": [
+    {
+     "url": "https://www.apple.com/tr/shop/api/digital-mat?path=library/step0_iphone/digitalmat&fae=true",
+     "body": "{\"head\": {\"status\": \"200\", \"data\": {}}, \"body\": {\"digitalMat\": [{\"enableDarkTheme\": false, \"familyTypes\": [{\"exploreLink\": {\"url\": \"https://www.apple.com/tr/iphone-duo\", \"text\": \"iPhone Duo’yu daha da yakından tanıyın\", \"dataVar\": {}, \"omnitureData\": {\"linkText\": \"iPhone Duo’yu daha da yakından tanıyın\", \"commitCodeId\": 0}, \"newTab\": false, \"isLinkAsButton\": false, \"deeplink\": [], \"link\": \"https://www.apple.com/tr/iphone-duo\"}, \"valuePropsContent\": {\"items\": [{\"index\": 0, \"value\": \"<div class=\\\"rf-digitalmat-valueprops-icon\\\">\\n    <div class=\\\"as-svgicon-container dd-color-forest-green\\\">\\n        \\n<svg width=\\\"21\\\" height=\\\"25\\\" viewBox=\\\"0 0 21 25\\\" class=\\\"dd-glyph-svg dd-glyph-reduced\\\" aria-hidden=\\\"true\\\">\\n  <path d=\\\"m18.5 5h-16a2.5 2.5 0 0 0 -2.5 2.5v10a2.5 2.5 0 0 0 2.5 2.5h15.9958a2.5 2.5 0 0 0 2.5-2.5l.0042-10a2.5 2.5 0 0 0 -2.5-2.5zm-16 1h16a1.5017 1.5017 0 0 1 1.5 1.5v1.5h-19v-1.5a1.5017 1.5017 0 0 1 1.5-1.5zm15.9958 13h-15.9958a1.5017 1.5017 0 0 1 -1.5-1.5v-6.5h19v6.5a1.5053 1.5053 0 0 1 -1.5042 1.5zm-11.4958-5.0179v2.0358a.83.83 0 0 1 -.8.8571h-2.4a.83.83 0 0 1 -.8-.8571v-2.0358a.83.83 0 0 1 .8-.8571h2.4a.83.83 0 0 1 .8.8571z\\\" />\\n</svg>\\n    </div>\\n</div>\\n<div class=\\\"rf-digitalmat-valueprops-description\\\">\\n    <h3 class=\\\"rf-digitalmat-valueprops-header\\\">\\n        Ödeme kolaylıkları\\n    </h3>\\n    Aylık taksit seçenekleriyle kolayca ödeyin.\\n</div>\", \"position\": 1, \"first\": true, \"last\": false, \"even\": true}, {\"index\": 1, \"value\": \"\", \"position\": 2, \"first\": false, \"last\": false, \"even\": false}, {\"index\": 2, \"value\": \"<div class=\\\"rf-digitalmat-valueprops-icon\\\">\\n\\t<div class=\\\"as-svgicon-container dd-color-forest-green\\\">\\n\\t\\t\\n<svg width=\\\"23\\\" height=\\\"25\\\" viewBox=\\\"0 0 23 25\\\" class=\\\"dd-glyph-svg dd-glyph-reduced\\\" aria-hidden=\\\"true\\\">\\n  <path d=\\\"m22.4825 12.8467-2.9209-3.2085c-.4121-.4473-.8828-.6382-1.5752-.6382h-1.9863v-2.505c0-1.3807-1.1194-2.5-2.5-2.5h-11.0001c-1.3806 0-2.5 1.1194-2.5 2.5v9.75c0 1.3808 1.1194 2.5 2.5 2.5h.5479c.2258 1.2913 1.3462 2.275 2.7021 2.275s2.28-.7235 2.6721-2.0201h6.6808c.3199 1.1639 1.3814 2.02 2.647 2.02 1.3477 0 2.4639-.9707 2.6997-2.25h.7349c1.1367 0 1.8154-.6689 1.8154-1.7896v-2.8081c0-.498-.1914-.9849-.5176-1.3257zm-15.0562 5.8984c-.2087.7333-.8772 1.275-1.6763 1.275s-1.4675-.5417-1.6763-1.275c-.0432-.152-.0737-.3093-.0737-.475 0-.1841.0364-.3582.0894-.525.2246-.7075.8799-1.225 1.6606-1.225s1.436.5175 1.6606 1.225c.053.1668.0894.3409.0894.525 0 .1657-.0305.3229-.0737.475zm1.0208-.745"
+    },
+    {
+     "url": "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR",
+     "body": "[{\"name\": \"apple\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple home\"}], \"id\": \"3d39a8ff\"}, {\"name\": \"store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"store\"}, {\"name\": \"data-analytics-element-engagement\", \"value\": \"hover - store\"}], \"baseGroups\": [{\"id\": \"efe9efd0\", \"title\": \"Hızlı Bağlantılar\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"quick links - store\"}], \"baseLinks\": [{\"id\": \"cb439f7a\", \"text\": \"Bir Mağaza Bulun\", \"url\": \"/tr/retail/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"find a store\"}], \"ariaLabel\": \"\"}, {\"id\": \"749e2d74\", \"text\": \"Sipariş Durumu\", \"url\": \"/tr/shop/goto/order/list\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"order status\"}], \"ariaLabel\": \"\"}, {\"id\": \"82789284\", \"text\": \"Ödeme Kolaylıkları\", \"url\": \"/tr/shop/goto/ww/financing\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"financing\"}], \"ariaLabel\": \"\"}]}, {\"id\": \"2edc9e5d\", \"title\": \"Özel Mağazalardan Alışveriş Yapın\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"shop special stores\"}], \"baseLinks\": [{\"id\": \"a5831c32\", \"text\": \"Eğitim\", \"url\": \"/tr/shop/goto/educationrouting\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"education\"}], \"ariaLabel\": \"\"}, {\"id\": \"26962b0e\", \"text\": \"İş Dünyası\", \"url\": \"/tr/retail/business/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"business\"}], \"ariaLabel\": \"\"}]}], \"elevatedGroups\": [{\"id\": \"34a90a07\", \"title\": \"Alışveriş Yapın\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"explore shop\"}], \"elevatedLinks\": [{\"id\": \"6cb7d0b5\", \"text\": \"Yeni Ürünlere Göz Atın\", \"url\": \"/tr/shop/goto/store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"shop the latest\"}], \"ariaLabel\": \"En yeni Apple ürünlerini satın alın\"}, {\"id\": \"ecda88f8\", \"text\": \"Mac\", \"url\": \"/tr/shop/goto/buy_mac\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"mac\"}], \"ariaLabel\": \"\"}, {\"id\": \"f82ba1fa\", \"text\": \"iPad\", \"url\": \"/tr/shop/goto/buy_ipad\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"ipad\"}], \"ariaLabel\": \"\"}, {\"id\": \"cc713ed0\", \"text\": \"iPhone\", \"url\": \"/tr/shop/goto/buy_iphone\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"iphone\"}], \"ariaLabel\": \"\"}, {\"id\": \"c2a9286e\", \"text\": \"Apple Watch\", \"url\": \"/tr/shop/goto/buy_watch\", \"analyticsAttributes\": ["
+    },
+    {
+     "url": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
+     "body": "{\"id\": \"JrX_uE7pTaamhoS8tPfiJQ\", \"results\": [{\"sectionName\": \"quickLinks\", \"sectionResults\": [{\"label\": \"Bir Mağaza Bulun\", \"url\": \"https://www.apple.com/tr/retail/\"}, {\"label\": \"Apple Store’dan Online Alışveriş Yapın\", \"url\": \"https://www.apple.com/tr/shop/goto/shop\"}, {\"label\": \"Aksesuarlar\", \"url\": \"https://www.apple.com/tr/shop/goto/accessories/apple_accessories\"}, {\"label\": \"AirPods\", \"url\": \"https://www.apple.com/tr/airpods/\"}, {\"label\": \"Apple Intelligence\", \"url\": \"https://www.apple.com/tr/apple-intelligence/\"}]}, {\"sectionName\": \"suggestions\", \"sectionResults\": []}]}"
+    },
+    {
+     "url": "https://www.apple.com/tr/shop/bag/status?apikey=SJHJUH4YFCTTPD4F4",
+     "body": "{\"items\": 0, \"ttl\": 180, \"api\": {\"flyout\": \"/%5Bstorefront%5D/shop/bag/flyout\", \"addToBag\": \"/%5Bstorefront%5D/shop/bag/add?product=%5Bpart%5D\"}}"
+    }
+   ]
+  },
+  {
+   "url": "https://www.apple.com/tr/shop/buy-ipad",
+   "status": 200,
+   "final_url": "https://www.apple.com/tr/shop/buy-ipad",
+   "title": "iPad Satın Alın - Apple (TR)",
+   "json_urls": [
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR",
+    "https://www.apple.com/tr/shop/api/digital-mat?path=library/step0_ipad/digitalmat&fae=true"
+   ],
+   "links": [
+    "https://www.apple.com/tr/shop/buy-ipad/ipad-pro",
+    "https://www.apple.com/tr/shop/buy-ipad/ipad-air",
+    "https://www.apple.com/tr/shop/buy-ipad/ipad",
+    "https://www.apple.com/tr/shop/buy-ipad/ipad-mini"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "Başlangıç fiyatı: 85.999 TL",
+    "Başlangıç fiyatı: 85.999 TL",
+    "Başlangıç fiyatı: 85.999 TL",
+    "Başlangıç fiyatı: 85.999 TL",
+    "Başlangıç fiyatı: 85.999 TL",
+    "Başlangıç fiyatı: 52.499 TL",
+    "Başlangıç fiyatı: 52.499 TL",
+    "Başlangıç fiyatı: 52.499 TL",
+    "Başlangıç fiyatı: 52.499 TL",
+    "Başlangıç fiyatı: 52.499 TL"
+   ],
+   "items_by_source": {},
+   "text_sample": "wzlhp Store Mac iPad iPhone Watch AirPods Ev Eğlence Aksesuarlar Destek 0 + iPad Satın Alın Bir Uzman ile görüşün (Yeni pencerede açılır) Bir Apple Store bulun (yeni bir pencerede açılır) Önceki Tüm Modeller Alışveriş Rehberleri Tasarruf Etmenin Yolları Neden Apple Store Aksesuarlar Kurulum ve Destek iPad deneyimi Size Özel Mağazalar Tüm modeller. Dilediğinizi seçin. iPad Pro Daha yakından bakın - iPad Pro Başlangıç fiyatı: 85.999 TL Satın Alın - iPad Pro iPad Air Daha yakından bakın - iPad Air Başlangıç fiyatı: 52.499 TL Satın Alın - iPad Air iPad Daha yakından bakın - iPad Başlangıç fiyatı: 31.999 TL Satın Alın - iPad YENİ iPad mini - YENİ Daha yakından bakın - iPad mini Başlangıç fiyatı: 48.999 TL Ön Sipariş - iPad mini Tüm iPad aksesuarlarını keşfedin. Önceki - Tüm Modeller Sonraki - Tüm Modeller Alışveriş rehberleri. Karar veremediniz mi? Buradan başlayın. TÜM MODELLERİ KARŞILAŞTIRIN Size en uygun iPad hangisi? - (Yeni pencerede açılır) Apple Intelligence ve Siri AI. Gerçek bir yardımcı. Gerçekten size özel. Dipnot 1 IPAD UZMANI Uzmandan bire bir yardım alarak alışveriş yapın. Online veya mağazada. Today at Apple Apple Intelligence’ı Keşfedin. - (Yeni pencerede açılır) Apple Store’da ücretsiz etkinliğe gelin, deneyimleyin. Önceki - Alışveriş Rehberleri Sonraki - Alışveriş Rehberleri Tasarruf etmenin yolları. Size en uygun olanı seçin. EĞİTİM Eğitim Mağazası’ndan alışveriş yapın, eğitime özel fiyatlarla tasarruf edin. Dipnot # Önceki - Tasarruf Etmenin Yollar",
+   "json_samples": [
+    {
+     "url": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
+     "body": "{\"id\": \"JrX_uE7pTaamhoS8tPfiJQ\", \"results\": [{\"sectionName\": \"quickLinks\", \"sectionResults\": [{\"label\": \"Bir Mağaza Bulun\", \"url\": \"https://www.apple.com/tr/retail/\"}, {\"label\": \"Apple Store’dan Online Alışveriş Yapın\", \"url\": \"https://www.apple.com/tr/shop/goto/shop\"}, {\"label\": \"Aksesuarlar\", \"url\": \"https://www.apple.com/tr/shop/goto/accessories/apple_accessories\"}, {\"label\": \"AirPods\", \"url\": \"https://www.apple.com/tr/airpods/\"}, {\"label\": \"Apple Intelligence\", \"url\": \"https://www.apple.com/tr/apple-intelligence/\"}]}, {\"sectionName\": \"suggestions\", \"sectionResults\": []}]}"
+    },
+    {
+     "url": "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR",
+     "body": "[{\"name\": \"apple\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple home\"}], \"id\": \"3d39a8ff\"}, {\"name\": \"store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"store\"}, {\"name\": \"data-analytics-element-engagement\", \"value\": \"hover - store\"}], \"baseGroups\": [{\"id\": \"efe9efd0\", \"title\": \"Hızlı Bağlantılar\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"quick links - store\"}], \"baseLinks\": [{\"id\": \"cb439f7a\", \"text\": \"Bir Mağaza Bulun\", \"url\": \"/tr/retail/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"find a store\"}], \"ariaLabel\": \"\"}, {\"id\": \"749e2d74\", \"text\": \"Sipariş Durumu\", \"url\": \"/tr/shop/goto/order/list\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"order status\"}], \"ariaLabel\": \"\"}, {\"id\": \"82789284\", \"text\": \"Ödeme Kolaylıkları\", \"url\": \"/tr/shop/goto/ww/financing\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"financing\"}], \"ariaLabel\": \"\"}]}, {\"id\": \"2edc9e5d\", \"title\": \"Özel Mağazalardan Alışveriş Yapın\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"shop special stores\"}], \"baseLinks\": [{\"id\": \"a5831c32\", \"text\": \"Eğitim\", \"url\": \"/tr/shop/goto/educationrouting\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"education\"}], \"ariaLabel\": \"\"}, {\"id\": \"26962b0e\", \"text\": \"İş Dünyası\", \"url\": \"/tr/retail/business/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"business\"}], \"ariaLabel\": \"\"}]}], \"elevatedGroups\": [{\"id\": \"34a90a07\", \"title\": \"Alışveriş Yapın\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"explore shop\"}], \"elevatedLinks\": [{\"id\": \"6cb7d0b5\", \"text\": \"Yeni Ürünlere Göz Atın\", \"url\": \"/tr/shop/goto/store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"shop the latest\"}], \"ariaLabel\": \"En yeni Apple ürünlerini satın alın\"}, {\"id\": \"ecda88f8\", \"text\": \"Mac\", \"url\": \"/tr/shop/goto/buy_mac\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"mac\"}], \"ariaLabel\": \"\"}, {\"id\": \"f82ba1fa\", \"text\": \"iPad\", \"url\": \"/tr/shop/goto/buy_ipad\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"ipad\"}], \"ariaLabel\": \"\"}, {\"id\": \"cc713ed0\", \"text\": \"iPhone\", \"url\": \"/tr/shop/goto/buy_iphone\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"iphone\"}], \"ariaLabel\": \"\"}, {\"id\": \"c2a9286e\", \"text\": \"Apple Watch\", \"url\": \"/tr/shop/goto/buy_watch\", \"analyticsAttributes\": ["
+    },
+    {
+     "url": "https://www.apple.com/tr/shop/api/digital-mat?path=library/step0_ipad/digitalmat&fae=true",
+     "body": "{\"head\": {\"status\": \"200\", \"data\": {}}, \"body\": {\"digitalMat\": [{\"productName\": \"iPad Pro\", \"enableDarkTheme\": false, \"familyTypes\": [{\"productImages\": {\"items\": [{\"index\": 0, \"value\": {\"sources\": [{\"srcSet\": \"https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipadpro11-digitalmat-gallery-1-202404?wid=728&hei=666&fmt=png-alpha&.v=UXVFY3VaaTg1Y0ZJTnlIMXY0b1VhZlRhSXFkOFhqdTgvUmc4VitXa2VzZFJ4eU1GZzRtNm5oQnN2QW1zUW9UeFRnWXNaUGkzWFF6Q0FVUXZLQlA2QVJzajl1Z3B2NFRSeldmSW5hQ2dEQTFGL2IrS3hzc1FsY2pXLzZHM212TVI\", \"type\": \"image/png\"}], \"width\": \"364\", \"height\": \"333\", \"attrs\": \"\", \"imageName\": \"ipadpro11-digitalmat-gallery-1-202404\", \"originalImageName\": \"ipadpro11-digitalmat-gallery-1-202404\", \"alt\": \"İki renk seçeneğiyle iPad Pro, Uzay Siyahı, Gümüş Rengi, Pro Kamera Sistemi, tam ekran tasarımına sahip ön yüzey\", \"noImage\": false, \"deferSrc\": false, \"singleElementSources\": true, \"scaleFactor\": \"2X\"}, \"position\": 1, \"even\": true, \"last\": false, \"first\": true}, {\"index\": 1, \"value\": {\"sources\": [{\"srcSet\": \"https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipadpro11-digitalmat-gallery-2-202404_GEO_TR?wid=728&hei=666&fmt=png-alpha&.v=UXVFY3VaaTg1Y0ZJTnlIMXY0b1VhZHp0bzhwRTZxYVNNMnVRTXVpMUZETEhocmQyOEl0WGc3ck5FblNCbllnS1dwS3BmOE5lS0dKc1dRREcrSXh5V01lcC9qYU9xUXZmS1NmbGxtTVBCNU9WRFoycGxxTlYwM2VzVlJ2VC85NUs\", \"type\": \"image/png\"}], \"width\": \"364\", \"height\": \"333\", \"attrs\": \"\", \"imageName\": \"ipadpro11-digitalmat-gallery-2-202404_GEO_TR\", \"originalImageName\": \"ipadpro11-digitalmat-gallery-2-202404_GEO_TR\", \"alt\": \"Magic Keyboard’a takılı, yatay pozisyonda iPad Pro, Beyaz\", \"noImage\": false, \"deferSrc\": false, \"singleElementSources\": true, \"scaleFactor\": \"2X\"}, \"position\": 2, \"even\": false, \"last\": false, \"first\": false}, {\"index\": 2, \"value\": {\"sources\": [{\"srcSet\": \"https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipadpro11-digitalmat-gallery-3-202404?wid=728&hei=666&fmt=jpeg&qlt=90&.v=UXVFY3VaaTg1Y0ZJTnlIMXY0b1VhU0JYMGNRelI2WXAyb0IycFNGSFF5QlJ4eU1GZzRtNm5oQnN2QW1zUW9UeFl1V3dXQmdJWnFRbkcraVFaYnkzVFd5T3RkT0J1ZUFOQnovVVk3R3dLM0wyRlhISFJORzkzVGJSbytuQVlncXc\", \"type\": \"image/jpeg\"}], \"width\": \"364\", \"height\": \"333\", \"attrs\": \"\", \"imageName\": \"ipadpro11-digitalmat-gallery-3-202404\", \"originalImageName\": \"ipadpro11-digitalmat-gallery-3-202404\", \"alt\": \"iPad Pro, arkadan dış görünüm, uzay siyahı renk, Pro Kamera Sistemi, LIDAR, flaş, mikrofon, dıış yüzeyle eşleşen kamera muhafazası, yuvarlatılmış köşeler, yandan dış görünüm, ses yükseltme"
+    }
+   ]
+  },
+  {
+   "url": "https://www.apple.com/tr/shop/buy-watch",
+   "status": 200,
+   "final_url": "https://www.apple.com/tr/shop/buy-watch",
+   "title": "Apple Watch Satın Alın - Apple (TR)",
+   "json_urls": [
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR",
+    "https://www.apple.com/tr/shop/api/digital-mat?path=library/step0_watch/digitalmat&fae=true"
+   ],
+   "links": [
+    "https://www.apple.com/tr/shop/buy-watch/apple-watch",
+    "https://www.apple.com/tr/shop/buy-watch/apple-watch-ultra",
+    "https://www.apple.com/tr/shop/buy-watch/apple-watch-se"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "Başlangıç fiyatı: 27.999 TL",
+    "Başlangıç fiyatı: 75.999 TL",
+    "Başlangıç fiyatı: 75.999 TL",
+    "Başlangıç fiyatı: 75.999 TL",
+    "Başlangıç fiyatı: 75.999 TL",
+    "Başlangıç fiyatı: 75.999 TL",
+    "Başlangıç fiyatı: 16.999 TL",
+    "Başlangıç fiyatı: 16.999 TL",
+    "Başlangıç fiyatı: 16.999 TL",
+    "Başlangıç fiyatı: 16.999 TL"
+   ],
+   "items_by_source": {},
+   "text_sample": "wzlhp Store Mac iPad iPhone Watch AirPods Ev Eğlence Aksesuarlar Destek 0 + Apple Watch satın alın Bir Uzman ile görüşün (Yeni pencerede açılır) Bir Apple Store bulun (yeni bir pencerede açılır) Önceki Tüm Modeller Alışveriş Rehberleri Tasarruf Etmenin Yolları Apple Watch Kayışları Şarj İçin Vazgeçilmezler Apple Watch deneyimi Kurulum ve Destek Size Özel Mağazalar Tüm modeller. Dilediğinizi seçin. YENİ Apple Watch Series 12 - YENİ Daha yakından bakın - Apple Watch Series 12 + Başlangıç fiyatı: 27.999 TL Satın Alın - Apple Watch Series 12 YENİ Apple Watch Ultra 4 - YENİ Daha yakından bakın - Apple Watch Ultra 4 Başlangıç fiyatı: 75.999 TL Satın Alın - Apple Watch Ultra 4 Apple Watch SE 3 Daha yakından bakın - Apple Watch SE 3 Başlangıç fiyatı: 16.999 TL Satın Alın - Apple Watch SE 3 Tüm Apple Watch aksesuarlarını keşfedin. Önceki - Tüm Modeller Sonraki - Tüm Modeller Alışveriş rehberleri. Herkes için bir Apple Watch var. MODELLERİ KARŞILAŞTIRIN Size en uygun Apple Watch hangisi? - (Yeni pencerede açılır) GÜÇLÜ YAPAY ZEKA ARAÇLARI Siri AI ve İşitsel Zeka ile her gün daha zahmetsiz. KOŞUCULAR İÇİN APPLE WATCH Her koşucuya güç vermesi için tasarlandı. APPLE WATCH UZMANI Uzmandan bire bir yardım alarak alışveriş yapın. Online veya mağazada. Önceki - Alışveriş Rehberleri Sonraki - Alışveriş Rehberleri Tasarruf etmenin yolları. Size en uygun olanı seçin. EĞİTİM Eğitim Mağazası’ndan alışveriş yapın, eğitime özel fiyatlarla tasarruf edin. Dipnot ※ Önceki - Tasarruf Etmenin Yolları S",
+   "json_samples": [
+    {
+     "url": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
+     "body": "{\"id\": \"JrX_uE7pTaamhoS8tPfiJQ\", \"results\": [{\"sectionName\": \"quickLinks\", \"sectionResults\": [{\"label\": \"Bir Mağaza Bulun\", \"url\": \"https://www.apple.com/tr/retail/\"}, {\"label\": \"Apple Store’dan Online Alışveriş Yapın\", \"url\": \"https://www.apple.com/tr/shop/goto/shop\"}, {\"label\": \"Aksesuarlar\", \"url\": \"https://www.apple.com/tr/shop/goto/accessories/apple_accessories\"}, {\"label\": \"AirPods\", \"url\": \"https://www.apple.com/tr/airpods/\"}, {\"label\": \"Apple Intelligence\", \"url\": \"https://www.apple.com/tr/apple-intelligence/\"}]}, {\"sectionName\": \"suggestions\", \"sectionResults\": []}]}"
+    },
+    {
+     "url": "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR",
+     "body": "[{\"name\": \"apple\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple home\"}], \"id\": \"3d39a8ff\"}, {\"name\": \"store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"store\"}, {\"name\": \"data-analytics-element-engagement\", \"value\": \"hover - store\"}], \"baseGroups\": [{\"id\": \"efe9efd0\", \"title\": \"Hızlı Bağlantılar\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"quick links - store\"}], \"baseLinks\": [{\"id\": \"cb439f7a\", \"text\": \"Bir Mağaza Bulun\", \"url\": \"/tr/retail/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"find a store\"}], \"ariaLabel\": \"\"}, {\"id\": \"749e2d74\", \"text\": \"Sipariş Durumu\", \"url\": \"/tr/shop/goto/order/list\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"order status\"}], \"ariaLabel\": \"\"}, {\"id\": \"82789284\", \"text\": \"Ödeme Kolaylıkları\", \"url\": \"/tr/shop/goto/ww/financing\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"financing\"}], \"ariaLabel\": \"\"}]}, {\"id\": \"2edc9e5d\", \"title\": \"Özel Mağazalardan Alışveriş Yapın\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"shop special stores\"}], \"baseLinks\": [{\"id\": \"a5831c32\", \"text\": \"Eğitim\", \"url\": \"/tr/shop/goto/educationrouting\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"education\"}], \"ariaLabel\": \"\"}, {\"id\": \"26962b0e\", \"text\": \"İş Dünyası\", \"url\": \"/tr/retail/business/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"business\"}], \"ariaLabel\": \"\"}]}], \"elevatedGroups\": [{\"id\": \"34a90a07\", \"title\": \"Alışveriş Yapın\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"explore shop\"}], \"elevatedLinks\": [{\"id\": \"6cb7d0b5\", \"text\": \"Yeni Ürünlere Göz Atın\", \"url\": \"/tr/shop/goto/store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"shop the latest\"}], \"ariaLabel\": \"En yeni Apple ürünlerini satın alın\"}, {\"id\": \"ecda88f8\", \"text\": \"Mac\", \"url\": \"/tr/shop/goto/buy_mac\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"mac\"}], \"ariaLabel\": \"\"}, {\"id\": \"f82ba1fa\", \"text\": \"iPad\", \"url\": \"/tr/shop/goto/buy_ipad\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"ipad\"}], \"ariaLabel\": \"\"}, {\"id\": \"cc713ed0\", \"text\": \"iPhone\", \"url\": \"/tr/shop/goto/buy_iphone\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"iphone\"}], \"ariaLabel\": \"\"}, {\"id\": \"c2a9286e\", \"text\": \"Apple Watch\", \"url\": \"/tr/shop/goto/buy_watch\", \"analyticsAttributes\": ["
+    },
+    {
+     "url": "https://www.apple.com/tr/shop/api/digital-mat?path=library/step0_watch/digitalmat&fae=true",
+     "body": "{\"head\": {\"status\": \"200\", \"data\": {}}, \"body\": {\"digitalMat\": [{\"familyTypes\": [{\"priceString\": \"Başlangıç fiyatı: <nobr></nobr>27.999 TL\", \"complianceModel\": {}, \"productPrice\": {\"templateId\": \"MONTHLY_IN_FINANCING_LINK\", \"priceData\": {\"fullPrice\": {\"priceString\": \"Başlangıç fiyatı: <span class=\\\"nowrap\\\">27.999 TL</span>\", \"raw\": {\"price\": \"27999.00\"}}, \"refurbProduct\": false}, \"staticAssets\": {\"priceSeparator\": \" \"}}, \"productImages\": {\"items\": [{\"index\": 0, \"value\": {\"sources\": [{\"srcSet\": \"https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/watch-s12-digitalmat-gallery-1-202609_GEO_TR?wid=728&hei=666&fmt=webp-alpha&qlt=90&.v=VDhiOElCSFVwSmNzdTJnVGVnWWM4dlRhSXFkOFhqdTgvUmc4VitXa2VzZkI1Rkt1M242TjBSTmE2SHRuRGY1cVdwS3BmOE5lS0dKc1dRREcrSXh5V1B6K2NoQ2wwWkU3MFJ2bWRXKzVvOGFIOEJxUFFmaHJxWlN0ajBMZzFVQUpGMTRwdmMxcUdVVkl1R01iM3JHMEdB&traceId=1\", \"type\": \"image/webp\"}, {\"srcSet\": \"https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/watch-s12-digitalmat-gallery-1-202609_GEO_TR?wid=728&hei=666&fmt=png-alpha&.v=VDhiOElCSFVwSmNzdTJnVGVnWWM4dlRhSXFkOFhqdTgvUmc4VitXa2VzZkI1Rkt1M242TjBSTmE2SHRuRGY1cVdwS3BmOE5lS0dKc1dRREcrSXh5V01lcC9qYU9xUXZmS1NmbGxtTVBCNU84OWNQS3Noem5OenBwUmlhMGtjQnU&traceId=1\", \"type\": \"image/png\", \"last\": \"true\"}], \"width\": \"364\", \"height\": \"333\", \"attrs\": \"\", \"imageName\": \"watch-s12-digitalmat-gallery-1-202609_GEO_TR\", \"originalImageName\": \"watch-s12-digitalmat-gallery-1-202609_GEO_TR\", \"alt\": \"Apple Watch Series 12, ekranda kırmızı kalp grafiği, kalp atış hızı takibi gösteriliyor, alüminyum kasa, koyu bronz renk, kenarlara kadar uzanan ekran, Spor Kordon’a takılı, klasik zeytin yeşili renk (toprak yeşili)\", \"noImage\": false, \"deferSrc\": false, \"singleElementSources\": false, \"scaleFactor\": \"2X\"}, \"last\": false, \"even\": true, \"position\": 1, \"first\": true}, {\"index\": 1, \"value\": {\"sources\": [{\"srcSet\": \"https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/watch-s12-digitalmat-gallery-2-202609_GEO_TR?wid=728&hei=666&fmt=webp-alpha&qlt=90&.v=VDhiOElCSFVwSmNzdTJnVGVnWWM4dHp0bzhwRTZxYVNNMnVRTXVpMUZETEI1Rkt1M242TjBSTmE2SHRuRGY1cVdwS3BmOE5lS0dKc1dRREcrSXh5V1B6K2NoQ2wwWkU3MFJ2bWRXKzVvOFkvNVZCRmE0QlZGVHBjVFFmUGtxNXJLWUxyZ2RycEJyMnRkR3R5dC9EZi93&traceId=1\", \"type\": \"image/webp\"}, {\"srcSet\": \"https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/watch-s12-digitalmat-gallery-2-202609_GEO_TR?wid=728&hei=666&fmt=png-alpha&.v=VDhiOElCSFVwSmNzdTJnVGVnWWM4dHp0bzhwRTZxYVNNMnVRTXVpMUZETEI1Rkt1M242TjBSTmE2SHRuRGY1cVdwS3BmO"
+    }
+   ]
+  },
+  {
+   "url": "https://www.apple.com/tr/shop/accessories/all/headphones-speakers",
+   "status": 200,
+   "final_url": "https://www.apple.com/tr/shop/accessories/all/headphones-speakers",
+   "title": "Kulaklıklar ve Hoparlörler - Tüm Aksesuarlar - Apple (TR)",
+   "json_urls": [
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR"
+   ],
+   "links": [
+    "https://www.apple.com/tr/shop/buy-airpods/airpods-pro-3"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "17.499,00 TL",
+    "17.499,00 TL",
+    "11.499,00 TL",
+    "11.499,00 TL",
+    "9.999,00 TL",
+    "9.999,00 TL",
+    "39.999,00 TL",
+    "39.999,00 TL",
+    "9.999,00 TL",
+    "9.999,00 TL"
+   ],
+   "items_by_source": {
+    "jsonld": 30
+   },
+   "text_sample": "wzlhp Store Mac iPad iPhone Watch AirPods Ev Eğlence Aksesuarlar Destek 0 + Aksesuarlar Kulaklıklar ve Hoparlörler Aksesuar Türü Uyumluluk Marka Renk Kulaklık Stili Bağlantı Özellikler Sıralama Ölçütü: Öne Çıkanlar Ücretsiz Lazer Baskı AirPods Pro 3 17.499,00 TL Yeni AirPods 5 ve Kablosuz Şarj Kutusu 11.499,00 TL Yeni AirPods 5 9.999,00 TL AirPods Max 2 39.999,00 TL Yeni HomePod mini 2 9.999,00 TL HomePod 22.299,00 TL Önceki Resim - EarPods (USB-C) Sonraki Resim - EarPods (USB-C) EarPods (USB-C) 1.149,00 TL Yeni Beats 360 25.999,00 TL Önceki Resim - Beats 360 Kulaklık Yastığı Seti - Kulaklıklar ve Kafa Bandı için Siyah Performans Örgülü Yastıklar Sonraki Resim - Beats 360 Kulaklık Yastığı Seti - Kulaklıklar ve Kafa Bandı için Siyah Performans Örgülü Yastıklar Yeni Beats 360 Kulaklık Yastığı Seti - Kulaklıklar ve Kafa Bandı için Siyah Performans Örgülü Yastıklar 4.199,00 TL Önceki Resim - Beats 360 Kulaklık Yastığı Seti - Kulaklıklar ve Kafa Bandı için Siyah UltraPlush Yastıklar Sonraki Resim - Beats 360 Kulaklık Yastığı Seti - Kulaklıklar ve Kafa Bandı için Siyah UltraPlush Yastıklar Yeni Beats 360 Kulaklık Yastığı Seti - Kulaklıklar ve Kafa Bandı için Siyah UltraPlush Yastıklar 4.199,00 TL Önceki Resim - Beats Studio Pro Wireless Kulaklık – Koyu Kahve Sonraki Resim - Beats Studio Pro Wireless Kulaklık – Koyu Kahve Beats Studio Pro Wireless Kulaklık – Koyu Kahve 21.999,00 TL Önceki Resim - Beats Solo 4 – Kulak Üstü Kablosuz Kulaklık – Arduvaz Mavisi Sonraki Resim - Beats Solo"
+  },
+  {
+   "url": "https://www.apple.com/tr/shop/buy-iphone/iphone-duo",
+   "status": 200,
+   "final_url": "https://www.apple.com/tr/shop/buy-iphone/iphone-duo",
+   "title": "iPhone Duo satın alın - Apple (TR)",
+   "json_urls": [
+    "https://www.apple.com/tr/shop/favoritesx/fetch",
+    "https://www.apple.com/tr/shop/sba/d/init?fnode=60f7079df8e4c0babf68983f6f2470619c2f86730cde8705d333eb9b304da0cc0a856b6162ba1fc82a10d78a241b418e33840489a5acbadc8",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR"
+   ],
+   "links": [
+    "https://www.apple.com/tr/shop/buy-iphone/iphone-duo",
+    "https://www.apple.com/tr/shop/buy-iphone/iphone-18-pro",
+    "https://www.apple.com/tr/shop/buy-iphone/iphone-air",
+    "https://www.apple.com/tr/shop/buy-iphone/iphone-17",
+    "https://www.apple.com/tr/shop/buy-iphone/iphone-17e"
+   ],
+   "tiles": [
+    "256 GB Dipnot 1 Başlangıç fiyatı: 229.999 TL",
+    "512 GB Dipnot 1 Başlangıç fiyatı: 246.999 TL",
+    "1 TB Dipnot 1 Başlangıç fiyatı: 280.999 TL",
+    "2 TB Dipnot 1 Başlangıç fiyatı: 335.999 TL",
+    "1 TB Dipnot 1 Yıldız Rengi 280.999,00 TL",
+    "1 TB Dipnot 1 Gece Rengi 280.999,00 TL",
+    "512 GB Dipnot 1 Yıldız Rengi 246.999,00 TL",
+    "512 GB Dipnot 1 Gece Rengi 246.999,00 TL",
+    "256 GB Dipnot 1 Yıldız Rengi 229.999,00 TL",
+    "256 GB Dipnot 1 Gece Rengi 229.999,00 TL",
+    "2 TB Dipnot 1 Yıldız Rengi 335.999,00 TL",
+    "2 TB Dipnot 1 Gece Rengi 335.999,00 TL"
+   ],
+   "price_texts": [
+    "Başlangıç fiyatı: 229.999 TL",
+    "Başlangıç fiyatı: 229.999 TL",
+    "Başlangıç fiyatı: 229.999 TL",
+    "Başlangıç fiyatı: 229.999 TL",
+    "Başlangıç fiyatı: 229.999 TL",
+    "Başlangıç fiyatı: 229.999 TL",
+    "Başlangıç fiyatı: 229.999 TL",
+    "Başlangıç fiyatı: 229.999 TL",
+    "Başlangıç fiyatı: 229.999 TL",
+    "Başlangıç fiyatı: 229.999 TL"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 8,
+    "jsonld": 1,
+    "dom-tile": 12
+   },
+   "text_sample": "wzlhp Store Mac iPad iPhone Watch AirPods Ev Eğlence Aksesuarlar Destek 0 + iPhone Duo Başlangıç fiyatı: 229.999 TL Ücretsiz gönderim Mağazadan teslim alma Yeni iPhone Duo satın alın Başlangıç fiyatı: 229.999 TL Apple Intelligence ve Siri AI Dipnot 4 Daha fazla bilgi iPhone için Apple Intelligence hakkında Önceki galeri görseli Sonraki galeri görseli Renk. Favorinizi seçin. Renk Yıldız Rengi Gece Rengi iPhone Duo ile iPhone 18 Pro Max’in ekran boyutlarını karşılaştırın. Daha fazlasını göster Depolama. Ne kadar depolama alanına ihtiyacınız var? 256 GB Dipnot 1 Başlangıç fiyatı: 229.999 TL 512 GB Dipnot 1 Başlangıç fiyatı: 246.999 TL 1 TB Dipnot 1 Başlangıç fiyatı: 280.999 TL 2 TB Dipnot 1 Başlangıç fiyatı: 335.999 TL Size ne kadar depolama alanı gerektiğinden emin değil misiniz? Ne kadar depolama alanına ihtiyacınız olacağını daha iyi anlayın. Daha fazlasını göster Yeni iPhone’unuz sizi bekliyor. Size özel hale getirin. Başlangıç fiyatı: 229.999 TL Zamana mı ihtiyacınız var? Bu aygıtı Kaydedilmiş Ürünleriniz listesine kaydederek tüm seçimlerinizi koruyun ve dilediğiniz zaman geri dönerek kaldığınız yerden devam edin. Daha sonrası için kaydedin Ücretsiz gönderim Mağazadan teslim alma Devam Kutunun İçindekiler iPhone Duo USB-C Şarj Kablosu Çevreyle ilgili hedeflerimiz. 2030 yılına kadar karbon nötr olma çabalarımızın bir parçası olarak iPhone Duo, güç adaptörü veya EarPods ile sunulmamaktadır. Kutunun içinde, USB‑C güç adaptörleri ve bilgisayar bağlantı nokt"
+  },
+  {
+   "url": "https://www.apple.com/tr/shop/buy-iphone/iphone-18-pro",
+   "status": 200,
+   "final_url": "https://www.apple.com/tr/shop/buy-iphone/iphone-18-pro",
+   "title": "iPhone 18 Pro ve iPhone 18 Pro Max satın alın - Apple (TR)",
+   "json_urls": [
+    "https://www.apple.com/tr/shop/favoritesx/fetch",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR",
+    "https://www.apple.com/tr/shop/sba/d/init?fnode=60be9f38291c1e39b62b5beec511fe971a3dad44a6e71e8c6f50c708520f1b88272a3276d16837478fc32f6ec451f6c91a8078b48c7482e13"
+   ],
+   "links": [
+    "https://www.apple.com/tr/shop/buy-iphone/iphone-18-pro",
+    "https://www.apple.com/tr/shop/buy-iphone/iphone-duo",
+    "https://www.apple.com/tr/shop/buy-iphone/iphone-air",
+    "https://www.apple.com/tr/shop/buy-iphone/iphone-17",
+    "https://www.apple.com/tr/shop/buy-iphone/iphone-17e"
+   ],
+   "tiles": [
+    "256 GB Dipnot 1 Başlangıç fiyatı: 137.999 TL",
+    "512 GB Dipnot 1 Başlangıç fiyatı: 154.999 TL",
+    "1 TB Dipnot 1 Başlangıç fiyatı: 188.999 TL",
+    "2 TB Dipnot 1 Başlangıç fiyatı: 243.999 TL",
+    "1 TB Dipnot 1 Burgonya 200.999,00 TL",
+    "1 TB Dipnot 1 Buzul Rengi 200.999,00 TL",
+    "256 GB Dipnot 1 Gümüş 149.999,00 TL",
+    "256 GB Dipnot 1 Siyah 149.999,00 TL",
+    "2 TB Dipnot 1 Buzul Rengi 255.999,00 TL",
+    "512 GB Dipnot 1 Siyah 166.999,00 TL",
+    "2 TB Dipnot 1 Burgonya 255.999,00 TL",
+    "256 GB Dipnot 1 Buzul Rengi 149.999,00 TL",
+    "2 TB Dipnot 1 Gümüş 255.999,00 TL",
+    "256 GB Dipnot 1 Burgonya 149.999,00 TL",
+    "2 TB Dipnot 1 Siyah 255.999,00 TL"
+   ],
+   "price_texts": [
+    "Başlangıç fiyatı: 137.999 TL",
+    "Başlangıç fiyatı: 137.999 TL",
+    "Başlangıç fiyatı: 137.999 TL",
+    "Başlangıç fiyatı: 137.999 TL",
+    "Başlangıç fiyatı: 137.999 TL",
+    "Başlangıç fiyatı: 137.999 TL",
+    "Başlangıç fiyatı: 137.999 TL",
+    "Başlangıç fiyatı: 137.999 TL",
+    "Başlangıç fiyatı: 137.999 TL",
+    "Başlangıç fiyatı: 137.999 TL"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 32,
+    "jsonld": 2,
+    "dom-tile": 36
+   },
+   "text_sample": "wzlhp Store Mac iPad iPhone Watch AirPods Ev Eğlence Aksesuarlar Destek 0 + iPhone 18 Pro Başlangıç fiyatı: 137.999 TL Ücretsiz gönderim Mağazadan teslim alma Yeni iPhone 18 Pro satın alın Başlangıç fiyatı: 137.999 TL Apple Intelligence ve Siri AI Dipnot 4 Daha fazla bilgi iPhone için Apple Intelligence hakkında Önceki galeri görseli Sonraki galeri görseli Model. Size en uygun olan hangisi? iPhone 18 Pro 6.3 inç ekran Dipnot 2 Başlangıç fiyatı: 137.999 TL iPhone 18 Pro Max 6.9 inç ekran Dipnot 2 Başlangıç fiyatı: 149.999 TL Model seçerken yardıma mı ihtiyacınız var? Ekran boyutu ve pil ömründeki farkları keşfedin. Daha fazlasını göster Renk. Favorinizi seçin. Renk Burgonya Buzul Rengi Gümüş Siyah Depolama. Ne kadar depolama alanına ihtiyacınız var? 256 GB Dipnot 1 Başlangıç fiyatı: 137.999 TL 512 GB Dipnot 1 Başlangıç fiyatı: 154.999 TL 1 TB Dipnot 1 Başlangıç fiyatı: 188.999 TL 2 TB Dipnot 1 Başlangıç fiyatı: 243.999 TL Size ne kadar depolama alanı gerektiğinden emin değil misiniz? Ne kadar depolama alanına ihtiyacınız olacağını daha iyi anlayın. Daha fazlasını göster Yeni iPhone’unuz sizi bekliyor. Size özel hale getirin. Başlangıç fiyatı: 137.999 TL Zamana mı ihtiyacınız var? Bu aygıtı Kaydedilmiş Ürünleriniz listesine kaydederek tüm seçimlerinizi koruyun ve dilediğiniz zaman geri dönerek kaldığınız yerden devam edin. Daha sonrası için kaydedin Ücretsiz gönderim Mağazadan teslim alma Devam Kutunun İçindekiler iPhone 18 Pro USB-C Şarj Kablosu Çevreyl"
+  },
+  {
+   "url": "https://www.apple.com/tr/shop/buy-iphone/iphone-air",
+   "status": 200,
+   "final_url": "https://www.apple.com/tr/shop/buy-iphone/iphone-air",
+   "title": "iPhone Air satın alın - Apple (TR)",
+   "json_urls": [
+    "https://www.apple.com/tr/shop/favoritesx/fetch",
+    "https://www.apple.com/tr/shop/sba/d/init?fnode=968368c66b584b7f71f8720e3eca1ce8eb8eb95cd2396766bbe20864630d263673f43669d1bf8f141557f037be7feea26bc05357b125ea659",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR"
+   ],
+   "links": [
+    "https://www.apple.com/tr/shop/buy-iphone/iphone-air",
+    "https://www.apple.com/tr/shop/buy-iphone/iphone-duo",
+    "https://www.apple.com/tr/shop/buy-iphone/iphone-18-pro",
+    "https://www.apple.com/tr/shop/buy-iphone/iphone-17",
+    "https://www.apple.com/tr/shop/buy-iphone/iphone-17e"
+   ],
+   "tiles": [
+    "256 GB Dipnot 1 Başlangıç fiyatı: 122.999 TL",
+    "512 GB Dipnot 1 Başlangıç fiyatı: 139.999 TL",
+    "1 TB Dipnot 1 Başlangıç fiyatı: 173.999 TL",
+    "512 GB Dipnot 1 Uçuk Altın Rengi Unlocked 139.999,00 TL",
+    "512 GB Dipnot 1 Gök Mavisi Unlocked 139.999,00 TL",
+    "512 GB Dipnot 1 Pamuk Beyazı Unlocked 139.999,00 TL",
+    "1 TB Dipnot 1 Uçuk Altın Rengi Unlocked 173.999,00 TL",
+    "1 TB Dipnot 1 Uzay Siyahı Unlocked 173.999,00 TL",
+    "1 TB Dipnot 1 Pamuk Beyazı Unlocked 173.999,00 TL",
+    "256 GB Dipnot 1 Pamuk Beyazı Unlocked 122.999,00 TL",
+    "256 GB Dipnot 1 Uzay Siyahı Unlocked 122.999,00 TL",
+    "256 GB Dipnot 1 Uçuk Altın Rengi Unlocked 122.999,00 TL",
+    "512 GB Dipnot 1 Uzay Siyahı Unlocked 139.999,00 TL",
+    "1 TB Dipnot 1 Gök Mavisi Unlocked 173.999,00 TL",
+    "256 GB Dipnot 1 Gök Mavisi Unlocked 122.999,00 TL"
+   ],
+   "price_texts": [
+    "Başlangıç fiyatı: 122.999 TL",
+    "Başlangıç fiyatı: 122.999 TL",
+    "Başlangıç fiyatı: 122.999 TL",
+    "Başlangıç fiyatı: 122.999 TL",
+    "Başlangıç fiyatı: 122.999 TL",
+    "Başlangıç fiyatı: 122.999 TL",
+    "Başlangıç fiyatı: 122.999 TL",
+    "Başlangıç fiyatı: 122.999 TL",
+    "Başlangıç fiyatı: 122.999 TL",
+    "Başlangıç fiyatı: 122.999 TL"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 12,
+    "jsonld": 1,
+    "dom-tile": 3
+   },
+   "text_sample": "wzlhp Store Mac iPad iPhone Watch AirPods Ev Eğlence Aksesuarlar Destek 0 + iPhone Air Başlangıç fiyatı: 122.999 TL Ücretsiz gönderim Mağazadan teslim alma iPhone Air satın alın Başlangıç fiyatı: 122.999 TL Apple Intelligence ve Siri AI Dipnot 4 Daha fazla bilgi iPhone için Apple Intelligence hakkında Önceki galeri görseli Sonraki galeri görseli Renk. Favorinizi seçin. Renk Gök Mavisi Pamuk Beyazı Uzay Siyahı Uçuk Altın Rengi Depolama. Ne kadar depolama alanına ihtiyacınız var? 256 GB Dipnot 1 Başlangıç fiyatı: 122.999 TL 512 GB Dipnot 1 Başlangıç fiyatı: 139.999 TL 1 TB Dipnot 1 Başlangıç fiyatı: 173.999 TL Size ne kadar depolama alanı gerektiğinden emin değil misiniz? Ne kadar depolama alanına ihtiyacınız olacağını daha iyi anlayın. Daha fazlasını göster Yeni iPhone’unuz sizi bekliyor. Size özel hale getirin. Başlangıç fiyatı: 122.999 TL Zamana mı ihtiyacınız var? Bu aygıtı Kaydedilmiş Ürünleriniz listesine kaydederek tüm seçimlerinizi koruyun ve dilediğiniz zaman geri dönerek kaldığınız yerden devam edin. Daha sonrası için kaydedin Ücretsiz gönderim Mağazadan teslim alma Devam Kutunun İçindekiler iPhone Air USB-C Şarj Kablosu Çevreyle ilgili hedeflerimiz. 2030 yılına kadar karbon nötr olma çabalarımızın bir parçası olarak iPhone Air, güç adaptörü veya EarPods ile sunulmamaktadır. Kutunun içinde, USB‑C güç adaptörleri ve bilgisayar bağlantı noktalarıyla uyumlu, hızlı şarj özelliğini destekleyen bir USB‑C Şarj Kablosu bulunuyor. Uygun herhangi bir USB‑C g"
+  },
+  {
+   "url": "https://www.apple.com/tr/shop/buy-iphone/iphone-17",
+   "status": 200,
+   "final_url": "https://www.apple.com/tr/shop/buy-iphone/iphone-17",
+   "title": "iPhone 17 satın alın - Apple (TR)",
+   "json_urls": [
+    "https://www.apple.com/tr/shop/favoritesx/fetch",
+    "https://www.apple.com/tr/shop/sba/d/init?fnode=a2d9d192cf4bb12e7d391ed5f4e424b16ff542db5eeef4d3a9b6c4ae349f4bbf0a42d1f5c719f1d2410cfae1a0d4dbc1c9fc97c67378d63e1",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR"
+   ],
+   "links": [
+    "https://www.apple.com/tr/shop/buy-iphone/iphone-17",
+    "https://www.apple.com/tr/shop/buy-iphone/iphone-duo",
+    "https://www.apple.com/tr/shop/buy-iphone/iphone-18-pro",
+    "https://www.apple.com/tr/shop/buy-iphone/iphone-air",
+    "https://www.apple.com/tr/shop/buy-iphone/iphone-17e"
+   ],
+   "tiles": [
+    "256 GB Dipnot 1 Başlangıç fiyatı: 99.999 TL",
+    "512 GB Dipnot 1 Başlangıç fiyatı: 116.999 TL",
+    "256 GB Dipnot 1 Sis Mavisi 99.999,00 TL",
+    "256 GB Dipnot 1 Lavanta 99.999,00 TL",
+    "256 GB Dipnot 1 Siyah 99.999,00 TL",
+    "256 GB Dipnot 1 Beyaz 99.999,00 TL",
+    "512 GB Dipnot 1 Beyaz 116.999,00 TL",
+    "512 GB Dipnot 1 Siyah 116.999,00 TL",
+    "256 GB Dipnot 1 Ada Çayı 99.999,00 TL",
+    "512 GB Dipnot 1 Lavanta 116.999,00 TL",
+    "512 GB Dipnot 1 Ada Çayı 116.999,00 TL",
+    "512 GB Dipnot 1 Sis Mavisi 116.999,00 TL"
+   ],
+   "price_texts": [
+    "Başlangıç fiyatı: 99.999 TL",
+    "Başlangıç fiyatı: 99.999 TL",
+    "Başlangıç fiyatı: 99.999 TL",
+    "Başlangıç fiyatı: 99.999 TL",
+    "Başlangıç fiyatı: 99.999 TL",
+    "Başlangıç fiyatı: 99.999 TL",
+    "Başlangıç fiyatı: 99.999 TL",
+    "Başlangıç fiyatı: 99.999 TL",
+    "Başlangıç fiyatı: 99.999 TL",
+    "Başlangıç fiyatı: 99.999 TL"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 10,
+    "jsonld": 1,
+    "dom-tile": 12
+   },
+   "text_sample": "wzlhp Store Mac iPad iPhone Watch AirPods Ev Eğlence Aksesuarlar Destek 0 + iPhone 17 Başlangıç fiyatı: 99.999 TL Ücretsiz gönderim Mağazadan teslim alma iPhone 17 satın alın Başlangıç fiyatı: 99.999 TL Apple Intelligence ve Siri AI Dipnot 4 Daha fazla bilgi iPhone için Apple Intelligence hakkında Önceki galeri görseli Sonraki galeri görseli Renk. Favorinizi seçin. Renk Lavanta Sis Mavisi Beyaz Ada Çayı Siyah Depolama. Ne kadar depolama alanına ihtiyacınız var? 256 GB Dipnot 1 Başlangıç fiyatı: 99.999 TL 512 GB Dipnot 1 Başlangıç fiyatı: 116.999 TL Size ne kadar depolama alanı gerektiğinden emin değil misiniz? Ne kadar depolama alanına ihtiyacınız olacağını daha iyi anlayın. Daha fazlasını göster Yeni iPhone’unuz sizi bekliyor. Size özel hale getirin. Başlangıç fiyatı: 99.999 TL Zamana mı ihtiyacınız var? Bu aygıtı Kaydedilmiş Ürünleriniz listesine kaydederek tüm seçimlerinizi koruyun ve dilediğiniz zaman geri dönerek kaldığınız yerden devam edin. Daha sonrası için kaydedin Ücretsiz gönderim Mağazadan teslim alma Devam Kutunun İçindekiler iPhone 17 USB-C Şarj Kablosu Çevreyle ilgili hedeflerimiz. 2030 yılına kadar karbon nötr olma çabalarımızın bir parçası olarak iPhone 17, güç adaptörü veya EarPods ile sunulmamaktadır. Kutunun içinde, USB‑C güç adaptörleri ve bilgisayar bağlantı noktalarıyla uyumlu, hızlı şarj özelliğini destekleyen bir USB‑C Şarj Kablosu bulunuyor. Uygun herhangi bir USB‑C güç adaptörü kullanmanızı tavsiye ediyoruz. Yeni bir Apple güç adap"
+  },
+  {
+   "url": "https://www.apple.com/tr/shop/buy-iphone/iphone-17e",
+   "status": 200,
+   "final_url": "https://www.apple.com/tr/shop/buy-iphone/iphone-17e",
+   "title": "iPhone 17e Satın Al - Apple (TR)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
+    "https://www.apple.com/tr/shop/favoritesx/fetch",
+    "https://www.apple.com/tr/shop/sba/d/init?fnode=a957cea2230ef04bcca59e0dc22ea1f1b657cddccac6aa9e31be7697c22b57590de477e30f8a5d7096e24a4954f95da24f359e3dea4ca4bab"
+   ],
+   "links": [
+    "https://www.apple.com/tr/shop/buy-iphone/iphone-17e",
+    "https://www.apple.com/tr/shop/buy-iphone/iphone-duo",
+    "https://www.apple.com/tr/shop/buy-iphone/iphone-18-pro",
+    "https://www.apple.com/tr/shop/buy-iphone/iphone-air",
+    "https://www.apple.com/tr/shop/buy-iphone/iphone-17"
+   ],
+   "tiles": [
+    "256 GB Dipnot 1 Başlangıç fiyatı: 72.999 TL",
+    "512 GB Dipnot 1 Başlangıç fiyatı: 89.999 TL",
+    "512 GB Dipnot 1 Siyah 89.999,00 TL",
+    "256 GB Dipnot 1 Beyaz 72.999,00 TL",
+    "256 GB Dipnot 1 Açık Pembe 72.999,00 TL",
+    "512 GB Dipnot 1 Açık Pembe 89.999,00 TL",
+    "256 GB Dipnot 1 Siyah 72.999,00 TL",
+    "512 GB Dipnot 1 Beyaz 89.999,00 TL"
+   ],
+   "price_texts": [
+    "Başlangıç fiyatı: 72.999 TL",
+    "Başlangıç fiyatı: 72.999 TL",
+    "Başlangıç fiyatı: 72.999 TL",
+    "Başlangıç fiyatı: 72.999 TL",
+    "Başlangıç fiyatı: 72.999 TL",
+    "Başlangıç fiyatı: 72.999 TL",
+    "Başlangıç fiyatı: 72.999 TL",
+    "Başlangıç fiyatı: 72.999 TL",
+    "Başlangıç fiyatı: 72.999 TL",
+    "Başlangıç fiyatı: 72.999 TL"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 6,
+    "jsonld": 1,
+    "dom-tile": 8
+   },
+   "text_sample": "wzlhp Store Mac iPad iPhone Watch AirPods Ev Eğlence Aksesuarlar Destek 0 + iPhone 17e Başlangıç fiyatı: 72.999 TL Ücretsiz gönderim Mağazadan teslim alma iPhone 17e satın alın Başlangıç fiyatı: 72.999 TL Apple Intelligence ve Siri AI Dipnot 4 Daha fazla bilgi iPhone için Apple Intelligence hakkında Önceki galeri görseli Sonraki galeri görseli Renk. Favorinizi seçin. Renk Açık Pembe Beyaz Siyah Depolama. Ne kadar depolama alanına ihtiyacınız var? 256 GB Dipnot 1 Başlangıç fiyatı: 72.999 TL 512 GB Dipnot 1 Başlangıç fiyatı: 89.999 TL Size ne kadar depolama alanı gerektiğinden emin değil misiniz? Ne kadar depolama alanına ihtiyacınız olacağını daha iyi anlayın. Daha fazlasını göster Yeni iPhone’unuz sizi bekliyor. Size özel hale getirin. Başlangıç fiyatı: 72.999 TL Zamana mı ihtiyacınız var? Bu aygıtı Kaydedilmiş Ürünleriniz listesine kaydederek tüm seçimlerinizi koruyun ve dilediğiniz zaman geri dönerek kaldığınız yerden devam edin. Daha sonrası için kaydedin Ücretsiz gönderim Mağazadan teslim alma Devam Kutunun İçindekiler iPhone 17e USB-C Şarj Kablosu Çevreyle ilgili hedeflerimiz. 2030 yılına kadar karbon nötr olma çabalarımızın bir parçası olarak iPhone 17e, güç adaptörü veya EarPods ile sunulmamaktadır. Kutunun içinde, USB‑C güç adaptörleri ve bilgisayar bağlantı noktalarıyla uyumlu, hızlı şarj özelliğini destekleyen bir USB‑C Şarj Kablosu bulunuyor. Uygun herhangi bir USB‑C güç adaptörü kullanmanızı tavsiye ediyoruz. Yeni bir Apple güç adaptörüne ihtiyac"
+  },
+  {
+   "url": "https://www.apple.com/tr/shop/buy-iphone/iphone-16",
+   "status": 200,
+   "final_url": "https://www.apple.com/tr/shop/buy-iphone/iphone-16",
+   "title": "iPhone 16 satın alın - Apple (TR)",
+   "json_urls": [
+    "https://www.apple.com/tr/shop/favoritesx/fetch",
+    "https://www.apple.com/tr/shop/sba/d/init?fnode=04ab068571c11885d38f70f61019733eebd2a87e5d6943fc1953fac39f7e1080138a920b7dbceee718946d9f3146c2ca524e4eb25816d7246",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR",
+    "https://www.apple.com/tr/shop/api/product-gallery?fae=true&node=home%2Fshop_iphone%2Ffamily%2Fiphone_16%2Fselect&dm.dimensionScreensize=6_1inch"
+   ],
+   "links": [
+    "https://www.apple.com/tr/shop/buy-iphone/iphone-16",
+    "https://www.apple.com/tr/shop/buy-iphone/iphone-duo",
+    "https://www.apple.com/tr/shop/buy-iphone/iphone-18-pro",
+    "https://www.apple.com/tr/shop/buy-iphone/iphone-air",
+    "https://www.apple.com/tr/shop/buy-iphone/iphone-17",
+    "https://www.apple.com/tr/shop/buy-iphone/iphone-17e"
+   ],
+   "tiles": [
+    "iPhone 16 6.1 inç ekran Dipnot 2128 GB depolama alanıyla sunulur Başlangıç fiyatı: 85.999 TL",
+    "128 GB Dipnot 1 Başlangıç fiyatı: 85.999 TL",
+    "128 GB Dipnot 1 Beyaz Unlocked 85.999,00 TL",
+    "128 GB Dipnot 1 Siyah Unlocked 85.999,00 TL",
+    "128 GB Dipnot 1 Pembe Unlocked 85.999,00 TL",
+    "128 GB Dipnot 1 Deniz Mavisi Unlocked 85.999,00 TL",
+    "128 GB Dipnot 1 Laciverttaş Unlocked 85.999,00 TL"
+   ],
+   "price_texts": [
+    "Başlangıç fiyatı: 85.999 TL",
+    "Başlangıç fiyatı: 85.999 TL",
+    "Başlangıç fiyatı: 85.999 TL",
+    "Başlangıç fiyatı: 85.999 TL",
+    "Başlangıç fiyatı: 85.999 TL",
+    "Başlangıç fiyatı: 85.999 TL",
+    "Başlangıç fiyatı: 85.999 TL",
+    "Başlangıç fiyatı: 85.999 TL",
+    "Başlangıç fiyatı: 85.999 TL",
+    "Başlangıç fiyatı: 85.999 TL"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 5,
+    "jsonld": 1,
+    "dom-tile": 5
+   },
+   "text_sample": "wzlhp Store Mac iPad iPhone Watch AirPods Ev Eğlence Aksesuarlar Destek 0 + iPhone 16 Başlangıç fiyatı: 85.999 TL Ücretsiz gönderim Mağazadan teslim alma iPhone 16 satın alın Başlangıç fiyatı: 85.999 TL Apple Intelligence ve Siri AI Dipnot 4 Daha fazla bilgi iPhone için Apple Intelligence hakkında Önceki galeri görseli Sonraki galeri görseli Renk. Favorinizi seçin. Renk Laciverttaş Deniz Mavisi Beyaz Pembe Siyah Depolama. Ne kadar depolama alanına ihtiyacınız var? 128 GB Dipnot 1 Başlangıç fiyatı: 85.999 TL Seçtiğiniz yeni iPhone 16. Tam dilediğiniz şekilde. Başlangıç fiyatı: 85.999 TL Zamana mı ihtiyacınız var? Bu aygıtı Kaydedilmiş Ürünleriniz listesine kaydederek tüm seçimlerinizi koruyun ve dilediğiniz zaman geri dönerek kaldığınız yerden devam edin. Daha sonrası için kaydedin Ücretsiz gönderim Mağazadan teslim alma Devam Kutunun İçindekiler iPhone 16 USB-C Şarj Kablosu Çevreyle ilgili hedeflerimiz. 2030 yılına kadar karbon nötr olma çabalarımızın bir parçası olarak iPhone 16, güç adaptörü veya EarPods ile sunulmamaktadır. Kutunun içinde, USB‑C güç adaptörleri ve bilgisayar bağlantı noktalarıyla uyumlu, hızlı şarj özelliğini destekleyen bir USB‑C Şarj Kablosu bulunuyor. Uygun herhangi bir USB‑C güç adaptörü kullanmanızı tavsiye ediyoruz. Yeni bir Apple güç adaptörüne ihtiyacınız varsa ayrıca satın alabilirsiniz. Size en uygun iPhone hangisi? Yeni iPhone Duo Bir iPhone’daki en geniş ekran. Katlanabilir. Ayarlanabilir. Üstelik çok dayanıklı. Başlangıç fi"
+  },
+  {
+   "url": "https://www.apple.com/tr/shop/buy-ipad/ipad-pro",
+   "status": 200,
+   "final_url": "https://www.apple.com/tr/shop/buy-ipad/ipad-pro",
+   "title": "iPad Pro Satın Alın - Apple (TR)",
+   "json_urls": [
+    "https://www.apple.com/tr/shop/favoritesx/fetch",
+    "https://www.apple.com/tr/shop/sba/d/init?fnode=20a10e186462d4328f91f5b7c9715203ff8c30da4281b89310b824bc407fb1f3c3c81d9b3a7b9c119779824d0674672bae8a1e838b1d220df",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR",
+    "https://www.apple.com/tr/shop/engrave/json?fae=true&product=MX2D3ZE%2FA"
+   ],
+   "links": [
+    "https://www.apple.com/tr/shop/buy-ipad/ipad-pro",
+    "https://www.apple.com/tr/shop/buy-ipad/ipad-air",
+    "https://www.apple.com/tr/shop/buy-ipad/ipad",
+    "https://www.apple.com/tr/shop/buy-ipad/ipad-mini"
+   ],
+   "tiles": [
+    "256 GB depolama Dipnot 2 12 GB bellek M5 çip: 9 çekirdekli CPU, 10 çekirdekli GPU Başlangıç fiyatı: 85.999 TL",
+    "512 GB depolama Dipnot 2 12 GB bellek M5 çip: 9 çekirdekli CPU, 10 çekirdekli GPU Başlangıç fiyatı: 99.999 TL",
+    "1 TB depolama Dipnot 2 16 GB bellek M5 çip: 10 çekirdekli CPU, 10 çekirdekli GPU Başlangıç fiyatı: 127.999 TL",
+    "2 TB depolama Dipnot 2 16 GB bellek M5 çip: 10 çekirdekli CPU, 10 çekirdekli GPU Başlangıç fiyatı: 162.999 TL",
+    "Nano-texture cam 1 TB veya 2 TB depolama alanına sahip modellerde sunulur Başlangıç fiyatı: 134.999 TL"
+   ],
+   "price_texts": [
+    "Başlangıç fiyatı: 85.999 TL",
+    "Başlangıç fiyatı: 85.999 TL",
+    "Başlangıç fiyatı: 85.999 TL",
+    "Başlangıç fiyatı: 85.999 TL",
+    "Başlangıç fiyatı: 85.999 TL",
+    "Başlangıç fiyatı: 85.999 TL",
+    "Başlangıç fiyatı: 85.999 TL",
+    "Başlangıç fiyatı: 85.999 TL",
+    "Başlangıç fiyatı: 85.999 TL",
+    "Başlangıç fiyatı: 85.999 TL"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 48,
+    "jsonld": 48,
+    "dom-price": 1
+   },
+   "text_sample": "wzlhp Store Mac iPad iPhone Watch AirPods Ev Eğlence Aksesuarlar Destek 0 + iPad Pro Başlangıç fiyatı: 85.999 TL Ücretsiz gönderim Mağazadan teslim alma iPad Pro satın alın Başlangıç fiyatı: 85.999 TL Apple Intelligence ve Siri AI Dipnot 4 Daha fazla bilgi iPad için Apple Intelligence hakkında Aylık taksit seçenekleri (Yeni pencerede açılır) Önceki galeri görseli Sonraki galeri görseli Model. Dilediğiniz boyutu seçin. 11 inç model Ultra Retina XDR ekran Başlangıç fiyatı: 85.999 TL 13 inç model Ultra Retina XDR ekran Başlangıç fiyatı: 107.999 TL Ultra Retina XDR hakkında daha fazla bilgi edinmek mi istiyorsunuz? En gelişmiş ekranımızın ayrıntılarını öğrenin. Daha fazlasını göster Renk. Favorinizi seçin. Renk Uzay Siyahı Gümüş Depolama, bellek ve çip. Aygıtınızın yapılandırmasını seçin. 256 GB depolama Dipnot 2 12 GB bellek M5 çip: 9 çekirdekli CPU, 10 çekirdekli GPU Başlangıç fiyatı: 85.999 TL 512 GB depolama Dipnot 2 12 GB bellek M5 çip: 9 çekirdekli CPU, 10 çekirdekli GPU Başlangıç fiyatı: 99.999 TL 1 TB depolama Dipnot 2 16 GB bellek M5 çip: 10 çekirdekli CPU, 10 çekirdekli GPU Başlangıç fiyatı: 127.999 TL 2 TB depolama Dipnot 2 16 GB bellek M5 çip: 10 çekirdekli CPU, 10 çekirdekli GPU Başlangıç fiyatı: 162.999 TL Size ne kadar depolama alanı gerektiğinden emin değil misiniz? Ne kadar depolama alanına ihtiyacınız olacağını daha iyi anlayın. Daha fazlasını göster Ekran camı. Size en uygun camı seçin. Standart cam Başlangıç fiyatı: 85.999 TL Nano-texture cam 1"
+  },
+  {
+   "url": "https://www.apple.com/tr/shop/buy-ipad/ipad-air",
+   "status": 200,
+   "final_url": "https://www.apple.com/tr/shop/buy-ipad/ipad-air",
+   "title": "iPad Air satın alın - Apple (TR)",
+   "json_urls": [
+    "https://www.apple.com/tr/shop/favoritesx/fetch",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR",
+    "https://www.apple.com/tr/shop/sba/d/init?fnode=3fd39d0134ba34d81a496e382ae68bc99aec116658479681720c9620efb49b8c547467b06544a01381fc862fab155d68d82a9575c4f81a937",
+    "https://www.apple.com/tr/shop/engrave/json?fae=true&product=MX2D3ZE%2FA"
+   ],
+   "links": [
+    "https://www.apple.com/tr/shop/buy-ipad/ipad-air",
+    "https://www.apple.com/tr/shop/buy-ipad/ipad-pro",
+    "https://www.apple.com/tr/shop/buy-ipad/ipad",
+    "https://www.apple.com/tr/shop/buy-ipad/ipad-mini"
+   ],
+   "tiles": [
+    "128 GB Dipnot 2 Başlangıç fiyatı: 52.499 TL",
+    "256 GB Dipnot 2 Başlangıç fiyatı: 59.499 TL",
+    "512 GB Dipnot 2 Başlangıç fiyatı: 73.499 TL",
+    "1 TB Dipnot 2 Başlangıç fiyatı: 94.499 TL",
+    "512 GB Dipnot 2 Uzay Grisi Wi-FiBağlantıda kalabilmeniz için her iPad bir Wi-Fi ağına bağlanabilir. 73.499,00 TL",
+    "1 TB Dipnot 2 Uzay Grisi Wi-FiBağlantıda kalabilmeniz için her iPad bir Wi-Fi ağına bağlanabilir. 94.499,00 TL",
+    "128 GB Dipnot 2 Uzay Grisi Wi-FiBağlantıda kalabilmeniz için her iPad bir Wi-Fi ağına bağlanabilir. 52.499,00 TL",
+    "256 GB Dipnot 2 Uzay Grisi Wi-FiBağlantıda kalabilmeniz için her iPad bir Wi-Fi ağına bağlanabilir. 59.499,00 TL",
+    "512 GB Dipnot 2 Yıldız Işığı Wi-FiBağlantıda kalabilmeniz için her iPad bir Wi-Fi ağına bağlanabilir. 73.499,00 TL",
+    "1 TB Dipnot 2 Yıldız Işığı Wi-FiBağlantıda kalabilmeniz için her iPad bir Wi-Fi ağına bağlanabilir. 94.499,00 TL",
+    "128 GB Dipnot 2 Yıldız Işığı Wi-FiBağlantıda kalabilmeniz için her iPad bir Wi-Fi ağına bağlanabilir. 52.499,00 TL",
+    "256 GB Dipnot 2 Yıldız Işığı Wi-FiBağlantıda kalabilmeniz için her iPad bir Wi-Fi ağına bağlanabilir. 59.499,00 TL",
+    "512 GB Dipnot 2 Mor Wi-FiBağlantıda kalabilmeniz için her iPad bir Wi-Fi ağına bağlanabilir. 73.499,00 TL",
+    "1 TB Dipnot 2 Mor Wi-FiBağlantıda kalabilmeniz için her iPad bir Wi-Fi ağına bağlanabilir. 94.499,00 TL",
+    "128 GB Dipnot 2 Mor Wi-FiBağlantıda kalabilmeniz için her iPad bir Wi-Fi ağına bağlanabilir. 52.499,00 TL"
+   ],
+   "price_texts": [
+    "Başlangıç fiyatı: 52.499 TL",
+    "Başlangıç fiyatı: 52.499 TL",
+    "Başlangıç fiyatı: 52.499 TL",
+    "Başlangıç fiyatı: 52.499 TL",
+    "Başlangıç fiyatı: 52.499 TL",
+    "Başlangıç fiyatı: 52.499 TL",
+    "Başlangıç fiyatı: 52.499 TL",
+    "Başlangıç fiyatı: 52.499 TL",
+    "Başlangıç fiyatı: 52.499 TL",
+    "Başlangıç fiyatı: 52.499 TL"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 64,
+    "jsonld": 64,
+    "dom-tile": 4
+   },
+   "text_sample": "wzlhp Store Mac iPad iPhone Watch AirPods Ev Eğlence Aksesuarlar Destek 0 + iPad Air Başlangıç fiyatı: 52.499 TL Ücretsiz gönderim Mağazadan teslim alma iPad Air satın alın Başlangıç fiyatı: 52.499 TL Apple Intelligence ve Siri AI Dipnot 4 Daha fazla bilgi iPad için Apple Intelligence hakkında Aylık taksit seçenekleri (Yeni pencerede açılır) Önceki galeri görseli Sonraki galeri görseli Model. Dilediğiniz boyutu seçin. 11 inç model Başlangıç fiyatı: 52.499 TL 13 inç model Başlangıç fiyatı: 65.999 TL Renk. Favorinizi seçin. Renk Mor Mavi Yıldız Işığı Uzay Grisi Depolama. Size gereken saklama alanını seçin. 128 GB Dipnot 2 Başlangıç fiyatı: 52.499 TL 256 GB Dipnot 2 Başlangıç fiyatı: 59.499 TL 512 GB Dipnot 2 Başlangıç fiyatı: 73.499 TL 1 TB Dipnot 2 Başlangıç fiyatı: 94.499 TL Size ne kadar depolama alanı gerektiğinden emin değil misiniz? iPad Air’inizin depolama alanı ne kadar büyük olursa, dijital içeriklerinizi hem şimdi hem de daha sonra saklamak için o kadar çok yeriniz olur. Daha fazlasını göster Bağlantı Özellikleri. İstediğiniz bağlantı türünü seçin. Wi-Fi Bağlantıda kalabilmeniz için her iPad bir Wi-Fi ağına bağlanabilir. Başlangıç fiyatı: 52.499 TL Wi-Fi + Cellular Wi-Fi + Cellular sayesinde yakınınızda Wi-Fi olmasa da bağlanabilirsiniz. Başlangıç fiyatı: 62.999 TL Neden Wi-Fi + Cellular modelini seçmelisiniz? Bulunduğunuz yerde Wi-Fi ağı yoksa Wi‑Fi + Cellular modeliyle hücresel veri tarifenizi kullanarak bağlantıda kalabilirsiniz. iPad’iniz size ul"
+  },
+  {
+   "url": "https://www.apple.com/tr/shop/buy-ipad/ipad",
+   "status": 200,
+   "final_url": "https://www.apple.com/tr/shop/buy-ipad/ipad",
+   "title": "iPad Satın Alın - Apple (TR)",
+   "json_urls": [
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
+    "https://www.apple.com/tr/shop/favoritesx/fetch",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR",
+    "https://www.apple.com/tr/shop/sba/d/init?fnode=17c635de11ab7ea4334e9b1a9c4b9fd638d2997ee549ad0d6510c831cff3452d55331242d82761413b8fd9c319933f262ed0439a6cad7d38a"
+   ],
+   "links": [
+    "https://www.apple.com/tr/shop/buy-ipad/ipad",
+    "https://www.apple.com/tr/shop/buy-ipad/ipad-pro",
+    "https://www.apple.com/tr/shop/buy-ipad/ipad-air",
+    "https://www.apple.com/tr/shop/buy-ipad/ipad-mini"
+   ],
+   "tiles": [
+    "128 GB Dipnot 2 Başlangıç fiyatı: 31.999 TL",
+    "256 GB Dipnot 2 Başlangıç fiyatı: 38.999 TL",
+    "512 GB Dipnot 2 Başlangıç fiyatı: 52.999 TL",
+    "128 GB Dipnot 2 Mavi Wi-FiBağlantıda kalabilmeniz için her iPad bir Wi-Fi ağına bağlanabilir. 31.999,00 TL",
+    "256 GB Dipnot 2 Mavi Wi-FiBağlantıda kalabilmeniz için her iPad bir Wi-Fi ağına bağlanabilir. 38.999,00 TL",
+    "512 GB Dipnot 2 Mavi Wi-FiBağlantıda kalabilmeniz için her iPad bir Wi-Fi ağına bağlanabilir. 52.999,00 TL",
+    "128 GB Dipnot 2 Gümüş Wi-FiBağlantıda kalabilmeniz için her iPad bir Wi-Fi ağına bağlanabilir. 31.999,00 TL",
+    "256 GB Dipnot 2 Gümüş Wi-FiBağlantıda kalabilmeniz için her iPad bir Wi-Fi ağına bağlanabilir. 38.999,00 TL",
+    "512 GB Dipnot 2 Gümüş Wi-FiBağlantıda kalabilmeniz için her iPad bir Wi-Fi ağına bağlanabilir. 52.999,00 TL",
+    "128 GB Dipnot 2 Pembe Wi-FiBağlantıda kalabilmeniz için her iPad bir Wi-Fi ağına bağlanabilir. 31.999,00 TL",
+    "256 GB Dipnot 2 Pembe Wi-FiBağlantıda kalabilmeniz için her iPad bir Wi-Fi ağına bağlanabilir. 38.999,00 TL",
+    "512 GB Dipnot 2 Pembe Wi-FiBağlantıda kalabilmeniz için her iPad bir Wi-Fi ağına bağlanabilir. 52.999,00 TL",
+    "128 GB Dipnot 2 Sarı Wi-FiBağlantıda kalabilmeniz için her iPad bir Wi-Fi ağına bağlanabilir. 31.999,00 TL",
+    "256 GB Dipnot 2 Sarı Wi-FiBağlantıda kalabilmeniz için her iPad bir Wi-Fi ağına bağlanabilir. 38.999,00 TL",
+    "512 GB Dipnot 2 Sarı Wi-FiBağlantıda kalabilmeniz için her iPad bir Wi-Fi ağına bağlanabilir. 52.999,00 TL"
+   ],
+   "price_texts": [
+    "Başlangıç fiyatı: 31.999 TL",
+    "Başlangıç fiyatı: 31.999 TL",
+    "Başlangıç fiyatı: 31.999 TL",
+    "Başlangıç fiyatı: 31.999 TL",
+    "Başlangıç fiyatı: 31.999 TL",
+    "Başlangıç fiyatı: 31.999 TL",
+    "Başlangıç fiyatı: 31.999 TL",
+    "Başlangıç fiyatı: 31.999 TL",
+    "Başlangıç fiyatı: 31.999 TL",
+    "Başlangıç fiyatı: 31.999 TL"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 24,
+    "jsonld": 24,
+    "dom-tile": 3
+   },
+   "text_sample": "wzlhp Store Mac iPad iPhone Watch AirPods Ev Eğlence Aksesuarlar Destek 0 + iPad Başlangıç fiyatı: 31.999 TL Ücretsiz gönderim Mağazadan teslim alma iPad Satın Alın Başlangıç fiyatı: 31.999 TL Aylık taksit seçenekleri (Yeni pencerede açılır) Önceki galeri görseli Sonraki galeri görseli Renk. Favorinizi seçin. Renk Gümüş Pembe Mavi Sarı Depolama. Size gereken saklama alanını seçin. 128 GB Dipnot 2 Başlangıç fiyatı: 31.999 TL 256 GB Dipnot 2 Başlangıç fiyatı: 38.999 TL 512 GB Dipnot 2 Başlangıç fiyatı: 52.999 TL Size ne kadar depolama alanı gerektiğinden emin değil misiniz? iPad’inizin depolama alanı ne kadar büyük olursa, şimdi ve daha sonra dijital içeriklerinizi saklamak için o kadar çok yeriniz olur. Daha fazlasını göster Bağlantı Özellikleri. İstediğiniz bağlantı türünü seçin. Wi-Fi Bağlantıda kalabilmeniz için her iPad bir Wi-Fi ağına bağlanabilir. Başlangıç fiyatı: 31.999 TL Wi-Fi + Cellular Wi-Fi + Cellular sayesinde yakınınızda Wi-Fi olmasa da bağlanabilirsiniz. Başlangıç fiyatı: 42.499 TL Neden Wi-Fi + Cellular modelini seçmelisiniz? Bulunduğunuz yerde Wi-Fi ağı yoksa Wi‑Fi + Cellular modeliyle hücresel veri tarifenizi kullanarak bağlantıda kalabilirsiniz. iPad’iniz size ulaştıktan sonra hücresel bağlantı kurulumunu yapmanız gerekir. Daha fazlasını göster Lazer Baskı. iPad’inizi ücretsiz kişiselleştirin. Lazer baskı ekleyin Apple’da gerçekleştireceğiniz iade işlemlerini etkilemeyecektir. Ücretsiz Lazer baskısız Apple Pencil. İhtiyaçlarınıza en uygun olanı s"
+  },
+  {
+   "url": "https://www.apple.com/tr/shop/buy-ipad/ipad-mini",
+   "status": 200,
+   "final_url": "https://www.apple.com/tr/shop/buy-ipad/ipad-mini",
+   "title": "iPad mini Satın Alın - Apple (TR)",
+   "json_urls": [
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR",
+    "https://www.apple.com/tr/shop/favoritesx/fetch",
+    "https://www.apple.com/tr/shop/sba/d/init?fnode=68843fd3c64ae837b63a30ec79cb11a526d73f3ecbfd59413f555104a22d9ae2b747fe824810f3f7ebf59bab494bfd365ec1973a0fba778f3",
+    "https://www.apple.com/tr/shop/engrave/json?fae=true&product=MX2D3ZE%2FA"
+   ],
+   "links": [
+    "https://www.apple.com/tr/shop/buy-ipad/ipad-mini",
+    "https://www.apple.com/tr/shop/buy-ipad/ipad-pro",
+    "https://www.apple.com/tr/shop/buy-ipad/ipad-air",
+    "https://www.apple.com/tr/shop/buy-ipad/ipad"
+   ],
+   "tiles": [
+    "128 GB A20 Pro çip: 5 çekirdekli CPU, 7 çekirdekli GPU 16 çekirdekli Neural Engine Başlangıç fiyatı: 48.999 TL",
+    "256 GB A20 Pro çip: 5 çekirdekli CPU, 7 çekirdekli GPU 16 çekirdekli Neural Engine Başlangıç fiyatı: 55.999 TL",
+    "512 GB A20 Pro çip: 6 çekirdekli CPU, 7 çekirdekli GPU Çift 16 Çekirdekli Neural Engine Başlangıç fiyatı: 69.999 TL",
+    "Nano-texture cam 256 GB veya 512 GB depolama alanına sahip modellerde sunulur Başlangıç fiyatı: 62.999 TL"
+   ],
+   "price_texts": [
+    "Başlangıç fiyatı: 48.999 TL",
+    "Başlangıç fiyatı: 48.999 TL",
+    "Başlangıç fiyatı: 48.999 TL",
+    "Başlangıç fiyatı: 48.999 TL",
+    "Başlangıç fiyatı: 48.999 TL",
+    "Başlangıç fiyatı: 48.999 TL",
+    "Başlangıç fiyatı: 48.999 TL",
+    "Başlangıç fiyatı: 48.999 TL",
+    "Başlangıç fiyatı: 48.999 TL",
+    "Başlangıç fiyatı: 48.999 TL"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 20,
+    "jsonld": 20,
+    "dom-price": 1
+   },
+   "text_sample": "wzlhp Store Mac iPad iPhone Watch AirPods Ev Eğlence Aksesuarlar Destek 0 + iPad mini Başlangıç fiyatı: 48.999 TL Ücretsiz gönderim Mağazadan teslim alma Yeni iPad mini için ön sipariş verin Satış tarihi: 6 Kasım Başlangıç fiyatı: 48.999 TL Apple Intelligence ve Siri AI Dipnot 3 Daha fazla bilgi iPad için Apple Intelligence hakkında Aylık taksit seçenekleri (Yeni pencerede açılır) Önceki galeri görseli Sonraki galeri görseli Renk. Favorinizi seçin. Renk Gece Yarısı Yıldız Işığı Depolama ve çip. Aygıtınızın yapılandırmasını seçin. 128 GB A20 Pro çip: 5 çekirdekli CPU, 7 çekirdekli GPU 16 çekirdekli Neural Engine Başlangıç fiyatı: 48.999 TL 256 GB A20 Pro çip: 5 çekirdekli CPU, 7 çekirdekli GPU 16 çekirdekli Neural Engine Başlangıç fiyatı: 55.999 TL 512 GB A20 Pro çip: 6 çekirdekli CPU, 7 çekirdekli GPU Çift 16 Çekirdekli Neural Engine Başlangıç fiyatı: 69.999 TL Size ne kadar depolama alanı gerektiğinden emin değil misiniz? iPad mini’inizin depolama alanı ne kadar büyük olursa, şimdi ve daha sonra dijital içeriklerinizi saklamak için o kadar çok yeriniz olur. Daha fazlasını göster Ekran camı. Size en uygun camı seçin. Standart cam Başlangıç fiyatı: 48.999 TL Nano-texture cam 256 GB veya 512 GB depolama alanına sahip modellerde sunulur Başlangıç fiyatı: 62.999 TL Size en uygun cam hangisi? Farklılıklar hakkında bilgi edinin. Daha fazlasını göster Bağlantı Özellikleri. İstediğiniz bağlantı türünü seçin. Wi-Fi Bağlantıda kalabilmeniz için her iPad bir Wi-Fi ağına bağlan"
+  },
+  {
+   "url": "https://www.apple.com/tr/shop/buy-watch/apple-watch",
+   "status": 200,
+   "final_url": "https://www.apple.com/tr/shop/buy-watch/apple-watch",
+   "title": "Apple Watch Series 12 satın alın - Apple (TR)",
+   "json_urls": [
+    "https://www.apple.com/tr/shop/sba/d/init?fnode=2ba0f142e84bad73b47ca03edd9713b537a82df9fc72b919d533025382710fe845a6535e725ffd27c77ab2f3699fce7261ab4d496fed1e629",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
+    "https://www.apple.com/tr/shop/favoritesx/fetch"
+   ],
+   "links": [
+    "https://www.apple.com/tr/shop/buy-watch/apple-watch"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "Başlangıç fiyatı: 27.999 TL",
+    "Başlangıç fiyatı: 27.999 TL",
+    "Başlangıç fiyatı: 27.999 TL",
+    "Başlangıç fiyatı: 27.999 TL",
+    "Başlangıç fiyatı: 27.999 TL",
+    "Başlangıç fiyatı: 27.999 TL",
+    "Başlangıç fiyatı: 27.999 TL",
+    "Başlangıç fiyatı: 27.999 TL",
+    "Başlangıç fiyatı: 27.999 TL",
+    "Başlangıç fiyatı: 27.999 TL"
+   ],
+   "items_by_source": {
+    "jsonld": 1,
+    "dom-price": 1
+   },
+   "text_sample": "wzlhp Store Mac iPad iPhone Watch AirPods Ev Eğlence Aksesuarlar Destek 0 + Apple Watch Series 12 Başlangıç fiyatı: 27.999 TL Ücretsiz gönderim Mağazadan teslim alma Yeni Apple Watch Series 12 satın alın Başlangıç fiyatı: 27.999 TL Aylık taksit seçenekleri (Yeni pencerede açılır) Büyük, gelişmiş bir ekrana sahip ince ve hafif tasarım Önceki galeri görseli Sonraki galeri görseli Kasa. Tercih ettiğiniz malzeme ve kaplamayla başlayalım. Yeni renk seçenekleri Alüminyum GPS veya GPS + Cellular seçenekleriyle Başlangıç fiyatı: 27.999 TL Ceramic Shield 2 ile dayanıklı ekran ve mat yüzey. Dipnot ※ Yeni renk Titanyum GPS + Cellular seçeneğiyle sunulur Başlangıç fiyatı: 69.999 TL Havacılık ve uzay endüstrisi standartlarında, parlatılmış titanyum ve dayanıklı safir kristal ekran. Yeni Seramik GPS + Cellular seçeneğiyle sunulur Başlangıç fiyatı: 89.999 TL Zengin, parlak bir yüzey kaplaması ve dayanıklı safir kristal ekranıyla sofistike ve çizilmelere karşı dayanıklı. Kasa malzemesini seçmek için yardıma mı ihtiyacınız var? Ağırlık farklılıkları, renk seçenekleri ve diğer seçenekler hakkında daha fazla bilgi edinin. Daha fazlasını göster Kasa boyutu. Size en uygun olanı seçin. 42 mm Başlangıç fiyatı: 27.999 TL 46 mm Başlangıç fiyatı: 30.999 TL Boyut seçmek için yardıma mı ihtiyacınız var? Ekran boyutu ve kasa ağırlığındaki farkları keşfedin. Daha fazlasını göster Bağlantı Özellikleri. Telefonunuz yakınınızda olsa da olmasa da bağlantıda kalın. GPS iPhone’unuz yakınınızdayken arama "
+  },
+  {
+   "url": "https://www.apple.com/tr/shop/buy-watch/apple-watch-ultra",
+   "status": 200,
+   "final_url": "https://www.apple.com/tr/shop/buy-watch/apple-watch-ultra",
+   "title": "Apple Watch Ultra 4 satın alın - Apple (TR)",
+   "json_urls": [
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR",
+    "https://www.apple.com/tr/shop/favoritesx/fetch"
+   ],
+   "links": [
+    "https://www.apple.com/tr/shop/buy-watch/apple-watch-ultra"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "Başlangıç fiyatı: 75.999 TL",
+    "Başlangıç fiyatı: 75.999 TL",
+    "Başlangıç fiyatı: 75.999 TL",
+    "Başlangıç fiyatı: 75.999 TL",
+    "Başlangıç fiyatı: 75.999 TL",
+    "Başlangıç fiyatı: 75.999 TL",
+    "Başlangıç fiyatı: 75.999 TL",
+    "Başlangıç fiyatı: 75.999 TL",
+    "Başlangıç fiyatı: 75.999 TL",
+    "Başlangıç fiyatı: 75.999 TL"
+   ],
+   "items_by_source": {
+    "jsonld": 1,
+    "dom-price": 1
+   },
+   "text_sample": "wzlhp Store Mac iPad iPhone Watch AirPods Ev Eğlence Aksesuarlar Destek 0 + Apple Watch Ultra 4 Başlangıç fiyatı: 75.999 TL Ücretsiz gönderim Mağazadan teslim alma Yeni Apple Watch Ultra 4 satın alın Başlangıç fiyatı: 75.999 TL Aylık taksit seçenekleri (Yeni pencerede açılır) Havacılık ve uzay endüstrisi standartlarında titanyumdan üretilen dayanıklı 49 mm kasa, çift frekanslı hassas GPS + Cellular bağlantı özelliğiyle sunuluyor. Dipnot 11 Önceki galeri görseli Sonraki galeri görseli Kasa. Renk tercihinizle başlayalım. Renk Siyah Natürel Kayış. Maceranızı seçme zamanı. Yeni Renk Seçenekleri Alpine Loop Açık hava maceraları ve doğa yürüyüşleri için. Yeni Renk Seçenekleri Trail Loop Tüm spor ve antrenman çeşitleri için. Yeni Renk Seçenekleri Ocean Kordon Su sporları ve eğlence amaçlı dalışlar için. Titanyum Milano Loop Açık denizler için geliştirilen şık tasarım. Kayış seçmek için yardıma mı ihtiyacınız var? Malzeme, boyut, stil ve özellik farklarını karşılaştırın. Daha fazlasını göster Apple Watch Ultra 4 Başlangıç fiyatı: 75.999 TL Devam Zamana mı ihtiyacınız var? Bu aygıtı Kaydedilmiş Ürünleriniz listesine kaydederek tüm seçimlerinizi koruyun ve dilediğiniz zaman geri dönerek kaldığınız yerden devam edin. Daha sonrası için kaydedin Kasa Boyutları Kasa S11 çip S10 çip Ekran Kalp sağlığı özellikleri Uyku özellikleri Yaşam Bulguları özellikleri Döngü İzleme özellikleri Apple Intelligence özellikleri Acil SOS Suya dayanıklılık Bağlantı özellikleri Pil Size en uygun Apple "
+  },
+  {
+   "url": "https://www.apple.com/tr/shop/buy-watch/apple-watch-se",
+   "status": 200,
+   "final_url": "https://www.apple.com/tr/shop/buy-watch/apple-watch-se",
+   "title": "Apple Watch SE 3 satın alın - Apple (TR)",
+   "json_urls": [
+    "https://www.apple.com/tr/shop/sba/d/init?fnode=73e5e3952b053ef308ee2715b5b616ed757445e0ed697e7fa96c1536f31ae7a5ef4dde814d1f85584827446d0832ed859ce6dd5605a853ac9",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR",
+    "https://www.apple.com/tr/shop/api/kit-product-gallery?fae=true&node=home%2Fshop_watch%2Ffamily%2Fapple_watch_se%2Fselect&dm.watch_bands-dimensionBandStyle=sport",
+    "https://www.apple.com/tr/shop/favoritesx/fetch"
+   ],
+   "links": [
+    "https://www.apple.com/tr/shop/buy-watch/apple-watch-se"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "Başlangıç fiyatı: 16.999 TL",
+    "Başlangıç fiyatı: 16.999 TL",
+    "Başlangıç fiyatı: 16.999 TL",
+    "Başlangıç fiyatı: 16.999 TL",
+    "Başlangıç fiyatı: 16.999 TL",
+    "Başlangıç fiyatı: 16.999 TL",
+    "Başlangıç fiyatı: 16.999 TL",
+    "Başlangıç fiyatı: 16.999 TL",
+    "Başlangıç fiyatı: 16.999 TL",
+    "Başlangıç fiyatı: 16.999 TL"
+   ],
+   "items_by_source": {
+    "jsonld": 1,
+    "dom-price": 1
+   },
+   "text_sample": "wzlhp Store Mac iPad iPhone Watch AirPods Ev Eğlence Aksesuarlar Destek 0 + Apple Watch SE 3 Başlangıç fiyatı: 16.999 TL Ücretsiz gönderim Mağazadan teslim alma Apple Watch SE 3 satın alın Başlangıç fiyatı: 16.999 TL Aylık taksit seçenekleri (Yeni pencerede açılır) Alüminyum. %100 geri dönüştürülmüş alüminyum. Günlük aktiviteler ve farklı antrenman türleri için ideal. Önceki galeri görseli Sonraki galeri görseli Kasa. Renk tercihinizle başlayalım. Renk Gece Yarısı Yıldız Işığı Kasa boyutu. Size en uygun olanı seçin. 40 mm Başlangıç fiyatı: 16.999 TL 44 mm Başlangıç fiyatı: 18.799 TL Boyut seçmek için yardıma mı ihtiyacınız var? Ekran boyutu ve kasa ağırlığındaki farkları keşfedin. Daha fazlasını göster Bağlantı Özellikleri. Telefonunuz yakınınızda olsa da olmasa da bağlantıda kalın. GPS iPhone’unuz yakınınızdayken arama yapın ve mesaj atın. Başlangıç fiyatı: 16.999 TL GPS + Cellular Yalnızca Apple Watch’unuzu kullanarak arama yapın ve mesaj gönderin. Başlangıç fiyatı: 32.999 TL Hangi seçeneğin size daha uygun olduğuna karar veremiyor musunuz? Hücresel bağlantı ve saatinize iletişim tarifesi ekleme hakkında daha fazla bilgi edinin. Daha fazlasını göster Desteklenen iletişim operatörleri Kayış. Farklı modelleri keşfedin ve en beğendiğinizi seçin. Yeni Renk Seçenekleri Spor Kordon Dayanıklı, pim mekanizmalı, ayarlanabilir Renk seçin: Renk seçin: Lacivert Kum Beji Kayış seçmek için yardıma mı ihtiyacınız var? Malzeme, boyut, stil ve özellik farklarını karşılaştırın. Daha faz"
+  },
+  {
+   "url": "https://www.apple.com/tr/shop/buy-airpods/airpods-pro-3",
+   "status": 200,
+   "final_url": "https://www.apple.com/tr/shop/buy-airpods/airpods-pro-3",
+   "title": "AirPods Pro 3 satın alın - Apple (TR)",
+   "json_urls": [
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR",
+    "https://www.apple.com/tr/shop/favoritesx/fetch",
+    "https://www.apple.com/tr/shop/updateSummary?node=home%2Fshop_airpods%2Ffamily%2Fairpods_pro_3&step=select&product=MFHP4TU%2FA",
+    "https://www.apple.com/tr/shop/engrave/json?product=MFHP4TU%2FA"
+   ],
+   "links": [
+    "https://www.apple.com/tr/shop/buy-airpods/airpods-pro-3"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "17.499,00 TL 5.833,00 TL x 3 aya kadar taksit",
+    "17.499,00 TL 5.833,00 TL x 3 aya kadar taksit",
+    "17.499,00 TL",
+    "17.499,00 TL",
+    "17.499,00 TL",
+    "5.833,00 TL x 3 aya kadar taksit",
+    "5.833,00 TL x 3 aya kadar taksit",
+    "5.833,00 TL x 3 aya kadar taksit",
+    "17.499,00 TL",
+    "17.499,00 TL"
+   ],
+   "items_by_source": {
+    "jsonld": 1,
+    "dom-price": 1
+   },
+   "text_sample": "wzlhp Store Mac iPad iPhone Watch AirPods Ev Eğlence Aksesuarlar Destek 0 + AirPods Pro 3 Genel Bakış Teknik Özellikler AirPods Pro 3 Satın Alın Ücretsiz gönderimden yararlanın veya stoktaki ürünleri Apple Store’dan teslim alın. AirPods Pro 3 satın alın, 3 ay boyunca ücretsiz Apple Music aboneliğinden yararlanın Dipnot + Ücretsiz ve kolay iade Satın almak için yardım alın. Hemen sohbet edin (Yeni pencerede açılır) veya 00800 448 829 873 numaralı telefonu arayın. Ücretsiz Lazer Baskı AirPods Pro 3 Satın Alın Şimdi çığır açıcı bir Aktif Gürültü Engelleme deneyimi, kalp atış hızı algılama özelliği Dipnot ¹ ve 8 saate kadar pil ömrü ile sunuluyor. Dipnot ¹¹ Ücretsiz kişiselleştirin Lazer Baskı Ekleyin AirPods Pro 3’ü tamamen size özel hale getirmek için emoji, isim, baş harfler ve rakamlardan oluşan bir lazer baskı yaptırın. Ücretsizdir ve aynı hızda teslim edilir. Ücretsiz Lazer Baskısız AirPods Pro 3 17.499,00 TL 5.833,00 TL x 3 aya kadar taksit Devam Zamana mı ihtiyacınız var? Bu aygıtı Kaydedilmiş Ürünleriniz listesine kaydederek tüm seçimlerinizi koruyun ve dilediğiniz zaman geri dönerek kaldığınız yerden devam edin. Daha sonrası için kaydedin Galeri Resim 1 Galeri Resim 2 Galeri Resim 3 Galeri Resim 4 Galeri Resim 5 Ürün Bilgileri Genel Özellikler AirPods Pro 3 Çığır açıcı Aktif Gürültü Engelleme deneyimi, nefes kesen bir ses kalitesi sunuyor. Yerleşik kalp atış hızı algılama özelliği, antrenmanlarda kalp atış hızınızı ve yaktığınız kalorileri takip etmenizi sa"
+  }
+ ]
+}

@@ -1,0 +1,811 @@
+{
+ "brand": "Apple",
+ "country": "FR",
+ "pages": [
+  {
+   "url": "https://www.apple.com/fr/shop/buy-iphone",
+   "status": 200,
+   "final_url": "https://www.apple.com/fr/shop/buy-iphone",
+   "title": "Acheter un iPhone - Apple (FR)",
+   "json_urls": [
+    "https://www.apple.com/fr/shop/bag/status?apikey=SJHJUH4YFCTTPD4F4",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=fr_FR",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=fr_FR",
+    "https://www.apple.com/fr/shop/api/digital-mat?path=library/step0_iphone/digitalmat&fae=true",
+    "https://www.apple.com/shop/shld/work/s3/q?jr=30"
+   ],
+   "links": [
+    "https://www.apple.com/fr/shop/buy-iphone/iphone-duo",
+    "https://www.apple.com/fr/shop/buy-iphone/iphone-18-pro",
+    "https://www.apple.com/fr/shop/buy-iphone/iphone-air",
+    "https://www.apple.com/fr/shop/buy-iphone/iphone-17",
+    "https://www.apple.com/fr/shop/buy-iphone/iphone-17e",
+    "https://www.apple.com/fr/shop/buy-iphone/iphone-16"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "À partir de 2 339 €",
+    "TVA et frais inclus : env. 407,00 € Note de bas de page ◊◊",
+    "À partir de 1 479 €",
+    "TVA et frais inclus : env. 264,00 € Note de bas de page ◊◊",
+    "À partir de 1 329 €",
+    "TVA et frais inclus : env. 239,00 € Note de bas de page ◊◊",
+    "À partir de 1 119 €",
+    "TVA et frais inclus : env. 204,00 € Note de bas de page ◊◊",
+    "À partir de 869 €",
+    "TVA et frais inclus : env. 162,00 € Note de bas de page ◊◊"
+   ],
+   "items_by_source": {},
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Maison Divertissements Accessoires Assistance 0 + Achetez un iPhone à 0 % TAEG sur une durée maximale de 24 mois. Et faites reprendre un appareil pour réduire vos mensualités Note de bas de page ◊. En savoir plus Acheter un iPhone Contacter nos Spécialistes (s’ouvre dans une nouvelle fenêtre) Trouver un Apple Store (s’ouvre dans une nouvelle fenêtre) Tous les modèles Économisez Guides shopping Accessoires Configuration et Assistance L’expérience iPhone Tous les modèles sont là. Faites votre choix. NOUVEAU iPhone Duo - NOUVEAU Découvrir - iPhone Duo À partir de 2 339 €ou 97,46 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊ Acheter - iPhone Duo NOUVEAU iPhone 18 Pro et iPhone 18 Pro Max - NOUVEAU Découvrir - iPhone 18 Pro et iPhone 18 Pro Max À partir de 1 479 €ou 61,63 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊ Acheter - iPhone 18 Pro et iPhone 18 Pro Max iPhone Air Découvrir - iPhone Air À partir de 1 329 €ou 55,38 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊ Acheter - iPhone Air iPhone 17 Découvrir - iPhone 17 À partir de 1 119 €ou 46,63 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊ Acheter - iPhone 17 iPhone 17e Découvrir - iPhone 17e À partir de 869 €ou 36,21 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊ Acheter - iPhone 17e iPhone 16 Découvrir - iPhone 16 À partir de 1 019 €ou 42",
+   "json_samples": [
+    {
+     "url": "https://www.apple.com/fr/shop/bag/status?apikey=SJHJUH4YFCTTPD4F4",
+     "body": "{\"items\": 0, \"ttl\": 180, \"api\": {\"flyout\": \"/%5Bstorefront%5D/shop/bag/flyout\", \"addToBag\": \"/%5Bstorefront%5D/shop/bag/add?product=%5Bpart%5D\"}}"
+    },
+    {
+     "url": "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=fr_FR",
+     "body": "[{\"name\": \"apple\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple home\"}], \"id\": \"3d39a8ff\"}, {\"name\": \"store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"store\"}, {\"name\": \"data-analytics-element-engagement\", \"value\": \"hover - store\"}], \"baseGroups\": [{\"id\": \"cb5f4082\", \"title\": \"Liens rapides\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"quick links - store\"}], \"baseLinks\": [{\"id\": \"4eae6786\", \"text\": \"Trouver un magasin\", \"url\": \"/fr/retail/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"find a store\"}], \"ariaLabel\": \"\"}, {\"id\": \"81b2e503\", \"text\": \"État de votre commande\", \"url\": \"/fr/shop/goto/order/list\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"order status\"}], \"ariaLabel\": \"\"}, {\"id\": \"1eb5f35d\", \"text\": \"Apple Trade In\", \"url\": \"/fr/shop/goto/trade_in\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple trade in\"}], \"ariaLabel\": \"\"}, {\"id\": \"86b3aa75\", \"text\": \"Financement\", \"url\": \"/fr/shop/goto/ww/financing\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"financing\"}], \"ariaLabel\": \"\"}, {\"id\": \"29a6fed4\", \"text\": \"Configuration personnalisée\", \"url\": \"/fr/shop/goto/personal_setup\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"personal setup\"}], \"ariaLabel\": \"\"}]}, {\"id\": \"69d648e3\", \"title\": \"Acheter - Programmes spéciaux\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"shop special stores\"}], \"baseLinks\": [{\"id\": \"67f938c4\", \"text\": \"Produits reconditionnés\", \"url\": \"/fr/shop/goto/special_deals\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"certified refurbished\"}], \"ariaLabel\": \"\"}, {\"id\": \"8bac97fc\", \"text\": \"Éducation\", \"url\": \"/fr/shop/goto/educationrouting\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"education\"}], \"ariaLabel\": \"\"}, {\"id\": \"ef376e9f\", \"text\": \"Entreprises\", \"url\": \"/fr/retail/business/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"business\"}], \"ariaLabel\": \"\"}]}], \"elevatedGroups\": [{\"id\": \"74195cde\", \"title\": \"Acheter\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"explore shop\"}], \"elevatedLinks\": [{\"id\": \"e1b94fd0\", \"text\": \"Tout derniers produits\", \"url\": \"/fr/shop/goto/store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"shop the latest\"}], \"ariaLabel\": \"Tout derniers produits Apple\"}, {\"id\": \"bc945808\", "
+    },
+    {
+     "url": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=fr_FR",
+     "body": "{\"id\": \"9rCvnHlESQOfXlLZM-eLFA\", \"results\": [{\"sectionName\": \"quickLinks\", \"sectionResults\": [{\"label\": \"Trouver un magasin\", \"url\": \"https://www.apple.com/fr/retail/\"}, {\"label\": \"Apple Vision Pro\", \"url\": \"https://www.apple.com/fr/apple-vision-pro/\"}, {\"label\": \"AirPods\", \"url\": \"https://www.apple.com/fr/airpods/\"}, {\"label\": \"Apple Intelligence\", \"url\": \"https://www.apple.com/fr/apple-intelligence/\"}, {\"label\": \"Apple Trade In\", \"url\": \"https://www.apple.com/fr/shop/goto/trade_in\"}]}, {\"sectionName\": \"suggestions\", \"sectionResults\": []}]}"
+    },
+    {
+     "url": "https://www.apple.com/fr/shop/api/digital-mat?path=library/step0_iphone/digitalmat&fae=true",
+     "body": "{\"head\": {\"status\": \"200\", \"data\": {}}, \"body\": {\"digitalMat\": [{\"productName\": \"iPhone Duo\", \"enableDarkTheme\": false, \"partNumber\": \"IPHONEDUO_MAIN\", \"tabDescriptionLabel\": \"Taille d’affichage\", \"familyTypes\": [{\"productPrice\": {\"priceData\": {\"fullPrice\": {\"priceString\": \"À partir de <span class=\\\"nowrap\\\">2 339 €</span>\", \"raw\": {\"price\": \"2339.00\"}}, \"monthlyPrice\": {\"priceString\": \" ou <span><span class=\\\"nowrap\\\">97,46 €<span aria-hidden=\\\"true\\\">/mois </span><span class=\\\"visuallyhidden\\\">par mois</span></span>\\n<span class=\\\"as-price-acinstallmentmonths nowrap\\\">pour 24 mois</span> <span class=\\\"nowrap\\\">à 0 %</span> taux débiteur<span class=\\\"as-price-acinstallmentterms-footnotes\\\"><as-footnote data-id=\\\"6f4ecf5aa7ceba6cee65f07185b66644\\\" data-assigned=\\\"false\\\"><sup data-autom=\\\"footnote-sub\\\" class=\\\"as-footnote\\\"><span class=\\\"visuallyhidden\\\">&nbsp;Note de bas de page&nbsp;</span></sup></as-footnote></span>\"}, \"refurbProduct\": false, \"financing\": {\"jsonResponse\": false, \"postText\": \"\", \"priceString\": \"\\n\\n\\n\\n<span class=\\\"as-prices-installments as-price-installments\\\">\\n<a href=\\\"/fr/shop/go/finance?revision=R20261030-1\\\" \\n                   class=\\\"as-price-installments-items icon icon-after icon-pluscircle\\\"  data-ase-loader=\\\"installment-info-overlay-loader\\\" data-ase-loader-action=\\\"load\\\" role=\\\"button\\\" data-installment-link-section=\\\"\\\" data-ase-rerender data-installment-name=\\\"financing\\\"\\n>Découvrir toutes les options de financement</a>\\n</span>\\n\\n\", \"overlay\": true, \"preText\": \"\", \"text\": \"Découvrir toutes les options de financement\", \"prefixIcon\": false, \"rawPrices\": {\"apr\": 0, \"amount\": 97.46, \"count\": 24, \"totalAmountBeforeTradeIn\": 2339.0, \"principalAmount\": 2339.0, \"rateType\": \"\", \"totalAmount\": 2339.0, \"fundingType\": \"LobInstallments\", \"rate\": \"0\", \"interest\": 0, \"installment\": 97.46, \"lobDisplayName\": \"un iPhone\", \"term\": 24, \"amountPerTerm\": 97.46, \"lob\": \"iphone\"}, \"url\": \"/fr/shop/go/finance?revision=R20261030-1\"}, \"priceFeeDisclaimer\": {\"priceString\": \"TVA et frais inclus : env. 407,00 €<as-footnote data-id=\\\"c797ec623451481bcb7b6f5ad02aa26a\\\" data-assigned=\\\"false\\\"><sup data-autom=\\\"footnote-sub\\\" class=\\\"as-footnote\\\"><span class=\\\"visuallyhidden\\\">&nbsp;Note de bas de page&nbsp;</span></sup></as-footnote>\"}}, \"templateId\": \"LEAD_WITH_FULL_PRICE\", \"staticAssets\": {\"priceSeparator\": \" \"}}, \"productImages\": {\"items\": [{\"index\": 0, \"value\": {\"sources\": [{\"srcSet\": \"https://store.storeimages.cdn-apple.com/1/as-images.app"
+    }
+   ]
+  },
+  {
+   "url": "https://www.apple.com/fr/shop/buy-ipad",
+   "status": 200,
+   "final_url": "https://www.apple.com/fr/shop/buy-ipad",
+   "title": "Acheter un iPad - Apple (FR)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=fr_FR",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=fr_FR",
+    "https://www.apple.com/fr/shop/api/digital-mat?path=library/step0_ipad/digitalmat&fae=true"
+   ],
+   "links": [
+    "https://www.apple.com/fr/shop/buy-ipad/ipad-pro",
+    "https://www.apple.com/fr/shop/buy-ipad/ipad-air",
+    "https://www.apple.com/fr/shop/buy-ipad/ipad",
+    "https://www.apple.com/fr/shop/buy-ipad/ipad-mini"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "À partir de 1 319 €",
+    "TVA et frais inclus : env. 235,00 € Note de bas de page ◊◊",
+    "À partir de 819 €",
+    "À partir de 509 €",
+    "À partir de 759 €",
+    "TVA et frais inclus : env. 142,00 € Note de bas de page ◊◊",
+    "149,00 €",
+    "89,00 €",
+    "349,00 €",
+    "89,00 €"
+   ],
+   "items_by_source": {},
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Maison Divertissements Accessoires Assistance 0 + Achetez un iPad à 4,79 % TAEG sur une durée maximale de 24 mois. Et faites reprendre un appareil pour réduire vos mensualités Note de bas de page ◊. En savoir plus Acheter un iPad Contacter nos Spécialistes (s’ouvre dans une nouvelle fenêtre) Trouver un Apple Store (s’ouvre dans une nouvelle fenêtre) Précédent Tous les modèles Guides shopping Économisez L’exception Apple Store Accessoires Configuration et Assistance L’expérience iPad Programmes spéciaux Tous les modèles sont là. Faites votre choix. iPad Pro Découvrir - iPad Pro À partir de 1 319 €ou 57,74 €/mois par mois pour 24 mois à 4,79 % taux débiteur Note de bas de page ◊ Acheter - iPad Pro iPad Air Découvrir - iPad Air À partir de 819 €ou 68,25 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊ Acheter - iPad Air iPad Découvrir - iPad À partir de 509 €ou 42,42 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊ Acheter - iPad NOUVEAU iPad mini - NOUVEAU Découvrir - iPad mini À partir de 759 €ou 63,25 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊ Précommander - iPad mini Découvrez tous les accessoires pour iPad. Précédent - Tous les modèles Suivant - Tous les modèles Guides shopping. Une hésitation ? Voici la solution. COMPARER TOUS LES MODÈLES Quel iPad vous faut‑il ? - (s’ouvre dans une nouvelle fenêtre) SPÉCIALISTES IPAD Faites vos ",
+   "json_samples": [
+    {
+     "url": "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=fr_FR",
+     "body": "[{\"name\": \"apple\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple home\"}], \"id\": \"3d39a8ff\"}, {\"name\": \"store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"store\"}, {\"name\": \"data-analytics-element-engagement\", \"value\": \"hover - store\"}], \"baseGroups\": [{\"id\": \"cb5f4082\", \"title\": \"Liens rapides\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"quick links - store\"}], \"baseLinks\": [{\"id\": \"4eae6786\", \"text\": \"Trouver un magasin\", \"url\": \"/fr/retail/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"find a store\"}], \"ariaLabel\": \"\"}, {\"id\": \"81b2e503\", \"text\": \"État de votre commande\", \"url\": \"/fr/shop/goto/order/list\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"order status\"}], \"ariaLabel\": \"\"}, {\"id\": \"1eb5f35d\", \"text\": \"Apple Trade In\", \"url\": \"/fr/shop/goto/trade_in\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple trade in\"}], \"ariaLabel\": \"\"}, {\"id\": \"86b3aa75\", \"text\": \"Financement\", \"url\": \"/fr/shop/goto/ww/financing\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"financing\"}], \"ariaLabel\": \"\"}, {\"id\": \"29a6fed4\", \"text\": \"Configuration personnalisée\", \"url\": \"/fr/shop/goto/personal_setup\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"personal setup\"}], \"ariaLabel\": \"\"}]}, {\"id\": \"69d648e3\", \"title\": \"Acheter - Programmes spéciaux\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"shop special stores\"}], \"baseLinks\": [{\"id\": \"67f938c4\", \"text\": \"Produits reconditionnés\", \"url\": \"/fr/shop/goto/special_deals\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"certified refurbished\"}], \"ariaLabel\": \"\"}, {\"id\": \"8bac97fc\", \"text\": \"Éducation\", \"url\": \"/fr/shop/goto/educationrouting\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"education\"}], \"ariaLabel\": \"\"}, {\"id\": \"ef376e9f\", \"text\": \"Entreprises\", \"url\": \"/fr/retail/business/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"business\"}], \"ariaLabel\": \"\"}]}], \"elevatedGroups\": [{\"id\": \"74195cde\", \"title\": \"Acheter\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"explore shop\"}], \"elevatedLinks\": [{\"id\": \"e1b94fd0\", \"text\": \"Tout derniers produits\", \"url\": \"/fr/shop/goto/store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"shop the latest\"}], \"ariaLabel\": \"Tout derniers produits Apple\"}, {\"id\": \"bc945808\", "
+    },
+    {
+     "url": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=fr_FR",
+     "body": "{\"id\": \"9rCvnHlESQOfXlLZM-eLFA\", \"results\": [{\"sectionName\": \"quickLinks\", \"sectionResults\": [{\"label\": \"Trouver un magasin\", \"url\": \"https://www.apple.com/fr/retail/\"}, {\"label\": \"Apple Vision Pro\", \"url\": \"https://www.apple.com/fr/apple-vision-pro/\"}, {\"label\": \"AirPods\", \"url\": \"https://www.apple.com/fr/airpods/\"}, {\"label\": \"Apple Intelligence\", \"url\": \"https://www.apple.com/fr/apple-intelligence/\"}, {\"label\": \"Apple Trade In\", \"url\": \"https://www.apple.com/fr/shop/goto/trade_in\"}]}, {\"sectionName\": \"suggestions\", \"sectionResults\": []}]}"
+    },
+    {
+     "url": "https://www.apple.com/fr/shop/api/digital-mat?path=library/step0_ipad/digitalmat&fae=true",
+     "body": "{\"head\": {\"status\": \"200\", \"data\": {}}, \"body\": {\"digitalMat\": [{\"enableDarkTheme\": false, \"familyTypes\": [{\"valuePropsContent\": {\"items\": [{\"index\": 0, \"value\": \"<div class=\\\"rf-digitalmat-valueprops-icon\\\"><div class=\\\"as-svgicon-container dd-color-forest-green\\\">\\n<svg width=\\\"21\\\" height=\\\"25\\\" viewBox=\\\"0 0 21 25\\\" class=\\\"dd-glyph-svg dd-glyph-reduced\\\" aria-hidden=\\\"true\\\">\\n  <path d=\\\"m18.5 5h-16a2.5 2.5 0 0 0 -2.5 2.5v10a2.5 2.5 0 0 0 2.5 2.5h15.9958a2.5 2.5 0 0 0 2.5-2.5l.0042-10a2.5 2.5 0 0 0 -2.5-2.5zm-16 1h16a1.5017 1.5017 0 0 1 1.5 1.5v1.5h-19v-1.5a1.5017 1.5017 0 0 1 1.5-1.5zm15.9958 13h-15.9958a1.5017 1.5017 0 0 1 -1.5-1.5v-6.5h19v6.5a1.5053 1.5053 0 0 1 -1.5042 1.5zm-11.4958-5.0179v2.0358a.83.83 0 0 1 -.8.8571h-2.4a.83.83 0 0 1 -.8-.8571v-2.0358a.83.83 0 0 1 .8-.8571h2.4a.83.83 0 0 1 .8.8571z\\\" />\\n</svg></div></div><div class=\\\"rf-digitalmat-valueprops-description\\\"><h3 class=\\\"rf-digitalmat-valueprops-header\\\">Financement</h3><span>Options de paiement mensuel&nbsp;disponibles</span></div>\", \"position\": 1, \"even\": true, \"first\": true, \"last\": false}, {\"index\": 1, \"value\": \"<div class=\\\"rf-digitalmat-valueprops-icon\\\"><div class=\\\"as-svgicon-container dd-color-blue-violet\\\">\\n<svg width=\\\"19\\\" height=\\\"25\\\" viewBox=\\\"0 0 19 25\\\" class=\\\"dd-glyph-svg dd-glyph-reduced\\\" aria-hidden=\\\"true\\\">\\n  <path d=\\\"m18 13.333v4.167c0 1.9297-1.57 3.5-3.4996 3.5h-10c-1.9297 0-3.5-1.5703-3.5-3.5v-1.9532h-.5476c-.3298 0-.4167-.2245-.2336-.4808l1.0259-1.4563c.1465-.2107.3663-.2062.5129 0l1.0259 1.4608c.1786.2518.0916.4763-.2336.4763h-.5503v1.9532c0 1.3789 1.1215 2.5 2.5004 2.5h10c1.3789 0 2.5-1.1211 2.5-2.5v-4.167c0-.2764.2236-.5.5-.5s.4996.2236.4996.5zm.5472-3.8798h-.5472v-1.9532c0-1.9297-1.57-3.5-3.4996-3.5h-10c-1.9297 0-3.5 1.5703-3.5 3.5v4.167c0 .2764.2236.5.5.5s.4996-.2236.4996-.5v-4.167c0-1.3789 1.1215-2.5 2.5004-2.5h10c1.3789 0 2.5 1.1211 2.5 2.5v1.9532h-.5507c-.3251 0-.4122.2245-.2336.4762l1.0259 1.4609c.1465.2061.3663.2107.5129 0l1.0258-1.4563c.1832-.2563.0962-.4808-.2336-.4808zm-5.146-.4532h-8.2099c-.2903 0-.52.0796-.6891.2368-.1681.1572-.2522.391-.2522.7004v5.0549h-.3784c-.1378 0-.2551.0501-.3519.1483-.0968.0992-.1447.2171-.1447.3566 0 .1375.0479.2564.1447.3556.0968.0982.2141.1474.3519.1474h7.9784c-.129-.2063-.1965-.4421-.2014-.7073 0-.0491-.001-.1002-.0029-.1493-.001-.0511-.002-.0923-.002-.1434h-6.8937v-5.0756c0-.1415.0352-.2476.1056-.3183s.1759-.1061.3167-.1061h9.0333c-.0176-.2358-.1744-.5-.8045-.5zm-1.038 1.2181c.1505-.1454.3617-.2181.6334-.2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.apple.com/fr/shop/buy-watch",
+   "status": 200,
+   "final_url": "https://www.apple.com/fr/shop/buy-watch",
+   "title": "Acheter l’Apple Watch - Apple (FR)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=fr_FR",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=fr_FR",
+    "https://www.apple.com/fr/shop/api/digital-mat?path=library/step0_watch/digitalmat&fae=true"
+   ],
+   "links": [
+    "https://www.apple.com/fr/shop/buy-watch/apple-watch",
+    "https://www.apple.com/fr/shop/buy-watch/apple-watch-se",
+    "https://www.apple.com/fr/shop/buy-watch/apple-watch-hermes"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "49,00 €",
+    "49,00 €",
+    "99,00 €",
+    "49,00 €",
+    "49,00 €",
+    "99,00 €",
+    "99,00 €",
+    "99,00 €",
+    "1 299,00 €",
+    "549,00 €"
+   ],
+   "items_by_source": {},
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Maison Divertissements Accessoires Assistance 0 + Achetez une Apple Watch à 0 % TAEG sur une durée maximale de 12 mois. Et faites reprendre un appareil pour réduire vos mensualités Note de bas de page ◊. En savoir plus Acheter une Apple Watch Contacter nos Spécialistes (s’ouvre dans une nouvelle fenêtre) Trouver un Apple Store (s’ouvre dans une nouvelle fenêtre) Tous les modèles Guides shopping Économisez Bracelets Apple Watch Recharge de l’Apple Watch : les indispensables L’expérience Apple Watch Configuration et Assistance Suivant Tous les modèles sont là. Faites votre choix. NOUVEAU Apple Watch Series 12 - NOUVEAU Découvrir - Apple Watch Series 12 + À partir de 449 € ou 37,42 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊ Acheter - Apple Watch Series 12 NOUVEAU Apple Watch Ultra 4 - NOUVEAU Découvrir - Apple Watch Ultra 4 À partir de 899 € ou 74,92 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊ Acheter - Apple Watch Ultra 4 Apple Watch SE 3 Découvrir - Apple Watch SE 3 À partir de 269 € ou 22,42 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊ Acheter - Apple Watch SE 3 NOUVEAU Apple Watch Hermès Series 12 - NOUVEAU Découvrir - Apple Watch Hermès Series 12 À partir de 1 599 € ou 133,25 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊ Acheter - Apple Watch Hermès Series 12 NOUVEAU Apple Watch Hermès Ultra 4 - NOUVEAU Dé",
+   "json_samples": [
+    {
+     "url": "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=fr_FR",
+     "body": "[{\"name\": \"apple\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple home\"}], \"id\": \"3d39a8ff\"}, {\"name\": \"store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"store\"}, {\"name\": \"data-analytics-element-engagement\", \"value\": \"hover - store\"}], \"baseGroups\": [{\"id\": \"cb5f4082\", \"title\": \"Liens rapides\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"quick links - store\"}], \"baseLinks\": [{\"id\": \"4eae6786\", \"text\": \"Trouver un magasin\", \"url\": \"/fr/retail/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"find a store\"}], \"ariaLabel\": \"\"}, {\"id\": \"81b2e503\", \"text\": \"État de votre commande\", \"url\": \"/fr/shop/goto/order/list\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"order status\"}], \"ariaLabel\": \"\"}, {\"id\": \"1eb5f35d\", \"text\": \"Apple Trade In\", \"url\": \"/fr/shop/goto/trade_in\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple trade in\"}], \"ariaLabel\": \"\"}, {\"id\": \"86b3aa75\", \"text\": \"Financement\", \"url\": \"/fr/shop/goto/ww/financing\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"financing\"}], \"ariaLabel\": \"\"}, {\"id\": \"29a6fed4\", \"text\": \"Configuration personnalisée\", \"url\": \"/fr/shop/goto/personal_setup\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"personal setup\"}], \"ariaLabel\": \"\"}]}, {\"id\": \"69d648e3\", \"title\": \"Acheter - Programmes spéciaux\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"shop special stores\"}], \"baseLinks\": [{\"id\": \"67f938c4\", \"text\": \"Produits reconditionnés\", \"url\": \"/fr/shop/goto/special_deals\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"certified refurbished\"}], \"ariaLabel\": \"\"}, {\"id\": \"8bac97fc\", \"text\": \"Éducation\", \"url\": \"/fr/shop/goto/educationrouting\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"education\"}], \"ariaLabel\": \"\"}, {\"id\": \"ef376e9f\", \"text\": \"Entreprises\", \"url\": \"/fr/retail/business/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"business\"}], \"ariaLabel\": \"\"}]}], \"elevatedGroups\": [{\"id\": \"74195cde\", \"title\": \"Acheter\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"explore shop\"}], \"elevatedLinks\": [{\"id\": \"e1b94fd0\", \"text\": \"Tout derniers produits\", \"url\": \"/fr/shop/goto/store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"shop the latest\"}], \"ariaLabel\": \"Tout derniers produits Apple\"}, {\"id\": \"bc945808\", "
+    },
+    {
+     "url": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=fr_FR",
+     "body": "{\"id\": \"9rCvnHlESQOfXlLZM-eLFA\", \"results\": [{\"sectionName\": \"quickLinks\", \"sectionResults\": [{\"label\": \"Trouver un magasin\", \"url\": \"https://www.apple.com/fr/retail/\"}, {\"label\": \"Apple Vision Pro\", \"url\": \"https://www.apple.com/fr/apple-vision-pro/\"}, {\"label\": \"AirPods\", \"url\": \"https://www.apple.com/fr/airpods/\"}, {\"label\": \"Apple Intelligence\", \"url\": \"https://www.apple.com/fr/apple-intelligence/\"}, {\"label\": \"Apple Trade In\", \"url\": \"https://www.apple.com/fr/shop/goto/trade_in\"}]}, {\"sectionName\": \"suggestions\", \"sectionResults\": []}]}"
+    },
+    {
+     "url": "https://www.apple.com/fr/shop/api/digital-mat?path=library/step0_watch/digitalmat&fae=true",
+     "body": "{\"head\": {\"status\": \"200\", \"data\": {}}, \"body\": {\"digitalMat\": [{\"enableDarkTheme\": false, \"familyTypes\": [{\"exploreLink\": {\"url\": \"https://www.apple.com/fr/apple-watch-series-12\", \"text\": \"Découvrez l’Apple Watch Series 12 plus en détail\", \"dataVar\": {}, \"omnitureData\": {\"linkText\": \"Découvrez l’Apple Watch Series 12 plus en détail\", \"commitCodeId\": 0}, \"newTab\": false, \"isLinkAsButton\": false, \"link\": \"https://www.apple.com/fr/apple-watch-series-12\", \"deeplink\": []}, \"valuePropsContent\": {\"items\": [{\"index\": 0, \"value\": \"<div class=\\\"rf-digitalmat-valueprops-icon\\\">\\n    <div class=\\\"as-svgicon-container dd-color-forest-green\\\">\\n        \\n<svg width=\\\"21\\\" height=\\\"25\\\" viewBox=\\\"0 0 21 25\\\" class=\\\"dd-glyph-svg dd-glyph-reduced\\\" aria-hidden=\\\"true\\\">\\n  <path d=\\\"m18.5 5h-16a2.5 2.5 0 0 0 -2.5 2.5v10a2.5 2.5 0 0 0 2.5 2.5h15.9958a2.5 2.5 0 0 0 2.5-2.5l.0042-10a2.5 2.5 0 0 0 -2.5-2.5zm-16 1h16a1.5017 1.5017 0 0 1 1.5 1.5v1.5h-19v-1.5a1.5017 1.5017 0 0 1 1.5-1.5zm15.9958 13h-15.9958a1.5017 1.5017 0 0 1 -1.5-1.5v-6.5h19v6.5a1.5053 1.5053 0 0 1 -1.5042 1.5zm-11.4958-5.0179v2.0358a.83.83 0 0 1 -.8.8571h-2.4a.83.83 0 0 1 -.8-.8571v-2.0358a.83.83 0 0 1 .8-.8571h2.4a.83.83 0 0 1 .8.8571z\\\" />\\n</svg>\\n    </div>\\n</div>\\n<div class=\\\"rf-digitalmat-valueprops-description\\\">\\n    <h3 class=\\\"rf-digitalmat-valueprops-header\\\">Financement</h3><span>Options de paiement mensuel&nbsp;disponibles</span>\\n</div>\", \"position\": 1, \"even\": true, \"first\": true, \"last\": false}, {\"index\": 1, \"value\": \"<div class=\\\"rf-digitalmat-valueprops-icon\\\">\\n\\t<div class=\\\"as-svgicon-container dd-color-blue-violet\\\">\\n\\t\\t\\n<svg width=\\\"19\\\" height=\\\"25\\\" viewBox=\\\"0 0 19 25\\\" class=\\\"dd-glyph-svg dd-glyph-reduced\\\" aria-hidden=\\\"true\\\">\\n  <path d=\\\"m18 13.333v4.167c0 1.9297-1.57 3.5-3.4996 3.5h-10c-1.9297 0-3.5-1.5703-3.5-3.5v-1.9532h-.5476c-.3298 0-.4167-.2245-.2336-.4808l1.0259-1.4563c.1465-.2107.3663-.2062.5129 0l1.0259 1.4608c.1786.2518.0916.4763-.2336.4763h-.5503v1.9532c0 1.3789 1.1215 2.5 2.5004 2.5h10c1.3789 0 2.5-1.1211 2.5-2.5v-4.167c0-.2764.2236-.5.5-.5s.4996.2236.4996.5zm.5472-3.8798h-.5472v-1.9532c0-1.9297-1.57-3.5-3.4996-3.5h-10c-1.9297 0-3.5 1.5703-3.5 3.5v4.167c0 .2764.2236.5.5.5s.4996-.2236.4996-.5v-4.167c0-1.3789 1.1215-2.5 2.5004-2.5h10c1.3789 0 2.5 1.1211 2.5 2.5v1.9532h-.5507c-.3251 0-.4122.2245-.2336.4762l1.0259 1.4609c.1465.2061.3663.2107.5129 0l1.0258-1.4563c.1832-.2563.0962-.4808-.2336-.4808zm-5.146-.4532h-8.2099c-.2903 0-.52.0796-.6891.2368-.1681.1572-.2522."
+    }
+   ]
+  },
+  {
+   "url": "https://www.apple.com/fr/shop/accessories/all/headphones-speakers",
+   "status": 200,
+   "final_url": "https://www.apple.com/fr/shop/accessories/all/headphones-speakers",
+   "title": "Casques et enceintes - Tous les accessoires - Apple (FR)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=fr_FR",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=fr_FR"
+   ],
+   "links": [
+    "https://www.apple.com/fr/shop/buy-airpods/airpods-pro-3"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "249,00 €",
+    "249,00 €",
+    "169,00 €",
+    "169,00 €",
+    "149,00 €",
+    "149,00 €",
+    "579,00 €",
+    "579,00 €",
+    "169,00 €",
+    "169,00 €"
+   ],
+   "items_by_source": {
+    "jsonld": 30
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Maison Divertissements Accessoires Assistance 0 + Accessoires Casques et enceintes Type d’accessoire Compatibilité Marque Couleur Casque Connexion Caractéristiques Exclusivement chez Apple Trier par: Sélection Gravure gratuite AirPods Pro 3 249,00 € Nouveau AirPods 5 avec Boîtier de charge sans fil 169,00 € Nouveau AirPods 5 149,00 € Gravure gratuite AirPods Max 2 579,00 € Nouveau HomePod mini 2 169,00 € HomePod 399,00 € Précédent Image - EarPods (USB-C) Suivant Image - EarPods (USB-C) EarPods (USB-C) 19,00 € Nouveau Beats 360 349,95 € Précédent Image - Kit de coussinets Beats 360 – Coussinets en maille technique pour écouteurs et arceau Noir Suivant Image - Kit de coussinets Beats 360 – Coussinets en maille technique pour écouteurs et arceau Noir Offre spéciale Kit de coussinets Beats 360 – Coussinets en maille technique pour écouteurs et arceau Noir Maintenant 9,95 €59,95 € Précédent Image - Kit de coussinets Beats 360 – Coussinets UltraPlush pour écouteurs et arceau Noir Suivant Image - Kit de coussinets Beats 360 – Coussinets UltraPlush pour écouteurs et arceau Noir Offre spéciale Kit de coussinets Beats 360 – Coussinets UltraPlush pour écouteurs et arceau Noir Maintenant 9,95 €59,95 € Précédent Image - Casque sans fil Beats Studio Pro – Moka Suivant Image - Casque sans fil Beats Studio Pro – Moka Casque sans fil Beats Studio Pro – Moka 299,95 € Précédent Image - Beats Solo 4 – Casque supra-auriculaire sans fil – Bleu ardoi"
+  },
+  {
+   "url": "https://www.apple.com/fr/shop/buy-iphone/iphone-duo",
+   "status": 200,
+   "final_url": "https://www.apple.com/fr/shop/buy-iphone/iphone-duo",
+   "title": "Acheter un iPhone Duo - Apple (FR)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=fr_FR",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=fr_FR",
+    "https://www.apple.com/fr/shop/favoritesx/fetch",
+    "https://www.apple.com/fr/shop/sba/d/init?fnode=f7cfe3814f8d05a815260e4405e8b766d9175b0bd8c26098cfd9214ed7d822124f5e31b20b700de55de58c792b182b77f4a83de7d92460809"
+   ],
+   "links": [
+    "https://www.apple.com/fr/shop/buy-iphone/iphone-duo",
+    "https://www.apple.com/fr/shop/buy-iphone/null",
+    "https://www.apple.com/fr/shop/buy-iphone/iphone-18-pro",
+    "https://www.apple.com/fr/shop/buy-iphone/iphone-air",
+    "https://www.apple.com/fr/shop/buy-iphone/iphone-17",
+    "https://www.apple.com/fr/shop/buy-iphone/iphone-17e"
+   ],
+   "tiles": [
+    "256 Go Note de bas de page 1 À partir de 2 339 € ou 97,46 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊",
+    "512 Go Note de bas de page 1 À partir de 2 589 € ou 107,88 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊",
+    "1 To Note de bas de page 1 À partir de 3 089 € ou 128,71 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊",
+    "2 To Note de bas de page 1 À partir de 3 839 € ou 159,96 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊",
+    "1 To Note de bas de page 1 Blanc stellaire 3 089,00 €",
+    "1 To Note de bas de page 1 Ciel nocturne 3 089,00 €",
+    "512 Go Note de bas de page 1 Blanc stellaire 2 589,00 €",
+    "512 Go Note de bas de page 1 Ciel nocturne 2 589,00 €",
+    "256 Go Note de bas de page 1 Blanc stellaire 2 339,00 €",
+    "256 Go Note de bas de page 1 Ciel nocturne 2 339,00 €",
+    "2 To Note de bas de page 1 Blanc stellaire 3 839,00 €",
+    "2 To Note de bas de page 1 Ciel nocturne 3 839,00 €"
+   ],
+   "price_texts": [
+    "À partir de 2 339 €",
+    "À partir de 2 339 €",
+    "À partir de 2 339 €",
+    "À partir de 2 589 €",
+    "À partir de 3 089 €",
+    "À partir de 3 839 €",
+    "20,99 €/mois par mois jusqu’à annulation",
+    "À partir de 2 339 €",
+    "3 089,00 €",
+    "3 089,00 €"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 8,
+    "jsonld": 1,
+    "dom-price": 1
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Maison Divertissements Accessoires Assistance 0 + Achetez un iPhone à 0 % TAEG sur 24 mois. Et faites reprendre un appareil pour réduire vos mensualités Note de bas de page ◊◊. En savoir plus iPhone Duo À partir de 2 339 € ou 97,46 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊ Livraison gratuite Retrait en Apple Store Nouveau Acheter un iPhone Duo À partir de 2 339 € ou 97,46 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊ Apple Intelligence Note de bas de page 4 En savoir plus, iPhone Duo Payez par mensualités avec Cetelem Note de bas de page ◊◊ Image précédente de la galerie Image suivante de la galerie Finition. Choisissez votre coloris préféré. Coloris Blanc stellaire Ciel nocturne Comparez la taille des écrans de l’iPhone Duo et de l’iPhone 18 Pro Max. Afficher plus Stockage. De combien d’espace avez-vous besoin ? 256 Go Note de bas de page 1 À partir de 2 339 € ou 97,46 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊ 512 Go Note de bas de page 1 À partir de 2 589 € ou 107,88 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊ 1 To Note de bas de page 1 À partir de 3 089 € ou 128,71 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊ 2 To Note de bas de page 1 À partir de 3 839 € ou 159,96 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊ Vous ne savez "
+  },
+  {
+   "url": "https://www.apple.com/fr/shop/buy-iphone/iphone-18-pro",
+   "status": 200,
+   "final_url": "https://www.apple.com/fr/shop/buy-iphone/iphone-18-pro",
+   "title": "Acheter l’iPhone 18 Pro et l’iPhone 18 Pro Max - Apple (FR)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=fr_FR",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=fr_FR",
+    "https://www.apple.com/fr/shop/favoritesx/fetch",
+    "https://www.apple.com/fr/shop/sba/d/init?fnode=8288a17b62361d599657b8b54b1494e9e75777f86f8c4ccdf11392c46b5d411b1d7c046a5051cf039ff07c940816c70838d741671de591ff4"
+   ],
+   "links": [
+    "https://www.apple.com/fr/shop/buy-iphone/iphone-18-pro",
+    "https://www.apple.com/fr/shop/buy-iphone/null",
+    "https://www.apple.com/fr/shop/buy-iphone/iphone-duo",
+    "https://www.apple.com/fr/shop/buy-iphone/iphone-air",
+    "https://www.apple.com/fr/shop/buy-iphone/iphone-17",
+    "https://www.apple.com/fr/shop/buy-iphone/iphone-17e"
+   ],
+   "tiles": [
+    "256 Go Note de bas de page 1 À partir de 1 479 € ou 61,63 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊",
+    "512 Go Note de bas de page 1 À partir de 1 729 € ou 72,04 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊",
+    "1 To Note de bas de page 1 À partir de 2 229 € ou 92,88 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊",
+    "2 To Note de bas de page 1 À partir de 2 979 € ou 124,13 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊",
+    "1 To Note de bas de page 1 Bordeaux 2 379,00 €",
+    "1 To Note de bas de page 1 Glacier 2 379,00 €",
+    "256 Go Note de bas de page 1 Argent 1 629,00 €",
+    "256 Go Note de bas de page 1 Noir 1 629,00 €",
+    "2 To Note de bas de page 1 Glacier 3 129,00 €",
+    "512 Go Note de bas de page 1 Noir 1 879,00 €",
+    "2 To Note de bas de page 1 Bordeaux 3 129,00 €",
+    "256 Go Note de bas de page 1 Glacier 1 629,00 €",
+    "2 To Note de bas de page 1 Argent 3 129,00 €",
+    "256 Go Note de bas de page 1 Bordeaux 1 629,00 €",
+    "2 To Note de bas de page 1 Noir 3 129,00 €"
+   ],
+   "price_texts": [
+    "À partir de 1 479 €",
+    "À partir de 1 479 €",
+    "À partir de 1 479 €",
+    "À partir de 1 629 €",
+    "À partir de 1 479 €",
+    "À partir de 1 729 €",
+    "À partir de 2 229 €",
+    "À partir de 2 979 €",
+    "20,99 €/mois par mois jusqu’à annulation",
+    "À partir de 1 479 €"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 32,
+    "jsonld": 2,
+    "dom-price": 1
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Maison Divertissements Accessoires Assistance 0 + Achetez un iPhone à 0 % TAEG sur 24 mois. Et faites reprendre un appareil pour réduire vos mensualités Note de bas de page ◊◊. En savoir plus iPhone 18 Pro À partir de 1 479 € ou 61,63 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊ Livraison gratuite Retrait en Apple Store Nouveau Acheter un iPhone 18 Pro À partir de 1 479 € ou 61,63 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊ Apple Intelligence Note de bas de page 4 En savoir plus, iPhone 18 Pro Payez par mensualités avec Cetelem Note de bas de page ◊◊ Image précédente de la galerie Image suivante de la galerie Modèle. Quel modèle vous faut‑il ? iPhone 18 Pro Écran de 6,3 pouces Note de bas de page 2 À partir de 1 479 € ou 61,63 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊ iPhone 18 Pro Max Écran de 6,9 pouces Note de bas de page 2 À partir de 1 629 € ou 67,88 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊ Besoin d’aide pour choisir un modèle ? Découvrez les différences en termes de taille d’écran et d’autonomie de la batterie. Afficher plus Finition. Choisissez votre coloris préféré. Coloris Bordeaux Glacier Argent Noir Stockage. De combien d’espace avez-vous besoin ? 256 Go Note de bas de page 1 À partir de 1 479 € ou 61,63 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page "
+  },
+  {
+   "url": "https://www.apple.com/fr/shop/buy-iphone/iphone-air",
+   "status": 200,
+   "final_url": "https://www.apple.com/fr/shop/buy-iphone/iphone-air",
+   "title": "Acheter un iPhone Air - Apple (FR)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=fr_FR",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=fr_FR",
+    "https://www.apple.com/fr/shop/favoritesx/fetch",
+    "https://www.apple.com/fr/shop/sba/d/init?fnode=a09f2107b2de15bf7ed5a31d70b81aa7869495fd3a9e2407517d693c9825562f7830a6342e1132c4058888eb8a3f879971f5daa9190d6f613"
+   ],
+   "links": [
+    "https://www.apple.com/fr/shop/buy-iphone/iphone-air",
+    "https://www.apple.com/fr/shop/buy-iphone/null",
+    "https://www.apple.com/fr/shop/buy-iphone/iphone-duo",
+    "https://www.apple.com/fr/shop/buy-iphone/iphone-18-pro",
+    "https://www.apple.com/fr/shop/buy-iphone/iphone-17",
+    "https://www.apple.com/fr/shop/buy-iphone/iphone-17e"
+   ],
+   "tiles": [
+    "256 Go Note de bas de page 1 À partir de 1 329 € ou 55,38 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊",
+    "512 Go Note de bas de page 1 À partir de 1 579 € ou 65,79 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊",
+    "1 To Note de bas de page 1 À partir de 2 079 € ou 86,63 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊",
+    "512 Go Note de bas de page 1 Or clair sans abonnement 1 579,00 €",
+    "512 Go Note de bas de page 1 Bleu ciel sans abonnement 1 579,00 €",
+    "512 Go Note de bas de page 1 Blanc nuage sans abonnement 1 579,00 €",
+    "1 To Note de bas de page 1 Or clair sans abonnement 2 079,00 €",
+    "1 To Note de bas de page 1 Noir sidéral sans abonnement 2 079,00 €",
+    "1 To Note de bas de page 1 Blanc nuage sans abonnement 2 079,00 €",
+    "256 Go Note de bas de page 1 Blanc nuage sans abonnement 1 329,00 €",
+    "256 Go Note de bas de page 1 Noir sidéral sans abonnement 1 329,00 €",
+    "256 Go Note de bas de page 1 Or clair sans abonnement 1 329,00 €",
+    "512 Go Note de bas de page 1 Noir sidéral sans abonnement 1 579,00 €",
+    "1 To Note de bas de page 1 Bleu ciel sans abonnement 2 079,00 €",
+    "256 Go Note de bas de page 1 Bleu ciel sans abonnement 1 329,00 €"
+   ],
+   "price_texts": [
+    "À partir de 1 329 €",
+    "À partir de 1 329 €",
+    "À partir de 1 329 €",
+    "À partir de 1 579 €",
+    "À partir de 2 079 €",
+    "20,99 €/mois par mois jusqu’à annulation",
+    "À partir de 1 329 €",
+    "1 579,00 €",
+    "1 579,00 €",
+    "1 579,00 €"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 12,
+    "jsonld": 1,
+    "dom-price": 1
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Maison Divertissements Accessoires Assistance 0 + Achetez un iPhone à 0 % TAEG sur 24 mois. Et faites reprendre un appareil pour réduire vos mensualités Note de bas de page ◊◊. En savoir plus iPhone Air À partir de 1 329 € ou 55,38 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊ Livraison gratuite Retrait en Apple Store Acheter un iPhone Air À partir de 1 329 € ou 55,38 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊ Apple Intelligence Note de bas de page 4 En savoir plus, iPhone Air Payez par mensualités avec Cetelem Note de bas de page ◊◊ Image précédente de la galerie Image suivante de la galerie Finition. Choisissez votre coloris préféré. Coloris Bleu ciel Blanc nuage Noir sidéral Or clair Stockage. De combien d’espace avez-vous besoin ? 256 Go Note de bas de page 1 À partir de 1 329 € ou 55,38 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊ 512 Go Note de bas de page 1 À partir de 1 579 € ou 65,79 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊ 1 To Note de bas de page 1 À partir de 2 079 € ou 86,63 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊ Vous ne savez pas pour quel espace de stockage opter ? Voici des conseils pour déterminer l’espace qu’il vous faut. Afficher plus Apple Trade In.Obtenez un crédit de 30 € à 1 020 € à valoir sur l’achat de votre nouvel iPhone Note "
+  },
+  {
+   "url": "https://www.apple.com/fr/shop/buy-iphone/iphone-17",
+   "status": 200,
+   "final_url": "https://www.apple.com/fr/shop/buy-iphone/iphone-17",
+   "title": "Acheter un iPhone 17 - Apple (FR)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=fr_FR",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=fr_FR",
+    "https://www.apple.com/fr/shop/favoritesx/fetch",
+    "https://www.apple.com/fr/shop/sba/d/init?fnode=3ea41e4dc9d43997a3252a2b5a0890bc0d60169ff1e4692f5f24924e8e0851735970b5c02156b12deff800f04c18ef78e3b0e1ac3e1a2a974"
+   ],
+   "links": [
+    "https://www.apple.com/fr/shop/buy-iphone/iphone-17",
+    "https://www.apple.com/fr/shop/buy-iphone/null",
+    "https://www.apple.com/fr/shop/buy-iphone/iphone-duo",
+    "https://www.apple.com/fr/shop/buy-iphone/iphone-18-pro",
+    "https://www.apple.com/fr/shop/buy-iphone/iphone-air",
+    "https://www.apple.com/fr/shop/buy-iphone/iphone-17e"
+   ],
+   "tiles": [
+    "256 Go Note de bas de page 1 À partir de 1 119 € ou 46,63 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊",
+    "512 Go Note de bas de page 1 À partir de 1 369 € ou 57,04 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊",
+    "256 Go Note de bas de page 1 Brume 1 119,00 €",
+    "256 Go Note de bas de page 1 Lavande 1 119,00 €",
+    "256 Go Note de bas de page 1 Noir 1 119,00 €",
+    "256 Go Note de bas de page 1 Blanc 1 119,00 €",
+    "512 Go Note de bas de page 1 Blanc 1 369,00 €",
+    "512 Go Note de bas de page 1 Noir 1 369,00 €",
+    "256 Go Note de bas de page 1 Sauge 1 119,00 €",
+    "512 Go Note de bas de page 1 Lavande 1 369,00 €",
+    "512 Go Note de bas de page 1 Sauge 1 369,00 €",
+    "512 Go Note de bas de page 1 Brume 1 369,00 €"
+   ],
+   "price_texts": [
+    "À partir de 1 119 €",
+    "À partir de 1 119 €",
+    "À partir de 1 119 €",
+    "À partir de 1 369 €",
+    "20,99 €/mois par mois jusqu’à annulation",
+    "À partir de 1 119 €",
+    "1 119,00 €",
+    "1 119,00 €",
+    "1 119,00 €",
+    "1 119,00 €"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 10,
+    "jsonld": 1,
+    "dom-price": 1
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Maison Divertissements Accessoires Assistance 0 + Achetez un iPhone à 0 % TAEG sur 24 mois. Et faites reprendre un appareil pour réduire vos mensualités Note de bas de page ◊◊. En savoir plus iPhone 17 À partir de 1 119 € ou 46,63 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊ Livraison gratuite Retrait en Apple Store Acheter un iPhone 17 À partir de 1 119 € ou 46,63 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊ Apple Intelligence Note de bas de page 4 En savoir plus, iPhone 17 Payez par mensualités avec Cetelem Note de bas de page ◊◊ Image précédente de la galerie Image suivante de la galerie Finition. Choisissez votre coloris préféré. Coloris Lavande Brume Blanc Sauge Noir Stockage. De combien d’espace avez-vous besoin ? 256 Go Note de bas de page 1 À partir de 1 119 € ou 46,63 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊ 512 Go Note de bas de page 1 À partir de 1 369 € ou 57,04 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊ Vous ne savez pas pour quel espace de stockage opter ? Voici des conseils pour déterminer l’espace qu’il vous faut. Afficher plus Apple Trade In.Obtenez un crédit de 30 € à 1 020 € à valoir sur l’achat de votre nouvel iPhone Note de bas de page ◊. Ajouter une reprise Répondez à quelques questions pour obtenir votre estimation. Pas de reprise Comment le processus d’échange fon"
+  },
+  {
+   "url": "https://www.apple.com/fr/shop/buy-iphone/iphone-17e",
+   "status": 200,
+   "final_url": "https://www.apple.com/fr/shop/buy-iphone/iphone-17e",
+   "title": "Acheter l’iPhone 17e - Apple (FR)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=fr_FR",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=fr_FR",
+    "https://www.apple.com/fr/shop/favoritesx/fetch",
+    "https://www.apple.com/fr/shop/sba/d/init?fnode=6acc72469e94af83f68fd0673a0398744502fd7323f882ef176cdae07b84ec9313cac2fe122e6f9563767ba74290d446f95a460326dabfdb1"
+   ],
+   "links": [
+    "https://www.apple.com/fr/shop/buy-iphone/iphone-17e",
+    "https://www.apple.com/fr/shop/buy-iphone/null",
+    "https://www.apple.com/fr/shop/buy-iphone/iphone-duo",
+    "https://www.apple.com/fr/shop/buy-iphone/iphone-18-pro",
+    "https://www.apple.com/fr/shop/buy-iphone/iphone-air",
+    "https://www.apple.com/fr/shop/buy-iphone/iphone-17"
+   ],
+   "tiles": [
+    "256 Go Note de bas de page 1 À partir de 869 € ou 36,21 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊",
+    "512 Go Note de bas de page 1 À partir de 1 119 € ou 46,63 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊",
+    "512 Go Note de bas de page 1 Noir 1 119,00 €",
+    "256 Go Note de bas de page 1 Blanc 869,00 €",
+    "256 Go Note de bas de page 1 Rose pastel 869,00 €",
+    "512 Go Note de bas de page 1 Rose pastel 1 119,00 €",
+    "256 Go Note de bas de page 1 Noir 869,00 €",
+    "512 Go Note de bas de page 1 Blanc 1 119,00 €"
+   ],
+   "price_texts": [
+    "À partir de 869 €",
+    "À partir de 869 €",
+    "À partir de 869 €",
+    "À partir de 1 119 €",
+    "20,99 €/mois par mois jusqu’à annulation",
+    "À partir de 869 €",
+    "1 119,00 €",
+    "1 119,00 €",
+    "869,00 €",
+    "869,00 €"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 6,
+    "jsonld": 1,
+    "dom-price": 1
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Maison Divertissements Accessoires Assistance 0 + Achetez un iPhone à 0 % TAEG sur 24 mois. Et faites reprendre un appareil pour réduire vos mensualités Note de bas de page ◊◊. En savoir plus iPhone 17e À partir de 869 € ou 36,21 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊ Livraison gratuite Retrait en Apple Store Acheter un iPhone 17e À partir de 869 € ou 36,21 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊ Apple Intelligence Note de bas de page 4 En savoir plus, iPhone 17e Payez par mensualités avec Cetelem Note de bas de page ◊◊ Image précédente de la galerie Image suivante de la galerie Finition. Choisissez votre coloris préféré. Coloris Rose pastel Blanc Noir Stockage. De combien d’espace avez-vous besoin ? 256 Go Note de bas de page 1 À partir de 869 € ou 36,21 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊ 512 Go Note de bas de page 1 À partir de 1 119 € ou 46,63 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊ Vous ne savez pas pour quel espace de stockage opter ? Voici des conseils pour déterminer l’espace qu’il vous faut. Afficher plus Apple Trade In.Obtenez un crédit de 30 € à 1 020 € à valoir sur l’achat de votre nouvel iPhone Note de bas de page ◊. Ajouter une reprise Répondez à quelques questions pour obtenir votre estimation. Pas de reprise Comment le processus d’échange fonctionne‑t‑i"
+  },
+  {
+   "url": "https://www.apple.com/fr/shop/buy-iphone/iphone-16",
+   "status": 200,
+   "final_url": "https://www.apple.com/fr/shop/buy-iphone/iphone-16",
+   "title": "Acheter un iPhone 16 - Apple (FR)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=fr_FR",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=fr_FR",
+    "https://www.apple.com/fr/shop/favoritesx/fetch",
+    "https://www.apple.com/fr/shop/sba/d/init?fnode=13fd6c3f70e67daf55dbac2278a9d9da89a091d21b2e3cf790613994c63880ee8d88f54ffcd7f38d371090438cee7e644fd7d995dcffc381a",
+    "https://www.apple.com/fr/shop/api/product-gallery?fae=true&node=home%2Fshop_iphone%2Ffamily%2Fiphone_16%2Fselect&dm.dimensionScreensize=6_1inch"
+   ],
+   "links": [
+    "https://www.apple.com/fr/shop/buy-iphone/iphone-16",
+    "https://www.apple.com/fr/shop/buy-iphone/null",
+    "https://www.apple.com/fr/shop/buy-iphone/iphone-duo",
+    "https://www.apple.com/fr/shop/buy-iphone/iphone-18-pro",
+    "https://www.apple.com/fr/shop/buy-iphone/iphone-air",
+    "https://www.apple.com/fr/shop/buy-iphone/iphone-17",
+    "https://www.apple.com/fr/shop/buy-iphone/iphone-17e"
+   ],
+   "tiles": [
+    "128 Go Note de bas de page 1 À partir de 1 019 € ou 42,46 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊",
+    "128 Go Note de bas de page 1 Blanc sans abonnement 1 019,00 €",
+    "128 Go Note de bas de page 1 Noir sans abonnement 1 019,00 €",
+    "128 Go Note de bas de page 1 Rose sans abonnement 1 019,00 €",
+    "128 Go Note de bas de page 1 Sarcelle sans abonnement 1 019,00 €",
+    "128 Go Note de bas de page 1 Outremer sans abonnement 1 019,00 €"
+   ],
+   "price_texts": [
+    "À partir de 1 019 €",
+    "À partir de 1 019 €",
+    "À partir de 1 019 €",
+    "À partir de 1 019 €",
+    "20,99 €/mois par mois jusqu’à annulation",
+    "À partir de 1 019 €",
+    "1 019,00 €",
+    "1 019,00 €",
+    "1 019,00 €",
+    "1 019,00 €"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 5,
+    "jsonld": 1,
+    "dom-price": 1
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Maison Divertissements Accessoires Assistance 0 + Achetez un iPhone à 0 % TAEG sur 24 mois. Et faites reprendre un appareil pour réduire vos mensualités Note de bas de page ◊◊. En savoir plus iPhone 16 À partir de 1 019 € ou 42,46 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊ Livraison gratuite Retrait en Apple Store Acheter un iPhone 16 À partir de 1 019 € ou 42,46 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊ Apple Intelligence Note de bas de page 4 En savoir plus, iPhone 16 Payez par mensualités avec Cetelem Note de bas de page ◊◊ Image précédente de la galerie Image suivante de la galerie Finition. Choisissez votre coloris préféré. Coloris Outremer Sarcelle Blanc Rose Noir Stockage. De combien d’espace avez-vous besoin ? 128 Go Note de bas de page 1 À partir de 1 019 € ou 42,46 €/mois par mois pour 24 mois à 0 % taux débiteur Note de bas de page ◊◊ Apple Trade In.Obtenez un crédit de 30 € à 1 020 € à valoir sur l’achat de votre nouvel iPhone Note de bas de page ◊. Ajouter une reprise Répondez à quelques questions pour obtenir votre estimation. Pas de reprise Comment le processus d’échange fonctionne‑t‑il ? Découvrez comment économiser sur votre achat en faisant reprendre un appareil. Ou faites recycler votre appareil gratuitement. Afficher plus Couverture AppleCare. Plusieurs options. Zéro souci Note de bas de page ※. AppleCare+ avec couverture en"
+  },
+  {
+   "url": "https://www.apple.com/fr/shop/buy-ipad/ipad-pro",
+   "status": 200,
+   "final_url": "https://www.apple.com/fr/shop/buy-ipad/ipad-pro",
+   "title": "Acheter l’iPad Pro - Apple (FR)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=fr_FR",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=fr_FR",
+    "https://www.apple.com/fr/shop/favoritesx/fetch",
+    "https://www.apple.com/fr/shop/sba/d/init?fnode=c391e5b94dd0a434edada40fa8359b0e01a3274d4efbce76e0a8a6e5500f02349ff4948491a2c783563c82f0428bc5c863ce7226b48791fc6",
+    "https://www.apple.com/fr/shop/engrave/json?fae=true&product=MX2D3ZM%2FA"
+   ],
+   "links": [
+    "https://www.apple.com/fr/shop/buy-ipad/ipad-pro",
+    "https://www.apple.com/fr/shop/buy-ipad/null",
+    "https://www.apple.com/fr/shop/buy-ipad/ipad-air",
+    "https://www.apple.com/fr/shop/buy-ipad/ipad",
+    "https://www.apple.com/fr/shop/buy-ipad/ipad-mini"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "À partir de 1 319 €",
+    "À partir de 1 319 €",
+    "À partir de 1 319 €",
+    "À partir de 1 669 €",
+    "À partir de 1 319 €",
+    "À partir de 1 569 €",
+    "À partir de 2 049 €",
+    "À partir de 2 669 €",
+    "À partir de 1 319 €",
+    "À partir de 2 179 €"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 48,
+    "jsonld": 48,
+    "dom-price": 1
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Maison Divertissements Accessoires Assistance 0 + Achetez un iPad à 4,79 % TAEG sur une durée maximale de 24 mois. Et faites reprendre un appareil pour réduire vos mensualités Note de bas de page ◊◊. iPad Pro À partir de 1 319 € ou 57,74 €/mois par mois pour 24 mois à 4,79 % taux débiteur Note de bas de page ◊◊ Livraison gratuite Retrait en Apple Store Achetez l’iPad Pro À partir de 1 319 € ou 57,74 €/mois par mois pour 24 mois à 4,79 % taux débiteur Note de bas de page ◊◊ Apple Intelligence Note de bas de page 4 En savoir plus, iPad Pro 11 pouces Obtenez entre 30 € à 1 100 € pour la reprise de votre appareil Note de bas de page ◊ Payez par mensualités avec Cetelem Note de bas de page ◊◊ Image précédente de la galerie Image suivante de la galerie Modèle. Choisissez la taille. Modèle 11 pouces Écran Ultra Retina XDR À partir de 1 319 € ou 57,74 €/mois par mois pour 24 mois à 4,79 % taux débiteur Note de bas de page ◊◊ Modèle 13 pouces Écran Ultra Retina XDR À partir de 1 669 € ou 73,06 €/mois par mois pour 24 mois à 4,79 % taux débiteur Note de bas de page ◊◊ Envie d’en savoir plus sur l’Ultra Retina XDR ? Plongez au cœur de notre écran le plus avancé. Afficher plus Finition. Choisissez votre coloris préféré. Coloris Noir sidéral Argent Stockage, mémoire et puce. Choisissez votre configuration. 256 Go de stockage Note de bas de page 2 12 Go de mémoire Puce M5 : CPU 9 cœurs, GPU 10 cœurs À partir de 1 3"
+  },
+  {
+   "url": "https://www.apple.com/fr/shop/buy-ipad/ipad-air",
+   "status": 200,
+   "final_url": "https://www.apple.com/fr/shop/buy-ipad/ipad-air",
+   "title": "Acheter un iPad Air - Apple (FR)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=fr_FR",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=fr_FR",
+    "https://www.apple.com/fr/shop/favoritesx/fetch",
+    "https://www.apple.com/fr/shop/sba/d/init?fnode=a441056dff9e88883c0e6e7cc0b23d97d33dd28874e63e92f6813458549aab296802be9f7727b296726041143bb4afea864344be01820b6ab",
+    "https://www.apple.com/fr/shop/engrave/json?fae=true&product=MX2D3ZM%2FA"
+   ],
+   "links": [
+    "https://www.apple.com/fr/shop/buy-ipad/ipad-air",
+    "https://www.apple.com/fr/shop/buy-ipad/null",
+    "https://www.apple.com/fr/shop/buy-ipad/ipad-pro",
+    "https://www.apple.com/fr/shop/buy-ipad/ipad",
+    "https://www.apple.com/fr/shop/buy-ipad/ipad-mini"
+   ],
+   "tiles": [
+    "128 Go Note de bas de page 2 À partir de 819 € ou 68,25 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊◊",
+    "256 Go Note de bas de page 2 À partir de 959 € ou 79,92 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊◊",
+    "512 Go Note de bas de page 2 À partir de 1 199 € ou 99,92 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊◊",
+    "1 To Note de bas de page 2 À partir de 1 589 € ou 132,42 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊◊",
+    "1 To Note de bas de page 2 Gris sidéral Wi-FiTous les modèles d’iPad peuvent se connecter aux réseaux Wi-Fi pour vous permettre de garder le contact. 1 589,00 €",
+    "128 Go Note de bas de page 2 Gris sidéral Wi-FiTous les modèles d’iPad peuvent se connecter aux réseaux Wi-Fi pour vous permettre de garder le contact. 819,00 €",
+    "256 Go Note de bas de page 2 Gris sidéral Wi-FiTous les modèles d’iPad peuvent se connecter aux réseaux Wi-Fi pour vous permettre de garder le contact. 959,00 €",
+    "512 Go Note de bas de page 2 Violet Wi-FiTous les modèles d’iPad peuvent se connecter aux réseaux Wi-Fi pour vous permettre de garder le contact. 1 199,00 €",
+    "1 To Note de bas de page 2 Violet Wi-FiTous les modèles d’iPad peuvent se connecter aux réseaux Wi-Fi pour vous permettre de garder le contact. 1 589,00 €",
+    "128 Go Note de bas de page 2 Violet Wi-FiTous les modèles d’iPad peuvent se connecter aux réseaux Wi-Fi pour vous permettre de garder le contact. 819,00 €",
+    "256 Go Note de bas de page 2 Violet Wi-FiTous les modèles d’iPad peuvent se connecter aux réseaux Wi-Fi pour vous permettre de garder le contact. 959,00 €",
+    "512 Go Note de bas de page 2 Bleu Wi-FiTous les modèles d’iPad peuvent se connecter aux réseaux Wi-Fi pour vous permettre de garder le contact. 1 199,00 €",
+    "1 To Note de bas de page 2 Bleu Wi-FiTous les modèles d’iPad peuvent se connecter aux réseaux Wi-Fi pour vous permettre de garder le contact. 1 589,00 €",
+    "128 Go Note de bas de page 2 Bleu Wi-FiTous les modèles d’iPad peuvent se connecter aux réseaux Wi-Fi pour vous permettre de garder le contact. 819,00 €",
+    "256 Go Note de bas de page 2 Bleu Wi-FiTous les modèles d’iPad peuvent se connecter aux réseaux Wi-Fi pour vous permettre de garder le contact. 959,00 €"
+   ],
+   "price_texts": [
+    "À partir de 819 €",
+    "À partir de 819 €",
+    "À partir de 819 €",
+    "À partir de 1 019 €",
+    "À partir de 819 €",
+    "À partir de 959 €",
+    "À partir de 1 199 €",
+    "À partir de 1 589 €",
+    "À partir de 819 €",
+    "À partir de 989 €"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 64,
+    "jsonld": 64,
+    "dom-price": 1
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Maison Divertissements Accessoires Assistance 0 + Achetez un iPad à 0 % TAEG sur une durée maximale de 12 mois. Et faites reprendre un appareil pour réduire vos mensualités Note de bas de page ◊◊. iPad Air À partir de 819 € ou 68,25 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊◊ Livraison gratuite Retrait en Apple Store Acheter un iPad Air À partir de 819 € ou 68,25 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊◊ Apple Intelligence Note de bas de page 4 En savoir plus, iPad Air 11 pouces Obtenez entre 30 € à 1 100 € pour la reprise de votre appareil Note de bas de page ◊ Payez par mensualités avec Cetelem Note de bas de page ◊◊ Image précédente de la galerie Image suivante de la galerie Modèle. Choisissez la taille. Modèle 11 pouces À partir de 819 € ou 68,25 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊◊ Modèle 13 pouces À partir de 1 019 € ou 84,92 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊◊ Finition. Choisissez votre coloris préféré. Coloris Violet Bleu Lumière stellaire Gris sidéral Stockage. Choisissez l’espace de stockage qu’il vous faut. 128 Go Note de bas de page 2 À partir de 819 € ou 68,25 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊◊ 256 Go Note de bas de page 2 À partir de 959 € ou 79,92 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page "
+  },
+  {
+   "url": "https://www.apple.com/fr/shop/buy-ipad/ipad",
+   "status": 200,
+   "final_url": "https://www.apple.com/fr/shop/buy-ipad/ipad",
+   "title": "Acheter un iPad - Apple (FR)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=fr_FR",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=fr_FR",
+    "https://www.apple.com/fr/shop/favoritesx/fetch",
+    "https://www.apple.com/fr/shop/sba/d/init?fnode=b2362f4f63cc0f73e9a40d0c592bf9c23e912f2f08ca32ccade7edf9bd8fa5709fa40dc5bf2bc06d8b364554ffe2091de94366eb70c382d3e"
+   ],
+   "links": [
+    "https://www.apple.com/fr/shop/buy-ipad/ipad",
+    "https://www.apple.com/fr/shop/buy-ipad/null",
+    "https://www.apple.com/fr/shop/buy-ipad/ipad-pro",
+    "https://www.apple.com/fr/shop/buy-ipad/ipad-air",
+    "https://www.apple.com/fr/shop/buy-ipad/ipad-mini"
+   ],
+   "tiles": [
+    "128 Go Note de bas de page 2 À partir de 509 € ou 42,42 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊◊",
+    "256 Go Note de bas de page 2 À partir de 639 € ou 53,25 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊◊",
+    "512 Go Note de bas de page 2 À partir de 889 € ou 74,08 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊◊",
+    "128 Go Note de bas de page 2 Bleu Wi-FiTous les modèles d’iPad peuvent se connecter aux réseaux Wi-Fi pour vous permettre de garder le contact. 509,00 €",
+    "256 Go Note de bas de page 2 Bleu Wi-FiTous les modèles d’iPad peuvent se connecter aux réseaux Wi-Fi pour vous permettre de garder le contact. 639,00 €",
+    "512 Go Note de bas de page 2 Bleu Wi-FiTous les modèles d’iPad peuvent se connecter aux réseaux Wi-Fi pour vous permettre de garder le contact. 889,00 €",
+    "128 Go Note de bas de page 2 Argent Wi-FiTous les modèles d’iPad peuvent se connecter aux réseaux Wi-Fi pour vous permettre de garder le contact. 509,00 €",
+    "256 Go Note de bas de page 2 Argent Wi-FiTous les modèles d’iPad peuvent se connecter aux réseaux Wi-Fi pour vous permettre de garder le contact. 639,00 €",
+    "512 Go Note de bas de page 2 Argent Wi-FiTous les modèles d’iPad peuvent se connecter aux réseaux Wi-Fi pour vous permettre de garder le contact. 889,00 €",
+    "128 Go Note de bas de page 2 Rose Wi-FiTous les modèles d’iPad peuvent se connecter aux réseaux Wi-Fi pour vous permettre de garder le contact. 509,00 €",
+    "256 Go Note de bas de page 2 Rose Wi-FiTous les modèles d’iPad peuvent se connecter aux réseaux Wi-Fi pour vous permettre de garder le contact. 639,00 €",
+    "512 Go Note de bas de page 2 Rose Wi-FiTous les modèles d’iPad peuvent se connecter aux réseaux Wi-Fi pour vous permettre de garder le contact. 889,00 €",
+    "128 Go Note de bas de page 2 Jaune Wi-FiTous les modèles d’iPad peuvent se connecter aux réseaux Wi-Fi pour vous permettre de garder le contact. 509,00 €",
+    "256 Go Note de bas de page 2 Jaune Wi-FiTous les modèles d’iPad peuvent se connecter aux réseaux Wi-Fi pour vous permettre de garder le contact. 639,00 €",
+    "512 Go Note de bas de page 2 Jaune Wi-FiTous les modèles d’iPad peuvent se connecter aux réseaux Wi-Fi pour vous permettre de garder le contact. 889,00 €"
+   ],
+   "price_texts": [
+    "À partir de 509 €",
+    "À partir de 509 €",
+    "À partir de 509 €",
+    "À partir de 639 €",
+    "À partir de 889 €",
+    "À partir de 509 €",
+    "À partir de 679 €",
+    "89,00 €",
+    "119,00 €",
+    "299,00 €"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 24,
+    "jsonld": 24,
+    "dom-price": 1
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Maison Divertissements Accessoires Assistance 0 + Achetez un iPad à 0 % TAEG sur une durée maximale de 12 mois. Et faites reprendre un appareil pour réduire vos mensualités Note de bas de page ◊◊. iPad À partir de 509 € ou 42,42 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊◊ Livraison gratuite Retrait en Apple Store Acheter un iPad À partir de 509 € ou 42,42 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊◊ En savoir plus, iPad Obtenez entre 30 € à 1 100 € pour la reprise de votre appareil Note de bas de page ◊ Payez par mensualités avec Cetelem Note de bas de page ◊◊ Image précédente de la galerie Image suivante de la galerie Finition. Choisissez votre coloris préféré. Coloris Argent Rose Bleu Jaune Stockage. Choisissez l’espace de stockage qu’il vous faut. 128 Go Note de bas de page 2 À partir de 509 € ou 42,42 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊◊ 256 Go Note de bas de page 2 À partir de 639 € ou 53,25 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊◊ 512 Go Note de bas de page 2 À partir de 889 € ou 74,08 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊◊ Vous ne savez pas pour quel espace de stockage opter ? En optant dès aujourd’hui pour un iPad doté d’une plus grande capacité, vous pourrez y stocker davantage de contenus numériques à l’avenir. Afficher plus Connectivi"
+  },
+  {
+   "url": "https://www.apple.com/fr/shop/buy-ipad/ipad-mini",
+   "status": 200,
+   "final_url": "https://www.apple.com/fr/shop/buy-ipad/ipad-mini",
+   "title": "Acheter un iPad mini - Apple (FR)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=fr_FR",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=fr_FR",
+    "https://www.apple.com/fr/shop/favoritesx/fetch",
+    "https://www.apple.com/fr/shop/sba/d/init?fnode=2f00b8cfe3054692af86b72518509c030fa23f1d928a7d8401e1fb95f2401b7d65fe41f7c47a7c59f51d94e75618dbfe56638b98c704744b3",
+    "https://www.apple.com/fr/shop/engrave/json?fae=true&product=MX2D3ZM%2FA"
+   ],
+   "links": [
+    "https://www.apple.com/fr/shop/buy-ipad/ipad-mini",
+    "https://www.apple.com/fr/shop/buy-ipad/null",
+    "https://www.apple.com/fr/shop/buy-ipad/ipad-pro",
+    "https://www.apple.com/fr/shop/buy-ipad/ipad-air",
+    "https://www.apple.com/fr/shop/buy-ipad/ipad"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "À partir de 759 €",
+    "À partir de 759 €",
+    "À partir de 759 €",
+    "À partir de 889 €",
+    "À partir de 1 139 €",
+    "À partir de 759 €",
+    "À partir de 1 019 €",
+    "À partir de 759 €",
+    "À partir de 929 €",
+    "149,00 €"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 20,
+    "jsonld": 20,
+    "dom-price": 1
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Maison Divertissements Accessoires Assistance 0 + Achetez un iPad à 0 % TAEG sur une durée maximale de 12 mois. Et faites reprendre un appareil pour réduire vos mensualités Note de bas de page ◊◊. iPad mini À partir de 759 € ou 63,25 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊◊ Livraison gratuite Retrait en Apple Store Nouveau Précommander un iPad mini Disponible à partir du 06/11. À partir de 759 € ou 63,25 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊◊ Apple Intelligence Note de bas de page 3 En savoir plus, iPad mini Obtenez entre 30 € à 1 100 € pour la reprise de votre appareil Note de bas de page ◊ Payez par mensualités avec Cetelem Note de bas de page ◊◊ Image précédente de la galerie Image suivante de la galerie Finition. Choisissez votre coloris préféré. Coloris Minuit Lumière stellaire Stockage et puce. Choisissez votre configuration. 128 Go Puce A20 Pro : CPU 5 cœurs, GPU 7 cœurs Neural Engine 16 cœurs À partir de 759 € ou 63,25 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊◊ 256 Go Puce A20 Pro : CPU 5 cœurs, GPU 7 cœurs Neural Engine 16 cœurs À partir de 889 € ou 74,08 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊◊ 512 Go Puce A20 Pro : CPU 6 cœurs, GPU 7 cœurs Deux Neural Engine 16 cœurs À partir de 1 139 € ou 94,92 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊◊"
+  },
+  {
+   "url": "https://www.apple.com/fr/shop/buy-watch/apple-watch",
+   "status": 200,
+   "final_url": "https://www.apple.com/fr/shop/buy-watch/apple-watch",
+   "title": "Acheter une Apple Watch Series 12 - Apple (FR)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=fr_FR",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=fr_FR",
+    "https://www.apple.com/fr/shop/sba/d/init?fnode=136b53cb49d5f18daaf8fc53331399c3b4beed4bdb78672cab800feebcbb44ec8ac1a96cd868db64fc7778e3a17b1cb845bddbcd9a3da6cb8",
+    "https://www.apple.com/fr/shop/favoritesx/fetch"
+   ],
+   "links": [
+    "https://www.apple.com/fr/shop/buy-watch/apple-watch"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "À partir de 449 €",
+    "À partir de 449 €",
+    "À partir de 449 €",
+    "À partir de 449 €",
+    "À partir de 449 €",
+    "À partir de 449 €",
+    "À partir de 799 €",
+    "À partir de 799 €",
+    "À partir de 1 049 €",
+    "À partir de 1 049 €"
+   ],
+   "items_by_source": {
+    "jsonld": 1,
+    "dom-price": 1
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Maison Divertissements Accessoires Assistance 0 + Achetez une Apple Watch à 0 % TAEG sur une durée maximale de 12 mois. Et faites reprendre un appareil pour réduire vos mensualités Note de bas de page ◊◊. Apple Watch Series 12 À partir de 449 € ou 37,42 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊◊ Livraison gratuite Retrait en Apple Store Nouveau Acheter une Apple Watch Series 12 À partir de 449 € ou 37,42 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊◊ Payez par mensualités avec Cetelem Note de bas de page ◊◊ Design fin et léger, avec un grand écran avancé. Image précédente de la galerie Image suivante de la galerie Boîtier. Commençons par le matériau et la finition. Nouvelles finitions Aluminium Choix entre GPS et GPS + Cellular À partir de 449 € ou 37,42 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊◊ Fini mat et écran résistant avec Ceramic Shield 2 Note de bas de page ※. Nouvelle finition Titane Connectivité GPS + Cellular À partir de 799 € ou 66,58 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊◊ Titane poli de qualité aérospatiale avec écran résistant en cristal de saphir. Nouveau Céramique Connectivité GPS + Cellular À partir de 1 049 € ou 87,42 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊◊ Sophistiqué et résistant aux rayures, avec une finition polie et un écran en verr"
+  },
+  {
+   "url": "https://www.apple.com/fr/shop/buy-watch/apple-watch-se",
+   "status": 200,
+   "final_url": "https://www.apple.com/fr/shop/buy-watch/apple-watch-se",
+   "title": "Acheter une Apple Watch SE 3 - Apple (FR)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=fr_FR",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=fr_FR",
+    "https://www.apple.com/fr/shop/sba/d/init?fnode=52a6c65e9faac1efbd9ec25436456461db17fefe8bd64e6cea5abef01ac2e0429988ad394e01c08a390fc77e466b91e1f9175d9d748ba7e20",
+    "https://www.apple.com/fr/shop/favoritesx/fetch"
+   ],
+   "links": [
+    "https://www.apple.com/fr/shop/buy-watch/apple-watch-se"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "À partir de 269 €",
+    "À partir de 269 €",
+    "À partir de 269 €",
+    "À partir de 269 €",
+    "À partir de 269 €",
+    "À partir de 269 €",
+    "À partir de 299 €",
+    "À partir de 299 €",
+    "À partir de 269 €",
+    "À partir de 269 €"
+   ],
+   "items_by_source": {
+    "jsonld": 1,
+    "dom-price": 1
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Maison Divertissements Accessoires Assistance 0 + Achetez une Apple Watch à 0 % TAEG sur une durée maximale de 12 mois. Et faites reprendre un appareil pour réduire vos mensualités Note de bas de page ◊◊. Apple Watch SE 3 À partir de 269 € ou 22,42 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊◊ Livraison gratuite Retrait en Apple Store Acheter une Apple Watch SE 3 À partir de 269 € ou 22,42 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊◊ Payez par mensualités avec Cetelem Note de bas de page ◊◊ Aluminium. Aluminium 100 % recyclé. Idéal pour les activités quotidiennes et tout type de sport. Image précédente de la galerie Image suivante de la galerie Boîtier. Commençons par la finition. Finition Minuit Lumière stellaire Taille du boîtier. Choisissez celle qui vous convient. 40 mm À partir de 269 € ou 22,42 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊◊ 44 mm À partir de 299 € ou 24,92 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊◊ Besoin d’aide pour choisir la taille ? Découvrez les différences en termes de taille d’écran et de poids du boîtier. Afficher plus Connectivité. Bénéficiez d’une connexion continue, que votre téléphone soit à proximité ou non. GPS Passez des appels et envoyez des messages lorsque votre iPhone est à proximité. À partir de 269 € ou 22,42 €/mois par mois pour 12 mois à 0 % taux débiteu"
+  },
+  {
+   "url": "https://www.apple.com/fr/shop/buy-watch/apple-watch-hermes",
+   "status": 200,
+   "final_url": "https://www.apple.com/fr/shop/buy-watch/apple-watch-hermes",
+   "title": "Acheter une Apple Watch Hermès Series 12 - Apple (FR)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=fr_FR",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=fr_FR",
+    "https://www.apple.com/fr/shop/sba/d/init?fnode=20efbac2d0e86caeec96b3cbf2e99c0c949e7836696085160eb47c1382232244e8ce8174636eb12468c481567a0f3b6ecd10ba26a503d694b",
+    "https://www.apple.com/fr/shop/favoritesx/fetch"
+   ],
+   "links": [
+    "https://www.apple.com/fr/shop/buy-watch/apple-watch-hermes"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "À partir de 1 599 €",
+    "À partir de 1 599 €",
+    "À partir de 1 599 €",
+    "À partir de 1 599 €",
+    "À partir de 1 599 €",
+    "À partir de 1 599 €",
+    "À partir de 1 649 €",
+    "À partir de 1 649 €",
+    "20,99 €/mois par mois jusqu’à annulation",
+    "À partir de 1 599 €"
+   ],
+   "items_by_source": {
+    "jsonld": 1,
+    "dom-price": 1
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Maison Divertissements Accessoires Assistance 0 + Achetez une Apple Watch à 0 % TAEG sur une durée maximale de 12 mois. Et faites reprendre un appareil pour réduire vos mensualités Note de bas de page ◊◊. Apple Watch Hermès Series 12 À partir de 1 599 € ou 133,25 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊◊ Livraison gratuite Retrait en Apple Store Nouveau Acheter une Apple Watch Hermès Series 12 À partir de 1 599 € ou 133,25 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊◊ Payez par mensualités avec Cetelem Note de bas de page ◊◊ Le boîtier titane léger est disponible en argent poli ou dans une nouvelle finition or brillant. Une combinaison exclusive allie le boîtier or au bracelet Clou de Selle Satin. Image précédente de la galerie Image suivante de la galerie Boîtier. Commençons par la finition. Finition Argent Or brillant Taille du boîtier. Choisissez celle qui vous convient. 42 mm À partir de 1 599 € ou 133,25 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊◊ 46 mm À partir de 1 649 € ou 137,42 €/mois par mois pour 12 mois à 0 % taux débiteur Note de bas de page ◊◊ Besoin d’aide pour choisir la taille ? Découvrez les différences en termes de taille d’écran et de poids du boîtier. Afficher plus Bracelet. Parcourez les différents styles et choisissez celui que vous préférez. Nouveau Bracelet Clou de Selle Satin Associé exclusivemen"
+  },
+  {
+   "url": "https://www.apple.com/fr/shop/buy-airpods/airpods-pro-3",
+   "status": 200,
+   "final_url": "https://www.apple.com/fr/shop/buy-airpods/airpods-pro-3",
+   "title": "Acheter un modèle AirPods Pro 3 - Apple (FR)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=fr_FR",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=fr_FR",
+    "https://www.apple.com/fr/shop/favoritesx/fetch",
+    "https://www.apple.com/fr/shop/updateSummary?node=home%2Fshop_airpods%2Ffamily%2Fairpods_pro_3&step=select&product=MFHP4ZM%2FA",
+    "https://www.apple.com/fr/shop/engrave/json?product=MFHP4ZM%2FA"
+   ],
+   "links": [
+    "https://www.apple.com/fr/shop/buy-airpods/airpods-pro-3"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "20,99 €/mois par mois jusqu’à annulation",
+    "249,00 €",
+    "249,00 €",
+    "249,00 €",
+    "249,00 €",
+    "62,25 €/ par mois pour 4 mois. à 0 % taux débiteur.****",
+    "Montant total du financement : 249,00 €",
+    "249,00 €",
+    "249,00 €",
+    "149 €"
+   ],
+   "items_by_source": {
+    "jsonld": 1,
+    "dom-price": 1
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Maison Divertissements Accessoires Assistance 0 + AirPods Pro 3 Vue d’ensemble Caractéristiques Acheter des AirPods Pro 3 Livraison gratuite le lendemain Profitez d’Apple Fitness+ et d’Apple Music gratuitement pendant 3 mois à l’achat d’AirPods Pro 3 Note de bas de page ∆, + Retours faciles et gratuits Faites-vous aider pour l’achat. Chattez dès maintenant (s’ouvre dans une nouvelle fenêtre) ou appelez le 0800 046 046. Gravure gratuite Acheter des AirPods Pro 3 Maintenant avec la meilleure Réduction active du bruit intra-auriculaire au monde Note de bas de page ¹, une toute nouvelle fonctionnalité de détection de la fréquence cardiaque Note de bas de page ² et jusqu’à 8 heures d’autonomie Note de bas de page ¹³. Personnalisation gratuite Ajouter une gravure Faites graver des emoji, des noms, des initiales et des chiffres. Vos AirPods Pro 3 seront à vous, rien qu’à vous. C’est gratuit et la livraison est tout aussi rapide. Gratuit Sans gravure Couverture AppleCare. Plusieurs options. Zéro souci※※. AppleCare+ Couvrir ce produit uniquement 1,99 €/mois par mois ou 19,99 €/an par an jusqu’à annulation Réparations illimitées en cas de chute ou de renversement de liquide accidentels Assistance prioritaire par les expertes et experts Apple Service de remplacement express : nous vous fournirons un appareil de remplacement pendant toute la durée des réparations Inclut la taxe sur les primes d’assurance au taux applicable Nouveau"
+  }
+ ]
+}

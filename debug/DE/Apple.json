@@ -1,0 +1,802 @@
+{
+ "brand": "Apple",
+ "country": "DE",
+ "pages": [
+  {
+   "url": "https://www.apple.com/de/shop/buy-iphone",
+   "status": 200,
+   "final_url": "https://www.apple.com/de/shop/buy-iphone",
+   "title": "iPhone kaufen - Apple (DE)",
+   "json_urls": [
+    "https://www.apple.com/de/shop/api/digital-mat?path=library/step0_iphone/digitalmat&fae=true",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+    "https://www.apple.com/de/shop/bag/status?apikey=SJHJUH4YFCTTPD4F4",
+    "https://www.apple.com/shop/shld/work/s3/q?jr=30"
+   ],
+   "links": [
+    "https://www.apple.com/de/shop/buy-iphone/iphone-duo",
+    "https://www.apple.com/de/shop/buy-iphone/iphone-18-pro",
+    "https://www.apple.com/de/shop/buy-iphone/iphone-air",
+    "https://www.apple.com/de/shop/buy-iphone/iphone-17",
+    "https://www.apple.com/de/shop/buy-iphone/iphone-17e",
+    "https://www.apple.com/de/shop/buy-iphone/iphone-16"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "Ab 2.299 €",
+    "Ab 1.449 €",
+    "Ab 1.299 €",
+    "Ab 1.099 €",
+    "Ab 849 €",
+    "Ab 999 €",
+    "69,00 €",
+    "149,00 €",
+    "89,00 €",
+    "45,00 €"
+   ],
+   "items_by_source": {},
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + Bezahle dein neues iPhone in 24 Raten. Fußnote ① Nach 11 Raten kannst du ohne weitere Kosten ein Upgrade in Anspruch nehmen. Fußnote ② 0 Euro Anzahlung. Weitere Infos iPhone kaufen Frag unsere Specialists (Öffnet ein neues Fenster) Apple Store finden (öffnet ein neues Fenster) Alle Modelle Der Apple Store Shopping Guides Zubehör Setup und Support Das iPhone Erlebnis Alle Modelle. Welches wird deins? NEU iPhone Duo - NEU Genauer ansehen - iPhone Duo Ab 2.299 €oder 95,79 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ① Kaufen - iPhone Duo NEU iPhone 18 Pro und iPhone 18 Pro Max - NEU Genauer ansehen - iPhone 18 Pro und iPhone 18 Pro Max Ab 1.449 €oder 60,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ① Kaufen - iPhone 18 Pro und iPhone 18 Pro Max iPhone Air Genauer ansehen - iPhone Air Ab 1.299 €oder 54,12 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ① Kaufen - iPhone Air iPhone 17 Genauer ansehen - iPhone 17 Ab 1.099 €oder 45,79 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ① Kaufen - iPhone 17 iPhone 17e Genauer ansehen - iPhone 17e Ab 849 €oder 35,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ① Kaufen - iPhone 17e iPhone 16 Genauer ansehen - iPhone 16 Ab 999 €oder 41,62 €/Rate pro Rate b",
+   "json_samples": [
+    {
+     "url": "https://www.apple.com/de/shop/api/digital-mat?path=library/step0_iphone/digitalmat&fae=true",
+     "body": "{\"head\": {\"status\": \"200\", \"data\": {}}, \"body\": {\"digitalMat\": [{\"enableDarkTheme\": false, \"familyTypes\": [{\"exploreLink\": {\"url\": \"https://www.apple.com/de/iphone-duo\", \"text\": \"Erfahre mehr über iPhone Duo\", \"dataVar\": {}, \"omnitureData\": {\"linkText\": \"Erfahre mehr über iPhone Duo\", \"commitCodeId\": 0}, \"newTab\": false, \"isLinkAsButton\": false, \"link\": \"https://www.apple.com/de/iphone-duo\", \"deeplink\": []}, \"valuePropsContent\": {\"items\": [{\"index\": 0, \"value\": \"<div class=\\\"rf-digitalmat-valueprops-icon\\\">\\n    <div class=\\\"as-svgicon-container dd-color-forest-green\\\">\\n        \\n<svg width=\\\"21\\\" height=\\\"25\\\" viewBox=\\\"0 0 21 25\\\" class=\\\"dd-glyph-svg dd-glyph-reduced\\\" aria-hidden=\\\"true\\\">\\n  <path d=\\\"m18.5 5h-16a2.5 2.5 0 0 0 -2.5 2.5v10a2.5 2.5 0 0 0 2.5 2.5h15.9958a2.5 2.5 0 0 0 2.5-2.5l.0042-10a2.5 2.5 0 0 0 -2.5-2.5zm-16 1h16a1.5017 1.5017 0 0 1 1.5 1.5v1.5h-19v-1.5a1.5017 1.5017 0 0 1 1.5-1.5zm15.9958 13h-15.9958a1.5017 1.5017 0 0 1 -1.5-1.5v-6.5h19v6.5a1.5053 1.5053 0 0 1 -1.5042 1.5zm-11.4958-5.0179v2.0358a.83.83 0 0 1 -.8.8571h-2.4a.83.83 0 0 1 -.8-.8571v-2.0358a.83.83 0 0 1 .8-.8571h2.4a.83.83 0 0 1 .8.8571z\\\" />\\n</svg>\\n    </div>\\n</div>\\n<div class=\\\"rf-digitalmat-valueprops-description\\\">\\n    <h3 class=\\\"rf-digitalmat-valueprops-header\\\">\\n        Entdecke Finanzierungsoptionen.\\n    </h3>\\n    Finanzierung mit 0&nbsp;% Zinsen möglich.<as-footnote data-id=\\\"23fc6f695e689ff7be731fbcdcfc5013\\\" data-assigned=\\\"false\\\"><sup data-autom=\\\"footnote-sub\\\" class=\\\"as-footnote\\\"><span class=\\\"visuallyhidden\\\">&nbsp;Fußnote&nbsp;</span></sup></as-footnote>\\n</div>\", \"position\": 1, \"first\": true, \"last\": false, \"even\": true}, {\"index\": 1, \"value\": \"<div class=\\\"rf-digitalmat-valueprops-icon\\\">\\n\\t<div class=\\\"as-svgicon-container dd-color-blue-violet\\\">\\n\\t\\t\\n<svg width=\\\"19\\\" height=\\\"25\\\" viewBox=\\\"0 0 19 25\\\" class=\\\"dd-glyph-svg dd-glyph-reduced\\\" aria-hidden=\\\"true\\\">\\n  <path d=\\\"m18 13.333v4.167c0 1.9297-1.57 3.5-3.4996 3.5h-10c-1.9297 0-3.5-1.5703-3.5-3.5v-1.9532h-.5476c-.3298 0-.4167-.2245-.2336-.4808l1.0259-1.4563c.1465-.2107.3663-.2062.5129 0l1.0259 1.4608c.1786.2518.0916.4763-.2336.4763h-.5503v1.9532c0 1.3789 1.1215 2.5 2.5004 2.5h10c1.3789 0 2.5-1.1211 2.5-2.5v-4.167c0-.2764.2236-.5.5-.5s.4996.2236.4996.5zm.5472-3.8798h-.5472v-1.9532c0-1.9297-1.57-3.5-3.4996-3.5h-10c-1.9297 0-3.5 1.5703-3.5 3.5v4.167c0 .2764.2236.5.5.5s.4996-.2236.4996-.5v-4.167c0-1.3789 1.1215-2.5 2.5004-2.5h10c1.3789 0 2.5 1.1211 2.5 2.5v1.9532h-.5507c-.3251 0-.41"
+    },
+    {
+     "url": "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
+     "body": "[{\"name\": \"apple\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple home\"}], \"id\": \"3d39a8ff\"}, {\"name\": \"store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"store\"}, {\"name\": \"data-analytics-element-engagement\", \"value\": \"hover - store\"}], \"baseGroups\": [{\"id\": \"5d67db71\", \"title\": \"Quick Links\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"quick links - store\"}], \"baseLinks\": [{\"id\": \"622c2f61\", \"text\": \"Store finden\", \"url\": \"/de/retail/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"find a store\"}], \"ariaLabel\": \"\"}, {\"id\": \"6d4e3e8b\", \"text\": \"Bestellstatus\", \"url\": \"/de/shop/goto/order/list\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"order status\"}], \"ariaLabel\": \"\"}, {\"id\": \"0b7b196e\", \"text\": \"Apple Trade In\", \"url\": \"/de/shop/goto/trade_in\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple trade in\"}], \"ariaLabel\": \"\"}, {\"id\": \"65ecdde8\", \"text\": \"Finanzierung\", \"url\": \"/de/shop/goto/ww/financing\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"financing\"}], \"ariaLabel\": \"\"}, {\"id\": \"d0a7244e\", \"text\": \"Persönliches Setup\", \"url\": \"/de/shop/goto/personal_setup\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"personal setup\"}], \"ariaLabel\": \"\"}]}, {\"id\": \"4fb20b79\", \"title\": \"Spezielle Stores\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"shop special stores\"}], \"baseLinks\": [{\"id\": \"9bd6adcf\", \"text\": \"Zertifiziert Refurbished\", \"url\": \"/de/shop/goto/special_deals\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"certified refurbished\"}], \"ariaLabel\": \"\"}, {\"id\": \"0a88d8e4\", \"text\": \"Bildung\", \"url\": \"/de/shop/goto/educationrouting\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"education\"}], \"ariaLabel\": \"\"}, {\"id\": \"a503a18a\", \"text\": \"Business\", \"url\": \"/de/retail/business/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"business\"}], \"ariaLabel\": \"\"}]}], \"elevatedGroups\": [{\"id\": \"51e6512f\", \"title\": \"Kaufen\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"explore shop\"}], \"elevatedLinks\": [{\"id\": \"5f71c2fe\", \"text\": \"Das Neueste kaufen\", \"url\": \"/de/shop/goto/store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"shop the latest\"}], \"ariaLabel\": \"Die neuesten Apple Produkte kaufen\"}, {\"id\": \"d5d80a4e\", \"text\": \"Mac\", \"url\": \"/de/shop/goto/buy_"
+    },
+    {
+     "url": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+     "body": "{\"id\": \"eOMZb4s9QcWjKA-Aqx69eg\", \"results\": [{\"sectionName\": \"quickLinks\", \"sectionResults\": [{\"label\": \"Store finden\", \"url\": \"https://www.apple.com/de/retail/\"}, {\"label\": \"Apple Vision Pro\", \"url\": \"https://www.apple.com/de/apple-vision-pro/\"}, {\"label\": \"AirPods\", \"url\": \"https://www.apple.com/de/airpods/\"}, {\"label\": \"Apple Intelligence\", \"url\": \"https://www.apple.com/de/apple-intelligence/\"}, {\"label\": \"Apple Trade In\", \"url\": \"https://www.apple.com/de/shop/goto/trade_in\"}]}, {\"sectionName\": \"suggestions\", \"sectionResults\": []}]}"
+    },
+    {
+     "url": "https://www.apple.com/de/shop/bag/status?apikey=SJHJUH4YFCTTPD4F4",
+     "body": "{\"items\": 0, \"ttl\": 180, \"api\": {\"flyout\": \"/%5Bstorefront%5D/shop/bag/flyout\", \"addToBag\": \"/%5Bstorefront%5D/shop/bag/add?product=%5Bpart%5D\"}}"
+    }
+   ]
+  },
+  {
+   "url": "https://www.apple.com/de/shop/buy-ipad",
+   "status": 200,
+   "final_url": "https://www.apple.com/de/shop/buy-ipad",
+   "title": "iPad kaufen - Apple (DE)",
+   "json_urls": [
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
+    "https://www.apple.com/de/shop/api/digital-mat?path=library/step0_ipad/digitalmat&fae=true"
+   ],
+   "links": [
+    "https://www.apple.com/de/shop/buy-ipad/ipad-pro",
+    "https://www.apple.com/de/shop/buy-ipad/ipad-air",
+    "https://www.apple.com/de/shop/buy-ipad/ipad",
+    "https://www.apple.com/de/shop/buy-ipad/ipad-mini"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "Ab 1.299 €",
+    "Ab 799 €",
+    "Ab 499 €",
+    "Ab 749 €",
+    "149,00 €",
+    "89,00 €",
+    "349,00 €",
+    "89,00 €",
+    "24,95 €",
+    "79,95 €"
+   ],
+   "items_by_source": {},
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + Zahle für dein neues iPad mit 0 % eff. Zins p.a. in 12 Raten. Fußnote ① Weitere Infos iPad kaufen Frag unsere Specialists (Öffnet ein neues Fenster) Apple Store finden (öffnet ein neues Fenster) Zurück Alle Modelle Shopping Guides Weniger zahlen ist möglich Der Apple Store macht den Unterschied Zubehör Setup und Support Das iPad Erlebnis Spezielle Stores Alle Modelle. Welches wird deins? iPad Pro Genauer ansehen - iPad Pro Ab 1.299 €oder 108,25 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ① Kaufen - iPad Pro iPad Air Genauer ansehen - iPad Air Ab 799 €oder 66,58 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ① Kaufen - iPad Air iPad Genauer ansehen - iPad Ab 499 €oder 41,58 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ① Kaufen - iPad NEU iPad mini - NEU Genauer ansehen - iPad mini Ab 749 €oder 62,42 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ① Vorbestellen - iPad mini Entdecke iPad Zubehör. Zurück - Alle Modelle Weiter - Alle Modelle Shopping Guides. Schwere Entscheidung? Fang hier an. ALLE MODELLE VERGLEICHEN Welches iPad ist das richtige für dich? - (Öffnet ein neues Fenster) IPAD SPECIALIST Hol dir Beratung durch unsere Specialists. Online oder im Apple Store. Today at Apple Apple Intelligence entdecken - (Öffnet ein n",
+   "json_samples": [
+    {
+     "url": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+     "body": "{\"id\": \"eOMZb4s9QcWjKA-Aqx69eg\", \"results\": [{\"sectionName\": \"quickLinks\", \"sectionResults\": [{\"label\": \"Store finden\", \"url\": \"https://www.apple.com/de/retail/\"}, {\"label\": \"Apple Vision Pro\", \"url\": \"https://www.apple.com/de/apple-vision-pro/\"}, {\"label\": \"AirPods\", \"url\": \"https://www.apple.com/de/airpods/\"}, {\"label\": \"Apple Intelligence\", \"url\": \"https://www.apple.com/de/apple-intelligence/\"}, {\"label\": \"Apple Trade In\", \"url\": \"https://www.apple.com/de/shop/goto/trade_in\"}]}, {\"sectionName\": \"suggestions\", \"sectionResults\": []}]}"
+    },
+    {
+     "url": "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
+     "body": "[{\"name\": \"apple\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple home\"}], \"id\": \"3d39a8ff\"}, {\"name\": \"store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"store\"}, {\"name\": \"data-analytics-element-engagement\", \"value\": \"hover - store\"}], \"baseGroups\": [{\"id\": \"5d67db71\", \"title\": \"Quick Links\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"quick links - store\"}], \"baseLinks\": [{\"id\": \"622c2f61\", \"text\": \"Store finden\", \"url\": \"/de/retail/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"find a store\"}], \"ariaLabel\": \"\"}, {\"id\": \"6d4e3e8b\", \"text\": \"Bestellstatus\", \"url\": \"/de/shop/goto/order/list\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"order status\"}], \"ariaLabel\": \"\"}, {\"id\": \"0b7b196e\", \"text\": \"Apple Trade In\", \"url\": \"/de/shop/goto/trade_in\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple trade in\"}], \"ariaLabel\": \"\"}, {\"id\": \"65ecdde8\", \"text\": \"Finanzierung\", \"url\": \"/de/shop/goto/ww/financing\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"financing\"}], \"ariaLabel\": \"\"}, {\"id\": \"d0a7244e\", \"text\": \"Persönliches Setup\", \"url\": \"/de/shop/goto/personal_setup\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"personal setup\"}], \"ariaLabel\": \"\"}]}, {\"id\": \"4fb20b79\", \"title\": \"Spezielle Stores\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"shop special stores\"}], \"baseLinks\": [{\"id\": \"9bd6adcf\", \"text\": \"Zertifiziert Refurbished\", \"url\": \"/de/shop/goto/special_deals\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"certified refurbished\"}], \"ariaLabel\": \"\"}, {\"id\": \"0a88d8e4\", \"text\": \"Bildung\", \"url\": \"/de/shop/goto/educationrouting\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"education\"}], \"ariaLabel\": \"\"}, {\"id\": \"a503a18a\", \"text\": \"Business\", \"url\": \"/de/retail/business/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"business\"}], \"ariaLabel\": \"\"}]}], \"elevatedGroups\": [{\"id\": \"51e6512f\", \"title\": \"Kaufen\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"explore shop\"}], \"elevatedLinks\": [{\"id\": \"5f71c2fe\", \"text\": \"Das Neueste kaufen\", \"url\": \"/de/shop/goto/store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"shop the latest\"}], \"ariaLabel\": \"Die neuesten Apple Produkte kaufen\"}, {\"id\": \"d5d80a4e\", \"text\": \"Mac\", \"url\": \"/de/shop/goto/buy_"
+    },
+    {
+     "url": "https://www.apple.com/de/shop/api/digital-mat?path=library/step0_ipad/digitalmat&fae=true",
+     "body": "{\"head\": {\"status\": \"200\", \"data\": {}}, \"body\": {\"digitalMat\": [{\"productName\": \"iPad Pro\", \"enableDarkTheme\": false, \"partNumber\": \"IPADPRO2025_MAIN\", \"tabDescriptionLabel\": \"Display-Größe\", \"familyTypes\": [{\"productPrice\": {\"priceData\": {\"fullPrice\": {\"priceString\": \"Ab <span class=\\\"nowrap\\\">1.299 €</span>\", \"raw\": {\"price\": \"1299.00\"}}, \"monthlyPrice\": {\"priceString\": \" oder <span>108,25 €<span aria-hidden=\\\"true\\\">/Rate </span><span class=\\\"visuallyhidden\\\">pro Rate</span><span class=\\\"as-price-acinstallmentmonths\\\"> bei 12 <span aria-hidden=\\\"true\\\">Raten</span><span class=\\\"visuallyhidden\\\">Raten</span></span> mit 0 % eff. Zins p.a.<span class=\\\"visuallyhidden\\\">eff. Zins p.a.</span><span class=\\\"as-price-acinstallmentterms-footnotes\\\"><as-footnote data-id=\\\"23fc6f695e689ff7be731fbcdcfc5013\\\" data-assigned=\\\"false\\\"><sup data-autom=\\\"footnote-sub\\\" class=\\\"as-footnote\\\"><span class=\\\"visuallyhidden\\\">&nbsp;Fußnote&nbsp;</span></sup></as-footnote></span></span>\"}, \"refurbProduct\": false, \"priceFeeDisclaimer\": {\"priceString\": \"Einschließlich MwSt. und ges. Gebühren i. H. v. ca. 215,00 €.<as-footnote data-id=\\\"c797ec623451481bcb7b6f5ad02aa26a\\\" data-assigned=\\\"false\\\"><sup data-autom=\\\"footnote-sub\\\" class=\\\"as-footnote\\\"><span class=\\\"visuallyhidden\\\">&nbsp;Fußnote&nbsp;</span></sup></as-footnote>\"}}, \"templateId\": \"LEAD_WITH_FULL_PRICE\", \"staticAssets\": {\"priceSeparator\": \" \"}}, \"productImages\": {\"items\": [{\"index\": 0, \"value\": {\"sources\": [{\"srcSet\": \"https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipadpro11-digitalmat-gallery-1-202404?wid=728&hei=666&fmt=jpeg&qlt=90&.v=UXVFY3VaaTg1Y0ZJTnlIMXY0b1VhZlRhSXFkOFhqdTgvUmc4VitXa2VzZFJ4eU1GZzRtNm5oQnN2QW1zUW9UeFl1V3dXQmdJWnFRbkcraVFaYnkzVFd5T3RkT0J1ZUFOQnovVVk3R3dLM0ltbzVCSGtEbW9RaTNsbTM2bmdVY3g\", \"type\": \"image/jpeg\"}], \"width\": \"364\", \"height\": \"333\", \"attrs\": \"\", \"imageName\": \"ipadpro11-digitalmat-gallery-1-202404\", \"originalImageName\": \"ipadpro11-digitalmat-gallery-1-202404\", \"alt\": \"iPad Pro in zwei erhältlichen Farben, Space Schwarz, Silber, Pro Kamera-System, Vorderansicht mit All‑Screen Design\", \"noImage\": false, \"deferSrc\": false, \"singleElementSources\": true, \"scaleFactor\": \"2X\"}, \"even\": true, \"position\": 1, \"first\": true, \"last\": false}, {\"index\": 1, \"value\": {\"sources\": [{\"srcSet\": \"https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipadpro11-digitalmat-gallery-2-202404_GEO_EMEA_LANG_DE?wid=728&hei=666&fmt=png-alpha&.v=UXVFY3VaaTg1Y0ZJTnlIMXY0b1VhZHp0bzhwRTZxYVNN"
+    }
+   ]
+  },
+  {
+   "url": "https://www.apple.com/de/shop/buy-watch",
+   "status": 200,
+   "final_url": "https://www.apple.com/de/shop/buy-watch",
+   "title": "Apple Watch kaufen - Apple (DE)",
+   "json_urls": [
+    "https://www.apple.com/de/shop/api/digital-mat?path=library/step0_watch/digitalmat&fae=true",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE"
+   ],
+   "links": [
+    "https://www.apple.com/de/shop/buy-watch/apple-watch",
+    "https://www.apple.com/de/shop/buy-watch/apple-watch-se",
+    "https://www.apple.com/de/shop/buy-watch/apple-watch-hermes"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "49,00 €",
+    "49,00 €",
+    "99,00 €",
+    "49,00 €",
+    "49,00 €",
+    "99,00 €",
+    "99,00 €",
+    "99,00 €",
+    "1.299,00 €",
+    "549,00 €"
+   ],
+   "items_by_source": {},
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + Zahle für deine neue Apple Watch mit 0 % eff. Zins p.a. in 12 Raten. Fußnote Fußnote ① Weitere Infos Apple Watch kaufen Frag unsere Specialists (Öffnet ein neues Fenster) Apple Store finden (öffnet ein neues Fenster) Alle Modelle Shopping Guides Weniger zahlen ist möglich Apple Watch Armbänder Apple Watch Ladezubehör Das Apple Watch Erlebnis Setup und Support Alle Modelle. Welches wird deins? NEU Apple Watch Series 12 - NEU Genauer ansehen - Apple Watch Series 12 + Ab 449 € oder 37,42 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ① Kaufen - Apple Watch Series 12 NEU Apple Watch Ultra 4 - NEU Genauer ansehen - Apple Watch Ultra 4 Ab 899 € oder 74,92 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ① Kaufen - Apple Watch Ultra 4 Apple Watch SE 3 Genauer ansehen - Apple Watch SE 3 Ab 269 € oder 22,42 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ① Kaufen - Apple Watch SE 3 NEU Apple Watch Hermès Series 12 - NEU Genauer ansehen - Apple Watch Hermès Series 12 Ab 1.599 € oder 133,25 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ① Kaufen - Apple Watch Hermès Series 12 NEU Apple Watch Hermès Ultra 4 - NEU Genauer ansehen - Apple Watch Hermès Ultra 4 Ab 1.699 € oder 141,58 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a.",
+   "json_samples": [
+    {
+     "url": "https://www.apple.com/de/shop/api/digital-mat?path=library/step0_watch/digitalmat&fae=true",
+     "body": "{\"head\": {\"status\": \"200\", \"data\": {}}, \"body\": {\"digitalMat\": [{\"productName\": \"Apple Watch Series 12\", \"enableDarkTheme\": false, \"familyTypes\": [{\"productName\": \"Apple Watch Series 12\", \"basePart\": \"MJE74\", \"productPrice\": {\"staticAssets\": {\"priceSeparator\": \" \"}, \"priceData\": {\"fullPrice\": {\"priceString\": \"<span class=\\\"as-pricepoint-fullprice\\\">Ab <span class=\\\"nowrap\\\">449 €</span></span>\", \"raw\": {\"price\": \"449.00\"}}, \"monthlyPrice\": {\"priceString\": \" oder <span>37,42 €<span aria-hidden=\\\"true\\\">/Rate </span><span class=\\\"visuallyhidden\\\">pro Rate</span><span class=\\\"as-price-acinstallmentmonths\\\"> bei 12 <span aria-hidden=\\\"true\\\">Raten</span><span class=\\\"visuallyhidden\\\">Raten</span></span> mit 0 % eff. Zins p.a.<span class=\\\"visuallyhidden\\\">eff. Zins p.a.</span><span class=\\\"as-price-acinstallmentterms-footnotes\\\"><as-footnote data-id=\\\"23fc6f695e689ff7be731fbcdcfc5013\\\" data-assigned=\\\"false\\\"><sup data-autom=\\\"footnote-sub\\\" class=\\\"as-footnote\\\"><span class=\\\"visuallyhidden\\\">&nbsp;Fußnote&nbsp;</span></sup></as-footnote></span></span>\"}, \"refurbProduct\": false}, \"templateId\": \"LEAD_WITH_FULL_PRICE\"}, \"exploreLink\": {\"url\": \"https://www.apple.com/de/apple-watch-series-12\", \"text\": \"Erfahre mehr über die Apple Watch Series 12\", \"dataVar\": {}, \"omnitureData\": {\"linkText\": \"Erfahre mehr über die Apple Watch Series 12\", \"commitCodeId\": 0}, \"newTab\": false, \"isLinkAsButton\": false, \"deeplink\": [], \"link\": \"https://www.apple.com/de/apple-watch-series-12\"}, \"valuePropsContent\": {\"items\": [{\"index\": 0, \"value\": \"<div class=\\\"rf-digitalmat-valueprops-icon\\\"><div class=\\\"as-svgicon-container dd-color-green\\\">\\n<svg width=\\\"21\\\" height=\\\"25\\\" viewBox=\\\"0 0 21 25\\\" class=\\\"dd-glyph-svg dd-glyph-reduced\\\" aria-hidden=\\\"true\\\">\\n  <path d=\\\"m18.5 5h-16a2.5 2.5 0 0 0 -2.5 2.5v10a2.5 2.5 0 0 0 2.5 2.5h15.9958a2.5 2.5 0 0 0 2.5-2.5l.0042-10a2.5 2.5 0 0 0 -2.5-2.5zm-16 1h16a1.5017 1.5017 0 0 1 1.5 1.5v1.5h-19v-1.5a1.5017 1.5017 0 0 1 1.5-1.5zm15.9958 13h-15.9958a1.5017 1.5017 0 0 1 -1.5-1.5v-6.5h19v6.5a1.5053 1.5053 0 0 1 -1.5042 1.5zm-11.4958-5.0179v2.0358a.83.83 0 0 1 -.8.8571h-2.4a.83.83 0 0 1 -.8-.8571v-2.0358a.83.83 0 0 1 .8-.8571h2.4a.83.83 0 0 1 .8.8571z\\\" />\\n</svg></div></div><div class=\\\"rf-digitalmat-valueprops-description\\\"><h3 class=\\\"rf-digitalmat-valueprops-header\\\">Flexible monatliche Zahlungen</h3><span>Wähle die Ratenzahlungsoption, die am besten für dich passt.<as-footnote data-id=\\\"23fc6f695e689ff7be731fbcdcfc5013\\\" data-assigned=\\\"false\\\">"
+    },
+    {
+     "url": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+     "body": "{\"id\": \"eOMZb4s9QcWjKA-Aqx69eg\", \"results\": [{\"sectionName\": \"quickLinks\", \"sectionResults\": [{\"label\": \"Store finden\", \"url\": \"https://www.apple.com/de/retail/\"}, {\"label\": \"Apple Vision Pro\", \"url\": \"https://www.apple.com/de/apple-vision-pro/\"}, {\"label\": \"AirPods\", \"url\": \"https://www.apple.com/de/airpods/\"}, {\"label\": \"Apple Intelligence\", \"url\": \"https://www.apple.com/de/apple-intelligence/\"}, {\"label\": \"Apple Trade In\", \"url\": \"https://www.apple.com/de/shop/goto/trade_in\"}]}, {\"sectionName\": \"suggestions\", \"sectionResults\": []}]}"
+    },
+    {
+     "url": "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
+     "body": "[{\"name\": \"apple\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple home\"}], \"id\": \"3d39a8ff\"}, {\"name\": \"store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"store\"}, {\"name\": \"data-analytics-element-engagement\", \"value\": \"hover - store\"}], \"baseGroups\": [{\"id\": \"5d67db71\", \"title\": \"Quick Links\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"quick links - store\"}], \"baseLinks\": [{\"id\": \"622c2f61\", \"text\": \"Store finden\", \"url\": \"/de/retail/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"find a store\"}], \"ariaLabel\": \"\"}, {\"id\": \"6d4e3e8b\", \"text\": \"Bestellstatus\", \"url\": \"/de/shop/goto/order/list\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"order status\"}], \"ariaLabel\": \"\"}, {\"id\": \"0b7b196e\", \"text\": \"Apple Trade In\", \"url\": \"/de/shop/goto/trade_in\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple trade in\"}], \"ariaLabel\": \"\"}, {\"id\": \"65ecdde8\", \"text\": \"Finanzierung\", \"url\": \"/de/shop/goto/ww/financing\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"financing\"}], \"ariaLabel\": \"\"}, {\"id\": \"d0a7244e\", \"text\": \"Persönliches Setup\", \"url\": \"/de/shop/goto/personal_setup\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"personal setup\"}], \"ariaLabel\": \"\"}]}, {\"id\": \"4fb20b79\", \"title\": \"Spezielle Stores\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"shop special stores\"}], \"baseLinks\": [{\"id\": \"9bd6adcf\", \"text\": \"Zertifiziert Refurbished\", \"url\": \"/de/shop/goto/special_deals\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"certified refurbished\"}], \"ariaLabel\": \"\"}, {\"id\": \"0a88d8e4\", \"text\": \"Bildung\", \"url\": \"/de/shop/goto/educationrouting\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"education\"}], \"ariaLabel\": \"\"}, {\"id\": \"a503a18a\", \"text\": \"Business\", \"url\": \"/de/retail/business/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"business\"}], \"ariaLabel\": \"\"}]}], \"elevatedGroups\": [{\"id\": \"51e6512f\", \"title\": \"Kaufen\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"explore shop\"}], \"elevatedLinks\": [{\"id\": \"5f71c2fe\", \"text\": \"Das Neueste kaufen\", \"url\": \"/de/shop/goto/store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"shop the latest\"}], \"ariaLabel\": \"Die neuesten Apple Produkte kaufen\"}, {\"id\": \"d5d80a4e\", \"text\": \"Mac\", \"url\": \"/de/shop/goto/buy_"
+    }
+   ]
+  },
+  {
+   "url": "https://www.apple.com/de/shop/accessories/all/headphones-speakers",
+   "status": 200,
+   "final_url": "https://www.apple.com/de/shop/accessories/all/headphones-speakers",
+   "title": "Kopfhörer & Lautsprecher - Alle Zubehörprodukte - Apple (DE)",
+   "json_urls": [
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE"
+   ],
+   "links": [
+    "https://www.apple.com/de/shop/buy-airpods/airpods-pro-3"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "249,00 €",
+    "249,00 €",
+    "169,00 €",
+    "169,00 €",
+    "149,00 €",
+    "149,00 €",
+    "579,00 €",
+    "579,00 €",
+    "169,00 €",
+    "169,00 €"
+   ],
+   "items_by_source": {
+    "jsonld": 30
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + Zubehör Kopfhörer & Lautsprecher Zubehörtyp Kompatibilität Marke Farbe Kopfhörer-Typ Verbindung Features Nur bei Apple Sortieren nach: Empfohlen Kostenlose Gravur AirPods Pro 3 249,00 € Neu AirPods 5 mit kabellosem Ladecase 169,00 € Neu AirPods 5 149,00 € Kostenlose Gravur AirPods Max 2 579,00 € Neu HomePod mini 2 169,00 € HomePod 399,00 € Zurück Bild - EarPods (USB-C) Weiter Bild - EarPods (USB-C) EarPods (USB-C) 19,00 € Neu Beats 360 349,95 € Zurück Bild - Beats 360 Cushion Kit – Performance Ohrpolster und Kopfbügel aus Strickgewebe in Schwarz Weiter Bild - Beats 360 Cushion Kit – Performance Ohrpolster und Kopfbügel aus Strickgewebe in Schwarz Neu Beats 360 Cushion Kit – Performance Ohrpolster und Kopfbügel aus Strickgewebe in Schwarz 59,95 € Zurück Bild - Beats 360 Cushion Kit – UltraPlush Ohrpolster und Kopfbügel in Schwarz Weiter Bild - Beats 360 Cushion Kit – UltraPlush Ohrpolster und Kopfbügel in Schwarz Neu Beats 360 Cushion Kit – UltraPlush Ohrpolster und Kopfbügel in Schwarz 59,95 € Zurück Bild - Beats Studio Pro kabellose Kopfhörer – Espresso Weiter Bild - Beats Studio Pro kabellose Kopfhörer – Espresso Beats Studio Pro kabellose Kopfhörer – Espresso 299,95 € Zurück Bild - Beats Solo 4 – Kabellose On‑Ear Kopfhörer – Schieferblau Weiter Bild - Beats Solo 4 – Kabellose On‑Ear Kopfhörer – Schieferblau Beats Solo 4 – Kabellose On‑Ear Kopfhörer – Schieferblau 229,95 € Zurück Bild - "
+  },
+  {
+   "url": "https://www.apple.com/de/shop/buy-iphone/iphone-duo",
+   "status": 200,
+   "final_url": "https://www.apple.com/de/shop/buy-iphone/iphone-duo",
+   "title": "iPhone Duo kaufen - Apple (DE)",
+   "json_urls": [
+    "https://www.apple.com/de/shop/favoritesx/fetch",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=6267d6f92bbbcfb3c48e7b3477860e27c66788f8d3cc96260acce4d09ae3cfc3b97a5137346209d35efc50800d2be60106ca3f5c09220a04b",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE"
+   ],
+   "links": [
+    "https://www.apple.com/de/shop/buy-iphone/iphone-duo",
+    "https://www.apple.com/de/shop/buy-iphone/iphone-18-pro",
+    "https://www.apple.com/de/shop/buy-iphone/iphone-air",
+    "https://www.apple.com/de/shop/buy-iphone/iphone-17",
+    "https://www.apple.com/de/shop/buy-iphone/iphone-17e"
+   ],
+   "tiles": [
+    "256 GB Fußnote 1 Ab 2.299 € oder 95,79 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ②",
+    "512 GB Fußnote 1 Ab 2.549 € oder 106,21 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ②",
+    "1TB Fußnote 1 Ab 3.049 € oder 127,04 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ②",
+    "2TB Fußnote 1 Ab 3.799 € oder 158,29 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ②",
+    "1TB Fußnote 1 Sternenweiß 3.049,00 €",
+    "1TB Fußnote 1 Nachthimmel 3.049,00 €",
+    "512 GB Fußnote 1 Sternenweiß 2.549,00 €",
+    "512 GB Fußnote 1 Nachthimmel 2.549,00 €",
+    "256 GB Fußnote 1 Sternenweiß 2.299,00 €",
+    "256 GB Fußnote 1 Nachthimmel 2.299,00 €",
+    "2TB Fußnote 1 Sternenweiß 3.799,00 €",
+    "2TB Fußnote 1 Nachthimmel 3.799,00 €"
+   ],
+   "price_texts": [
+    "Ab 2.299 €",
+    "Ab 2.299 €",
+    "Ab 2.299 €",
+    "Ab 2.549 €",
+    "Ab 3.049 €",
+    "Ab 3.799 €",
+    "20,99 €/Monat pro Monat bis zur Kündigung",
+    "Ab 2.299 €",
+    "3.049,00 €",
+    "3.049,00 €"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 8,
+    "jsonld": 1,
+    "dom-tile": 8
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + Bezahle dein neues iPhone in 24 Raten. Fußnote ② Nach 11 Raten kannst du ohne weitere Kosten ein Upgrade in Anspruch nehmen. Fußnote ◊ 0 Euro Anzahlung. Weitere Infos iPhone Duo Ab 2.299 € oder 95,79 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Kostenloser Versand Beim Store abholen Neu iPhone Duo kaufen Ab 2.299 € oder 95,79 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Apple Intelligence Fußnote 4 Weitere Infos, iPhone Duo Erhalte von 30 € – 1.020 € für dein Eintauschgerät Fußnote ① Ratenzahlung mit Openbank Pay By Santander Fußnote ② Vorheriges Galeriebild Nächstes Galeriebild Farben. Wähle die, die dir am besten gefällt. Farbe Sternenweiß Nachthimmel Vergleiche die Displaygrößen von iPhone Duo und iPhone 18 Pro Max. Mehr anzeigen Speicherplatz. Wie viel Speicherplatz brauchst du? 256 GB Fußnote 1 Ab 2.299 € oder 95,79 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② 512 GB Fußnote 1 Ab 2.549 € oder 106,21 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② 1TB Fußnote 1 Ab 3.049 € oder 127,04 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② 2TB Fußnote 1 Ab 3.799 € oder 158,29 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Du bist dir "
+  },
+  {
+   "url": "https://www.apple.com/de/shop/buy-iphone/iphone-18-pro",
+   "status": 200,
+   "final_url": "https://www.apple.com/de/shop/buy-iphone/iphone-18-pro",
+   "title": "iPhone 18 Pro und iPhone 18 Pro Max kaufen - Apple (DE)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=754b2a7dcb9c6e9ad520779cf31e2ae38512a5520bc3bd1e444c2a26d517219880703ca2722faa79fc82ea335d365201c0b8c2369d19fdaf8",
+    "https://www.apple.com/de/shop/favoritesx/fetch"
+   ],
+   "links": [
+    "https://www.apple.com/de/shop/buy-iphone/iphone-18-pro",
+    "https://www.apple.com/de/shop/buy-iphone/iphone-duo",
+    "https://www.apple.com/de/shop/buy-iphone/iphone-air",
+    "https://www.apple.com/de/shop/buy-iphone/iphone-17",
+    "https://www.apple.com/de/shop/buy-iphone/iphone-17e"
+   ],
+   "tiles": [
+    "256 GB Fußnote 1 Ab 1.449 € oder 60,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ②",
+    "512 GB Fußnote 1 Ab 1.699 € oder 70,79 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ②",
+    "1TB Fußnote 1 Ab 2.199 € oder 91,62 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ②",
+    "2TB Fußnote 1 Ab 2.949 € oder 122,88 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ②",
+    "1TB Fußnote 1 Burgunder 2.349,00 €",
+    "1TB Fußnote 1 Polar 2.349,00 €",
+    "256 GB Fußnote 1 Silber 1.599,00 €",
+    "256 GB Fußnote 1 Schwarz 1.599,00 €",
+    "2TB Fußnote 1 Polar 3.099,00 €",
+    "512 GB Fußnote 1 Schwarz 1.849,00 €",
+    "2TB Fußnote 1 Burgunder 3.099,00 €",
+    "256 GB Fußnote 1 Polar 1.599,00 €",
+    "2TB Fußnote 1 Silber 3.099,00 €",
+    "256 GB Fußnote 1 Burgunder 1.599,00 €",
+    "2TB Fußnote 1 Schwarz 3.099,00 €"
+   ],
+   "price_texts": [
+    "Ab 1.449 €",
+    "Ab 1.449 €",
+    "Ab 1.449 €",
+    "Ab 1.599 €",
+    "Ab 1.449 €",
+    "Ab 1.699 €",
+    "Ab 2.199 €",
+    "Ab 2.949 €",
+    "20,99 €/Monat pro Monat bis zur Kündigung",
+    "Ab 1.449 €"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 32,
+    "jsonld": 2,
+    "dom-tile": 32
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + Bezahle dein neues iPhone in 24 Raten. Fußnote ② Nach 11 Raten kannst du ohne weitere Kosten ein Upgrade in Anspruch nehmen. Fußnote ◊ 0 Euro Anzahlung. Weitere Infos iPhone 18 Pro Ab 1.449 € oder 60,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Kostenloser Versand Beim Store abholen Neu iPhone 18 Pro kaufen Ab 1.449 € oder 60,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Apple Intelligence Fußnote 4 Weitere Infos, iPhone 18 Pro Erhalte von 30 € – 1.020 € für dein Eintauschgerät Fußnote ① Ratenzahlung mit Openbank Pay By Santander Fußnote ② Vorheriges Galeriebild Nächstes Galeriebild Modell. Welches ist das richtige Modell für dich? iPhone 18 Pro 6,3\" Display Fußnote 2 Ab 1.449 € oder 60,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② iPhone 18 Pro Max 6,9\" Display Fußnote 2 Ab 1.599 € oder 66,62 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Brauchst du Hilfe beim Auswählen eines Modells? Sieh dir die Unterschiede bei Displaygröße und Batterielaufzeit an. Mehr anzeigen Farben. Wähle die, die dir am besten gefällt. Farbe Burgunder Polar Silber Schwarz Speicherplatz. Wie viel Speicherplatz brauchst du? 256 GB Fußnote 1 Ab 1.449 € oder 60,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. "
+  },
+  {
+   "url": "https://www.apple.com/de/shop/buy-iphone/iphone-air",
+   "status": 200,
+   "final_url": "https://www.apple.com/de/shop/buy-iphone/iphone-air",
+   "title": "iPhone Air kaufen - Apple (DE)",
+   "json_urls": [
+    "https://www.apple.com/de/shop/favoritesx/fetch",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=25ec1f64362e4aa8da1ec967b0c32d930e7f45f40e561fff828db62c4c89598831ad912de7e126fc055c41cf1aa991740927c93a440283e5e"
+   ],
+   "links": [
+    "https://www.apple.com/de/shop/buy-iphone/iphone-air",
+    "https://www.apple.com/de/shop/buy-iphone/iphone-duo",
+    "https://www.apple.com/de/shop/buy-iphone/iphone-18-pro",
+    "https://www.apple.com/de/shop/buy-iphone/iphone-17",
+    "https://www.apple.com/de/shop/buy-iphone/iphone-17e"
+   ],
+   "tiles": [
+    "256 GB Fußnote 1 Ab 1.299 € oder 54,12 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ②",
+    "512 GB Fußnote 1 Ab 1.549 € oder 64,54 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ②",
+    "1TB Fußnote 1 Ab 2.049 € oder 85,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ②",
+    "512 GB Fußnote 1 Lichtgold Ohne vertrag 1.549,00 €",
+    "512 GB Fußnote 1 Himmelblau Ohne vertrag 1.549,00 €",
+    "512 GB Fußnote 1 Wolkenweiß Ohne vertrag 1.549,00 €",
+    "1TB Fußnote 1 Lichtgold Ohne vertrag 2.049,00 €",
+    "1TB Fußnote 1 Space Schwarz Ohne vertrag 2.049,00 €",
+    "1TB Fußnote 1 Wolkenweiß Ohne vertrag 2.049,00 €",
+    "256 GB Fußnote 1 Wolkenweiß Ohne vertrag 1.299,00 €",
+    "256 GB Fußnote 1 Space Schwarz Ohne vertrag 1.299,00 €",
+    "256 GB Fußnote 1 Lichtgold Ohne vertrag 1.299,00 €",
+    "512 GB Fußnote 1 Space Schwarz Ohne vertrag 1.549,00 €",
+    "1TB Fußnote 1 Himmelblau Ohne vertrag 2.049,00 €",
+    "256 GB Fußnote 1 Himmelblau Ohne vertrag 1.299,00 €"
+   ],
+   "price_texts": [
+    "Ab 1.299 €",
+    "Ab 1.299 €",
+    "Ab 1.299 €",
+    "Ab 1.549 €",
+    "Ab 2.049 €",
+    "20,99 €/Monat pro Monat bis zur Kündigung",
+    "Ab 1.299 €",
+    "1.549,00 €",
+    "1.549,00 €",
+    "1.549,00 €"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 12,
+    "jsonld": 1,
+    "dom-price": 1
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + Bezahle dein neues iPhone in 24 Raten. Fußnote ② Nach 11 Raten kannst du ohne weitere Kosten ein Upgrade in Anspruch nehmen. Fußnote ◊ 0 Euro Anzahlung. Weitere Infos iPhone Air Ab 1.299 € oder 54,12 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Kostenloser Versand Beim Store abholen iPhone Air kaufen Ab 1.299 € oder 54,12 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Apple Intelligence Fußnote 4 Weitere Infos, iPhone Air Erhalte von 30 € – 1.020 € für dein Eintauschgerät Fußnote ① Ratenzahlung mit Openbank Pay By Santander Fußnote ② Vorheriges Galeriebild Nächstes Galeriebild Farben. Wähle die, die dir am besten gefällt. Farbe Himmelblau Wolkenweiß Space Schwarz Lichtgold Speicherplatz. Wie viel Speicherplatz brauchst du? 256 GB Fußnote 1 Ab 1.299 € oder 54,12 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② 512 GB Fußnote 1 Ab 1.549 € oder 64,54 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② 1TB Fußnote 1 Ab 2.049 € oder 85,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Du bist dir nicht sicher, wie viel Speicherplatz du wählen sollst? Mach dir ein besseres Bild davon, wie viel Speicher­platz du brauchen wirst. Mehr anzeigen Apple Trade In.Erhalte eine Gutschrift in Höh"
+  },
+  {
+   "url": "https://www.apple.com/de/shop/buy-iphone/iphone-17",
+   "status": 200,
+   "final_url": "https://www.apple.com/de/shop/buy-iphone/iphone-17",
+   "title": "iPhone 17 kaufen - Apple (DE)",
+   "json_urls": [
+    "https://www.apple.com/de/shop/favoritesx/fetch",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=11947db59fe959207e8878a2c1d10055b7aaa9bad5f656dad728b75c0400a9f7ac0b138abdff6a100ce52d984fb0db914948cbbfc61ad6962",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE"
+   ],
+   "links": [
+    "https://www.apple.com/de/shop/buy-iphone/iphone-17",
+    "https://www.apple.com/de/shop/buy-iphone/iphone-duo",
+    "https://www.apple.com/de/shop/buy-iphone/iphone-18-pro",
+    "https://www.apple.com/de/shop/buy-iphone/iphone-air",
+    "https://www.apple.com/de/shop/buy-iphone/iphone-17e"
+   ],
+   "tiles": [
+    "256 GB Fußnote 1 Ab 1.099 € oder 45,79 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ②",
+    "512 GB Fußnote 1 Ab 1.349 € oder 56,21 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ②",
+    "256 GB Fußnote 1 Nebelblau 1.099,00 €",
+    "256 GB Fußnote 1 Lavendel 1.099,00 €",
+    "256 GB Fußnote 1 Schwarz 1.099,00 €",
+    "256 GB Fußnote 1 Weiß 1.099,00 €",
+    "512 GB Fußnote 1 Weiß 1.349,00 €",
+    "512 GB Fußnote 1 Schwarz 1.349,00 €",
+    "256 GB Fußnote 1 Salbei 1.099,00 €",
+    "512 GB Fußnote 1 Lavendel 1.349,00 €",
+    "512 GB Fußnote 1 Salbei 1.349,00 €",
+    "512 GB Fußnote 1 Nebelblau 1.349,00 €"
+   ],
+   "price_texts": [
+    "Ab 1.099 €",
+    "Ab 1.099 €",
+    "Ab 1.099 €",
+    "Ab 1.349 €",
+    "20,99 €/Monat pro Monat bis zur Kündigung",
+    "Ab 1.099 €",
+    "1.099,00 €",
+    "1.099,00 €",
+    "1.099,00 €",
+    "1.099,00 €"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 10,
+    "jsonld": 1,
+    "dom-tile": 10
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + Bezahle dein neues iPhone in 24 Raten. Fußnote ② Nach 11 Raten kannst du ohne weitere Kosten ein Upgrade in Anspruch nehmen. Fußnote ◊ 0 Euro Anzahlung. Weitere Infos iPhone 17 Ab 1.099 € oder 45,79 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Kostenloser Versand Beim Store abholen iPhone 17 kaufen Ab 1.099 € oder 45,79 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Apple Intelligence Fußnote 4 Weitere Infos, iPhone 17 Erhalte von 30 € – 1.020 € für dein Eintauschgerät Fußnote ① Ratenzahlung mit Openbank Pay By Santander Fußnote ② Vorheriges Galeriebild Nächstes Galeriebild Farben. Wähle die, die dir am besten gefällt. Farbe Lavendel Nebelblau Weiß Salbei Schwarz Speicherplatz. Wie viel Speicherplatz brauchst du? 256 GB Fußnote 1 Ab 1.099 € oder 45,79 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② 512 GB Fußnote 1 Ab 1.349 € oder 56,21 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Du bist dir nicht sicher, wie viel Speicherplatz du wählen sollst? Mach dir ein besseres Bild davon, wie viel Speicher­platz du brauchen wirst. Mehr anzeigen Apple Trade In.Erhalte eine Gutschrift in Höhe von 30 € – 1.020 € für dein neues iPhone. Fußnote ① Eintauschgerät hinzufügen Beantworte ein paar Fragen, um den geschätzten Eintau"
+  },
+  {
+   "url": "https://www.apple.com/de/shop/buy-iphone/iphone-17e",
+   "status": 200,
+   "final_url": "https://www.apple.com/de/shop/buy-iphone/iphone-17e",
+   "title": "iPhone 17e kaufen - Apple (DE)",
+   "json_urls": [
+    "https://www.apple.com/de/shop/favoritesx/fetch",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=2db6da084b88ec8a03dd458bd741cdba89211ff18fa6443935c264213a37c32eef9b543e4f2edf7032a6b7e41d884110a5a1a1d86830dc47a"
+   ],
+   "links": [
+    "https://www.apple.com/de/shop/buy-iphone/iphone-17e",
+    "https://www.apple.com/de/shop/buy-iphone/iphone-duo",
+    "https://www.apple.com/de/shop/buy-iphone/iphone-18-pro",
+    "https://www.apple.com/de/shop/buy-iphone/iphone-air",
+    "https://www.apple.com/de/shop/buy-iphone/iphone-17"
+   ],
+   "tiles": [
+    "256 GB Fußnote 1 Ab 849 € oder 35,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ②",
+    "512 GB Fußnote 1 Ab 1.099 € oder 45,79 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ②",
+    "512 GB Fußnote 1 Schwarz 1.099,00 €",
+    "256 GB Fußnote 1 Weiß 849,00 €",
+    "256 GB Fußnote 1 Hellrosa 849,00 €",
+    "512 GB Fußnote 1 Hellrosa 1.099,00 €",
+    "256 GB Fußnote 1 Schwarz 849,00 €",
+    "512 GB Fußnote 1 Weiß 1.099,00 €"
+   ],
+   "price_texts": [
+    "Ab 849 €",
+    "Ab 849 €",
+    "Ab 849 €",
+    "Ab 1.099 €",
+    "20,99 €/Monat pro Monat bis zur Kündigung",
+    "Ab 849 €",
+    "1.099,00 €",
+    "1.099,00 €",
+    "849,00 €",
+    "849,00 €"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 6,
+    "jsonld": 1,
+    "dom-tile": 6
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + Zahle für dein neues iPhone mit 0 % eff. Zins p.a. in 24 Raten. Fußnote ② Nach 12 Raten kannst du ohne weitere Kosten ein Upgrade in Anspruch nehmen. 0 Euro Anzahlung. Fußnote ◊ Weitere Infos iPhone 17e Ab 849 € oder 35,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Kostenloser Versand Beim Store abholen iPhone 17e kaufen Ab 849 € oder 35,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Apple Intelligence Fußnote 4 Weitere Infos, iPhone 17e Erhalte von 30 € – 1.020 € für dein Eintauschgerät Fußnote ① Ratenzahlung mit Openbank Pay By Santander Fußnote ② Vorheriges Galeriebild Nächstes Galeriebild Farben. Wähle die, die dir am besten gefällt. Farbe Hellrosa Weiß Schwarz Speicherplatz. Wie viel Speicherplatz brauchst du? 256 GB Fußnote 1 Ab 849 € oder 35,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② 512 GB Fußnote 1 Ab 1.099 € oder 45,79 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Du bist dir nicht sicher, wie viel Speicherplatz du wählen sollst? Mach dir ein besseres Bild davon, wie viel Speicher­platz du brauchen wirst. Mehr anzeigen Apple Trade In.Erhalte eine Gutschrift in Höhe von 30 € – 1.020 € für dein neues iPhone. Fußnote ① Eintauschgerät hinzufügen Beantworte ein paar Fragen, um den geschätzten E"
+  },
+  {
+   "url": "https://www.apple.com/de/shop/buy-iphone/iphone-16",
+   "status": 200,
+   "final_url": "https://www.apple.com/de/shop/buy-iphone/iphone-16",
+   "title": "iPhone 16 kaufen - Apple (DE)",
+   "json_urls": [
+    "https://www.apple.com/de/shop/favoritesx/fetch",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=1359356a17c2b12badbb71d8f2634c98989777173739d60a123f658ecbc56d14ecb4451348a260fc79736289c22c526421f5767b9654dbbad",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
+    "https://www.apple.com/de/shop/api/product-gallery?fae=true&node=home%2Fshop_iphone%2Ffamily%2Fiphone_16%2Fselect&dm.dimensionScreensize=6_1inch"
+   ],
+   "links": [
+    "https://www.apple.com/de/shop/buy-iphone/iphone-16",
+    "https://www.apple.com/de/shop/buy-iphone/iphone-duo",
+    "https://www.apple.com/de/shop/buy-iphone/iphone-18-pro",
+    "https://www.apple.com/de/shop/buy-iphone/iphone-air",
+    "https://www.apple.com/de/shop/buy-iphone/iphone-17",
+    "https://www.apple.com/de/shop/buy-iphone/iphone-17e"
+   ],
+   "tiles": [
+    "iPhone 16 6,1\" Display Fußnote 2Kommt mit 128 GB Speicher Ab 999 € oder 41,62 €/Rate pro Rate bei 24 RatenRaten mit 0 % eff. Zins p.a.eff. Zins p.a. Fußnote ◊",
+    "128 GB Fußnote 1 Ab 999 € oder 41,62 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊",
+    "128 GB Fußnote 1 Weiß Ohne vertrag 999,00 €",
+    "128 GB Fußnote 1 Schwarz Ohne vertrag 999,00 €",
+    "128 GB Fußnote 1 Pink Ohne vertrag 999,00 €",
+    "128 GB Fußnote 1 Blaugrün Ohne vertrag 999,00 €",
+    "128 GB Fußnote 1 Ultramarin Ohne vertrag 999,00 €"
+   ],
+   "price_texts": [
+    "Ab 999 €",
+    "Ab 999 €",
+    "Ab 999 €",
+    "Ab 999 €",
+    "20,99 €/Monat pro Monat bis zur Kündigung",
+    "Ab 999 €",
+    "999,00 €",
+    "999,00 €",
+    "999,00 €",
+    "999,00 €"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 5,
+    "jsonld": 1,
+    "dom-price": 1
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + iPhone 16 Ab 999 € oder 41,62 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊ Kostenloser Versand Beim Store abholen iPhone 16 kaufen Ab 999 € oder 41,62 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊ Apple Intelligence Fußnote 4 Weitere Infos, iPhone 16 Erhalte von 30 € – 1.020 € für dein Eintauschgerät Fußnote ① Ratenzahlung mit Openbank Pay By Santander Fußnote ◊ Vorheriges Galeriebild Nächstes Galeriebild Farben. Wähle die, die dir am besten gefällt. Farbe Ultramarin Blaugrün Weiß Pink Schwarz Speicherplatz. Wie viel Speicherplatz brauchst du? 128 GB Fußnote 1 Ab 999 € oder 41,62 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊ Du bist dir nicht sicher, wie viel Speicherplatz du wählen sollst? Mach dir ein besseres Bild davon, wie viel Speicher­platz du brauchen wirst. Mehr anzeigen Apple Trade In.Erhalte eine Gutschrift in Höhe von 30 € – 1.020 € für dein neues iPhone. Fußnote ① Eintauschgerät hinzufügen Beantworte ein paar Fragen, um den geschätzten Eintauschwert zu erfahren. Kein Eintausch Wie funktioniert die Inzahlungnahme? Erfahre, wie du bei diesem Kauf mit einer Inzahlungnahme sparen kannst. Oder lass dein Gerät kostenlos recyceln. Mehr anzeigen AppleCare Schutz. Ganz entspannt bleiben. Mit jedem Schutz. Fußnote ∆ AppleCare+ mit Diebstahl und Verlu"
+  },
+  {
+   "url": "https://www.apple.com/de/shop/buy-ipad/ipad-pro",
+   "status": 200,
+   "final_url": "https://www.apple.com/de/shop/buy-ipad/ipad-pro",
+   "title": "iPad Pro kaufen - Apple (DE)",
+   "json_urls": [
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
+    "https://www.apple.com/de/shop/favoritesx/fetch",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=e1504a429d320a54bdaaeff4351ca38caea46657940fadda3612f273783df262a49c29705ce3e9e34502f3b612bfec13555d159a1a1574850",
+    "https://www.apple.com/de/shop/engrave/json?fae=true&product=MX2D3ZM%2FA"
+   ],
+   "links": [
+    "https://www.apple.com/de/shop/buy-ipad/ipad-pro",
+    "https://www.apple.com/de/shop/buy-ipad/ipad-air",
+    "https://www.apple.com/de/shop/buy-ipad/ipad",
+    "https://www.apple.com/de/shop/buy-ipad/ipad-mini"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "Ab 1.299 €",
+    "Ab 1.299 €",
+    "Ab 1.299 €",
+    "Ab 1.649 €",
+    "Ab 1.299 €",
+    "Ab 1.549 €",
+    "Ab 2.029 €",
+    "Ab 2.649 €",
+    "Ab 1.299 €",
+    "Ab 2.159 €"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 48,
+    "jsonld": 48,
+    "dom-price": 1
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + iPad Pro Ab 1.299 € oder 108,25 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊ Kostenloser Versand Beim Store abholen iPad Pro kaufen Ab 1.299 € oder 108,25 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊ Apple Intelligence Fußnote 4 Weitere Infos, 11\" iPad Pro Erhalte 30 € – 1.100 € für dein Eintauschgerät Fußnote ① Ratenzahlung mit Openbank Pay By Santander Fußnote ◊ Vorheriges Galeriebild Nächstes Galeriebild Modell. Wähle deine Größe. 11\" Modell Ultra Retina XDR Display Ab 1.299 € oder 108,25 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊ 13\" Modell Ultra Retina XDR Display Ab 1.649 € oder 137,42 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊ Du möchtest mehr über Ultra Retina XDR erfahren? Lass dich von unserem fortschrittlichsten Display beeindrucken. Mehr anzeigen Farben. Wähle die, die dir am besten gefällt. Farbe Space Schwarz Silber Speicher, Arbeitsspeicher und Chip. Wähle deine Konfiguration. 256 GB Speicher Fußnote 2 12 GB Arbeitsspeicher M5 Chip: 9‑Core CPU, 10‑Core GPU Ab 1.299 € oder 108,25 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊ 512 GB Speicher Fußnote 2 12 GB Arbeitsspeicher M5 Chip: 9‑Core CPU, 10‑Core GPU Ab 1.549 € oder 129,08 €/Rate pro Rate bei 12 Rat"
+  },
+  {
+   "url": "https://www.apple.com/de/shop/buy-ipad/ipad-air",
+   "status": 200,
+   "final_url": "https://www.apple.com/de/shop/buy-ipad/ipad-air",
+   "title": "iPad Air kaufen - Apple (DE)",
+   "json_urls": [
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
+    "https://www.apple.com/de/shop/favoritesx/fetch",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=df10a8df1a7acf4fec09c002b973188dfc19a837715dfa68a04334cedd2f3e3a1690cb48bb6faed3195f175542ba4579c337e92feda276831",
+    "https://www.apple.com/de/shop/engrave/json?fae=true&product=MX2D3ZM%2FA"
+   ],
+   "links": [
+    "https://www.apple.com/de/shop/buy-ipad/ipad-air",
+    "https://www.apple.com/de/shop/buy-ipad/ipad-pro",
+    "https://www.apple.com/de/shop/buy-ipad/ipad",
+    "https://www.apple.com/de/shop/buy-ipad/ipad-mini"
+   ],
+   "tiles": [
+    "128 GB Fußnote 2 Ab 799 € oder 66,58 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊",
+    "256 GB Fußnote 2 Ab 929 € oder 77,42 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊",
+    "512 GB Fußnote 2 Ab 1.179 € oder 98,25 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊",
+    "1 TB Fußnote 2 Ab 1.559 € oder 129,92 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊",
+    "512 GB Fußnote 2 Space Grau Wi-FiJedes iPad kann sich mit WLAN verbinden, damit du in Verbindung bleiben kannst. 1.179,00 €",
+    "1 TB Fußnote 2 Space Grau Wi-FiJedes iPad kann sich mit WLAN verbinden, damit du in Verbindung bleiben kannst. 1.559,00 €",
+    "128 GB Fußnote 2 Space Grau Wi-FiJedes iPad kann sich mit WLAN verbinden, damit du in Verbindung bleiben kannst. 799,00 €",
+    "256 GB Fußnote 2 Space Grau Wi-FiJedes iPad kann sich mit WLAN verbinden, damit du in Verbindung bleiben kannst. 929,00 €",
+    "512 GB Fußnote 2 Polarstern Wi-FiJedes iPad kann sich mit WLAN verbinden, damit du in Verbindung bleiben kannst. 1.179,00 €",
+    "1 TB Fußnote 2 Polarstern Wi-FiJedes iPad kann sich mit WLAN verbinden, damit du in Verbindung bleiben kannst. 1.559,00 €",
+    "128 GB Fußnote 2 Polarstern Wi-FiJedes iPad kann sich mit WLAN verbinden, damit du in Verbindung bleiben kannst. 799,00 €",
+    "256 GB Fußnote 2 Polarstern Wi-FiJedes iPad kann sich mit WLAN verbinden, damit du in Verbindung bleiben kannst. 929,00 €",
+    "512 GB Fußnote 2 Violett Wi-FiJedes iPad kann sich mit WLAN verbinden, damit du in Verbindung bleiben kannst. 1.179,00 €",
+    "1 TB Fußnote 2 Violett Wi-FiJedes iPad kann sich mit WLAN verbinden, damit du in Verbindung bleiben kannst. 1.559,00 €",
+    "128 GB Fußnote 2 Violett Wi-FiJedes iPad kann sich mit WLAN verbinden, damit du in Verbindung bleiben kannst. 799,00 €"
+   ],
+   "price_texts": [
+    "Ab 799 €",
+    "Ab 799 €",
+    "Ab 799 €",
+    "Ab 999 €",
+    "Ab 799 €",
+    "Ab 929 €",
+    "Ab 1.179 €",
+    "Ab 1.559 €",
+    "Ab 799 €",
+    "Ab 969 €"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 64,
+    "jsonld": 64,
+    "dom-price": 1
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + iPad Air Ab 799 € oder 66,58 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊ Kostenloser Versand Beim Store abholen iPad Air kaufen Ab 799 € oder 66,58 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊ Apple Intelligence Fußnote 4 Weitere Infos, 11\" iPad Air Erhalte 30 € – 1.100 € für dein Eintauschgerät Fußnote ① Ratenzahlung mit Openbank Pay By Santander Fußnote ◊ Vorheriges Galeriebild Nächstes Galeriebild Modell. Wähle deine Größe. 11\" Modell Ab 799 € oder 66,58 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊ 13\" Modell Ab 999 € oder 83,25 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊ Farben. Wähle die, die dir am besten gefällt. Farbe Violett Blau Polarstern Space Grau Speicherplatz. Wähle, wie viel Speicherplatz du brauchst. 128 GB Fußnote 2 Ab 799 € oder 66,58 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊ 256 GB Fußnote 2 Ab 929 € oder 77,42 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊ 512 GB Fußnote 2 Ab 1.179 € oder 98,25 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊ 1 TB Fußnote 2 Ab 1.559 € oder 129,92 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊"
+  },
+  {
+   "url": "https://www.apple.com/de/shop/buy-ipad/ipad",
+   "status": 200,
+   "final_url": "https://www.apple.com/de/shop/buy-ipad/ipad",
+   "title": "iPad kaufen - Apple (DE)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+    "https://www.apple.com/de/shop/favoritesx/fetch",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=8bbba8a181b9d03657945e68118d4db16e4fb4c03c7709dd5471948136b05784291183fd548a1a256a09860b68aa15083c0a51d4f1ac12ced"
+   ],
+   "links": [
+    "https://www.apple.com/de/shop/buy-ipad/ipad",
+    "https://www.apple.com/de/shop/buy-ipad/ipad-pro",
+    "https://www.apple.com/de/shop/buy-ipad/ipad-air",
+    "https://www.apple.com/de/shop/buy-ipad/ipad-mini"
+   ],
+   "tiles": [
+    "128 GB Fußnote 2 Ab 499 € oder 41,58 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊",
+    "256 GB Fußnote 2 Ab 629 € oder 52,42 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊",
+    "512 GB Fußnote 2 Ab 879 € oder 73,25 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊",
+    "128 GB Fußnote 2 Blau Wi-FiJedes iPad kann sich mit WLAN verbinden, damit du in Verbindung bleiben kannst. 499,00 €",
+    "256 GB Fußnote 2 Blau Wi-FiJedes iPad kann sich mit WLAN verbinden, damit du in Verbindung bleiben kannst. 629,00 €",
+    "512 GB Fußnote 2 Blau Wi-FiJedes iPad kann sich mit WLAN verbinden, damit du in Verbindung bleiben kannst. 879,00 €",
+    "128 GB Fußnote 2 Silber Wi-FiJedes iPad kann sich mit WLAN verbinden, damit du in Verbindung bleiben kannst. 499,00 €",
+    "256 GB Fußnote 2 Silber Wi-FiJedes iPad kann sich mit WLAN verbinden, damit du in Verbindung bleiben kannst. 629,00 €",
+    "512 GB Fußnote 2 Silber Wi-FiJedes iPad kann sich mit WLAN verbinden, damit du in Verbindung bleiben kannst. 879,00 €",
+    "128 GB Fußnote 2 Pink Wi-FiJedes iPad kann sich mit WLAN verbinden, damit du in Verbindung bleiben kannst. 499,00 €",
+    "256 GB Fußnote 2 Pink Wi-FiJedes iPad kann sich mit WLAN verbinden, damit du in Verbindung bleiben kannst. 629,00 €",
+    "512 GB Fußnote 2 Pink Wi-FiJedes iPad kann sich mit WLAN verbinden, damit du in Verbindung bleiben kannst. 879,00 €",
+    "128 GB Fußnote 2 Gelb Wi-FiJedes iPad kann sich mit WLAN verbinden, damit du in Verbindung bleiben kannst. 499,00 €",
+    "256 GB Fußnote 2 Gelb Wi-FiJedes iPad kann sich mit WLAN verbinden, damit du in Verbindung bleiben kannst. 629,00 €",
+    "512 GB Fußnote 2 Gelb Wi-FiJedes iPad kann sich mit WLAN verbinden, damit du in Verbindung bleiben kannst. 879,00 €"
+   ],
+   "price_texts": [
+    "Ab 499 €",
+    "Ab 499 €",
+    "Ab 499 €",
+    "Ab 629 €",
+    "Ab 879 €",
+    "Ab 499 €",
+    "Ab 669 €",
+    "89,00 €",
+    "89,00 €",
+    "89,00 €"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 24,
+    "jsonld": 24,
+    "dom-price": 1
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + iPad Ab 499 € oder 41,58 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊ Kostenloser Versand Beim Store abholen iPad kaufen Ab 499 € oder 41,58 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊ Weitere Infos, iPad Erhalte 30 € – 1.100 € für dein Eintauschgerät Fußnote ① Ratenzahlung mit Openbank Pay By Santander Fußnote ◊ Vorheriges Galeriebild Nächstes Galeriebild Farben. Wähle die, die dir am besten gefällt. Farbe Silber Pink Blau Gelb Speicherplatz. Wähle, wie viel Speicherplatz du brauchst. 128 GB Fußnote 2 Ab 499 € oder 41,58 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊ 256 GB Fußnote 2 Ab 629 € oder 52,42 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊ 512 GB Fußnote 2 Ab 879 € oder 73,25 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊ Du bist dir nicht sicher, wie viel Speicherplatz du wählen sollst? Je mehr Speicherplatz dein iPad hat, desto mehr Platz hast du jetzt und in Zukunft für das Speichern deiner digitalen Inhalte. Mehr anzeigen Konnektivität. Wähle deine Verbindungsoptionen. Wi-Fi Jedes iPad kann sich mit WLAN verbinden, damit du in Verbindung bleiben kannst. Ab 499 € oder 41,58 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊ W"
+  },
+  {
+   "url": "https://www.apple.com/de/shop/buy-ipad/ipad-mini",
+   "status": 200,
+   "final_url": "https://www.apple.com/de/shop/buy-ipad/ipad-mini",
+   "title": "iPad mini kaufen - Apple (DE)",
+   "json_urls": [
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
+    "https://www.apple.com/de/shop/favoritesx/fetch",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=e8670280e2593d62cbf9816f21c38091f9e57b92b354b71bf4d6a16502873411039d8b8cb96400d8d4ac198c9851a13e94232e06ceb30e37d",
+    "https://www.apple.com/de/shop/engrave/json?fae=true&product=MX2D3ZM%2FA"
+   ],
+   "links": [
+    "https://www.apple.com/de/shop/buy-ipad/ipad-mini",
+    "https://www.apple.com/de/shop/buy-ipad/ipad-pro",
+    "https://www.apple.com/de/shop/buy-ipad/ipad-air",
+    "https://www.apple.com/de/shop/buy-ipad/ipad"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "Ab 749 €",
+    "Ab 749 €",
+    "Ab 749 €",
+    "Ab 879 €",
+    "Ab 1.129 €",
+    "Ab 749 €",
+    "Ab 1.009 €",
+    "Ab 749 €",
+    "Ab 919 €",
+    "149,00 €"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 20,
+    "jsonld": 20,
+    "dom-price": 1
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + iPad mini Ab 749 € oder 62,42 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊ Kostenloser Versand Beim Store abholen Neu iPad mini vorbestellen Erhältlich ab 6.11. Ab 749 € oder 62,42 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊ Apple Intelligence Fußnote 3 Weitere Infos, iPad mini Erhalte 30 € – 1.100 € für dein Eintauschgerät Fußnote ① Ratenzahlung mit Openbank Pay By Santander Fußnote ◊ Vorheriges Galeriebild Nächstes Galeriebild Farben. Wähle die, die dir am besten gefällt. Farbe Mitternacht Polarstern Speicher und Chip. Wähle deine Konfiguration. 128 GB A20 Pro Chip: 5‑Core CPU, 7‑Core GPU 16‑Core Neural Engine Ab 749 € oder 62,42 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊ 256 GB A20 Pro Chip: 5‑Core CPU, 7‑Core GPU 16‑Core Neural Engine Ab 879 € oder 73,25 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊ 512 GB A20 Pro Chip: 6‑Core CPU, 7‑Core GPU Dual 16‑Core Neural Engine Ab 1.129 € oder 94,08 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊ Du bist dir nicht sicher, wie viel Speicherplatz du wählen sollst? Je mehr Speicherplatz dein iPad mini hat, desto mehr Platz hast du jetzt und in Zukunft für das Speichern deiner digitalen Inhalte. Mehr anzeigen Displayglas. Wähle das "
+  },
+  {
+   "url": "https://www.apple.com/de/shop/buy-watch/apple-watch",
+   "status": 200,
+   "final_url": "https://www.apple.com/de/shop/buy-watch/apple-watch",
+   "title": "Apple Watch Series 12 kaufen - Apple (DE)",
+   "json_urls": [
+    "https://www.apple.com/de/shop/sba/d/init?fnode=b9d6cf46cbca5bfffad800d06a54d43ff4ae7793f9c5eaeb1bd20c11806737626d15dd295b20bab227aa0e0bc3408f650ed2f96eab2147ed1",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
+    "https://www.apple.com/de/shop/favoritesx/fetch"
+   ],
+   "links": [
+    "https://www.apple.com/de/shop/buy-watch/apple-watch"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "Ab 449 €",
+    "Ab 449 €",
+    "Ab 449 €",
+    "Ab 449 €",
+    "Ab 449 €",
+    "Ab 449 €",
+    "Ab 799 €",
+    "Ab 799 €",
+    "Ab 1.049 €",
+    "Ab 1.049 €"
+   ],
+   "items_by_source": {
+    "jsonld": 1,
+    "dom-price": 1
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + Apple Watch Series 12 Ab 449 € oder 37,42 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊◊ Kostenloser Versand Beim Store abholen Neu Apple Watch Series 12 kaufen Ab 449 € oder 37,42 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊◊ Erhalte von 25 € – 470 € für dein Eintauschgerät Fußnote ① Ratenzahlung mit Openbank Pay By Santander Fußnote ◊◊ Dünnes und leichtes Design mit einem großen, fortschrittlichen Display. Vorheriges Galeriebild Nächstes Galeriebild Gehäuse. Los geht's mit Material und Finish. Neue Farben Aluminium Mit GPS oder GPS + Cellular Ab 449 € oder 37,42 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊◊ Ein mattes Finish und ein robustes Display mit Ceramic Shield 2. Fußnote ∆ Neue Farbe Titan Mit GPS + Cellular Ab 799 € oder 66,58 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊◊ Poliertes Titan in Raumfahrt-Qualität mit einem robusten Display aus Saphirglas. Neu Keramik Mit GPS + Cellular Ab 1.049 € oder 87,42 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊◊ Hochwertig und kratzfest mit einem edlen polierten Finish und einem robusten Display aus Saphirglas. Brauchst du Hilfe beim Auswählen des Materials deines Gehäuses? Erfahre mehr über die Unterschiede bei Gewicht, Finis"
+  },
+  {
+   "url": "https://www.apple.com/de/shop/buy-watch/apple-watch-se",
+   "status": 200,
+   "final_url": "https://www.apple.com/de/shop/buy-watch/apple-watch-se",
+   "title": "Apple Watch SE 3 kaufen - Apple (DE)",
+   "json_urls": [
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=94f0e20508f69bd3b51014bb2bfc28d4f25ad781871e52f2605a86873c077aff66d636520b01c882a13489e2b4fd377ab8096d3d003e19a16",
+    "https://www.apple.com/de/shop/favoritesx/fetch"
+   ],
+   "links": [
+    "https://www.apple.com/de/shop/buy-watch/apple-watch-se"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "Ab 269 €",
+    "Ab 269 €",
+    "Ab 269 €",
+    "Ab 269 €",
+    "Ab 269 €",
+    "Ab 269 €",
+    "Ab 299 €",
+    "Ab 299 €",
+    "Ab 269 €",
+    "Ab 269 €"
+   ],
+   "items_by_source": {
+    "jsonld": 1,
+    "dom-price": 1
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + Apple Watch SE 3 Ab 269 € oder 22,42 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊◊ Kostenloser Versand Beim Store abholen Apple Watch SE 3 kaufen Ab 269 € oder 22,42 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊◊ Erhalte von 25 € – 470 € für dein Eintauschgerät Fußnote ① Ratenzahlung mit Openbank Pay By Santander Fußnote ◊◊ Aluminium. 100 % recyceltes Aluminium. Perfekt für Alltagsaktivitäten und alle Trainingsarten. Vorheriges Galeriebild Nächstes Galeriebild Gehäuse. Los geht's mit der Farbe. Farbe Mitternacht Polarstern Gehäusegröße. Wähle die Gehäusegröße, die für dich passt. 40 mm Ab 269 € oder 22,42 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊◊ 44 mm Ab 299 € oder 24,92 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊◊ Brauchst du Hilfe beim Auswählen deiner Größe? Sieh dir die Unterschiede bei Displaygröße und Gehäusegewicht an. Mehr anzeigen Konnektivität. Bleib in Verbindung, auch wenn du dein iPhone nicht dabei hast. GPS Telefoniere und sende Textnachrichten, wenn dein iPhone in der Nähe ist. Ab 269 € oder 22,42 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊◊ GPS + Cellular Anrufen und Nachrichten senden – nur mit deiner Apple Watch. Für die Nutzung von Apple Watch für de"
+  },
+  {
+   "url": "https://www.apple.com/de/shop/buy-watch/apple-watch-hermes",
+   "status": 200,
+   "final_url": "https://www.apple.com/de/shop/buy-watch/apple-watch-hermes",
+   "title": "Apple Watch Hermès Series 12 kaufen - Apple (DE)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=848cf1b05af3cb1716f4029a7f5278a97d7c81db9ef1bdf788e5ad79bad1acea7a6f5c719ca85b85b92e88c0a7596967fc1a554c57c707984",
+    "https://www.apple.com/de/shop/favoritesx/fetch"
+   ],
+   "links": [
+    "https://www.apple.com/de/shop/buy-watch/apple-watch-hermes"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "Ab 1.599 €",
+    "Ab 1.599 €",
+    "Ab 1.599 €",
+    "Ab 1.599 €",
+    "Ab 1.599 €",
+    "Ab 1.599 €",
+    "Ab 1.649 €",
+    "Ab 1.649 €",
+    "20,99 €/Monat pro Monat bis zur Kündigung",
+    "Ab 1.599 €"
+   ],
+   "items_by_source": {
+    "jsonld": 1,
+    "dom-price": 1
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + Apple Watch Hermès Series 12 Ab 1.599 € oder 133,25 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊◊ Kostenloser Versand Beim Store abholen Neu Apple Watch Hermès Series 12 kaufen Ab 1.599 € oder 133,25 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊◊ Erhalte von 25 € – 470 € für dein Eintauschgerät Fußnote ① Ratenzahlung mit Openbank Pay By Santander Fußnote ◊◊ Das leichte Titangehäuse kommt in poliertem Silber oder dem neuen Brillantgold. Das goldfarbene Gehäuse ist mit dem Satin Clou de Selle Armband kombinierbar. Vorheriges Galeriebild Nächstes Galeriebild Gehäuse. Los geht's mit der Farbe. Farbe Silber Brillantgold Gehäusegröße. Wähle die Gehäusegröße, die für dich passt. 42 mm Ab 1.599 € oder 133,25 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊◊ 46 mm Ab 1.649 € oder 137,42 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ◊◊ Brauchst du Hilfe beim Auswählen deiner Größe? Sieh dir die Unterschiede bei Displaygröße und Gehäusegewicht an. Mehr anzeigen Armband. Entdecke verschiedene Stile und wähle den, der dir am besten gefällt. Neu Satin Clou de Selle Dieses elegante gewebte Armband wird exklusiv mit dem neuen Titangehäuse in Brillantgold kombiniert und zeichnet sich durch Satinglanz und das charakteristische Clou de Selle "
+  },
+  {
+   "url": "https://www.apple.com/de/shop/buy-airpods/airpods-pro-3",
+   "status": 200,
+   "final_url": "https://www.apple.com/de/shop/buy-airpods/airpods-pro-3",
+   "title": "AirPods Pro 3 kaufen - Apple (DE)",
+   "json_urls": [
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
+    "https://www.apple.com/de/shop/updateSummary?node=home%2Fshop_airpods%2Ffamily%2Fairpods_pro_3&step=select&product=MFHP4ZM%2FA",
+    "https://www.apple.com/de/shop/favoritesx/fetch",
+    "https://www.apple.com/de/shop/engrave/json?product=MFHP4ZM%2FA"
+   ],
+   "links": [
+    "https://www.apple.com/de/shop/buy-airpods/airpods-pro-3"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "20,99 €/Monat pro Monat bis zur Kündigung",
+    "249,00 €",
+    "249,00 €",
+    "249,00 €",
+    "249,00 €",
+    "249,00 €",
+    "149 €",
+    "169 €",
+    "249 €",
+    "579 €"
+   ],
+   "items_by_source": {
+    "jsonld": 1,
+    "dom-price": 1
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + AirPods Pro 3 Überblick Technische Daten AirPods Pro 3 kaufen Kostenlose Lieferung am nächsten Tag Erhalte 3 Monate kostenlos Apple Fitness+ und Apple Music mit deinen AirPods Pro 3 Fußnote ∆, + Kostenlose, einfache Rückgabe Hilfe beim Einkauf. Chatte online (Öffnet ein neues Fenster) oder ruf 0800 2000 136 an. Kostenlose Gravur AirPods Pro 3 kaufen Jetzt mit der weltbesten Aktiven Geräusch­unterdrückung bei In-Ear Kopfhörern, Fußnote ¹ der ganz neuen Herzfrequenzmessung Fußnote ² und bis zu 8 Stunden Batterielaufzeit. Fußnote ¹³ Kostenlos personalisieren Gravur hinzufügen Lass eine Kombination aus Emojis, Namen, Initialen und Zahlen gravieren und mach deine AirPods Pro 3 ganz zu deinen. Es ist kostenlos und die Lieferung geht schnell. Kostenlos Keine Gravur AppleCare Schutz. Ganz entspannt bleiben. Mit jedem Schutz.※※ AppleCare+ Nur dieses Produkt absichern 1,99 €/Monat pro Monat oder 19,99 €/Jahr Pro Jahr bis zur Kündigung Unbegrenzte Anzahl von Reparaturen bei Missgeschicken wie Stürzen und verschütteten Flüssigkeiten Vorrangiger Support durch Apple Expert:innen Express-Austauschservice – wir liefern dir ein Ersatzgerät, damit du nicht auf eine Reparatur warten musst Der Preis beinhaltet 19 % Versicherungssteuer Neu AppleCare One Sichere mit AppleCare One für Einzelpersonen mehrere Produkte ab, darunter auch dieses 20,99 €/Monat pro Monat bis zur Kündigung Alle Vorteile von Ap"
+  }
+ ]
+}

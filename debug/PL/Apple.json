@@ -1,0 +1,779 @@
+{
+ "brand": "Apple",
+ "country": "PL",
+ "pages": [
+  {
+   "url": "https://www.apple.com/pl/shop/buy-iphone",
+   "status": 200,
+   "final_url": "https://www.apple.com/pl/shop/buy-iphone",
+   "title": "Kup iPhone’a - Apple (PL)",
+   "json_urls": [
+    "https://www.apple.com/pl/shop/api/digital-mat?path=library/step0_iphone/digitalmat&fae=true",
+    "https://www.apple.com/pl/shop/bag/status?apikey=SJHJUH4YFCTTPD4F4",
+    "https://www.apple.com/shop/shld/work/s3/q?jr=30",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL"
+   ],
+   "links": [
+    "https://www.apple.com/pl/shop/buy-iphone/iphone-duo",
+    "https://www.apple.com/pl/shop/buy-iphone/iphone-18-pro",
+    "https://www.apple.com/pl/shop/buy-iphone/iphone-air",
+    "https://www.apple.com/pl/shop/buy-iphone/iphone-17",
+    "https://www.apple.com/pl/shop/buy-iphone/iphone-17e",
+    "https://www.apple.com/pl/shop/buy-iphone/iphone-16"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "Od 9999 zł",
+    "Od 9999 zł",
+    "Od 9999 zł",
+    "Od 9999 zł",
+    "Od 9999 zł",
+    "Od 6299 zł",
+    "Od 6299 zł",
+    "Od 6299 zł",
+    "Od 6299 zł",
+    "Od 6299 zł"
+   ],
+   "items_by_source": {},
+   "text_sample": "Apple Sklep Mac iPad iPhone Watch AirPods Dom Rozrywka Akcesoria Wsparcie 0 + Kup iPhone’a Potrzebujesz pomocy w zakupach? Zadzwoń pod numer 800‑702‑322. Wszystkie modele Przewodniki zakupowe Akcesoria Konfiguracja i wsparcie Radość z iPhone’a Wszystkie modele. Który dla Ciebie? NOWOŚĆ iPhone Duo - NOWOŚĆ W zbliżeniu - iPhone Duo Od 9999 zł Kup - iPhone Duo NOWOŚĆ iPhone 18 Pro i iPhone 18 Pro Max - NOWOŚĆ W zbliżeniu - iPhone 18 Pro i iPhone 18 Pro Max Od 6299 zł Kup - iPhone 18 Pro i iPhone 18 Pro Max iPhone Air W zbliżeniu - iPhone Air Od 5799 zł Kup - iPhone Air iPhone 17 W zbliżeniu - iPhone 17 Od 4499 zł Kup - iPhone 17 iPhone 17e W zbliżeniu - iPhone 17e Od 3499 zł Kup - iPhone 17e iPhone 16 W zbliżeniu - iPhone 16 Od 3999 zł Kup - iPhone 16 Zobacz akcesoria do iPhone’a. Wstecz - Wszystkie modele. Dalej - Wszystkie modele. Przewodniki zakupowe. Nie wiesz, którego wybrać? Zacznij tu. PORÓWNAJ WSZYSTKIE MODELE Który dla Ciebie? - (Otwiera się w nowym oknie) SPECJALIŚCI OD IPHONE’A Zrób zakupy online z ekspercką pomocą. PRZEJDŹ NA IPHONE’A Przejście z Androida na iPhone’a jest niezwykle proste. - (Otwiera się w nowym oknie) Wstecz - Przewodniki zakupowe. Dalej - Przewodniki zakupowe. Akcesoria. Niezbędniki idealnie łączące się z Twoimi ulubionymi urządzeniami. Idealna para. Albo dwie. Akcesoria, które idealnie pasują do iPhone’a i siebie nawzajem. Nowość Etui z tkaniny TechWoven z MagSafe do iPhone’a 18 Pro - burgund - Nowość 319,00 zł Nowość Etui Folio do iPhone’a Duo z ",
+   "json_samples": [
+    {
+     "url": "https://www.apple.com/pl/shop/api/digital-mat?path=library/step0_iphone/digitalmat&fae=true",
+     "body": "{\"head\": {\"status\": \"200\", \"data\": {}}, \"body\": {\"digitalMat\": [{\"enableDarkTheme\": false, \"familyTypes\": [{\"exploreLink\": {\"url\": \"https://www.apple.com/pl/iphone-duo\", \"text\": \"Więcej o iPhonie Duo\", \"dataVar\": {}, \"omnitureData\": {\"linkText\": \"Więcej o iPhonie Duo\", \"commitCodeId\": 0}, \"newTab\": false, \"isLinkAsButton\": false, \"link\": \"https://www.apple.com/pl/iphone-duo\", \"deeplink\": []}, \"valuePropsContent\": {\"items\": [{\"index\": 0, \"value\": \"\", \"position\": 1, \"first\": true, \"last\": false, \"even\": true}, {\"index\": 1, \"value\": \"\", \"position\": 2, \"first\": false, \"last\": false, \"even\": false}, {\"index\": 2, \"value\": \"<div class=\\\"rf-digitalmat-valueprops-icon\\\">\\n\\t<div class=\\\"as-svgicon-container dd-color-forest-green\\\">\\n\\t\\t\\n<svg width=\\\"23\\\" height=\\\"25\\\" viewBox=\\\"0 0 23 25\\\" class=\\\"dd-glyph-svg dd-glyph-reduced\\\" aria-hidden=\\\"true\\\">\\n  <path d=\\\"m22.4825 12.8467-2.9209-3.2085c-.4121-.4473-.8828-.6382-1.5752-.6382h-1.9863v-2.505c0-1.3807-1.1194-2.5-2.5-2.5h-11.0001c-1.3806 0-2.5 1.1194-2.5 2.5v9.75c0 1.3808 1.1194 2.5 2.5 2.5h.5479c.2258 1.2913 1.3462 2.275 2.7021 2.275s2.28-.7235 2.6721-2.0201h6.6808c.3199 1.1639 1.3814 2.02 2.647 2.02 1.3477 0 2.4639-.9707 2.6997-2.25h.7349c1.1367 0 1.8154-.6689 1.8154-1.7896v-2.8081c0-.498-.1914-.9849-.5176-1.3257zm-15.0562 5.8984c-.2087.7333-.8772 1.275-1.6763 1.275s-1.4675-.5417-1.6763-1.275c-.0432-.152-.0737-.3093-.0737-.475 0-.1841.0364-.3582.0894-.525.2246-.7075.8799-1.225 1.6606-1.225s1.436.5175 1.6606 1.225c.053.1668.0894.3409.0894.525 0 .1657-.0305.3229-.0737.475zm1.0208-.745c-.1238-1.3988-1.3582-2.4799-2.697-2.4799s-2.4517.9578-2.697 2.225h-.553c-.8271 0-1.5-.6729-1.5-1.5v-9.7502c0-.8271.6729-1.5 1.5-1.5h10.9999c.8271 0 1.5.6729 1.5 1.5v11.505h-6.553zm10.9714.7701c-.2168.7203-.8784 1.25-1.6685 1.25s-1.4517-.5297-1.6685-1.25c-.0479-.1595-.0815-.3251-.0815-.5s.0337-.3405.0815-.5c.2168-.7203.8784-1.25 1.6685-1.25s1.4517.5297 1.6685 1.25c.0479.1595.0815.3251.0815.5s-.0337.3405-.0815.5zm2.5815-1.7896c0 .5684-.2285.7896-.8154.7896h-.7349c-.2358-1.2794-1.3521-2.25-2.6997-2.25-.6687 0-1.2734.2482-1.75.645v-6.165h1.9863c.4102 0 .623.0796.8379.3135l2.9268 3.2148c.1562.1636.249.4043.249.644zm-1.3238-3.3608c.1084.1198.1738.2113.1738.3803h-3.3066c-.3335 0-.5435-.2042-.5435-.5282v-2.4718h1.0725c.2534 0 .4419.0986.594.2676l2.0097 2.3521z\\\" />\\n</svg>\\n\\t</div>\\n</div>\\n<div class=\\\"rf-digitalmat-valueprops-description\\\">\\n\\t<h3 class=\\\"rf-digitalmat-valueprops-header\\\">\\n\\t\\tBezpłatna dostawa\\n\\t</h3>\\n\\tI&nbsp;bezp"
+    },
+    {
+     "url": "https://www.apple.com/pl/shop/bag/status?apikey=SJHJUH4YFCTTPD4F4",
+     "body": "{\"items\": 0, \"ttl\": 180, \"api\": {\"flyout\": \"/%5Bstorefront%5D/shop/bag/flyout\", \"addToBag\": \"/%5Bstorefront%5D/shop/bag/add?product=%5Bpart%5D\"}}"
+    },
+    {
+     "url": "https://www.apple.com/shop/shld/work/s3/q?jr=30",
+     "body": "{\"challenge_version\": 3, \"challenge\": \"fd3f616778358d46fc6f79929b5b8b35762ae63018a695c3482ba5d8d12dcf7a3497b8c31d06781b9acac73a4423682e\", \"X\": \"21e545c5cdaa6f403d96cce340fdbeb0da98b8c18f4e4a03ec88e0dcb75c11b3\", \"algorithm\": \"SHA-384\", \"salt\": \"ca3b1342353f93bb1ded2694f8807b0af31fc5910510b88faafdab961f7ec3e4219f5ca88c34112005d54eaaefb1de04\", \"t\": 1793348636.293, \"timeout\": 3000, \"signature\": \"badbe8b30fb845c3d43c63759c8612786207fea3fa7ead2e25d480bc9d7f50a4\"}"
+    },
+    {
+     "url": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
+     "body": "{\"id\": \"8dRU4qDVTHKHLLxAR5UbmA\", \"results\": [{\"sectionName\": \"quickLinks\", \"sectionResults\": [{\"label\": \"Kupuj w internetowym sklepie Apple Store\", \"url\": \"https://www.apple.com/pl/shop/goto/shop\"}, {\"label\": \"Akcesoria\", \"url\": \"https://www.apple.com/pl/shop/goto/accessories/apple_accessories\"}, {\"label\": \"AirPods\", \"url\": \"https://www.apple.com/pl/airpods/\"}, {\"label\": \"Apple Intelligence\", \"url\": \"https://www.apple.com/pl/apple-intelligence/\"}]}, {\"sectionName\": \"suggestions\", \"sectionResults\": []}]}"
+    }
+   ]
+  },
+  {
+   "url": "https://www.apple.com/pl/shop/buy-ipad",
+   "status": 200,
+   "final_url": "https://www.apple.com/pl/shop/buy-ipad",
+   "title": "Kup iPada - Apple (PL)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
+    "https://www.apple.com/pl/shop/api/digital-mat?path=library/step0_ipad/digitalmat&fae=true"
+   ],
+   "links": [
+    "https://www.apple.com/pl/shop/buy-ipad/ipad-pro",
+    "https://www.apple.com/pl/shop/buy-ipad/ipad-air",
+    "https://www.apple.com/pl/shop/buy-ipad/ipad",
+    "https://www.apple.com/pl/shop/buy-ipad/ipad-mini"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "Od 5999 zł",
+    "Od 5999 zł",
+    "Od 5999 zł",
+    "Od 5999 zł",
+    "Od 5999 zł",
+    "Od 3699 zł",
+    "Od 3699 zł",
+    "Od 3699 zł",
+    "Od 3699 zł",
+    "Od 3699 zł"
+   ],
+   "items_by_source": {},
+   "text_sample": "Apple Sklep Mac iPad iPhone Watch AirPods Dom Rozrywka Akcesoria Wsparcie 0 + Kup iPada Potrzebujesz pomocy w zakupach? Zadzwoń pod numer 800‑702‑322. Wstecz Wszystkie modele Przewodniki zakupowe Tak zaoszczędzisz Apple Store robi różnicę Akcesoria Konfiguracja i wsparcie Radość z iPada Wyjątkowe okazje Wszystkie modele. Który dla Ciebie? iPad Pro W zbliżeniu - iPad Pro Od 5999 zł Kup - iPad Pro iPad Air W zbliżeniu - iPad Air Od 3699 zł Kup - iPad Air iPad W zbliżeniu - iPad Od 2199 zł Kup - iPad NOWOŚĆ iPad mini - NOWOŚĆ W zbliżeniu - iPad mini Od 3499 zł Przedsprzedaż - iPad mini Zobacz wszystkie akcesoria do iPada. Wstecz - Wszystkie modele Dalej - Wszystkie modele Przewodniki zakupowe. Nie wiesz, którego wybrać? Zacznij tu. PORÓWNAJ WSZYSTKIE MODELE Który iPad jest właśnie dla Ciebie? - (Otwiera się w nowym oknie) SPECJALIŚCI OD IPADA Zrób zakupy online z ekspercką pomocą. Wstecz - Przewodniki zakupowe Dalej - Przewodniki zakupowe Tak zaoszczędzisz. Wybierz najlepszą dla siebie opcję. EDUKACJA Skorzystaj ze specjalnych cen w sklepie dla sektora edukacji Przypis 1. ODNOWIONE I CERTYFIKOWANE Zobacz odnowione produkty Apple z roczną gwarancją. - (Otwiera się w nowym oknie) Wstecz - Tak zaoszczędzisz Dalej - Tak zaoszczędzisz Apple Store robi różnicę. Jeszcze więcej powodów, żeby kupować u nas. Spersonalizuj iPada, dodając tekst lub emoji. Wstecz - Apple Store robi różnicę Dalej - Apple Store robi różnicę Akcesoria do iPada. Ułatwiają pracę i kreację. Niezbędniki",
+   "json_samples": [
+    {
+     "url": "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
+     "body": "[{\"name\": \"apple\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple home\"}], \"id\": \"3d39a8ff\"}, {\"name\": \"store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"store\"}, {\"name\": \"data-analytics-element-engagement\", \"value\": \"hover - store\"}], \"baseGroups\": [{\"id\": \"d1043af2\", \"title\": \"Podręczne łącza\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"quick links - store\"}], \"baseLinks\": [{\"id\": \"658469ae\", \"text\": \"Stan zamówienia\", \"url\": \"/pl/shop/goto/order/list\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"order status\"}], \"ariaLabel\": \"\"}]}, {\"id\": \"54dfd434\", \"title\": \"Sklepy specjalne\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"shop special stores\"}], \"baseLinks\": [{\"id\": \"9a8ea065\", \"text\": \"Odnowione i certyfikowane\", \"url\": \"/pl/shop/goto/special_deals\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"certified refurbished\"}], \"ariaLabel\": \"\"}, {\"id\": \"cb6f090b\", \"text\": \"Edukacja\", \"url\": \"/pl/shop/goto/educationrouting\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"education\"}], \"ariaLabel\": \"\"}]}], \"elevatedGroups\": [{\"id\": \"3478ae43\", \"title\": \"Zobacz\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"explore shop\"}], \"elevatedLinks\": [{\"id\": \"7438e16d\", \"text\": \"Kup najnowsze\", \"url\": \"/pl/shop/goto/store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"shop the latest\"}], \"ariaLabel\": \"Przeglądaj najnowsze produkty Apple\"}, {\"id\": \"087afb59\", \"text\": \"Mac\", \"url\": \"/pl/shop/goto/buy_mac\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"mac\"}], \"ariaLabel\": \"\"}, {\"id\": \"626ee1c2\", \"text\": \"iPad\", \"url\": \"/pl/shop/goto/buy_ipad\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"ipad\"}], \"ariaLabel\": \"\"}, {\"id\": \"b5a39f77\", \"text\": \"iPhone\", \"url\": \"/pl/shop/goto/buy_iphone\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"iphone\"}], \"ariaLabel\": \"\"}, {\"id\": \"8b2c2f5a\", \"text\": \"Apple Watch\", \"url\": \"/pl/shop/goto/buy_watch\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple watch\"}], \"ariaLabel\": \"\"}, {\"id\": \"86b69ecf\", \"text\": \"AirPods\", \"url\": \"/pl/shop/goto/airpods/accessories\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"airpods\"}], \"ariaLabel\": \"\"}, {\"id\": \"a1ca647c\", \"text\": \"Akcesoria\", \"url\": \"/pl/shop/goto/buy_accessories\", \"analyticsAttribute"
+    },
+    {
+     "url": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
+     "body": "{\"id\": \"8dRU4qDVTHKHLLxAR5UbmA\", \"results\": [{\"sectionName\": \"quickLinks\", \"sectionResults\": [{\"label\": \"Kupuj w internetowym sklepie Apple Store\", \"url\": \"https://www.apple.com/pl/shop/goto/shop\"}, {\"label\": \"Akcesoria\", \"url\": \"https://www.apple.com/pl/shop/goto/accessories/apple_accessories\"}, {\"label\": \"AirPods\", \"url\": \"https://www.apple.com/pl/airpods/\"}, {\"label\": \"Apple Intelligence\", \"url\": \"https://www.apple.com/pl/apple-intelligence/\"}]}, {\"sectionName\": \"suggestions\", \"sectionResults\": []}]}"
+    },
+    {
+     "url": "https://www.apple.com/pl/shop/api/digital-mat?path=library/step0_ipad/digitalmat&fae=true",
+     "body": "{\"head\": {\"status\": \"200\", \"data\": {}}, \"body\": {\"digitalMat\": [{\"enableDarkTheme\": false, \"familyTypes\": [{\"availableInText\": \"Dostępny w {count} kolorach\", \"valuePropsTitle\": \"Apple robi różnicę\", \"valuePropsContent\": {\"items\": [{\"index\": 0, \"value\": \"\", \"position\": 1, \"even\": true, \"first\": true, \"last\": false}, {\"index\": 1, \"value\": \"<div class=\\\"rf-digitalmat-valueprops-icon\\\">\\n\\t<div class=\\\"as-svgicon-container dd-color-forest-green\\\">\\n\\t\\t\\n<svg width=\\\"23\\\" height=\\\"25\\\" viewBox=\\\"0 0 23 25\\\" class=\\\"dd-glyph-svg dd-glyph-reduced\\\" aria-hidden=\\\"true\\\">\\n  <path d=\\\"m22.4825 12.8467-2.9209-3.2085c-.4121-.4473-.8828-.6382-1.5752-.6382h-1.9863v-2.505c0-1.3807-1.1194-2.5-2.5-2.5h-11.0001c-1.3806 0-2.5 1.1194-2.5 2.5v9.75c0 1.3808 1.1194 2.5 2.5 2.5h.5479c.2258 1.2913 1.3462 2.275 2.7021 2.275s2.28-.7235 2.6721-2.0201h6.6808c.3199 1.1639 1.3814 2.02 2.647 2.02 1.3477 0 2.4639-.9707 2.6997-2.25h.7349c1.1367 0 1.8154-.6689 1.8154-1.7896v-2.8081c0-.498-.1914-.9849-.5176-1.3257zm-15.0562 5.8984c-.2087.7333-.8772 1.275-1.6763 1.275s-1.4675-.5417-1.6763-1.275c-.0432-.152-.0737-.3093-.0737-.475 0-.1841.0364-.3582.0894-.525.2246-.7075.8799-1.225 1.6606-1.225s1.436.5175 1.6606 1.225c.053.1668.0894.3409.0894.525 0 .1657-.0305.3229-.0737.475zm1.0208-.745c-.1238-1.3988-1.3582-2.4799-2.697-2.4799s-2.4517.9578-2.697 2.225h-.553c-.8271 0-1.5-.6729-1.5-1.5v-9.7502c0-.8271.6729-1.5 1.5-1.5h10.9999c.8271 0 1.5.6729 1.5 1.5v11.505h-6.553zm10.9714.7701c-.2168.7203-.8784 1.25-1.6685 1.25s-1.4517-.5297-1.6685-1.25c-.0479-.1595-.0815-.3251-.0815-.5s.0337-.3405.0815-.5c.2168-.7203.8784-1.25 1.6685-1.25s1.4517.5297 1.6685 1.25c.0479.1595.0815.3251.0815.5s-.0337.3405-.0815.5zm2.5815-1.7896c0 .5684-.2285.7896-.8154.7896h-.7349c-.2358-1.2794-1.3521-2.25-2.6997-2.25-.6687 0-1.2734.2482-1.75.645v-6.165h1.9863c.4102 0 .623.0796.8379.3135l2.9268 3.2148c.1562.1636.249.4043.249.644zm-1.3238-3.3608c.1084.1198.1738.2113.1738.3803h-3.3066c-.3335 0-.5435-.2042-.5435-.5282v-2.4718h1.0725c.2534 0 .4419.0986.594.2676l2.0097 2.3521z\\\" />\\n</svg>\\n\\t</div>\\n</div>\\n<div class=\\\"rf-digitalmat-valueprops-description\\\">\\n\\t<h3 class=\\\"rf-digitalmat-valueprops-header\\\">\\n\\t\\tBezpłatna dostawa\\n\\t</h3>\\n\\tI&nbsp;bezpłatne zwroty. Daty dostawy zostaną podane po&nbsp;przejściu do&nbsp;kasy.\\n</div>\", \"position\": 2, \"even\": false, \"first\": false, \"last\": false}, {\"index\": 2, \"value\": \"<div class=\\\"rf-digitalmat-valueprops-icon\\\">\\n    <div class=\\\"as-svgicon-container dd-color-steel-blue\\\">\\n       "
+    }
+   ]
+  },
+  {
+   "url": "https://www.apple.com/pl/shop/buy-watch",
+   "status": 200,
+   "final_url": "https://www.apple.com/pl/shop/buy-watch",
+   "title": "Kup Apple Watch - Apple (PL)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
+    "https://www.apple.com/pl/shop/api/digital-mat?path=library/step0_watch/digitalmat&fae=true"
+   ],
+   "links": [
+    "https://www.apple.com/pl/shop/buy-watch/apple-watch",
+    "https://www.apple.com/pl/shop/buy-watch/apple-watch-se"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "Od 1899 zł",
+    "Od 3799 zł",
+    "Od 1099 zł",
+    "199,00 zł",
+    "199,00 zł",
+    "499,00 zł",
+    "199,00 zł",
+    "199,00 zł",
+    "499,00 zł",
+    "499,00 zł"
+   ],
+   "items_by_source": {},
+   "text_sample": "Apple Sklep Mac iPad iPhone Watch AirPods Dom Rozrywka Akcesoria Wsparcie 0 + Zobacz Apple Watch Potrzebujesz pomocy w zakupach? Zadzwoń pod numer 800‑702‑322. Wszystkie modele Przewodniki zakupowe Paski do Apple Watch Niezbędniki do ładowania Apple Watch Radość z Apple Watch Konfiguracja i wsparcie Dalej Wszystkie modele. Który dla Ciebie? NOWOŚĆ Apple Watch Series 12 - NOWOŚĆ W zbliżeniu - Apple Watch Series 12 + Od 1899 zł Kup - Apple Watch Series 12 NOWOŚĆ Apple Watch Ultra 4 - NOWOŚĆ W zbliżeniu - Apple Watch Ultra 4 Od 3799 zł Kup - Apple Watch Ultra 4 Apple Watch SE 3 W zbliżeniu - Apple Watch SE 3 Od 1099 zł Kup - Apple Watch SE 3 Zobacz wszystkie akcesoria do Apple Watch. Wstecz - Wszystkie modele Dalej - Wszystkie modele Przewodniki zakupowe. Każdy znajdzie Apple Watch dla siebie. PORÓWNAJ WSZYSTKIE MODELE Który Apple Watch Ci pasuje? - (Otwiera się w nowym oknie) APPLE WATCH DLA BIEGACZY Wspiera biegaczy na każdym poziomie. APPLE WATCH DLA TWOICH DZIECI Ich niezależność. Twój spokój Przypis ※. SPECJALIŚCI OD APPLE WATCH Zrób zakupy online z ekspercką pomocą. Wstecz - Przewodniki zakupowe Dalej - Przewodniki zakupowe Paski do Apple Watch. Dodaj stylu. Zobacz wszystkie paski do Apple Watch. + Nowość Pasek sportowy w kolorze oliwki do koperty 40 mm – rozmiar S/M - Nowość 199,00 zł + Nowość Opaska sportowa w kolorze magenty do koperty 46 mm - Nowość 199,00 zł Nowość Bransoleta mediolańska w kolorze ciemnego brązu do koperty 42 mm - Nowość 499,00 zł Nowość Pasek sport",
+   "json_samples": [
+    {
+     "url": "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
+     "body": "[{\"name\": \"apple\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple home\"}], \"id\": \"3d39a8ff\"}, {\"name\": \"store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"store\"}, {\"name\": \"data-analytics-element-engagement\", \"value\": \"hover - store\"}], \"baseGroups\": [{\"id\": \"d1043af2\", \"title\": \"Podręczne łącza\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"quick links - store\"}], \"baseLinks\": [{\"id\": \"658469ae\", \"text\": \"Stan zamówienia\", \"url\": \"/pl/shop/goto/order/list\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"order status\"}], \"ariaLabel\": \"\"}]}, {\"id\": \"54dfd434\", \"title\": \"Sklepy specjalne\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"shop special stores\"}], \"baseLinks\": [{\"id\": \"9a8ea065\", \"text\": \"Odnowione i certyfikowane\", \"url\": \"/pl/shop/goto/special_deals\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"certified refurbished\"}], \"ariaLabel\": \"\"}, {\"id\": \"cb6f090b\", \"text\": \"Edukacja\", \"url\": \"/pl/shop/goto/educationrouting\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"education\"}], \"ariaLabel\": \"\"}]}], \"elevatedGroups\": [{\"id\": \"3478ae43\", \"title\": \"Zobacz\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"explore shop\"}], \"elevatedLinks\": [{\"id\": \"7438e16d\", \"text\": \"Kup najnowsze\", \"url\": \"/pl/shop/goto/store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"shop the latest\"}], \"ariaLabel\": \"Przeglądaj najnowsze produkty Apple\"}, {\"id\": \"087afb59\", \"text\": \"Mac\", \"url\": \"/pl/shop/goto/buy_mac\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"mac\"}], \"ariaLabel\": \"\"}, {\"id\": \"626ee1c2\", \"text\": \"iPad\", \"url\": \"/pl/shop/goto/buy_ipad\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"ipad\"}], \"ariaLabel\": \"\"}, {\"id\": \"b5a39f77\", \"text\": \"iPhone\", \"url\": \"/pl/shop/goto/buy_iphone\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"iphone\"}], \"ariaLabel\": \"\"}, {\"id\": \"8b2c2f5a\", \"text\": \"Apple Watch\", \"url\": \"/pl/shop/goto/buy_watch\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple watch\"}], \"ariaLabel\": \"\"}, {\"id\": \"86b69ecf\", \"text\": \"AirPods\", \"url\": \"/pl/shop/goto/airpods/accessories\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"airpods\"}], \"ariaLabel\": \"\"}, {\"id\": \"a1ca647c\", \"text\": \"Akcesoria\", \"url\": \"/pl/shop/goto/buy_accessories\", \"analyticsAttribute"
+    },
+    {
+     "url": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
+     "body": "{\"id\": \"8dRU4qDVTHKHLLxAR5UbmA\", \"results\": [{\"sectionName\": \"quickLinks\", \"sectionResults\": [{\"label\": \"Kupuj w internetowym sklepie Apple Store\", \"url\": \"https://www.apple.com/pl/shop/goto/shop\"}, {\"label\": \"Akcesoria\", \"url\": \"https://www.apple.com/pl/shop/goto/accessories/apple_accessories\"}, {\"label\": \"AirPods\", \"url\": \"https://www.apple.com/pl/airpods/\"}, {\"label\": \"Apple Intelligence\", \"url\": \"https://www.apple.com/pl/apple-intelligence/\"}]}, {\"sectionName\": \"suggestions\", \"sectionResults\": []}]}"
+    },
+    {
+     "url": "https://www.apple.com/pl/shop/api/digital-mat?path=library/step0_watch/digitalmat&fae=true",
+     "body": "{\"head\": {\"status\": \"200\", \"data\": {}}, \"body\": {\"digitalMat\": [{\"enableDarkTheme\": false, \"familyTypes\": [{\"valuePropsContent\": {\"items\": [{\"index\": 0, \"value\": \"\", \"even\": true, \"position\": 1, \"first\": true, \"last\": false}, {\"index\": 1, \"value\": \"\", \"even\": false, \"position\": 2, \"first\": false, \"last\": false}, {\"index\": 2, \"value\": \"<div class=\\\"rf-digitalmat-valueprops-icon\\\">\\n\\t<div class=\\\"as-svgicon-container dd-color-forest-green\\\">\\n\\t\\t\\n<svg width=\\\"23\\\" height=\\\"25\\\" viewBox=\\\"0 0 23 25\\\" class=\\\"dd-glyph-svg dd-glyph-reduced\\\" aria-hidden=\\\"true\\\">\\n  <path d=\\\"m22.4825 12.8467-2.9209-3.2085c-.4121-.4473-.8828-.6382-1.5752-.6382h-1.9863v-2.505c0-1.3807-1.1194-2.5-2.5-2.5h-11.0001c-1.3806 0-2.5 1.1194-2.5 2.5v9.75c0 1.3808 1.1194 2.5 2.5 2.5h.5479c.2258 1.2913 1.3462 2.275 2.7021 2.275s2.28-.7235 2.6721-2.0201h6.6808c.3199 1.1639 1.3814 2.02 2.647 2.02 1.3477 0 2.4639-.9707 2.6997-2.25h.7349c1.1367 0 1.8154-.6689 1.8154-1.7896v-2.8081c0-.498-.1914-.9849-.5176-1.3257zm-15.0562 5.8984c-.2087.7333-.8772 1.275-1.6763 1.275s-1.4675-.5417-1.6763-1.275c-.0432-.152-.0737-.3093-.0737-.475 0-.1841.0364-.3582.0894-.525.2246-.7075.8799-1.225 1.6606-1.225s1.436.5175 1.6606 1.225c.053.1668.0894.3409.0894.525 0 .1657-.0305.3229-.0737.475zm1.0208-.745c-.1238-1.3988-1.3582-2.4799-2.697-2.4799s-2.4517.9578-2.697 2.225h-.553c-.8271 0-1.5-.6729-1.5-1.5v-9.7502c0-.8271.6729-1.5 1.5-1.5h10.9999c.8271 0 1.5.6729 1.5 1.5v11.505h-6.553zm10.9714.7701c-.2168.7203-.8784 1.25-1.6685 1.25s-1.4517-.5297-1.6685-1.25c-.0479-.1595-.0815-.3251-.0815-.5s.0337-.3405.0815-.5c.2168-.7203.8784-1.25 1.6685-1.25s1.4517.5297 1.6685 1.25c.0479.1595.0815.3251.0815.5s-.0337.3405-.0815.5zm2.5815-1.7896c0 .5684-.2285.7896-.8154.7896h-.7349c-.2358-1.2794-1.3521-2.25-2.6997-2.25-.6687 0-1.2734.2482-1.75.645v-6.165h1.9863c.4102 0 .623.0796.8379.3135l2.9268 3.2148c.1562.1636.249.4043.249.644zm-1.3238-3.3608c.1084.1198.1738.2113.1738.3803h-3.3066c-.3335 0-.5435-.2042-.5435-.5282v-2.4718h1.0725c.2534 0 .4419.0986.594.2676l2.0097 2.3521z\\\" />\\n</svg>\\n\\t</div>\\n</div>\\n<div class=\\\"rf-digitalmat-valueprops-description\\\">\\n\\t<h3 class=\\\"rf-digitalmat-valueprops-header\\\">\\n\\t\\tBezpłatna dostawa\\n\\t</h3>\\n\\tI&nbsp;bezpłatne zwroty. Daty dostawy zostaną podane po&nbsp;przejściu do&nbsp;kasy.\\n</div>\", \"even\": true, \"position\": 3, \"first\": false, \"last\": true}], \"size\": 3}, \"availableInText\": \"Dostępny w {count} kolorach\", \"valuePropsTitle\": \"Apple robi różnicę\", \"exploreLink\": {\"url\": \"https://www.appl"
+    }
+   ]
+  },
+  {
+   "url": "https://www.apple.com/pl/shop/accessories/all/headphones-speakers",
+   "status": 200,
+   "final_url": "https://www.apple.com/pl/shop/accessories/all/headphones-speakers",
+   "title": "Słuchawki i głośniki - Wszystkie akcesoria - Apple (PL)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL"
+   ],
+   "links": [
+    "https://www.apple.com/pl/shop/buy-airpods/airpods-pro-3"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "1 099,00 zł",
+    "1 099,00 zł",
+    "699,00 zł",
+    "699,00 zł",
+    "599,00 zł",
+    "599,00 zł",
+    "2 499,00 zł",
+    "2 499,00 zł",
+    "99,00 zł",
+    "99,00 zł"
+   ],
+   "items_by_source": {
+    "jsonld": 30
+   },
+   "text_sample": "Apple Sklep Mac iPad iPhone Watch AirPods Dom Rozrywka Akcesoria Wsparcie 0 + Akcesoria Słuchawki i głośniki Rodzaj akcesorium Zgodność Marka Kolor Rodzaj słuchawek Interfejs Cechy i funkcje Tylko w Apple Sortuj wg: Polecane Bezpłatny grawerunek AirPods Pro 3 1 099,00 zł Nowość AirPods 5 z bezprzewodowym etui ładującym 699,00 zł Nowość AirPods 5 599,00 zł Bezpłatny grawerunek AirPods Max 2 2 499,00 zł Wstecz Obraz - EarPods (USB‑C) Dalej Obraz - EarPods (USB‑C) EarPods (USB‑C) 99,00 zł Nowość Beats 360 1 499,00 zł Wstecz Obraz - Zestaw poduszek do słuchawek Beats 360 – poduszki Performance Knit do nauszników i pałąka w kolorze czarnym Dalej Obraz - Zestaw poduszek do słuchawek Beats 360 – poduszki Performance Knit do nauszników i pałąka w kolorze czarnym Nowość Zestaw poduszek do słuchawek Beats 360 – poduszki Performance Knit do nauszników i pałąka w kolorze czarnym 249,00 zł Wstecz Obraz - Zestaw poduszek do słuchawek Beats 360 – poduszki UltraPlush do nauszników i pałąka w kolorze czarnym Dalej Obraz - Zestaw poduszek do słuchawek Beats 360 – poduszki UltraPlush do nauszników i pałąka w kolorze czarnym Nowość Zestaw poduszek do słuchawek Beats 360 – poduszki UltraPlush do nauszników i pałąka w kolorze czarnym 249,00 zł Wstecz Obraz - Słuchawki bezprzewodowe Beats Studio Pro — ciemnobrązowy Dalej Obraz - Słuchawki bezprzewodowe Beats Studio Pro — ciemnobrązowy Słuchawki bezprzewodowe Beats Studio Pro — ciemnobrązowy 1 299,00 zł Wstecz Obraz - Beats Solo 4 — bezprzewodowe sł"
+  },
+  {
+   "url": "https://www.apple.com/pl/shop/buy-iphone/iphone-duo",
+   "status": 200,
+   "final_url": "https://www.apple.com/pl/shop/buy-iphone/iphone-duo",
+   "title": "Kup iPhone’a Duo - Apple (PL)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
+    "https://www.apple.com/pl/shop/sba/d/init?fnode=a85f496a015e9064d2228b6d4046b447ee8ee76b325471fd3143484706a0380a37b54fe331d069080bbc4ed3bd6a28ba686e0c779c4f701e5",
+    "https://www.apple.com/pl/shop/favoritesx/fetch"
+   ],
+   "links": [
+    "https://www.apple.com/pl/shop/buy-iphone/iphone-duo",
+    "https://www.apple.com/pl/shop/buy-iphone/iphone-18-pro",
+    "https://www.apple.com/pl/shop/buy-iphone/iphone-air",
+    "https://www.apple.com/pl/shop/buy-iphone/iphone-17",
+    "https://www.apple.com/pl/shop/buy-iphone/iphone-17e"
+   ],
+   "tiles": [
+    "256 GB Przypis 1 Od 9999 zł",
+    "512 GB Przypis 1 Od 10 999 zł",
+    "1 TB Przypis 1 Od 12 999 zł",
+    "2 TB Przypis 1 Od 15 999 zł",
+    "1 TB Przypis 1 gwiezdna biel 12 999,00 zł",
+    "1 TB Przypis 1 nocne niebo 12 999,00 zł",
+    "512 GB Przypis 1 gwiezdna biel 10 999,00 zł",
+    "512 GB Przypis 1 nocne niebo 10 999,00 zł",
+    "256 GB Przypis 1 gwiezdna biel 9 999,00 zł",
+    "256 GB Przypis 1 nocne niebo 9 999,00 zł",
+    "2 TB Przypis 1 gwiezdna biel 15 999,00 zł",
+    "2 TB Przypis 1 nocne niebo 15 999,00 zł"
+   ],
+   "price_texts": [
+    "Od 9999 zł",
+    "Od 9999 zł",
+    "Od 9999 zł",
+    "Od 9999 zł",
+    "Od 9999 zł",
+    "Od 9999 zł",
+    "Od 9999 zł",
+    "Od 9999 zł",
+    "Od 9999 zł",
+    "Od 9999 zł"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 8,
+    "jsonld": 1,
+    "dom-tile": 12
+   },
+   "text_sample": "Apple Sklep Mac iPad iPhone Watch AirPods Dom Rozrywka Akcesoria Wsparcie 0 + iPhone Duo Od 9999 zł Bezpłatna dostawa Nowość Kup iPhone’a Duo Od 9999 zł Apple Intelligence Przypis 4 Dowiedz się więcej, iPhone Duo Poprzedni obraz w galerii Następny obraz w galerii Kolor. Wybierz swój ulubiony. Kolor gwiezdna biel nocne niebo Porównaj rozmiary wyświetlaczy iPhone’a Duo i iPhone’a Pro Max. Pokaż więcej Pojemność. Ile pamięci potrzebujesz? 256 GB Przypis 1 Od 9999 zł 512 GB Przypis 1 Od 10 999 zł 1 TB Przypis 1 Od 12 999 zł 2 TB Przypis 1 Od 15 999 zł Nie wiesz, ile pamięci wybrać? Zorientuj się, ile miejsca będziesz potrzebować. Pokaż więcej Twój nowy iPhone już czeka. Teraz Twój ruch. Od 9999 zł Potrzebujesz więcej czasu? Zachowaj wszystkie wybory, zapisując to urządzenie w Zapisanych produktach tak, by wrócić do zakupów w dogodnej chwili. Zapisz na później Masz pytania? Zadzwoń pod numer 800‑702‑322. Szczegółowe informacje na temat dostawy zostaną wyświetlone na stronie płatności. Bezpłatna dostawa Kontynuuj Zawartość opakowania iPhone Duo Przewód zasilający USB‑C Ochrona środowiska według Apple. Żeby osiągnąć neutralność węglową do 2030 roku, iPhone’a Duo sprzedajemy bez zasilacza i słuchawek EarPods. W pudełku znajdziesz przewód USB‑C do szybkiego ładowania zgodny z zasilaczami USB‑C i portami w komputerach. Zachęcamy do korzystania z dowolnego zgodnego zasilacza USB‑C. Jeśli potrzebujesz nowego zasilacza lub nowych słuchawek od Apple, możesz je dokupić. Tw"
+  },
+  {
+   "url": "https://www.apple.com/pl/shop/buy-iphone/iphone-18-pro",
+   "status": 200,
+   "final_url": "https://www.apple.com/pl/shop/buy-iphone/iphone-18-pro",
+   "title": "iPhone 18 Pro i iPhone 18 Pro Max - Apple (PL)",
+   "json_urls": [
+    "https://www.apple.com/pl/shop/favoritesx/fetch",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
+    "https://www.apple.com/pl/shop/sba/d/init?fnode=d42620debb578e71407acfcffe46339014df3137eb8c755c40d7a2e92e28337ebce90e6801e9c356b57ef5c0ba52748b631a48ff86d3f6b8e",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL"
+   ],
+   "links": [
+    "https://www.apple.com/pl/shop/buy-iphone/iphone-duo",
+    "https://www.apple.com/pl/shop/buy-iphone/iphone-18-pro",
+    "https://www.apple.com/pl/shop/buy-iphone/iphone-air",
+    "https://www.apple.com/pl/shop/buy-iphone/iphone-17",
+    "https://www.apple.com/pl/shop/buy-iphone/iphone-17e"
+   ],
+   "tiles": [
+    "256 GB Przypis 1 Od 6299 zł",
+    "512 GB Przypis 1 Od 7299 zł",
+    "1 TB Przypis 1 Od 9299 zł",
+    "2 TB Przypis 1 Od 12 299 zł",
+    "1 TB Przypis 1 burgund 9 799,00 zł",
+    "1 TB Przypis 1 błękit lodowca 9 799,00 zł",
+    "256 GB Przypis 1 srebrny 6 799,00 zł",
+    "256 GB Przypis 1 czarny 6 799,00 zł",
+    "2 TB Przypis 1 błękit lodowca 12 799,00 zł",
+    "512 GB Przypis 1 czarny 7 799,00 zł",
+    "2 TB Przypis 1 burgund 12 799,00 zł",
+    "256 GB Przypis 1 błękit lodowca 6 799,00 zł",
+    "2 TB Przypis 1 srebrny 12 799,00 zł",
+    "256 GB Przypis 1 burgund 6 799,00 zł",
+    "2 TB Przypis 1 czarny 12 799,00 zł"
+   ],
+   "price_texts": [
+    "Od 6299 zł",
+    "Od 6299 zł",
+    "Od 6299 zł",
+    "Od 6299 zł",
+    "Od 6299 zł",
+    "Od 6299 zł",
+    "Od 6299 zł",
+    "Od 6299 zł",
+    "Od 6299 zł",
+    "Od 6299 zł"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 32,
+    "jsonld": 2,
+    "dom-tile": 36
+   },
+   "text_sample": "Apple Sklep Mac iPad iPhone Watch AirPods Dom Rozrywka Akcesoria Wsparcie 0 + iPhone 18 Pro Od 6299 zł Bezpłatna dostawa Nowość Kup iPhone’a 18 Pro Od 6299 zł Apple Intelligence Przypis 4 Dowiedz się więcej, iPhone 18 Pro Poprzedni obraz w galerii Następny obraz w galerii Model. Który jest najlepszy dla Ciebie? iPhone 18 Pro Wyświetlacz o przekątnej 6,3 cala Przypis 2 Od 6299 zł iPhone 18 Pro Max Wyświetlacz o przekątnej 6,9 cala Przypis 2 Od 6799 zł Nie wiesz, który model wybrać? Sprawdź różnice w wielkości ekranu i długości działania baterii. Pokaż więcej Kolor. Wybierz swój ulubiony. Kolor burgund błękit lodowca srebrny czarny Pojemność. Ile pamięci potrzebujesz? 256 GB Przypis 1 Od 6299 zł 512 GB Przypis 1 Od 7299 zł 1 TB Przypis 1 Od 9299 zł 2 TB Przypis 1 Od 12 299 zł Nie wiesz, ile pamięci wybrać? Zorientuj się, ile miejsca będziesz potrzebować. Pokaż więcej Twój nowy iPhone już czeka. Teraz Twój ruch. Od 6299 zł Potrzebujesz więcej czasu? Zachowaj wszystkie wybory, zapisując to urządzenie w Zapisanych produktach tak, by wrócić do zakupów w dogodnej chwili. Zapisz na później Masz pytania? Zadzwoń pod numer 800‑702‑322. Szczegółowe informacje na temat dostawy zostaną wyświetlone na stronie płatności. Bezpłatna dostawa Kontynuuj Zawartość opakowania iPhone 18 Pro Przewód zasilający USB‑C Ochrona środowiska według Apple. Żeby osiągnąć neutralność węglową do 2030 roku (Otwiera się w nowym oknie) , iPhone’a 18 Pro i iPhone’a 18 Pro Max sprzedajemy bez za"
+  },
+  {
+   "url": "https://www.apple.com/pl/shop/buy-iphone/iphone-air",
+   "status": 200,
+   "final_url": "https://www.apple.com/pl/shop/buy-iphone/iphone-air",
+   "title": "Kup iPhone’a Air - Apple (PL)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
+    "https://www.apple.com/pl/shop/favoritesx/fetch",
+    "https://www.apple.com/pl/shop/sba/d/init?fnode=468a6b3d352a347db603fba2e5450845fbc99199d1a7f0fc7e1e72bcb8c67af44e6a12c991472608c47bbcc6622295f3a12f5fbd2fcd707af"
+   ],
+   "links": [
+    "https://www.apple.com/pl/shop/buy-iphone/iphone-duo",
+    "https://www.apple.com/pl/shop/buy-iphone/iphone-18-pro",
+    "https://www.apple.com/pl/shop/buy-iphone/iphone-air",
+    "https://www.apple.com/pl/shop/buy-iphone/iphone-17",
+    "https://www.apple.com/pl/shop/buy-iphone/iphone-17e"
+   ],
+   "tiles": [
+    "256 GB Przypis 1 Od 5799 zł",
+    "512 GB Przypis 1 Od 6799 zł",
+    "1 TB Przypis 1 Od 8799 zł",
+    "512 GB Przypis 1 jasne złoto Unlocked 6 799,00 zł",
+    "512 GB Przypis 1 błękitny Unlocked 6 799,00 zł",
+    "512 GB Przypis 1 biały obłok Unlocked 6 799,00 zł",
+    "1 TB Przypis 1 jasne złoto Unlocked 8 799,00 zł",
+    "1 TB Przypis 1 gwiezdna czerń Unlocked 8 799,00 zł",
+    "1 TB Przypis 1 biały obłok Unlocked 8 799,00 zł",
+    "256 GB Przypis 1 biały obłok Unlocked 5 799,00 zł",
+    "256 GB Przypis 1 gwiezdna czerń Unlocked 5 799,00 zł",
+    "256 GB Przypis 1 jasne złoto Unlocked 5 799,00 zł",
+    "512 GB Przypis 1 gwiezdna czerń Unlocked 6 799,00 zł",
+    "1 TB Przypis 1 błękitny Unlocked 8 799,00 zł",
+    "256 GB Przypis 1 błękitny Unlocked 5 799,00 zł"
+   ],
+   "price_texts": [
+    "Od 5799 zł",
+    "Od 5799 zł",
+    "Od 5799 zł",
+    "Od 5799 zł",
+    "Od 5799 zł",
+    "Od 5799 zł",
+    "Od 5799 zł",
+    "Od 5799 zł",
+    "Od 5799 zł",
+    "Od 5799 zł"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 12,
+    "jsonld": 1,
+    "dom-tile": 6
+   },
+   "text_sample": "Apple Sklep Mac iPad iPhone Watch AirPods Dom Rozrywka Akcesoria Wsparcie 0 + iPhone Air Od 5799 zł Bezpłatna dostawa Kup iPhone’a Air Od 5799 zł Apple Intelligence Przypis 4 Dowiedz się więcej, iPhone Air Poprzedni obraz w galerii Następny obraz w galerii Kolor. Wybierz swój ulubiony. Kolor błękitny biały obłok gwiezdna czerń jasne złoto Pojemność. Ile pamięci potrzebujesz? 256 GB Przypis 1 Od 5799 zł 512 GB Przypis 1 Od 6799 zł 1 TB Przypis 1 Od 8799 zł Nie wiesz, ile pamięci wybrać? Zorientuj się, ile miejsca będziesz potrzebować. Pokaż więcej Twój nowy iPhone już czeka. Teraz Twój ruch. Od 5799 zł Potrzebujesz więcej czasu? Zachowaj wszystkie wybory, zapisując to urządzenie w Zapisanych produktach tak, by wrócić do zakupów w dogodnej chwili. Zapisz na później Masz pytania? Zadzwoń pod numer 800‑702‑322. Szczegółowe informacje na temat dostawy zostaną wyświetlone na stronie płatności. Bezpłatna dostawa Kontynuuj Zawartość opakowania iPhone Air Przewód zasilający USB‑C Ochrona środowiska według Apple. Żeby osiągnąć neutralność węglową do 2030 roku, iPhone’a Air sprzedajemy bez zasilacza i słuchawek EarPods. W pudełku znajdziesz przewód USB‑C do szybkiego ładowania zgodny z zasilaczami USB‑C i portami w komputerach. Zachęcamy do korzystania z dowolnego zgodnego zasilacza USB‑C. Jeśli potrzebujesz nowego zasilacza lub nowych słuchawek od Apple, możesz je dokupić. Twój nowy iPhone. A z nim znacznie więcej. Wybrane usługi przez 3 miesiące w prezencie przy zakup"
+  },
+  {
+   "url": "https://www.apple.com/pl/shop/buy-iphone/iphone-17",
+   "status": 200,
+   "final_url": "https://www.apple.com/pl/shop/buy-iphone/iphone-17",
+   "title": "Kup iPhone’a 17 - Apple (PL)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
+    "https://www.apple.com/pl/shop/favoritesx/fetch",
+    "https://www.apple.com/pl/shop/sba/d/init?fnode=6c4d9129944368ee0a0ed9d37693205d80b232724048eb3eefb8277a9e495dda72e626fe976b38419bbe95acebafe1a5bc714ef0fc70e5d1d"
+   ],
+   "links": [
+    "https://www.apple.com/pl/shop/buy-iphone/iphone-duo",
+    "https://www.apple.com/pl/shop/buy-iphone/iphone-18-pro",
+    "https://www.apple.com/pl/shop/buy-iphone/iphone-air",
+    "https://www.apple.com/pl/shop/buy-iphone/iphone-17",
+    "https://www.apple.com/pl/shop/buy-iphone/iphone-17e"
+   ],
+   "tiles": [
+    "256 GB Przypis 1 Od 4499 zł",
+    "512 GB Przypis 1 Od 5499 zł",
+    "256 GB Przypis 1 gołębi 4 499,00 zł",
+    "256 GB Przypis 1 lawendowy 4 499,00 zł",
+    "256 GB Przypis 1 czarny 4 499,00 zł",
+    "256 GB Przypis 1 biały 4 499,00 zł",
+    "512 GB Przypis 1 biały 5 499,00 zł",
+    "512 GB Przypis 1 czarny 5 499,00 zł",
+    "256 GB Przypis 1 szałwia 4 499,00 zł",
+    "512 GB Przypis 1 lawendowy 5 499,00 zł",
+    "512 GB Przypis 1 szałwia 5 499,00 zł",
+    "512 GB Przypis 1 gołębi 5 499,00 zł"
+   ],
+   "price_texts": [
+    "Od 4499 zł",
+    "Od 4499 zł",
+    "Od 4499 zł",
+    "Od 4499 zł",
+    "Od 4499 zł",
+    "Od 4499 zł",
+    "Od 4499 zł",
+    "Od 4499 zł",
+    "Od 4499 zł",
+    "Od 4499 zł"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 10,
+    "jsonld": 1,
+    "dom-tile": 12
+   },
+   "text_sample": "Apple Sklep Mac iPad iPhone Watch AirPods Dom Rozrywka Akcesoria Wsparcie 0 + iPhone 17 Od 4499 zł Bezpłatna dostawa Kup iPhone’a 17 Od 4499 zł Apple Intelligence Przypis 4 Dowiedz się więcej, iPhone 17 Poprzedni obraz w galerii Następny obraz w galerii Kolor. Wybierz swój ulubiony. Kolor lawendowy gołębi biały szałwia czarny Pojemność. Ile pamięci potrzebujesz? 256 GB Przypis 1 Od 4499 zł 512 GB Przypis 1 Od 5499 zł Nie wiesz, ile pamięci wybrać? Zorientuj się, ile miejsca będziesz potrzebować. Pokaż więcej Twój nowy iPhone już czeka. Teraz Twój ruch. Od 4499 zł Potrzebujesz więcej czasu? Zachowaj wszystkie wybory, zapisując to urządzenie w Zapisanych produktach tak, by wrócić do zakupów w dogodnej chwili. Zapisz na później Masz pytania? Zadzwoń pod numer 800‑702‑322. Szczegółowe informacje na temat dostawy zostaną wyświetlone na stronie płatności. Bezpłatna dostawa Kontynuuj Zawartość opakowania iPhone 17 Przewód zasilający USB‑C Ochrona środowiska według Apple. Żeby osiągnąć neutralność węglową do 2030 roku, iPhone’a 17 sprzedajemy bez zasilacza i słuchawek EarPods. W pudełku znajdziesz przewód USB‑C do szybkiego ładowania zgodny z zasilaczami USB‑C i portami w komputerach. Zachęcamy do korzystania z dowolnego zgodnego zasilacza USB‑C. Jeśli potrzebujesz nowego zasilacza lub nowych słuchawek od Apple, możesz je dokupić. Twój nowy iPhone. A z nim znacznie więcej. Wybrane usługi przez 3 miesiące w prezencie przy zakupie urządzenia Apple Przypis ※. Który dla"
+  },
+  {
+   "url": "https://www.apple.com/pl/shop/buy-iphone/iphone-17e",
+   "status": 200,
+   "final_url": "https://www.apple.com/pl/shop/buy-iphone/iphone-17e",
+   "title": "Kup iPhone’a 17e - Apple (PL)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
+    "https://www.apple.com/pl/shop/favoritesx/fetch",
+    "https://www.apple.com/pl/shop/sba/d/init?fnode=43bc8dc096d1f9e8fa49fef334062e51304da5ec72404532199895dc2a162080e15168d1662152ef01559337bb6ec4ccf4087a2f3ffa141d2"
+   ],
+   "links": [
+    "https://www.apple.com/pl/shop/buy-iphone/iphone-duo",
+    "https://www.apple.com/pl/shop/buy-iphone/iphone-18-pro",
+    "https://www.apple.com/pl/shop/buy-iphone/iphone-air",
+    "https://www.apple.com/pl/shop/buy-iphone/iphone-17",
+    "https://www.apple.com/pl/shop/buy-iphone/iphone-17e"
+   ],
+   "tiles": [
+    "256 GB Przypis 1 Od 3499 zł",
+    "512 GB Przypis 1 Od 4499 zł",
+    "512 GB Przypis 1 czarny 4 499,00 zł",
+    "256 GB Przypis 1 biały 3 499,00 zł",
+    "256 GB Przypis 1 jasnoróżowy 3 499,00 zł",
+    "512 GB Przypis 1 jasnoróżowy 4 499,00 zł",
+    "256 GB Przypis 1 czarny 3 499,00 zł",
+    "512 GB Przypis 1 biały 4 499,00 zł"
+   ],
+   "price_texts": [
+    "Od 3499 zł",
+    "Od 3499 zł",
+    "Od 3499 zł",
+    "Od 3499 zł",
+    "Od 3499 zł",
+    "Od 3499 zł",
+    "Od 3499 zł",
+    "Od 3499 zł",
+    "Od 3499 zł",
+    "Od 3499 zł"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 6,
+    "jsonld": 1,
+    "dom-tile": 8
+   },
+   "text_sample": "Apple Sklep Mac iPad iPhone Watch AirPods Dom Rozrywka Akcesoria Wsparcie 0 + iPhone 17e Od 3499 zł Bezpłatna dostawa Kup iPhone’a 17e Od 3499 zł Apple Intelligence Przypis 4 Dowiedz się więcej, iPhone 17e Poprzedni obraz w galerii Następny obraz w galerii Kolor. Wybierz swój ulubiony. Kolor jasnoróżowy biały czarny Pojemność. Ile pamięci potrzebujesz? 256 GB Przypis 1 Od 3499 zł 512 GB Przypis 1 Od 4499 zł Nie wiesz, ile pamięci wybrać? Zorientuj się, ile miejsca będziesz potrzebować. Pokaż więcej Twój nowy iPhone już czeka. Teraz Twój ruch. Od 3499 zł Potrzebujesz więcej czasu? Zachowaj wszystkie wybory, zapisując to urządzenie w Zapisanych produktach tak, by wrócić do zakupów w dogodnej chwili. Zapisz na później Masz pytania? Zadzwoń pod numer 800‑702‑322. Szczegółowe informacje na temat dostawy zostaną wyświetlone na stronie płatności. Bezpłatna dostawa Kontynuuj Zawartość opakowania iPhone 17e Przewód zasilający USB‑C Ochrona środowiska według Apple. Żeby osiągnąć neutralność węglową do 2030 roku, iPhone’a 17e sprzedajemy bez zasilacza i słuchawek EarPods. W pudełku znajdziesz przewód USB‑C do szybkiego ładowania zgodny z zasilaczami USB‑C i portami w komputerach. Zachęcamy do korzystania z dowolnego zgodnego zasilacza USB‑C. Jeśli potrzebujesz nowego zasilacza lub nowych słuchawek od Apple, możesz je dokupić. Twój nowy iPhone. A z nim znacznie więcej. Wybrane usługi przez 3 miesiące w prezencie przy zakupie urządzenia Apple Przypis ※. Który dla Ciebie?"
+  },
+  {
+   "url": "https://www.apple.com/pl/shop/buy-iphone/iphone-16",
+   "status": 200,
+   "final_url": "https://www.apple.com/pl/shop/buy-iphone/iphone-16",
+   "title": "Kup iPhone’a 16 - Apple (PL)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
+    "https://www.apple.com/pl/shop/favoritesx/fetch",
+    "https://www.apple.com/pl/shop/sba/d/init?fnode=b1a9c4ccd305d2db6580fca0054d0346a0349eda4e2145e24e50b75cb4933910466494f588529fc497bfbe585e7eb4efc795221fe82c5115b",
+    "https://www.apple.com/pl/shop/api/product-gallery?fae=true&node=home%2Fshop_iphone%2Ffamily%2Fiphone_16%2Fselect&dm.dimensionScreensize=6_1inch",
+    "https://www.apple.com/pl/shop/api/product-gallery?fae=true&node=home%2Fshop_iphone%2Ffamily%2Fiphone_16%2Fselect&dm.dimensionScreensize=6_1inch"
+   ],
+   "links": [
+    "https://www.apple.com/pl/shop/buy-iphone/iphone-duo",
+    "https://www.apple.com/pl/shop/buy-iphone/iphone-18-pro",
+    "https://www.apple.com/pl/shop/buy-iphone/iphone-air",
+    "https://www.apple.com/pl/shop/buy-iphone/iphone-17",
+    "https://www.apple.com/pl/shop/buy-iphone/iphone-17e"
+   ],
+   "tiles": [
+    "iPhone 16 Wyświetlacz o przekątnej 6,1 cala Przypis 2128 GB pamięci masowej Od 3999 zł",
+    "128 GB Przypis 1 Od 3999 zł",
+    "128 GB Przypis 1 biały Unlocked 3 999,00 zł",
+    "128 GB Przypis 1 czarny Unlocked 3 999,00 zł",
+    "128 GB Przypis 1 różowy Unlocked 3 999,00 zł",
+    "128 GB Przypis 1 berylowa zieleń Unlocked 3 999,00 zł",
+    "128 GB Przypis 1 ultramaryna Unlocked 3 999,00 zł"
+   ],
+   "price_texts": [
+    "Od 3999 zł",
+    "Od 3999 zł",
+    "Od 3999 zł",
+    "Od 3999 zł",
+    "Od 3999 zł",
+    "Od 3999 zł",
+    "Od 3999 zł",
+    "Od 3999 zł",
+    "Od 3999 zł",
+    "Od 3999 zł"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 5,
+    "jsonld": 1,
+    "dom-tile": 5
+   },
+   "text_sample": "Apple Sklep Mac iPad iPhone Watch AirPods Dom Rozrywka Akcesoria Wsparcie 0 + iPhone 16 Od 3999 zł Bezpłatna dostawa Kup iPhone’a 16 Od 3999 zł Apple Intelligence Przypis 4 Dowiedz się więcej, iPhone 16 Poprzedni obraz w galerii Następny obraz w galerii Kolor. Wybierz swój ulubiony. Kolor ultramaryna berylowa zieleń biały różowy czarny Pojemność. Ile pamięci potrzebujesz? 128 GB Przypis 1 Od 3999 zł Twój nowy iPhone 16. Dokładnie taki, jak chcesz. Od 3999 zł Potrzebujesz więcej czasu? Zachowaj wszystkie wybory, zapisując to urządzenie w Zapisanych produktach tak, by wrócić do zakupów w dogodnej chwili. Zapisz na później Masz pytania? Zadzwoń pod numer 800‑702‑322. Szczegółowe informacje na temat dostawy zostaną wyświetlone na stronie płatności. Bezpłatna dostawa Kontynuuj Zawartość opakowania iPhone 16 Przewód zasilający USB‑C Ochrona środowiska według Apple. Żeby osiągnąć neutralność węglową do 2030 roku, iPhone’a 16 sprzedajemy bez zasilacza i słuchawek EarPods. W pudełku znajdziesz przewód USB‑C do szybkiego ładowania zgodny z zasilaczami USB‑C i portami w komputerach. Zachęcamy do korzystania z dowolnego zgodnego zasilacza USB‑C. Jeśli potrzebujesz nowego zasilacza lub nowych słuchawek od Apple, możesz je dokupić. Twój nowy iPhone. A z nim znacznie więcej. Wybrane usługi przez 3 miesiące w prezencie przy zakupie urządzenia Apple Przypis ※. Który dla Ciebie? Nowość iPhone Duo Największy wyświetlacz w historii iPhone’a. Do składania. Do ustawiania. Nie do "
+  },
+  {
+   "url": "https://www.apple.com/pl/shop/buy-ipad/ipad-pro",
+   "status": 200,
+   "final_url": "https://www.apple.com/pl/shop/buy-ipad/ipad-pro",
+   "title": "Kup iPad Pro - Apple (PL)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
+    "https://www.apple.com/pl/shop/favoritesx/fetch",
+    "https://www.apple.com/pl/shop/sba/d/init?fnode=c5010759de644d75f3ad6a89bbf84cb5ac2e51163615a564cf0ba20d711137975677e4b8db7a6f3133c5e40dfb0d1e9e6bc59fe108c09e525",
+    "https://www.apple.com/pl/shop/engrave/json?fae=true&product=MX2D3ZM%2FA"
+   ],
+   "links": [
+    "https://www.apple.com/pl/shop/buy-ipad/ipad-pro",
+    "https://www.apple.com/pl/shop/buy-ipad/ipad-air",
+    "https://www.apple.com/pl/shop/buy-ipad/ipad",
+    "https://www.apple.com/pl/shop/buy-ipad/ipad-mini"
+   ],
+   "tiles": [
+    "256 GB pamięci masowej Przypis 2 12 GB pamięci RAM Czip M5: 9‑rdzeniowe CPU, 10‑rdzeniowe GPU Od 5999 zł",
+    "512 GB pamięci masowej Przypis 2 12 GB pamięci RAM Czip M5: 9‑rdzeniowe CPU, 10‑rdzeniowe GPU Od 6999 zł",
+    "1 TB pamięci masowej Przypis 2 16 GB pamięci RAM Czip M5: 10‑rdzeniowe CPU, 10‑rdzeniowe GPU Od 8999 zł",
+    "2 TB pamięci masowej Przypis 2 16 GB pamięci RAM Czip M5: 10‑rdzeniowe CPU, 10‑rdzeniowe GPU Od 11 499 zł",
+    "Szkło nanostrukturalne Dostępne w modelach z 1 TB lub 2 TB pamięci masowej Od 9499 zł"
+   ],
+   "price_texts": [
+    "Od 5999 zł",
+    "Od 5999 zł",
+    "Od 5999 zł",
+    "Od 5999 zł",
+    "Od 5999 zł",
+    "Od 5999 zł",
+    "Od 5999 zł",
+    "Od 5999 zł",
+    "Od 5999 zł",
+    "Od 5999 zł"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 48,
+    "jsonld": 48,
+    "dom-price": 1
+   },
+   "text_sample": "Apple Sklep Mac iPad iPhone Watch AirPods Dom Rozrywka Akcesoria Wsparcie 0 + iPad Pro Od 5999 zł Bezpłatna dostawa Kup iPada Pro Od 5999 zł Apple Intelligence Przypis 4 Dowiedz się więcej, iPad Pro 11 cali Poprzedni obraz w galerii Następny obraz w galerii Model. Wybierz rozmiar. Model 11 cali Wyświetlacz Ultra Retina XDR Od 5999 zł Model 13 cali Wyświetlacz Ultra Retina XDR Od 7499 zł Chcesz dowiedzieć się więcej o Ultra Retina XDR? Przyjrzyj się naszemu najbardziej zaawansowanemu wyświetlaczowi. Pokaż więcej Kolor. Wybierz swój ulubiony. Kolor gwiezdna czerń srebrny Pamięć masowa, pamięć RAM i czip. Wybierz konfigurację. 256 GB pamięci masowej Przypis 2 12 GB pamięci RAM Czip M5: 9‑rdzeniowe CPU, 10‑rdzeniowe GPU Od 5999 zł 512 GB pamięci masowej Przypis 2 12 GB pamięci RAM Czip M5: 9‑rdzeniowe CPU, 10‑rdzeniowe GPU Od 6999 zł 1 TB pamięci masowej Przypis 2 16 GB pamięci RAM Czip M5: 10‑rdzeniowe CPU, 10‑rdzeniowe GPU Od 8999 zł 2 TB pamięci masowej Przypis 2 16 GB pamięci RAM Czip M5: 10‑rdzeniowe CPU, 10‑rdzeniowe GPU Od 11 499 zł Nie wiesz, ile pamięci wybrać? Zorientuj się, ile miejsca będziesz potrzebować. Pokaż więcej Szkło wyświetlacza. Wybierz, które szkło będzie dla Ciebie najlepsze. Szkło standardowe Od 5999 zł Szkło nanostrukturalne Dostępne w modelach z 1 TB lub 2 TB pamięci masowej Od 9499 zł Które szkło jest odpowiednie dla Ciebie? Zarówno szkło standardowe, jak i nanostrukturalne ma ekstremalnie niski współczynnik odbicia światła. Dokonując wybor"
+  },
+  {
+   "url": "https://www.apple.com/pl/shop/buy-ipad/ipad-air",
+   "status": 200,
+   "final_url": "https://www.apple.com/pl/shop/buy-ipad/ipad-air",
+   "title": "Kup iPada Air - Apple (PL)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
+    "https://www.apple.com/pl/shop/favoritesx/fetch",
+    "https://www.apple.com/pl/shop/sba/d/init?fnode=fbcaa28003fed6f03d818bca062fec44158950c908f68e1d9f58458f9125ed4d54354f862791384ccf9abd9d87dcff3123cace3f8947390af",
+    "https://www.apple.com/pl/shop/engrave/json?fae=true&product=MX2D3ZM%2FA"
+   ],
+   "links": [
+    "https://www.apple.com/pl/shop/buy-ipad/ipad-pro",
+    "https://www.apple.com/pl/shop/buy-ipad/ipad-air",
+    "https://www.apple.com/pl/shop/buy-ipad/ipad",
+    "https://www.apple.com/pl/shop/buy-ipad/ipad-mini"
+   ],
+   "tiles": [
+    "128 GB Przypis 2 Od 3699 zł",
+    "256 GB Przypis 2 Od 4199 zł",
+    "512 GB Przypis 2 Od 5199 zł",
+    "1 TB Przypis 2 Od 6699 zł",
+    "512 GB Przypis 2 gwiezdna szarość Wi-FiKażdy iPad obsługuje sieci Wi-Fi, zapewniając łączność ze światem. 5 199,00 zł",
+    "1 TB Przypis 2 gwiezdna szarość Wi-FiKażdy iPad obsługuje sieci Wi-Fi, zapewniając łączność ze światem. 6 699,00 zł",
+    "128 GB Przypis 2 gwiezdna szarość Wi-FiKażdy iPad obsługuje sieci Wi-Fi, zapewniając łączność ze światem. 3 699,00 zł",
+    "256 GB Przypis 2 gwiezdna szarość Wi-FiKażdy iPad obsługuje sieci Wi-Fi, zapewniając łączność ze światem. 4 199,00 zł",
+    "512 GB Przypis 2 księżycowa poświata Wi-FiKażdy iPad obsługuje sieci Wi-Fi, zapewniając łączność ze światem. 5 199,00 zł",
+    "1 TB Przypis 2 księżycowa poświata Wi-FiKażdy iPad obsługuje sieci Wi-Fi, zapewniając łączność ze światem. 6 699,00 zł",
+    "128 GB Przypis 2 księżycowa poświata Wi-FiKażdy iPad obsługuje sieci Wi-Fi, zapewniając łączność ze światem. 3 699,00 zł",
+    "256 GB Przypis 2 księżycowa poświata Wi-FiKażdy iPad obsługuje sieci Wi-Fi, zapewniając łączność ze światem. 4 199,00 zł",
+    "512 GB Przypis 2 fioletowy Wi-FiKażdy iPad obsługuje sieci Wi-Fi, zapewniając łączność ze światem. 5 199,00 zł",
+    "1 TB Przypis 2 fioletowy Wi-FiKażdy iPad obsługuje sieci Wi-Fi, zapewniając łączność ze światem. 6 699,00 zł",
+    "128 GB Przypis 2 fioletowy Wi-FiKażdy iPad obsługuje sieci Wi-Fi, zapewniając łączność ze światem. 3 699,00 zł"
+   ],
+   "price_texts": [
+    "Od 3699 zł",
+    "Od 3699 zł",
+    "Od 3699 zł",
+    "Od 3699 zł",
+    "Od 3699 zł",
+    "Od 3699 zł",
+    "Od 3699 zł",
+    "Od 3699 zł",
+    "Od 3699 zł",
+    "Od 3699 zł"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 64,
+    "jsonld": 64,
+    "dom-tile": 4
+   },
+   "text_sample": "Apple Sklep Mac iPad iPhone Watch AirPods Dom Rozrywka Akcesoria Wsparcie 0 + iPad Air Od 3699 zł Bezpłatna dostawa Kup iPada Air Od 3699 zł Apple Intelligence Przypis 4 Dowiedz się więcej, iPad Air 11 cali Poprzedni obraz w galerii Następny obraz w galerii Model. Wybierz rozmiar. Model 11 cali Od 3699 zł Model 13 cali Od 4699 zł Kolor. Wybierz swój ulubiony. Kolor fioletowy niebieski księżycowa poświata gwiezdna szarość Pojemność. Zdecyduj, ile pamięci potrzebujesz. 128 GB Przypis 2 Od 3699 zł 256 GB Przypis 2 Od 4199 zł 512 GB Przypis 2 Od 5199 zł 1 TB Przypis 2 Od 6699 zł Nie wiesz, ile pamięci wybrać? Im większa pamięć Twojego iPada Air, tym więcej cyfrowych treści możesz przechowywać. Teraz i w przyszłości. Pokaż więcej Łączność. Wybierz sposób łączności. Wi-Fi Każdy iPad obsługuje sieci Wi-Fi, zapewniając łączność ze światem. Od 3699 zł Wi-Fi + Cellular Z modelem Wi‑Fi + Cellular możesz być w kontakcie ze światem nawet tam, gdzie nie ma Wi‑Fi. Od 4499 zł Dlaczego warto wybrać model z Wi‑Fi + Cellular? Jeśli Wi‑Fi jest niedostępne, model Wi‑Fi + Cellular pozwala utrzymywać łączność dzięki transmisji danych w sieciach komórkowych. Połączenie komórkowe skonfigurujesz już po otrzymaniu iPada. Pokaż więcej Grawerunek. Spersonalizuj iPada Air bezpłatnie. Dodaj grawerunek Bez wpływu na możliwość zwrotu do Apple. Bezpłatnie Bez grawerunku Apple Pencil. Wybierz zgodnie ze swoimi potrzebami. Bezpłatny grawerunek Dodaj Apple Pencil Pro 649,00 zł Dodaj Apple Pencil (US"
+  },
+  {
+   "url": "https://www.apple.com/pl/shop/buy-ipad/ipad",
+   "status": 200,
+   "final_url": "https://www.apple.com/pl/shop/buy-ipad/ipad",
+   "title": "Kup iPada - Apple (PL)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
+    "https://www.apple.com/pl/shop/favoritesx/fetch",
+    "https://www.apple.com/pl/shop/sba/d/init?fnode=bb2b49273e3bfb0ef3e3de4a3fe6b4fdc1fac717648c49e9ec839c8596a28fdd12a9827edc63aea59dc6bb70b675d409c646d05bc192537d6"
+   ],
+   "links": [
+    "https://www.apple.com/pl/shop/buy-ipad/ipad-pro",
+    "https://www.apple.com/pl/shop/buy-ipad/ipad-air",
+    "https://www.apple.com/pl/shop/buy-ipad/ipad",
+    "https://www.apple.com/pl/shop/buy-ipad/ipad-mini"
+   ],
+   "tiles": [
+    "128 GB Przypis 2 Od 2199 zł",
+    "256 GB Przypis 2 Od 2699 zł",
+    "512 GB Przypis 2 Od 3699 zł",
+    "128 GB Przypis 2 niebieski Wi-FiKażdy iPad obsługuje sieci Wi-Fi, zapewniając łączność ze światem. 2 199,00 zł",
+    "256 GB Przypis 2 niebieski Wi-FiKażdy iPad obsługuje sieci Wi-Fi, zapewniając łączność ze światem. 2 699,00 zł",
+    "512 GB Przypis 2 niebieski Wi-FiKażdy iPad obsługuje sieci Wi-Fi, zapewniając łączność ze światem. 3 699,00 zł",
+    "128 GB Przypis 2 srebrny Wi-FiKażdy iPad obsługuje sieci Wi-Fi, zapewniając łączność ze światem. 2 199,00 zł",
+    "256 GB Przypis 2 srebrny Wi-FiKażdy iPad obsługuje sieci Wi-Fi, zapewniając łączność ze światem. 2 699,00 zł",
+    "512 GB Przypis 2 srebrny Wi-FiKażdy iPad obsługuje sieci Wi-Fi, zapewniając łączność ze światem. 3 699,00 zł",
+    "128 GB Przypis 2 różowy Wi-FiKażdy iPad obsługuje sieci Wi-Fi, zapewniając łączność ze światem. 2 199,00 zł",
+    "256 GB Przypis 2 różowy Wi-FiKażdy iPad obsługuje sieci Wi-Fi, zapewniając łączność ze światem. 2 699,00 zł",
+    "512 GB Przypis 2 różowy Wi-FiKażdy iPad obsługuje sieci Wi-Fi, zapewniając łączność ze światem. 3 699,00 zł",
+    "128 GB Przypis 2 żółty Wi-FiKażdy iPad obsługuje sieci Wi-Fi, zapewniając łączność ze światem. 2 199,00 zł",
+    "256 GB Przypis 2 żółty Wi-FiKażdy iPad obsługuje sieci Wi-Fi, zapewniając łączność ze światem. 2 699,00 zł",
+    "512 GB Przypis 2 żółty Wi-FiKażdy iPad obsługuje sieci Wi-Fi, zapewniając łączność ze światem. 3 699,00 zł"
+   ],
+   "price_texts": [
+    "Od 2199 zł",
+    "Od 2199 zł",
+    "Od 2199 zł",
+    "Od 2199 zł",
+    "Od 2199 zł",
+    "Od 2199 zł",
+    "Od 2199 zł",
+    "Od 2199 zł",
+    "Od 2199 zł",
+    "Od 2199 zł"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 24,
+    "jsonld": 24,
+    "dom-tile": 3
+   },
+   "text_sample": "Apple Sklep Mac iPad iPhone Watch AirPods Dom Rozrywka Akcesoria Wsparcie 0 + iPad Od 2199 zł Bezpłatna dostawa Kup iPada Od 2199 zł Dowiedz się więcej, iPad Poprzedni obraz w galerii Następny obraz w galerii Kolor. Wybierz swój ulubiony. Kolor srebrny różowy niebieski żółty Pojemność. Zdecyduj, ile pamięci potrzebujesz. 128 GB Przypis 2 Od 2199 zł 256 GB Przypis 2 Od 2699 zł 512 GB Przypis 2 Od 3699 zł Nie wiesz, ile pamięci wybrać? Im większa pamięć Twojego iPada, tym więcej cyfrowych treści możesz przechowywać. Teraz i w przyszłości. Pokaż więcej Łączność. Wybierz sposób łączności. Wi-Fi Każdy iPad obsługuje sieci Wi-Fi, zapewniając łączność ze światem. Od 2199 zł Wi-Fi + Cellular Z modelem Wi‑Fi + Cellular możesz być w kontakcie ze światem nawet tam, gdzie nie ma Wi‑Fi. Od 2999 zł Dlaczego warto wybrać model z Wi‑Fi + Cellular? Jeśli Wi‑Fi jest niedostępne, model Wi‑Fi + Cellular pozwala utrzymywać łączność dzięki transmisji danych w sieciach komórkowych. Połączenie komórkowe skonfigurujesz już po otrzymaniu iPada. Pokaż więcej Grawerunek. Spersonalizuj iPada bezpłatnie. Dodaj grawerunek Bez wpływu na możliwość zwrotu do Apple. Bezpłatnie Bez grawerunku Apple Pencil. Wybierz zgodnie ze swoimi potrzebami. Dodaj Apple Pencil (USB‑C) 399,00 zł Dodaj Apple Pencil (1. generacji) 499,00 zł Bez Apple Pencil Chcesz dowiedzieć się więcej o Apple Pencil? Z Apple Pencil rysowanie, malowanie, pisanie odręczne i robienie notatek jest dokładnie takie, jakie powinno być. Intuic"
+  },
+  {
+   "url": "https://www.apple.com/pl/shop/buy-ipad/ipad-mini",
+   "status": 200,
+   "final_url": "https://www.apple.com/pl/shop/buy-ipad/ipad-mini",
+   "title": "Kup iPada mini - Apple (PL)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
+    "https://www.apple.com/pl/shop/favoritesx/fetch",
+    "https://www.apple.com/pl/shop/sba/d/init?fnode=e96281ebc8b5dc0b338a77f93d2cdb2680af94d866e112dfd65baeecd82fc47b8e453c35067ac35d85234e4c90251f2bd6cd7cf2fa4c6c304",
+    "https://www.apple.com/pl/shop/engrave/json?fae=true&product=MX2D3ZM%2FA"
+   ],
+   "links": [
+    "https://www.apple.com/pl/shop/buy-ipad/ipad-pro",
+    "https://www.apple.com/pl/shop/buy-ipad/ipad-air",
+    "https://www.apple.com/pl/shop/buy-ipad/ipad",
+    "https://www.apple.com/pl/shop/buy-ipad/ipad-mini"
+   ],
+   "tiles": [
+    "128 GB Czip A20 Pro: 5-rdzeniowe CPU, 7-rdzeniowe GPU 16-rdzeniowy system Neural Engine Od 3499 zł",
+    "256 GB Czip A20 Pro: 5-rdzeniowe CPU, 7-rdzeniowe GPU 16-rdzeniowy system Neural Engine Od 3999 zł",
+    "512 GB Czip A20 Pro: 6-rdzeniowe CPU, 7-rdzeniowe GPU Podwójny 16-rdzeniowy system Neural Engine Od 4999 zł",
+    "Szkło nanostrukturalne Dostępne w modelach z 256 GB lub 512 GB pamięci masowej Od 4499 zł"
+   ],
+   "price_texts": [
+    "Od 3499 zł",
+    "Od 3499 zł",
+    "Od 3499 zł",
+    "Od 3499 zł",
+    "Od 3499 zł",
+    "Od 3499 zł",
+    "Od 3499 zł",
+    "Od 3499 zł",
+    "Od 3499 zł",
+    "Od 3499 zł"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 20,
+    "jsonld": 20,
+    "dom-price": 1
+   },
+   "text_sample": "Apple Sklep Mac iPad iPhone Watch AirPods Dom Rozrywka Akcesoria Wsparcie 0 + iPad mini Od 3499 zł Bezpłatna dostawa Nowość Zamów iPada mini Dostępny od 6.11. Od 3499 zł Apple Intelligence Przypis 3 Dowiedz się więcej, iPad mini Poprzedni obraz w galerii Następny obraz w galerii Kolor. Wybierz swój ulubiony. Kolor północ księżycowa poświata Pamięć masowa i czip. Wybierz konfigurację. 128 GB Czip A20 Pro: 5-rdzeniowe CPU, 7-rdzeniowe GPU 16-rdzeniowy system Neural Engine Od 3499 zł 256 GB Czip A20 Pro: 5-rdzeniowe CPU, 7-rdzeniowe GPU 16-rdzeniowy system Neural Engine Od 3999 zł 512 GB Czip A20 Pro: 6-rdzeniowe CPU, 7-rdzeniowe GPU Podwójny 16-rdzeniowy system Neural Engine Od 4999 zł Nie wiesz, ile pamięci wybrać? Im większa pamięć Twojego iPada mini, tym więcej cyfrowych treści możesz przechowywać. Teraz i w przyszłości. Pokaż więcej Szkło wyświetlacza. Wybierz, które szkło będzie dla Ciebie najlepsze. Szkło standardowe Od 3499 zł Szkło nanostrukturalne Dostępne w modelach z 256 GB lub 512 GB pamięci masowej Od 4499 zł Które szkło jest odpowiednie dla Ciebie? Poznaj różnice. Pokaż więcej Łączność. Wybierz sposób łączności. Wi-Fi Każdy iPad obsługuje sieci Wi-Fi, zapewniając łączność ze światem. Od 3499 zł Wi-Fi + Cellular Z modelem Wi‑Fi + Cellular możesz być w kontakcie ze światem nawet tam, gdzie nie ma Wi‑Fi. Od 4299 zł Dlaczego warto wybrać model z Wi‑Fi + Cellular? Jeśli Wi‑Fi jest niedostępne, model Wi‑Fi + Cellular pozwala utrzymywać łączność dzięki transmisji "
+  },
+  {
+   "url": "https://www.apple.com/pl/shop/buy-watch/apple-watch",
+   "status": 200,
+   "final_url": "https://www.apple.com/pl/shop/buy-watch/apple-watch",
+   "title": "Kup Apple Watch Series 12 - Apple (PL)",
+   "json_urls": [
+    "https://www.apple.com/pl/shop/sba/d/init?fnode=abb37b74330f7b62b091fd3e652478eaca4a70d4b33f4ebdc944399bc475bafb2b46bb13d0334476245403badee1ce20adb1296556e16e69f",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
+    "https://www.apple.com/pl/shop/favoritesx/fetch"
+   ],
+   "links": [
+    "https://www.apple.com/pl/shop/buy-watch/apple-watch"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "Od 1899 zł",
+    "Od 1899 zł",
+    "Od 1899 zł",
+    "Od 1899 zł",
+    "Od 1899 zł",
+    "Od 1899 zł",
+    "Od 1899 zł",
+    "Od 1899 zł",
+    "Od 1899 zł",
+    "Od 1899 zł"
+   ],
+   "items_by_source": {
+    "jsonld": 1,
+    "dom-price": 1
+   },
+   "text_sample": "Apple Sklep Mac iPad iPhone Watch AirPods Dom Rozrywka Akcesoria Wsparcie 0 + Apple Watch Series 12 Od 1899 zł Bezpłatna dostawa Nowość Kup Apple Watch Series 12 Od 1899 zł Smukła i lekka konstrukcja z dużym, zaawansowanym wyświetlaczem. Poprzedni obraz w galerii Następny obraz w galerii Koperta. Zacznij od materiału i wykończenia. Nowe kolory Aluminium Do wyboru model GPS lub GPS + Cellular Od 1899 zł Matowe wykończenie i wytrzymały wyświetlacz z warstwą Ceramic Shield 2 Przypis ※※. Nowy kolor Tytan Dostępna dla modelu GPS + Cellular Od 3299 zł Polerowany tytan klasy lotniczej i wytrzymały wyświetlacz ze szkła szafirowego. Nowość Ceramika Dostępna dla modelu GPS + Cellular Od 4399 zł Elegancka i odporna na zarysowania konstrukcja z polerowaną kopertą i wytrzymałym wyświetlaczem ze szkła szafirowego. Nie wiesz, który materiał koperty wybrać? Sprawdź różnice dotyczące m.in. masy czy wykończenia. Pokaż więcej Rozmiar koperty. Wybierz taki, jaki Ci pasuje. 42 mm Od 1899 zł 46 mm Od 2199 zł Nie wiesz, który rozmiar wybrać? Sprawdź różnice w wielkości ekranu i masie koperty. Pokaż więcej Łączność. Bądź w kontakcie nawet bez telefonu pod ręką. GPS Dzwoń i wysyłaj wiadomości, mając w pobliżu iPhone’a. Od 1899 zł GPS + Cellular Możesz dzwonić i wysyłać wiadomości za pomocą samego Apple Watch. Funkcja Apple Watch dla Twoich dzieci wymaga modelu GPS + Cellular Przypis ∆. Od 2399 zł Nie wiesz, która opcja jest dla Ciebie najlepsza? Dowiedz się więcej o łączności komórkowej i dod"
+  },
+  {
+   "url": "https://www.apple.com/pl/shop/buy-watch/apple-watch-se",
+   "status": 200,
+   "final_url": "https://www.apple.com/pl/shop/buy-watch/apple-watch-se",
+   "title": "Kup Apple Watch SE 3 - Apple (PL)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
+    "https://www.apple.com/pl/shop/sba/d/init?fnode=35ea952f8ffe024aaf6c0b0dc7a9999c3b841cc40d8b6db03f5c88c934933a11ba3add40f5e453275a3f36d434ab662ed7430690d1ec34f26",
+    "https://www.apple.com/pl/shop/favoritesx/fetch"
+   ],
+   "links": [
+    "https://www.apple.com/pl/shop/buy-watch/apple-watch-se"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "Od 1099 zł",
+    "Od 1099 zł",
+    "Od 1099 zł",
+    "Od 1099 zł",
+    "Od 1099 zł",
+    "Od 1099 zł",
+    "Od 1099 zł",
+    "Od 1099 zł",
+    "Od 1099 zł",
+    "Od 1099 zł"
+   ],
+   "items_by_source": {
+    "jsonld": 1,
+    "dom-price": 1
+   },
+   "text_sample": "Apple Sklep Mac iPad iPhone Watch AirPods Dom Rozrywka Akcesoria Wsparcie 0 + Apple Watch SE 3 Od 1099 zł Bezpłatna dostawa Kup Apple Watch SE 3 Od 1099 zł Aluminium. Aluminium pochodzące w 100% z recyklingu. Świetnie sprawdza się podczas codziennych aktywności i każdego rodzaju treningów. Poprzedni obraz w galerii Następny obraz w galerii Koperta. Zacznij od wykończenia. Kolory północ księżycowa poświata Rozmiar koperty. Wybierz taki, jaki Ci pasuje. 40 mm Od 1099 zł 44 mm Od 1299 zł Nie wiesz, który rozmiar wybrać? Sprawdź różnice w wielkości ekranu i masie koperty. Pokaż więcej Łączność. Bądź w kontakcie nawet bez telefonu pod ręką. GPS Dzwoń i wysyłaj wiadomości, mając w pobliżu iPhone’a. Od 1099 zł GPS + Cellular Możesz dzwonić i wysyłać wiadomości za pomocą samego Apple Watch. Funkcja Apple Watch dla Twoich dzieci wymaga modelu GPS + Cellular Przypis ※※. Od 1399 zł Nie wiesz, która opcja jest dla Ciebie najlepsza? Dowiedz się więcej o łączności komórkowej i dodawaniu zegarka do planu taryfowego. Pokaż więcej Obsługiwani operatorzy Pasek. Zobacz różne style i wybierz ulubiony. Guma Elastyczne, wygodne i wodoodporne paski. Materiał tekstylny Miękkie i lekkie tkaniny. Świetne do codziennego noszenia. Stal nierdzewna Wysokiej klasy stal nierdzewna i wyrafinowany, elegancki dizajn. Nie wiesz, który pasek wybrać? Porównaj różnice w materiałach, dopasowaniu, stylu i funkcjach. Pokaż więcej Apple Watch SE 3 Od 1099 zł Kontynuuj Potrzebujesz więcej czasu? Zachowaj wszystki"
+  },
+  {
+   "url": "https://www.apple.com/pl/shop/buy-airpods/airpods-pro-3",
+   "status": 200,
+   "final_url": "https://www.apple.com/pl/shop/buy-airpods/airpods-pro-3",
+   "title": "Kup produkt AirPods Pro 3 - Apple (PL)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
+    "https://www.apple.com/pl/shop/favoritesx/fetch",
+    "https://www.apple.com/pl/shop/updateSummary?node=home%2Fshop_airpods%2Ffamily%2Fairpods_pro_3&step=select&product=MFHP4ZM%2FA",
+    "https://www.apple.com/pl/shop/engrave/json?product=MFHP4ZM%2FA"
+   ],
+   "links": [
+    "https://www.apple.com/pl/shop/buy-airpods/airpods-pro-3"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "1 099,00 zł",
+    "1 099,00 zł",
+    "1 099,00 zł",
+    "1 099,00 zł",
+    "1 099,00 zł",
+    "1 099,00 zł",
+    "1 099,00 zł",
+    "599 zł",
+    "699 zł",
+    "1099 zł"
+   ],
+   "items_by_source": {
+    "jsonld": 1,
+    "dom-price": 1
+   },
+   "text_sample": "Apple Sklep Mac iPad iPhone Watch AirPods Dom Rozrywka Akcesoria Wsparcie 0 + AirPods Pro 3 Omówienie Dane techniczne Kup AirPods Pro 3 Bezpłatna dostawa 3 miesiące Apple Fitness+ i Apple Music bez opłat przy zakupie AirPods Pro 3 Przypis ∆, + Proste i bezpłatne zwroty Pomoc w zakupach: zadzwoń pod 800‑702‑322 Bezpłatny grawerunek Kup AirPods Pro 3 Teraz z niesłychanie skuteczną aktywną redukcją hałasu, pomiarami tętna Przypis ¹ i baterią wystarczającą nawet na 8 godzin Przypis ¹². Bezpłatna personalizacja Dodaj grawerunek Zamów grawerunek łączący emoji, imiona, inicjały i cyfry, a AirPods Pro 3 będą jeszcze bardziej Twoje. To nic nie kosztuje i nie opóźnia dostawy. Bezpłatnie Bez grawerunku AirPods Pro 3 1 099,00 zł Kontynuuj Potrzebujesz więcej czasu? Zachowaj wszystkie wybory, zapisując to urządzenie w Zapisanych produktach tak, by wrócić do zakupów w dogodnej chwili. Zapisz na później Galeria Obraz 1 Galeria Obraz 2 Galeria Obraz 3 Galeria Obraz 4 Galeria Obraz 5 Przełomowe funkcje wspierające zdrowie słuchu Przypis ²¹. Teraz możesz wykonać naukowo zweryfikowane badanie słuchu zaledwie w pięć minut, w zaciszu swojego domu Przypis ⁹. A funkcja Aparat słuchowy działa nawet do 10 godzin na baterii w trybie kontaktu Przypis ¹⁴. Badanie słuchu Przypis ⁹ Sprawdź swój słuch we własnym domu. Aparat słuchowy Przypis ⁹ Wsparcie na poziomie klinicznym dla osób, u których zauważono mały lub średni ubytek słuchu. Ochrona słuchu Przypis ¹⁰ Pomaga zapobiegać ekspo"
+  }
+ ]
+}
