@@ -3,8 +3,8 @@
  "country": "DE",
  "currency": "EUR",
  "fx_eur": 1.0,
- "fx_date": "2026-10-29",
- "generated_at": "2026-10-30T08:23:51+00:00",
+ "fx_date": "2026-10-30",
+ "generated_at": "2026-10-30T15:32:14+00:00",
  "items": [
   {
    "key": "apple-airpods-max-ohrpolster|",
@@ -341,7 +341,7 @@
    "price": 1299.0,
    "list_price": null,
    "url": "https://www.apple.com/de/shop/buy-ipad/ipad-pro",
-   "sku": "MDWK4TY/A",
+   "sku": "MDWL4TY/A",
    "source": "jsonld"
   },
   {
@@ -367,7 +367,7 @@
    "price": 1649.0,
    "list_price": null,
    "url": "https://www.apple.com/de/shop/buy-ipad/ipad-pro",
-   "sku": "MDYJ4TY/A",
+   "sku": "MDYK4TY/A",
    "source": "jsonld"
   },
   {
@@ -380,7 +380,7 @@
    "price": 999.0,
    "list_price": null,
    "url": "https://www.apple.com/de/shop/buy-ipad/ipad-air",
-   "sku": "MH5P4TY/A",
+   "sku": "MH5Q4TY/A",
    "source": "jsonld"
   },
   {
@@ -471,7 +471,7 @@
    "price": 499.0,
    "list_price": null,
    "url": "https://www.apple.com/de/shop/buy-ipad/ipad",
-   "sku": "MD4E4TY/A",
+   "sku": "MD4A4TY/A",
    "source": "jsonld"
   },
   {
@@ -1147,7 +1147,7 @@
    "price": 749.0,
    "list_price": null,
    "url": "https://www.apple.com/de/shop/buy-ipad/ipad-mini",
-   "sku": "MJ6J4TY/A",
+   "sku": "MJ6F4TY/A",
    "source": "jsonld"
   },
   {
@@ -2308,19 +2308,6 @@
    "source": "json"
   },
   {
-   "key": "xiaomi-xiaomi-redmi-buds-6-night|",
-   "mkey": "xiaomi-xiaomi-redmi-buds-6-night",
-   "brand": "Xiaomi",
-   "category": "audio",
-   "model": "Xiaomi REDMI Buds 6 Night",
-   "variant": "—",
-   "price": 34.99,
-   "list_price": null,
-   "url": "https://www.mi.com/de/errors/404",
-   "sku": "",
-   "source": "json"
-  },
-  {
    "key": "xiaomi-xiaomi-redmi-headphones-neo|",
    "mkey": "xiaomi-xiaomi-redmi-headphones-neo",
    "brand": "Xiaomi",
@@ -2633,19 +2620,6 @@
    "source": "jsonld"
   },
   {
-   "key": "xiaomi-xiaomi-poco-f9-ultra-produktdatenblatt|16gb+512gb",
-   "mkey": "xiaomi-xiaomi-poco-f9-ultra-produktdatenblatt",
-   "brand": "Xiaomi",
-   "category": "phone",
-   "model": "Xiaomi POCO F9 Ultra Produktdatenblatt",
-   "variant": "16GB+512GB",
-   "price": 1199.9,
-   "list_price": null,
-   "url": "https://www.mi.com/de/errors/404",
-   "sku": "",
-   "source": "dom-tile"
-  },
-  {
    "key": "xiaomi-xiaomi-poco-m7|",
    "mkey": "xiaomi-xiaomi-poco-m7",
    "brand": "Xiaomi",
@@ -2906,19 +2880,6 @@
    "source": "json"
   },
   {
-   "key": "xiaomi-xiaomi-pad-8-produktdatenblatt|8gb+128gb",
-   "mkey": "xiaomi-xiaomi-pad-8-produktdatenblatt",
-   "brand": "Xiaomi",
-   "category": "tablet",
-   "model": "Xiaomi Pad 8 Produktdatenblatt",
-   "variant": "8GB+128GB",
-   "price": 449.9,
-   "list_price": null,
-   "url": "https://www.mi.com/de/errors/404",
-   "sku": "",
-   "source": "dom-tile"
-  },
-  {
    "key": "xiaomi-xiaomi-redmi-pad-2-4g|",
    "mkey": "xiaomi-xiaomi-redmi-pad-2-4g",
    "brand": "Xiaomi",
@@ -2992,7 +2953,7 @@
    "variant": "—",
    "price": 44.99,
    "list_price": null,
-   "url": "https://www.mi.com/de/wearables/",
+   "url": "https://www.mi.com/de/product-list/phone/",
    "sku": "",
    "source": "json"
   },
@@ -3031,7 +2992,7 @@
    "variant": "—",
    "price": 49.99,
    "list_price": null,
-   "url": "https://www.mi.com/de/product-list/phone/",
+   "url": "https://www.mi.com/de/wearables/",
    "sku": "",
    "source": "json"
   },
@@ -3575,7 +3536,7 @@
    "category": "audio",
    "model": "HONOR Earbuds Open",
    "variant": "—",
-   "price": 79.9,
+   "price": 149.9,
    "list_price": null,
    "url": "https://www.honor.com/de/audio/honor-earbuds-open/buy/",
    "sku": "814910012030000101",
@@ -3614,7 +3575,7 @@
    "category": "audio",
    "model": "HONOR Earbuds X6",
    "variant": "—",
-   "price": 29.9,
+   "price": 59.9,
    "list_price": null,
    "url": "https://www.honor.com/de/audio/honor-earbuds-x6/buy/",
    "sku": "814910012020000101",
@@ -3705,7 +3666,7 @@
    "category": "phone",
    "model": "HONOR 600",
    "variant": "8GB+512GB",
-   "price": 549.9,
+   "price": 499.9,
    "list_price": null,
    "url": "https://www.honor.com/de/phones/honor-600/buy/",
    "sku": "",
@@ -3861,7 +3822,7 @@
    "category": "phone",
    "model": "HONOR Magic8 Lite",
    "variant": "—",
-   "price": 399.9,
+   "price": 349.9,
    "list_price": null,
    "url": "https://www.honor.com/de/phones/honor-magic8-lite/buy/",
    "sku": "814910001010003001",
@@ -3900,7 +3861,7 @@
    "category": "tablet",
    "model": "HONOR MagicPad4",
    "variant": "—",
-   "price": 649.9,
+   "price": 599.9,
    "list_price": null,
    "url": "https://www.honor.com/de/tablets/honor-magicpad-4/buy/",
    "sku": "814910002070000504",
@@ -3926,7 +3887,7 @@
    "category": "tablet",
    "model": "HONOR Pad 20",
    "variant": "8GB+256GB",
-   "price": 499.9,
+   "price": 399.9,
    "list_price": null,
    "url": "https://www.honor.com/de/tablets/honor-pad-20/buy/",
    "sku": "",
@@ -3939,7 +3900,7 @@
    "category": "tablet",
    "model": "HONOR Pad 20 Pro",
    "variant": "8GB+256GB",
-   "price": 599.9,
+   "price": 449.9,
    "list_price": null,
    "url": "https://www.honor.com/de/tablets/honor-pad-20-pro/buy/",
    "sku": "",
@@ -4024,6 +3985,19 @@
    "source": "jsonld"
   },
   {
+   "key": "honor-honor-watch-5|",
+   "mkey": "honor-honor-watch-5",
+   "brand": "Honor",
+   "category": "wear",
+   "model": "HONOR Watch 5",
+   "variant": "—",
+   "price": 33.32,
+   "list_price": null,
+   "url": "https://www.honor.com/de/wearables/honor-watch-5/buy/",
+   "sku": "",
+   "source": "dom-price"
+  },
+  {
    "key": "honor-honor-watch-6|",
    "mkey": "honor-honor-watch-6",
    "brand": "Honor",
@@ -4086,19 +4060,6 @@
    "list_price": null,
    "url": "https://www.motorola.com/de/de/p/motoaccessories/moto-buds-bass/pg38c07949",
    "sku": "PG38C07949",
-   "source": "jsonld"
-  },
-  {
-   "key": "motorola-motorola-signature-moto-buds-2-plus|",
-   "mkey": "motorola-motorola-signature-moto-buds-2-plus",
-   "brand": "Motorola",
-   "category": "audio",
-   "model": "Motorola signature moto buds 2 plus",
-   "variant": "—",
-   "price": 999.99,
-   "list_price": null,
-   "url": "https://www.motorola.com/de/de/p/phones/motorola-signature/signature/pmipmje43mf?pn=PBAB0049SE",
-   "sku": "PBAB0049SE",
    "source": "jsonld"
   },
   {
@@ -4343,26 +4304,26 @@
   },
   "Samsung": {
    "count": 83,
-   "raw": 795
+   "raw": 765
   },
   "Google": {
    "count": 0,
    "raw": 0
   },
   "Xiaomi": {
-   "count": 67,
-   "raw": 4107
+   "count": 64,
+   "raw": 3681
   },
   "Huawei": {
    "count": 30,
    "raw": 149
   },
   "Honor": {
-   "count": 39,
-   "raw": 252
+   "count": 40,
+   "raw": 248
   },
   "Motorola": {
-   "count": 22,
+   "count": 21,
    "raw": 88
   },
   "OnePlus": {
@@ -4383,12 +4344,12 @@
   "apple-iphone-17": 5,
   "apple-iphone-17e": 6,
   "apple-iphone-16": 7,
-  "apple-ipad-pro": 1,
+  "apple-11-ipad-pro-m5": 1,
   "apple-13-ipad-pro-m5": 2,
-  "apple-11-ipad-pro-m5": 3,
+  "apple-ipad-pro": 3,
   "apple-13-ipad-air-m4": 4,
-  "apple-11-ipad-air-m4": 5,
-  "apple-ipad-air": 6,
+  "apple-ipad-air": 5,
+  "apple-11-ipad-air-m4": 6,
   "apple-ipad": 7,
   "apple-ipad-a16": 8,
   "apple-ipad-mini-a20-pro": 9,
@@ -4396,8 +4357,8 @@
   "apple-ipad-mini-vorbestellen": 11,
   "apple-watch-series-12": 1,
   "apple-watch-se-3": 2,
-  "apple-watch-herm-s": 3,
-  "apple-watch-herm-s-series-12": 4,
+  "apple-watch-herm-s-series-12": 3,
+  "apple-watch-herm-s": 4,
   "samsung-samsung-galaxy-buds4-pro": 1,
   "samsung-samsung-galaxy-buds4": 2,
   "samsung-samsung-galaxy-buds3-fe": 3,
@@ -4453,9 +4414,8 @@
   "xiaomi-xiaomi-redmi-buds-8-lite": 4,
   "xiaomi-xiaomi-redmi-headphones-neo": 5,
   "xiaomi-xiaomi-xiaomi-buds-6": 6,
-  "xiaomi-xiaomi-xiaomi-buds-5-pro": 7,
-  "xiaomi-xiaomi-buds-5-pro": 8,
-  "xiaomi-xiaomi-redmi-buds-6-night": 9,
+  "xiaomi-xiaomi-buds-5-pro": 7,
+  "xiaomi-xiaomi-xiaomi-buds-5-pro": 8,
   "xiaomi-xiaomi-redmi-note-17-pro-max-5g": 1,
   "xiaomi-xiaomi-redmi-note-17-pro-5g": 2,
   "xiaomi-xiaomi-redmi-note-17-5g": 3,
@@ -4486,19 +4446,17 @@
   "xiaomi-xiaomi-poco-m7-pro-5g": 28,
   "xiaomi-xiaomi-poco-m7": 29,
   "xiaomi-xiaomi-poco-c85": 30,
-  "xiaomi-xiaomi-poco-f9-ultra-produktdatenblatt": 31,
-  "xiaomi-xiaomi-poco-x8-pro-produktdatenblatt-uvp": 32,
+  "xiaomi-xiaomi-poco-x8-pro-produktdatenblatt-uvp": 31,
+  "xiaomi-xiaomi-15-produktdatenblatt-uvp": 32,
   "xiaomi-xiaomi-17t-produktdatenblatt-uvp": 33,
-  "xiaomi-xiaomi-15-produktdatenblatt-uvp": 34,
-  "xiaomi-xiaomi-poco-c81-pro-produktdatenblatt-uvp": 35,
+  "xiaomi-xiaomi-poco-c81-pro-produktdatenblatt-uvp": 34,
+  "xiaomi-xiaomi-15": 35,
   "xiaomi-xiaomi-17t": 36,
-  "xiaomi-xiaomi-15": 37,
   "xiaomi-xiaomi-redmi-pad-2-9-7": 1,
   "xiaomi-xiaomi-pad-8": 2,
   "xiaomi-xiaomi-pad-8-pro": 3,
   "xiaomi-xiaomi-redmi-pad-2-pro": 4,
   "xiaomi-xiaomi-redmi-pad-2-4g": 5,
-  "xiaomi-xiaomi-pad-8-produktdatenblatt": 6,
   "xiaomi-xiaomi-redmi-watch-6-lite": 1,
   "xiaomi-xiaomi-redmi-watch-6-active": 2,
   "xiaomi-xiaomi-watch-s5-46mm": 3,
@@ -4506,18 +4464,18 @@
   "xiaomi-xiaomi-watch-5": 5,
   "xiaomi-xiaomi-smart-band-11-active": 6,
   "xiaomi-xiaomi-smart-band-10-pro": 7,
-  "xiaomi-xiaomi-smart-band-9-pro": 8,
+  "xiaomi-xiaomi-smart-band-10": 8,
   "xiaomi-xiaomi-smart-band-glasses": 9,
   "xiaomi-xiaomi-watches-glasses": 10,
   "xiaomi-xiaomi-watch-s5-46mm-ceramic": 11,
   "xiaomi-xiaomi-xiaomi-watch-5": 12,
   "xiaomi-xiaomi-watch-s4-41mm": 13,
   "xiaomi-xiaomi-watch-s4": 14,
-  "xiaomi-xiaomi-smart-band-10": 15,
+  "xiaomi-xiaomi-smart-band-9-pro": 15,
   "huawei-huawei-watch-buds-2": 1,
-  "huawei-huawei-pura-80-ultra-prestige": 1,
-  "huawei-huawei-pura-80-ultra-golden": 2,
-  "huawei-huawei-pura-80-pro": 3,
+  "huawei-huawei-pura-80-ultra-golden": 1,
+  "huawei-huawei-pura-80-pro": 2,
+  "huawei-huawei-pura-80-ultra-prestige": 3,
   "huawei-huawei-pura-80-ultra": 4,
   "huawei-huawei-mate-x6": 5,
   "huawei-huawei-nova-14-pro": 6,
@@ -4545,8 +4503,8 @@
   "huawei-huawei-watch-fit-3": 15,
   "huawei-huawei-watch-d2": 16,
   "honor-honor-earbuds-4": 1,
-  "honor-honor-earbuds-open": 2,
-  "honor-honor-earbuds-open-polar": 3,
+  "honor-honor-earbuds-open-polar": 2,
+  "honor-honor-earbuds-open": 3,
   "honor-honor-earbuds-a-pro": 4,
   "honor-honor-earbuds-x6": 5,
   "honor-honor-earbuds-x5": 6,
@@ -4564,9 +4522,9 @@
   "honor-honor-400-pro-12": 12,
   "honor-honor-400-pro": 13,
   "honor-honor-400": 14,
-  "honor-honor-600-lite-dual-card": 15,
-  "honor-honor-600-lite": 16,
-  "honor-honor-600-lite-sprout-dual-card": 17,
+  "honor-honor-600-lite-sprout-dual-card": 15,
+  "honor-honor-600-lite-dual-card": 16,
+  "honor-honor-600-lite": 17,
   "honor-honor-400-lite": 18,
   "honor-honor-400-smart-5g": 19,
   "honor-honor-400-smart-4g": 20,
@@ -4582,11 +4540,11 @@
   "honor-honor-watch-6": 1,
   "honor-honor-band-10": 2,
   "honor-honor-watch-x5i": 3,
-  "honor-honor-band-9": 4,
-  "motorola-motorola-signature-moto-buds-2-plus": 1,
-  "motorola-motorola-moto-buds-2-plus": 2,
-  "motorola-motorola-moto-buds-2": 3,
-  "motorola-motorola-moto-buds-bass": 4,
+  "honor-honor-watch-5": 4,
+  "honor-honor-band-9": 5,
+  "motorola-motorola-moto-buds-2-plus": 1,
+  "motorola-motorola-moto-buds-2": 2,
+  "motorola-motorola-moto-buds-bass": 3,
   "motorola-motorola-razr-70-ultra": 1,
   "motorola-motorola-edge-70-plus": 2,
   "motorola-motorola-edge-70-max": 3,
