@@ -2,11 +2,15 @@ name: Daily EU price snapshot
 
 on:
   schedule:
-    - cron: "0 9 * * *"   # 09:00 UTC = 柏林 10:00（冬令时）/ 11:00（夏令时）
+    # GitHub 的定时任务在整点最拥挤，常被延迟数小时甚至跳过，所以错开整点并加两次补跑。
+    # 当天已有完整快照时，补跑会自动跳过。
+    - cron: "17 8 * * *"    # 08:17 UTC = 柏林 09:17（冬令时）
+    - cron: "43 12 * * *"   # 补跑 1
+    - cron: "29 17 * * *"   # 补跑 2
   workflow_dispatch:
     inputs:
       countries:
-        description: "Countries, comma-separated (blank = DE,FR,RO,PL,TR)"
+        description: "Countries, comma-separated (blank = DE,FR,IT,RO,PL,TR)"
         required: false
       brands:
         description: "Brands, comma-separated (blank = all)"
@@ -25,15 +29,26 @@ jobs:
     outputs:
       date: ${{ steps.p.outputs.date }}
       matrix: ${{ steps.p.outputs.matrix }}
+      skip: ${{ steps.p.outputs.skip }}
     steps:
+      - uses: actions/checkout@v4
       - id: p
         run: |
-          echo "date=$(TZ=Europe/Berlin date +%F)" >> "$GITHUB_OUTPUT"
-          C="${{ github.event.inputs.countries }}"; C="${C:-DE,FR,RO,PL,TR}"
+          D=$(TZ=Europe/Berlin date +%F)
+          echo "date=$D" >> "$GITHUB_OUTPUT"
+          C="${{ github.event.inputs.countries }}"; C="${C:-DE,FR,IT,RO,PL,TR}"
           echo "matrix=$(echo "$C" | tr -d ' ' | jq -Rc 'split(",")')" >> "$GITHUB_OUTPUT"
+          N=$(ls data/snapshots/$D/*.json 2>/dev/null | wc -l)
+          WANT=$(echo "$C" | tr ',' '\n' | grep -c .)
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$N" -ge "$WANT" ]; then
+            echo "Snapshot for $D already complete ($N countries) - skipping"; echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
 
   scrape:
     needs: prep
+    if: needs.prep.outputs.skip != 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 90
     strategy:
@@ -64,7 +79,7 @@ jobs:
 
   merge:
     needs: [prep, scrape]
-    if: always()
+    if: always() && needs.prep.outputs.skip != 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
