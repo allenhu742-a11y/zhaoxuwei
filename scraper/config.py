@@ -15,6 +15,7 @@ COUNTRIES = {
     "FR": {"name": "法国 France", "cur": "EUR", "lang": "fr", "tz": "Europe/Paris", "locale": "fr-FR"},
     "RO": {"name": "罗马尼亚 Romania", "cur": "RON", "lang": "ro", "tz": "Europe/Bucharest", "locale": "ro-RO"},
     "PL": {"name": "波兰 Poland", "cur": "PLN", "lang": "pl", "tz": "Europe/Warsaw", "locale": "pl-PL"},
+    "IT": {"name": "意大利 Italy", "cur": "EUR", "lang": "it", "tz": "Europe/Rome", "locale": "it-IT"},
     "TR": {"name": "土耳其 Türkiye", "cur": "TRY", "lang": "tr", "tz": "Europe/Istanbul", "locale": "tr-TR"},
 }
 ALL = list(COUNTRIES)
@@ -44,7 +45,7 @@ BRANDS = {
         "api": "samsung",
     },
     "Google": {
-        "countries": ["DE", "FR", "PL", "RO", "TR"],
+        "countries": ["DE", "FR", "IT", "PL", "RO", "TR"],
         "seeds": {
             "phone": ["https://store.google.com/{cc}/category/phones"],
             "tablet": ["https://store.google.com/{cc}/category/tablets"],

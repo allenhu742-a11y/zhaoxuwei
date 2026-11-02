@@ -1,6 +1,6 @@
 # 欧洲官网价格追踪 / EU Official Store Price Tracker
 
-Every day this records official-store prices (incl. VAT) in **DE, FR, RO, PL and TR**, in local currency plus EUR at the ECB daily rate, of phones, tablets, wearables and audio products from **Apple, Samsung, Google, Xiaomi, Huawei, Honor, Motorola and OnePlus**. Each storage variant is its own row, and colours are merged at the lowest price. It keeps a snapshot per day and flags price changes.
+Every day this records official-store prices (incl. VAT) in **DE, FR, IT, RO, PL and TR**, in local currency plus EUR at the ECB daily rate, of phones, tablets, wearables and audio products from **Apple, Samsung, Google, Xiaomi, Huawei, Honor, Motorola and OnePlus**. Each storage variant is its own row, and colours are merged at the lowest price. It keeps a snapshot per day and flags price changes.
 
 - `data/snapshots/YYYY-MM-DD/<CC>.json`: raw daily snapshot per country (an older `YYYY-MM-DD.json` file is read as DE)
 - `data/history.csv`: long-format price history (date × country × SKU, local + EUR, listing rank)

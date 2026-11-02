@@ -30,7 +30,7 @@ COOKIE_BUTTONS = [
     "button:has-text('Zustimmen')", "button:has-text('Accept all')", "button:has-text('Accept All')",
     "button:has-text('Tout accepter')", "button:has-text('Accepter')", "button:has-text('Akceptuj')",
     "button:has-text('Zaakceptuj')", "button:has-text('Accept')", "button:has-text('Acceptă')",
-    "button:has-text('Accepta')", "button:has-text('Kabul et')", "button:has-text('Tümünü kabul')",
+    "button:has-text('Accepta')", "button:has-text('Accetta tutti')", "button:has-text('Accetta')", "button:has-text('Kabul et')", "button:has-text('Tümünü kabul')",
 ]
 
 
@@ -168,7 +168,7 @@ async def visit(ctx, url, brand, link_rx, cc, cur, seed_pos=None):
             "text_sample": re.sub(r"\s+", " ", (await page.inner_text("body"))[:1500]),
         })
         if not items:                                # keep JSON samples so parsers can be added later
-            host = urlparse(page.url).hostname.split(".")[-2]
+            host = (urlparse(page.url).hostname or "").split(".")[-2:][0]
             rec["json_samples"] = [{"url": u[:200], "body": json.dumps(o, ensure_ascii=False)[:2500]}
                                    for u, o in captured if host in (urlparse(u).hostname or "")][:4]
     except Exception as e:  # noqa: BLE001

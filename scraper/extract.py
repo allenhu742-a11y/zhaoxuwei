@@ -70,6 +70,7 @@ MONTHLY_RE = re.compile(
     r"/\s?mois|par mois|mensuel|économ|remise|reprise|"           # fr
     r"mies|miesięcz|rat\b|raty|oszczęd|zniżk|"                    # pl
     r"/\s?lun|pe lun|lunar|economis|reducere|"                     # ro
+    r"al mese|/\s?mese|mensil|\brate\b|risparmi|sconto|permuta|"    # it
     r"\bay\b|/\s?ay|aylık|taksit|indirim|tasarruf",                # tr
     re.I)
 STORAGE_RE = re.compile(r"(\d{1,4})\s?(GB|TB|Go|To)\b", re.I)
@@ -83,6 +84,7 @@ COLORS = (
     "aqua teal amber khaki olive forest velvet emerald smaragd ivory elfenbein moonlight shadow ocean sky himmelblau "
     "noir blanc bleu vert rouge jaune gris argent "                       # fr
     "czarny biały niebieski zielony szary srebrny złoty różowy fioletowy "   # pl
+    "nero bianco blu verde rosso grigio argento oro viola azzurro "         # it
     "negru alb albastru verde gri argintiu auriu roz mov "                  # ro
     "siyah beyaz mavi yeşil gri gümüş altın pembe mor"                      # tr
 ).split()
@@ -94,19 +96,20 @@ ACCESSORY = re.compile(
     r"smarttag|airtag|magsafe|\bdock\b|tasche|sleeve|wallet|ladestation|netzteil|ohreinsätze|ear ?tips|einsätze|"
     r"fernseher|\btv\b|monitor|staubsauger|vacuum|scooter|router|kamera|camera|lautsprecher|speaker|soundbar|"
     r"coque|étui|housse|chargeur|câble|adaptateur|bracelet|clavier|stylet|embouts|"     # fr
+    r"custodia|caricatore|cavo|adattatore|cinturino|tastiera|pellicola|pennino|"           # it
     r"etui|pokrowiec|szkło|ładowarka|kabel|pasek|klawiatura|rysik|"                      # pl
     r"husă|husa|încărcător|incarcator|cablu|adaptor|curea|tastatur|"                     # ro
     r"kılıf|kilif|ekran koruyucu|şarj|sarj|kablo|adaptör|kordon|kayış|klavye|kalem",     # tr
     re.I)
-REFURB = re.compile(r"entdecke|discover|découvr|odkryj|descoper|keşfet|refurb|re-?newed|certified|reconditionn|odnowion|recondi|yenilenmi|generalüberholt|wie neu|"
+REFURB = re.compile(r"entdecke|discover|scopri|ricondizionat|découvr|odkryj|descoper|keşfet|refurb|re-?newed|certified|reconditionn|odnowion|recondi|yenilenmi|generalüberholt|wie neu|"
                     r"bundle|paket|pack\b|加价|[぀-ヿ一-鿿]", re.I)
-BUY_WORDS = re.compile(r"\s+(kaufen|jetzt kaufen|acheter|kup(?:uj)?|cumpără|cumpara|satın al)\b.*$", re.I)
+BUY_WORDS = re.compile(r"\s+(kaufen|jetzt kaufen|acheter|kup(?:uj)?|cumpără|cumpara|acquista|compra|satın al)\b.*$", re.I)
 
 CATS = [
     ("audio", re.compile(r"buds|airpods|freebuds|freeclip|earbuds|earphones?|kopfhörer|headphones?|beats|\bpods\b|freelace|"
-                         r"écouteurs|casque|słuchawki|căști|casti|kulaklık", re.I)),
+                         r"écouteurs|casque|auricolari|cuffie|słuchawki|căști|casti|kulaklık", re.I)),
     ("wear", re.compile(r"watch|\bring\b|galaxy fit|\bfit\s?\d|smart\s?band|mi band|\bband\s?\d|honor band|huawei band|"
-                        r"montre|zegarek|smartwatch", re.I)),
+                        r"montre|orologio|zegarek|smartwatch", re.I)),
     ("tablet", re.compile(r"\bpad\b|\bpad\s?\d|ipad|matepad|galaxy tab|\btab\b|tablet|magicpad|tablette", re.I)),
     ("phone", re.compile(r"iphone|galaxy [samz]\d|galaxy z|galaxy xcover|pixel\s?\d|xiaomi\s?\d|redmi|poco|pura|mate\s?x?\d|"
                          r"nova|magic\s?v?\d|honor\s?\d|\bmoto\b|razr|edge|oneplus\s?\d|nord|smartphone|handy", re.I)),
@@ -165,6 +168,7 @@ def canonical_model(brand, name):
     n = htmllib.unescape(name or "").replace("‏", "").replace("‎", "")
     n = re.sub(r"<[^>]+>", " ", n)
     n = BUY_WORDS.sub("", n)
+    n = re.sub(r"^\s*(Acheter|Acquista|Compra|Kup|Cumpără|Buy|Jetzt kaufen)\s+(l[’'ea]\s*|un[ae]?\s+|il\s+|lo\s+)?", "", n, flags=re.I)
     n = re.sub(r"\((?:[^)]*\b(?:only|exklusiv|exclusive|uniquement|doar|tylko|sadece)\b[^)]*)\)", " ", n, flags=re.I)
     n = re.sub(r"\s+(im|dans|w|în|in)\s+(offiziellen\s+)?(HUAWEI|HONOR|Samsung|Xiaomi)?\s*(Shop|Store|Sklep|Magazin|Mağaza)\b.*$", "", n, flags=re.I)
     n = re.sub(r"\b[A-Z]{2,4}(?:\+[A-Z]{2,4})?(?:\s+offer)?_(?:(?:HUAWEI|HONOR)\s+)?", "", n)   # Huawei internal 'SMP_', 'WEA+CB offer_'
@@ -209,7 +213,7 @@ def bad_name(name):
 
 GENERIC_WORDS = {
     "smartphones", "smartphone", "phones", "handys", "tablets", "tablet", "wearables", "audio", "kopfhörer", "headphones",
-    "earbuds", "watches", "smartwatches", "téléphones", "tablettes", "montres", "écouteurs", "telefony", "smartfony",
+    "earbuds", "watches", "smartwatches", "téléphones", "tablettes", "montres", "écouteurs", "telefony", "smartfony", "telefoni", "auricolari", "cuffie", "orologi", "smartwatch",
     "słuchawki", "zegarki", "telefoane", "tablete", "căști", "ceasuri", "telefonlar", "tabletler", "kulaklıklar", "akıllı saatler",
 }
 
@@ -326,9 +330,9 @@ def apple(html, url, title, cur):
         return []
     base = re.sub(r"\s*[-|–]\s*Apple.*$", "", title or "", flags=re.I)
     base = BUY_WORDS.sub("", " " + base).strip()
-    base = re.sub(r"^(Acheter|Kup|Cumpără|Buy)\s+(l[’'ea]\s*|un\s+|une\s+)?", "", base, flags=re.I).strip() or "Apple"
+    base = re.sub(r"^(Acheter|Acquista|Compra|Kup|Cumpără|Buy)\s+(l[’'ea]\s*|un\s+|une\s+)?", "", base, flags=re.I).strip() or "Apple"
     base = re.sub(r"\s+(satın alın?|al)$", "", base, flags=re.I)
-    names = [n.strip() for n in re.split(r"\s+(?:und|et|i|și|ve|and)\s+|\s*&\s*", base) if n.strip()]
+    names = [n.strip() for n in re.split(r"\s+(?:und|et|e|i|și|ve|and)\s+|\s*&\s*", base) if n.strip()]
     sizes = sorted({p.get("dimensionScreensize") for p in products if p.get("dimensionScreensize")},
                    key=lambda s: float(re.sub(r"[^0-9_.]", "", s).replace("_", ".") or 0))
     out = []
@@ -427,8 +431,8 @@ DOM_JS = r"""
 
 def dom(info, url, cur):
     name = (info.get("h1") or info.get("og") or info.get("title") or "").strip()
-    name = re.sub(r"\s*[|–-]\s*(Offizieller|Official|Officiel|Oficjal|Oficial|Resmi|Kaufen|Buy|Google Store|Xiaomi|HUAWEI|HONOR|OnePlus|Motorola).*$", "", name, flags=re.I)
-    name = re.sub(r"^(Kaufen|Buy|Acheter|Kup|Cumpără)\s+", "", name, flags=re.I).strip()
+    name = re.sub(r"\s*[|–-]\s*(Offizieller|Official|Officiel|Ufficiale|Oficjal|Oficial|Resmi|Kaufen|Buy|Google Store|Xiaomi|HUAWEI|HONOR|OnePlus|Motorola).*$", "", name, flags=re.I)
+    name = re.sub(r"^(Kaufen|Buy|Acheter|Acquista|Kup|Cumpără)\s+", "", name, flags=re.I).strip()
     out = []
     for t in info.get("tiles", []):
         if MONTHLY_RE.search(t):
