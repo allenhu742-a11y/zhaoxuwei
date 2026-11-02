@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>EU Official Price Tracker</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/exceljs/4.4.0/exceljs.min.js" defer></script>
 <style>
 :root{--bg:#fff;--fg:#1f2328;--muted:#656d76;--line:#d8dee4;--head:#f6f8fa;--up:#fde2e1;--upfg:#b42318;--down:#dcfce7;--downfg:#15803d;--new:#dbeafe;--newfg:#1d4ed8;--chip:#f3f4f6;--acc:#2563eb;--rank:#ea580c}
 @media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0d1117;--fg:#e6edf3;--muted:#8d96a0;--line:#30363d;--head:#161b22;--up:#4a1d1b;--upfg:#ff8f87;--down:#12361f;--downfg:#6ee79a;--new:#172a4a;--newfg:#8ab4ff;--chip:#21262d;--acc:#6ea8ff;--rank:#fb923c}}
@@ -19,13 +20,21 @@ h2{font-size:17px;margin:26px 0 2px}
 .chip{display:inline-flex;align-items:center;gap:5px;border:1px solid var(--line);border-radius:4px;padding:2px 8px;background:var(--chip);cursor:pointer;user-select:none}
 .chip i{width:11px;height:11px;border-radius:2px;display:inline-block;border:1px solid rgba(0,0,0,.15)}
 .chip.off{opacity:.35}
+#catRow .chip{padding:4px 12px}
+#catAll.on-all{background:var(--acc);border-color:var(--acc);color:#fff}
 .tabs button,.seg button{font:inherit;border:1px solid var(--line);background:var(--bg);color:var(--fg);padding:5px 12px;cursor:pointer}
 .tabs button{border-radius:6px}
 .tabs button.on,.seg button.on{background:var(--acc);border-color:var(--acc);color:#fff}
 .seg{display:inline-flex}.seg button:first-child{border-radius:6px 0 0 6px}.seg button:last-child{border-radius:0 6px 6px 0;border-left:0}
 .seg button:disabled{opacity:.4;cursor:not-allowed}
 input[type=search],select{background:var(--bg);color:var(--fg);border:1px solid var(--line);border-radius:4px;padding:5px 8px;font:inherit}
-#modelQ{min-width:280px}
+#modelQ,#skuQ{min-width:280px}
+.btn{font:inherit;border:1px solid var(--line);background:var(--chip);color:var(--fg);padding:4px 10px;border-radius:6px;cursor:pointer}
+.btn:hover{border-color:var(--acc)}
+.pick{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:14px;padding:2px 4px 2px 10px}
+.pick i{width:10px;height:10px;border-radius:50%;display:inline-block}
+.pick button{border:0;background:none;color:var(--muted);cursor:pointer;font-size:14px}
+a.add{text-decoration:none;color:var(--acc);font-weight:700;cursor:pointer;margin-left:4px}
 .scroll{overflow-x:auto;border:1px solid var(--line);border-radius:6px;margin-top:6px}
 table{border-collapse:collapse;width:max-content;min-width:100%}
 th,td{border-bottom:1px solid var(--line);border-right:1px solid var(--line);padding:4px 8px;white-space:nowrap;text-align:right;font-variant-numeric:tabular-nums}
@@ -61,7 +70,12 @@ a{color:inherit}
   <p class="meta">截至 / As of: <b id="asof"></b> · 数据源 / Source: 各品牌<span id="cname"></span>官网 · 价格 = 官网当前售价（含税），同一存储版本多颜色取最低 / current store price incl. VAT, lowest across colours</p>
   <p class="meta">排名 = 品牌官网分类页列表位置（#1 = 最靠前，品牌+品类内）/ rank = position on the brand's own category listing (within brand + category)</p>
   <div class="row"><span class="meta">币种 / Currency:</span><span class="seg" id="curSeg"><button data-c="local" class="on" id="curLocal">本币</button><button data-c="eur" id="curEur">EUR</button></span><span class="meta" id="fxNote"></span></div>
+  <div class="row" id="catRow"><span class="meta">品类 / Category:</span><span class="chip" id="catAll">全部 / all</span></div>
   <p class="status" id="status"></p>
+  <div class="row"><span class="meta">导出 / Export:</span>
+    <button class="btn" id="xlsView" title="当前国家 + 当前筛选（品类/品牌/区间/搜索/币种），含型号走势和产品对比">⬇ Excel · 当前视图</button>
+    <button class="btn" id="xlsAll" title="所有国家的全部历史（应用品类/品牌筛选），含跨国最新价对比">⬇ Excel · 全部国家历史</button>
+    <span class="meta" id="xlsMsg"></span></div>
   <div class="sum" id="sum"></div>
 
   <h2>型号走势 / Model trend</h2>
@@ -73,6 +87,22 @@ a{color:inherit}
     </div>
     <div class="chartbox"><canvas id="chart"></canvas></div>
     <div class="scroll" style="max-height:320px"><table id="trendTbl"></table></div>
+  </div>
+
+  <h2>产品趋势对比 / Product trend</h2>
+  <div class="panel">
+    <div class="row">
+      <input type="search" id="skuQ" list="skuList" placeholder="添加产品（型号 · 版本），可添加多个 / add products…">
+      <datalist id="skuList"></datalist>
+      <button class="btn" id="addModelAll" title="把上方型号走势里选中的型号的全部版本加入对比">＋ 当前型号全部版本</button>
+      <span class="seg" id="cmpMode"><button data-v="country" class="on">本国</button><button data-v="cross">跨国对比 (EUR)</button></span>
+      <span class="seg" id="cmpNorm"><button data-v="abs" class="on">价格</button><button data-v="idx">指数 (首日=100)</button></span>
+      <button class="btn" id="cmpClear">清空</button>
+    </div>
+    <div class="row" id="picks"></div>
+    <div class="chartbox" id="cmpBox"><canvas id="chart2"></canvas></div>
+    <div class="scroll"><table id="cmpTbl"></table></div>
+    <p class="meta">提示：在下方价格表里点型号旁的 ＋ 也可以加入对比；跨国对比按同一型号+版本匹配各国数据，统一换算成 EUR。</p>
   </div>
 
   <h2>今日变动 / Today's changes</h2>
@@ -97,8 +127,11 @@ const $ = s => document.querySelector(s);
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const SYM = {EUR: '€', PLN: 'zł', RON: 'lei', TRY: '₺'};
 const params = new URLSearchParams(location.search);
+let skuLabel = {}, picks = (params.get('p') || '').split('~').filter(Boolean), cmpMode = 'country', cmpNorm = false, chart2 = null;
 let IDX = null, D = null, cc = null, eur = params.get('cur') === 'eur', chart = null, curModel = null;
 const off = new Set(), cache = {};
+const offCat = new Set((params.get('cat') ? Object.keys({phone:1, tablet:1, wear:1, audio:1}).filter(c => !params.get('cat').split(',').includes(c)) : []));
+const vis = m => !off.has(m.brand) && !offCat.has(m.category);
 
 const fxOn = d => (eur && D.currency !== 'EUR') ? (D.fx[d] || 1) : 1;
 const conv = (v, d) => v == null ? null : v / fxOn(d);
@@ -119,14 +152,18 @@ async function loadCountry(code) {
   syncCur();
   // model list
   const models = {};
-  for (const m of Object.values(D.skus)) models[m.mkey] = m.model;
+  for (const m of Object.values(D.skus)) if (!offCat.has(m.category)) models[m.mkey] = m.model;
   $('#modelList').innerHTML = Object.values(models).sort().map(m => `<option value="${esc(m)}">`).join('');
+  skuLabel = {};
+  for (const [k, m] of Object.entries(D.skus)) if (!offCat.has(m.category)) skuLabel[`${m.model} · ${m.variant}`] = k;
+  $('#skuList').innerHTML = Object.keys(skuLabel).sort().map(l => `<option value="${esc(l)}">`).join('');
   const st = D.status || {};
   $('#status').innerHTML = '本次抓取 / Last run: ' + Object.entries(st).map(([b, s]) => `<span class="${s.count ? '' : 'bad'}">${b} ${s.count || 0}${s.count ? '' : ' ⚠'}</span>`).join('') + (D.generated_at ? ` · ${D.generated_at}` : '');
-  const want = curModel && Object.values(D.skus).find(m => m.model === curModel) ? curModel : (params.get('model') || '');
+  const want = curModel && Object.values(D.skus).find(m => m.model === curModel && !offCat.has(m.category)) ? curModel : (params.get('model') || '');
   $('#modelQ').value = want;
   render();
   showModel(want);
+  drawCompare();
 }
 function syncCur() {
   const e = eur && D.currency !== 'EUR';
@@ -138,6 +175,8 @@ function setURL() {
   const p = new URLSearchParams({country: cc});
   if (curModel) p.set('model', curModel);
   if (eur) p.set('cur', 'eur');
+  if (picks.length) p.set('p', picks.join('~'));
+  if (offCat.size) p.set('cat', Object.keys(IDX.categories).filter(c => !offCat.has(c)).join(','));
   history.replaceState(null, '', '?' + p);
 }
 
@@ -157,9 +196,11 @@ function showModel(q) {
     curModel = null; setURL();
     $('#modelInfo').textContent = q ? '未找到该型号 / not found in ' + cc : '选择型号查看逐日 min/avg/max 与排名 / pick a model';
     if (chart) { chart.destroy(); chart = null; }
+    $('.chartbox').style.display = 'none';
     tbl.innerHTML = ''; return;
   }
   const [mkey, name] = hit; curModel = name; setURL();
+  $('.chartbox').style.display = '';
   const keys = Object.keys(D.skus).filter(k => D.skus[k].mkey === mkey);
   const variants = [...new Set(keys.map(k => D.skus[k].variant))];
   const rows = D.dates.map(d => {
@@ -206,18 +247,19 @@ function render() {
   $('#asof').textContent = today || '—';
   const chgByKD = {};
   for (const c of D.changes) chgByKD[c.key + '|' + c.date] = c;
-  const tc = D.changes.filter(c => c.date === today && !off.has(D.skus[c.key].brand));
+  const tc = D.changes.filter(c => c.date === today && vis(D.skus[c.key]));
   const lbl = {up: '▲ 涨价', down: '▼ 降价', new: '新上架', gone: '下架/缺货'};
   $('#chg').innerHTML = tc.length ? '<tr><th class="l">类型</th><th class="l">品牌</th><th class="l">品类</th><th class="l">型号 / 版本</th><th>原价</th><th>现价</th><th>变动</th></tr>' +
     tc.map(c => { const m = D.skus[c.key]; const cls = c.type === 'up' ? 'up' : c.type === 'down' ? 'down' : 'new';
       return `<tr><td class="l ${cls}">${lbl[c.type]}</td><td class="l">${esc(m.brand)}</td><td class="l">${esc(IDX.categories[m.category])}</td><td class="l"><a data-m="${esc(m.model)}">${esc(m.model)}</a> · ${esc(m.variant)}</td><td>${fmt(conv(c.old, today))}</td><td>${fmt(conv(c.new, today))}</td><td class="${cls}">${c.delta == null ? '' : (c.delta > 0 ? '+' : '') + fmt(conv(c.delta, today)) + ` (${c.pct > 0 ? '+' : ''}${c.pct}%)`}</td></tr>`; }).join('')
     : `<tr><td class="empty">${D.dates.length < 2 ? '首个快照 — 下次运行起显示价格变动 / First snapshot — changes appear from the next run.' : '今日无价格变动 / No price changes today.'}</td></tr>`;
-  const keys = Object.keys(D.skus).filter(k => D.prices[k][today]);
-  const cnt = t => D.changes.filter(c => c.date === today && c.type === t).length;
+  const keys = Object.keys(D.skus).filter(k => D.prices[k][today] && vis(D.skus[k]));
+  const cnt = t => tc.filter(c => c.type === t).length;
   $('#sum').innerHTML = [['在售 SKU / live SKUs', keys.length], ['涨价 / up', cnt('up')], ['降价 / down', cnt('down')], ['新上架 / new', cnt('new')], ['快照天数 / days', D.dates.length]]
     .map(([k, v]) => `<div class="card"><div class="v">${v}</div><div class="k">${k}</div></div>`).join('');
   let html = '';
   for (const [cat, label] of Object.entries(IDX.categories)) {
+    if (offCat.has(cat)) continue;
     let rows = Object.entries(D.skus).filter(([k, m]) => m.category === cat && !off.has(m.brand) && dates.some(d => D.prices[k][d]))
       .filter(([k, m]) => !q || (m.brand + ' ' + m.model + ' ' + m.variant).toLowerCase().includes(q))
       .filter(([k]) => !only || dates.some(d => chgByKD[k + '|' + d] && ['up', 'down'].includes(chgByKD[k + '|' + d].type)));
@@ -227,7 +269,7 @@ function render() {
     html += '<div class="scroll"><table><tr><th class="l sku">型号 · 版本 / Model · Variant</th><th>排名</th>' + dates.map(d => `<th>${d.slice(5)}</th>`).join('') + '<th>区间变动 / Δ</th></tr>';
     for (const [k, m] of rows) {
       const pr = D.prices[k], rk = (D.ranks[m.mkey] || {})[today];
-      html += `<tr><td class="l sku" style="background:${IDX.brandColors[m.brand] || '#eee'}" title="${esc(m.brand + ' ' + m.model + ' ' + m.variant)}"><a data-m="${esc(m.model)}">${esc(m.model)}</a> <small>${esc(m.variant)}</small> <a href="${esc(m.url)}" target="_blank" rel="noopener" title="官网 / store">↗</a></td><td>${rk ? '#' + rk : '—'}</td>`;
+      html += `<tr><td class="l sku" style="background:${IDX.brandColors[m.brand] || '#eee'}" title="${esc(m.brand + ' ' + m.model + ' ' + m.variant)}"><a data-m="${esc(m.model)}">${esc(m.model)}</a> <small>${esc(m.variant)}</small><a class="add" data-add="${esc(k)}" title="加入产品对比 / add to compare">＋</a> <a href="${esc(m.url)}" target="_blank" rel="noopener" title="官网 / store">↗</a></td><td>${rk ? '#' + rk : '—'}</td>`;
       let first = null, lastp = null;
       for (const d of dates) {
         const p = pr[d], c = chgByKD[k + '|' + d];
@@ -247,6 +289,199 @@ function render() {
   $('#sections').innerHTML = html;
 }
 
+
+// ---------------------------------------------------------------- product trend compare
+const PALETTE = ['#2563eb', '#ea580c', '#16a34a', '#9333ea', '#db2777', '#0891b2', '#ca8a04', '#dc2626', '#4f46e5', '#059669', '#7c3aed', '#be123c', '#0d9488', '#a16207', '#1d4ed8', '#c2410c'];
+async function getData(code) {
+  return cache[code] || (cache[code] = await (await fetch(`data/${code}.json`, {cache: 'no-cache'})).json());
+}
+function addPick(k) { if (k && !picks.includes(k)) { picks.push(k); setURL(); drawCompare(); } }
+async function compareSeries() {
+  // returns {dates, series:[{label, key, cc, cur, values[]}]}
+  const out = [];
+  if (cmpMode === 'country') {
+    for (const k of picks) {
+      const m = D.skus[k]; if (!m) continue;
+      out.push({label: `${m.model} · ${m.variant}`, key: k, cc, cur: curName(), byDate: Object.fromEntries(D.dates.filter(d => D.prices[k][d]).map(d => [d, conv(D.prices[k][d][0], d)]))});
+    }
+    return {dates: D.dates, series: out};
+  }
+  const all = await Promise.all(IDX.countries.map(c => getData(c.code)));
+  const dates = [...new Set(all.flatMap(x => x.dates))].sort();
+  for (const k of picks) for (const X of all) {
+    const m = X.skus[k]; if (!m) continue;
+    out.push({label: `${X.country} · ${m.model} · ${m.variant}`, key: k, cc: X.country, cur: 'EUR',
+              byDate: Object.fromEntries(X.dates.filter(d => X.prices[k][d]).map(d => [d, X.prices[k][d][0] / (X.fx[d] || 1)]))});
+  }
+  return {dates, series: out.slice(0, 16)};
+}
+async function drawCompare() {
+  const box = $('#cmpBox'), tbl = $('#cmpTbl');
+  $('#picks').innerHTML = picks.map((k, i) => { const m = D.skus[k] || Object.values(cache).map(x => x.skus[k]).find(Boolean);
+    return `<span class="pick"><i style="background:${cmpMode === 'country' ? PALETTE[i % 16] : 'var(--muted)'}"></i>${esc(m ? m.model + ' · ' + m.variant : k)}${D.skus[k] ? '' : ' <small>(本国无售)</small>'}<button data-del="${esc(k)}" title="移除">×</button></span>`; }).join('');
+  if (!picks.length) { box.style.display = 'none'; tbl.innerHTML = '<tr><td class="empty">添加一个或多个产品，按产品（型号+版本）画逐日价格折线 / add products to compare</td></tr>'; if (chart2) { chart2.destroy(); chart2 = null; } return; }
+  box.style.display = '';
+  const {dates, series} = await compareSeries();
+  for (const s of series) {
+    s.values = dates.map(d => s.byDate[d] ?? null);
+    const first = s.values.find(v => v != null);
+    s.plot = cmpNorm && first ? s.values.map(v => v == null ? null : v / first * 100) : s.values;
+  }
+  const css = getComputedStyle(document.documentElement), grid = css.getPropertyValue('--line').trim(), fg = css.getPropertyValue('--muted').trim();
+  const unit = cmpMode === 'cross' ? 'EUR' : curName();
+  const f = v => cmpMode === 'cross' ? (v == null ? '—' : v.toLocaleString('de-DE', {maximumFractionDigits: 2}) + ' €') : fmt(v);
+  if (chart2) chart2.destroy();
+  chart2 = new Chart($('#chart2'), {
+    type: 'line',
+    data: {labels: dates.map(d => d.slice(5)), datasets: series.map((s, i) => ({label: s.label, data: s.plot, borderColor: PALETTE[i % 16], backgroundColor: PALETTE[i % 16], borderWidth: 2, pointRadius: 2.5, spanGaps: true, stepped: false}))},
+    options: {responsive: true, maintainAspectRatio: false, interaction: {mode: 'index', intersect: false},
+      plugins: {legend: {labels: {color: fg, boxWidth: 12}}, tooltip: {callbacks: {label: c => `${c.dataset.label}: ${cmpNorm ? (c.raw == null ? '—' : c.raw.toFixed(1)) + '  (' + f(series[c.datasetIndex].values[c.dataIndex]) + ')' : f(c.raw)}`}}},
+      scales: {x: {ticks: {color: fg}, grid: {color: grid}},
+               y: {title: {display: true, text: cmpNorm ? '指数 / index (首日 = 100)' : '价格 / price (' + unit + ')', color: fg}, ticks: {color: fg, callback: v => cmpNorm ? v : f(v)}, grid: {color: grid}}}}
+  });
+  tbl.innerHTML = '<tr><th class="l">产品 / product</th><th>首日</th><th>最新</th><th>最低</th><th>最高</th><th>区间变动</th><th># 调价次数</th></tr>' + series.map((s, i) => {
+    const v = s.values.filter(x => x != null); if (!v.length) return '';
+    const fst = v[0], lst = v[v.length - 1], dd = lst - fst; let n = 0; for (let j = 1; j < v.length; j++) if (Math.abs(v[j] - v[j - 1]) > 0.009) n++;
+    return `<tr><td class="l"><span class="pick" style="border:0;padding:0"><i style="background:${PALETTE[i % 16]}"></i>${esc(s.label)}</span></td><td>${f(fst)}</td><td>${f(lst)}</td><td>${f(Math.min(...v))}</td><td>${f(Math.max(...v))}</td><td class="${dd > 0.005 ? 'up' : dd < -0.005 ? 'down' : ''}">${Math.abs(dd) > 0.005 ? (dd > 0 ? '+' : '') + f(dd) + ` (${(dd / fst * 100).toFixed(1)}%)` : '0'}</td><td>${n}</td></tr>`;
+  }).join('');
+}
+
+// ---------------------------------------------------------------- Excel export (ExcelJS, runs in the browser)
+const FILL = {up: 'FFFDE2E1', down: 'FFDCFCE7', new: 'FFDBEAFE'}, FONT = {up: 'FFB42318', down: 'FF15803D', new: 'FF1D4ED8'};
+const TYPE_CN = {up: '涨价', down: '降价', new: '新上架', gone: '下架/缺货'};
+function styleHeader(ws) {
+  ws.getRow(1).font = {bold: true}; ws.getRow(1).fill = {type: 'pattern', pattern: 'solid', fgColor: {argb: 'FFF1F5F9'}};
+  ws.views = [{state: 'frozen', ySplit: 1}];
+  ws.autoFilter = {from: {row: 1, column: 1}, to: {row: 1, column: ws.columnCount}};
+}
+function download(wb, name) {
+  return wb.xlsx.writeBuffer().then(buf => {
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(new Blob([buf], {type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'}));
+    a.download = name; document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 1000);
+  });
+}
+function modelRows(mkey) {
+  const keys = Object.keys(D.skus).filter(k => D.skus[k].mkey === mkey);
+  return D.dates.map(d => {
+    const ps = keys.filter(k => D.prices[k][d]).map(k => conv(D.prices[k][d][0], d));
+    return {d, min: ps.length ? Math.min(...ps) : null, max: ps.length ? Math.max(...ps) : null, avg: ps.length ? ps.reduce((a, b) => a + b, 0) / ps.length : null, n: ps.length, rank: (D.ranks[mkey] || {})[d] ?? null};
+  });
+}
+async function exportView() {
+  if (!window.ExcelJS) { $('#xlsMsg').textContent = 'Excel 组件加载中，请稍后再试'; return; }
+  $('#xlsMsg').textContent = '生成中…';
+  const n = +$('#range').value, q = $('#q').value.trim().toLowerCase(), only = $('#onlyChanged').checked;
+  const dates = D.dates.slice(-n), today = D.dates[D.dates.length - 1], cur = curName();
+  const chg = {}; for (const c of D.changes) chg[c.key + '|' + c.date] = c;
+  const wb = new ExcelJS.Workbook(); wb.creator = 'EU price tracker';
+  const numFmt = cur === 'TRY' ? '#,##0.00 "₺"' : `#,##0.00 "${SYM[cur]}"`;
+  // 1) price grid
+  const ws = wb.addWorksheet('价格明细');
+  ws.columns = [{header: '国家', width: 7}, {header: '品牌', width: 10}, {header: '品类', width: 16}, {header: '型号', width: 34}, {header: '版本', width: 18}, {header: '排名(最新)', width: 10},
+    ...dates.map(d => ({header: d, width: 12})), {header: '区间变动', width: 12}, {header: '币种', width: 7}, {header: '官网链接', width: 40}];
+  const rows = Object.entries(D.skus).filter(([k, m]) => vis(m) && dates.some(d => D.prices[k][d]))
+    .filter(([k, m]) => !q || (m.brand + ' ' + m.model + ' ' + m.variant).toLowerCase().includes(q))
+    .filter(([k]) => !only || dates.some(d => chg[k + '|' + d] && ['up', 'down'].includes(chg[k + '|' + d].type)))
+    .sort((a, b) => a[1].category.localeCompare(b[1].category) || a[1].brand.localeCompare(b[1].brand) || a[1].model.localeCompare(b[1].model));
+  for (const [k, m] of rows) {
+    const vals = dates.map(d => D.prices[k][d] ? Math.round(conv(D.prices[k][d][0], d) * 100) / 100 : null);
+    const v = vals.filter(x => x != null);
+    const r = ws.addRow([cc, m.brand, IDX.categories[m.category], m.model, m.variant, (D.ranks[m.mkey] || {})[today] ?? null, ...vals, v.length ? Math.round((v[v.length - 1] - v[0]) * 100) / 100 : null, cur, m.url ? {text: '链接', hyperlink: m.url} : '']);
+    dates.forEach((d, i) => {
+      const c = chg[k + '|' + d], cell = r.getCell(7 + i); cell.numFmt = numFmt;
+      if (c && FILL[c.type]) { cell.fill = {type: 'pattern', pattern: 'solid', fgColor: {argb: FILL[c.type]}}; cell.font = {color: {argb: FONT[c.type]}, bold: true};
+        if (c.delta != null) cell.note = `${TYPE_CN[c.type]} ${c.delta > 0 ? '+' : ''}${c.delta} (${c.pct}%) · ${D.currency}`; }
+    });
+    const dc = r.getCell(7 + dates.length); dc.numFmt = numFmt;
+    if (dc.value) dc.font = {color: {argb: dc.value > 0 ? FONT.up : FONT.down}, bold: true};
+  }
+  styleHeader(ws); ws.views = [{state: 'frozen', xSplit: 5, ySplit: 1}];
+  // 2) change log in range
+  const wc = wb.addWorksheet('价格变动');
+  wc.columns = ['日期', '类型', '品牌', '品类', '型号', '版本', '原价', '现价', '变动', '变动%', '币种'].map(h => ({header: h, width: h === '型号' ? 34 : 13}));
+  for (const c of D.changes.filter(c => dates.includes(c.date) && vis(D.skus[c.key])).sort((a, b) => b.date.localeCompare(a.date))) {
+    const m = D.skus[c.key], r = wc.addRow([c.date, TYPE_CN[c.type], m.brand, IDX.categories[m.category], m.model, m.variant, conv(c.old, c.date), conv(c.new, c.date), conv(c.delta, c.date), c.pct != null ? c.pct / 100 : null, cur]);
+    [7, 8, 9].forEach(i => r.getCell(i).numFmt = numFmt); r.getCell(10).numFmt = '0.0%';
+    if (FILL[c.type]) r.getCell(2).fill = {type: 'pattern', pattern: 'solid', fgColor: {argb: FILL[c.type]}};
+  }
+  styleHeader(wc);
+  // 3) model trend
+  const hit = curModel && findModel(curModel);
+  if (hit) {
+    const wm = wb.addWorksheet('型号走势');
+    wm.columns = ['日期', 'min', 'avg', 'max', '版本数', '排名'].map(h => ({header: h, width: 13}));
+    for (const r of modelRows(hit[0])) { const row = wm.addRow([r.d, r.min, r.avg, r.max, r.n, r.rank]); [2, 3, 4].forEach(i => row.getCell(i).numFmt = numFmt); }
+    wm.insertRow(1, [`${cc} · ${hit[1]} · ${cur}`]); wm.getRow(1).font = {bold: true, size: 12};
+  }
+  // 4) product compare
+  if (picks.length) {
+    const {dates: cd, series} = await compareSeries();
+    const wp = wb.addWorksheet('产品对比');
+    wp.columns = [{header: '日期', width: 12}, ...series.map(s => ({header: s.label, width: Math.min(40, s.label.length + 4)}))];
+    for (const d of cd) { const r = wp.addRow([d, ...series.map(s => s.byDate[d] != null ? Math.round(s.byDate[d] * 100) / 100 : null)]); series.forEach((s, i) => r.getCell(2 + i).numFmt = cmpMode === 'cross' ? '#,##0.00 "€"' : numFmt); }
+    styleHeader(wp);
+  }
+  // 5) notes
+  const wn = wb.addWorksheet('说明');
+  wn.columns = [{width: 18}, {width: 80}];
+  [['国家', `${D.name} (${cc})`], ['币种', cur + (cur !== D.currency ? `（由 ${D.currency} 按 ECB 每日汇率换算）` : '')], ['截至', today], ['日期区间', `${dates[0]} → ${today}`],
+   ['品类', Object.entries(IDX.categories).filter(([c]) => !offCat.has(c)).map(([, l]) => l).join('、')], ['品牌', Object.keys(IDX.brandColors).filter(b => !off.has(b)).join('、')],
+   ['搜索', q || '—'], ['仅有变动', only ? '是' : '否'], ['价格口径', '官网当前售价（含税），同一存储版本多颜色取最低'], ['排名口径', '品牌官网分类页列表位置（#1 = 最靠前，品牌+品类内）'],
+   ['标色', '红 = 涨价，绿 = 降价，蓝 = 新上架；单元格批注含变动金额'], ['导出时间', new Date().toLocaleString('zh-CN')]].forEach(r => wn.addRow(r));
+  wn.getColumn(1).font = {bold: true};
+  await download(wb, `官网价格_${cc}_${today}_${cur}.xlsx`);
+  $('#xlsMsg').textContent = `已导出 ${rows.length} 个 SKU`;
+}
+async function exportAll() {
+  if (!window.ExcelJS) { $('#xlsMsg').textContent = 'Excel 组件加载中，请稍后再试'; return; }
+  $('#xlsMsg').textContent = '加载全部国家数据…';
+  const all = await Promise.all(IDX.countries.map(c => getData(c.code)));
+  const wb = new ExcelJS.Workbook();
+  const visA = m => !off.has(m.brand) && !offCat.has(m.category);
+  // long-format history
+  const wh = wb.addWorksheet('全部历史');
+  wh.columns = ['日期', '国家', '币种', '品牌', '品类', '型号', '版本', '本币价格', 'EUR价格', '排名', '当日变动'].map(h => ({header: h, width: h === '型号' ? 34 : 12}));
+  let rowsN = 0;
+  for (const X of all) {
+    const chg = {}; for (const c of X.changes) chg[c.key + '|' + c.date] = c;
+    for (const [k, m] of Object.entries(X.skus)) {
+      if (!visA(m)) continue;
+      for (const d of X.dates) {
+        const p = X.prices[k][d]; if (!p) continue;
+        const c = chg[k + '|' + d];
+        const r = wh.addRow([d, X.country, X.currency, m.brand, IDX.categories[m.category], m.model, m.variant, p[0], Math.round(p[0] / (X.fx[d] || 1) * 100) / 100, (X.ranks[m.mkey] || {})[d] ?? null, c ? TYPE_CN[c.type] : '']);
+        if (c && FILL[c.type]) r.getCell(11).fill = {type: 'pattern', pattern: 'solid', fgColor: {argb: FILL[c.type]}};
+        if (++rowsN > 1000000) break;
+      }
+    }
+  }
+  wh.getColumn(8).numFmt = '#,##0.00'; wh.getColumn(9).numFmt = '#,##0.00 "€"'; styleHeader(wh);
+  // latest price, cross-country (EUR)
+  const wx = wb.addWorksheet('跨国最新价对比 EUR');
+  wx.columns = [{header: '品牌', width: 10}, {header: '品类', width: 16}, {header: '型号', width: 34}, {header: '版本', width: 18}, ...all.map(X => ({header: X.country, width: 11})), {header: '最低国家', width: 10}, {header: '最高/最低', width: 10}];
+  const keys = {}; for (const X of all) for (const [k, m] of Object.entries(X.skus)) if (visA(m) && X.prices[k][X.dates[X.dates.length - 1]]) keys[k] = m;
+  for (const [k, m] of Object.entries(keys).sort((a, b) => a[1].category.localeCompare(b[1].category) || a[1].brand.localeCompare(b[1].brand) || a[1].model.localeCompare(b[1].model))) {
+    const vals = all.map(X => { const d = X.dates[X.dates.length - 1], p = X.prices[k] && X.prices[k][d]; return p ? Math.round(p[0] / (X.fx[d] || 1) * 100) / 100 : null; });
+    const v = vals.filter(x => x != null), mn = Math.min(...v), mx = Math.max(...v);
+    const r = wx.addRow([m.brand, IDX.categories[m.category], m.model, m.variant, ...vals, all[vals.indexOf(mn)].country, v.length > 1 ? Math.round(mx / mn * 100) / 100 : null]);
+    vals.forEach((x, i) => { const cell = r.getCell(5 + i); cell.numFmt = '#,##0 "€"';
+      if (v.length > 1 && x === mn) cell.fill = {type: 'pattern', pattern: 'solid', fgColor: {argb: FILL.down}};
+      if (v.length > 1 && x === mx) cell.fill = {type: 'pattern', pattern: 'solid', fgColor: {argb: FILL.up}}; });
+  }
+  styleHeader(wx); wx.views = [{state: 'frozen', xSplit: 4, ySplit: 1}];
+  // all changes
+  const wc = wb.addWorksheet('价格变动');
+  wc.columns = ['日期', '国家', '类型', '品牌', '品类', '型号', '版本', '币种', '原价', '现价', '变动', '变动%'].map(h => ({header: h, width: h === '型号' ? 34 : 12}));
+  for (const X of all) for (const c of X.changes) { const m = X.skus[c.key]; if (!visA(m)) continue;
+    const r = wc.addRow([c.date, X.country, TYPE_CN[c.type], m.brand, IDX.categories[m.category], m.model, m.variant, X.currency, c.old, c.new, c.delta, c.pct != null ? c.pct / 100 : null]);
+    r.getCell(12).numFmt = '0.0%'; if (FILL[c.type]) r.getCell(3).fill = {type: 'pattern', pattern: 'solid', fgColor: {argb: FILL[c.type]}}; }
+  styleHeader(wc);
+  const today = all.map(X => X.dates[X.dates.length - 1]).sort().pop();
+  await download(wb, `官网价格_全部国家_${today}.xlsx`);
+  $('#xlsMsg').textContent = `已导出 ${rowsN} 行历史 · ${Object.keys(keys).length} 个 SKU 跨国对比`;
+}
+
 async function init() {
   try { IDX = await (await fetch('data/index.json', {cache: 'no-cache'})).json(); }
   catch (e) { document.body.innerHTML = '<p style="padding:20px">No data yet.</p>'; return; }
@@ -258,11 +493,44 @@ async function init() {
     el.onclick = () => { off.has(b) ? off.delete(b) : off.add(b); el.classList.toggle('off'); render(); };
     $('#legend').appendChild(el);
   }
-  $('#curSeg').onclick = e => { const b = e.target.closest('button'); if (!b || b.disabled) return; eur = b.dataset.c === 'eur'; syncCur(); setURL(); render(); showModel(curModel || $('#modelQ').value); };
+  const catChips = [];
+  for (const [c, label] of Object.entries(IDX.categories)) {
+    const el = document.createElement('span'); el.className = 'chip' + (offCat.has(c) ? ' off' : ''); el.textContent = label; el.dataset.cat = c;
+    el.onclick = () => {
+      // first click on a chip while all are shown = show only that category
+      if (!offCat.size) Object.keys(IDX.categories).forEach(x => x !== c && offCat.add(x));
+      else if (offCat.has(c)) offCat.delete(c); else offCat.add(c);
+      if (offCat.size === Object.keys(IDX.categories).length) offCat.clear();
+      refreshCats();
+    };
+    catChips.push(el); $('#catRow').appendChild(el);
+  }
+  $('#catAll').onclick = () => { offCat.clear(); refreshCats(); };
+  function refreshCats() {
+    catChips.forEach(el => el.classList.toggle('off', offCat.has(el.dataset.cat)));
+    $('#catAll').classList.toggle('on-all', !offCat.size);
+    setURL(); loadCountry(cc);
+  }
+  $('#catAll').classList.toggle('on-all', !offCat.size);
+  $('#curSeg').onclick = e => { const b = e.target.closest('button'); if (!b || b.disabled) return; eur = b.dataset.c === 'eur'; syncCur(); setURL(); render(); showModel(curModel || $('#modelQ').value); drawCompare(); };
   $('#modelQ').addEventListener('change', e => showModel(e.target.value));
   $('#modelQ').addEventListener('keydown', e => { if (e.key === 'Enter') showModel(e.target.value); });
   document.addEventListener('click', e => { const a = e.target.closest('a[data-m]'); if (a) { $('#modelQ').value = a.dataset.m; showModel(a.dataset.m); $('#modelQ').scrollIntoView({behavior: 'smooth', block: 'center'}); } });
   ['#range', '#q', '#onlyChanged'].forEach(s => $(s).addEventListener('input', render));
+  const pickFromInput = () => { const k = skuLabel[$('#skuQ').value]; if (k) { addPick(k); $('#skuQ').value = ''; } };
+  $('#skuQ').addEventListener('change', pickFromInput);
+  $('#skuQ').addEventListener('keydown', e => { if (e.key === 'Enter') pickFromInput(); });
+  $('#addModelAll').onclick = () => { const hit = curModel && findModel(curModel); if (!hit) { $('#modelQ').focus(); return; }
+    Object.keys(D.skus).filter(k => D.skus[k].mkey === hit[0]).forEach(k => { if (!picks.includes(k)) picks.push(k); }); setURL(); drawCompare(); };
+  $('#cmpClear').onclick = () => { picks = []; setURL(); drawCompare(); };
+  $('#cmpMode').onclick = e => { const b = e.target.closest('button'); if (!b) return; cmpMode = b.dataset.v; [...$('#cmpMode').children].forEach(x => x.classList.toggle('on', x === b)); drawCompare(); };
+  $('#cmpNorm').onclick = e => { const b = e.target.closest('button'); if (!b) return; cmpNorm = b.dataset.v === 'idx'; [...$('#cmpNorm').children].forEach(x => x.classList.toggle('on', x === b)); drawCompare(); };
+  document.addEventListener('click', e => {
+    const a = e.target.closest('a[data-add]'); if (a) { addPick(a.dataset.add); a.textContent = '✓'; }
+    const d = e.target.closest('button[data-del]'); if (d) { picks = picks.filter(k => k !== d.dataset.del); setURL(); drawCompare(); }
+  });
+  $('#xlsView').onclick = () => exportView().catch(err => { $('#xlsMsg').textContent = '导出失败: ' + err.message; });
+  $('#xlsAll').onclick = () => exportAll().catch(err => { $('#xlsMsg').textContent = '导出失败: ' + err.message; });
   const start = (params.get('country') || '').toUpperCase();
   await loadCountry(IDX.countries.some(c => c.code === start) ? start : IDX.countries[0].code);
 }

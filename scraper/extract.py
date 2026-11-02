@@ -165,7 +165,8 @@ def _cut_outside_parens(s, ch=","):
 
 
 def canonical_model(brand, name):
-    n = htmllib.unescape(name or "").replace("‏", "").replace("‎", "")
+    n = htmllib.unescape(name or "").replace("\u200f", "").replace("\u200e", "")
+    n = re.sub(r"[\u00a0\u202f\u2009\u2007]", " ", n)
     n = re.sub(r"<[^>]+>", " ", n)
     n = BUY_WORDS.sub("", n)
     n = re.sub(r"^\s*(Acheter|Acquista|Compra|Kup|Cumpără|Buy|Jetzt kaufen)\s+(l[’'ea]\s*|un[ae]?\s+|il\s+|lo\s+)?", "", n, flags=re.I)
@@ -173,6 +174,7 @@ def canonical_model(brand, name):
     n = re.sub(r"\s+(im|dans|w|în|in)\s+(offiziellen\s+)?(HUAWEI|HONOR|Samsung|Xiaomi)?\s*(Shop|Store|Sklep|Magazin|Mağaza)\b.*$", "", n, flags=re.I)
     n = re.sub(r"\b[A-Z]{2,4}(?:\+[A-Z]{2,4})?(?:\s+offer)?_(?:(?:HUAWEI|HONOR)\s+)?", "", n)   # Huawei internal 'SMP_', 'WEA+CB offer_'
     n = re.sub(r"^(Huawei|Honor)\s+(Huawei|Honor)\s+", r"\1 ", n, flags=re.I)
+    n = re.sub(r"\b(?:(?:Black Friday|Cyber Monday|Autumn|August|Summer|Winter|Spring|Christmas|Xmas|Mega|Flash|Super)\s+)?(?:Sale|Deal|Deals|Offer)\b", " ", n, flags=re.I)
     n = re.sub(r"\bRAM\b|\bROM\b|\bSM-[A-Z0-9]{4,}\b|\bStandard\b", " ", n)
     n = _cut_outside_parens(n, ",")
     n = re.sub(r"\s[|–—]\s.*$", "", n)
@@ -187,6 +189,8 @@ def canonical_model(brand, name):
     if pref:
         n = re.sub(rf"^{re.escape(pref)}\s+", "", n, flags=re.I)
         n = f"{pref} {n}"
+    elif brand == "Apple" and re.match(r"Watch\b", n):
+        n = f"Apple {n}"
     return n.strip()
 
 
