@@ -1,0 +1,827 @@
+{
+ "brand": "Apple",
+ "country": "IT",
+ "pages": [
+  {
+   "url": "https://www.apple.com/it/shop/buy-iphone",
+   "status": 200,
+   "final_url": "https://www.apple.com/it/shop/buy-iphone",
+   "title": "Acquista iPhone - Apple (IT)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
+    "https://www.apple.com/it/shop/bag/status?apikey=SJHJUH4YFCTTPD4F4",
+    "https://www.apple.com/it/shop/api/digital-mat?path=library/step0_iphone/digitalmat&fae=true",
+    "https://www.apple.com/shop/shld/work/s3/q?jr=30"
+   ],
+   "links": [
+    "https://www.apple.com/it/shop/buy-iphone/iphone-duo",
+    "https://www.apple.com/it/shop/buy-iphone/iphone-18-pro",
+    "https://www.apple.com/it/shop/buy-iphone/iphone-air",
+    "https://www.apple.com/it/shop/buy-iphone/iphone-17",
+    "https://www.apple.com/it/shop/buy-iphone/iphone-17e",
+    "https://www.apple.com/it/shop/buy-iphone/iphone-16"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "€ 69,00",
+    "€ 149,00",
+    "€ 89,00",
+    "€ 45,00",
+    "€ 59,00",
+    "€ 29,00",
+    "€ 59,00",
+    "€ 115,00",
+    "€ 149,00",
+    "€ 19,00"
+   ],
+   "items_by_source": {},
+   "text_sample": "Apple Store Mac iPad iPhone Watch AirPods Casa Intrattenimento Accessori Supporto 0 + Scegli il pagamento rateale a tasso zero per acquistare il tuo nuovo iPhone con le opzioni di finanziamento flessibile. Nota ① E se fai la permuta, le rate saranno più basse. Nota ② Scopri di più sulle rate mensili Scegli il tuo iPhone Parla con il team di Specialist (Si apre in una nuova finestra) Trova un Apple Store (si apre una nuova finestra) Tutti i modelli Modi per risparmiare Guida allo shopping Accessori Setup e supporto Il mondo iPhone Store speciali Tutti i modelli. Trova il tuo. NOVITÀ iPhone Duo - NOVITÀ Dai un’occhiata da vicino - iPhone Duo Da € 2.369,00o€ 98,71 al mese per 24 mesi, TAN fisso 0% Nota ① Acquista - iPhone Duo NOVITÀ iPhone 18 Pro e iPhone 18 Pro Max - NOVITÀ Dai un’occhiata da vicino - iPhone 18 Pro e iPhone 18 Pro Max Da € 1.489,00o€ 62,04 al mese per 24 mesi, TAN fisso 0% Nota ① Acquista - iPhone 18 Pro e iPhone 18 Pro Max iPhone Air Dai un’occhiata da vicino - iPhone Air Da € 1.339,00o€ 55,79 al mese per 24 mesi, TAN fisso 0% Nota ① Acquista - iPhone Air iPhone 17 Dai un’occhiata da vicino - iPhone 17 Da € 1.129,00o€ 47,04 al mese per 24 mesi, TAN fisso 0% Nota ① Acquista - iPhone 17 iPhone 17e Dai un’occhiata da vicino - iPhone 17e Da € 879,00o€ 36,63 al mese per 24 mesi, TAN fisso 0% Nota ① Acquista - iPhone 17e iPhone 16 Dai un’occhiata da vicino - iPhone 16 Da € 1.029,00o€ 42,88 al mese per 24 mesi, TAN fisso 0% Nota ① Acquista - iPhone ",
+   "json_samples": [
+    {
+     "url": "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
+     "body": "[{\"name\": \"apple\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple home\"}], \"id\": \"3d39a8ff\"}, {\"name\": \"store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"store\"}, {\"name\": \"data-analytics-element-engagement\", \"value\": \"hover - store\"}], \"baseGroups\": [{\"id\": \"2cf6d3e8\", \"title\": \"Link rapidi\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"quick links - store\"}], \"baseLinks\": [{\"id\": \"2373c842\", \"text\": \"Trova uno store\", \"url\": \"/it/retail/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"find a store\"}], \"ariaLabel\": \"\"}, {\"id\": \"ec7d9cb9\", \"text\": \"Stato degli ordini\", \"url\": \"/it/shop/goto/order/list\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"order status\"}], \"ariaLabel\": \"\"}, {\"id\": \"d41ef62d\", \"text\": \"Apple Trade In\", \"url\": \"/it/shop/goto/trade_in\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple trade in\"}], \"ariaLabel\": \"\"}, {\"id\": \"774a30ac\", \"text\": \"Finanziamenti\", \"url\": \"/it/shop/goto/ww/financing\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"financing\"}], \"ariaLabel\": \"\"}, {\"id\": \"fa5fe1d4\", \"text\": \"Setup personale\", \"url\": \"/it/shop/goto/personal_setup\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"personal setup\"}], \"ariaLabel\": \"\"}]}, {\"id\": \"6b3ab6e5\", \"title\": \"Acquista sugli store dedicati\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"shop special stores\"}], \"baseLinks\": [{\"id\": \"f03dfdfa\", \"text\": \"Ricondizionati certificati\", \"url\": \"/it/shop/goto/special_deals\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"certified refurbished\"}], \"ariaLabel\": \"\"}, {\"id\": \"eeb4c51a\", \"text\": \"Istruzione\", \"url\": \"/it/shop/goto/educationrouting\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"education\"}], \"ariaLabel\": \"\"}, {\"id\": \"e5f12dbd\", \"text\": \"Business\", \"url\": \"/it/retail/business/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"business\"}], \"ariaLabel\": \"\"}]}], \"elevatedGroups\": [{\"id\": \"a6ac4cfa\", \"title\": \"Acquista\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"explore shop\"}], \"elevatedLinks\": [{\"id\": \"50119e08\", \"text\": \"Acquista i nuovi prodotti\", \"url\": \"/it/shop/goto/store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"shop the latest\"}], \"ariaLabel\": \"Acquista i nuovi prodotti Apple\"}, {\"id\": \"32ea423e\", \"text\": \"Ma"
+    },
+    {
+     "url": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
+     "body": "{\"id\": \"jfDWOqE3S_OC05_cqiliIw\", \"results\": [{\"sectionName\": \"quickLinks\", \"sectionResults\": [{\"label\": \"Trova uno Store\", \"url\": \"https://www.apple.com/it/retail/\"}, {\"label\": \"Accessori\", \"url\": \"https://www.apple.com/it/shop/goto/accessories/apple_accessories\"}, {\"label\": \"AirPods\", \"url\": \"https://www.apple.com/it/airpods/\"}, {\"label\": \"Apple Intelligence\", \"url\": \"https://www.apple.com/it/apple-intelligence/\"}, {\"label\": \"Apple Trade In\", \"url\": \"https://www.apple.com/it/shop/goto/trade_in\"}]}, {\"sectionName\": \"suggestions\", \"sectionResults\": []}]}"
+    },
+    {
+     "url": "https://www.apple.com/it/shop/bag/status?apikey=SJHJUH4YFCTTPD4F4",
+     "body": "{\"items\": 0, \"ttl\": 180, \"api\": {\"flyout\": \"/%5Bstorefront%5D/shop/bag/flyout\", \"addToBag\": \"/%5Bstorefront%5D/shop/bag/add?product=%5Bpart%5D\"}}"
+    },
+    {
+     "url": "https://www.apple.com/it/shop/api/digital-mat?path=library/step0_iphone/digitalmat&fae=true",
+     "body": "{\"head\": {\"status\": \"200\", \"data\": {}}, \"body\": {\"representativeExample\": \"\\n\\n<div class=\\\"as-l-container as-dynamicrep-illustrative-container\\\">\\n    \\n    <div class=\\\"as-dynamicrep-section-header typography-body\\\">Un finanziamento è un impegno che occorre onorare. Verifica la&nbsp;tua&nbsp;capacità di rimborsare il prestito prima di sottoscrivere un&nbsp;finanziamento.</div>\\n    <div class=\\\"as-dynamicrep-section-subheader typography-body-reduced-tight\\\">Messaggio pubblicitario a fini promozionali dedicato ai titolari di Smart Line.\\n<br /><br />\\nSmart Line è una linea di credito privativa a tempo indeterminato di Findomestic per pagare a rate i tuoi acquisti da Apple. Il&nbsp;prodotto Smart&nbsp;Line è&nbsp;riservato ai&nbsp;clienti maggiorenni che non&nbsp;hanno superato i&nbsp;74&nbsp;anni di&nbsp;età.\\n<br /><br />\\nCon Smart Line è possibile disporre di un limite autorizzato fino a € 5.000; l’importo disponibile diminuisce a ogni utilizzo e si ricostituisce con i rimborsi mensili. Per ogni acquisto è possibile scegliere il piano di rimborso disponibile in base alle condizioni promozionali in vigore, con un costo inferiore rispetto alle condizioni economiche massime applicabili alla Linea di credito, <strong>pari a TAN fisso 14,88% e TAEG 15,93%</strong>. Per tutte le condizioni economiche e contrattuali, consulta le Informazioni Europee di Base sul Credito ai Consumatori (IEBCC) disponibili durante la procedura di sottoscrizione online. Salvo approvazione da parte di Findomestic Banca, per la quale Apple opera in qualità di intermediario di credito non esclusivo.</div>\\n\\n        \\n        <h2 id=\\\"dynamicrep-illustrative-header\\\" class=\\\"as-dynamicrep-illustrative-header typography-body\\\">Esempio rappresentativo di acquisto con&nbsp;Findomestic</h2>\\n        <div class=\\\"as-dynamicrep-illustrative-subheader typography-body-reduced-tight\\\"><b>Offerte attuali per i tuoi acquisti con Smart Line, più convenienti rispetto alle condizioni massime applicabili (TAN fisso 14,88%, TAEG 15,93%)</b></div>\\n        \\n        \\n\\n        \\n            <as-accordion compact=\\\"true\\\">\\n                <div data-slot=\\\"accordion-item\\\" open=\\\"true\\\" titleWrapperTag=\\\"h3\\\">\\n                    <h3 data-slot=\\\"title\\\">36 mesi al costo totale promozionale del&nbsp;11,57% a partire dal giorno <span class=\\\"nowrap\\\">2026-10-01</span> fino al giorno <span class=\\\"nowrap\\\">2027-01-12</span></h3>\\n                    <div data-slot=\\\"content\\\">\\n                      "
+    }
+   ]
+  },
+  {
+   "url": "https://www.apple.com/it/shop/buy-ipad",
+   "status": 200,
+   "final_url": "https://www.apple.com/it/shop/buy-ipad",
+   "title": "Acquista iPad - Apple (IT)",
+   "json_urls": [
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
+    "https://www.apple.com/it/shop/api/digital-mat?path=library/step0_ipad/digitalmat&fae=true"
+   ],
+   "links": [
+    "https://www.apple.com/it/shop/buy-ipad/ipad-pro",
+    "https://www.apple.com/it/shop/buy-ipad/ipad-air",
+    "https://www.apple.com/it/shop/buy-ipad/ipad",
+    "https://www.apple.com/it/shop/buy-ipad/ipad-mini"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "€ 149,00",
+    "€ 89,00",
+    "€ 349,00",
+    "€ 89,00",
+    "€ 24,95",
+    "€ 79,95",
+    "€ 399,00",
+    "€ 54,95",
+    "€ 89,00",
+    "€ 149,00"
+   ],
+   "items_by_source": {},
+   "text_sample": "Apple Store Mac iPad iPhone Watch AirPods Casa Intrattenimento Accessori Supporto 0 + Acquista iPad con il finanziamento flessibile a partire da € 16,66 al mese per 36 mesi con TAN fisso 10,98%. Nota ① E se fai la permuta, le rate saranno più basse. Nota ② Scopri di più sulle rate mensili Scegli il tuo iPad Parla con il team di Specialist (Si apre in una nuova finestra) Trova un Apple Store (si apre una nuova finestra) Precedente Tutti i modelli Modi per risparmiare Guida allo shopping L’Apple Store fa la differenza Accessori Setup e supporto Il mondo iPad Sconti e promozioni. Tutti i modelli. Trova il tuo. iPad Pro Dai un’occhiata da vicino - iPad Pro Da € 1.319,00o€ 43,18 al mese per 36 mesi, TAN fisso 10,99% Nota ① Acquista - iPad Pro iPad Air Dai un’occhiata da vicino - iPad Air Da € 829,00o€ 27,14 al mese per 36 mesi, TAN fisso 10,99% Nota ① Acquista - iPad Air iPad Dai un’occhiata da vicino - iPad Da € 509,00o€ 16,66 al mese per 36 mesi, TAN fisso 10,98% Nota ① Acquista - iPad NOVITÀ iPad mini - NOVITÀ Dai un’occhiata da vicino - iPad mini Da € 759,00o€ 24,85 al mese per 36 mesi, TAN fisso 11% Nota ① Preordina - iPad mini Scopri tutti gli accessori per iPad. Precedente - Tutti i modelli Avanti - Tutti i modelli Modi per risparmiare. Qual è il migliore per te? PAGA A RATE MENSILI Scopri le opzioni di finanziamento flessibile. Acquista i prodotti Apple in comode rate. Nota ① COMODE RATE MENSILI Paga a rate mensili con il finanziamento flessibile.",
+   "json_samples": [
+    {
+     "url": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
+     "body": "{\"id\": \"jfDWOqE3S_OC05_cqiliIw\", \"results\": [{\"sectionName\": \"quickLinks\", \"sectionResults\": [{\"label\": \"Trova uno Store\", \"url\": \"https://www.apple.com/it/retail/\"}, {\"label\": \"Accessori\", \"url\": \"https://www.apple.com/it/shop/goto/accessories/apple_accessories\"}, {\"label\": \"AirPods\", \"url\": \"https://www.apple.com/it/airpods/\"}, {\"label\": \"Apple Intelligence\", \"url\": \"https://www.apple.com/it/apple-intelligence/\"}, {\"label\": \"Apple Trade In\", \"url\": \"https://www.apple.com/it/shop/goto/trade_in\"}]}, {\"sectionName\": \"suggestions\", \"sectionResults\": []}]}"
+    },
+    {
+     "url": "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
+     "body": "[{\"name\": \"apple\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple home\"}], \"id\": \"3d39a8ff\"}, {\"name\": \"store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"store\"}, {\"name\": \"data-analytics-element-engagement\", \"value\": \"hover - store\"}], \"baseGroups\": [{\"id\": \"2cf6d3e8\", \"title\": \"Link rapidi\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"quick links - store\"}], \"baseLinks\": [{\"id\": \"2373c842\", \"text\": \"Trova uno store\", \"url\": \"/it/retail/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"find a store\"}], \"ariaLabel\": \"\"}, {\"id\": \"ec7d9cb9\", \"text\": \"Stato degli ordini\", \"url\": \"/it/shop/goto/order/list\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"order status\"}], \"ariaLabel\": \"\"}, {\"id\": \"d41ef62d\", \"text\": \"Apple Trade In\", \"url\": \"/it/shop/goto/trade_in\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple trade in\"}], \"ariaLabel\": \"\"}, {\"id\": \"774a30ac\", \"text\": \"Finanziamenti\", \"url\": \"/it/shop/goto/ww/financing\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"financing\"}], \"ariaLabel\": \"\"}, {\"id\": \"fa5fe1d4\", \"text\": \"Setup personale\", \"url\": \"/it/shop/goto/personal_setup\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"personal setup\"}], \"ariaLabel\": \"\"}]}, {\"id\": \"6b3ab6e5\", \"title\": \"Acquista sugli store dedicati\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"shop special stores\"}], \"baseLinks\": [{\"id\": \"f03dfdfa\", \"text\": \"Ricondizionati certificati\", \"url\": \"/it/shop/goto/special_deals\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"certified refurbished\"}], \"ariaLabel\": \"\"}, {\"id\": \"eeb4c51a\", \"text\": \"Istruzione\", \"url\": \"/it/shop/goto/educationrouting\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"education\"}], \"ariaLabel\": \"\"}, {\"id\": \"e5f12dbd\", \"text\": \"Business\", \"url\": \"/it/retail/business/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"business\"}], \"ariaLabel\": \"\"}]}], \"elevatedGroups\": [{\"id\": \"a6ac4cfa\", \"title\": \"Acquista\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"explore shop\"}], \"elevatedLinks\": [{\"id\": \"50119e08\", \"text\": \"Acquista i nuovi prodotti\", \"url\": \"/it/shop/goto/store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"shop the latest\"}], \"ariaLabel\": \"Acquista i nuovi prodotti Apple\"}, {\"id\": \"32ea423e\", \"text\": \"Ma"
+    },
+    {
+     "url": "https://www.apple.com/it/shop/api/digital-mat?path=library/step0_ipad/digitalmat&fae=true",
+     "body": "{\"head\": {\"status\": \"200\", \"data\": {}}, \"body\": {\"representativeExample\": \"\\n\\n<div class=\\\"as-l-container as-dynamicrep-illustrative-container\\\">\\n    \\n    <div class=\\\"as-dynamicrep-section-header typography-body\\\">Un finanziamento è un impegno che occorre onorare. Verifica la&nbsp;tua&nbsp;capacità di rimborsare il prestito prima di sottoscrivere un&nbsp;finanziamento.</div>\\n    <div class=\\\"as-dynamicrep-section-subheader typography-body-reduced-tight\\\">Messaggio pubblicitario a fini promozionali dedicato ai titolari di Smart Line.\\n<br /><br />\\nSmart Line è una linea di credito privativa a tempo indeterminato di Findomestic per pagare a rate i tuoi acquisti da Apple. Il&nbsp;prodotto Smart&nbsp;Line è&nbsp;riservato ai&nbsp;clienti maggiorenni che non&nbsp;hanno superato i&nbsp;74&nbsp;anni di&nbsp;età.\\n<br /><br />\\nCon Smart Line è possibile disporre di un limite autorizzato fino a € 5.000; l’importo disponibile diminuisce a ogni utilizzo e si ricostituisce con i rimborsi mensili. Per ogni acquisto è possibile scegliere il piano di rimborso disponibile in base alle condizioni promozionali in vigore, con un costo inferiore rispetto alle condizioni economiche massime applicabili alla Linea di credito, <strong>pari a TAN fisso 14,88% e TAEG 15,93%</strong>. Per tutte le condizioni economiche e contrattuali, consulta le Informazioni Europee di Base sul Credito ai Consumatori (IEBCC) disponibili durante la procedura di sottoscrizione online. Salvo approvazione da parte di Findomestic Banca, per la quale Apple opera in qualità di intermediario di credito non esclusivo.</div>\\n\\n        \\n        <h2 id=\\\"dynamicrep-illustrative-header\\\" class=\\\"as-dynamicrep-illustrative-header typography-body\\\">Esempio rappresentativo di acquisto con&nbsp;Findomestic</h2>\\n        <div class=\\\"as-dynamicrep-illustrative-subheader typography-body-reduced-tight\\\"><b>Offerte attuali per i tuoi acquisti con Smart Line, più convenienti rispetto alle condizioni massime applicabili (TAN fisso 14,88%, TAEG 15,93%)</b></div>\\n        \\n        \\n\\n        \\n            <as-accordion compact=\\\"true\\\">\\n                <div data-slot=\\\"accordion-item\\\" open=\\\"true\\\" titleWrapperTag=\\\"h3\\\">\\n                    <h3 data-slot=\\\"title\\\">36 mesi al costo totale promozionale del&nbsp;11,57% a partire dal giorno <span class=\\\"nowrap\\\">2026-10-01</span> fino al giorno <span class=\\\"nowrap\\\">2027-01-12</span></h3>\\n                    <div data-slot=\\\"content\\\">\\n                      "
+    }
+   ]
+  },
+  {
+   "url": "https://www.apple.com/it/shop/buy-watch",
+   "status": 200,
+   "final_url": "https://www.apple.com/it/shop/buy-watch",
+   "title": "Acquista Apple Watch - Apple (IT)",
+   "json_urls": [
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
+    "https://www.apple.com/it/shop/api/digital-mat?path=library/step0_watch/digitalmat&fae=true"
+   ],
+   "links": [
+    "https://www.apple.com/it/shop/buy-watch/apple-watch",
+    "https://www.apple.com/it/shop/buy-watch/apple-watch-se",
+    "https://www.apple.com/it/shop/buy-watch/apple-watch-hermes"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "€ 49,00",
+    "€ 49,00",
+    "€ 99,00",
+    "€ 49,00",
+    "€ 49,00",
+    "€ 99,00",
+    "€ 99,00",
+    "€ 99,00",
+    "€ 1.299,00",
+    "€ 549,00"
+   ],
+   "items_by_source": {},
+   "text_sample": "Apple Store Mac iPad iPhone Watch AirPods Casa Intrattenimento Accessori Supporto 0 + Acquista Apple Watch con il finanziamento flessibile a partire da € 9,13 al mese per 36 mesi con TAN fisso 10,96%. Nota ① E se fai la permuta, le rate saranno più basse. Nota ② Scopri di più sulle rate mensili Scegli il tuo Apple Watch Parla con il team di Specialist (Si apre in una nuova finestra) Trova un Apple Store (si apre una nuova finestra) Tutti i modelli Modi per risparmiare Guida allo shopping Cinturini per Apple Watch Accessori per la ricarica di Apple Watch Il mondo Apple Watch Setup e supporto Avanti Tutti i modelli. Trova il tuo. NOVITÀ Apple Watch Series 12 - NOVITÀ Dai un’occhiata da vicino - Apple Watch Series 12 + Da € 459,00 o € 15,03 al mese per 36 mesi, TAN fisso 11,01% Nota ① Acquista - Apple Watch Series 12 NOVITÀ Apple Watch Ultra 4 - NOVITÀ Dai un’occhiata da vicino - Apple Watch Ultra 4 Da € 909,00 o € 29,76 al mese per 36 mesi, TAN fisso 11% Nota ① Acquista - Apple Watch Ultra 4 Apple Watch SE 3 Dai un’occhiata da vicino - Apple Watch SE 3 Da € 279,00 o € 9,13 al mese per 36 mesi, TAN fisso 10,96% Nota ① Acquista - Apple Watch SE 3 NOVITÀ Apple Watch Hermès Series 12 - NOVITÀ Dai un’occhiata da vicino - Apple Watch Hermès Series 12 Da € 1.609,00 o € 52,68 al mese per 36 mesi, TAN fisso 11% Nota ① Acquista - Apple Watch Hermès Series 12 NOVITÀ Apple Watch Hermès Ultra 4 - NOVITÀ Dai un’occhiata da vicino - Apple Watch Hermès Ultra 4 Da € 1.709,00 o € 5",
+   "json_samples": [
+    {
+     "url": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
+     "body": "{\"id\": \"jfDWOqE3S_OC05_cqiliIw\", \"results\": [{\"sectionName\": \"quickLinks\", \"sectionResults\": [{\"label\": \"Trova uno Store\", \"url\": \"https://www.apple.com/it/retail/\"}, {\"label\": \"Accessori\", \"url\": \"https://www.apple.com/it/shop/goto/accessories/apple_accessories\"}, {\"label\": \"AirPods\", \"url\": \"https://www.apple.com/it/airpods/\"}, {\"label\": \"Apple Intelligence\", \"url\": \"https://www.apple.com/it/apple-intelligence/\"}, {\"label\": \"Apple Trade In\", \"url\": \"https://www.apple.com/it/shop/goto/trade_in\"}]}, {\"sectionName\": \"suggestions\", \"sectionResults\": []}]}"
+    },
+    {
+     "url": "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
+     "body": "[{\"name\": \"apple\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple home\"}], \"id\": \"3d39a8ff\"}, {\"name\": \"store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"store\"}, {\"name\": \"data-analytics-element-engagement\", \"value\": \"hover - store\"}], \"baseGroups\": [{\"id\": \"2cf6d3e8\", \"title\": \"Link rapidi\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"quick links - store\"}], \"baseLinks\": [{\"id\": \"2373c842\", \"text\": \"Trova uno store\", \"url\": \"/it/retail/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"find a store\"}], \"ariaLabel\": \"\"}, {\"id\": \"ec7d9cb9\", \"text\": \"Stato degli ordini\", \"url\": \"/it/shop/goto/order/list\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"order status\"}], \"ariaLabel\": \"\"}, {\"id\": \"d41ef62d\", \"text\": \"Apple Trade In\", \"url\": \"/it/shop/goto/trade_in\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple trade in\"}], \"ariaLabel\": \"\"}, {\"id\": \"774a30ac\", \"text\": \"Finanziamenti\", \"url\": \"/it/shop/goto/ww/financing\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"financing\"}], \"ariaLabel\": \"\"}, {\"id\": \"fa5fe1d4\", \"text\": \"Setup personale\", \"url\": \"/it/shop/goto/personal_setup\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"personal setup\"}], \"ariaLabel\": \"\"}]}, {\"id\": \"6b3ab6e5\", \"title\": \"Acquista sugli store dedicati\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"shop special stores\"}], \"baseLinks\": [{\"id\": \"f03dfdfa\", \"text\": \"Ricondizionati certificati\", \"url\": \"/it/shop/goto/special_deals\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"certified refurbished\"}], \"ariaLabel\": \"\"}, {\"id\": \"eeb4c51a\", \"text\": \"Istruzione\", \"url\": \"/it/shop/goto/educationrouting\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"education\"}], \"ariaLabel\": \"\"}, {\"id\": \"e5f12dbd\", \"text\": \"Business\", \"url\": \"/it/retail/business/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"business\"}], \"ariaLabel\": \"\"}]}], \"elevatedGroups\": [{\"id\": \"a6ac4cfa\", \"title\": \"Acquista\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"explore shop\"}], \"elevatedLinks\": [{\"id\": \"50119e08\", \"text\": \"Acquista i nuovi prodotti\", \"url\": \"/it/shop/goto/store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"shop the latest\"}], \"ariaLabel\": \"Acquista i nuovi prodotti Apple\"}, {\"id\": \"32ea423e\", \"text\": \"Ma"
+    },
+    {
+     "url": "https://www.apple.com/it/shop/api/digital-mat?path=library/step0_watch/digitalmat&fae=true",
+     "body": "{\"head\": {\"status\": \"200\", \"data\": {}}, \"body\": {\"representativeExample\": \"\\n\\n<div class=\\\"as-l-container as-dynamicrep-illustrative-container\\\">\\n    \\n    <div class=\\\"as-dynamicrep-section-header typography-body\\\">Un finanziamento è un impegno che occorre onorare. Verifica la&nbsp;tua&nbsp;capacità di rimborsare il prestito prima di sottoscrivere un&nbsp;finanziamento.</div>\\n    <div class=\\\"as-dynamicrep-section-subheader typography-body-reduced-tight\\\">Messaggio pubblicitario a fini promozionali dedicato ai titolari di Smart Line.\\n<br /><br />\\nSmart Line è una linea di credito privativa a tempo indeterminato di Findomestic per pagare a rate i tuoi acquisti da Apple. Il&nbsp;prodotto Smart&nbsp;Line è&nbsp;riservato ai&nbsp;clienti maggiorenni che non&nbsp;hanno superato i&nbsp;74&nbsp;anni di&nbsp;età.\\n<br /><br />\\nCon Smart Line è possibile disporre di un limite autorizzato fino a € 5.000; l’importo disponibile diminuisce a ogni utilizzo e si ricostituisce con i rimborsi mensili. Per ogni acquisto è possibile scegliere il piano di rimborso disponibile in base alle condizioni promozionali in vigore, con un costo inferiore rispetto alle condizioni economiche massime applicabili alla Linea di credito, <strong>pari a TAN fisso 14,88% e TAEG 15,93%</strong>. Per tutte le condizioni economiche e contrattuali, consulta le Informazioni Europee di Base sul Credito ai Consumatori (IEBCC) disponibili durante la procedura di sottoscrizione online. Salvo approvazione da parte di Findomestic Banca, per la quale Apple opera in qualità di intermediario di credito non esclusivo.</div>\\n\\n        \\n        <h2 id=\\\"dynamicrep-illustrative-header\\\" class=\\\"as-dynamicrep-illustrative-header typography-body\\\">Esempio rappresentativo di acquisto con&nbsp;Findomestic</h2>\\n        <div class=\\\"as-dynamicrep-illustrative-subheader typography-body-reduced-tight\\\"><b>Offerte attuali per i tuoi acquisti con Smart Line, più convenienti rispetto alle condizioni massime applicabili (TAN fisso 14,88%, TAEG 15,93%)</b></div>\\n        \\n        \\n\\n        \\n            <as-accordion compact=\\\"true\\\">\\n                <div data-slot=\\\"accordion-item\\\" open=\\\"true\\\" titleWrapperTag=\\\"h3\\\">\\n                    <h3 data-slot=\\\"title\\\">36 mesi al costo totale promozionale del&nbsp;11,57% a partire dal giorno <span class=\\\"nowrap\\\">2026-10-01</span> fino al giorno <span class=\\\"nowrap\\\">2027-01-12</span></h3>\\n                    <div data-slot=\\\"content\\\">\\n                      "
+    }
+   ]
+  },
+  {
+   "url": "https://www.apple.com/it/shop/accessories/all/headphones-speakers",
+   "status": 200,
+   "final_url": "https://www.apple.com/it/shop/accessories/all/headphones-speakers",
+   "title": "Cuffie e altoparlanti - Tutti gli accessori - Apple (IT)",
+   "json_urls": [
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT"
+   ],
+   "links": [
+    "https://www.apple.com/it/shop/buy-airpods/airpods-pro-3"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "€ 169,00",
+    "€ 169,00",
+    "€ 149,00",
+    "€ 149,00",
+    "€ 169,00",
+    "€ 169,00",
+    "€ 19,00",
+    "€ 19,00",
+    "€ 349,95",
+    "€ 349,95"
+   ],
+   "items_by_source": {
+    "jsonld": 30
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch AirPods Casa Intrattenimento Accessori Supporto 0 + Accessori Cuffie e altoparlanti Tipo di accessorio Compatibilità Marca Colore Stile cuffie Connessione Caratteristiche Solo da Apple Ordina per: Primo piano Incisione gratuita AirPods Pro 3 € 249,00 o € 22,01 al mese per 12 mesi, TAN fisso 11,02% Nota ① Novità AirPods 5 con custodia di ricarica wireless € 169,00 Novità AirPods 5 € 149,00 Incisione gratuita AirPods Max 2 € 579,00 o € 51,17 al mese per 12 mesi, TAN fisso 10,98% Nota ① Novità HomePod mini 2 € 169,00 HomePod € 399,00 o € 35,26 al mese per 12 mesi, TAN fisso 10,97% Nota ① Precedente Immagine - EarPods (USB‑C) Avanti Immagine - EarPods (USB‑C) EarPods (USB‑C) € 19,00 Novità Beats 360 € 349,95 Precedente Immagine - Kit cuscinetti Beats 360 - Cuscinetti in performance knit per padiglioni e archetto - Nero Avanti Immagine - Kit cuscinetti Beats 360 - Cuscinetti in performance knit per padiglioni e archetto - Nero Novità Kit cuscinetti Beats 360 - Cuscinetti in performance knit per padiglioni e archetto - Nero € 59,95 Precedente Immagine - Kit cuscinetti Beats 360 - Cuscinetti in tessuto UltraPlush per padiglioni e archetto - Nero Avanti Immagine - Kit cuscinetti Beats 360 - Cuscinetti in tessuto UltraPlush per padiglioni e archetto - Nero Novità Kit cuscinetti Beats 360 - Cuscinetti in tessuto UltraPlush per padiglioni e archetto - Nero € 59,95 Precedente Immagine - Cuffie Beats Studio Pro Wireless – Caffè Avanti Immagine - Cuf"
+  },
+  {
+   "url": "https://www.apple.com/it/shop/buy-iphone/iphone-duo",
+   "status": 200,
+   "final_url": "https://www.apple.com/it/shop/buy-iphone/iphone-duo",
+   "title": "Acquista iPhone Duo - Apple (IT)",
+   "json_urls": [
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
+    "https://www.apple.com/it/shop/favoritesx/fetch",
+    "https://www.apple.com/it/shop/sba/d/init?fnode=1a4bea68e01795e8970c6aea181f557c678255e361c30d4678eb942c2de4f0682b828830f2ba15dbfe2a0e25c2c844776d1048138339fbd0d"
+   ],
+   "links": [
+    "https://www.apple.com/it/shop/buy-iphone/iphone-duo",
+    "https://www.apple.com/it/shop/buy-iphone/iphone-18-pro",
+    "https://www.apple.com/it/shop/buy-iphone/iphone-air",
+    "https://www.apple.com/it/shop/buy-iphone/iphone-17",
+    "https://www.apple.com/it/shop/buy-iphone/iphone-17e"
+   ],
+   "tiles": [
+    "256GB Nota 1 Da € 2.369,00 o € 98,71 al mese per 24 mesi, TAN fisso 0% Nota ①",
+    "512GB Nota 1 Da € 2.619,00 o € 109,13 al mese per 24 mesi, TAN fisso 0% Nota ①",
+    "1TB Nota 1 Da € 3.119,00 o € 129,96 al mese per 24 mesi, TAN fisso 0% Nota ①",
+    "2TB Nota 1 Da € 3.869,00 o € 161,21 al mese per 24 mesi, TAN fisso 0% Nota ①",
+    "1TB Nota 1 Bianco stellare € 3.119,00",
+    "1TB Nota 1 Cielo notturno € 3.119,00",
+    "512GB Nota 1 Bianco stellare € 2.619,00",
+    "512GB Nota 1 Cielo notturno € 2.619,00",
+    "256GB Nota 1 Bianco stellare € 2.369,00",
+    "256GB Nota 1 Cielo notturno € 2.369,00",
+    "2TB Nota 1 Bianco stellare € 3.869,00",
+    "2TB Nota 1 Cielo notturno € 3.869,00"
+   ],
+   "price_texts": [
+    "Da € 2.369,00",
+    "o € 98,71 al mese per 24 mesi, TAN fisso 0% Nota ①",
+    "Da € 2.619,00",
+    "o € 109,13 al mese per 24 mesi, TAN fisso 0% Nota ①",
+    "Da € 3.119,00",
+    "o € 129,96 al mese per 24 mesi, TAN fisso 0% Nota ①",
+    "Da € 3.869,00",
+    "o € 161,21 al mese per 24 mesi, TAN fisso 0% Nota ①",
+    "€ 359,00 o € 17,99 al mese.",
+    "€ 429,00 o € 20,99 al mese."
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 8,
+    "jsonld": 1,
+    "dom-tile": 8
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch AirPods Casa Intrattenimento Accessori Supporto 0 + Scegli il pagamento rateale a tasso zero per acquistare il tuo nuovo iPhone Duo con le opzioni di finanziamento flessibile. Nota ① E se fai la permuta, le rate saranno più basse. Nota ② Scopri di più sulle rate mensili iPhone Duo Da € 2.369,00 o € 98,71 al mese per 24 mesi, TAN fisso 0% Nota ① Spedizione gratuita Ritiro all’Apple Store Novità Acquista iPhone Duo Da € 2.369,00 o € 98,71 al mese per 24 mesi, TAN fisso 0% Nota ① Apple Intelligence Nota 4 Scopri di più, iPhone Duo Permuta il tuo dispositivo e ricevi un credito da € 30 a € 1.020 con la permuta Nota ② Pagamento a rate mensili Nota ① Immagine precedente della galleria Immagine successiva della galleria Colore. Scegli quello che preferisci. Colore Bianco stellare Cielo notturno Confronta le dimensioni del display di iPhone Duo e iPhone 18 Pro Max. Mostra di più Archiviazione. Quanto spazio ti serve? 256GB Nota 1 Da € 2.369,00 o € 98,71 al mese per 24 mesi, TAN fisso 0% Nota ① 512GB Nota 1 Da € 2.619,00 o € 109,13 al mese per 24 mesi, TAN fisso 0% Nota ① 1TB Nota 1 Da € 3.119,00 o € 129,96 al mese per 24 mesi, TAN fisso 0% Nota ① 2TB Nota 1 Da € 3.869,00 o € 161,21 al mese per 24 mesi, TAN fisso 0% Nota ① Non sai quanto spazio ti serve? Ti aiutiamo a capire di quanto spazio puoi avere bisogno. Mostra di più Apple Trade In.Ricevi un credito da € 30 a € 1.020 per il tuo nuovo iPhone. Nota ② Aggiungi"
+  },
+  {
+   "url": "https://www.apple.com/it/shop/buy-iphone/iphone-18-pro",
+   "status": 200,
+   "final_url": "https://www.apple.com/it/shop/buy-iphone/iphone-18-pro",
+   "title": "Acquista iPhone 18 Pro e iPhone 18 Pro Max - Apple (IT)",
+   "json_urls": [
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
+    "https://www.apple.com/it/shop/sba/d/init?fnode=5313dca0cc8d7e838984981773b5642af0c61e03b50c8d9835a68f02e810995776cc4350b1a2946f2d409721180cf3144df24bf3dfd3f80bb",
+    "https://www.apple.com/it/shop/favoritesx/fetch"
+   ],
+   "links": [
+    "https://www.apple.com/it/shop/buy-iphone/iphone-18-pro",
+    "https://www.apple.com/it/shop/buy-iphone/iphone-duo",
+    "https://www.apple.com/it/shop/buy-iphone/iphone-air",
+    "https://www.apple.com/it/shop/buy-iphone/iphone-17",
+    "https://www.apple.com/it/shop/buy-iphone/iphone-17e"
+   ],
+   "tiles": [
+    "256GB Nota 1 Da € 1.489,00 o € 62,04 al mese per 24 mesi, TAN fisso 0% Nota ①",
+    "512GB Nota 1 Da € 1.739,00 o € 72,46 al mese per 24 mesi, TAN fisso 0% Nota ①",
+    "1TB Nota 1 Da € 2.239,00 o € 93,29 al mese per 24 mesi, TAN fisso 0% Nota ①",
+    "2TB Nota 1 Da € 2.989,00 o € 124,54 al mese per 24 mesi, TAN fisso 0% Nota ①",
+    "1TB Nota 1 Borgogna € 2.389,00",
+    "1TB Nota 1 Ghiacciaio € 2.389,00",
+    "256GB Nota 1 Argento € 1.639,00",
+    "256GB Nota 1 Nero € 1.639,00",
+    "2TB Nota 1 Ghiacciaio € 3.139,00",
+    "512GB Nota 1 Nero € 1.889,00",
+    "2TB Nota 1 Borgogna € 3.139,00",
+    "256GB Nota 1 Ghiacciaio € 1.639,00",
+    "2TB Nota 1 Argento € 3.139,00",
+    "256GB Nota 1 Borgogna € 1.639,00",
+    "2TB Nota 1 Nero € 3.139,00"
+   ],
+   "price_texts": [
+    "Da € 1.489,00",
+    "o € 62,04 al mese per 24 mesi, TAN fisso 0% Nota ①",
+    "Da € 1.639,00",
+    "o € 68,29 al mese per 24 mesi, TAN fisso 0% Nota ①",
+    "Da € 1.489,00",
+    "o € 62,04 al mese per 24 mesi, TAN fisso 0% Nota ①",
+    "Da € 1.739,00",
+    "o € 72,46 al mese per 24 mesi, TAN fisso 0% Nota ①",
+    "Da € 2.239,00",
+    "o € 93,29 al mese per 24 mesi, TAN fisso 0% Nota ①"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 32,
+    "jsonld": 2,
+    "dom-tile": 32
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch AirPods Casa Intrattenimento Accessori Supporto 0 + Paga il tuo nuovo iPhone 18 Pro in 24 mesi a tasso zero con le opzioni di finanziamento flessibile. Nota ① Scopri di più sulle rate mensili iPhone 18 Pro Da € 1.489,00 o € 62,04 al mese per 24 mesi, TAN fisso 0% Nota ① Spedizione gratuita Ritiro all’Apple Store Novità Acquista iPhone 18 Pro Da € 1.489,00 o € 62,04 al mese per 24 mesi, TAN fisso 0% Nota ① Apple Intelligence Nota 4 Scopri di più, iPhone 18 Pro Permuta il tuo dispositivo e ricevi un credito da € 30 a € 1.020 con la permuta Nota ◊◊ Pagamento a rate mensili Nota ① Immagine precedente della galleria Immagine successiva della galleria Modello. Quale fa al caso tuo? iPhone 18 Pro Display da 6,3\" Nota 2 Da € 1.489,00 o € 62,04 al mese per 24 mesi, TAN fisso 0% Nota ① iPhone 18 Pro Max Display da 6,9\" Nota 2 Da € 1.639,00 o € 68,29 al mese per 24 mesi, TAN fisso 0% Nota ① Hai bisogno di aiuto per scegliere un modello? Scopri le differenze in fatto di dimensioni del display e autonomia. Mostra di più Colore. Scegli quello che preferisci. Colore Borgogna Ghiacciaio Argento Nero Archiviazione. Quanto spazio ti serve? 256GB Nota 1 Da € 1.489,00 o € 62,04 al mese per 24 mesi, TAN fisso 0% Nota ① 512GB Nota 1 Da € 1.739,00 o € 72,46 al mese per 24 mesi, TAN fisso 0% Nota ① 1TB Nota 1 Da € 2.239,00 o € 93,29 al mese per 24 mesi, TAN fisso 0% Nota ① 2TB Nota 1 Da € 2.989,00 o € 124,54 al mese per 24 mesi"
+  },
+  {
+   "url": "https://www.apple.com/it/shop/buy-iphone/iphone-air",
+   "status": 200,
+   "final_url": "https://www.apple.com/it/shop/buy-iphone/iphone-air",
+   "title": "Acquista iPhone Air - Apple (IT)",
+   "json_urls": [
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
+    "https://www.apple.com/it/shop/favoritesx/fetch",
+    "https://www.apple.com/it/shop/sba/d/init?fnode=50a10673582cad161effdfefeb66a13190c675201ce683d5800b36c5320ba5375cf73a1468abbf074803e31933cec6729896949e058131c92"
+   ],
+   "links": [
+    "https://www.apple.com/it/shop/buy-iphone/iphone-air",
+    "https://www.apple.com/it/shop/buy-iphone/iphone-duo",
+    "https://www.apple.com/it/shop/buy-iphone/iphone-18-pro",
+    "https://www.apple.com/it/shop/buy-iphone/iphone-17",
+    "https://www.apple.com/it/shop/buy-iphone/iphone-17e"
+   ],
+   "tiles": [
+    "256GB Nota 1 Da € 1.339,00 o € 55,79 al mese per 24 mesi, TAN fisso 0% Nota ①",
+    "512GB Nota 1 Da € 1.589,00 o € 66,21 al mese per 24 mesi, TAN fisso 0% Nota ①",
+    "1TB Nota 1 Da € 2.089,00 o € 87,04 al mese per 24 mesi, TAN fisso 0% Nota ①",
+    "512GB Nota 1 Oro chiaro Unlocked € 1.589,00",
+    "512GB Nota 1 Celeste Unlocked € 1.589,00",
+    "512GB Nota 1 Bianco nuvola Unlocked € 1.589,00",
+    "1TB Nota 1 Oro chiaro Unlocked € 2.089,00",
+    "1TB Nota 1 Nero siderale Unlocked € 2.089,00",
+    "1TB Nota 1 Bianco nuvola Unlocked € 2.089,00",
+    "256GB Nota 1 Bianco nuvola Unlocked € 1.339,00",
+    "256GB Nota 1 Nero siderale Unlocked € 1.339,00",
+    "256GB Nota 1 Oro chiaro Unlocked € 1.339,00",
+    "512GB Nota 1 Nero siderale Unlocked € 1.589,00",
+    "1TB Nota 1 Celeste Unlocked € 2.089,00",
+    "256GB Nota 1 Celeste Unlocked € 1.339,00"
+   ],
+   "price_texts": [
+    "Da € 1.339,00",
+    "o € 55,79 al mese per 24 mesi, TAN fisso 0% Nota ①",
+    "Da € 1.589,00",
+    "o € 66,21 al mese per 24 mesi, TAN fisso 0% Nota ①",
+    "Da € 2.089,00",
+    "o € 87,04 al mese per 24 mesi, TAN fisso 0% Nota ①",
+    "€ 249,00 o € 12,99 al mese.",
+    "€ 319,00 o € 15,99 al mese.",
+    "€ 1.589,00",
+    "€ 1.589,00"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 12,
+    "jsonld": 1,
+    "dom-tile": 3
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch AirPods Casa Intrattenimento Accessori Supporto 0 + Paga il tuo nuovo iPhone Air in 24 mesi a tasso zero con le opzioni di finanziamento flessibile. Nota ① Scopri di più sulle rate mensili iPhone Air Da € 1.339,00 o € 55,79 al mese per 24 mesi, TAN fisso 0% Nota ① Spedizione gratuita Ritiro all’Apple Store Acquista iPhone Air Da € 1.339,00 o € 55,79 al mese per 24 mesi, TAN fisso 0% Nota ① Apple Intelligence Nota 4 Scopri di più, iPhone Air Permuta il tuo dispositivo e ricevi un credito da € 30 a € 1.020 con la permuta Nota ◊◊ Pagamento a rate mensili Nota ① Immagine precedente della galleria Immagine successiva della galleria Colore. Scegli quello che preferisci. Colore Celeste Bianco nuvola Nero siderale Oro chiaro Archiviazione. Quanto spazio ti serve? 256GB Nota 1 Da € 1.339,00 o € 55,79 al mese per 24 mesi, TAN fisso 0% Nota ① 512GB Nota 1 Da € 1.589,00 o € 66,21 al mese per 24 mesi, TAN fisso 0% Nota ① 1TB Nota 1 Da € 2.089,00 o € 87,04 al mese per 24 mesi, TAN fisso 0% Nota ① Non sai quanto spazio ti serve? Ti aiutiamo a capire di quanto spazio puoi avere bisogno. Mostra di più Apple Trade In.Ricevi un credito da € 30 a € 1.020 per il tuo nuovo iPhone. Nota ◊◊ Aggiungi una permuta Rispondi ad alcune domande per avere una stima. Senza permuta Come funziona la permuta? Scopri come risparmiare su questo acquisto con una permuta. O ricicla gratis il tuo dispositivo. Mostra di più Copertura AppleCare. Dormi so"
+  },
+  {
+   "url": "https://www.apple.com/it/shop/buy-iphone/iphone-17",
+   "status": 200,
+   "final_url": "https://www.apple.com/it/shop/buy-iphone/iphone-17",
+   "title": "Acquista iPhone 17 - Apple (IT)",
+   "json_urls": [
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
+    "https://www.apple.com/it/shop/sba/d/init?fnode=175416a0c40cb0de038c45cf1ac1ddea50eb479e95a5c8469c12e01c5b086a0c7cfa80d76b0237ab35a95580312b9b888ca145e94e513c69f",
+    "https://www.apple.com/it/shop/favoritesx/fetch"
+   ],
+   "links": [
+    "https://www.apple.com/it/shop/buy-iphone/iphone-17",
+    "https://www.apple.com/it/shop/buy-iphone/iphone-duo",
+    "https://www.apple.com/it/shop/buy-iphone/iphone-18-pro",
+    "https://www.apple.com/it/shop/buy-iphone/iphone-air",
+    "https://www.apple.com/it/shop/buy-iphone/iphone-17e"
+   ],
+   "tiles": [
+    "256GB Nota 1 Da € 1.129,00 o € 47,04 al mese per 24 mesi, TAN fisso 0% Nota ①",
+    "512GB Nota 1 Da € 1.379,00 o € 57,46 al mese per 24 mesi, TAN fisso 0% Nota ①",
+    "256GB Nota 1 Azzurro nebbia € 1.129,00",
+    "256GB Nota 1 Lavanda € 1.129,00",
+    "256GB Nota 1 Nero € 1.129,00",
+    "256GB Nota 1 Bianco € 1.129,00",
+    "512GB Nota 1 Bianco € 1.379,00",
+    "512GB Nota 1 Nero € 1.379,00",
+    "256GB Nota 1 Salvia € 1.129,00",
+    "512GB Nota 1 Lavanda € 1.379,00",
+    "512GB Nota 1 Salvia € 1.379,00",
+    "512GB Nota 1 Azzurro nebbia € 1.379,00"
+   ],
+   "price_texts": [
+    "Da € 1.129,00",
+    "o € 47,04 al mese per 24 mesi, TAN fisso 0% Nota ①",
+    "Da € 1.379,00",
+    "o € 57,46 al mese per 24 mesi, TAN fisso 0% Nota ①",
+    "€ 189,00 o € 9,99 al mese.",
+    "€ 249,00 o € 12,99 al mese.",
+    "€ 1.129,00",
+    "€ 1.129,00",
+    "€ 1.129,00",
+    "€ 1.129,00"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 10,
+    "jsonld": 1,
+    "dom-tile": 10
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch AirPods Casa Intrattenimento Accessori Supporto 0 + Paga il tuo nuovo iPhone 17 in 24 mesi a tasso zero con le opzioni di finanziamento flessibile. Nota ① Scopri di più sulle rate mensili iPhone 17 Da € 1.129,00 o € 47,04 al mese per 24 mesi, TAN fisso 0% Nota ① Spedizione gratuita Ritiro all’Apple Store Acquista iPhone 17 Da € 1.129,00 o € 47,04 al mese per 24 mesi, TAN fisso 0% Nota ① Apple Intelligence Nota 4 Scopri di più, iPhone 17 Permuta il tuo dispositivo e ricevi un credito da € 30 a € 1.020 con la permuta Nota ◊◊ Pagamento a rate mensili Nota ① Immagine precedente della galleria Immagine successiva della galleria Colore. Scegli quello che preferisci. Colore Lavanda Azzurro nebbia Bianco Salvia Nero Archiviazione. Quanto spazio ti serve? 256GB Nota 1 Da € 1.129,00 o € 47,04 al mese per 24 mesi, TAN fisso 0% Nota ① 512GB Nota 1 Da € 1.379,00 o € 57,46 al mese per 24 mesi, TAN fisso 0% Nota ① Non sai quanto spazio ti serve? Ti aiutiamo a capire di quanto spazio puoi avere bisogno. Mostra di più Apple Trade In.Ricevi un credito da € 30 a € 1.020 per il tuo nuovo iPhone. Nota ◊◊ Aggiungi una permuta Rispondi ad alcune domande per avere una stima. Senza permuta Come funziona la permuta? Scopri come risparmiare su questo acquisto con una permuta. O ricicla gratis il tuo dispositivo. Mostra di più Copertura AppleCare. Dormi sonni tranquilli con qualsiasi piano. Nota ∆ AppleCare+ Interventi illimitati per danni a"
+  },
+  {
+   "url": "https://www.apple.com/it/shop/buy-iphone/iphone-17e",
+   "status": 200,
+   "final_url": "https://www.apple.com/it/shop/buy-iphone/iphone-17e",
+   "title": "Acquista iPhone 17e - Apple (IT)",
+   "json_urls": [
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
+    "https://www.apple.com/it/shop/favoritesx/fetch",
+    "https://www.apple.com/it/shop/sba/d/init?fnode=14514612f45426e43ebff7cee678bcd5bd51aa88aa0ec049053bf312119146fcb7d51c808685d83725551fe37b6bb44d584e8b81d6592f9e7"
+   ],
+   "links": [
+    "https://www.apple.com/it/shop/buy-iphone/iphone-17e",
+    "https://www.apple.com/it/shop/buy-iphone/iphone-duo",
+    "https://www.apple.com/it/shop/buy-iphone/iphone-18-pro",
+    "https://www.apple.com/it/shop/buy-iphone/iphone-air",
+    "https://www.apple.com/it/shop/buy-iphone/iphone-17"
+   ],
+   "tiles": [
+    "256GB Nota 1 Da € 879,00 o € 36,63 al mese per 24 mesi, TAN fisso 0% Nota ①",
+    "512GB Nota 1 Da € 1.129,00 o € 47,04 al mese per 24 mesi, TAN fisso 0% Nota ①",
+    "512GB Nota 1 Nero € 1.129,00",
+    "256GB Nota 1 Bianco € 879,00",
+    "256GB Nota 1 Rosa chiaro € 879,00",
+    "512GB Nota 1 Rosa chiaro € 1.129,00",
+    "256GB Nota 1 Nero € 879,00",
+    "512GB Nota 1 Bianco € 1.129,00"
+   ],
+   "price_texts": [
+    "Da € 879,00",
+    "o € 36,63 al mese per 24 mesi, TAN fisso 0% Nota ①",
+    "Da € 1.129,00",
+    "o € 47,04 al mese per 24 mesi, TAN fisso 0% Nota ①",
+    "€ 159,00 o € 7,99 al mese.",
+    "€ 219,00 o € 10,99 al mese.",
+    "€ 1.129,00",
+    "€ 1.129,00",
+    "€ 879,00",
+    "€ 879,00"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 6,
+    "jsonld": 1,
+    "dom-tile": 6
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch AirPods Casa Intrattenimento Accessori Supporto 0 + Paga il tuo nuovo iPhone 17e in 24 mesi a tasso zero con le opzioni di finanziamento flessibile. Nota ① Scopri di più sulle rate mensili iPhone 17e Da € 879,00 o € 36,63 al mese per 24 mesi, TAN fisso 0% Nota ① Spedizione gratuita Ritiro all’Apple Store Acquista iPhone 17e Da € 879,00 o € 36,63 al mese per 24 mesi, TAN fisso 0% Nota ① Apple Intelligence Nota 4 Scopri di più, iPhone 17e Permuta il tuo dispositivo e ricevi un credito da € 30 a € 1.020 con la permuta Nota ◊◊ Pagamento a rate mensili Nota ① Immagine precedente della galleria Immagine successiva della galleria Colore. Scegli quello che preferisci. Colore Rosa chiaro Bianco Nero Archiviazione. Quanto spazio ti serve? 256GB Nota 1 Da € 879,00 o € 36,63 al mese per 24 mesi, TAN fisso 0% Nota ① 512GB Nota 1 Da € 1.129,00 o € 47,04 al mese per 24 mesi, TAN fisso 0% Nota ① Non sai quanto spazio ti serve? Ti aiutiamo a capire di quanto spazio puoi avere bisogno. Mostra di più Apple Trade In.Ricevi un credito da € 30 a € 1.020 per il tuo nuovo iPhone. Nota ◊◊ Aggiungi una permuta Rispondi ad alcune domande per avere una stima. Senza permuta Come funziona la permuta? Scopri come risparmiare su questo acquisto con una permuta. O ricicla gratis il tuo dispositivo. Mostra di più Copertura AppleCare. Dormi sonni tranquilli con qualsiasi piano. Nota ∆ AppleCare+ Interventi illimitati per danni accidentali, come cad"
+  },
+  {
+   "url": "https://www.apple.com/it/shop/buy-iphone/iphone-16",
+   "status": 200,
+   "final_url": "https://www.apple.com/it/shop/buy-iphone/iphone-16",
+   "title": "Acquista iPhone 16 - Apple (IT)",
+   "json_urls": [
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
+    "https://www.apple.com/it/shop/favoritesx/fetch",
+    "https://www.apple.com/it/shop/sba/d/init?fnode=2543aab183a43bd9ebf4b4e409d32a92e1c6456a94dd075883ebd3bb0841e07b82aca7e9ec6208eda98a677040236bd3cf3dc917596c04495",
+    "https://www.apple.com/it/shop/api/product-gallery?fae=true&node=home%2Fshop_iphone%2Ffamily%2Fiphone_16%2Fselect&dm.dimensionScreensize=6_1inch",
+    "https://www.apple.com/it/shop/api/product-gallery?fae=true&node=home%2Fshop_iphone%2Ffamily%2Fiphone_16%2Fselect&dm.dimensionScreensize=6_1inch"
+   ],
+   "links": [
+    "https://www.apple.com/it/shop/buy-iphone/iphone-16",
+    "https://www.apple.com/it/shop/buy-iphone/iphone-duo",
+    "https://www.apple.com/it/shop/buy-iphone/iphone-18-pro",
+    "https://www.apple.com/it/shop/buy-iphone/iphone-air",
+    "https://www.apple.com/it/shop/buy-iphone/iphone-17",
+    "https://www.apple.com/it/shop/buy-iphone/iphone-17e"
+   ],
+   "tiles": [
+    "iPhone 16 Display da 6,1\" Nota 2Con 128GB di spazio di archiviazione Da € 1.029,00 o € 42,88 al mese per 24 mesi, TAN fisso 0% Nota ①",
+    "128GB Nota 1 Da € 1.029,00 o € 42,88 al mese per 24 mesi, TAN fisso 0% Nota ①",
+    "128GB Nota 1 Bianco Unlocked € 1.029,00",
+    "128GB Nota 1 Nero Unlocked € 1.029,00",
+    "128GB Nota 1 Rosa Unlocked € 1.029,00",
+    "128GB Nota 1 Verde acqua Unlocked € 1.029,00",
+    "128GB Nota 1 Blu oltremare Unlocked € 1.029,00"
+   ],
+   "price_texts": [
+    "Da € 1.029,00",
+    "o € 42,88 al mese per 24 mesi, TAN fisso 0% Nota ①",
+    "Da € 1.029,00",
+    "o € 42,88 al mese per 24 mesi, TAN fisso 0% Nota ①",
+    "€ 189,00 o € 9,99 al mese.",
+    "€ 249,00 o € 12,99 al mese.",
+    "€ 1.029,00",
+    "€ 1.029,00",
+    "€ 1.029,00",
+    "€ 1.029,00"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 5,
+    "jsonld": 1,
+    "dom-tile": 3
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch AirPods Casa Intrattenimento Accessori Supporto 0 + Paga il tuo nuovo iPhone 16 in 24 mesi a tasso zero con le opzioni di finanziamento flessibile. Nota ① Scopri di più sulle rate mensili iPhone 16 Da € 1.029,00 o € 42,88 al mese per 24 mesi, TAN fisso 0% Nota ① Spedizione gratuita Ritiro all’Apple Store Acquista iPhone 16 Da € 1.029,00 o € 42,88 al mese per 24 mesi, TAN fisso 0% Nota ① Apple Intelligence Nota 4 Scopri di più, iPhone 16 Permuta il tuo dispositivo e ricevi un credito da € 30 a € 1.020 con la permuta Nota ◊◊ Pagamento a rate mensili Nota ① Immagine precedente della galleria Immagine successiva della galleria Colore. Scegli quello che preferisci. Colore Blu oltremare Verde acqua Bianco Rosa Nero Archiviazione. Quanto spazio ti serve? 128GB Nota 1 Da € 1.029,00 o € 42,88 al mese per 24 mesi, TAN fisso 0% Nota ① Apple Trade In.Ricevi un credito da € 30 a € 1.020 per il tuo nuovo iPhone. Nota ◊◊ Aggiungi una permuta Rispondi ad alcune domande per avere una stima. Senza permuta Come funziona la permuta? Scopri come risparmiare su questo acquisto con una permuta. O ricicla gratis il tuo dispositivo. Mostra di più Copertura AppleCare. Dormi sonni tranquilli con qualsiasi piano. Nota ∆ AppleCare+ Interventi illimitati per danni accidentali, come cadute e schizzi Assistenza prioritaria da parte del team Apple Servizio sostituzioni express: ti spediamo un dispositivo sostitutivo, così non devi aspettare la ripara"
+  },
+  {
+   "url": "https://www.apple.com/it/shop/buy-ipad/ipad-pro",
+   "status": 200,
+   "final_url": "https://www.apple.com/it/shop/buy-ipad/ipad-pro",
+   "title": "Acquista iPad Pro - Apple (IT)",
+   "json_urls": [
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
+    "https://www.apple.com/it/shop/favoritesx/fetch",
+    "https://www.apple.com/it/shop/sba/d/init?fnode=e11d37f2489c9be64742ee2a2ac7ba2115cad79c7cef6427dabf44de1c1f7baf014a17b66e826fa9b10c1ceb18c47ee00e52eef28838bb17c",
+    "https://www.apple.com/it/shop/engrave/json?fae=true&product=MX2D3ZM%2FA"
+   ],
+   "links": [
+    "https://www.apple.com/it/shop/buy-ipad/ipad-pro",
+    "https://www.apple.com/it/shop/buy-ipad/ipad-air",
+    "https://www.apple.com/it/shop/buy-ipad/ipad",
+    "https://www.apple.com/it/shop/buy-ipad/ipad-mini"
+   ],
+   "tiles": [
+    "256GB di archiviazione Nota 2 12GB di memoria Chip M5: CPU 9‑core, GPU 10‑core Da € 1.319,00 o € 43,18 al mese per 36 mesi, TAN fisso 10,99% Nota ②",
+    "512GB di archiviazione Nota 2 12GB di memoria Chip M5: CPU 9‑core, GPU 10‑core Da € 1.569,00 o € 51,37 al mese per 36 mesi, TAN fisso 11% Nota ②",
+    "1TB di archiviazione Nota 2 16GB di memoria Chip M5: CPU 10‑core, GPU 10‑core Da € 2.049,00 o € 67,08 al mese per 36 mesi, TAN fisso 10,99% Nota ②",
+    "2TB di archiviazione Nota 2 16GB di memoria Chip M5: CPU 10-core, GPU 10-core Da € 2.669,00 o € 87,38 al mese per 36 mesi, TAN fisso 11% Nota ②",
+    "Vetro nanotexture Disponibile per i modelli da 1TB o 2TB Da € 2.179,00 o € 71,34 al mese per 36 mesi, TAN fisso 11% Nota ②",
+    "2TB di archiviazione Nota 2 16GB di memoria Chip M5:CPU 10-core, GPU 10-core Nero siderale Wi-FiOgni iPad può connettersi al Wi-Fi. € 2.669,00",
+    "256GB di archiviazione Nota 2 12GB di memoria Chip M5:CPU 9‑core, GPU 10‑core Nero siderale Wi-FiOgni iPad può connettersi al Wi-Fi. € 1.319,00",
+    "512GB di archiviazione Nota 2 12GB di memoria Chip M5:CPU 9‑core, GPU 10‑core Nero siderale Wi-FiOgni iPad può connettersi al Wi-Fi. € 1.569,00",
+    "1TB di archiviazione Nota 2 16GB di memoria Chip M5:CPU 10‑core, GPU 10‑core Nero siderale Wi-FiOgni iPad può connettersi al Wi-Fi. € 2.049,00",
+    "2TB di archiviazione Nota 2 16GB di memoria Chip M5:CPU 10-core, GPU 10-core Argento Wi-FiOgni iPad può connettersi al Wi-Fi. € 2.669,00",
+    "512GB di archiviazione Nota 2 12GB di memoria Chip M5:CPU 9‑core, GPU 10‑core Argento Wi-FiOgni iPad può connettersi al Wi-Fi. € 1.569,00",
+    "256GB di archiviazione Nota 2 12GB di memoria Chip M5:CPU 9‑core, GPU 10‑core Argento Wi-FiOgni iPad può connettersi al Wi-Fi. € 1.319,00",
+    "1TB di archiviazione Nota 2 16GB di memoria Chip M5:CPU 10‑core, GPU 10‑core Argento Wi-FiOgni iPad può connettersi al Wi-Fi. € 2.049,00",
+    "2TB di archiviazione Nota 2 16GB di memoria Chip M5:CPU 10-core, GPU 10-core Argento Wi-FiOgni iPad può connettersi al Wi-Fi. € 2.799,00",
+    "1TB di archiviazione Nota 2 16GB di memoria Chip M5:CPU 10‑core, GPU 10‑core Argento Wi-FiOgni iPad può connettersi al Wi-Fi. € 2.179,00"
+   ],
+   "price_texts": [
+    "Da € 1.319,00",
+    "o € 43,18 al mese per 36 mesi, TAN fisso 10,99% Nota ②",
+    "Da € 1.669,00",
+    "o € 54,64 al mese per 36 mesi, TAN fisso 10,99% Nota ②",
+    "Da € 1.319,00",
+    "o € 43,18 al mese per 36 mesi, TAN fisso 10,99% Nota ②",
+    "Da € 1.569,00",
+    "o € 51,37 al mese per 36 mesi, TAN fisso 11% Nota ②",
+    "Da € 2.049,00",
+    "o € 67,08 al mese per 36 mesi, TAN fisso 10,99% Nota ②"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 48,
+    "jsonld": 48,
+    "dom-price": 1
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch AirPods Casa Intrattenimento Accessori Supporto 0 + Acquista iPad Pro 11\" con il finanziamento flessibile a partire da € 43,18 al mese per 36 mesi con TAN fisso 10,99%. Nota ② E se fai la permuta, le rate saranno più basse. Nota ① Scopri di più sulle rate mensili iPad Pro Da € 1.319,00 o € 43,18 al mese per 36 mesi, TAN fisso 10,99% Nota ② Spedizione gratuita Ritiro all’Apple Store Acquista iPad Pro Da € 1.319,00 o € 43,18 al mese per 36 mesi, TAN fisso 10,99% Nota ② Apple Intelligence Nota 4 Scopri di più, iPad Pro 11\" Permuta il tuo dispositivo e ricevi un credito da € 30 a € 1.100 con la permuta Nota ① Pagamento a rate mensili Nota ② Immagine precedente della galleria Immagine successiva della galleria Modello. Scegli una misura. Modello da 11\" Display Ultra Retina XDR Da € 1.319,00 o € 43,18 al mese per 36 mesi, TAN fisso 10,99% Nota ② Modello da 13\" Display Ultra Retina XDR Da € 1.669,00 o € 54,64 al mese per 36 mesi, TAN fisso 10,99% Nota ② Ultra Retina XDR: vuoi saperne di più? Immergiti nel nostro display più evoluto di sempre. Mostra di più Colore. Scegli quello che preferisci. Colore Nero siderale Argento Archiviazione, memoria e chip. Scegli la configurazione. 256GB di archiviazione Nota 2 12GB di memoria Chip M5: CPU 9‑core, GPU 10‑core Da € 1.319,00 o € 43,18 al mese per 36 mesi, TAN fisso 10,99% Nota ② 512GB di archiviazione Nota 2 12GB di memoria Chip M5: CPU 9‑core, GPU 10‑core Da € 1.569,00 o € 51"
+  },
+  {
+   "url": "https://www.apple.com/it/shop/buy-ipad/ipad-air",
+   "status": 200,
+   "final_url": "https://www.apple.com/it/shop/buy-ipad/ipad-air",
+   "title": "Acquista iPad Air - Apple (IT)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
+    "https://www.apple.com/it/shop/favoritesx/fetch",
+    "https://www.apple.com/it/shop/sba/d/init?fnode=6c30fe1fbbd2013599c4909324132266e03d5e53abf2e86cf96066eea750eb6324aef62b6ca6832abe5a768f88d29c4eda44bcf7b84b4a7f0",
+    "https://www.apple.com/it/shop/engrave/json?fae=true&product=MX2D3ZM%2FA"
+   ],
+   "links": [
+    "https://www.apple.com/it/shop/buy-ipad/ipad-air",
+    "https://www.apple.com/it/shop/buy-ipad/ipad-pro",
+    "https://www.apple.com/it/shop/buy-ipad/ipad",
+    "https://www.apple.com/it/shop/buy-ipad/ipad-mini"
+   ],
+   "tiles": [
+    "128GB Nota 2 Da € 829,00 o € 27,14 al mese per 36 mesi, TAN fisso 10,99% Nota ②",
+    "256GB Nota 2 Da € 959,00 o € 31,40 al mese per 36 mesi, TAN fisso 11% Nota ②",
+    "512GB Nota 2 Da € 1.209,00 o € 39,58 al mese per 36 mesi, TAN fisso 10,99% Nota ②",
+    "1TB Nota 2 Da € 1.589,00 o € 52,02 al mese per 36 mesi, TAN fisso 10,99% Nota ②",
+    "512GB Nota 2 Grigio siderale Wi-FiOgni iPad può connettersi al Wi-Fi. € 1.209,00",
+    "1TB Nota 2 Grigio siderale Wi-FiOgni iPad può connettersi al Wi-Fi. € 1.589,00",
+    "128GB Nota 2 Grigio siderale Wi-FiOgni iPad può connettersi al Wi-Fi. € 829,00",
+    "256GB Nota 2 Grigio siderale Wi-FiOgni iPad può connettersi al Wi-Fi. € 959,00",
+    "512GB Nota 2 Galassia Wi-FiOgni iPad può connettersi al Wi-Fi. € 1.209,00",
+    "1TB Nota 2 Galassia Wi-FiOgni iPad può connettersi al Wi-Fi. € 1.589,00",
+    "128GB Nota 2 Galassia Wi-FiOgni iPad può connettersi al Wi-Fi. € 829,00",
+    "256GB Nota 2 Galassia Wi-FiOgni iPad può connettersi al Wi-Fi. € 959,00",
+    "512GB Nota 2 Viola Wi-FiOgni iPad può connettersi al Wi-Fi. € 1.209,00",
+    "1TB Nota 2 Viola Wi-FiOgni iPad può connettersi al Wi-Fi. € 1.589,00",
+    "128GB Nota 2 Viola Wi-FiOgni iPad può connettersi al Wi-Fi. € 829,00"
+   ],
+   "price_texts": [
+    "Da € 829,00",
+    "o € 27,14 al mese per 36 mesi, TAN fisso 10,99% Nota ②",
+    "Da € 1.029,00",
+    "o € 33,69 al mese per 36 mesi, TAN fisso 11% Nota ②",
+    "Da € 829,00",
+    "o € 27,14 al mese per 36 mesi, TAN fisso 10,99% Nota ②",
+    "Da € 959,00",
+    "o € 31,40 al mese per 36 mesi, TAN fisso 11% Nota ②",
+    "Da € 1.209,00",
+    "o € 39,58 al mese per 36 mesi, TAN fisso 10,99% Nota ②"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 64,
+    "jsonld": 64,
+    "dom-price": 1
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch AirPods Casa Intrattenimento Accessori Supporto 0 + Acquista 11-inch iPad Air con il finanziamento flessibile a partire da € 27,14 al mese per 36 mesi con TAN fisso 10,99%. Nota ② E se fai la permuta, le rate saranno più basse. Nota ① Scopri di più sulle rate mensili iPad Air Da € 829,00 o € 27,14 al mese per 36 mesi, TAN fisso 10,99% Nota ② Spedizione gratuita Ritiro all’Apple Store Acquista iPad Air Da € 829,00 o € 27,14 al mese per 36 mesi, TAN fisso 10,99% Nota ② Apple Intelligence Nota 4 Scopri di più, iPad Air 11\" Permuta il tuo dispositivo e ricevi un credito da € 30 a € 1.100 con la permuta Nota ① Pagamento a rate mensili Nota ② Immagine precedente della galleria Immagine successiva della galleria Modello. Scegli una misura. Modello da 11\" Da € 829,00 o € 27,14 al mese per 36 mesi, TAN fisso 10,99% Nota ② Modello da 13\" Da € 1.029,00 o € 33,69 al mese per 36 mesi, TAN fisso 11% Nota ② Colore. Scegli quello che preferisci. Colore Viola Blu Galassia Grigio siderale Archiviazione. Scegli lo spazio che ti serve. 128GB Nota 2 Da € 829,00 o € 27,14 al mese per 36 mesi, TAN fisso 10,99% Nota ② 256GB Nota 2 Da € 959,00 o € 31,40 al mese per 36 mesi, TAN fisso 11% Nota ② 512GB Nota 2 Da € 1.209,00 o € 39,58 al mese per 36 mesi, TAN fisso 10,99% Nota ② 1TB Nota 2 Da € 1.589,00 o € 52,02 al mese per 36 mesi, TAN fisso 10,99% Nota ② Non sai quanto spazio ti serve? Maggiore è la capacità del tuo iPad Air, più"
+  },
+  {
+   "url": "https://www.apple.com/it/shop/buy-ipad/ipad",
+   "status": 200,
+   "final_url": "https://www.apple.com/it/shop/buy-ipad/ipad",
+   "title": "Acquista iPad - Apple (IT)",
+   "json_urls": [
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
+    "https://www.apple.com/it/shop/favoritesx/fetch",
+    "https://www.apple.com/it/shop/sba/d/init?fnode=7fb9dc9b54ad2579dfe54fb9ce69da8129a9854e52cd9b178ab4ed2093bd6bb95cbd19483ef3cccf3317595787465073622cb6dcdc6e60d00"
+   ],
+   "links": [
+    "https://www.apple.com/it/shop/buy-ipad/ipad",
+    "https://www.apple.com/it/shop/buy-ipad/ipad-pro",
+    "https://www.apple.com/it/shop/buy-ipad/ipad-air",
+    "https://www.apple.com/it/shop/buy-ipad/ipad-mini"
+   ],
+   "tiles": [
+    "128GB Nota 2 Da € 509,00 o € 16,66 al mese per 36 mesi, TAN fisso 10,98% Nota ②",
+    "256GB Nota 2 Da € 639,00 o € 20,92 al mese per 36 mesi, TAN fisso 10,99% Nota ②",
+    "512GB Nota 2 Da € 889,00 o € 29,10 al mese per 36 mesi, TAN fisso 10,98% Nota ②",
+    "128GB Nota 2 Blu Wi-FiOgni iPad può connettersi al Wi-Fi. € 509,00",
+    "256GB Nota 2 Blu Wi-FiOgni iPad può connettersi al Wi-Fi. € 639,00",
+    "512GB Nota 2 Blu Wi-FiOgni iPad può connettersi al Wi-Fi. € 889,00",
+    "128GB Nota 2 Argento Wi-FiOgni iPad può connettersi al Wi-Fi. € 509,00",
+    "256GB Nota 2 Argento Wi-FiOgni iPad può connettersi al Wi-Fi. € 639,00",
+    "512GB Nota 2 Argento Wi-FiOgni iPad può connettersi al Wi-Fi. € 889,00",
+    "128GB Nota 2 Rosa Wi-FiOgni iPad può connettersi al Wi-Fi. € 509,00",
+    "256GB Nota 2 Rosa Wi-FiOgni iPad può connettersi al Wi-Fi. € 639,00",
+    "512GB Nota 2 Rosa Wi-FiOgni iPad può connettersi al Wi-Fi. € 889,00",
+    "128GB Nota 2 Giallo Wi-FiOgni iPad può connettersi al Wi-Fi. € 509,00",
+    "256GB Nota 2 Giallo Wi-FiOgni iPad può connettersi al Wi-Fi. € 639,00",
+    "512GB Nota 2 Giallo Wi-FiOgni iPad può connettersi al Wi-Fi. € 889,00"
+   ],
+   "price_texts": [
+    "Da € 509,00",
+    "o € 16,66 al mese per 36 mesi, TAN fisso 10,98% Nota ②",
+    "Da € 639,00",
+    "o € 20,92 al mese per 36 mesi, TAN fisso 10,99% Nota ②",
+    "Da € 889,00",
+    "o € 29,10 al mese per 36 mesi, TAN fisso 10,98% Nota ②",
+    "Da € 509,00",
+    "o € 16,66 al mese per 36 mesi, TAN fisso 10,98% Nota ②",
+    "Da € 679,00",
+    "o € 22,23 al mese per 36 mesi, TAN fisso 11% Nota ②"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 24,
+    "jsonld": 24,
+    "dom-price": 1
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch AirPods Casa Intrattenimento Accessori Supporto 0 + Acquista iPad con il finanziamento flessibile a partire da € 16,66 al mese per 36 mesi con TAN fisso 10,98%. Nota ② E se fai la permuta, le rate saranno più basse. Nota ① Scopri di più sulle rate mensili iPad Da € 509,00 o € 16,66 al mese per 36 mesi, TAN fisso 10,98% Nota ② Spedizione gratuita Ritiro all’Apple Store Acquista iPad Da € 509,00 o € 16,66 al mese per 36 mesi, TAN fisso 10,98% Nota ② Scopri di più, iPad Permuta il tuo dispositivo e ricevi un credito da € 30 a € 1.100 con la permuta Nota ① Pagamento a rate mensili Nota ② Immagine precedente della galleria Immagine successiva della galleria Colore. Scegli quello che preferisci. Colore Argento Rosa Blu Giallo Archiviazione. Scegli lo spazio che ti serve. 128GB Nota 2 Da € 509,00 o € 16,66 al mese per 36 mesi, TAN fisso 10,98% Nota ② 256GB Nota 2 Da € 639,00 o € 20,92 al mese per 36 mesi, TAN fisso 10,99% Nota ② 512GB Nota 2 Da € 889,00 o € 29,10 al mese per 36 mesi, TAN fisso 10,98% Nota ② Non sai quanto spazio ti serve? Maggiore è la capacità del tuo iPad, più spazio avrai per archiviare contenuti digitali, oggi e in futuro. Mostra di più Connessioni. Scegli come restare in contatto con il mondo. Wi-Fi Ogni iPad può connettersi al Wi-Fi. Da € 509,00 o € 16,66 al mese per 36 mesi, TAN fisso 10,98% Nota ② Wi-Fi + Cellular Con i modelli Wi‑Fi + Cellular rimani online anche quando non c’è una rete Wi‑Fi"
+  },
+  {
+   "url": "https://www.apple.com/it/shop/buy-ipad/ipad-mini",
+   "status": 200,
+   "final_url": "https://www.apple.com/it/shop/buy-ipad/ipad-mini",
+   "title": "Acquista iPad mini - Apple (IT)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
+    "https://www.apple.com/it/shop/favoritesx/fetch",
+    "https://www.apple.com/it/shop/sba/d/init?fnode=cf0896c6e421fe3d89f3229ccb3f1dd59377a95c4be6357f8f8075f6cddad3679472d8d17c3f8f658015086b80819f0767615bbce7df202e7",
+    "https://www.apple.com/it/shop/engrave/json?fae=true&product=MX2D3ZM%2FA"
+   ],
+   "links": [
+    "https://www.apple.com/it/shop/buy-ipad/ipad-mini",
+    "https://www.apple.com/it/shop/buy-ipad/ipad-pro",
+    "https://www.apple.com/it/shop/buy-ipad/ipad-air",
+    "https://www.apple.com/it/shop/buy-ipad/ipad"
+   ],
+   "tiles": [
+    "128GB Chip A20 Pro: CPU 5‑core, GPU 7‑core, Neural Engine 16‑core Da € 759,00 o € 24,85 al mese per 36 mesi, TAN fisso 11% Nota ②",
+    "256GB Chip A20 Pro: CPU 5‑core, GPU 7‑core, Neural Engine 16‑core Da € 889,00 o € 29,10 al mese per 36 mesi, TAN fisso 10,98% Nota ②",
+    "512GB Chip A20 Pro: CPU 6‑core, GPU 7‑core, due Neural Engine 16‑core Da € 1.139,00 o € 37,29 al mese per 36 mesi, TAN fisso 11% Nota ②",
+    "Vetro nanotexture Disponibile per i modelli da 256GB o 512GB Da € 1.019,00 o € 33,36 al mese per 36 mesi, TAN fisso 10,99% Nota ②",
+    "256GB Chip A20 Pro:CPU 5‑core, GPU 7‑core,Neural Engine 16‑core Galassia Wi-FiOgni iPad può connettersi al Wi-Fi. € 1.019,00",
+    "256GB Chip A20 Pro:CPU 5‑core, GPU 7‑core,Neural Engine 16‑core Mezzanotte Wi-FiOgni iPad può connettersi al Wi-Fi. € 1.019,00",
+    "128GB Chip A20 Pro:CPU 5‑core, GPU 7‑core,Neural Engine 16‑core Mezzanotte Wi-FiOgni iPad può connettersi al Wi-Fi. € 759,00",
+    "256GB Chip A20 Pro:CPU 5‑core, GPU 7‑core,Neural Engine 16‑core Mezzanotte Wi-FiOgni iPad può connettersi al Wi-Fi. € 889,00",
+    "128GB Chip A20 Pro:CPU 5‑core, GPU 7‑core,Neural Engine 16‑core Galassia Wi-FiOgni iPad può connettersi al Wi-Fi. € 759,00",
+    "256GB Chip A20 Pro:CPU 5‑core, GPU 7‑core,Neural Engine 16‑core Galassia Wi-FiOgni iPad può connettersi al Wi-Fi. € 889,00"
+   ],
+   "price_texts": [
+    "Da € 759,00",
+    "o € 24,85 al mese per 36 mesi, TAN fisso 11% Nota ②",
+    "Da € 889,00",
+    "o € 29,10 al mese per 36 mesi, TAN fisso 10,98% Nota ②",
+    "Da € 1.139,00",
+    "o € 37,29 al mese per 36 mesi, TAN fisso 11% Nota ②",
+    "Da € 759,00",
+    "o € 24,85 al mese per 36 mesi, TAN fisso 11% Nota ②",
+    "Da € 1.019,00",
+    "o € 33,36 al mese per 36 mesi, TAN fisso 10,99% Nota ②"
+   ],
+   "items_by_source": {
+    "apple-bootstrap": 20,
+    "jsonld": 20,
+    "dom-price": 1
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch AirPods Casa Intrattenimento Accessori Supporto 0 + Acquista iPad mini con il finanziamento flessibile a partire da € 24,85 al mese per 36 mesi con TAN fisso 11%. Nota ② E se fai la permuta, le rate saranno più basse. Nota ① Scopri di più sulle rate mensili iPad mini Da € 759,00 o € 24,85 al mese per 36 mesi, TAN fisso 11% Nota ② Spedizione gratuita Ritiro all’Apple Store Novità Preordina iPad mini Disponibile dal 6/11. Da € 759,00 o € 24,85 al mese per 36 mesi, TAN fisso 11% Nota ② Apple Intelligence Nota 3 Scopri di più, iPad mini Permuta il tuo dispositivo e ricevi un credito da € 30 a € 1.100 con la permuta Nota ① Pagamento a rate mensili Nota ② Immagine precedente della galleria Immagine successiva della galleria Colore. Scegli quello che preferisci. Colore Mezzanotte Galassia Archiviazione e chip. Scegli la configurazione. 128GB Chip A20 Pro: CPU 5‑core, GPU 7‑core, Neural Engine 16‑core Da € 759,00 o € 24,85 al mese per 36 mesi, TAN fisso 11% Nota ② 256GB Chip A20 Pro: CPU 5‑core, GPU 7‑core, Neural Engine 16‑core Da € 889,00 o € 29,10 al mese per 36 mesi, TAN fisso 10,98% Nota ② 512GB Chip A20 Pro: CPU 6‑core, GPU 7‑core, due Neural Engine 16‑core Da € 1.139,00 o € 37,29 al mese per 36 mesi, TAN fisso 11% Nota ② Non sai quanto spazio ti serve? Maggiore è la capacità del tuo iPad mini, più spazio avrai per archiviare contenuti digitali, oggi e in futuro. Mostra di più Vetro del display. Scegli il vetro che fa"
+  },
+  {
+   "url": "https://www.apple.com/it/shop/buy-watch/apple-watch",
+   "status": 200,
+   "final_url": "https://www.apple.com/it/shop/buy-watch/apple-watch",
+   "title": "Acquista Apple Watch Series 12 - Apple (IT)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
+    "https://www.apple.com/it/shop/sba/d/init?fnode=9438533e7ab55b56ebc337c3f7f911ad46be140d96ad7570cebcf292e059b7e362f7afa73928d2312256d05823e2a340037c4f0fa1185aa38",
+    "https://www.apple.com/it/shop/favoritesx/fetch"
+   ],
+   "links": [
+    "https://www.apple.com/it/shop/buy-watch/apple-watch"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "Da € 459,00",
+    "o € 15,03 al mese per 36 mesi, TAN fisso 11,01% Nota ①",
+    "Da € 809,00",
+    "o € 26,49 al mese per 36 mesi, TAN fisso 11,01% Nota ①",
+    "Da € 1.059,00",
+    "o € 34,67 al mese per 36 mesi, TAN fisso 10,99% Nota ①",
+    "Da € 459,00",
+    "o € 15,03 al mese per 36 mesi, TAN fisso 11,01% Nota ①",
+    "Da € 509,00",
+    "o € 16,66 al mese per 36 mesi, TAN fisso 10,98% Nota ①"
+   ],
+   "items_by_source": {
+    "jsonld": 1,
+    "dom-price": 1
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch AirPods Casa Intrattenimento Accessori Supporto 0 + Acquista Apple Watch Series 12 con il finanziamento flessibile a partire da € 15,03 al mese per 36 mesi con TAN fisso 11,01%. Nota ① E se fai la permuta, le rate saranno più basse. Nota ② Scopri di più sulle rate mensili Apple Watch Series 12 Da € 459,00 o € 15,03 al mese per 36 mesi, TAN fisso 11,01% Nota ① Spedizione gratuita Ritiro all’Apple Store Novità Acquista Apple Watch Series 12 Da € 459,00 o € 15,03 al mese per 36 mesi, TAN fisso 11,01% Nota ① Permuta il tuo dispositivo e ricevi un credito da € 25 a € 470 con la permuta Nota ② Pagamento a rate mensili Nota ① Design sottile e leggero, display ampio ed evoluto. Immagine precedente della galleria Immagine successiva della galleria Cassa. Partiamo dal materiale e dal colore. Nuovi colori Alluminio Scegli tra GPS o GPS + Cellular Da € 459,00 o € 15,03 al mese per 36 mesi, TAN fisso 11,01% Nota ① Finitura opaca e display robusto con Ceramic Shield 2. Nota ∆∆ Nuovo colore Titanio Connettività GPS + Cellular Da € 809,00 o € 26,49 al mese per 36 mesi, TAN fisso 11,01% Nota ① Titanio aerospaziale lucido e robusto display in cristallo di zaffiro. Novità Ceramica Connettività GPS + Cellular Da € 1.059,00 o € 34,67 al mese per 36 mesi, TAN fisso 10,99% Nota ① Sofisticato e resistente ai graffi, con una raffinata finitura lucida e un robusto display in cristallo di zaffiro. Ti serve aiuto per scegliere il materiale del"
+  },
+  {
+   "url": "https://www.apple.com/it/shop/buy-watch/apple-watch-se",
+   "status": 200,
+   "final_url": "https://www.apple.com/it/shop/buy-watch/apple-watch-se",
+   "title": "Acquista Apple Watch SE 3 - Apple (IT)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
+    "https://www.apple.com/it/shop/sba/d/init?fnode=61975dad8899fd847c9a16b7024bb91b4b95bb3dbcc826a133dbd7a13cc398c864924bb9ab1cb601a23db536f2d9334c38d83e895e6cbccd3",
+    "https://www.apple.com/it/shop/favoritesx/fetch"
+   ],
+   "links": [
+    "https://www.apple.com/it/shop/buy-watch/apple-watch-se"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "Da € 279,00",
+    "o € 9,13 al mese per 36 mesi, TAN fisso 10,96% Nota ①",
+    "Da € 309,00",
+    "o € 10,12 al mese per 36 mesi, TAN fisso 11,02% Nota ①",
+    "Da € 279,00",
+    "o € 9,13 al mese per 36 mesi, TAN fisso 10,96% Nota ①",
+    "Da € 329,00",
+    "o € 10,77 al mese per 36 mesi, TAN fisso 10,99% Nota ①",
+    "€ 59,00 o € 2,99 al mese.",
+    "A partire da € 459"
+   ],
+   "items_by_source": {
+    "jsonld": 1,
+    "dom-price": 1
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch AirPods Casa Intrattenimento Accessori Supporto 0 + Acquista Apple Watch SE 3 con il finanziamento flessibile a partire da € 9,13 al mese per 36 mesi con TAN fisso 10,96%. Nota ① E se fai la permuta, le rate saranno più basse. Nota ② Scopri di più sulle rate mensili Apple Watch SE 3 Da € 279,00 o € 9,13 al mese per 36 mesi, TAN fisso 10,96% Nota ① Spedizione gratuita Ritiro all’Apple Store Acquista Apple Watch SE 3 Da € 279,00 o € 9,13 al mese per 36 mesi, TAN fisso 10,96% Nota ① Permuta il tuo dispositivo e ricevi un credito da € 25 a € 470 con la permuta Nota ② Pagamento a rate mensili Nota ① Alluminio. Alluminio riciclato al 100%. Perfetta per le attività di ogni giorno e tutti i i tipi di allenamento. Immagine precedente della galleria Immagine successiva della galleria Cassa. Partiamo dal colore. Colore Mezzanotte Galassia Dimensioni della cassa. Scegli quella più adatta a te. 40 mm Da € 279,00 o € 9,13 al mese per 36 mesi, TAN fisso 10,96% Nota ① 44 mm Da € 309,00 o € 10,12 al mese per 36 mesi, TAN fisso 11,02% Nota ① Ti serve aiuto per scegliere la misura? Scopri come cambiano le dimensioni del display e il peso della cassa. Mostra di più Connessioni. Rimani in contatto con o senza il telefono. GPS Fai chiamate e invia messaggi quando hai con te il tuo iPhone. Da € 279,00 o € 9,13 al mese per 36 mesi, TAN fisso 10,96% Nota ① GPS + Cellular Chiama e invia messaggi anche solo con Apple Watch. Da € 329,00 o € 10,7"
+  },
+  {
+   "url": "https://www.apple.com/it/shop/buy-watch/apple-watch-hermes",
+   "status": 200,
+   "final_url": "https://www.apple.com/it/shop/buy-watch/apple-watch-hermes",
+   "title": "Acquista Apple Watch Hermès Series 12 - Apple (IT)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
+    "https://www.apple.com/it/shop/sba/d/init?fnode=87c76c5d86ba739032cfe8f048b4082f31047b55d86e52dc6839a52ee6a6d998e847d3c61e295fde4621346282239f1d9af544eb76ea4f4dc",
+    "https://www.apple.com/it/shop/favoritesx/fetch"
+   ],
+   "links": [
+    "https://www.apple.com/it/shop/buy-watch/apple-watch-hermes"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "Da € 1.609,00",
+    "o € 52,68 al mese per 36 mesi, TAN fisso 11% Nota ①",
+    "Da € 1.659,00",
+    "o € 54,31 al mese per 36 mesi, TAN fisso 10,99% Nota ①",
+    "€ 169,00 o € 5,49 al mese.",
+    "A partire da € 459",
+    "A partire da € 909",
+    "A partire da € 279"
+   ],
+   "items_by_source": {
+    "jsonld": 1,
+    "dom-price": 1
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch AirPods Casa Intrattenimento Accessori Supporto 0 + Acquista Apple Watch Series 12 con il finanziamento flessibile a partire da € 52,68 al mese per 36 mesi con TAN fisso 11%. Nota ① E se fai la permuta, le rate saranno più basse. Nota ② Scopri di più sulle rate mensili Apple Watch Hermès Series 12 Da € 1.609,00 o € 52,68 al mese per 36 mesi, TAN fisso 11% Nota ① Spedizione gratuita Ritiro all’Apple Store Novità Acquista Apple Watch Hermès Series 12 Da € 1.609,00 o € 52,68 al mese per 36 mesi, TAN fisso 11% Nota ① Permuta il tuo dispositivo e ricevi un credito da € 25 a € 470 con la permuta Nota ② Pagamento a rate mensili Nota ① La leggerissima cassa in titanio è disponibile in color argento lucido o nel nuovo colore oro brillante, quest’ultimo solo in abbinamento con l’elegante cinturino Satin Clou de Selle. Immagine precedente della galleria Immagine successiva della galleria Cassa. Partiamo dal colore. Colore Argento Oro brillante Dimensioni della cassa. Scegli quella più adatta a te. 42 mm Da € 1.609,00 o € 52,68 al mese per 36 mesi, TAN fisso 11% Nota ① 46 mm Da € 1.659,00 o € 54,31 al mese per 36 mesi, TAN fisso 10,99% Nota ① Ti serve aiuto per scegliere la misura? Scopri come cambiano le dimensioni del display e il peso della cassa. Mostra di più Cinturino. Scopri tutti gli stili e scegli il tuo preferito. Novità Satin Clou de Selle Un elegante cinturino in tessuto intrecciato, con finitura satinata e celebre dett"
+  },
+  {
+   "url": "https://www.apple.com/it/shop/buy-airpods/airpods-pro-3",
+   "status": 200,
+   "final_url": "https://www.apple.com/it/shop/buy-airpods/airpods-pro-3",
+   "title": "Acquista AirPods Pro 3 - Apple (IT)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
+    "https://www.apple.com/it/shop/favoritesx/fetch",
+    "https://www.apple.com/it/shop/updateSummary?node=home%2Fshop_airpods%2Ffamily%2Fairpods_pro_3&step=select&product=MFHP4ZM%2FA",
+    "https://www.apple.com/it/shop/engrave/json?product=MFHP4ZM%2FA",
+    "https://www.apple.com/it/shop/updateSummary?node=home%2Fshop_airpods%2Ffamily%2Fairpods_pro_3&step=select&product=MFHP4ZM%2FA&ao.applecareprotectionplan=none"
+   ],
+   "links": [
+    "https://www.apple.com/it/shop/buy-airpods/airpods-pro-3"
+   ],
+   "tiles": [],
+   "price_texts": [
+    "€ 39,00o€ 3,25 al mese per 12 mesi, TAN fisso 0% Nota ※",
+    "€ 39,00o€ 3,25 al mese per 12 mesi, TAN fisso 0% Nota ※",
+    "€ 249,00",
+    "€ 249,00",
+    "€ 149",
+    "€ 169",
+    "€ 249",
+    "€ 579"
+   ],
+   "items_by_source": {
+    "jsonld": 1,
+    "dom-price": 1
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch AirPods Casa Intrattenimento Accessori Supporto 0 + AirPods Pro 3 Panoramica Specifiche Acquista gli AirPods Pro 3 Consegna gratuita in un giorno 3 mesi gratis di Apple Fitness+ e Apple Music con i tuoi AirPods Pro 3 Nota ∆, + Resi facili e veloci Chiedici una mano. Chatta ora (Si apre in una nuova finestra) o chiamaci: 800 554 533. Incisione gratuita Acquista gli AirPods Pro 3 Gli auricolari con la migliore cancellazione attiva del rumore al mondo, Nota ¹ ora con rilevamento della frequenza cardiaca Nota ² e fino a 8 ore di autonomia. Nota ¹¹ Incisione gratuita Aggiungi incisione Crea un’incisione con emoji, nomi, lettere e numeri per rendere unici i tuoi AirPods Pro 3. È gratis, e la spedizione resta sempre veloce. Gratis Nessuna incisione AirPods Pro 3 Aggiungi AppleCare+ AppleCare+ per le cuffie € 39,00o€ 3,25 al mese per 12 mesi, TAN fisso 0% Nota ※ Fino a due anni di assistenza tecnica aggiuntiva e un numero illimitato di interventi di riparazione per danni accidentali Nota ※※ Aggiungi AppleCare+ per le cuffie Premio di assicurazione comprensivo di tasse al 21,25% € 249,00 o Finanziamento con Findomestic € 22,01 al mese per 12 mesi, TAN fisso 11,02% Nota ※ Totale dovuto: € 264,12 Scopri di più sul finanziamento flessibile Continua Ti serve ancora un attimo? Puoi conservare tutte le opzioni selezionate e tenere in memoria questo dispositivo nella sezione “I tuoi articoli salvati”, torna quando vuoi e ricomincia da dove avev"
+  }
+ ]
+}
