@@ -9,13 +9,37 @@
    "title": "Cep Telefonu Modelleri ve Fiyatları | Samsung Türkiye",
    "json_urls": [
     "https://www.samsung.com/aemapi/v6/common/i18n/dict.tr_TR.b2c.json",
-    "https://p1-smi-api-cdn.shop.samsung.com/tokocommercewebservices/v2/tr/tnc?context=PRODUCT&value=stock_alert_tc",
     "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
-    "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01010000&siteCode=tr&start=1&num=10&sort=recommended&onlyFilterInfoYN=Y&keySummaryYN=Y",
+    "https://p1-smi-api-cdn.shop.samsung.com/tokocommercewebservices/v2/tr/tnc?context=PRODUCT&value=stock_alert_tc",
+    "https://c.go-mpulse.net/api/config.json?key=VRZKC-5BSTD-4EWS3-R2J59-B8GYB&d=www.samsung.com&t=5978801&v=1.766.0&if=&sl=0&si=25f2fa29-8415-46a8-afc4-ab11ca326de7",
     "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01010000&siteCode=tr&start=1&num=12&sort=newest&onlyFilterInfoYN=N&keySummaryYN=Y&onlyR",
-    "https://c.go-mpulse.net/api/config.json?key=VRZKC-5BSTD-4EWS3-R2J59-B8GYB&d=www.samsung.com&t=5978493&v=1.766.0&if=&sl=0&si=779718b3-10ae-476c-ab92-e17bc6546ee3",
+    "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01010000&siteCode=tr&start=1&num=10&sort=recommended&onlyFilterInfoYN=Y&keySummaryYN=Y",
     "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01010000&siteCode=tr&start=1&num=10&sort=recommended&onlyFilterInfoYN=N&keySummaryYN=Y",
-    "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01010000&siteCode=tr&start=11&num=10&sort=recommended&onlyFilterInfoYN=N&keySummaryYN=Y"
+    "https://collection.decibelinsight.net/i/14121/1817530/c.json",
+    "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01010000&siteCode=tr&start=11&num=10&sort=recommended&onlyFilterInfoYN=N&keySummaryYN=Y",
+    "https://ct.pinterest.com/user/?event=viewcategory&ed=%7B%22event_id%22%3A%22evt_1793640236%22%2C%22property%22%3A%22smartphones%22%7D&tid=2613573010963&cb=17936",
+    "https://ct.pinterest.com/user/?tid=2613573010963&cb=1793640237061&dep=2%2CPAGE_LOAD",
+    "https://cdn1-api.fireworktv.com/embed/v2/channels/samsung_turkey?n=1&_=1793640237996",
+    "https://cdn1-api.fireworktv.com/embed/v2/playlists/vrkDjE/feeds?page_size=10&n=1&channel=samsung_turkey&_=1793640238804",
+    "https://fireworkadservices1.com/api/ad_setting?ad_target_platform=desktop_web&playlist_id=vrkDjE&_=1793640238803",
+    "https://cm.teads.tv/v2/advertiser?referer=https%3A%2F%2Fwww.samsung.com%2Ftr%2Fsmartphones%2Fall-smartphones%2F&tag_version=8.15.5_7e8525b&buyer_pixel_id=2177&h",
+    "https://resources.digital-cloud-west.medallia.com/wdcwest/145272/onsite/onsiteData1792743585958.json",
+    "https://gum.criteo.com/sid/json?origin=onetag&domain=samsung.com&sn=ChromeSyncframe&so=undefined&topUrl=www.samsung.com&ceid=88e7f5a6-825f-4475-b9c9-0982df05a46",
+    "https://prod-video-chat-chat.sprinklr.com/api/livechat/handshake/v2/appHandshake",
+    "https://segment.api.useinsider.com/v4/segments/1793640240013dbdc05504c.9859d53b?partnerid=10001941&fields=93033544bd66d06470a96f9f76ae3546,d45207cc17beb64c9f921",
+    "https://locationv2.api.useinsider.com/?v=2&pId=10001941&",
+    "https://live-chat-static.sprinklr.com/externalLocaleData/60d0d2e27cd0c31873372440_app_954225/tr.json",
+    "https://carrier.useinsider.com/y/v2/z",
+    "https://ams.creativecdn.com/tags/v2?type=json&tc=1",
+    "https://aryuder.api.useinsider.com/v3/status",
+    "https://jb-on-site.api.useinsider.com/handle",
+    "https://prod-video-chat-chat.sprinklr.com/api/livechat/conversation/fetch?sortKey=lastInteractionTime",
+    "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01010000&siteCode=tr&start=21&num=10&sort=recommended&onlyFilterInfoYN=N&keySummaryYN=Y",
+    "https://prod-video-chat-chat.sprinklr.com/api/livechat/prompt/candidatePrompts",
+    "https://carrier.useinsider.com/y/v2/z",
+    "https://prod-video-chat-chat.sprinklr.com/api/livechat/event/fetch-notifications?cursor=A_6ae8c7300000000000000000",
+    "https://carrier.useinsider.com/v2/coupon/info",
+    "https://aryuder.api.useinsider.com/v3/status"
    ],
    "links": [
     "https://www.samsung.com/tr/smartphones/galaxy-z-fold8/buy/"
@@ -34,11 +58,11 @@
     "Toplam Fiyat : 166.999,00 TL"
    ],
    "items_by_source": {
-    "samsung-api": 65,
-    "jsonld": 16,
-    "json": 65
+    "samsung-api": 70,
+    "jsonld": 18,
+    "json": 70
    },
-   "text_sample": "Skip to content Konumunuzu ve dilinizi seçin. Türkiye Devam et Konum ve dil banner'ını kapat global navigation bar Mağaza Mağaza Telefonlar ve Tabletler Telefonlar ve Tabletler Yeni Giyilebilir Cihazlar Giyilebilir Cihazlar TV & AV TV & AV Beyaz Eşyalar Beyaz Eşyalar Ses Sistemleri Ses Sistemleri Monitör & Depolama Monitör & Depolama Kasım Fırsatları Destek Kurumsal için Ara Ara Sepet Giriş yap/Üye ol Yeni Galaxy Z Serisi üyeleri, hafıza yükseltme fırsatına ek vade farksız 3 taksit imkanı ile. Satın al Detaylar için tıklayın Galaxy Akıllı Telefonları Keşfedin Galaxy Akıllı Telefon Galaxy Tab Galaxy Watch Galaxy Buds Galaxy Ring Galaxy Aksesuarlar Tümü Galaxy S Galaxy Z Galaxy A Karşılaştırın Galaxy Akıllı Telefon Aksesuarları Filtreler 55 Sonuç Sıralama Önerilen Hızlı bakış Galaxy Z Fold8 Ultra (Samsung.com’a özel) Ürün Puanları : 4.9 ( Derecelendirme Sayısı : 7,811) Open Tooltip Layer Renk : Haki Haki selected 256 GB selected Charger not included NaN Toplam Fiyat : 166.999,00 TL Satın al Daha fazla bilgi Karşılaştır Galaxy Z Fold8 Ultra (Samsung.com’a özel) Hızlı bakış Galaxy Z Flip8 (Samsung.com’a özel) Ürün Puanları : 4.9 ( Derecelendirme Sayısı : 5,239) Open Tooltip Layer Renk : Mint Mint selected 256 GB selected Charger not included NaN Toplam Fiyat : 115.999,00 TL Satın al Daha fazla bilgi Karşılaştır Galaxy Z Flip8 (Samsung.com’a özel) Hızlı bakış Galaxy Z Fold8 Ürün Puanları : 4.9 ( Derecelendirme Sayısı : 9,060) Open Tooltip Layer Renk : Lavanta Krem Graf"
+   "text_sample": "Skip to content Konumunuzu ve dilinizi seçin. Türkiye Devam et Konum ve dil banner'ını kapat global navigation bar Mağaza Mağaza Telefonlar ve Tabletler Telefonlar ve Tabletler Yeni Giyilebilir Cihazlar Giyilebilir Cihazlar TV & AV TV & AV Beyaz Eşyalar Beyaz Eşyalar Ses Sistemleri Ses Sistemleri Monitör & Depolama Monitör & Depolama Kasım Fırsatları Destek Kurumsal için Ara Ara Sepet Giriş yap/Üye ol Her alışverişte %3 Samsung Rewards puan* Satın al Detaylar için tıklayın Galaxy Akıllı Telefonları Keşfedin Galaxy Akıllı Telefon Galaxy Tab Galaxy Watch Galaxy Buds Galaxy Ring Galaxy Aksesuarlar Tümü Galaxy S Galaxy Z Galaxy A Karşılaştırın Galaxy Akıllı Telefon Aksesuarları Filtreler 55 Sonuç Sıralama Önerilen Hızlı bakış Galaxy Z Fold8 Ultra (Samsung.com’a özel) Ürün Puanları : 4.9 ( Derecelendirme Sayısı : 7,822) Open Tooltip Layer Renk : Haki Haki selected 256 GB selected Charger not included NaN Toplam Fiyat : 166.999,00 TL Satın al Daha fazla bilgi Karşılaştır Galaxy Z Fold8 Ultra (Samsung.com’a özel) Hızlı bakış Galaxy Z Flip8 (Samsung.com’a özel) Ürün Puanları : 4.9 ( Derecelendirme Sayısı : 5,244) Open Tooltip Layer Renk : Mint Mint selected 256 GB selected Charger not included NaN Toplam Fiyat : 115.999,00 TL Satın al Daha fazla bilgi Karşılaştır Galaxy Z Flip8 (Samsung.com’a özel) Hızlı bakış Galaxy Z Fold8 Ürün Puanları : 4.9 ( Derecelendirme Sayısı : 9,069) Open Tooltip Layer Renk : Lavanta Krem Grafit Gri Lavanta selected 1TB 512 GB 256 GB selec"
   },
   {
    "url": "https://www.samsung.com/tr/tablets/all-tablets/",
@@ -48,12 +72,28 @@
    "json_urls": [
     "https://www.samsung.com/aemapi/v6/common/i18n/dict.tr_TR.b2c.json",
     "https://p1-smi-api-cdn.shop.samsung.com/tokocommercewebservices/v2/tr/tnc?context=PRODUCT&value=stock_alert_tc",
-    "https://c.go-mpulse.net/api/config.json?key=VRZKC-5BSTD-4EWS3-R2J59-B8GYB&d=www.samsung.com&t=5978493&v=1.766.0&if=&sl=0&si=d9892fb5-5007-46da-a90f-3f9d304490b2",
-    "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
     "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01020000&siteCode=tr&start=1&num=12&sort=newest&onlyFilterInfoYN=N&keySummaryYN=Y&onlyR",
     "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01020000&siteCode=tr&start=1&num=10&sort=recommended&onlyFilterInfoYN=Y&keySummaryYN=Y",
+    "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+    "https://c.go-mpulse.net/api/config.json?key=VRZKC-5BSTD-4EWS3-R2J59-B8GYB&d=www.samsung.com&t=5978801&v=1.766.0&if=&sl=1&si=9cef3882-2d28-4b4c-a82f-3ad8cf025226",
     "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01020000&siteCode=tr&start=1&num=10&sort=recommended&onlyFilterInfoYN=N&keySummaryYN=Y",
-    "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01020000&siteCode=tr&start=11&num=10&sort=recommended&onlyFilterInfoYN=N&keySummaryYN=Y"
+    "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01020000&siteCode=tr&start=11&num=10&sort=recommended&onlyFilterInfoYN=N&keySummaryYN=Y",
+    "https://resources.digital-cloud-west.medallia.com/wdcwest/145272/onsite/onsiteData1792743585958.json",
+    "https://collection.decibelinsight.net/i/14121/1817530/c.json",
+    "https://ct.pinterest.com/user/?tid=2613573010963&pd=%7B%22pin_unauth%22%3A%22dWlkPU5USXdNalV3WldJdFpqTmlOQzAwTkRNeUxXSXlaak10TXpGaU9EVTVPVGsxWXpVNA%22%7D&cb=179",
+    "https://ct.pinterest.com/user/?event=viewcategory&ed=%7B%22event_id%22%3A%22evt_1793640261%22%2C%22property%22%3A%22tablets%22%7D&tid=2613573010963&cb=179364026",
+    "https://cdn1-api.fireworktv.com/embed/v2/channels/samsung_turkey?n=1&_=1793640262172",
+    "https://ams.creativecdn.com/tags/v2?type=json",
+    "https://cm.teads.tv/v2/advertiser?referer=https%3A%2F%2Fwww.samsung.com%2Ftr%2Ftablets%2Fall-tablets%2F&tag_version=8.15.5_7e8525b&buyer_pixel_id=2177&has_conse",
+    "https://cdn1-api.fireworktv.com/embed/v2/playlists/gOdD6a/feeds?page_size=10&n=1&channel=samsung_turkey&_=1793640263041",
+    "https://fireworkadservices1.com/api/ad_setting?ad_target_platform=desktop_web&playlist_id=gOdD6a&_=1793640263040",
+    "https://gum.criteo.com/sid/json?origin=onetag&domain=samsung.com&sn=ChromeSyncframe&so=undefined&topUrl=www.samsung.com&bundle=XmeEG19VZ1ljUUVxdGlkbWFic3FmajU3a",
+    "https://prod-video-chat-chat.sprinklr.com/api/livechat/handshake/v2/appHandshake",
+    "https://live-chat-static.sprinklr.com/externalLocaleData/60d0d2e27cd0c31873372440_app_954225/tr.json",
+    "https://prod-video-chat-chat.sprinklr.com/api/livechat/conversation/fetch?sortKey=lastInteractionTime",
+    "https://prod-video-chat-chat.sprinklr.com/api/livechat/prompt/candidatePrompts",
+    "https://prod-video-chat-chat.sprinklr.com/api/livechat/event/fetch-notifications?cursor=A_6ae8c7470000000000000000",
+    "https://aryuder.api.useinsider.com/v3/status"
    ],
    "links": [
     "https://www.samsung.com/tr/smartphones/galaxy-z-fold8/buy/",
@@ -73,11 +113,11 @@
     "Toplam Fiyat : 9.999,00 TL"
    ],
    "items_by_source": {
-    "samsung-api": 22,
+    "samsung-api": 21,
     "jsonld": 9,
-    "json": 22
+    "json": 21
    },
-   "text_sample": "Skip to content Konumunuzu ve dilinizi seçin. Türkiye Devam et Konum ve dil banner'ını kapat global navigation bar Mağaza Mağaza Telefonlar ve Tabletler Telefonlar ve Tabletler Yeni Giyilebilir Cihazlar Giyilebilir Cihazlar TV & AV TV & AV Beyaz Eşyalar Beyaz Eşyalar Ses Sistemleri Ses Sistemleri Monitör & Depolama Monitör & Depolama Kasım Fırsatları Destek Kurumsal için Ara Ara Sepet Giriş yap/Üye ol Yeni Galaxy Z Serisi üyeleri, hafıza yükseltme fırsatına ek vade farksız 3 taksit imkanı ile. Satın al Detaylar için tıklayın Galaxy Tabletleri Keşfedin Galaxy Akıllı Telefon Galaxy Tab Galaxy Watch Galaxy Buds Galaxy Ring Galaxy Aksesuarlar Tümü Galaxy Tab S Galaxy Tab A Karşılaştırın Galaxy Tablet Aksesuarları Filtreler 27 Sonuç Sıralama Önerilen ÖNE ÇIKANLAR Hızlı bakış Galaxy Tab S12+ Ürün Puanları : 5.0 ( Derecelendirme Sayısı : 1) Open Tooltip Layer Renk : Gri Gümüş Gri selected 512 GB selected 256 GB Charger not included NaN Toplam Fiyat : 78.499,00 TL Satın al Daha fazla bilgi Karşılaştır Galaxy Tab S12+ ÖNE ÇIKANLAR Hızlı bakış Galaxy Tab S12 Ultra Ürün Puanları : 3.4 ( Derecelendirme Sayısı : 14) Open Tooltip Layer Renk : Gri Gümüş Gri selected 1 TB 512 GB selected 256 GB Charger not included NaN Toplam Fiyat : 89.999,00 TL Satın al Daha fazla bilgi Karşılaştır Galaxy Tab S12 Ultra ÖNE ÇIKANLAR Hızlı bakış Galaxy Tab S11 Ultra 5G Ürün Puanları : 5.0 ( Derecelendirme Sayısı : 1) Open Tooltip Layer Renk : Gri Gri selected 512 GB selected 256 GB Char"
+   "text_sample": "Skip to content Konumunuzu ve dilinizi seçin. Türkiye Devam et Konum ve dil banner'ını kapat global navigation bar Mağaza Mağaza Telefonlar ve Tabletler Telefonlar ve Tabletler Yeni Giyilebilir Cihazlar Giyilebilir Cihazlar TV & AV TV & AV Beyaz Eşyalar Beyaz Eşyalar Ses Sistemleri Ses Sistemleri Monitör & Depolama Monitör & Depolama Kasım Fırsatları Destek Kurumsal için Ara Ara Sepet Giriş yap/Üye ol Her alışverişte %3 Samsung Rewards puan* Satın al Detaylar için tıklayın Galaxy Tabletleri Keşfedin Galaxy Akıllı Telefon Galaxy Tab Galaxy Watch Galaxy Buds Galaxy Ring Galaxy Aksesuarlar Tümü Galaxy Tab S Galaxy Tab A Karşılaştırın Galaxy Tablet Aksesuarları Filtreler 27 Sonuç Sıralama Önerilen ÖNE ÇIKANLAR Hızlı bakış Galaxy Tab S12+ Ürün Puanları : 5.0 ( Derecelendirme Sayısı : 1) Open Tooltip Layer Renk : Gri Gümüş Gri selected 512 GB selected 256 GB Charger not included NaN Toplam Fiyat : 78.499,00 TL Satın al Daha fazla bilgi Karşılaştır Galaxy Tab S12+ ÖNE ÇIKANLAR Hızlı bakış Galaxy Tab S12 Ultra Ürün Puanları : 3.4 ( Derecelendirme Sayısı : 14) Open Tooltip Layer Renk : Gri Gümüş Gri selected 1 TB 512 GB selected 256 GB Charger not included NaN Toplam Fiyat : 89.999,00 TL Satın al Daha fazla bilgi Karşılaştır Galaxy Tab S12 Ultra ÖNE ÇIKANLAR Hızlı bakış Galaxy Tab S11 Ultra 5G Ürün Puanları : 5.0 ( Derecelendirme Sayısı : 1) Open Tooltip Layer Renk : Gri Gri selected 512 GB selected 256 GB Charger not included NaN Satın al Daha fazla bilgi Karşıl"
   },
   {
    "url": "https://www.samsung.com/tr/watches/all-watches/",
@@ -87,35 +127,31 @@
    "json_urls": [
     "https://www.samsung.com/aemapi/v6/common/i18n/dict.tr_TR.b2c.json",
     "https://p1-smi-api-cdn.shop.samsung.com/tokocommercewebservices/v2/tr/tnc?context=PRODUCT&value=stock_alert_tc",
-    "https://c.go-mpulse.net/api/config.json?key=VRZKC-5BSTD-4EWS3-R2J59-B8GYB&d=www.samsung.com&t=5978493&v=1.766.0&if=&sl=0&si=d9892fb5-5007-46da-a90f-3f9d304490b2",
-    "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01030000&siteCode=tr&start=1&num=12&sort=newest&onlyFilterInfoYN=N&keySummaryYN=Y&onlyR",
-    "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+    "https://c.go-mpulse.net/api/config.json?key=VRZKC-5BSTD-4EWS3-R2J59-B8GYB&d=www.samsung.com&t=5978801&v=1.766.0&if=&sl=1&si=9cef3882-2d28-4b4c-a82f-3ad8cf025226",
     "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01030000&siteCode=tr&start=1&num=10&sort=recommended&onlyFilterInfoYN=Y&keySummaryYN=Y",
-    "https://ct.pinterest.com/user/?event=viewcategory&ed=%7B%22event_id%22%3A%22evt_1793548036%22%2C%22property%22%3A%22watches%22%7D&tid=2613573010963&cb=179354803",
-    "https://ct.pinterest.com/user/?tid=2613573010963&cb=1793548037013&dep=2%2CPAGE_LOAD",
+    "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+    "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01030000&siteCode=tr&start=1&num=12&sort=newest&onlyFilterInfoYN=N&keySummaryYN=Y&onlyR",
     "https://collection.decibelinsight.net/i/14121/1817530/c.json",
-    "https://cdn1-api.fireworktv.com/embed/v2/channels/samsung_turkey?n=1&_=1793548037197",
-    "https://cdn1-api.fireworktv.com/embed/v2/playlists/gplq8j/feeds?page_size=10&n=1&channel=samsung_turkey&_=1793548037394",
     "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01030000&siteCode=tr&start=1&num=10&sort=recommended&onlyFilterInfoYN=N&keySummaryYN=Y",
-    "https://fireworkadservices1.com/api/ad_setting?ad_target_platform=desktop_web&playlist_id=gplq8j&_=1793548037393",
+    "https://ct.pinterest.com/user/?tid=2613573010963&pd=%7B%22pin_unauth%22%3A%22dWlkPVptSXdOV013TldFdE9HUmtNeTAwWXpNMkxXSTBNV1V0TWpjNU1XVTFZalJoWldOaw%22%7D&cb=179",
+    "https://ct.pinterest.com/user/?event=viewcategory&ed=%7B%22event_id%22%3A%22evt_1793640269%22%2C%22property%22%3A%22watches%22%7D&tid=2613573010963&cb=179364026",
+    "https://cdn1-api.fireworktv.com/embed/v2/channels/samsung_turkey?n=1&_=1793640270483",
+    "https://fireworkadservices1.com/api/ad_setting?ad_target_platform=desktop_web&playlist_id=gplq8j&_=1793640270554",
+    "https://cdn1-api.fireworktv.com/embed/v2/playlists/gplq8j/feeds?page_size=10&n=1&channel=samsung_turkey&_=1793640270555",
+    "https://gum.criteo.com/sid/json?origin=onetag&domain=samsung.com&sn=ChromeSyncframe&so=undefined&topUrl=www.samsung.com&bundle=GF8cGl9VZ1ljUUVxdGlkbWFic3FmajU3a",
     "https://cm.teads.tv/v2/advertiser?referer=https%3A%2F%2Fwww.samsung.com%2Ftr%2Fwatches%2Fall-watches%2F&tag_version=8.15.5_7e8525b&buyer_pixel_id=2177&has_conse",
-    "https://gum.criteo.com/sid/json?origin=onetag&domain=samsung.com&sn=ChromeSyncframe&so=undefined&topUrl=www.samsung.com&ceid=fc360ae6-80d2-4474-a7e0-b17251a64a9",
-    "https://consent.trustarc.com/cm/samsung.tr.com/opt-out/domains?type=samsung_tr_gdpr_v4&layout=gdpr&domain=samsung.tr.com&locale=tr&behavior=implied&country=tr&u",
-    "https://ams.creativecdn.com/tags/v2?type=json&tc=1",
+    "https://ams.creativecdn.com/tags/v2?type=json",
     "https://prod-video-chat-chat.sprinklr.com/api/livechat/handshake/v2/appHandshake",
     "https://live-chat-static.sprinklr.com/externalLocaleData/60d0d2e27cd0c31873372440_app_954225/tr.json",
     "https://prod-video-chat-chat.sprinklr.com/api/livechat/conversation/fetch?sortKey=lastInteractionTime",
-    "https://resources.digital-cloud-west.medallia.com/wdcwest/145272/onsite/onsiteData1792743585958.json",
     "https://prod-video-chat-chat.sprinklr.com/api/livechat/prompt/candidatePrompts",
-    "https://prod-video-chat-chat.sprinklr.com/api/livechat/event/fetch-notifications?cursor=A_6ae75f070000000000000000",
-    "https://segment.api.useinsider.com/v4/segments/179354804029341c557b286.c57a8899?partnerid=10001941&fields=93033544bd66d06470a96f9f76ae3546,d45207cc17beb64c9f921",
-    "https://carrier.useinsider.com/y/v2/z",
-    "https://locationv2.api.useinsider.com/?v=2&pId=10001941&",
+    "https://consent.trustarc.com/cm/samsung.tr.com/opt-out/domains?type=samsung_tr_gdpr_v4&layout=gdpr&domain=samsung.tr.com&locale=tr&behavior=implied&country=tr&u",
+    "https://prod-video-chat-chat.sprinklr.com/api/livechat/event/fetch-notifications?cursor=A_6ae8c74f0000000000000000",
+    "https://resources.digital-cloud-west.medallia.com/wdcwest/145272/onsite/onsiteData1792743585958.json",
     "https://aryuder.api.useinsider.com/v3/status",
-    "https://jb-on-site.api.useinsider.com/handle",
+    "https://smetrics.samsung.com/ee/v1/privacy/set-consent?configId=5cdca5fc-db5d-4ad2-9b56-1e9d1d35ddc4&requestId=04cffdd1-8144-4e24-a978-b8a69b4388b2",
     "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01030000&siteCode=tr&start=11&num=11&sort=recommended&onlyFilterInfoYN=N&keySummaryYN=Y",
-    "https://smetrics.samsung.com/ee/v1/privacy/set-consent?configId=5cdca5fc-db5d-4ad2-9b56-1e9d1d35ddc4&requestId=89ccf198-16d2-42df-9834-14ca6feb58bf",
-    "https://smetrics.samsung.com/ee/va6/v1/interact?configId=5cdca5fc-db5d-4ad2-9b56-1e9d1d35ddc4&requestId=335a01f8-42fd-4632-9edf-c5f653993864",
+    "https://smetrics.samsung.com/ee/or2/v1/interact?configId=5cdca5fc-db5d-4ad2-9b56-1e9d1d35ddc4&requestId=723a68cb-917f-44c6-b53c-81a4166ad632",
     "https://aryuder.api.useinsider.com/v3/status"
    ],
    "links": [
@@ -139,7 +175,7 @@
     "jsonld": 3,
     "json": 5
    },
-   "text_sample": "Skip to content Konumunuzu ve dilinizi seçin. Türkiye Devam et Konum ve dil banner'ını kapat global navigation bar Mağaza Mağaza Telefonlar ve Tabletler Telefonlar ve Tabletler Yeni Giyilebilir Cihazlar Giyilebilir Cihazlar TV & AV TV & AV Beyaz Eşyalar Beyaz Eşyalar Ses Sistemleri Ses Sistemleri Monitör & Depolama Monitör & Depolama Kasım Fırsatları Destek Kurumsal için Ara Ara Sepet Giriş yap/Üye ol Yeni Galaxy Z Serisi üyeleri, hafıza yükseltme fırsatına ek vade farksız 3 taksit imkanı ile. Satın al Detaylar için tıklayın Galaxy Watch'ları Keşfedin Galaxy Akıllı Telefon Galaxy Tab Galaxy Watch Galaxy Buds Galaxy Ring Galaxy Aksesuarlar Tümü Galaxy Watch Ultra Galaxy Watch Galaxy Watch Classic Karşılaştırın Galaxy Watch Aksesuarları Filtreler 14 Sonuç Sıralama Önerilen Hızlı bakış Galaxy Watch Ultra2 LTE Ürün Puanları : 2.9 ( Derecelendirme Sayısı : 10) Open Tooltip Layer Renk : Titanium Gri Titanium Gümüş Titanium Gri selected Toplam Fiyat : 59.999,00 TL Satın al Daha fazla bilgi Karşılaştır Galaxy Watch Ultra2 LTE Hızlı bakış Galaxy Watch Ultra2 Bluetooth Ürün Puanları : 4.9 ( Derecelendirme Sayısı : 4,189) Open Tooltip Layer Renk : Titanium Gümüş Titanium Gri Titanium Gümüş selected Toplam Fiyat : 37.999,00 TL Satın al Daha fazla bilgi Karşılaştır Galaxy Watch Ultra2 Bluetooth Hızlı bakış Galaxy Watch9 (Bluetooth, 44 mm) Ürün Puanları : 4.8 ( Derecelendirme Sayısı : 2,556) Open Tooltip Layer Renk : Gümüş Gümüş selected Grafit Toplam Fiyat : 20.999,00 TL S"
+   "text_sample": "Skip to content Konumunuzu ve dilinizi seçin. Türkiye Devam et Konum ve dil banner'ını kapat global navigation bar Mağaza Mağaza Telefonlar ve Tabletler Telefonlar ve Tabletler Yeni Giyilebilir Cihazlar Giyilebilir Cihazlar TV & AV TV & AV Beyaz Eşyalar Beyaz Eşyalar Ses Sistemleri Ses Sistemleri Monitör & Depolama Monitör & Depolama Kasım Fırsatları Destek Kurumsal için Ara Ara Sepet Giriş yap/Üye ol Her alışverişte %3 Samsung Rewards puan* Satın al Detaylar için tıklayın Galaxy Watch'ları Keşfedin Galaxy Akıllı Telefon Galaxy Tab Galaxy Watch Galaxy Buds Galaxy Ring Galaxy Aksesuarlar Tümü Galaxy Watch Ultra Galaxy Watch Galaxy Watch Classic Karşılaştırın Galaxy Watch Aksesuarları Filtreler 14 Sonuç Sıralama Önerilen Hızlı bakış Galaxy Watch Ultra2 LTE Ürün Puanları : 2.9 ( Derecelendirme Sayısı : 10) Open Tooltip Layer Renk : Titanium Gri Titanium Gümüş Titanium Gri selected Toplam Fiyat : 59.999,00 TL Satın al Daha fazla bilgi Karşılaştır Galaxy Watch Ultra2 LTE Hızlı bakış Galaxy Watch Ultra2 Bluetooth Ürün Puanları : 4.9 ( Derecelendirme Sayısı : 4,192) Open Tooltip Layer Renk : Titanium Gümüş Titanium Gri Titanium Gümüş selected Toplam Fiyat : 37.999,00 TL Satın al Daha fazla bilgi Karşılaştır Galaxy Watch Ultra2 Bluetooth Hızlı bakış Galaxy Watch9 (Bluetooth, 44 mm) Ürün Puanları : 4.8 ( Derecelendirme Sayısı : 2,557) Open Tooltip Layer Renk : Gümüş Gümüş selected Grafit Toplam Fiyat : 20.999,00 TL Satın al Daha fazla bilgi Karşılaştır Galaxy Watch9 (B"
   },
   {
    "url": "https://www.samsung.com/tr/audio-sound/all-audio-sound/",
@@ -149,28 +185,29 @@
    "json_urls": [
     "https://www.samsung.com/aemapi/v6/common/i18n/dict.tr_TR.b2c.json",
     "https://p1-smi-api-cdn.shop.samsung.com/tokocommercewebservices/v2/tr/tnc?context=PRODUCT&value=stock_alert_tc",
+    "https://c.go-mpulse.net/api/config.json?key=VRZKC-5BSTD-4EWS3-R2J59-B8GYB&d=www.samsung.com&t=5978801&v=1.766.0&if=&sl=1&si=9cef3882-2d28-4b4c-a82f-3ad8cf025226",
     "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01040000&siteCode=tr&start=1&num=12&sort=newest&onlyFilterInfoYN=N&keySummaryYN=Y&onlyR",
-    "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01040000&siteCode=tr&start=1&num=10&sort=recommended&onlyFilterInfoYN=Y&keySummaryYN=Y",
-    "https://smetrics.samsung.com/ee/va6/v1/interact?configId=5cdca5fc-db5d-4ad2-9b56-1e9d1d35ddc4&requestId=eba0e10d-e355-4605-af15-554e66adb140",
     "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
-    "https://c.go-mpulse.net/api/config.json?key=VRZKC-5BSTD-4EWS3-R2J59-B8GYB&d=www.samsung.com&t=5978494&v=1.766.0&if=&sl=1&si=d9892fb5-5007-46da-a90f-3f9d304490b2",
-    "https://ct.pinterest.com/user/?tid=2613573010963&pd=%7B%22pin_unauth%22%3A%22dWlkPU0yRTBNVEl3T1RrdFlqRTVaUzAwTmpJMUxXRmxOVFl0TkdJMU1tRTFaV0V3TXpCbQ%22%7D&cb=179",
-    "https://ct.pinterest.com/user/?event=viewcategory&ed=%7B%22event_id%22%3A%22evt_1793548055%22%2C%22property%22%3A%22audio%20sound%22%7D&tid=2613573010963&cb=179",
-    "https://smetrics.samsung.com/ee/va6/v1/interact?configId=5cdca5fc-db5d-4ad2-9b56-1e9d1d35ddc4&requestId=56428dcb-7631-4901-856a-65437f4c98a1",
-    "https://smetrics.samsung.com/ee/t34/v1/interact?configId=4075e5f9-5097-47ef-87ac-9e56c5fb8500&requestId=59e24f7f-44e1-4192-b613-15f1e27507ce",
-    "https://cdn1-api.fireworktv.com/embed/v2/channels/samsung_turkey?n=1&_=1793548055492",
-    "https://cdn1-api.fireworktv.com/embed/v2/playlists/gYxLdw/feeds?page_size=10&n=1&channel=samsung_turkey&_=1793548055514",
-    "https://fireworkadservices1.com/api/ad_setting?ad_target_platform=desktop_web&playlist_id=gYxLdw&_=1793548055513",
+    "https://smetrics.samsung.com/ee/or2/v1/interact?configId=5cdca5fc-db5d-4ad2-9b56-1e9d1d35ddc4&requestId=8e20a2b2-8eda-409b-b684-a11c6f5fcf82",
+    "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01040000&siteCode=tr&start=1&num=10&sort=recommended&onlyFilterInfoYN=Y&keySummaryYN=Y",
+    "https://smetrics.samsung.com/ee/or2/v1/interact?configId=5cdca5fc-db5d-4ad2-9b56-1e9d1d35ddc4&requestId=6a2503a1-6d2c-461b-8344-21bb6148d996",
+    "https://smetrics.samsung.com/ee/t35/v1/interact?configId=4075e5f9-5097-47ef-87ac-9e56c5fb8500&requestId=97793e5b-a9d5-4c06-bccb-66f051068cce",
     "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01040000&siteCode=tr&start=1&num=10&sort=recommended&onlyFilterInfoYN=N&keySummaryYN=Y",
-    "https://ams.creativecdn.com/tags/v2?type=json",
+    "https://collection.decibelinsight.net/i/14121/1817530/c.json",
+    "https://ct.pinterest.com/user/?event=viewcategory&ed=%7B%22event_id%22%3A%22evt_1793640288%22%2C%22property%22%3A%22audio%20sound%22%7D&tid=2613573010963&cb=179",
+    "https://ct.pinterest.com/user/?tid=2613573010963&pd=%7B%22pin_unauth%22%3A%22dWlkPVptSXdOV013TldFdE9HUmtNeTAwWXpNMkxXSTBNV1V0TWpjNU1XVTFZalJoWldOaw%22%7D&cb=179",
+    "https://cdn1-api.fireworktv.com/embed/v2/channels/samsung_turkey?n=1&_=1793640289277",
+    "https://fireworkadservices1.com/api/ad_setting?ad_target_platform=desktop_web&playlist_id=gYxLdw&_=1793640289350",
+    "https://cdn1-api.fireworktv.com/embed/v2/playlists/gYxLdw/feeds?page_size=10&n=1&channel=samsung_turkey&_=1793640289351",
     "https://cm.teads.tv/v2/advertiser?referer=https%3A%2F%2Fwww.samsung.com%2Ftr%2Faudio-sound%2Fall-audio-sound%2F&tag_version=8.15.5_7e8525b&buyer_pixel_id=2177&g",
+    "https://gum.criteo.com/sid/json?origin=onetag&domain=samsung.com&sn=ChromeSyncframe&so=undefined&topUrl=www.samsung.com&bundle=w2auKl9VZ1ljUUVxdGlkbWFic3FmajU3a",
+    "https://ams.creativecdn.com/tags/v2?type=json",
     "https://prod-video-chat-chat.sprinklr.com/api/livechat/handshake/v2/appHandshake",
+    "https://resources.digital-cloud-west.medallia.com/wdcwest/145272/onsite/onsiteData1792743585958.json",
     "https://live-chat-static.sprinklr.com/externalLocaleData/60d0d2e27cd0c31873372440_app_954225/tr.json",
-    "https://gum.criteo.com/sid/json?origin=onetag&domain=samsung.com&sn=ChromeSyncframe&so=undefined&topUrl=www.samsung.com&bundle=8lgHaF9jM2tJaERiMFZwZm93T2pYQ0MlM",
     "https://prod-video-chat-chat.sprinklr.com/api/livechat/conversation/fetch?sortKey=lastInteractionTime",
     "https://prod-video-chat-chat.sprinklr.com/api/livechat/prompt/candidatePrompts",
-    "https://prod-video-chat-chat.sprinklr.com/api/livechat/event/fetch-notifications?cursor=A_6ae75f190000000000000000",
-    "https://resources.digital-cloud-west.medallia.com/wdcwest/145272/onsite/onsiteData1792743585958.json",
+    "https://prod-video-chat-chat.sprinklr.com/api/livechat/event/fetch-notifications?cursor=A_6ae8c7620000000000000000",
     "https://aryuder.api.useinsider.com/v3/status",
     "https://aryuder.api.useinsider.com/v3/status"
    ],
@@ -185,26 +222,29 @@
     "Toplam Fiyat : 12.499,00 TL",
     "Toplam Fiyat : 8.999,00 TL",
     "Toplam Fiyat : 8.999,00 TL",
-    "Toplam Fiyat : 8.999,00 TL"
+    "Toplam Fiyat : 8.999,00 TL",
+    "Toplam Fiyat : 1.399,00 TL",
+    "Toplam Fiyat : 1.399,00 TL",
+    "Toplam Fiyat : 1.399,00 TL"
    ],
    "items_by_source": {
-    "samsung-api": 4,
+    "samsung-api": 5,
     "jsonld": 2,
-    "json": 4
+    "json": 5
    },
-   "text_sample": "Skip to content Konumunuzu ve dilinizi seçin. Türkiye Devam et Konum ve dil banner'ını kapat global navigation bar Mağaza Mağaza Telefonlar ve Tabletler Telefonlar ve Tabletler Yeni Giyilebilir Cihazlar Giyilebilir Cihazlar TV & AV TV & AV Beyaz Eşyalar Beyaz Eşyalar Ses Sistemleri Ses Sistemleri Monitör & Depolama Monitör & Depolama Kasım Fırsatları Destek Kurumsal için Ara Ara Sepet Giriş yap/Üye ol Yeni Galaxy Z Serisi üyeleri, hafıza yükseltme fırsatına ek vade farksız 3 taksit imkanı ile. Satın al Detaylar için tıklayın Galaxy Buds'ı Keşfedin Galaxy Akıllı Telefon Galaxy Tab Galaxy Watch Galaxy Buds Galaxy Ring Galaxy Aksesuarlar Tümü Galaxy Buds Pro Galaxy Buds Galaxy Buds FE Galaxy Buds Core Karşılaştırın Galaxy Buds Aksesuarları Filtreler 9 Sonuç Sıralama Önerilen Hızlı bakış Galaxy Buds4 Pro Ürün Puanları : 4.8 ( Derecelendirme Sayısı : 4,664) Open Tooltip Layer Renk : Beyaz Siyah Beyaz selected Charger not included Charger 2.5-4.5w Toplam Fiyat : 12.499,00 TL Satın al Daha fazla bilgi Karşılaştır Galaxy Buds4 Pro Hızlı bakış Galaxy Buds4 Ürün Puanları : 4.6 ( Derecelendirme Sayısı : 1,221) Open Tooltip Layer Renk : Beyaz Siyah Beyaz selected Charger not included Charger 2.5-4.5w Toplam Fiyat : 8.999,00 TL Satın al Daha fazla bilgi Karşılaştır Galaxy Buds4 Hızlı bakış Galaxy Buds4 Pro (Samsung.com’a özel) Ürün Puanları : 4.8 ( Derecelendirme Sayısı : 4,664) Open Tooltip Layer Renk : Pembe Altın Pembe Altın selected Charger not included Charger 2.5-4.5w "
+   "text_sample": "Skip to content Konumunuzu ve dilinizi seçin. Türkiye Devam et Konum ve dil banner'ını kapat global navigation bar Mağaza Mağaza Telefonlar ve Tabletler Telefonlar ve Tabletler Yeni Giyilebilir Cihazlar Giyilebilir Cihazlar TV & AV TV & AV Beyaz Eşyalar Beyaz Eşyalar Ses Sistemleri Ses Sistemleri Monitör & Depolama Monitör & Depolama Kasım Fırsatları Destek Kurumsal için Ara Ara Sepet Giriş yap/Üye ol Her alışverişte %3 Samsung Rewards puan* Satın al Detaylar için tıklayın Galaxy Buds'ı Keşfedin Galaxy Akıllı Telefon Galaxy Tab Galaxy Watch Galaxy Buds Galaxy Ring Galaxy Aksesuarlar Tümü Galaxy Buds Pro Galaxy Buds Galaxy Buds FE Galaxy Buds Core Karşılaştırın Galaxy Buds Aksesuarları Filtreler 9 Sonuç Sıralama Önerilen Hızlı bakış Galaxy Buds4 Pro Ürün Puanları : 4.8 ( Derecelendirme Sayısı : 4,668) Open Tooltip Layer Renk : Beyaz Siyah Beyaz selected Charger not included Charger 2.5-4.5w Toplam Fiyat : 12.499,00 TL Satın al Daha fazla bilgi Karşılaştır Galaxy Buds4 Pro Hızlı bakış Galaxy Buds4 Ürün Puanları : 4.6 ( Derecelendirme Sayısı : 1,221) Open Tooltip Layer Renk : Beyaz Siyah Beyaz selected Charger not included Charger 2.5-4.5w Toplam Fiyat : 8.999,00 TL Satın al Daha fazla bilgi Karşılaştır Galaxy Buds4 Hızlı bakış AKG Tip C Kulaklık Ürün Puanları : 3.3 ( Derecelendirme Sayısı : 103) Open Tooltip Layer Renk : Black White Black selected Toplam Fiyat : 1.399,00 TL Sepete ekle Daha fazla bilgi Karşılaştır AKG Tip C Kulaklık Galaxy Buds4 Pro Satın al H"
   }
  ],
  "api": [
   {
    "url": "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01010000&siteCode=tr&start=1&num=100&sort=recommended&onlyFilterInfoYN=N&keySummaryYN=N&specHighlightYN=N&familyId=",
    "status": 200,
-   "items": 66
+   "items": 70
   },
   {
    "url": "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01020000&siteCode=tr&start=1&num=100&sort=recommended&onlyFilterInfoYN=N&keySummaryYN=N&specHighlightYN=N&familyId=",
    "status": 200,
-   "items": 22
+   "items": 21
   },
   {
    "url": "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01030000&siteCode=tr&start=1&num=100&sort=recommended&onlyFilterInfoYN=N&keySummaryYN=N&specHighlightYN=N&familyId=",
@@ -214,7 +254,7 @@
   {
    "url": "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01040000&siteCode=tr&start=1&num=100&sort=recommended&onlyFilterInfoYN=N&keySummaryYN=N&specHighlightYN=N&familyId=",
    "status": 200,
-   "items": 4
+   "items": 5
   }
  ]
 }
