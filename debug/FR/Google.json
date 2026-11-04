@@ -148,7 +148,7 @@
    "json_samples": [
     {
      "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
-     "body": "[null, null, null, null, null, null, null, null, null, null, 0]"
+     "body": "[14, \"The service is currently unavailable.\"]"
     }
    ]
   },
@@ -1400,7 +1400,7 @@
    "json_samples": [
     {
      "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
-     "body": "[null, null, null, null, null, null, null, null, null, null, 0]"
+     "body": "[14, \"The service is currently unavailable.\"]"
     }
    ]
   },
