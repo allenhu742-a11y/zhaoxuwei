@@ -46,6 +46,38 @@ def reclean(s):
     return rows
 
 
+SUSPECT_PCT = 70          # a single-day move this large is almost always a scraping error
+REVERT_PCT = 15           # A -> B -> A within one day: a glitch, not a price change
+
+
+def mark_suspects(changes, prices, dates):
+    """Flag changes that are probably scraping errors as 'suspect' instead of up/down."""
+    nxt = {d: dates[i + 1] for i, d in enumerate(dates[:-1])}
+    prv = {d: dates[i - 1] for i, d in enumerate(dates) if i}
+    for c in changes:
+        if c["type"] not in ("up", "down"):
+            continue
+        k, d = c["key"], c["date"]
+        cur = prices[k].get(d) or [None, None, None]
+        reason = None
+        if cur[2] in ("dom-price", "dom-from"):
+            reason = "单一页面价格元素，置信度低 / low-confidence page price"
+        elif abs(c["pct"]) >= SUSPECT_PCT:
+            reason = f"单日变动 ≥{SUSPECT_PCT}% / one-day move ≥{SUSPECT_PCT}%"
+        else:
+            n = prices[k].get(nxt.get(d))
+            if n and abs(n[0] - c["old"]) < 0.01 and abs(c["pct"]) >= REVERT_PCT:
+                reason = "次日恢复原价 / reverted next day"
+            p = prices[k].get(prv.get(prv.get(d)))
+            if p and abs(p[0] - c["new"]) < 0.01 and abs(c["pct"]) >= REVERT_PCT and prices[k].get(prv.get(d)):
+                # this is the 'back' leg of A -> B -> A
+                before = prices[k][prv[d]][0]
+                if abs(before - c["old"]) < 0.01 and prices[k].get(prv.get(prv.get(d))):
+                    reason = reason or "前一日价格为异常值 / previous day was an outlier"
+        if reason:
+            c["dir"], c["type"], c["reason"] = c["type"], "suspect", reason
+
+
 def build_country(cc, snaps):
     dates = [s["date"] for s in snaps]
     skus, prices, ranks, changes, fx = {}, {}, defaultdict(dict), [], {}
@@ -62,7 +94,7 @@ def build_country(cc, snaps):
             seen.add(k)
             meta = skus.setdefault(k, {kk: it.get(kk) for kk in ("brand", "category", "model", "variant", "mkey")})
             meta["url"] = it.get("url")
-            prices.setdefault(k, {})[d] = [it["price"], it.get("list_price")]
+            prices.setdefault(k, {})[d] = [it["price"], it.get("list_price"), it.get("source")]
             if k in last and last[k][1] is not None and abs(last[k][1] - it["price"]) >= 0.01:
                 old = last[k][1]
                 changes.append({"date": d, "key": k, "old": old, "new": it["price"], "delta": round(it["price"] - old, 2),
@@ -76,6 +108,7 @@ def build_country(cc, snaps):
                 last[k] = (d, None)
         for mk, r in (s.get("ranks") or {}).items():
             ranks[mk][d] = r
+    mark_suspects(changes, prices, dates)
     c = COUNTRIES.get(cc, {"cur": "EUR", "name": cc})
     return {
         "country": cc, "name": c["name"], "currency": snaps[-1].get("currency", c["cur"]), "dates": dates, "fx": fx,
@@ -100,7 +133,7 @@ def main():
                                    "latest": data["dates"][-1], "skus": sum(1 for k in data["prices"] if data["dates"][-1] in data["prices"][k])})
         for k, byd in data["prices"].items():
             m = data["skus"][k]
-            for d, (p, lp) in sorted(byd.items()):
+            for d, (p, lp, *_) in sorted(byd.items()):
                 fx = data["fx"].get(d, 1.0)
                 hist_rows.append([d, cc, m["brand"], m["category"], m["model"], m["variant"], data["currency"], p, lp or "",
                                   round(p / fx, 2), data["ranks"].get(m["mkey"], {}).get(d, ""), k])

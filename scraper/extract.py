@@ -81,7 +81,7 @@ COLORS = (
     "graphit graphite mint lavendel lavender koralle coral navy marine sand bronze kupfer champagner "
     "obsidian porcelain porzellan hazel rose jade ice icy blush cobalt kobalt onyx phantom midnight mitternacht "
     "polarstern starlight nebelblau salbei sage ultramarin wüstensand desert tiefblau cosmic kosmisch "
-    "aqua teal amber khaki olive forest velvet emerald smaragd ivory elfenbein moonlight shadow ocean sky himmelblau "
+    "aqua teal amber khaki olive forest velvet meteor sprout dawn emerald smaragd ivory elfenbein moonlight shadow ocean sky himmelblau "
     "noir blanc bleu vert rouge jaune gris argent "                       # fr
     "czarny biały niebieski zielony szary srebrny złoty różowy fioletowy "   # pl
     "nero bianco blu verde rosso grigio argento oro viola azzurro "         # it
@@ -175,6 +175,16 @@ def canonical_model(brand, name):
     n = re.sub(r"\b[A-Z]{2,4}(?:\+[A-Z]{2,4})?(?:\s+offer)?_(?:(?:HUAWEI|HONOR)\s+)?", "", n)   # Huawei internal 'SMP_', 'WEA+CB offer_'
     n = re.sub(r"^(Huawei|Honor)\s+(Huawei|Honor)\s+", r"\1 ", n, flags=re.I)
     n = re.sub(r"\b(?:(?:Black Friday|Cyber Monday|Autumn|August|Summer|Winter|Spring|Christmas|Xmas|Mega|Flash|Super)\s+)?(?:Sale|Deal|Deals|Offer)\b", " ", n, flags=re.I)
+    n = re.sub(r"\b(Produktdatenblatt|Datenblatt|Fiche produit|fiche|Scheda prodotto|Karta produktu|UVP|PDP|NEU|NEW|Nuovo|Nouveau)\b", " ", n, flags=re.I)
+    n = re.sub(r"\b(January|February|March|April|May|June|July|August|September|October|November|December|"
+               r"Januar|Februar|März|Mai|Juni|Juli|Oktober|Dezember|Black Friday|Singles Day|11\.11)\s+(Offers?|Angebote|Deals?|Sale)\s*[-–:]\s*", " ", n, flags=re.I)
+    n = re.sub(r"\s[—–]\s?\d{1,2}\b", " ", n)
+    n = re.sub(r"(?<=\S)-\d+\.\d+\b", " ", n)                        # 'Pro-699.9' (price glued to name)
+    n = re.sub(r"(?:(?<=\s)|(?<=\S))-(?:\d{3,4}-)*\d{3,4}\b", " ", n)     # Honor campaign codes '-1102', '-649-1102'
+    n = re.sub(r"\b(\d{2,3})\s+(mm|cm)\b", r"\1\2", n, flags=re.I)        # '46 mm' -> '46mm'
+    n = re.sub(r"\s(64|128|256|512|1024)\s*$", " ", n)                # bare storage number at the end
+    n = re.sub(r"\b(Dual[- ]Card|Dual[- ]SIM|eSIM)\b", " ", n, flags=re.I)
+    n = re.sub(r"\b\d{1,2}\s?\+\s?(?=\s|$)", " ", n)                       # '4+' left from '4+128GB'
     n = re.sub(r"\bRAM\b|\bROM\b|\bSM-[A-Z0-9]{4,}\b|\bStandard\b", " ", n)
     n = _cut_outside_parens(n, ",")
     n = re.sub(r"\s[|–—]\s.*$", "", n)
@@ -207,7 +217,13 @@ def bad_name(name):
         return True
     if re.search(r"[a-z]+-[a-z]+-[a-z]+", name) and " " not in name.split(" ", 1)[-1]:
         return True
+    if any(re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+){2,}", w) for w in name.split()):   # URL slug like 'xiaomi-watch-2-pro'
+        return True
     if re.search(r"-global-|-row-|ecom|pdp", name, re.I):
+        return True
+    # bundles: 'HONOR Pad2-HONOR Magic V5', 'Magic V6-watch6', 'Magic8 Pro-PC', 'B-HONOR MagicPad4'
+    if re.search(r"\b(HONOR|HUAWEI|Xiaomi|Samsung|Galaxy)\b.*\b\1\b", name, re.I) or \
+       re.search(r"-\s?(watch|pc|tablette|tablet|pad|buds|earbuds|band)\d*\b|\bB-", name, re.I):
         return True
     rest = re.sub(r"^(Apple|Samsung|Google|Xiaomi|HUAWEI|HONOR|Motorola|OnePlus)\s*", "", name, flags=re.I).strip().lower()
     if rest in GENERIC_WORDS or not rest:
@@ -414,10 +430,21 @@ DOM_JS = r"""
     seen.add(t); out.tiles.push(t);
     if (out.tiles.length > 80) break;
   }
+  // price candidates: the main buy-box price is normally the largest price text near the top of the page
+  out.priceEls = [];
+  const h1top = h1 ? h1.getBoundingClientRect().top + scrollY : 0;
   for (const el of document.querySelectorAll('[class*="price" i],[data-price],[itemprop=price]')) {
-    const t = txt(el); if (t && t.length < 60 && eur.test(t)) out.prices.push(t);
-    if (out.prices.length > 40) break;
+    const t = txt(el); if (!t || t.length >= 60 || !eur.test(t)) continue;
+    out.prices.push(t);
+    const r = el.getBoundingClientRect(); if (!r.width || !r.height) continue;     // hidden
+    const cs = getComputedStyle(el);
+    const strike = /line-through/.test(cs.textDecorationLine || cs.textDecoration) || !!el.closest('s,del,strike') ||
+                   /old|orig|strike|was|list|rrp|uvp|before|barr|crossed/i.test(el.className + ' ' + (el.parentElement ? el.parentElement.className : ''));
+    const inCard = !!el.closest('[class*="recommend" i],[class*="carousel" i],[class*="swiper" i],[class*="related" i],[class*="accessor" i],[class*="bundle" i],footer,nav,header');
+    out.priceEls.push({t, fs: parseFloat(cs.fontSize) || 0, fw: parseInt(cs.fontWeight) || 400, y: r.top + scrollY - h1top, strike, inCard});
+    if (out.priceEls.length > 60) break;
   }
+  out.text = (document.body.innerText || '').replace(/\s+/g, ' ').slice(0, 5000);
   // product cards in on-screen order (for listing position)
   const cardSeen = new Set();
   for (const a of document.querySelectorAll('a[href]')) {
@@ -431,6 +458,31 @@ DOM_JS = r"""
   return out;
 }
 """
+
+
+FROM_WORDS = r"ab|à partir de|dès|a partire da|da|od|de la|începând de la|from|starting at|itibaren|fiyatı"
+
+
+def pick_main_price(els, cur):
+    """Largest, boldest, non-struck price in the buy box (not in carousels/headers), nearest to the h1."""
+    cands = []
+    for e in els:
+        if e.get("inCard") or MONTHLY_RE.search(e["t"]):
+            continue
+        ps = all_prices(e["t"], cur)
+        if not ps:
+            continue
+        cands.append((e, ps))
+    live = [(e, ps) for e, ps in cands if not e.get("strike") and -400 < e.get("y", 0) < 2500]
+    if not live:
+        return None, None
+    e, ps = max(live, key=lambda c: (round(c[0]["fs"]), c[0]["fw"], -abs(c[0].get("y", 0))))
+    main = min(ps) if len(ps) > 1 else ps[0]
+    struck = [p for e2, ps2 in cands if e2.get("strike") and abs(e2.get("y", 0) - e.get("y", 0)) < 300 for p in ps2]
+    lst = min((p for p in struck if p > main), default=None)
+    if len(ps) > 1 and max(ps) > main:
+        lst = lst or max(ps)
+    return main, lst
 
 
 def dom(info, url, cur):
@@ -459,16 +511,27 @@ def dom(info, url, cur):
             continue
         out.append({"name": tile_name, "variant": var, "price": min(ps), "list_price": max(ps) if max(ps) > min(ps) else None,
                     "sku": "", "url": url, "source": "dom-tile"})
-    if not out:
-        ps = [p for t in info.get("prices", []) if not MONTHLY_RE.search(t) for p in all_prices(t, cur)]
-        if ps and name:
-            out.append({"name": name, "variant": storage_variant(name), "price": min(ps), "list_price": None,
+    if not out and name:
+        main, lst = pick_main_price(info.get("priceEls", []), cur)
+        if main:
+            out.append({"name": name, "variant": storage_variant(name), "price": main, "list_price": lst,
                         "sku": "", "url": url, "source": "dom-price"})
+        else:
+            # 'Google Pixel 11 Pro  Ab 1.199 € oder 33,31 €/Monat' - the from-price printed right under the product name
+            text = info.get("text") or ""
+            i = text.find(name)
+            if i >= 0:
+                m = re.search(rf"(?:{FROM_WORDS})\s+((?:{CUR_SYM[cur]})?\s?(?:{NUM})\s?(?:{CUR_SYM[cur]})?)", text[i:i + 400], re.I)
+                p = parse_price(m.group(1), cur) if m else None
+                if p:
+                    out.append({"name": name, "variant": "—", "price": p, "list_price": None,
+                                "sku": "", "url": url, "source": "dom-from"})
     return out
 
 
 # ---------------------------------------------------------------- final row cleaning (used by run + build)
-SOURCE_RANK = {"apple-bootstrap": 0, "samsung-api": 0, "jsonld": 1, "dom-tile": 2, "json": 3, "dom-price": 4}
+SOURCE_RANK = {"apple-bootstrap": 0, "samsung-api": 0, "jsonld": 1, "dom-tile": 2, "json": 3, "dom-price": 4, "dom-from": 4}
+LOW_CONF = {"dom-price", "dom-from"}
 MIN_EUR = {"phone": 60, "tablet": 60, "wear": 25, "audio": 20}
 
 
@@ -483,7 +546,7 @@ def clean_rows(brand, raw, fx=1.0):
     for it in raw:
         name = (it.get("name") or it.get("model") or "").strip()
         cat = classify(name)
-        if not cat or bad_name(name):
+        if not cat or re.search(r"-global-|-row-|ecom|pdp", name, re.I) or len(name.split()) > 14:
             continue
         price = it.get("price")
         if not price or price / fx < MIN_EUR[cat]:
@@ -492,15 +555,25 @@ def clean_rows(brand, raw, fx=1.0):
         if not model or bad_name(model):
             continue
         variant = normalize_variant(it.get("variant") or "")
+        if variant in ("", "—"):
+            m_st = re.search(r"\s(64|128|256|512|1024)(?:-\d{3,4})*\s*$", name)
+            if m_st:
+                variant = f"{m_st.group(1)}GB"
         if variant in ("", "—") or (it.get("source") == "dom-tile" and not has_storage(variant)):
             variant = "—"
-        key = model_key(brand, model) + "|" + re.sub(r"[^a-z0-9+]+", "-", variant.lower()).strip("-")
+        # key on storage only: one source says '8GB+256GB', another just '256GB' for the same SKU
+        vkey = re.sub(r"^\d{1,2}GB\+", "", variant)
+        key = model_key(brand, model) + "|" + re.sub(r"[^a-z0-9+]+", "-", vkey.lower()).strip("-")
         rank = SOURCE_RANK.get(it.get("source"), 9)
         cur = best.get(key)
         row = {"key": key, "mkey": model_key(brand, model), "brand": brand, "category": cat, "model": model,
                "variant": variant, "price": round(price, 2), "list_price": it.get("list_price"),
                "url": it.get("url"), "sku": it.get("sku") or "", "source": it.get("source"), "_rank": rank,
                "pos": it.get("pos")}
+        if cur is not None and "+" in cur["variant"] and "+" not in row["variant"]:
+            row["variant"] = cur["variant"]
+        if cur is not None and "+" in row["variant"] and "+" not in cur["variant"]:
+            cur["variant"] = row["variant"]
         if cur is None or rank < cur["_rank"] or (rank == cur["_rank"] and row["price"] < cur["price"]):
             if cur:
                 row["pos"] = min([p for p in (cur.get("pos"), row["pos"]) if p is not None], default=None)
@@ -512,8 +585,8 @@ def clean_rows(brand, raw, fx=1.0):
     with_var = {r["mkey"] for r in rows if r["variant"] != "—"}
     rows = [r for r in rows if not (r["variant"] == "—" and r["mkey"] in with_var)]
     # dom-price is the weakest signal: keep only when nothing else exists for that model
-    strong = {r["mkey"] for r in rows if r["source"] != "dom-price"}
-    rows = [r for r in rows if not (r["source"] == "dom-price" and r["mkey"] in strong)]
+    strong = {r["mkey"] for r in rows if r["source"] not in LOW_CONF}
+    rows = [r for r in rows if not (r["source"] in LOW_CONF and r["mkey"] in strong)]
     for r in rows:
         r.pop("_rank", None)
     return sorted(rows, key=lambda r: (r["category"], r["model"], r["price"]))

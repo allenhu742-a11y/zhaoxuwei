@@ -47,7 +47,11 @@ th.sku{position:sticky;left:0;z-index:2}
 td.up{background:var(--up);color:var(--upfg);font-weight:600}
 td.down{background:var(--down);color:var(--downfg);font-weight:600}
 td.new{background:var(--new);color:var(--newfg)}
+td.sus{background:repeating-linear-gradient(45deg,var(--chip),var(--chip) 4px,transparent 4px,transparent 8px);color:var(--muted);font-style:italic}
 td.na{color:var(--muted)}
+th.spark,td.spark{position:sticky;right:0;z-index:1;background:var(--bg);text-align:center;padding:2px 8px;border-left:1px solid var(--line)}
+th.spark{background:var(--head);z-index:2}
+td.spark svg{display:block;margin:auto}
 .d{font-size:11px;display:block;font-weight:500}
 .sum{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0}
 .card{border:1px solid var(--line);border-radius:6px;padding:8px 12px;min-width:120px}
@@ -118,6 +122,7 @@ a{color:inherit}
     <span class="chip" style="cursor:default"><i style="background:var(--up)"></i>▲ 涨价</span>
     <span class="chip" style="cursor:default"><i style="background:var(--down)"></i>▼ 降价</span>
     <span class="chip" style="cursor:default"><i style="background:var(--new)"></i>新上架</span>
+    <span class="chip" style="cursor:default"><i style="background:var(--chip);border-style:dashed"></i>? 疑似抓取异常</span>
     <span class="chip" style="cursor:default">— 当日无数据</span>
   </div>
   <div id="sections"></div>
@@ -248,14 +253,14 @@ function render() {
   const chgByKD = {};
   for (const c of D.changes) chgByKD[c.key + '|' + c.date] = c;
   const tc = D.changes.filter(c => c.date === today && vis(D.skus[c.key]));
-  const lbl = {up: '▲ 涨价', down: '▼ 降价', new: '新上架', gone: '下架/缺货'};
+  const lbl = {up: '▲ 涨价', down: '▼ 降价', new: '新上架', gone: '下架/缺货', suspect: '? 疑似抓取异常'};
   $('#chg').innerHTML = tc.length ? '<tr><th class="l">类型</th><th class="l">品牌</th><th class="l">品类</th><th class="l">型号 / 版本</th><th>原价</th><th>现价</th><th>变动</th></tr>' +
-    tc.map(c => { const m = D.skus[c.key]; const cls = c.type === 'up' ? 'up' : c.type === 'down' ? 'down' : 'new';
-      return `<tr><td class="l ${cls}">${lbl[c.type]}</td><td class="l">${esc(m.brand)}</td><td class="l">${esc(IDX.categories[m.category])}</td><td class="l"><a data-m="${esc(m.model)}">${esc(m.model)}</a> · ${esc(m.variant)}</td><td>${fmt(conv(c.old, today))}</td><td>${fmt(conv(c.new, today))}</td><td class="${cls}">${c.delta == null ? '' : (c.delta > 0 ? '+' : '') + fmt(conv(c.delta, today)) + ` (${c.pct > 0 ? '+' : ''}${c.pct}%)`}</td></tr>`; }).join('')
+    tc.map(c => { const m = D.skus[c.key]; const cls = c.type === 'up' ? 'up' : c.type === 'down' ? 'down' : c.type === 'suspect' ? 'sus' : 'new';
+      return `<tr${c.reason ? ` title="${esc(c.reason)}"` : ''}><td class="l ${cls}">${lbl[c.type]}</td><td class="l">${esc(m.brand)}</td><td class="l">${esc(IDX.categories[m.category])}</td><td class="l"><a data-m="${esc(m.model)}">${esc(m.model)}</a> · ${esc(m.variant)}</td><td>${fmt(conv(c.old, today))}</td><td>${fmt(conv(c.new, today))}</td><td class="${cls}">${c.delta == null ? '' : (c.delta > 0 ? '+' : '') + fmt(conv(c.delta, today)) + ` (${c.pct > 0 ? '+' : ''}${c.pct}%)`}</td></tr>`; }).join('')
     : `<tr><td class="empty">${D.dates.length < 2 ? '首个快照 — 下次运行起显示价格变动 / First snapshot — changes appear from the next run.' : '今日无价格变动 / No price changes today.'}</td></tr>`;
   const keys = Object.keys(D.skus).filter(k => D.prices[k][today] && vis(D.skus[k]));
   const cnt = t => tc.filter(c => c.type === t).length;
-  $('#sum').innerHTML = [['在售 SKU / live SKUs', keys.length], ['涨价 / up', cnt('up')], ['降价 / down', cnt('down')], ['新上架 / new', cnt('new')], ['快照天数 / days', D.dates.length]]
+  $('#sum').innerHTML = [['在售 SKU / live SKUs', keys.length], ['涨价 / up', cnt('up')], ['降价 / down', cnt('down')], ['新上架 / new', cnt('new')], ['疑似异常 / suspect', cnt('suspect')], ['快照天数 / days', D.dates.length]]
     .map(([k, v]) => `<div class="card"><div class="v">${v}</div><div class="k">${k}</div></div>`).join('');
   let html = '';
   for (const [cat, label] of Object.entries(IDX.categories)) {
@@ -266,7 +271,7 @@ function render() {
     rows.sort((a, b) => a[1].brand.localeCompare(b[1].brand) || a[1].model.localeCompare(b[1].model) || ((D.prices[a[0]][today] || [1e12])[0] - (D.prices[b[0]][today] || [1e12])[0]));
     html += `<h2>${esc(label)}</h2><p class="meta">${rows.length} SKUs · ${dates[0] || ''} → ${today || ''}</p>`;
     if (!rows.length) { html += '<div class="scroll"><div class="empty">暂无数据 / no data</div></div>'; continue; }
-    html += '<div class="scroll"><table><tr><th class="l sku">型号 · 版本 / Model · Variant</th><th>排名</th>' + dates.map(d => `<th>${d.slice(5)}</th>`).join('') + '<th>区间变动 / Δ</th></tr>';
+    html += '<div class="scroll"><table><tr><th class="l sku">型号 · 版本 / Model · Variant</th><th>排名</th>' + dates.map(d => `<th>${d.slice(5)}</th>`).join('') + '<th>区间变动 / Δ</th><th class="spark">近15天走势</th></tr>';
     for (const [k, m] of rows) {
       const pr = D.prices[k], rk = (D.ranks[m.mkey] || {})[today];
       html += `<tr><td class="l sku" style="background:${IDX.brandColors[m.brand] || '#eee'}" title="${esc(m.brand + ' ' + m.model + ' ' + m.variant)}"><a data-m="${esc(m.model)}">${esc(m.model)}</a> <small>${esc(m.variant)}</small><a class="add" data-add="${esc(k)}" title="加入产品对比 / add to compare">＋</a> <a href="${esc(m.url)}" target="_blank" rel="noopener" title="官网 / store">↗</a></td><td>${rk ? '#' + rk : '—'}</td>`;
@@ -276,19 +281,44 @@ function render() {
         if (!p) { html += '<td class="na">—</td>'; continue; }
         const v = conv(p[0], d);
         if (first == null) first = v; lastp = v;
-        const cls = c ? (c.type === 'up' ? 'up' : c.type === 'down' ? 'down' : c.type === 'new' ? 'new' : '') : '';
-        const tip = p[1] ? ` title="UVP / list ${fmt(conv(p[1], d))}"` : '';
-        const delta = c && c.delta != null ? `<span class="d">${c.delta > 0 ? '▲ +' : '▼ '}${fmt(conv(c.delta, d))}</span>` : '';
+        const cls = c ? (c.type === 'up' ? 'up' : c.type === 'down' ? 'down' : c.type === 'new' ? 'new' : c.type === 'suspect' ? 'sus' : '') : '';
+        const tipTxt = [p[1] ? `UVP / list ${fmt(conv(p[1], d))}` : '', c && c.reason ? `疑似抓取异常: ${c.reason}` : ''].filter(Boolean).join(' · ');
+        const tip = tipTxt ? ` title="${esc(tipTxt)}"` : '';
+        const delta = c && c.delta != null ? `<span class="d">${c.type === 'suspect' ? '? ' : c.delta > 0 ? '▲ +' : '▼ '}${c.type === 'suspect' && c.delta > 0 ? '+' : ''}${fmt(conv(c.delta, d))}</span>` : '';
         html += `<td class="${cls}"${tip}>${fmt(v)}${delta}</td>`;
       }
       const dd = first != null && lastp != null ? lastp - first : 0;
-      html += `<td class="${dd > 0.005 ? 'up' : dd < -0.005 ? 'down' : ''}">${Math.abs(dd) > 0.005 ? (dd > 0 ? '+' : '') + fmt(dd) : '0'}</td></tr>`;
+      html += `<td class="${dd > 0.005 ? 'up' : dd < -0.005 ? 'down' : ''}">${Math.abs(dd) > 0.005 ? (dd > 0 ? '+' : '') + fmt(dd) : '0'}</td><td class="spark">${sparkline(k)}</td></tr>`;
     }
     html += '</table></div>';
   }
   $('#sections').innerHTML = html;
 }
 
+
+// ---------------------------------------------------------------- 15-day sparkline per SKU (always the last 15 snapshot days)
+function sparkline(k) {
+  const W = 110, H = 26, P = 3, days = D.dates.slice(-15);
+  const pts = days.map((d, i) => [i, D.prices[k][d] ? conv(D.prices[k][d][0], d) : null]).filter(p => p[1] != null);
+  if (!pts.length) return '<span class="meta">—</span>';
+  const vs = pts.map(p => p[1]), mn = Math.min(...vs), mx = Math.max(...vs), span = mx - mn;
+  const x = i => P + (days.length > 1 ? i * (W - 2 * P) / (days.length - 1) : (W - 2 * P) / 2);
+  const y = v => span < 0.005 ? H / 2 : P + (mx - v) * (H - 2 * P) / span;
+  const first = vs[0], last = vs[vs.length - 1], dd = last - first;
+  const css = getComputedStyle(document.documentElement);
+  const col = dd > 0.005 ? css.getPropertyValue('--upfg').trim() : dd < -0.005 ? css.getPropertyValue('--downfg').trim() : css.getPropertyValue('--muted').trim();
+  // break the line where a day is missing
+  let path = '', prev = null;
+  for (const [i, v] of pts) { path += (prev != null && i === prev + 1 ? 'L' : 'M') + x(i).toFixed(1) + ' ' + y(v).toFixed(1); prev = i; }
+  // mark each price change with a small dot
+  const dots = pts.filter((p, j) => j > 0 && Math.abs(p[1] - pts[j - 1][1]) > 0.005).map(([i, v]) => `<circle cx="${x(i).toFixed(1)}" cy="${y(v).toFixed(1)}" r="1.6" fill="${col}"/>`).join('');
+  const [li, lv] = pts[pts.length - 1];
+  const tip = `近${days.length}天 / last ${days.length} days: 最低 ${fmt(mn)} · 最高 ${fmt(mx)} · 波动 ${first ? ((mx - mn) / first * 100).toFixed(1) : 0}% · 区间 ${dd > 0 ? '+' : ''}${fmt(dd)}`;
+  return `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(tip)}"><title>${esc(tip)}</title>` +
+    `<line x1="${P}" x2="${W - P}" y1="${y(first).toFixed(1)}" y2="${y(first).toFixed(1)}" stroke="${css.getPropertyValue('--line').trim()}" stroke-dasharray="2 2"/>` +
+    `<path d="${path}" fill="none" stroke="${col}" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>${dots}` +
+    `<circle cx="${x(li).toFixed(1)}" cy="${y(lv).toFixed(1)}" r="2.4" fill="${col}"/></svg>`;
+}
 
 // ---------------------------------------------------------------- product trend compare
 const PALETTE = ['#2563eb', '#ea580c', '#16a34a', '#9333ea', '#db2777', '#0891b2', '#ca8a04', '#dc2626', '#4f46e5', '#059669', '#7c3aed', '#be123c', '#0d9488', '#a16207', '#1d4ed8', '#c2410c'];
@@ -347,8 +377,8 @@ async function drawCompare() {
 }
 
 // ---------------------------------------------------------------- Excel export (ExcelJS, runs in the browser)
-const FILL = {up: 'FFFDE2E1', down: 'FFDCFCE7', new: 'FFDBEAFE'}, FONT = {up: 'FFB42318', down: 'FF15803D', new: 'FF1D4ED8'};
-const TYPE_CN = {up: '涨价', down: '降价', new: '新上架', gone: '下架/缺货'};
+const FILL = {up: 'FFFDE2E1', down: 'FFDCFCE7', new: 'FFDBEAFE', suspect: 'FFEDEDED'}, FONT = {up: 'FFB42318', down: 'FF15803D', new: 'FF1D4ED8', suspect: 'FF6B7280'};
+const TYPE_CN = {up: '涨价', down: '降价', new: '新上架', gone: '下架/缺货', suspect: '疑似抓取异常'};
 function styleHeader(ws) {
   ws.getRow(1).font = {bold: true}; ws.getRow(1).fill = {type: 'pattern', pattern: 'solid', fgColor: {argb: 'FFF1F5F9'}};
   ws.views = [{state: 'frozen', ySplit: 1}];
@@ -391,7 +421,7 @@ async function exportView() {
     dates.forEach((d, i) => {
       const c = chg[k + '|' + d], cell = r.getCell(7 + i); cell.numFmt = numFmt;
       if (c && FILL[c.type]) { cell.fill = {type: 'pattern', pattern: 'solid', fgColor: {argb: FILL[c.type]}}; cell.font = {color: {argb: FONT[c.type]}, bold: true};
-        if (c.delta != null) cell.note = `${TYPE_CN[c.type]} ${c.delta > 0 ? '+' : ''}${c.delta} (${c.pct}%) · ${D.currency}`; }
+        if (c.delta != null) cell.note = `${TYPE_CN[c.type]} ${c.delta > 0 ? '+' : ''}${c.delta} (${c.pct}%) · ${D.currency}${c.reason ? ' · ' + c.reason : ''}`; }
     });
     const dc = r.getCell(7 + dates.length); dc.numFmt = numFmt;
     if (dc.value) dc.font = {color: {argb: dc.value > 0 ? FONT.up : FONT.down}, bold: true};
@@ -428,7 +458,7 @@ async function exportView() {
   [['国家', `${D.name} (${cc})`], ['币种', cur + (cur !== D.currency ? `（由 ${D.currency} 按 ECB 每日汇率换算）` : '')], ['截至', today], ['日期区间', `${dates[0]} → ${today}`],
    ['品类', Object.entries(IDX.categories).filter(([c]) => !offCat.has(c)).map(([, l]) => l).join('、')], ['品牌', Object.keys(IDX.brandColors).filter(b => !off.has(b)).join('、')],
    ['搜索', q || '—'], ['仅有变动', only ? '是' : '否'], ['价格口径', '官网当前售价（含税），同一存储版本多颜色取最低'], ['排名口径', '品牌官网分类页列表位置（#1 = 最靠前，品牌+品类内）'],
-   ['标色', '红 = 涨价，绿 = 降价，蓝 = 新上架；单元格批注含变动金额'], ['导出时间', new Date().toLocaleString('zh-CN')]].forEach(r => wn.addRow(r));
+   ['标色', '红 = 涨价，绿 = 降价，蓝 = 新上架，灰 = 疑似抓取异常（不计入涨跌）；单元格批注含变动金额'], ['导出时间', new Date().toLocaleString('zh-CN')]].forEach(r => wn.addRow(r));
   wn.getColumn(1).font = {bold: true};
   await download(wb, `官网价格_${cc}_${today}_${cur}.xlsx`);
   $('#xlsMsg').textContent = `已导出 ${rows.length} 个 SKU`;
