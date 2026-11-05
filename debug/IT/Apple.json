@@ -8,9 +8,9 @@
    "final_url": "https://www.apple.com/it/shop/buy-iphone",
    "title": "Acquista iPhone - Apple (IT)",
    "json_urls": [
-    "https://www.apple.com/it/shop/bag/status?apikey=SJHJUH4YFCTTPD4F4",
-    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
+    "https://www.apple.com/it/shop/bag/status?apikey=SJHJUH4YFCTTPD4F4",
     "https://www.apple.com/it/shop/api/digital-mat?path=library/step0_iphone/digitalmat&fae=true",
     "https://www.apple.com/shop/shld/work/s3/q?jr=30"
    ],
@@ -35,26 +35,10 @@
     "€ 149,00",
     "€ 19,00"
    ],
-   "items_by_source": {},
-   "text_sample": "Apple Store Mac iPad iPhone Watch AirPods Casa Intrattenimento Accessori Supporto 0 + Scegli il pagamento rateale a tasso zero per acquistare il tuo nuovo iPhone con le opzioni di finanziamento flessibile. Nota ① E se fai la permuta, le rate saranno più basse. Nota ② Scopri di più sulle rate mensili Scegli il tuo iPhone Parla con il team di Specialist (Si apre in una nuova finestra) Trova un Apple Store (si apre una nuova finestra) Tutti i modelli Modi per risparmiare Guida allo shopping Accessori Setup e supporto Il mondo iPhone Store speciali Tutti i modelli. Trova il tuo. NOVITÀ iPhone Duo - NOVITÀ Dai un’occhiata da vicino - iPhone Duo Da € 2.369,00o€ 98,71 al mese per 24 mesi, TAN fisso 0% Nota ① Acquista - iPhone Duo NOVITÀ iPhone 18 Pro e iPhone 18 Pro Max - NOVITÀ Dai un’occhiata da vicino - iPhone 18 Pro e iPhone 18 Pro Max Da € 1.489,00o€ 62,04 al mese per 24 mesi, TAN fisso 0% Nota ① Acquista - iPhone 18 Pro e iPhone 18 Pro Max iPhone Air Dai un’occhiata da vicino - iPhone Air Da € 1.339,00o€ 55,79 al mese per 24 mesi, TAN fisso 0% Nota ① Acquista - iPhone Air iPhone 17 Dai un’occhiata da vicino - iPhone 17 Da € 1.129,00o€ 47,04 al mese per 24 mesi, TAN fisso 0% Nota ① Acquista - iPhone 17 iPhone 17e Dai un’occhiata da vicino - iPhone 17e Da € 879,00o€ 36,63 al mese per 24 mesi, TAN fisso 0% Nota ① Acquista - iPhone 17e iPhone 16 Dai un’occhiata da vicino - iPhone 16 Da € 1.029,00o€ 42,88 al mese per 24 mesi, TAN fisso 0% Nota ① Acquista - iPhone ",
-   "json_samples": [
-    {
-     "url": "https://www.apple.com/it/shop/bag/status?apikey=SJHJUH4YFCTTPD4F4",
-     "body": "{\"items\": 0, \"ttl\": 180, \"api\": {\"flyout\": \"/%5Bstorefront%5D/shop/bag/flyout\", \"addToBag\": \"/%5Bstorefront%5D/shop/bag/add?product=%5Bpart%5D\"}}"
-    },
-    {
-     "url": "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
-     "body": "[{\"name\": \"apple\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple home\"}], \"id\": \"3d39a8ff\"}, {\"name\": \"store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"store\"}, {\"name\": \"data-analytics-element-engagement\", \"value\": \"hover - store\"}], \"baseGroups\": [{\"id\": \"2cf6d3e8\", \"title\": \"Link rapidi\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"quick links - store\"}], \"baseLinks\": [{\"id\": \"2373c842\", \"text\": \"Trova uno store\", \"url\": \"/it/retail/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"find a store\"}], \"ariaLabel\": \"\"}, {\"id\": \"ec7d9cb9\", \"text\": \"Stato degli ordini\", \"url\": \"/it/shop/goto/order/list\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"order status\"}], \"ariaLabel\": \"\"}, {\"id\": \"d41ef62d\", \"text\": \"Apple Trade In\", \"url\": \"/it/shop/goto/trade_in\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple trade in\"}], \"ariaLabel\": \"\"}, {\"id\": \"774a30ac\", \"text\": \"Finanziamenti\", \"url\": \"/it/shop/goto/ww/financing\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"financing\"}], \"ariaLabel\": \"\"}, {\"id\": \"fa5fe1d4\", \"text\": \"Setup personale\", \"url\": \"/it/shop/goto/personal_setup\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"personal setup\"}], \"ariaLabel\": \"\"}]}, {\"id\": \"6b3ab6e5\", \"title\": \"Acquista sugli store dedicati\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"shop special stores\"}], \"baseLinks\": [{\"id\": \"f03dfdfa\", \"text\": \"Ricondizionati certificati\", \"url\": \"/it/shop/goto/special_deals\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"certified refurbished\"}], \"ariaLabel\": \"\"}, {\"id\": \"eeb4c51a\", \"text\": \"Istruzione\", \"url\": \"/it/shop/goto/educationrouting\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"education\"}], \"ariaLabel\": \"\"}, {\"id\": \"e5f12dbd\", \"text\": \"Business\", \"url\": \"/it/retail/business/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"business\"}], \"ariaLabel\": \"\"}]}], \"elevatedGroups\": [{\"id\": \"a6ac4cfa\", \"title\": \"Acquista\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"explore shop\"}], \"elevatedLinks\": [{\"id\": \"50119e08\", \"text\": \"Acquista i nuovi prodotti\", \"url\": \"/it/shop/goto/store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"shop the latest\"}], \"ariaLabel\": \"Acquista i nuovi prodotti Apple\"}, {\"id\": \"32ea423e\", \"text\": \"Ma"
-    },
-    {
-     "url": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
-     "body": "{\"id\": \"OoaZZNPQR-KZairZWvhJ2A\", \"results\": [{\"sectionName\": \"quickLinks\", \"sectionResults\": [{\"label\": \"Trova uno Store\", \"url\": \"https://www.apple.com/it/retail/\"}, {\"label\": \"Accessori\", \"url\": \"https://www.apple.com/it/shop/goto/accessories/apple_accessories\"}, {\"label\": \"AirPods\", \"url\": \"https://www.apple.com/it/airpods/\"}, {\"label\": \"Apple Intelligence\", \"url\": \"https://www.apple.com/it/apple-intelligence/\"}, {\"label\": \"Apple Trade In\", \"url\": \"https://www.apple.com/it/shop/goto/trade_in\"}]}, {\"sectionName\": \"suggestions\", \"sectionResults\": []}]}"
-    },
-    {
-     "url": "https://www.apple.com/it/shop/api/digital-mat?path=library/step0_iphone/digitalmat&fae=true",
-     "body": "{\"head\": {\"status\": \"200\", \"data\": {}}, \"body\": {\"representativeExample\": \"\\n\\n<div class=\\\"as-l-container as-dynamicrep-illustrative-container\\\">\\n    \\n    <div class=\\\"as-dynamicrep-section-header typography-body\\\">Un finanziamento è un impegno che occorre onorare. Verifica la&nbsp;tua&nbsp;capacità di rimborsare il prestito prima di sottoscrivere un&nbsp;finanziamento.</div>\\n    <div class=\\\"as-dynamicrep-section-subheader typography-body-reduced-tight\\\">Messaggio pubblicitario a fini promozionali dedicato ai titolari di Smart Line.\\n<br /><br />\\nSmart Line è una linea di credito privativa a tempo indeterminato di Findomestic per pagare a rate i tuoi acquisti da Apple. Il&nbsp;prodotto Smart&nbsp;Line è&nbsp;riservato ai&nbsp;clienti maggiorenni che non&nbsp;hanno superato i&nbsp;74&nbsp;anni di&nbsp;età.\\n<br /><br />\\nCon Smart Line è possibile disporre di un limite autorizzato fino a € 5.000; l’importo disponibile diminuisce a ogni utilizzo e si ricostituisce con i rimborsi mensili. Per ogni acquisto è possibile scegliere il piano di rimborso disponibile in base alle condizioni promozionali in vigore, con un costo inferiore rispetto alle condizioni economiche massime applicabili alla Linea di credito, <strong>pari a TAN fisso 14,88% e TAEG 15,93%</strong>. Per tutte le condizioni economiche e contrattuali, consulta le Informazioni Europee di Base sul Credito ai Consumatori (IEBCC) disponibili durante la procedura di sottoscrizione online. Salvo approvazione da parte di Findomestic Banca, per la quale Apple opera in qualità di intermediario di credito non esclusivo.</div>\\n\\n        \\n        <h2 id=\\\"dynamicrep-illustrative-header\\\" class=\\\"as-dynamicrep-illustrative-header typography-body\\\">Esempio rappresentativo di acquisto con&nbsp;Findomestic</h2>\\n        <div class=\\\"as-dynamicrep-illustrative-subheader typography-body-reduced-tight\\\"><b>Offerte attuali per i tuoi acquisti con Smart Line, più convenienti rispetto alle condizioni massime applicabili (TAN fisso 14,88%, TAEG 15,93%)</b></div>\\n        \\n        \\n\\n        \\n            <as-accordion compact=\\\"true\\\">\\n                <div data-slot=\\\"accordion-item\\\" open=\\\"true\\\" titleWrapperTag=\\\"h3\\\">\\n                    <h3 data-slot=\\\"title\\\">36 mesi al costo totale promozionale del&nbsp;11,57% a partire dal giorno <span class=\\\"nowrap\\\">2026-10-01</span> fino al giorno <span class=\\\"nowrap\\\">2027-01-12</span></h3>\\n                    <div data-slot=\\\"content\\\">\\n                      "
-    }
-   ]
+   "items_by_source": {
+    "dom-from": 1
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch AirPods Casa Intrattenimento Accessori Supporto 0 + Scegli il pagamento rateale a tasso zero per acquistare il tuo nuovo iPhone con le opzioni di finanziamento flessibile. Nota ① E se fai la permuta, le rate saranno più basse. Nota ② Scopri di più sulle rate mensili Scegli il tuo iPhone Parla con il team di Specialist (Si apre in una nuova finestra) Trova un Apple Store (si apre una nuova finestra) Tutti i modelli Modi per risparmiare Guida allo shopping Accessori Setup e supporto Il mondo iPhone Store speciali Tutti i modelli. Trova il tuo. NOVITÀ iPhone Duo - NOVITÀ Dai un’occhiata da vicino - iPhone Duo Da € 2.369,00o€ 98,71 al mese per 24 mesi, TAN fisso 0% Nota ① Acquista - iPhone Duo NOVITÀ iPhone 18 Pro e iPhone 18 Pro Max - NOVITÀ Dai un’occhiata da vicino - iPhone 18 Pro e iPhone 18 Pro Max Da € 1.489,00o€ 62,04 al mese per 24 mesi, TAN fisso 0% Nota ① Acquista - iPhone 18 Pro e iPhone 18 Pro Max iPhone Air Dai un’occhiata da vicino - iPhone Air Da € 1.339,00o€ 55,79 al mese per 24 mesi, TAN fisso 0% Nota ① Acquista - iPhone Air iPhone 17 Dai un’occhiata da vicino - iPhone 17 Da € 1.129,00o€ 47,04 al mese per 24 mesi, TAN fisso 0% Nota ① Acquista - iPhone 17 iPhone 17e Dai un’occhiata da vicino - iPhone 17e Da € 879,00o€ 36,63 al mese per 24 mesi, TAN fisso 0% Nota ① Acquista - iPhone 17e iPhone 16 Dai un’occhiata da vicino - iPhone 16 Da € 1.029,00o€ 42,88 al mese per 24 mesi, TAN fisso 0% Nota ① Acquista - iPhone "
   },
   {
    "url": "https://www.apple.com/it/shop/buy-ipad",
@@ -62,8 +46,8 @@
    "final_url": "https://www.apple.com/it/shop/buy-ipad",
    "title": "Acquista iPad - Apple (IT)",
    "json_urls": [
-    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
     "https://www.apple.com/it/shop/api/digital-mat?path=library/step0_ipad/digitalmat&fae=true"
    ],
    "links": [
@@ -85,22 +69,10 @@
     "€ 89,00",
     "€ 149,00"
    ],
-   "items_by_source": {},
-   "text_sample": "Apple Store Mac iPad iPhone Watch AirPods Casa Intrattenimento Accessori Supporto 0 + Acquista iPad con il finanziamento flessibile a partire da € 16,66 al mese per 36 mesi con TAN fisso 10,98%. Nota ① E se fai la permuta, le rate saranno più basse. Nota ② Scopri di più sulle rate mensili Scegli il tuo iPad Parla con il team di Specialist (Si apre in una nuova finestra) Trova un Apple Store (si apre una nuova finestra) Precedente Tutti i modelli Modi per risparmiare Guida allo shopping L’Apple Store fa la differenza Accessori Setup e supporto Il mondo iPad Sconti e promozioni. Tutti i modelli. Trova il tuo. iPad Pro Dai un’occhiata da vicino - iPad Pro Da € 1.319,00o€ 43,18 al mese per 36 mesi, TAN fisso 10,99% Nota ① Acquista - iPad Pro iPad Air Dai un’occhiata da vicino - iPad Air Da € 829,00o€ 27,14 al mese per 36 mesi, TAN fisso 10,99% Nota ① Acquista - iPad Air iPad Dai un’occhiata da vicino - iPad Da € 509,00o€ 16,66 al mese per 36 mesi, TAN fisso 10,98% Nota ① Acquista - iPad NOVITÀ iPad mini - NOVITÀ Dai un’occhiata da vicino - iPad mini Da € 759,00o€ 24,85 al mese per 36 mesi, TAN fisso 11% Nota ① Preordina - iPad mini Scopri tutti gli accessori per iPad. Precedente - Tutti i modelli Avanti - Tutti i modelli Modi per risparmiare. Qual è il migliore per te? PAGA A RATE MENSILI Scopri le opzioni di finanziamento flessibile. Acquista i prodotti Apple in comode rate. Nota ① COMODE RATE MENSILI Paga a rate mensili con il finanziamento flessibile.",
-   "json_samples": [
-    {
-     "url": "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
-     "body": "[{\"name\": \"apple\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple home\"}], \"id\": \"3d39a8ff\"}, {\"name\": \"store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"store\"}, {\"name\": \"data-analytics-element-engagement\", \"value\": \"hover - store\"}], \"baseGroups\": [{\"id\": \"2cf6d3e8\", \"title\": \"Link rapidi\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"quick links - store\"}], \"baseLinks\": [{\"id\": \"2373c842\", \"text\": \"Trova uno store\", \"url\": \"/it/retail/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"find a store\"}], \"ariaLabel\": \"\"}, {\"id\": \"ec7d9cb9\", \"text\": \"Stato degli ordini\", \"url\": \"/it/shop/goto/order/list\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"order status\"}], \"ariaLabel\": \"\"}, {\"id\": \"d41ef62d\", \"text\": \"Apple Trade In\", \"url\": \"/it/shop/goto/trade_in\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple trade in\"}], \"ariaLabel\": \"\"}, {\"id\": \"774a30ac\", \"text\": \"Finanziamenti\", \"url\": \"/it/shop/goto/ww/financing\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"financing\"}], \"ariaLabel\": \"\"}, {\"id\": \"fa5fe1d4\", \"text\": \"Setup personale\", \"url\": \"/it/shop/goto/personal_setup\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"personal setup\"}], \"ariaLabel\": \"\"}]}, {\"id\": \"6b3ab6e5\", \"title\": \"Acquista sugli store dedicati\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"shop special stores\"}], \"baseLinks\": [{\"id\": \"f03dfdfa\", \"text\": \"Ricondizionati certificati\", \"url\": \"/it/shop/goto/special_deals\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"certified refurbished\"}], \"ariaLabel\": \"\"}, {\"id\": \"eeb4c51a\", \"text\": \"Istruzione\", \"url\": \"/it/shop/goto/educationrouting\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"education\"}], \"ariaLabel\": \"\"}, {\"id\": \"e5f12dbd\", \"text\": \"Business\", \"url\": \"/it/retail/business/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"business\"}], \"ariaLabel\": \"\"}]}], \"elevatedGroups\": [{\"id\": \"a6ac4cfa\", \"title\": \"Acquista\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"explore shop\"}], \"elevatedLinks\": [{\"id\": \"50119e08\", \"text\": \"Acquista i nuovi prodotti\", \"url\": \"/it/shop/goto/store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"shop the latest\"}], \"ariaLabel\": \"Acquista i nuovi prodotti Apple\"}, {\"id\": \"32ea423e\", \"text\": \"Ma"
-    },
-    {
-     "url": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
-     "body": "{\"id\": \"OoaZZNPQR-KZairZWvhJ2A\", \"results\": [{\"sectionName\": \"quickLinks\", \"sectionResults\": [{\"label\": \"Trova uno Store\", \"url\": \"https://www.apple.com/it/retail/\"}, {\"label\": \"Accessori\", \"url\": \"https://www.apple.com/it/shop/goto/accessories/apple_accessories\"}, {\"label\": \"AirPods\", \"url\": \"https://www.apple.com/it/airpods/\"}, {\"label\": \"Apple Intelligence\", \"url\": \"https://www.apple.com/it/apple-intelligence/\"}, {\"label\": \"Apple Trade In\", \"url\": \"https://www.apple.com/it/shop/goto/trade_in\"}]}, {\"sectionName\": \"suggestions\", \"sectionResults\": []}]}"
-    },
-    {
-     "url": "https://www.apple.com/it/shop/api/digital-mat?path=library/step0_ipad/digitalmat&fae=true",
-     "body": "{\"head\": {\"status\": \"200\", \"data\": {}}, \"body\": {\"representativeExample\": \"\\n\\n<div class=\\\"as-l-container as-dynamicrep-illustrative-container\\\">\\n    \\n    <div class=\\\"as-dynamicrep-section-header typography-body\\\">Un finanziamento è un impegno che occorre onorare. Verifica la&nbsp;tua&nbsp;capacità di rimborsare il prestito prima di sottoscrivere un&nbsp;finanziamento.</div>\\n    <div class=\\\"as-dynamicrep-section-subheader typography-body-reduced-tight\\\">Messaggio pubblicitario a fini promozionali dedicato ai titolari di Smart Line.\\n<br /><br />\\nSmart Line è una linea di credito privativa a tempo indeterminato di Findomestic per pagare a rate i tuoi acquisti da Apple. Il&nbsp;prodotto Smart&nbsp;Line è&nbsp;riservato ai&nbsp;clienti maggiorenni che non&nbsp;hanno superato i&nbsp;74&nbsp;anni di&nbsp;età.\\n<br /><br />\\nCon Smart Line è possibile disporre di un limite autorizzato fino a € 5.000; l’importo disponibile diminuisce a ogni utilizzo e si ricostituisce con i rimborsi mensili. Per ogni acquisto è possibile scegliere il piano di rimborso disponibile in base alle condizioni promozionali in vigore, con un costo inferiore rispetto alle condizioni economiche massime applicabili alla Linea di credito, <strong>pari a TAN fisso 14,88% e TAEG 15,93%</strong>. Per tutte le condizioni economiche e contrattuali, consulta le Informazioni Europee di Base sul Credito ai Consumatori (IEBCC) disponibili durante la procedura di sottoscrizione online. Salvo approvazione da parte di Findomestic Banca, per la quale Apple opera in qualità di intermediario di credito non esclusivo.</div>\\n\\n        \\n        <h2 id=\\\"dynamicrep-illustrative-header\\\" class=\\\"as-dynamicrep-illustrative-header typography-body\\\">Esempio rappresentativo di acquisto con&nbsp;Findomestic</h2>\\n        <div class=\\\"as-dynamicrep-illustrative-subheader typography-body-reduced-tight\\\"><b>Offerte attuali per i tuoi acquisti con Smart Line, più convenienti rispetto alle condizioni massime applicabili (TAN fisso 14,88%, TAEG 15,93%)</b></div>\\n        \\n        \\n\\n        \\n            <as-accordion compact=\\\"true\\\">\\n                <div data-slot=\\\"accordion-item\\\" open=\\\"true\\\" titleWrapperTag=\\\"h3\\\">\\n                    <h3 data-slot=\\\"title\\\">36 mesi al costo totale promozionale del&nbsp;11,57% a partire dal giorno <span class=\\\"nowrap\\\">2026-10-01</span> fino al giorno <span class=\\\"nowrap\\\">2027-01-12</span></h3>\\n                    <div data-slot=\\\"content\\\">\\n                      "
-    }
-   ]
+   "items_by_source": {
+    "dom-from": 1
+   },
+   "text_sample": "Apple Store Mac iPad iPhone Watch AirPods Casa Intrattenimento Accessori Supporto 0 + Acquista iPad con il finanziamento flessibile a partire da € 16,66 al mese per 36 mesi con TAN fisso 10,98%. Nota ① E se fai la permuta, le rate saranno più basse. Nota ② Scopri di più sulle rate mensili Scegli il tuo iPad Parla con il team di Specialist (Si apre in una nuova finestra) Trova un Apple Store (si apre una nuova finestra) Precedente Tutti i modelli Modi per risparmiare Guida allo shopping L’Apple Store fa la differenza Accessori Setup e supporto Il mondo iPad Sconti e promozioni. Tutti i modelli. Trova il tuo. iPad Pro Dai un’occhiata da vicino - iPad Pro Da € 1.319,00o€ 43,18 al mese per 36 mesi, TAN fisso 10,99% Nota ① Acquista - iPad Pro iPad Air Dai un’occhiata da vicino - iPad Air Da € 829,00o€ 27,14 al mese per 36 mesi, TAN fisso 10,99% Nota ① Acquista - iPad Air iPad Dai un’occhiata da vicino - iPad Da € 509,00o€ 16,66 al mese per 36 mesi, TAN fisso 10,98% Nota ① Acquista - iPad NOVITÀ iPad mini - NOVITÀ Dai un’occhiata da vicino - iPad mini Da € 759,00o€ 24,85 al mese per 36 mesi, TAN fisso 11% Nota ① Preordina - iPad mini Scopri tutti gli accessori per iPad. Precedente - Tutti i modelli Avanti - Tutti i modelli Modi per risparmiare. Qual è il migliore per te? PAGA A RATE MENSILI Scopri le opzioni di finanziamento flessibile. Acquista i prodotti Apple in comode rate. Nota ① COMODE RATE MENSILI Paga a rate mensili con il finanziamento flessibile."
   },
   {
    "url": "https://www.apple.com/it/shop/buy-watch",
@@ -108,8 +80,8 @@
    "final_url": "https://www.apple.com/it/shop/buy-watch",
    "title": "Acquista Apple Watch - Apple (IT)",
    "json_urls": [
-    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
     "https://www.apple.com/it/shop/api/digital-mat?path=library/step0_watch/digitalmat&fae=true"
    ],
    "links": [
@@ -131,15 +103,15 @@
     "€ 549,00"
    ],
    "items_by_source": {},
-   "text_sample": "Apple Store Mac iPad iPhone Watch AirPods Casa Intrattenimento Accessori Supporto 0 + Acquista Apple Watch con il finanziamento flessibile a partire da € 9,13 al mese per 36 mesi con TAN fisso 10,96%. Nota ① E se fai la permuta, le rate saranno più basse. Nota ② Scopri di più sulle rate mensili Scegli il tuo Apple Watch Parla con il team di Specialist (Si apre in una nuova finestra) Trova un Apple Store (si apre una nuova finestra) Precedente Tutti i modelli Modi per risparmiare Guida allo shopping Cinturini per Apple Watch Accessori per la ricarica di Apple Watch Il mondo Apple Watch Setup e supporto Tutti i modelli. Trova il tuo. NOVITÀ Apple Watch Series 12 - NOVITÀ Dai un’occhiata da vicino - Apple Watch Series 12 + Da € 459,00 o € 15,03 al mese per 36 mesi, TAN fisso 11,01% Nota ① Acquista - Apple Watch Series 12 NOVITÀ Apple Watch Ultra 4 - NOVITÀ Dai un’occhiata da vicino - Apple Watch Ultra 4 Da € 909,00 o € 29,76 al mese per 36 mesi, TAN fisso 11% Nota ① Acquista - Apple Watch Ultra 4 Apple Watch SE 3 Dai un’occhiata da vicino - Apple Watch SE 3 Da € 279,00 o € 9,13 al mese per 36 mesi, TAN fisso 10,96% Nota ① Acquista - Apple Watch SE 3 NOVITÀ Apple Watch Hermès Series 12 - NOVITÀ Dai un’occhiata da vicino - Apple Watch Hermès Series 12 Da € 1.609,00 o € 52,68 al mese per 36 mesi, TAN fisso 11% Nota ① Acquista - Apple Watch Hermès Series 12 NOVITÀ Apple Watch Hermès Ultra 4 - NOVITÀ Dai un’occhiata da vicino - Apple Watch Hermès Ultra 4 Da € 1.709,00 o",
+   "text_sample": "Apple Store Mac iPad iPhone Watch AirPods Casa Intrattenimento Accessori Supporto 0 + Acquista Apple Watch con il finanziamento flessibile a partire da € 9,13 al mese per 36 mesi con TAN fisso 10,96%. Nota ① E se fai la permuta, le rate saranno più basse. Nota ② Scopri di più sulle rate mensili Scegli il tuo Apple Watch Parla con il team di Specialist (Si apre in una nuova finestra) Trova un Apple Store (si apre una nuova finestra) Tutti i modelli Modi per risparmiare Guida allo shopping Cinturini per Apple Watch Accessori per la ricarica di Apple Watch Il mondo Apple Watch Setup e supporto Tutti i modelli. Trova il tuo. NOVITÀ Apple Watch Series 12 - NOVITÀ Dai un’occhiata da vicino - Apple Watch Series 12 + Da € 459,00 o € 15,03 al mese per 36 mesi, TAN fisso 11,01% Nota ① Acquista - Apple Watch Series 12 NOVITÀ Apple Watch Ultra 4 - NOVITÀ Dai un’occhiata da vicino - Apple Watch Ultra 4 Da € 909,00 o € 29,76 al mese per 36 mesi, TAN fisso 11% Nota ① Acquista - Apple Watch Ultra 4 Apple Watch SE 3 Dai un’occhiata da vicino - Apple Watch SE 3 Da € 279,00 o € 9,13 al mese per 36 mesi, TAN fisso 10,96% Nota ① Acquista - Apple Watch SE 3 NOVITÀ Apple Watch Hermès Series 12 - NOVITÀ Dai un’occhiata da vicino - Apple Watch Hermès Series 12 Da € 1.609,00 o € 52,68 al mese per 36 mesi, TAN fisso 11% Nota ① Acquista - Apple Watch Hermès Series 12 NOVITÀ Apple Watch Hermès Ultra 4 - NOVITÀ Dai un’occhiata da vicino - Apple Watch Hermès Ultra 4 Da € 1.709,00 o € 55,95 al",
    "json_samples": [
+    {
+     "url": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
+     "body": "{\"id\": \"2dHll50zRnW4VCSVUv8sug\", \"results\": [{\"sectionName\": \"quickLinks\", \"sectionResults\": [{\"label\": \"Trova uno Store\", \"url\": \"https://www.apple.com/it/retail/\"}, {\"label\": \"Accessori\", \"url\": \"https://www.apple.com/it/shop/goto/accessories/apple_accessories\"}, {\"label\": \"AirPods\", \"url\": \"https://www.apple.com/it/airpods/\"}, {\"label\": \"Apple Intelligence\", \"url\": \"https://www.apple.com/it/apple-intelligence/\"}, {\"label\": \"Apple Trade In\", \"url\": \"https://www.apple.com/it/shop/goto/trade_in\"}]}, {\"sectionName\": \"suggestions\", \"sectionResults\": []}]}"
+    },
     {
      "url": "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
      "body": "[{\"name\": \"apple\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple home\"}], \"id\": \"3d39a8ff\"}, {\"name\": \"store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"store\"}, {\"name\": \"data-analytics-element-engagement\", \"value\": \"hover - store\"}], \"baseGroups\": [{\"id\": \"2cf6d3e8\", \"title\": \"Link rapidi\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"quick links - store\"}], \"baseLinks\": [{\"id\": \"2373c842\", \"text\": \"Trova uno store\", \"url\": \"/it/retail/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"find a store\"}], \"ariaLabel\": \"\"}, {\"id\": \"ec7d9cb9\", \"text\": \"Stato degli ordini\", \"url\": \"/it/shop/goto/order/list\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"order status\"}], \"ariaLabel\": \"\"}, {\"id\": \"d41ef62d\", \"text\": \"Apple Trade In\", \"url\": \"/it/shop/goto/trade_in\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple trade in\"}], \"ariaLabel\": \"\"}, {\"id\": \"774a30ac\", \"text\": \"Finanziamenti\", \"url\": \"/it/shop/goto/ww/financing\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"financing\"}], \"ariaLabel\": \"\"}, {\"id\": \"fa5fe1d4\", \"text\": \"Setup personale\", \"url\": \"/it/shop/goto/personal_setup\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"personal setup\"}], \"ariaLabel\": \"\"}]}, {\"id\": \"6b3ab6e5\", \"title\": \"Acquista sugli store dedicati\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"shop special stores\"}], \"baseLinks\": [{\"id\": \"f03dfdfa\", \"text\": \"Ricondizionati certificati\", \"url\": \"/it/shop/goto/special_deals\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"certified refurbished\"}], \"ariaLabel\": \"\"}, {\"id\": \"eeb4c51a\", \"text\": \"Istruzione\", \"url\": \"/it/shop/goto/educationrouting\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"education\"}], \"ariaLabel\": \"\"}, {\"id\": \"e5f12dbd\", \"text\": \"Business\", \"url\": \"/it/retail/business/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"business\"}], \"ariaLabel\": \"\"}]}], \"elevatedGroups\": [{\"id\": \"a6ac4cfa\", \"title\": \"Acquista\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"explore shop\"}], \"elevatedLinks\": [{\"id\": \"50119e08\", \"text\": \"Acquista i nuovi prodotti\", \"url\": \"/it/shop/goto/store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"shop the latest\"}], \"ariaLabel\": \"Acquista i nuovi prodotti Apple\"}, {\"id\": \"32ea423e\", \"text\": \"Ma"
-    },
-    {
-     "url": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
-     "body": "{\"id\": \"OoaZZNPQR-KZairZWvhJ2A\", \"results\": [{\"sectionName\": \"quickLinks\", \"sectionResults\": [{\"label\": \"Trova uno Store\", \"url\": \"https://www.apple.com/it/retail/\"}, {\"label\": \"Accessori\", \"url\": \"https://www.apple.com/it/shop/goto/accessories/apple_accessories\"}, {\"label\": \"AirPods\", \"url\": \"https://www.apple.com/it/airpods/\"}, {\"label\": \"Apple Intelligence\", \"url\": \"https://www.apple.com/it/apple-intelligence/\"}, {\"label\": \"Apple Trade In\", \"url\": \"https://www.apple.com/it/shop/goto/trade_in\"}]}, {\"sectionName\": \"suggestions\", \"sectionResults\": []}]}"
     },
     {
      "url": "https://www.apple.com/it/shop/api/digital-mat?path=library/step0_watch/digitalmat&fae=true",
@@ -153,8 +125,8 @@
    "final_url": "https://www.apple.com/it/shop/accessories/all/headphones-speakers",
    "title": "Cuffie e altoparlanti - Tutti gli accessori - Apple (IT)",
    "json_urls": [
-    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT"
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT"
    ],
    "links": [
     "https://www.apple.com/it/shop/buy-airpods/airpods-pro-3"
@@ -185,7 +157,7 @@
    "json_urls": [
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
-    "https://www.apple.com/it/shop/sba/d/init?fnode=340e1fe18dbab421658cbbdfdf05096aac19d2accfd1db05b097c2e2faec6bb316ace4c37f354e5bad40061bfea78853c85b7f5970dfc039e",
+    "https://www.apple.com/it/shop/sba/d/init?fnode=f8e07b4a22f2725caccfff3a8110f2cf1f41fd63e2305674f268761fc2047d0ef582037c0c74f380a48925e3903612aa69b076ef7d07b8403",
     "https://www.apple.com/it/shop/favoritesx/fetch"
    ],
    "links": [
@@ -237,7 +209,7 @@
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
     "https://www.apple.com/it/shop/favoritesx/fetch",
-    "https://www.apple.com/it/shop/sba/d/init?fnode=ba88875a43d015708a31142bd7d0b83c965ffa160ca67d4d948b9c6cf993a2dcb37d30b93c96403c8f6d2bc8c5a22f45797b6f8cee5182969"
+    "https://www.apple.com/it/shop/sba/d/init?fnode=66d60e33ea5e1f5bc7976de720c96a180218f3201902c957c822ac66bacda99245cfff5c9bc6c620e5ae0489bd43d67d3506f817f10fa3fb3"
    ],
    "links": [
     "https://www.apple.com/it/shop/buy-iphone/iphone-18-pro",
@@ -290,8 +262,8 @@
    "json_urls": [
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
-    "https://www.apple.com/it/shop/favoritesx/fetch",
-    "https://www.apple.com/it/shop/sba/d/init?fnode=7c3035c0f1b9c471d7cbfdbc849dd1c7a78d73af6fe2c246e87b632998c154166026238645965f5e16a71ed6c78ce4a006099b86ab1b5b079"
+    "https://www.apple.com/it/shop/sba/d/init?fnode=5912c2763dce025e1dabc29520810c38a18287a2a0b6aaf65689d33aa9c4cb28f60649ce4a6a1ba4205c6b86eafe50a63c68582f38e416d80",
+    "https://www.apple.com/it/shop/favoritesx/fetch"
    ],
    "links": [
     "https://www.apple.com/it/shop/buy-iphone/iphone-air",
@@ -345,7 +317,7 @@
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
     "https://www.apple.com/it/shop/favoritesx/fetch",
-    "https://www.apple.com/it/shop/sba/d/init?fnode=266ca3100eb8d09d230cb9d0aedfdaea124fa2c6bf0f222a839fa7e1503705246b1862ebf2da418a7475933e697267560585d0a9431e6e47f"
+    "https://www.apple.com/it/shop/sba/d/init?fnode=b8c3eee0dc20b132c92bb12279bc24bcc4ad7dcefed9cdde31e87d165e1de9cd0f18dd95e8788e1996b61da94c8eb7acc2aec81935d366041"
    ],
    "links": [
     "https://www.apple.com/it/shop/buy-iphone/iphone-17",
@@ -396,7 +368,7 @@
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
     "https://www.apple.com/it/shop/favoritesx/fetch",
-    "https://www.apple.com/it/shop/sba/d/init?fnode=25a4c5fd4c5767b7aa498aa2ca1f511b9e4580b583cec23fb5797c4aba5a1af56db714d1cf23d63de1a8b922d817ef2fa5152ad5c7a0195e7"
+    "https://www.apple.com/it/shop/sba/d/init?fnode=c4d3b67834a045f63598fbec5b348b1f9100df31da69867f87321452f5b9c242a2b1706c5e80f7125b793cdec67b0629b195f63670da4cc4a"
    ],
    "links": [
     "https://www.apple.com/it/shop/buy-iphone/iphone-17e",
@@ -443,7 +415,7 @@
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
     "https://www.apple.com/it/shop/favoritesx/fetch",
-    "https://www.apple.com/it/shop/sba/d/init?fnode=64c63604ce7151406d0776b601e46b48fb61b7f3ae16a34d1412c7b8871b9170c76267533a32141cac473d2cf85ad5c5cd80bfa18b9dee3cf",
+    "https://www.apple.com/it/shop/sba/d/init?fnode=294fd99848eab99c161f82f558b93eabeb6843ed90044383620452ee22fcc1db6b3207095d8f9be5baf73c00d4ac04ca6dfa8c0d528e9f4b2",
     "https://www.apple.com/it/shop/api/product-gallery?fae=true&node=home%2Fshop_iphone%2Ffamily%2Fiphone_16%2Fselect&dm.dimensionScreensize=6_1inch"
    ],
    "links": [
@@ -491,7 +463,7 @@
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
     "https://www.apple.com/it/shop/favoritesx/fetch",
-    "https://www.apple.com/it/shop/sba/d/init?fnode=fa7feb3e39efaf16134ddd25719ba10991f0e2fe25bba068bc3dc70344135dbb0c070e562e3697d96fdff957c88d3b0176dd27269f8c0d7fa",
+    "https://www.apple.com/it/shop/sba/d/init?fnode=0b95a8b62befc54071f3baa061a0fe00159ee8b53cc525ead66d3d51c41dc0ca7a7c98715b326def7bdc882361845b434a0c2d7f3b2a3a73d",
     "https://www.apple.com/it/shop/engrave/json?fae=true&product=MX2D3ZM%2FA"
    ],
    "links": [
@@ -545,7 +517,7 @@
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
     "https://www.apple.com/it/shop/favoritesx/fetch",
-    "https://www.apple.com/it/shop/sba/d/init?fnode=db345ddcb85a50a4ad952ba8eaefa91c9a1c08f83b82bd5f1886476dea158c4609b65b4e238f9e7172734af7df16396eea1e618ab69549847",
+    "https://www.apple.com/it/shop/sba/d/init?fnode=2fde70efee3f01ec7b0182036e99cef0b22f950eefa3a3325a4eb95c1cb4a0f45fad0bd9dfe287ecc069c93636e37b8d15c409e46200a3c16",
     "https://www.apple.com/it/shop/engrave/json?fae=true&product=MX2D3ZM%2FA"
    ],
    "links": [
@@ -598,8 +570,8 @@
    "json_urls": [
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
-    "https://www.apple.com/it/shop/favoritesx/fetch",
-    "https://www.apple.com/it/shop/sba/d/init?fnode=8f0e9e78117e94e7a22ee6695cb17664a715c79e88af2dca7a303bd8dd10dea4cb1b7319f4a1a3d07d69b666fbbd7cae190aaeb97b532c17b"
+    "https://www.apple.com/it/shop/sba/d/init?fnode=4d280c96e88daff968f0247ee0571d683e1b57715e5d2b9b905b6b75eef989749a6df1d0b3893fb0824acbe92281372cd8fc70849ce7f9ecc",
+    "https://www.apple.com/it/shop/favoritesx/fetch"
    ],
    "links": [
     "https://www.apple.com/it/shop/buy-ipad/ipad",
@@ -651,8 +623,8 @@
    "json_urls": [
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
-    "https://www.apple.com/it/shop/sba/d/init?fnode=6f0e993508ee08063625502d73cb179a4bd9d41aded62dec9d0fd64abfd4f44f800a61020e8c7b49619d7e93a51dda76755c4547f783c7b6b",
     "https://www.apple.com/it/shop/favoritesx/fetch",
+    "https://www.apple.com/it/shop/sba/d/init?fnode=0a86cd962dd8d2953835664c7a6c1bd65cca9314f67502732b1cd4c8d988587ae3e24e3ac75b06f537b1e71d12f18d3c83ef4c203e83bf991",
     "https://www.apple.com/it/shop/engrave/json?fae=true&product=MX2D3ZM%2FA"
    ],
    "links": [
@@ -700,7 +672,7 @@
    "json_urls": [
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
-    "https://www.apple.com/it/shop/sba/d/init?fnode=23c6fd2dddf9769f4950efedc4fe6211b6421c9a5d0872d8a1a35d6f50204a3441ee1e15a853af17d2cb6a59d8d34e1abfc63c09d7e063290",
+    "https://www.apple.com/it/shop/sba/d/init?fnode=54bea38350e28fd2148ab15e75c165f3b0fe3ac66e5fcb51001bbc7f51aabffe9bd10cc610934c1490a84aaf45a09bd790dbb9ce7c291a430",
     "https://www.apple.com/it/shop/favoritesx/fetch"
    ],
    "links": [
@@ -733,7 +705,7 @@
    "json_urls": [
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
-    "https://www.apple.com/it/shop/sba/d/init?fnode=ec6569b1b8e17d02c6a9dd345e7cf2b8a342d4eba34994af9264bdf165082106b9e8b8cd5cb081bab4671564c0e98e3d878552fe3e2eadbc7",
+    "https://www.apple.com/it/shop/sba/d/init?fnode=b33cd42608c4723d56ce6ba7b5eb3e43c94f993cf208ffa8cbf873e5e4c4041f62f718b19990b4743b54f7d4121e003d206a1257bc0e203c0",
     "https://www.apple.com/it/shop/favoritesx/fetch"
    ],
    "links": [
@@ -766,7 +738,7 @@
    "json_urls": [
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
-    "https://www.apple.com/it/shop/sba/d/init?fnode=979f39c39b11c649c572fbb2537a174b0c14483095e6b2d4d12a5ee43caf4642fc0d94445718ef0996f3f0a9c525c316b5b215e93f19af7c1",
+    "https://www.apple.com/it/shop/sba/d/init?fnode=4c0f2d6ca0354b713293aa16c621082a9050a945f88976b47c4e24bb0e814909d7de8e7b213568c4f5655b124e6677bb420c2aa38c718e773",
     "https://www.apple.com/it/shop/favoritesx/fetch"
    ],
    "links": [
@@ -817,8 +789,7 @@
     "€ 579"
    ],
    "items_by_source": {
-    "jsonld": 1,
-    "dom-price": 1
+    "jsonld": 1
    },
    "text_sample": "Apple Store Mac iPad iPhone Watch AirPods Casa Intrattenimento Accessori Supporto 0 + AirPods Pro 3 Panoramica Specifiche Acquista gli AirPods Pro 3 Consegna gratuita in un giorno 3 mesi gratis di Apple Fitness+ e Apple Music con i tuoi AirPods Pro 3 Nota ∆, + Resi facili e veloci Chiedici una mano. Chatta ora (Si apre in una nuova finestra) o chiamaci: 800 554 533. Incisione gratuita Acquista gli AirPods Pro 3 Gli auricolari con la migliore cancellazione attiva del rumore al mondo, Nota ¹ ora con rilevamento della frequenza cardiaca Nota ² e fino a 8 ore di autonomia. Nota ¹¹ Incisione gratuita Aggiungi incisione Crea un’incisione con emoji, nomi, lettere e numeri per rendere unici i tuoi AirPods Pro 3. È gratis, e la spedizione resta sempre veloce. Gratis Nessuna incisione AirPods Pro 3 Aggiungi AppleCare+ AppleCare+ per le cuffie € 39,00o€ 3,25 al mese per 12 mesi, TAN fisso 0% Nota ※ Fino a due anni di assistenza tecnica aggiuntiva e un numero illimitato di interventi di riparazione per danni accidentali Nota ※※ Aggiungi AppleCare+ per le cuffie Premio di assicurazione comprensivo di tasse al 21,25% € 249,00 o Finanziamento con Findomestic € 22,01 al mese per 12 mesi, TAN fisso 11,02% Nota ※ Totale dovuto: € 264,12 Scopri di più sul finanziamento flessibile Continua Ti serve ancora un attimo? Puoi conservare tutte le opzioni selezionate e tenere in memoria questo dispositivo nella sezione “I tuoi articoli salvati”, torna quando vuoi e ricomincia da dove avev"
   }
