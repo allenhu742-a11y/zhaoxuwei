@@ -950,7 +950,7 @@ date,country,type,brand,category,model,variant,currency,old,new,delta,pct,key
 2026-11-05,RO,suspect,Huawei,wear,HUAWEI WATCH ULTIMATE DESIGN Spring Edition,—,RON,499.0,18999.0,18500.0,3707.4,huawei-huawei-watch-ultimate-design-spring-edition|
 2026-11-05,RO,suspect,Huawei,wear,HUAWEI WATCH Ultimate,—,RON,299.0,2699.0,2400.0,802.7,huawei-huawei-watch-ultimate|
 2026-11-05,RO,suspect,Huawei,wear,HUAWEI Watch 4 Pro Space Edition,—,RON,239.0,2099.0,1860.0,778.2,huawei-huawei-watch-4-pro-space-edition|
-2026-11-05,RO,up,Xiaomi,phone,Xiaomi POCO X7 Pro,—,RON,1399.99,1699.99,300.0,21.4,xiaomi-xiaomi-poco-x7-pro|
+2026-11-05,RO,suspect,Xiaomi,phone,Xiaomi POCO X7 Pro,—,RON,1399.99,1699.99,300.0,21.4,xiaomi-xiaomi-poco-x7-pro|
 2026-11-05,RO,up,Xiaomi,tablet,Xiaomi REDMI Pad 2 9.7,—,RON,799.99,899.99,100.0,12.5,xiaomi-xiaomi-redmi-pad-2-9-7|
 2026-11-05,TR,gone,Huawei,wear,HUAWEI Band 11 Pro,—,TRY,3799.0,,,,huawei-huawei-band-11-pro|
 2026-11-05,TR,gone,Huawei,wear,HUAWEI WATCH Ultimate,—,TRY,35999.0,,,,huawei-huawei-watch-ultimate|
@@ -1000,3 +1000,536 @@ date,country,type,brand,category,model,variant,currency,old,new,delta,pct,key
 2026-11-05,TR,suspect,Huawei,wear,HUAWEI WATCH GT 5 Pro,—,TRY,1499.0,13999.0,12500.0,833.9,huawei-huawei-watch-gt-5-pro|
 2026-11-05,TR,suspect,Huawei,wear,HUAWEI WATCH GT Runner 2,—,TRY,1499.0,17499.0,16000.0,1067.4,huawei-huawei-watch-gt-runner-2|
 2026-11-05,TR,suspect,Xiaomi,audio,Xiaomi Buds 5,—,TRY,1499.0,4999.0,3500.0,233.5,xiaomi-xiaomi-buds-5|
+2026-11-06,DE,down,Xiaomi,phone,Xiaomi POCO M7 Pro 5G,—,EUR,209.9,189.9,-20.0,-9.5,xiaomi-xiaomi-poco-m7-pro-5g|
+2026-11-06,DE,gone,Apple,phone,iPhone 16,128GB,EUR,999.0,,,,apple-iphone-16|128gb
+2026-11-06,DE,gone,Apple,tablet,"11"" iPad Air (M4)",—,EUR,799.0,,,,apple-11-ipad-air-m4|
+2026-11-06,DE,gone,Apple,tablet,"11"" iPad Pro (M5)",—,EUR,1299.0,,,,apple-11-ipad-pro-m5|
+2026-11-06,DE,gone,Apple,tablet,"13"" iPad Air (M4)",—,EUR,999.0,,,,apple-13-ipad-air-m4|
+2026-11-06,DE,gone,Apple,tablet,"13"" iPad Pro (M5)",—,EUR,1649.0,,,,apple-13-ipad-pro-m5|
+2026-11-06,DE,gone,Apple,tablet,iPad (A16),—,EUR,499.0,,,,apple-ipad-a16|
+2026-11-06,DE,gone,Apple,tablet,iPad mini (A20 Pro),—,EUR,749.0,,,,apple-ipad-mini-a20-pro|
+2026-11-06,DE,gone,Apple,tablet,iPad mini vorbestellen,—,EUR,749.0,,,,apple-ipad-mini-vorbestellen|
+2026-11-06,DE,gone,Apple,wear,Apple Watch,—,EUR,449.0,,,,apple-apple-watch|
+2026-11-06,DE,gone,Motorola,audio,Motorola signature moto buds 2 plus,—,EUR,1399.0,,,,motorola-motorola-signature-moto-buds-2-plus|
+2026-11-06,DE,gone,Xiaomi,audio,Xiaomi REDMI Buds 5 Pro,—,EUR,39.99,,,,xiaomi-xiaomi-redmi-buds-5-pro|
+2026-11-06,DE,gone,Xiaomi,phone,Xiaomi POCO C81 Pro,4GB+256GB,EUR,159.9,,,,xiaomi-xiaomi-poco-c81-pro|256gb
+2026-11-06,DE,gone,Xiaomi,phone,Xiaomi POCO X7 Pro,—,EUR,309.9,,,,xiaomi-xiaomi-poco-x7-pro|
+2026-11-06,DE,gone,Xiaomi,phone,Xiaomi POCO X8 Pro Max,12GB+512GB,EUR,599.9,,,,xiaomi-xiaomi-poco-x8-pro-max|512gb
+2026-11-06,DE,new,Apple,phone,iPhone 16,—,EUR,,999.0,,,apple-iphone-16|
+2026-11-06,DE,new,Apple,tablet,"11"" iPad Air Wi‑Fi",128GB,EUR,,799.0,,,apple-11-ipad-air-wi-fi|128gb
+2026-11-06,DE,new,Apple,tablet,"11"" iPad Air Wi‑Fi",1TB,EUR,,1559.0,,,apple-11-ipad-air-wi-fi|1tb
+2026-11-06,DE,new,Apple,tablet,"11"" iPad Air Wi‑Fi",256GB,EUR,,929.0,,,apple-11-ipad-air-wi-fi|256gb
+2026-11-06,DE,new,Apple,tablet,"11"" iPad Air Wi‑Fi",512GB,EUR,,1179.0,,,apple-11-ipad-air-wi-fi|512gb
+2026-11-06,DE,new,Apple,tablet,"11"" iPad Air Wi‑Fi - Space",128GB,EUR,,799.0,,,apple-11-ipad-air-wi-fi-space|128gb
+2026-11-06,DE,new,Apple,tablet,"11"" iPad Air Wi‑Fi - Space",1TB,EUR,,1559.0,,,apple-11-ipad-air-wi-fi-space|1tb
+2026-11-06,DE,new,Apple,tablet,"11"" iPad Air Wi‑Fi - Space",256GB,EUR,,929.0,,,apple-11-ipad-air-wi-fi-space|256gb
+2026-11-06,DE,new,Apple,tablet,"11"" iPad Air Wi‑Fi - Space",512GB,EUR,,1179.0,,,apple-11-ipad-air-wi-fi-space|512gb
+2026-11-06,DE,new,Apple,tablet,"11"" iPad Air Wi‑Fi Cellular",128GB,EUR,,969.0,,,apple-11-ipad-air-wi-fi-cellular|128gb
+2026-11-06,DE,new,Apple,tablet,"11"" iPad Air Wi‑Fi Cellular",1TB,EUR,,1729.0,,,apple-11-ipad-air-wi-fi-cellular|1tb
+2026-11-06,DE,new,Apple,tablet,"11"" iPad Air Wi‑Fi Cellular",256GB,EUR,,1099.0,,,apple-11-ipad-air-wi-fi-cellular|256gb
+2026-11-06,DE,new,Apple,tablet,"11"" iPad Air Wi‑Fi Cellular",512GB,EUR,,1349.0,,,apple-11-ipad-air-wi-fi-cellular|512gb
+2026-11-06,DE,new,Apple,tablet,"11"" iPad Air Wi‑Fi Cellular - Space",128GB,EUR,,969.0,,,apple-11-ipad-air-wi-fi-cellular-space|128gb
+2026-11-06,DE,new,Apple,tablet,"11"" iPad Air Wi‑Fi Cellular - Space",1TB,EUR,,1729.0,,,apple-11-ipad-air-wi-fi-cellular-space|1tb
+2026-11-06,DE,new,Apple,tablet,"11"" iPad Air Wi‑Fi Cellular - Space",256GB,EUR,,1099.0,,,apple-11-ipad-air-wi-fi-cellular-space|256gb
+2026-11-06,DE,new,Apple,tablet,"11"" iPad Air Wi‑Fi Cellular - Space",512GB,EUR,,1349.0,,,apple-11-ipad-air-wi-fi-cellular-space|512gb
+2026-11-06,DE,new,Apple,tablet,"11"" iPad Pro Wi‑Fi Cellular mit Nanotexturglas",1TB,EUR,,2409.0,,,apple-11-ipad-pro-wi-fi-cellular-mit-nanotexturglas|1tb
+2026-11-06,DE,new,Apple,tablet,"11"" iPad Pro Wi‑Fi Cellular mit Nanotexturglas",2TB,EUR,,3029.0,,,apple-11-ipad-pro-wi-fi-cellular-mit-nanotexturglas|2tb
+2026-11-06,DE,new,Apple,tablet,"11"" iPad Pro Wi‑Fi Cellular mit Standardglas",1TB,EUR,,2279.0,,,apple-11-ipad-pro-wi-fi-cellular-mit-standardglas|1tb
+2026-11-06,DE,new,Apple,tablet,"11"" iPad Pro Wi‑Fi Cellular mit Standardglas",256GB,EUR,,1549.0,,,apple-11-ipad-pro-wi-fi-cellular-mit-standardglas|256gb
+2026-11-06,DE,new,Apple,tablet,"11"" iPad Pro Wi‑Fi Cellular mit Standardglas",2TB,EUR,,2899.0,,,apple-11-ipad-pro-wi-fi-cellular-mit-standardglas|2tb
+2026-11-06,DE,new,Apple,tablet,"11"" iPad Pro Wi‑Fi Cellular mit Standardglas",512GB,EUR,,1799.0,,,apple-11-ipad-pro-wi-fi-cellular-mit-standardglas|512gb
+2026-11-06,DE,new,Apple,tablet,"11"" iPad Pro Wi‑Fi mit Nanotexturglas",1TB,EUR,,2159.0,,,apple-11-ipad-pro-wi-fi-mit-nanotexturglas|1tb
+2026-11-06,DE,new,Apple,tablet,"11"" iPad Pro Wi‑Fi mit Nanotexturglas",2TB,EUR,,2779.0,,,apple-11-ipad-pro-wi-fi-mit-nanotexturglas|2tb
+2026-11-06,DE,new,Apple,tablet,"11"" iPad Pro Wi‑Fi mit Standardglas",1TB,EUR,,2029.0,,,apple-11-ipad-pro-wi-fi-mit-standardglas|1tb
+2026-11-06,DE,new,Apple,tablet,"11"" iPad Pro Wi‑Fi mit Standardglas",256GB,EUR,,1299.0,,,apple-11-ipad-pro-wi-fi-mit-standardglas|256gb
+2026-11-06,DE,new,Apple,tablet,"11"" iPad Pro Wi‑Fi mit Standardglas",2TB,EUR,,2649.0,,,apple-11-ipad-pro-wi-fi-mit-standardglas|2tb
+2026-11-06,DE,new,Apple,tablet,"11"" iPad Pro Wi‑Fi mit Standardglas",512GB,EUR,,1549.0,,,apple-11-ipad-pro-wi-fi-mit-standardglas|512gb
+2026-11-06,DE,new,Apple,tablet,"13"" iPad Air Wi‑Fi",128GB,EUR,,999.0,,,apple-13-ipad-air-wi-fi|128gb
+2026-11-06,DE,new,Apple,tablet,"13"" iPad Air Wi‑Fi",1TB,EUR,,1759.0,,,apple-13-ipad-air-wi-fi|1tb
+2026-11-06,DE,new,Apple,tablet,"13"" iPad Air Wi‑Fi",256GB,EUR,,1129.0,,,apple-13-ipad-air-wi-fi|256gb
+2026-11-06,DE,new,Apple,tablet,"13"" iPad Air Wi‑Fi",512GB,EUR,,1379.0,,,apple-13-ipad-air-wi-fi|512gb
+2026-11-06,DE,new,Apple,tablet,"13"" iPad Air Wi‑Fi - Space",128GB,EUR,,999.0,,,apple-13-ipad-air-wi-fi-space|128gb
+2026-11-06,DE,new,Apple,tablet,"13"" iPad Air Wi‑Fi - Space",1TB,EUR,,1759.0,,,apple-13-ipad-air-wi-fi-space|1tb
+2026-11-06,DE,new,Apple,tablet,"13"" iPad Air Wi‑Fi - Space",256GB,EUR,,1129.0,,,apple-13-ipad-air-wi-fi-space|256gb
+2026-11-06,DE,new,Apple,tablet,"13"" iPad Air Wi‑Fi - Space",512GB,EUR,,1379.0,,,apple-13-ipad-air-wi-fi-space|512gb
+2026-11-06,DE,new,Apple,tablet,"13"" iPad Air Wi‑Fi Cellular",128GB,EUR,,1169.0,,,apple-13-ipad-air-wi-fi-cellular|128gb
+2026-11-06,DE,new,Apple,tablet,"13"" iPad Air Wi‑Fi Cellular",1TB,EUR,,1929.0,,,apple-13-ipad-air-wi-fi-cellular|1tb
+2026-11-06,DE,new,Apple,tablet,"13"" iPad Air Wi‑Fi Cellular",256GB,EUR,,1299.0,,,apple-13-ipad-air-wi-fi-cellular|256gb
+2026-11-06,DE,new,Apple,tablet,"13"" iPad Air Wi‑Fi Cellular",512GB,EUR,,1549.0,,,apple-13-ipad-air-wi-fi-cellular|512gb
+2026-11-06,DE,new,Apple,tablet,"13"" iPad Air Wi‑Fi Cellular - Space",128GB,EUR,,1169.0,,,apple-13-ipad-air-wi-fi-cellular-space|128gb
+2026-11-06,DE,new,Apple,tablet,"13"" iPad Air Wi‑Fi Cellular - Space",1TB,EUR,,1929.0,,,apple-13-ipad-air-wi-fi-cellular-space|1tb
+2026-11-06,DE,new,Apple,tablet,"13"" iPad Air Wi‑Fi Cellular - Space",256GB,EUR,,1299.0,,,apple-13-ipad-air-wi-fi-cellular-space|256gb
+2026-11-06,DE,new,Apple,tablet,"13"" iPad Air Wi‑Fi Cellular - Space",512GB,EUR,,1549.0,,,apple-13-ipad-air-wi-fi-cellular-space|512gb
+2026-11-06,DE,new,Apple,tablet,"13"" iPad Pro Wi‑Fi Cellular mit Nanotexturglas",1TB,EUR,,2759.0,,,apple-13-ipad-pro-wi-fi-cellular-mit-nanotexturglas|1tb
+2026-11-06,DE,new,Apple,tablet,"13"" iPad Pro Wi‑Fi Cellular mit Nanotexturglas",2TB,EUR,,3379.0,,,apple-13-ipad-pro-wi-fi-cellular-mit-nanotexturglas|2tb
+2026-11-06,DE,new,Apple,tablet,"13"" iPad Pro Wi‑Fi Cellular mit Standardglas",1TB,EUR,,2629.0,,,apple-13-ipad-pro-wi-fi-cellular-mit-standardglas|1tb
+2026-11-06,DE,new,Apple,tablet,"13"" iPad Pro Wi‑Fi Cellular mit Standardglas",256GB,EUR,,1899.0,,,apple-13-ipad-pro-wi-fi-cellular-mit-standardglas|256gb
+2026-11-06,DE,new,Apple,tablet,"13"" iPad Pro Wi‑Fi Cellular mit Standardglas",2TB,EUR,,3249.0,,,apple-13-ipad-pro-wi-fi-cellular-mit-standardglas|2tb
+2026-11-06,DE,new,Apple,tablet,"13"" iPad Pro Wi‑Fi Cellular mit Standardglas",512GB,EUR,,2149.0,,,apple-13-ipad-pro-wi-fi-cellular-mit-standardglas|512gb
+2026-11-06,DE,new,Apple,tablet,"13"" iPad Pro Wi‑Fi mit Nanotexturglas",1TB,EUR,,2509.0,,,apple-13-ipad-pro-wi-fi-mit-nanotexturglas|1tb
+2026-11-06,DE,new,Apple,tablet,"13"" iPad Pro Wi‑Fi mit Nanotexturglas",2TB,EUR,,3129.0,,,apple-13-ipad-pro-wi-fi-mit-nanotexturglas|2tb
+2026-11-06,DE,new,Apple,tablet,"13"" iPad Pro Wi‑Fi mit Standardglas",1TB,EUR,,2379.0,,,apple-13-ipad-pro-wi-fi-mit-standardglas|1tb
+2026-11-06,DE,new,Apple,tablet,"13"" iPad Pro Wi‑Fi mit Standardglas",256GB,EUR,,1649.0,,,apple-13-ipad-pro-wi-fi-mit-standardglas|256gb
+2026-11-06,DE,new,Apple,tablet,"13"" iPad Pro Wi‑Fi mit Standardglas",2TB,EUR,,2999.0,,,apple-13-ipad-pro-wi-fi-mit-standardglas|2tb
+2026-11-06,DE,new,Apple,tablet,"13"" iPad Pro Wi‑Fi mit Standardglas",512GB,EUR,,1899.0,,,apple-13-ipad-pro-wi-fi-mit-standardglas|512gb
+2026-11-06,DE,new,Apple,tablet,iPad Wi‑Fi,128GB,EUR,,499.0,,,apple-ipad-wi-fi|128gb
+2026-11-06,DE,new,Apple,tablet,iPad Wi‑Fi,256GB,EUR,,629.0,,,apple-ipad-wi-fi|256gb
+2026-11-06,DE,new,Apple,tablet,iPad Wi‑Fi,512GB,EUR,,879.0,,,apple-ipad-wi-fi|512gb
+2026-11-06,DE,new,Apple,tablet,iPad Wi‑Fi Cellular,128GB,EUR,,669.0,,,apple-ipad-wi-fi-cellular|128gb
+2026-11-06,DE,new,Apple,tablet,iPad Wi‑Fi Cellular,256GB,EUR,,799.0,,,apple-ipad-wi-fi-cellular|256gb
+2026-11-06,DE,new,Apple,tablet,iPad Wi‑Fi Cellular,512GB,EUR,,1049.0,,,apple-ipad-wi-fi-cellular|512gb
+2026-11-06,DE,new,Apple,tablet,iPad mini Wi‑Fi Cellular mit Nanotexturglas,256GB,EUR,,1179.0,,,apple-ipad-mini-wi-fi-cellular-mit-nanotexturglas|256gb
+2026-11-06,DE,new,Apple,tablet,iPad mini Wi‑Fi Cellular mit Nanotexturglas,512GB,EUR,,1429.0,,,apple-ipad-mini-wi-fi-cellular-mit-nanotexturglas|512gb
+2026-11-06,DE,new,Apple,tablet,iPad mini Wi‑Fi Cellular mit Standardglas,128GB,EUR,,919.0,,,apple-ipad-mini-wi-fi-cellular-mit-standardglas|128gb
+2026-11-06,DE,new,Apple,tablet,iPad mini Wi‑Fi Cellular mit Standardglas,256GB,EUR,,1049.0,,,apple-ipad-mini-wi-fi-cellular-mit-standardglas|256gb
+2026-11-06,DE,new,Apple,tablet,iPad mini Wi‑Fi Cellular mit Standardglas,512GB,EUR,,1299.0,,,apple-ipad-mini-wi-fi-cellular-mit-standardglas|512gb
+2026-11-06,DE,new,Apple,tablet,iPad mini Wi‑Fi mit Nanotexturglas,256GB,EUR,,1009.0,,,apple-ipad-mini-wi-fi-mit-nanotexturglas|256gb
+2026-11-06,DE,new,Apple,tablet,iPad mini Wi‑Fi mit Nanotexturglas,512GB,EUR,,1259.0,,,apple-ipad-mini-wi-fi-mit-nanotexturglas|512gb
+2026-11-06,DE,new,Apple,tablet,iPad mini Wi‑Fi mit Standardglas,128GB,EUR,,749.0,,,apple-ipad-mini-wi-fi-mit-standardglas|128gb
+2026-11-06,DE,new,Apple,tablet,iPad mini Wi‑Fi mit Standardglas,256GB,EUR,,879.0,,,apple-ipad-mini-wi-fi-mit-standardglas|256gb
+2026-11-06,DE,new,Apple,tablet,iPad mini Wi‑Fi mit Standardglas,512GB,EUR,,1129.0,,,apple-ipad-mini-wi-fi-mit-standardglas|512gb
+2026-11-06,FR,down,Xiaomi,phone,Xiaomi 17T,12GB+512GB,EUR,653.0,649.9,-3.1,-0.5,xiaomi-xiaomi-17t|512gb
+2026-11-06,FR,down,Xiaomi,phone,Xiaomi REDMI Note 15,8GB+128GB,EUR,199.0,169.0,-30.0,-15.1,xiaomi-xiaomi-redmi-note-15|128gb
+2026-11-06,FR,gone,Apple,audio,Accessoires Casques et enceintes,—,EUR,399.0,,,,apple-accessoires-casques-et-enceintes|
+2026-11-06,FR,gone,Apple,tablet,Précommander un iPad mini,—,EUR,759.0,,,,apple-pr-commander-un-ipad-mini|
+2026-11-06,FR,gone,Apple,tablet,iPad (A16),—,EUR,509.0,,,,apple-ipad-a16|
+2026-11-06,FR,gone,Apple,tablet,iPad Air 11 pouces (M4),—,EUR,819.0,,,,apple-ipad-air-11-pouces-m4|
+2026-11-06,FR,gone,Apple,tablet,iPad Air 13 pouces (M4),—,EUR,1019.0,,,,apple-ipad-air-13-pouces-m4|
+2026-11-06,FR,gone,Apple,tablet,iPad Pro 11 pouces (M5),—,EUR,1319.0,,,,apple-ipad-pro-11-pouces-m5|
+2026-11-06,FR,gone,Apple,tablet,iPad Pro 13 pouces (M5),—,EUR,1669.0,,,,apple-ipad-pro-13-pouces-m5|
+2026-11-06,FR,gone,Apple,tablet,iPad mini (A20 Pro),—,EUR,759.0,,,,apple-ipad-mini-a20-pro|
+2026-11-06,FR,gone,Xiaomi,phone,Xiaomi 17 Ultra,16GB+512GB,EUR,1199.0,,,,xiaomi-xiaomi-17-ultra|512gb
+2026-11-06,FR,gone,Xiaomi,phone,Xiaomi POCO C81 Pro,—,EUR,109.0,,,,xiaomi-xiaomi-poco-c81-pro|
+2026-11-06,FR,gone,Xiaomi,phone,Xiaomi POCO X8,12GB+256GB,EUR,349.0,,,,xiaomi-xiaomi-poco-x8|256gb
+2026-11-06,FR,gone,Xiaomi,phone,Xiaomi POCO X8 PVC,12GB+256GB,EUR,349.0,,,,xiaomi-xiaomi-poco-x8-pvc|256gb
+2026-11-06,FR,gone,Xiaomi,phone,Xiaomi REDMI 15C,4GB+256GB,EUR,183.0,,,,xiaomi-xiaomi-redmi-15c|256gb
+2026-11-06,FR,gone,Xiaomi,tablet,Xiaomi Pad 8,—,EUR,431.0,,,,xiaomi-xiaomi-pad-8|
+2026-11-06,FR,gone,Xiaomi,tablet,Xiaomi Pad 8 Pro,—,EUR,551.0,,,,xiaomi-xiaomi-pad-8-pro|
+2026-11-06,FR,gone,Xiaomi,tablet,Xiaomi REDMI Pad 2 4G,—,EUR,241.0,,,,xiaomi-xiaomi-redmi-pad-2-4g|
+2026-11-06,FR,gone,Xiaomi,tablet,Xiaomi REDMI Pad 2 Pro 5G,—,EUR,371.0,,,,xiaomi-xiaomi-redmi-pad-2-pro-5g|
+2026-11-06,FR,gone,Xiaomi,wear,Xiaomi Smart Band 10 Céramique,—,EUR,54.99,,,,xiaomi-xiaomi-smart-band-10-c-ramique|
+2026-11-06,FR,gone,Xiaomi,wear,Xiaomi Watch 2 Pro,—,EUR,199.99,,,,xiaomi-xiaomi-watch-2-pro|
+2026-11-06,FR,new,Apple,audio,Tous les accessoires Casques et enceintes,—,EUR,,399.0,,,apple-tous-les-accessoires-casques-et-enceintes|
+2026-11-06,FR,new,Apple,tablet,iPad Air 11 pouces Wi‑Fi,128GB,EUR,,819.0,,,apple-ipad-air-11-pouces-wi-fi|128gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 11 pouces Wi‑Fi,1TB,EUR,,1589.0,,,apple-ipad-air-11-pouces-wi-fi|1tb
+2026-11-06,FR,new,Apple,tablet,iPad Air 11 pouces Wi‑Fi,256GB,EUR,,959.0,,,apple-ipad-air-11-pouces-wi-fi|256gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 11 pouces Wi‑Fi,512GB,EUR,,1199.0,,,apple-ipad-air-11-pouces-wi-fi|512gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 11 pouces Wi‑Fi - Lumière stellaire,128GB,EUR,,819.0,,,apple-ipad-air-11-pouces-wi-fi-lumi-re-stellaire|128gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 11 pouces Wi‑Fi - Lumière stellaire,1TB,EUR,,1589.0,,,apple-ipad-air-11-pouces-wi-fi-lumi-re-stellaire|1tb
+2026-11-06,FR,new,Apple,tablet,iPad Air 11 pouces Wi‑Fi - Lumière stellaire,256GB,EUR,,959.0,,,apple-ipad-air-11-pouces-wi-fi-lumi-re-stellaire|256gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 11 pouces Wi‑Fi - Lumière stellaire,512GB,EUR,,1199.0,,,apple-ipad-air-11-pouces-wi-fi-lumi-re-stellaire|512gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 11 pouces Wi‑Fi - Mauve,128GB,EUR,,819.0,,,apple-ipad-air-11-pouces-wi-fi-mauve|128gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 11 pouces Wi‑Fi - Mauve,1TB,EUR,,1589.0,,,apple-ipad-air-11-pouces-wi-fi-mauve|1tb
+2026-11-06,FR,new,Apple,tablet,iPad Air 11 pouces Wi‑Fi - Mauve,256GB,EUR,,959.0,,,apple-ipad-air-11-pouces-wi-fi-mauve|256gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 11 pouces Wi‑Fi - Mauve,512GB,EUR,,1199.0,,,apple-ipad-air-11-pouces-wi-fi-mauve|512gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 11 pouces Wi‑Fi - sidéral,128GB,EUR,,819.0,,,apple-ipad-air-11-pouces-wi-fi-sid-ral|128gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 11 pouces Wi‑Fi - sidéral,1TB,EUR,,1589.0,,,apple-ipad-air-11-pouces-wi-fi-sid-ral|1tb
+2026-11-06,FR,new,Apple,tablet,iPad Air 11 pouces Wi‑Fi - sidéral,256GB,EUR,,959.0,,,apple-ipad-air-11-pouces-wi-fi-sid-ral|256gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 11 pouces Wi‑Fi - sidéral,512GB,EUR,,1199.0,,,apple-ipad-air-11-pouces-wi-fi-sid-ral|512gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 11 pouces Wi‑Fi Cellular,128GB,EUR,,989.0,,,apple-ipad-air-11-pouces-wi-fi-cellular|128gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 11 pouces Wi‑Fi Cellular,1TB,EUR,,1759.0,,,apple-ipad-air-11-pouces-wi-fi-cellular|1tb
+2026-11-06,FR,new,Apple,tablet,iPad Air 11 pouces Wi‑Fi Cellular,256GB,EUR,,1129.0,,,apple-ipad-air-11-pouces-wi-fi-cellular|256gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 11 pouces Wi‑Fi Cellular,512GB,EUR,,1369.0,,,apple-ipad-air-11-pouces-wi-fi-cellular|512gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 11 pouces Wi‑Fi Cellular - Mauve,128GB,EUR,,989.0,,,apple-ipad-air-11-pouces-wi-fi-cellular-mauve|128gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 11 pouces Wi‑Fi Cellular - Mauve,1TB,EUR,,1759.0,,,apple-ipad-air-11-pouces-wi-fi-cellular-mauve|1tb
+2026-11-06,FR,new,Apple,tablet,iPad Air 11 pouces Wi‑Fi Cellular - Mauve,256GB,EUR,,1129.0,,,apple-ipad-air-11-pouces-wi-fi-cellular-mauve|256gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 11 pouces Wi‑Fi Cellular - Mauve,512GB,EUR,,1369.0,,,apple-ipad-air-11-pouces-wi-fi-cellular-mauve|512gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 11 pouces Wi‑Fi Cellular - sidéral,128GB,EUR,,989.0,,,apple-ipad-air-11-pouces-wi-fi-cellular-sid-ral|128gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 11 pouces Wi‑Fi Cellular - sidéral,1TB,EUR,,1759.0,,,apple-ipad-air-11-pouces-wi-fi-cellular-sid-ral|1tb
+2026-11-06,FR,new,Apple,tablet,iPad Air 11 pouces Wi‑Fi Cellular - sidéral,256GB,EUR,,1129.0,,,apple-ipad-air-11-pouces-wi-fi-cellular-sid-ral|256gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 11 pouces Wi‑Fi Cellular - sidéral,512GB,EUR,,1369.0,,,apple-ipad-air-11-pouces-wi-fi-cellular-sid-ral|512gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 13 pouces Wi‑Fi,128GB,EUR,,1019.0,,,apple-ipad-air-13-pouces-wi-fi|128gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 13 pouces Wi‑Fi,1TB,EUR,,1789.0,,,apple-ipad-air-13-pouces-wi-fi|1tb
+2026-11-06,FR,new,Apple,tablet,iPad Air 13 pouces Wi‑Fi,256GB,EUR,,1159.0,,,apple-ipad-air-13-pouces-wi-fi|256gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 13 pouces Wi‑Fi,512GB,EUR,,1399.0,,,apple-ipad-air-13-pouces-wi-fi|512gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 13 pouces Wi‑Fi - Lumière stellaire,128GB,EUR,,1019.0,,,apple-ipad-air-13-pouces-wi-fi-lumi-re-stellaire|128gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 13 pouces Wi‑Fi - Lumière stellaire,1TB,EUR,,1789.0,,,apple-ipad-air-13-pouces-wi-fi-lumi-re-stellaire|1tb
+2026-11-06,FR,new,Apple,tablet,iPad Air 13 pouces Wi‑Fi - Lumière stellaire,256GB,EUR,,1159.0,,,apple-ipad-air-13-pouces-wi-fi-lumi-re-stellaire|256gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 13 pouces Wi‑Fi - Lumière stellaire,512GB,EUR,,1399.0,,,apple-ipad-air-13-pouces-wi-fi-lumi-re-stellaire|512gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 13 pouces Wi‑Fi - Mauve,128GB,EUR,,1019.0,,,apple-ipad-air-13-pouces-wi-fi-mauve|128gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 13 pouces Wi‑Fi - Mauve,1TB,EUR,,1789.0,,,apple-ipad-air-13-pouces-wi-fi-mauve|1tb
+2026-11-06,FR,new,Apple,tablet,iPad Air 13 pouces Wi‑Fi - Mauve,256GB,EUR,,1159.0,,,apple-ipad-air-13-pouces-wi-fi-mauve|256gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 13 pouces Wi‑Fi - Mauve,512GB,EUR,,1399.0,,,apple-ipad-air-13-pouces-wi-fi-mauve|512gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 13 pouces Wi‑Fi - sidéral,128GB,EUR,,1019.0,,,apple-ipad-air-13-pouces-wi-fi-sid-ral|128gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 13 pouces Wi‑Fi - sidéral,1TB,EUR,,1789.0,,,apple-ipad-air-13-pouces-wi-fi-sid-ral|1tb
+2026-11-06,FR,new,Apple,tablet,iPad Air 13 pouces Wi‑Fi - sidéral,256GB,EUR,,1159.0,,,apple-ipad-air-13-pouces-wi-fi-sid-ral|256gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 13 pouces Wi‑Fi - sidéral,512GB,EUR,,1399.0,,,apple-ipad-air-13-pouces-wi-fi-sid-ral|512gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 13 pouces Wi‑Fi Cellular,128GB,EUR,,1189.0,,,apple-ipad-air-13-pouces-wi-fi-cellular|128gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 13 pouces Wi‑Fi Cellular,1TB,EUR,,1959.0,,,apple-ipad-air-13-pouces-wi-fi-cellular|1tb
+2026-11-06,FR,new,Apple,tablet,iPad Air 13 pouces Wi‑Fi Cellular,256GB,EUR,,1329.0,,,apple-ipad-air-13-pouces-wi-fi-cellular|256gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 13 pouces Wi‑Fi Cellular,512GB,EUR,,1569.0,,,apple-ipad-air-13-pouces-wi-fi-cellular|512gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 13 pouces Wi‑Fi Cellular - Mauve,128GB,EUR,,1189.0,,,apple-ipad-air-13-pouces-wi-fi-cellular-mauve|128gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 13 pouces Wi‑Fi Cellular - Mauve,1TB,EUR,,1959.0,,,apple-ipad-air-13-pouces-wi-fi-cellular-mauve|1tb
+2026-11-06,FR,new,Apple,tablet,iPad Air 13 pouces Wi‑Fi Cellular - Mauve,256GB,EUR,,1329.0,,,apple-ipad-air-13-pouces-wi-fi-cellular-mauve|256gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 13 pouces Wi‑Fi Cellular - Mauve,512GB,EUR,,1569.0,,,apple-ipad-air-13-pouces-wi-fi-cellular-mauve|512gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 13 pouces Wi‑Fi Cellular - sidéral,128GB,EUR,,1189.0,,,apple-ipad-air-13-pouces-wi-fi-cellular-sid-ral|128gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 13 pouces Wi‑Fi Cellular - sidéral,1TB,EUR,,1959.0,,,apple-ipad-air-13-pouces-wi-fi-cellular-sid-ral|1tb
+2026-11-06,FR,new,Apple,tablet,iPad Air 13 pouces Wi‑Fi Cellular - sidéral,256GB,EUR,,1329.0,,,apple-ipad-air-13-pouces-wi-fi-cellular-sid-ral|256gb
+2026-11-06,FR,new,Apple,tablet,iPad Air 13 pouces Wi‑Fi Cellular - sidéral,512GB,EUR,,1569.0,,,apple-ipad-air-13-pouces-wi-fi-cellular-sid-ral|512gb
+2026-11-06,FR,new,Apple,tablet,iPad Pro 11 pouces Wi‑Fi avec verre nano-texturé,1TB,EUR,,2179.0,,,apple-ipad-pro-11-pouces-wi-fi-avec-verre-nano-textur|1tb
+2026-11-06,FR,new,Apple,tablet,iPad Pro 11 pouces Wi‑Fi avec verre nano-texturé,2TB,EUR,,2799.0,,,apple-ipad-pro-11-pouces-wi-fi-avec-verre-nano-textur|2tb
+2026-11-06,FR,new,Apple,tablet,iPad Pro 11 pouces Wi‑Fi avec verre standard,1TB,EUR,,2049.0,,,apple-ipad-pro-11-pouces-wi-fi-avec-verre-standard|1tb
+2026-11-06,FR,new,Apple,tablet,iPad Pro 11 pouces Wi‑Fi avec verre standard,256GB,EUR,,1319.0,,,apple-ipad-pro-11-pouces-wi-fi-avec-verre-standard|256gb
+2026-11-06,FR,new,Apple,tablet,iPad Pro 11 pouces Wi‑Fi avec verre standard,2TB,EUR,,2669.0,,,apple-ipad-pro-11-pouces-wi-fi-avec-verre-standard|2tb
+2026-11-06,FR,new,Apple,tablet,iPad Pro 11 pouces Wi‑Fi avec verre standard,512GB,EUR,,1569.0,,,apple-ipad-pro-11-pouces-wi-fi-avec-verre-standard|512gb
+2026-11-06,FR,new,Apple,tablet,iPad Pro 13 pouces Wi‑Fi avec verre nano-texturé,1TB,EUR,,2529.0,,,apple-ipad-pro-13-pouces-wi-fi-avec-verre-nano-textur|1tb
+2026-11-06,FR,new,Apple,tablet,iPad Pro 13 pouces Wi‑Fi avec verre nano-texturé,2TB,EUR,,3149.0,,,apple-ipad-pro-13-pouces-wi-fi-avec-verre-nano-textur|2tb
+2026-11-06,FR,new,Apple,tablet,iPad Pro 13 pouces Wi‑Fi avec verre standard,1TB,EUR,,2399.0,,,apple-ipad-pro-13-pouces-wi-fi-avec-verre-standard|1tb
+2026-11-06,FR,new,Apple,tablet,iPad Pro 13 pouces Wi‑Fi avec verre standard,256GB,EUR,,1669.0,,,apple-ipad-pro-13-pouces-wi-fi-avec-verre-standard|256gb
+2026-11-06,FR,new,Apple,tablet,iPad Pro 13 pouces Wi‑Fi avec verre standard,2TB,EUR,,3019.0,,,apple-ipad-pro-13-pouces-wi-fi-avec-verre-standard|2tb
+2026-11-06,FR,new,Apple,tablet,iPad Pro 13 pouces Wi‑Fi avec verre standard,512GB,EUR,,1919.0,,,apple-ipad-pro-13-pouces-wi-fi-avec-verre-standard|512gb
+2026-11-06,FR,new,Apple,tablet,iPad Wi‑Fi,128GB,EUR,,509.0,,,apple-ipad-wi-fi|128gb
+2026-11-06,FR,new,Apple,tablet,iPad Wi‑Fi,256GB,EUR,,639.0,,,apple-ipad-wi-fi|256gb
+2026-11-06,FR,new,Apple,tablet,iPad Wi‑Fi,512GB,EUR,,889.0,,,apple-ipad-wi-fi|512gb
+2026-11-06,FR,new,Apple,tablet,iPad Wi‑Fi Cellular,128GB,EUR,,679.0,,,apple-ipad-wi-fi-cellular|128gb
+2026-11-06,FR,new,Apple,tablet,iPad Wi‑Fi Cellular,256GB,EUR,,809.0,,,apple-ipad-wi-fi-cellular|256gb
+2026-11-06,FR,new,Apple,tablet,iPad Wi‑Fi Cellular,512GB,EUR,,1059.0,,,apple-ipad-wi-fi-cellular|512gb
+2026-11-06,FR,new,Apple,tablet,iPad mini Wi‑Fi avec verre nano‑texturé - Minuit,256GB,EUR,,1019.0,,,apple-ipad-mini-wi-fi-avec-verre-nano-textur-minuit|256gb
+2026-11-06,FR,new,Apple,tablet,iPad mini Wi‑Fi avec verre nano‑texturé - Minuit,512GB,EUR,,1269.0,,,apple-ipad-mini-wi-fi-avec-verre-nano-textur-minuit|512gb
+2026-11-06,FR,new,Apple,tablet,iPad mini Wi‑Fi avec verre standard - Minuit,128GB,EUR,,759.0,,,apple-ipad-mini-wi-fi-avec-verre-standard-minuit|128gb
+2026-11-06,FR,new,Apple,tablet,iPad mini Wi‑Fi avec verre standard - Minuit,256GB,EUR,,889.0,,,apple-ipad-mini-wi-fi-avec-verre-standard-minuit|256gb
+2026-11-06,FR,new,Apple,tablet,iPad mini Wi‑Fi avec verre standard - Minuit,512GB,EUR,,1139.0,,,apple-ipad-mini-wi-fi-avec-verre-standard-minuit|512gb
+2026-11-06,FR,new,Apple,tablet,un iPad mini,—,EUR,,759.0,,,apple-un-ipad-mini|
+2026-11-06,FR,new,Xiaomi,phone,Xiaomi POCO C81 Pro,4GB+256GB,EUR,,139.0,,,xiaomi-xiaomi-poco-c81-pro|256gb
+2026-11-06,FR,new,Xiaomi,tablet,Xiaomi Pad 8,8GB+256GB,EUR,,501.0,,,xiaomi-xiaomi-pad-8|256gb
+2026-11-06,FR,new,Xiaomi,tablet,Xiaomi Pad 8 Pro,8GB+256GB,EUR,,551.0,,,xiaomi-xiaomi-pad-8-pro|256gb
+2026-11-06,FR,new,Xiaomi,tablet,Xiaomi REDMI Pad 2,—,EUR,,241.0,,,xiaomi-xiaomi-redmi-pad-2|
+2026-11-06,FR,new,Xiaomi,tablet,Xiaomi REDMI Pad 2 4G,4GB+128GB,EUR,,241.0,,,xiaomi-xiaomi-redmi-pad-2-4g|128gb
+2026-11-06,FR,suspect,Huawei,wear,HUAWEI WATCH 5,—,EUR,87.5,75.0,-12.5,-14.3,huawei-huawei-watch-5|
+2026-11-06,IT,gone,Apple,phone,iPhone 16,128GB,EUR,1029.0,,,,apple-iphone-16|128gb
+2026-11-06,IT,gone,Apple,tablet,Preordina iPad mini,—,EUR,759.0,,,,apple-preordina-ipad-mini|
+2026-11-06,IT,gone,Apple,tablet,iPad (A16),—,EUR,509.0,,,,apple-ipad-a16|
+2026-11-06,IT,gone,Apple,tablet,"iPad Air 11"" (M4)",—,EUR,829.0,,,,apple-ipad-air-11-m4|
+2026-11-06,IT,gone,Apple,tablet,"iPad Air 13"" (M4)",—,EUR,1029.0,,,,apple-ipad-air-13-m4|
+2026-11-06,IT,gone,Apple,tablet,"iPad Pro 11"" (M5)",—,EUR,1319.0,,,,apple-ipad-pro-11-m5|
+2026-11-06,IT,gone,Apple,tablet,"iPad Pro 13"" (M5)",—,EUR,1669.0,,,,apple-ipad-pro-13-m5|
+2026-11-06,IT,gone,Apple,tablet,iPad mini (A20 Pro),—,EUR,759.0,,,,apple-ipad-mini-a20-pro|
+2026-11-06,IT,gone,Xiaomi,phone,Xiaomi 17T Pro,12GB+512GB,EUR,799.9,,,,xiaomi-xiaomi-17t-pro|512gb
+2026-11-06,IT,gone,Xiaomi,phone,Xiaomi 17T Pro Deep,12GB+1TB,EUR,799.9,,,,xiaomi-xiaomi-17t-pro-deep|1tb
+2026-11-06,IT,gone,Xiaomi,phone,Xiaomi POCO M8 5G,—,EUR,249.9,,,,xiaomi-xiaomi-poco-m8-5g|
+2026-11-06,IT,gone,Xiaomi,phone,Xiaomi POCO X8,—,EUR,319.9,,,,xiaomi-xiaomi-poco-x8|
+2026-11-06,IT,gone,Xiaomi,phone,Xiaomi REDMI A5 Lake,4GB+128GB,EUR,89.9,,,,xiaomi-xiaomi-redmi-a5-lake|128gb
+2026-11-06,IT,gone,Xiaomi,phone,Xiaomi REDMI A7 Pro,—,EUR,119.9,,,,xiaomi-xiaomi-redmi-a7-pro|
+2026-11-06,IT,gone,Xiaomi,phone,Xiaomi REDMI Note 17,6GB+256GB,EUR,269.9,,,,xiaomi-xiaomi-redmi-note-17|256gb
+2026-11-06,IT,gone,Xiaomi,tablet,Xiaomi Pad 8,8GB+256GB,EUR,459.9,,,,xiaomi-xiaomi-pad-8|256gb
+2026-11-06,IT,gone,Xiaomi,tablet,Xiaomi REDMI Pad 2 Pro,—,EUR,279.9,,,,xiaomi-xiaomi-redmi-pad-2-pro|
+2026-11-06,IT,gone,Xiaomi,wear,Xiaomi Smart Band 10 Glacier,—,EUR,49.99,,,,xiaomi-xiaomi-smart-band-10-glacier|
+2026-11-06,IT,gone,Xiaomi,wear,Xiaomi Smart Band 9 Active,—,EUR,26.0,,,,xiaomi-xiaomi-smart-band-9-active|
+2026-11-06,IT,gone,Xiaomi,wear,Xiaomi Watch 5 Juniper,—,EUR,299.99,,,,xiaomi-xiaomi-watch-5-juniper|
+2026-11-06,IT,new,Apple,phone,iPhone 16,—,EUR,,1029.0,,,apple-iphone-16|
+2026-11-06,IT,new,Apple,tablet,"iPad Air 11"" Wi‑Fi",128GB,EUR,,829.0,,,apple-ipad-air-11-wi-fi|128gb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 11"" Wi‑Fi",1TB,EUR,,1589.0,,,apple-ipad-air-11-wi-fi|1tb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 11"" Wi‑Fi",256GB,EUR,,959.0,,,apple-ipad-air-11-wi-fi|256gb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 11"" Wi‑Fi",512GB,EUR,,1209.0,,,apple-ipad-air-11-wi-fi|512gb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 11"" Wi‑Fi - Galassia",128GB,EUR,,829.0,,,apple-ipad-air-11-wi-fi-galassia|128gb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 11"" Wi‑Fi - Galassia",1TB,EUR,,1589.0,,,apple-ipad-air-11-wi-fi-galassia|1tb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 11"" Wi‑Fi - Galassia",256GB,EUR,,959.0,,,apple-ipad-air-11-wi-fi-galassia|256gb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 11"" Wi‑Fi - Galassia",512GB,EUR,,1209.0,,,apple-ipad-air-11-wi-fi-galassia|512gb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 11"" Wi‑Fi - siderale",128GB,EUR,,829.0,,,apple-ipad-air-11-wi-fi-siderale|128gb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 11"" Wi‑Fi - siderale",1TB,EUR,,1589.0,,,apple-ipad-air-11-wi-fi-siderale|1tb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 11"" Wi‑Fi - siderale",256GB,EUR,,959.0,,,apple-ipad-air-11-wi-fi-siderale|256gb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 11"" Wi‑Fi - siderale",512GB,EUR,,1209.0,,,apple-ipad-air-11-wi-fi-siderale|512gb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 11"" Wi‑Fi Cellular",128GB,EUR,,989.0,,,apple-ipad-air-11-wi-fi-cellular|128gb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 11"" Wi‑Fi Cellular",1TB,EUR,,1759.0,,,apple-ipad-air-11-wi-fi-cellular|1tb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 11"" Wi‑Fi Cellular",256GB,EUR,,1129.0,,,apple-ipad-air-11-wi-fi-cellular|256gb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 11"" Wi‑Fi Cellular",512GB,EUR,,1369.0,,,apple-ipad-air-11-wi-fi-cellular|512gb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 11"" Wi‑Fi Cellular - Galassia",128GB,EUR,,989.0,,,apple-ipad-air-11-wi-fi-cellular-galassia|128gb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 11"" Wi‑Fi Cellular - Galassia",1TB,EUR,,1759.0,,,apple-ipad-air-11-wi-fi-cellular-galassia|1tb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 11"" Wi‑Fi Cellular - Galassia",256GB,EUR,,1129.0,,,apple-ipad-air-11-wi-fi-cellular-galassia|256gb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 11"" Wi‑Fi Cellular - Galassia",512GB,EUR,,1369.0,,,apple-ipad-air-11-wi-fi-cellular-galassia|512gb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 11"" Wi‑Fi Cellular - siderale",128GB,EUR,,989.0,,,apple-ipad-air-11-wi-fi-cellular-siderale|128gb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 11"" Wi‑Fi Cellular - siderale",1TB,EUR,,1759.0,,,apple-ipad-air-11-wi-fi-cellular-siderale|1tb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 11"" Wi‑Fi Cellular - siderale",256GB,EUR,,1129.0,,,apple-ipad-air-11-wi-fi-cellular-siderale|256gb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 11"" Wi‑Fi Cellular - siderale",512GB,EUR,,1369.0,,,apple-ipad-air-11-wi-fi-cellular-siderale|512gb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 13"" Wi‑Fi",128GB,EUR,,1029.0,,,apple-ipad-air-13-wi-fi|128gb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 13"" Wi‑Fi",1TB,EUR,,1789.0,,,apple-ipad-air-13-wi-fi|1tb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 13"" Wi‑Fi",256GB,EUR,,1159.0,,,apple-ipad-air-13-wi-fi|256gb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 13"" Wi‑Fi",512GB,EUR,,1409.0,,,apple-ipad-air-13-wi-fi|512gb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 13"" Wi‑Fi - Galassia",128GB,EUR,,1029.0,,,apple-ipad-air-13-wi-fi-galassia|128gb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 13"" Wi‑Fi - Galassia",1TB,EUR,,1789.0,,,apple-ipad-air-13-wi-fi-galassia|1tb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 13"" Wi‑Fi - Galassia",256GB,EUR,,1159.0,,,apple-ipad-air-13-wi-fi-galassia|256gb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 13"" Wi‑Fi - Galassia",512GB,EUR,,1409.0,,,apple-ipad-air-13-wi-fi-galassia|512gb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 13"" Wi‑Fi - siderale",128GB,EUR,,1029.0,,,apple-ipad-air-13-wi-fi-siderale|128gb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 13"" Wi‑Fi - siderale",1TB,EUR,,1789.0,,,apple-ipad-air-13-wi-fi-siderale|1tb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 13"" Wi‑Fi - siderale",256GB,EUR,,1159.0,,,apple-ipad-air-13-wi-fi-siderale|256gb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 13"" Wi‑Fi - siderale",512GB,EUR,,1409.0,,,apple-ipad-air-13-wi-fi-siderale|512gb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 13"" Wi‑Fi Cellular",128GB,EUR,,1189.0,,,apple-ipad-air-13-wi-fi-cellular|128gb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 13"" Wi‑Fi Cellular",1TB,EUR,,1959.0,,,apple-ipad-air-13-wi-fi-cellular|1tb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 13"" Wi‑Fi Cellular",256GB,EUR,,1329.0,,,apple-ipad-air-13-wi-fi-cellular|256gb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 13"" Wi‑Fi Cellular",512GB,EUR,,1569.0,,,apple-ipad-air-13-wi-fi-cellular|512gb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 13"" Wi‑Fi Cellular - Galassia",128GB,EUR,,1189.0,,,apple-ipad-air-13-wi-fi-cellular-galassia|128gb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 13"" Wi‑Fi Cellular - Galassia",1TB,EUR,,1959.0,,,apple-ipad-air-13-wi-fi-cellular-galassia|1tb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 13"" Wi‑Fi Cellular - Galassia",256GB,EUR,,1329.0,,,apple-ipad-air-13-wi-fi-cellular-galassia|256gb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 13"" Wi‑Fi Cellular - Galassia",512GB,EUR,,1569.0,,,apple-ipad-air-13-wi-fi-cellular-galassia|512gb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 13"" Wi‑Fi Cellular - siderale",128GB,EUR,,1189.0,,,apple-ipad-air-13-wi-fi-cellular-siderale|128gb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 13"" Wi‑Fi Cellular - siderale",1TB,EUR,,1959.0,,,apple-ipad-air-13-wi-fi-cellular-siderale|1tb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 13"" Wi‑Fi Cellular - siderale",256GB,EUR,,1329.0,,,apple-ipad-air-13-wi-fi-cellular-siderale|256gb
+2026-11-06,IT,new,Apple,tablet,"iPad Air 13"" Wi‑Fi Cellular - siderale",512GB,EUR,,1569.0,,,apple-ipad-air-13-wi-fi-cellular-siderale|512gb
+2026-11-06,IT,new,Apple,tablet,"iPad Pro 11"" Wi‑Fi Cellular con vetro nanotexture",1TB,EUR,,2429.0,,,apple-ipad-pro-11-wi-fi-cellular-con-vetro-nanotexture|1tb
+2026-11-06,IT,new,Apple,tablet,"iPad Pro 11"" Wi‑Fi Cellular con vetro nanotexture",2TB,EUR,,3049.0,,,apple-ipad-pro-11-wi-fi-cellular-con-vetro-nanotexture|2tb
+2026-11-06,IT,new,Apple,tablet,"iPad Pro 11"" Wi‑Fi Cellular con vetro standard",1TB,EUR,,2299.0,,,apple-ipad-pro-11-wi-fi-cellular-con-vetro-standard|1tb
+2026-11-06,IT,new,Apple,tablet,"iPad Pro 11"" Wi‑Fi Cellular con vetro standard",256GB,EUR,,1569.0,,,apple-ipad-pro-11-wi-fi-cellular-con-vetro-standard|256gb
+2026-11-06,IT,new,Apple,tablet,"iPad Pro 11"" Wi‑Fi Cellular con vetro standard",2TB,EUR,,2919.0,,,apple-ipad-pro-11-wi-fi-cellular-con-vetro-standard|2tb
+2026-11-06,IT,new,Apple,tablet,"iPad Pro 11"" Wi‑Fi Cellular con vetro standard",512GB,EUR,,1819.0,,,apple-ipad-pro-11-wi-fi-cellular-con-vetro-standard|512gb
+2026-11-06,IT,new,Apple,tablet,"iPad Pro 11"" Wi‑Fi con vetro nanotexture",1TB,EUR,,2179.0,,,apple-ipad-pro-11-wi-fi-con-vetro-nanotexture|1tb
+2026-11-06,IT,new,Apple,tablet,"iPad Pro 11"" Wi‑Fi con vetro nanotexture",2TB,EUR,,2799.0,,,apple-ipad-pro-11-wi-fi-con-vetro-nanotexture|2tb
+2026-11-06,IT,new,Apple,tablet,"iPad Pro 11"" Wi‑Fi con vetro standard",1TB,EUR,,2049.0,,,apple-ipad-pro-11-wi-fi-con-vetro-standard|1tb
+2026-11-06,IT,new,Apple,tablet,"iPad Pro 11"" Wi‑Fi con vetro standard",256GB,EUR,,1319.0,,,apple-ipad-pro-11-wi-fi-con-vetro-standard|256gb
+2026-11-06,IT,new,Apple,tablet,"iPad Pro 11"" Wi‑Fi con vetro standard",2TB,EUR,,2669.0,,,apple-ipad-pro-11-wi-fi-con-vetro-standard|2tb
+2026-11-06,IT,new,Apple,tablet,"iPad Pro 11"" Wi‑Fi con vetro standard",512GB,EUR,,1569.0,,,apple-ipad-pro-11-wi-fi-con-vetro-standard|512gb
+2026-11-06,IT,new,Apple,tablet,"iPad Pro 13"" Wi‑Fi Cellular con vetro nanotexture",1TB,EUR,,2779.0,,,apple-ipad-pro-13-wi-fi-cellular-con-vetro-nanotexture|1tb
+2026-11-06,IT,new,Apple,tablet,"iPad Pro 13"" Wi‑Fi Cellular con vetro nanotexture",2TB,EUR,,3399.0,,,apple-ipad-pro-13-wi-fi-cellular-con-vetro-nanotexture|2tb
+2026-11-06,IT,new,Apple,tablet,"iPad Pro 13"" Wi‑Fi Cellular con vetro standard",1TB,EUR,,2649.0,,,apple-ipad-pro-13-wi-fi-cellular-con-vetro-standard|1tb
+2026-11-06,IT,new,Apple,tablet,"iPad Pro 13"" Wi‑Fi Cellular con vetro standard",256GB,EUR,,1919.0,,,apple-ipad-pro-13-wi-fi-cellular-con-vetro-standard|256gb
+2026-11-06,IT,new,Apple,tablet,"iPad Pro 13"" Wi‑Fi Cellular con vetro standard",2TB,EUR,,3269.0,,,apple-ipad-pro-13-wi-fi-cellular-con-vetro-standard|2tb
+2026-11-06,IT,new,Apple,tablet,"iPad Pro 13"" Wi‑Fi Cellular con vetro standard",512GB,EUR,,2169.0,,,apple-ipad-pro-13-wi-fi-cellular-con-vetro-standard|512gb
+2026-11-06,IT,new,Apple,tablet,"iPad Pro 13"" Wi‑Fi con vetro nanotexture",1TB,EUR,,2529.0,,,apple-ipad-pro-13-wi-fi-con-vetro-nanotexture|1tb
+2026-11-06,IT,new,Apple,tablet,"iPad Pro 13"" Wi‑Fi con vetro nanotexture",2TB,EUR,,3149.0,,,apple-ipad-pro-13-wi-fi-con-vetro-nanotexture|2tb
+2026-11-06,IT,new,Apple,tablet,"iPad Pro 13"" Wi‑Fi con vetro standard",1TB,EUR,,2399.0,,,apple-ipad-pro-13-wi-fi-con-vetro-standard|1tb
+2026-11-06,IT,new,Apple,tablet,"iPad Pro 13"" Wi‑Fi con vetro standard",256GB,EUR,,1669.0,,,apple-ipad-pro-13-wi-fi-con-vetro-standard|256gb
+2026-11-06,IT,new,Apple,tablet,"iPad Pro 13"" Wi‑Fi con vetro standard",2TB,EUR,,3019.0,,,apple-ipad-pro-13-wi-fi-con-vetro-standard|2tb
+2026-11-06,IT,new,Apple,tablet,"iPad Pro 13"" Wi‑Fi con vetro standard",512GB,EUR,,1919.0,,,apple-ipad-pro-13-wi-fi-con-vetro-standard|512gb
+2026-11-06,IT,new,Apple,tablet,iPad Wi-Fi,128GB,EUR,,509.0,,,apple-ipad-wi-fi|128gb
+2026-11-06,IT,new,Apple,tablet,iPad Wi-Fi,256GB,EUR,,639.0,,,apple-ipad-wi-fi|256gb
+2026-11-06,IT,new,Apple,tablet,iPad Wi-Fi,512GB,EUR,,889.0,,,apple-ipad-wi-fi|512gb
+2026-11-06,IT,new,Apple,tablet,iPad Wi-Fi - Giallo,128GB,EUR,,509.0,,,apple-ipad-wi-fi-giallo|128gb
+2026-11-06,IT,new,Apple,tablet,iPad Wi-Fi - Giallo,256GB,EUR,,639.0,,,apple-ipad-wi-fi-giallo|256gb
+2026-11-06,IT,new,Apple,tablet,iPad Wi-Fi - Giallo,512GB,EUR,,889.0,,,apple-ipad-wi-fi-giallo|512gb
+2026-11-06,IT,new,Apple,tablet,iPad Wi‑Fi Cellular,128GB,EUR,,679.0,,,apple-ipad-wi-fi-cellular|128gb
+2026-11-06,IT,new,Apple,tablet,iPad Wi‑Fi Cellular,256GB,EUR,,809.0,,,apple-ipad-wi-fi-cellular|256gb
+2026-11-06,IT,new,Apple,tablet,iPad Wi‑Fi Cellular,512GB,EUR,,1059.0,,,apple-ipad-wi-fi-cellular|512gb
+2026-11-06,IT,new,Apple,tablet,iPad Wi‑Fi Cellular - Giallo,128GB,EUR,,679.0,,,apple-ipad-wi-fi-cellular-giallo|128gb
+2026-11-06,IT,new,Apple,tablet,iPad Wi‑Fi Cellular - Giallo,256GB,EUR,,809.0,,,apple-ipad-wi-fi-cellular-giallo|256gb
+2026-11-06,IT,new,Apple,tablet,iPad Wi‑Fi Cellular - Giallo,512GB,EUR,,1059.0,,,apple-ipad-wi-fi-cellular-giallo|512gb
+2026-11-06,IT,new,Apple,tablet,iPad mini,—,EUR,,759.0,,,apple-ipad-mini|
+2026-11-06,IT,new,Apple,tablet,iPad mini Wi‑Fi con vetro nanotexture - Galassia,256GB,EUR,,1019.0,,,apple-ipad-mini-wi-fi-con-vetro-nanotexture-galassia|256gb
+2026-11-06,IT,new,Apple,tablet,iPad mini Wi‑Fi con vetro nanotexture - Galassia,512GB,EUR,,1269.0,,,apple-ipad-mini-wi-fi-con-vetro-nanotexture-galassia|512gb
+2026-11-06,IT,new,Apple,tablet,iPad mini Wi‑Fi con vetro nanotexture - Mezzanotte,256GB,EUR,,1019.0,,,apple-ipad-mini-wi-fi-con-vetro-nanotexture-mezzanotte|256gb
+2026-11-06,IT,new,Apple,tablet,iPad mini Wi‑Fi con vetro nanotexture - Mezzanotte,512GB,EUR,,1269.0,,,apple-ipad-mini-wi-fi-con-vetro-nanotexture-mezzanotte|512gb
+2026-11-06,IT,new,Apple,tablet,iPad mini Wi‑Fi con vetro standard - Galassia,128GB,EUR,,759.0,,,apple-ipad-mini-wi-fi-con-vetro-standard-galassia|128gb
+2026-11-06,IT,new,Apple,tablet,iPad mini Wi‑Fi con vetro standard - Galassia,256GB,EUR,,889.0,,,apple-ipad-mini-wi-fi-con-vetro-standard-galassia|256gb
+2026-11-06,IT,new,Apple,tablet,iPad mini Wi‑Fi con vetro standard - Galassia,512GB,EUR,,1139.0,,,apple-ipad-mini-wi-fi-con-vetro-standard-galassia|512gb
+2026-11-06,IT,new,Apple,tablet,iPad mini Wi‑Fi con vetro standard - Mezzanotte,128GB,EUR,,759.0,,,apple-ipad-mini-wi-fi-con-vetro-standard-mezzanotte|128gb
+2026-11-06,IT,new,Apple,tablet,iPad mini Wi‑Fi con vetro standard - Mezzanotte,256GB,EUR,,889.0,,,apple-ipad-mini-wi-fi-con-vetro-standard-mezzanotte|256gb
+2026-11-06,IT,new,Apple,tablet,iPad mini Wi‑Fi con vetro standard - Mezzanotte,512GB,EUR,,1139.0,,,apple-ipad-mini-wi-fi-con-vetro-standard-mezzanotte|512gb
+2026-11-06,IT,new,Xiaomi,phone,Xiaomi POCO X8,12GB+256GB,EUR,,369.9,,,xiaomi-xiaomi-poco-x8|256gb
+2026-11-06,IT,new,Xiaomi,phone,Xiaomi REDMI A7 Pro,4GB+64GB,EUR,,149.9,,,xiaomi-xiaomi-redmi-a7-pro|64gb
+2026-11-06,IT,new,Xiaomi,tablet,Xiaomi Pad 8 Pro Matte Glass Version,12GB+512GB,EUR,,699.9,,,xiaomi-xiaomi-pad-8-pro-matte-glass-version|512gb
+2026-11-06,IT,new,Xiaomi,tablet,Xiaomi REDMI Pad 2 Pro,8GB+256GB,EUR,,329.9,,,xiaomi-xiaomi-redmi-pad-2-pro|256gb
+2026-11-06,IT,up,Samsung,audio,Samsung Galaxy Buds3 FE,—,EUR,99.0,149.0,50.0,50.5,samsung-samsung-galaxy-buds3-fe|
+2026-11-06,IT,up,Samsung,audio,Samsung Galaxy Buds4 Pro,—,EUR,219.0,249.0,30.0,13.7,samsung-samsung-galaxy-buds4-pro|
+2026-11-06,IT,up,Samsung,phone,Samsung Galaxy S26,256GB,EUR,999.0,1029.0,30.0,3.0,samsung-samsung-galaxy-s26|256gb
+2026-11-06,IT,up,Samsung,phone,Samsung Galaxy S26 Ultra,512GB,EUR,1579.0,1599.0,20.0,1.3,samsung-samsung-galaxy-s26-ultra|512gb
+2026-11-06,IT,up,Samsung,phone,Samsung Galaxy Z Fold8,256GB,EUR,1999.0,2099.0,100.0,5.0,samsung-samsung-galaxy-z-fold8|256gb
+2026-11-06,IT,up,Samsung,phone,Samsung Galaxy Z Fold8 Ultra,256GB,EUR,2109.0,2299.0,190.0,9.0,samsung-samsung-galaxy-z-fold8-ultra|256gb
+2026-11-06,IT,up,Samsung,wear,"Samsung Galaxy Watch8 (Bluetooth, 40mm)",—,EUR,269.0,329.0,60.0,22.3,samsung-samsung-galaxy-watch8-bluetooth-40mm|
+2026-11-06,IT,up,Samsung,wear,"Samsung Galaxy Watch8 (Bluetooth, 44mm)",—,EUR,299.0,359.0,60.0,20.1,samsung-samsung-galaxy-watch8-bluetooth-44mm|
+2026-11-06,IT,up,Samsung,wear,"Samsung Galaxy Watch8 Classic (Bluetooth, 46mm)",—,EUR,449.0,529.0,80.0,17.8,samsung-samsung-galaxy-watch8-classic-bluetooth-46mm|
+2026-11-06,IT,up,Samsung,wear,"Samsung Galaxy Watch8 Classic (LTE, 46mm)",—,EUR,499.0,579.0,80.0,16.0,samsung-samsung-galaxy-watch8-classic-lte-46mm|
+2026-11-06,PL,down,Samsung,phone,Samsung Galaxy S25,256GB,PLN,3859.0,3499.0,-360.0,-9.3,samsung-samsung-galaxy-s25|256gb
+2026-11-06,PL,down,Xiaomi,phone,Xiaomi POCO M8 Pro 5G,12GB+512GB,PLN,1599.0,1449.0,-150.0,-9.4,xiaomi-xiaomi-poco-m8-pro-5g|512gb
+2026-11-06,PL,gone,Apple,phone,iPhone’a 16,128GB,PLN,3999.0,,,,apple-iphone-a-16|128gb
+2026-11-06,PL,gone,Apple,tablet,Zamów iPada mini,—,PLN,3499.0,,,,apple-zam-w-ipada-mini|
+2026-11-06,PL,gone,Apple,tablet,iPad (A16),—,PLN,2199.0,,,,apple-ipad-a16|
+2026-11-06,PL,gone,Apple,tablet,iPad Air 11 cali (M4),—,PLN,3699.0,,,,apple-ipad-air-11-cali-m4|
+2026-11-06,PL,gone,Apple,tablet,iPad Air 13 cali (M4),—,PLN,4699.0,,,,apple-ipad-air-13-cali-m4|
+2026-11-06,PL,gone,Apple,tablet,iPad Pro 11 cali (M5),—,PLN,5999.0,,,,apple-ipad-pro-11-cali-m5|
+2026-11-06,PL,gone,Apple,tablet,iPad Pro 13 cali (M5),—,PLN,7499.0,,,,apple-ipad-pro-13-cali-m5|
+2026-11-06,PL,gone,Apple,tablet,iPad mini (A20 Pro),—,PLN,3499.0,,,,apple-ipad-mini-a20-pro|
+2026-11-06,PL,gone,Apple,wear,Zobacz Apple Watch,—,PLN,1899.0,,,,apple-zobacz-apple-watch|
+2026-11-06,PL,gone,Xiaomi,phone,Xiaomi 17 Ultra,16GB+1TB,PLN,6199.0,,,,xiaomi-xiaomi-17-ultra|1tb
+2026-11-06,PL,gone,Xiaomi,phone,Xiaomi 17T,—,PLN,2999.0,,,,xiaomi-xiaomi-17t|
+2026-11-06,PL,gone,Xiaomi,phone,Xiaomi POCO X8 Pro,—,PLN,1699.0,,,,xiaomi-xiaomi-poco-x8-pro|
+2026-11-06,PL,gone,Xiaomi,phone,Xiaomi REDMI Note 15 Pro 5G,8GB+256GB,PLN,1299.0,,,,xiaomi-xiaomi-redmi-note-15-pro-5g|256gb
+2026-11-06,PL,gone,Xiaomi,phone,Xiaomi Redmi Smart Pen,—,PLN,299.0,,,,xiaomi-xiaomi-redmi-smart-pen|
+2026-11-06,PL,gone,Xiaomi,tablet,Xiaomi Pad 8,8GB+256GB,PLN,2199.0,,,,xiaomi-xiaomi-pad-8|256gb
+2026-11-06,PL,new,Apple,phone,iPhone’a 16,—,PLN,,3999.0,,,apple-iphone-a-16|
+2026-11-06,PL,new,Apple,tablet,iPad,128GB,PLN,,2199.0,,,apple-ipad|128gb
+2026-11-06,PL,new,Apple,tablet,iPad,256GB,PLN,,2699.0,,,apple-ipad|256gb
+2026-11-06,PL,new,Apple,tablet,iPad,512GB,PLN,,3699.0,,,apple-ipad|512gb
+2026-11-06,PL,new,Apple,tablet,iPad Air 11 cali,128GB,PLN,,3699.0,,,apple-ipad-air-11-cali|128gb
+2026-11-06,PL,new,Apple,tablet,iPad Air 11 cali,1TB,PLN,,6699.0,,,apple-ipad-air-11-cali|1tb
+2026-11-06,PL,new,Apple,tablet,iPad Air 11 cali,256GB,PLN,,4199.0,,,apple-ipad-air-11-cali|256gb
+2026-11-06,PL,new,Apple,tablet,iPad Air 11 cali,512GB,PLN,,5199.0,,,apple-ipad-air-11-cali|512gb
+2026-11-06,PL,new,Apple,tablet,iPad Air 13 cali,128GB,PLN,,4699.0,,,apple-ipad-air-13-cali|128gb
+2026-11-06,PL,new,Apple,tablet,iPad Air 13 cali,1TB,PLN,,7699.0,,,apple-ipad-air-13-cali|1tb
+2026-11-06,PL,new,Apple,tablet,iPad Air 13 cali,256GB,PLN,,5199.0,,,apple-ipad-air-13-cali|256gb
+2026-11-06,PL,new,Apple,tablet,iPad Air 13 cali,512GB,PLN,,6199.0,,,apple-ipad-air-13-cali|512gb
+2026-11-06,PL,new,Apple,tablet,iPad Pro 11 cali,1TB,PLN,,8999.0,,,apple-ipad-pro-11-cali|1tb
+2026-11-06,PL,new,Apple,tablet,iPad Pro 11 cali,256GB,PLN,,5999.0,,,apple-ipad-pro-11-cali|256gb
+2026-11-06,PL,new,Apple,tablet,iPad Pro 11 cali,2TB,PLN,,11499.0,,,apple-ipad-pro-11-cali|2tb
+2026-11-06,PL,new,Apple,tablet,iPad Pro 11 cali,512GB,PLN,,6999.0,,,apple-ipad-pro-11-cali|512gb
+2026-11-06,PL,new,Apple,tablet,iPad Pro 13 cali,1TB,PLN,,10499.0,,,apple-ipad-pro-13-cali|1tb
+2026-11-06,PL,new,Apple,tablet,iPad Pro 13 cali,256GB,PLN,,7499.0,,,apple-ipad-pro-13-cali|256gb
+2026-11-06,PL,new,Apple,tablet,iPad Pro 13 cali,2TB,PLN,,12999.0,,,apple-ipad-pro-13-cali|2tb
+2026-11-06,PL,new,Apple,tablet,iPad Pro 13 cali,512GB,PLN,,8499.0,,,apple-ipad-pro-13-cali|512gb
+2026-11-06,PL,new,Apple,tablet,iPad mini,128GB,PLN,,3499.0,,,apple-ipad-mini|128gb
+2026-11-06,PL,new,Apple,tablet,iPad mini,256GB,PLN,,3999.0,,,apple-ipad-mini|256gb
+2026-11-06,PL,new,Apple,tablet,iPad mini,512GB,PLN,,4999.0,,,apple-ipad-mini|512gb
+2026-11-06,PL,new,Apple,tablet,iPada mini,—,PLN,,3499.0,,,apple-ipada-mini|
+2026-11-06,PL,new,Apple,wear,Apple Watch,—,PLN,,1899.0,,,apple-apple-watch|
+2026-11-06,PL,new,Huawei,wear,HUAWEI WATCH GT 5 Pro,—,PLN,,599.0,,,huawei-huawei-watch-gt-5-pro|
+2026-11-06,PL,new,Xiaomi,phone,Xiaomi POCO X8 Pro,8GB+256GB,PLN,,1569.0,,,xiaomi-xiaomi-poco-x8-pro|256gb
+2026-11-06,PL,up,Huawei,wear,HUAWEI Watch Fit 3,—,PLN,379.0,499.0,120.0,31.7,huawei-huawei-watch-fit-3|
+2026-11-06,PL,up,Samsung,phone,Samsung Galaxy A17 5G,128GB,PLN,919.0,1029.0,110.0,12.0,samsung-samsung-galaxy-a17-5g|128gb
+2026-11-06,RO,down,Huawei,phone,HUAWEI Nov Ultimate 2,—,RON,2699.0,2499.0,-200.0,-7.4,huawei-huawei-nov-ultimate-2|
+2026-11-06,RO,down,Huawei,tablet,HUAWEI MatePad Air Nov,—,RON,3999.0,3199.0,-800.0,-20.0,huawei-huawei-matepad-air-nov|
+2026-11-06,RO,down,Huawei,tablet,HUAWEI Nov MatePad 11.5 2025,—,RON,1999.0,1399.0,-600.0,-30.0,huawei-huawei-nov-matepad-11-5-2025|
+2026-11-06,RO,down,Huawei,wear,HUAWEI FIT 5 Pro Nov,—,RON,1399.0,949.0,-450.0,-32.2,huawei-huawei-fit-5-pro-nov|
+2026-11-06,RO,down,Huawei,wear,HUAWEI Nov FIT 4 Pro,—,RON,1399.0,699.0,-700.0,-50.0,huawei-huawei-nov-fit-4-pro|
+2026-11-06,RO,down,Huawei,wear,HUAWEI Nov WATCH 5 46mm,—,RON,2749.0,1099.0,-1650.0,-60.0,huawei-huawei-nov-watch-5-46mm|
+2026-11-06,RO,down,Huawei,wear,HUAWEI Nov WATCH D2,—,RON,1199.0,1099.0,-100.0,-8.3,huawei-huawei-nov-watch-d2|
+2026-11-06,RO,down,Huawei,wear,HUAWEI Nov WATCH GT 4,—,RON,799.0,549.0,-250.0,-31.3,huawei-huawei-nov-watch-gt-4|
+2026-11-06,RO,down,Xiaomi,audio,Xiaomi Buds 6,—,RON,649.99,499.99,-150.0,-23.1,xiaomi-xiaomi-buds-6|
+2026-11-06,RO,down,Xiaomi,audio,Xiaomi REDMI Buds 8,—,RON,299.99,199.99,-100.0,-33.3,xiaomi-xiaomi-redmi-buds-8|
+2026-11-06,RO,down,Xiaomi,audio,Xiaomi REDMI Buds 8 Pro,—,RON,449.99,249.99,-200.0,-44.4,xiaomi-xiaomi-redmi-buds-8-pro|
+2026-11-06,RO,down,Xiaomi,audio,Xiaomi REDMI Headphones Neo,—,RON,339.99,179.99,-160.0,-47.1,xiaomi-xiaomi-redmi-headphones-neo|
+2026-11-06,RO,down,Xiaomi,phone,Xiaomi 17 Venture,12GB+512GB,RON,5199.99,4199.99,-1000.0,-19.2,xiaomi-xiaomi-17-venture|512gb
+2026-11-06,RO,down,Xiaomi,phone,Xiaomi 17T Pro Deep,12GB+512GB,RON,4799.99,3699.99,-1100.0,-22.9,xiaomi-xiaomi-17t-pro-deep|512gb
+2026-11-06,RO,down,Xiaomi,phone,Xiaomi POCO C81 Pro,—,RON,999.99,749.99,-250.0,-25.0,xiaomi-xiaomi-poco-c81-pro|
+2026-11-06,RO,down,Xiaomi,phone,Xiaomi POCO C85,—,RON,799.99,699.99,-100.0,-12.5,xiaomi-xiaomi-poco-c85|
+2026-11-06,RO,down,Xiaomi,phone,Xiaomi POCO F7 Pro,—,RON,2699.99,2399.99,-300.0,-11.1,xiaomi-xiaomi-poco-f7-pro|
+2026-11-06,RO,down,Xiaomi,phone,Xiaomi POCO F9 Ultra,16GB+512GB,RON,5099.99,4099.99,-1000.0,-19.6,xiaomi-xiaomi-poco-f9-ultra|512gb
+2026-11-06,RO,down,Xiaomi,phone,Xiaomi POCO M7 Pro 5G,—,RON,949.99,899.99,-50.0,-5.3,xiaomi-xiaomi-poco-m7-pro-5g|
+2026-11-06,RO,down,Xiaomi,phone,Xiaomi POCO X8,—,RON,1999.99,1599.99,-400.0,-20.0,xiaomi-xiaomi-poco-x8|
+2026-11-06,RO,down,Xiaomi,phone,Xiaomi POCO X8 Pro,—,RON,2199.99,1899.99,-300.0,-13.6,xiaomi-xiaomi-poco-x8-pro|
+2026-11-06,RO,down,Xiaomi,tablet,Xiaomi Pad 8,—,RON,2199.99,1849.99,-350.0,-15.9,xiaomi-xiaomi-pad-8|
+2026-11-06,RO,down,Xiaomi,tablet,Xiaomi REDMI Pad 2 9.7,—,RON,899.99,749.99,-150.0,-16.7,xiaomi-xiaomi-redmi-pad-2-9-7|
+2026-11-06,RO,down,Xiaomi,tablet,Xiaomi REDMI Pad 2 Pro,—,RON,1349.99,1149.99,-200.0,-14.8,xiaomi-xiaomi-redmi-pad-2-pro|
+2026-11-06,RO,down,Xiaomi,tablet,Xiaomi REDMI Pad 2 Pro 5G,—,RON,1399.99,1199.99,-200.0,-14.3,xiaomi-xiaomi-redmi-pad-2-pro-5g|
+2026-11-06,RO,down,Xiaomi,wear,Xiaomi REDMI Watch 6,—,RON,549.99,429.99,-120.0,-21.8,xiaomi-xiaomi-redmi-watch-6|
+2026-11-06,RO,down,Xiaomi,wear,Xiaomi REDMI Watch 6 Active,—,RON,229.99,189.99,-40.0,-17.4,xiaomi-xiaomi-redmi-watch-6-active|
+2026-11-06,RO,down,Xiaomi,wear,Xiaomi REDMI Watch 6 Lite,—,RON,369.99,249.99,-120.0,-32.4,xiaomi-xiaomi-redmi-watch-6-lite|
+2026-11-06,RO,down,Xiaomi,wear,Xiaomi Smart Band 10 Pro,—,RON,449.99,349.99,-100.0,-22.2,xiaomi-xiaomi-smart-band-10-pro|
+2026-11-06,RO,down,Xiaomi,wear,Xiaomi Smart Band 11 Active,—,RON,169.99,143.99,-26.0,-15.3,xiaomi-xiaomi-smart-band-11-active|
+2026-11-06,RO,gone,Huawei,phone,HUAWEI Nov Mate X6,—,RON,5499.0,,,,huawei-huawei-nov-mate-x6|
+2026-11-06,RO,gone,Huawei,phone,HUAWEI Nov Pura 80 Ultra,—,RON,4999.0,,,,huawei-huawei-nov-pura-80-ultra|
+2026-11-06,RO,gone,Huawei,tablet,HUAWEI Nov MatePad 11.5 S 2026,—,RON,1899.0,,,,huawei-huawei-nov-matepad-11-5-s-2026|
+2026-11-06,RO,gone,Huawei,tablet,HUAWEI Nov MatePad 11.5 S old version,—,RON,999.0,,,,huawei-huawei-nov-matepad-11-5-s-old-version|
+2026-11-06,RO,gone,Xiaomi,audio,Xiaomi REDMI Buds 8 Lite,—,RON,139.99,,,,xiaomi-xiaomi-redmi-buds-8-lite|
+2026-11-06,RO,gone,Xiaomi,phone,Xiaomi 15,12GB+256GB,RON,3599.99,,,,xiaomi-xiaomi-15|256gb
+2026-11-06,RO,gone,Xiaomi,phone,Xiaomi 15 Fișă produs PRP,12GB+256GB,RON,3599.99,,,,xiaomi-xiaomi-15-fis-a-produs-prp|256gb
+2026-11-06,RO,gone,Xiaomi,phone,Xiaomi 15T,—,RON,2399.99,,,,xiaomi-xiaomi-15t|
+2026-11-06,RO,gone,Xiaomi,phone,Xiaomi 17 Venture Fișă produs,12GB+512GB,RON,5199.99,,,,xiaomi-xiaomi-17-venture-fis-a-produs|512gb
+2026-11-06,RO,gone,Xiaomi,phone,Xiaomi 212W HyperCharge Power Bank 25000mAh 25000mAh,—,RON,549.99,,,,xiaomi-xiaomi-212w-hypercharge-power-bank-25000mah-25000mah|
+2026-11-06,RO,gone,Xiaomi,phone,Xiaomi POCO F9 Ultra Fișă produs,16GB+512GB,RON,5099.99,,,,xiaomi-xiaomi-poco-f9-ultra-fis-a-produs|512gb
+2026-11-06,RO,gone,Xiaomi,phone,Xiaomi POCO X7,—,RON,1399.99,,,,xiaomi-xiaomi-poco-x7|
+2026-11-06,RO,gone,Xiaomi,phone,Xiaomi REDMI A7 Pro Mist,4GB+64GB,RON,699.99,,,,xiaomi-xiaomi-redmi-a7-pro-mist|64gb
+2026-11-06,RO,gone,Xiaomi,phone,Xiaomi REDMI Note 14 Pro,8GB+256GB,RON,1599.99,,,,xiaomi-xiaomi-redmi-note-14-pro|256gb
+2026-11-06,RO,new,Xiaomi,phone,Xiaomi REDMI 15 5G,4GB+128GB,RON,,849.99,,,xiaomi-xiaomi-redmi-15-5g|128gb
+2026-11-06,RO,new,Xiaomi,phone,Xiaomi REDMI 15C 5G,4GB+128GB,RON,,649.99,,,xiaomi-xiaomi-redmi-15c-5g|128gb
+2026-11-06,RO,new,Xiaomi,phone,Xiaomi REDMI A7 Pro Palm,4GB+128GB,RON,,849.99,,,xiaomi-xiaomi-redmi-a7-pro-palm|128gb
+2026-11-06,RO,new,Xiaomi,phone,Xiaomi REDMI Note 14 Pro+ 5G,12GB+512GB,RON,,2699.99,,,xiaomi-xiaomi-redmi-note-14-pro+-5g|512gb
+2026-11-06,RO,new,Xiaomi,phone,Xiaomi REDMI Note 15,6GB+128GB,RON,,999.99,,,xiaomi-xiaomi-redmi-note-15|128gb
+2026-11-06,RO,new,Xiaomi,phone,Xiaomi REDMI Note 15 Fișă produs,6GB+128GB,RON,,999.99,,,xiaomi-xiaomi-redmi-note-15-fis-a-produs|128gb
+2026-11-06,RO,suspect,Huawei,tablet,HUAWEI MatePad 11.5 2025,—,RON,1999.0,1399.0,-600.0,-30.0,huawei-huawei-matepad-11-5-2025|
+2026-11-06,RO,suspect,Huawei,tablet,HUAWEI MatePad Air,—,RON,3999.0,3199.0,-800.0,-20.0,huawei-huawei-matepad-air|
+2026-11-06,RO,suspect,Huawei,wear,HUAWEI WATCH 4 Series,—,RON,1999.0,1899.0,-100.0,-5.0,huawei-huawei-watch-4-series|
+2026-11-06,RO,suspect,Huawei,wear,HUAWEI WATCH 5,—,RON,2749.0,1099.0,-1650.0,-60.0,huawei-huawei-watch-5|
+2026-11-06,RO,suspect,Huawei,wear,HUAWEI WATCH D2,—,RON,1199.0,1099.0,-100.0,-8.3,huawei-huawei-watch-d2|
+2026-11-06,RO,suspect,Huawei,wear,HUAWEI WATCH FIT 4 Pro,—,RON,1399.0,699.0,-700.0,-50.0,huawei-huawei-watch-fit-4-pro|
+2026-11-06,RO,suspect,Huawei,wear,HUAWEI WATCH FIT 5 Pro,—,RON,1399.0,949.0,-450.0,-32.2,huawei-huawei-watch-fit-5-pro|
+2026-11-06,RO,suspect,Huawei,wear,HUAWEI WATCH GT 4 - Design nou iconic,—,RON,799.0,549.0,-250.0,-31.3,huawei-huawei-watch-gt-4-design-nou-iconic|
+2026-11-06,RO,suspect,Huawei,wear,HUAWEI WATCH GT 5,—,RON,699.0,649.0,-50.0,-7.2,huawei-huawei-watch-gt-5|
+2026-11-06,RO,suspect,Huawei,wear,HUAWEI WATCH GT 5 Pro,—,RON,949.0,899.0,-50.0,-5.3,huawei-huawei-watch-gt-5-pro|
+2026-11-06,RO,suspect,Huawei,wear,HUAWEI WATCH GT 6 Pro,—,RON,1299.0,1199.0,-100.0,-7.7,huawei-huawei-watch-gt-6-pro|
+2026-11-06,RO,suspect,Huawei,wear,HUAWEI WATCH Ultimate,—,RON,2699.0,2199.0,-500.0,-18.5,huawei-huawei-watch-ultimate|
+2026-11-06,RO,suspect,Huawei,wear,HUAWEI Watch 4 Pro Space Edition,—,RON,2099.0,1949.0,-150.0,-7.1,huawei-huawei-watch-4-pro-space-edition|
+2026-11-06,RO,suspect,Xiaomi,phone,Xiaomi POCO X7 Pro,—,RON,1699.99,1399.99,-300.0,-17.6,xiaomi-xiaomi-poco-x7-pro|
+2026-11-06,TR,gone,Apple,audio,AirPods Max (Lightning Konnektörü) Kulaklık Yastıkları - Rengi,—,TRY,3499.0,,,,apple-airpods-max-lightning-konnekt-r-kulakl-k-yast-klar-rengi|
+2026-11-06,TR,gone,Apple,audio,Aksesuarlar Kulaklıklar ve Hoparlörler,—,TRY,22299.0,,,,apple-aksesuarlar-kulakl-klar-ve-hoparl-rler|
+2026-11-06,TR,gone,Apple,phone,iPhone 16 satın alın,128GB,TRY,85999.0,,,,apple-iphone-16-sat-n-al-n|128gb
+2026-11-06,TR,gone,Apple,tablet,11 inç iPad Air (M4),—,TRY,52499.0,,,,apple-11-in-ipad-air-m4|
+2026-11-06,TR,gone,Apple,tablet,11 inç iPad Pro (M5),—,TRY,85999.0,,,,apple-11-in-ipad-pro-m5|
+2026-11-06,TR,gone,Apple,tablet,13 inç iPad Air (M4),—,TRY,65999.0,,,,apple-13-in-ipad-air-m4|
+2026-11-06,TR,gone,Apple,tablet,13 inç iPad Pro (M5),—,TRY,107999.0,,,,apple-13-in-ipad-pro-m5|
+2026-11-06,TR,gone,Apple,tablet,iPad (A16),—,TRY,31999.0,,,,apple-ipad-a16|
+2026-11-06,TR,gone,Apple,tablet,iPad mini (A20 Pro),—,TRY,48999.0,,,,apple-ipad-mini-a20-pro|
+2026-11-06,TR,gone,Apple,tablet,iPad mini için ön sipariş verin,—,TRY,48999.0,,,,apple-ipad-mini-i-in-n-sipari-verin|
+2026-11-06,TR,gone,Huawei,phone,HUAWEI Phones - Mate X7 - Nov,—,TRY,169999.0,,,,huawei-huawei-phones-mate-x7-nov|
+2026-11-06,TR,gone,Huawei,tablet,HUAWEI Tablets - MP Pro 12.2 2-30 Nov,—,TRY,50999.0,,,,huawei-huawei-tablets-mp-pro-12-2-2-30-nov|
+2026-11-06,TR,gone,Xiaomi,phone,Xiaomi 17 Keşif Yeşili,12GB+512GB,TRY,79999.0,,,,xiaomi-xiaomi-17-ke-if-ye-ili|512gb
+2026-11-06,TR,gone,Xiaomi,phone,Xiaomi 17T,12GB+512GB,TRY,57999.0,,,,xiaomi-xiaomi-17t|512gb
+2026-11-06,TR,gone,Xiaomi,phone,Xiaomi 17T 'den başlayan fiyatlarla,12GB+512GB,TRY,57999.0,,,,xiaomi-xiaomi-17t-den-ba-layan-fiyatlarla|512gb
+2026-11-06,TR,gone,Xiaomi,phone,Xiaomi POCO X8 Pro,8GB+256GB,TRY,32999.0,,,,xiaomi-xiaomi-poco-x8-pro|256gb
+2026-11-06,TR,gone,Xiaomi,phone,Xiaomi POCO X8 Pro Max,—,TRY,49999.0,,,,xiaomi-xiaomi-poco-x8-pro-max|
+2026-11-06,TR,gone,Xiaomi,phone,Xiaomi REDMI 17 Lotus Moru Current Price,4GB+128GB,TRY,17999.0,,,,xiaomi-xiaomi-redmi-17-lotus-moru-current-price|128gb
+2026-11-06,TR,gone,Xiaomi,phone,Xiaomi REDMI Note 17 Pro Max 5G,—,TRY,44999.0,,,,xiaomi-xiaomi-redmi-note-17-pro-max-5g|
+2026-11-06,TR,gone,Xiaomi,tablet,Xiaomi Redmi Pad 2 Lavanta Moru,8GB+256GB,TRY,11999.0,,,,xiaomi-xiaomi-redmi-pad-2-lavanta-moru|256gb
+2026-11-06,TR,new,Apple,audio,Tüm Aksesuarlar Kulaklıklar ve Hoparlörler,—,TRY,,22299.0,,,apple-t-m-aksesuarlar-kulakl-klar-ve-hoparl-rler|
+2026-11-06,TR,new,Apple,phone,iPhone 16 satın alın,—,TRY,,85999.0,,,apple-iphone-16-sat-n-al-n|
+2026-11-06,TR,new,Apple,tablet,11 inç iPad Air Wi‑Fi,128GB,TRY,,52499.0,,,apple-11-in-ipad-air-wi-fi|128gb
+2026-11-06,TR,new,Apple,tablet,11 inç iPad Air Wi‑Fi,1TB,TRY,,94499.0,,,apple-11-in-ipad-air-wi-fi|1tb
+2026-11-06,TR,new,Apple,tablet,11 inç iPad Air Wi‑Fi,256GB,TRY,,59499.0,,,apple-11-in-ipad-air-wi-fi|256gb
+2026-11-06,TR,new,Apple,tablet,11 inç iPad Air Wi‑Fi,512GB,TRY,,73499.0,,,apple-11-in-ipad-air-wi-fi|512gb
+2026-11-06,TR,new,Apple,tablet,11 inç iPad Air Wi‑Fi - Uzay Grisi,128GB,TRY,,52499.0,,,apple-11-in-ipad-air-wi-fi-uzay-grisi|128gb
+2026-11-06,TR,new,Apple,tablet,11 inç iPad Air Wi‑Fi - Uzay Grisi,1TB,TRY,,94499.0,,,apple-11-in-ipad-air-wi-fi-uzay-grisi|1tb
+2026-11-06,TR,new,Apple,tablet,11 inç iPad Air Wi‑Fi - Uzay Grisi,256GB,TRY,,59499.0,,,apple-11-in-ipad-air-wi-fi-uzay-grisi|256gb
+2026-11-06,TR,new,Apple,tablet,11 inç iPad Air Wi‑Fi - Uzay Grisi,512GB,TRY,,73499.0,,,apple-11-in-ipad-air-wi-fi-uzay-grisi|512gb
+2026-11-06,TR,new,Apple,tablet,11 inç iPad Air Wi‑Fi - Yıldız Işığı,128GB,TRY,,52499.0,,,apple-11-in-ipad-air-wi-fi-y-ld-z-i|128gb
+2026-11-06,TR,new,Apple,tablet,11 inç iPad Air Wi‑Fi - Yıldız Işığı,1TB,TRY,,94499.0,,,apple-11-in-ipad-air-wi-fi-y-ld-z-i|1tb
+2026-11-06,TR,new,Apple,tablet,11 inç iPad Air Wi‑Fi - Yıldız Işığı,256GB,TRY,,59499.0,,,apple-11-in-ipad-air-wi-fi-y-ld-z-i|256gb
+2026-11-06,TR,new,Apple,tablet,11 inç iPad Air Wi‑Fi - Yıldız Işığı,512GB,TRY,,73499.0,,,apple-11-in-ipad-air-wi-fi-y-ld-z-i|512gb
+2026-11-06,TR,new,Apple,tablet,11 inç iPad Air Wi‑Fi Cellular,128GB,TRY,,62999.0,,,apple-11-in-ipad-air-wi-fi-cellular|128gb
+2026-11-06,TR,new,Apple,tablet,11 inç iPad Air Wi‑Fi Cellular,1TB,TRY,,104999.0,,,apple-11-in-ipad-air-wi-fi-cellular|1tb
+2026-11-06,TR,new,Apple,tablet,11 inç iPad Air Wi‑Fi Cellular,256GB,TRY,,69999.0,,,apple-11-in-ipad-air-wi-fi-cellular|256gb
+2026-11-06,TR,new,Apple,tablet,11 inç iPad Air Wi‑Fi Cellular,512GB,TRY,,83999.0,,,apple-11-in-ipad-air-wi-fi-cellular|512gb
+2026-11-06,TR,new,Apple,tablet,13 inç iPad Air Wi‑Fi,128GB,TRY,,65999.0,,,apple-13-in-ipad-air-wi-fi|128gb
+2026-11-06,TR,new,Apple,tablet,13 inç iPad Air Wi‑Fi,1TB,TRY,,107999.0,,,apple-13-in-ipad-air-wi-fi|1tb
+2026-11-06,TR,new,Apple,tablet,13 inç iPad Air Wi‑Fi,256GB,TRY,,72999.0,,,apple-13-in-ipad-air-wi-fi|256gb
+2026-11-06,TR,new,Apple,tablet,13 inç iPad Air Wi‑Fi,512GB,TRY,,86999.0,,,apple-13-in-ipad-air-wi-fi|512gb
+2026-11-06,TR,new,Apple,tablet,13 inç iPad Air Wi‑Fi - Uzay Grisi,128GB,TRY,,65999.0,,,apple-13-in-ipad-air-wi-fi-uzay-grisi|128gb
+2026-11-06,TR,new,Apple,tablet,13 inç iPad Air Wi‑Fi - Uzay Grisi,1TB,TRY,,107999.0,,,apple-13-in-ipad-air-wi-fi-uzay-grisi|1tb
+2026-11-06,TR,new,Apple,tablet,13 inç iPad Air Wi‑Fi - Uzay Grisi,256GB,TRY,,72999.0,,,apple-13-in-ipad-air-wi-fi-uzay-grisi|256gb
+2026-11-06,TR,new,Apple,tablet,13 inç iPad Air Wi‑Fi - Uzay Grisi,512GB,TRY,,86999.0,,,apple-13-in-ipad-air-wi-fi-uzay-grisi|512gb
+2026-11-06,TR,new,Apple,tablet,13 inç iPad Air Wi‑Fi - Yıldız Işığı,128GB,TRY,,65999.0,,,apple-13-in-ipad-air-wi-fi-y-ld-z-i|128gb
+2026-11-06,TR,new,Apple,tablet,13 inç iPad Air Wi‑Fi - Yıldız Işığı,1TB,TRY,,107999.0,,,apple-13-in-ipad-air-wi-fi-y-ld-z-i|1tb
+2026-11-06,TR,new,Apple,tablet,13 inç iPad Air Wi‑Fi - Yıldız Işığı,256GB,TRY,,72999.0,,,apple-13-in-ipad-air-wi-fi-y-ld-z-i|256gb
+2026-11-06,TR,new,Apple,tablet,13 inç iPad Air Wi‑Fi - Yıldız Işığı,512GB,TRY,,86999.0,,,apple-13-in-ipad-air-wi-fi-y-ld-z-i|512gb
+2026-11-06,TR,new,Apple,tablet,13 inç iPad Air Wi‑Fi Cellular,128GB,TRY,,76499.0,,,apple-13-in-ipad-air-wi-fi-cellular|128gb
+2026-11-06,TR,new,Apple,tablet,13 inç iPad Air Wi‑Fi Cellular,1TB,TRY,,118499.0,,,apple-13-in-ipad-air-wi-fi-cellular|1tb
+2026-11-06,TR,new,Apple,tablet,13 inç iPad Air Wi‑Fi Cellular,256GB,TRY,,83499.0,,,apple-13-in-ipad-air-wi-fi-cellular|256gb
+2026-11-06,TR,new,Apple,tablet,13 inç iPad Air Wi‑Fi Cellular,512GB,TRY,,97499.0,,,apple-13-in-ipad-air-wi-fi-cellular|512gb
+2026-11-06,TR,new,Apple,tablet,iPad Wi-Fi,128GB,TRY,,31999.0,,,apple-ipad-wi-fi|128gb
+2026-11-06,TR,new,Apple,tablet,iPad Wi-Fi,256GB,TRY,,38999.0,,,apple-ipad-wi-fi|256gb
+2026-11-06,TR,new,Apple,tablet,iPad Wi-Fi,512GB,TRY,,52999.0,,,apple-ipad-wi-fi|512gb
+2026-11-06,TR,new,Apple,tablet,iPad Wi-Fi - Rengi,128GB,TRY,,31999.0,,,apple-ipad-wi-fi-rengi|128gb
+2026-11-06,TR,new,Apple,tablet,iPad Wi-Fi - Rengi,256GB,TRY,,38999.0,,,apple-ipad-wi-fi-rengi|256gb
+2026-11-06,TR,new,Apple,tablet,iPad Wi-Fi - Rengi,512GB,TRY,,52999.0,,,apple-ipad-wi-fi-rengi|512gb
+2026-11-06,TR,new,Apple,tablet,iPad Wi-Fi - Sarı,128GB,TRY,,31999.0,,,apple-ipad-wi-fi-sar|128gb
+2026-11-06,TR,new,Apple,tablet,iPad Wi-Fi - Sarı,256GB,TRY,,38999.0,,,apple-ipad-wi-fi-sar|256gb
+2026-11-06,TR,new,Apple,tablet,iPad Wi-Fi - Sarı,512GB,TRY,,52999.0,,,apple-ipad-wi-fi-sar|512gb
+2026-11-06,TR,new,Apple,tablet,iPad Wi-Fi Cellular,128GB,TRY,,42499.0,,,apple-ipad-wi-fi-cellular|128gb
+2026-11-06,TR,new,Apple,tablet,iPad Wi-Fi Cellular,256GB,TRY,,49499.0,,,apple-ipad-wi-fi-cellular|256gb
+2026-11-06,TR,new,Apple,tablet,iPad Wi-Fi Cellular,512GB,TRY,,63499.0,,,apple-ipad-wi-fi-cellular|512gb
+2026-11-06,TR,new,Apple,tablet,iPad Wi-Fi Cellular - Rengi,128GB,TRY,,42499.0,,,apple-ipad-wi-fi-cellular-rengi|128gb
+2026-11-06,TR,new,Apple,tablet,iPad Wi-Fi Cellular - Rengi,256GB,TRY,,49499.0,,,apple-ipad-wi-fi-cellular-rengi|256gb
+2026-11-06,TR,new,Apple,tablet,iPad Wi-Fi Cellular - Rengi,512GB,TRY,,63499.0,,,apple-ipad-wi-fi-cellular-rengi|512gb
+2026-11-06,TR,new,Apple,tablet,iPad Wi-Fi Cellular - Sarı,128GB,TRY,,42499.0,,,apple-ipad-wi-fi-cellular-sar|128gb
+2026-11-06,TR,new,Apple,tablet,iPad Wi-Fi Cellular - Sarı,256GB,TRY,,49499.0,,,apple-ipad-wi-fi-cellular-sar|256gb
+2026-11-06,TR,new,Apple,tablet,iPad Wi-Fi Cellular - Sarı,512GB,TRY,,63499.0,,,apple-ipad-wi-fi-cellular-sar|512gb
+2026-11-06,TR,new,Apple,tablet,iPad mini Satın Alın,—,TRY,,48999.0,,,apple-ipad-mini-sat-n-al-n|
+2026-11-06,TR,new,Huawei,tablet,HUAWEI Tablets - MP Pro 12.2 5-30 Nov,—,TRY,,50999.0,,,huawei-huawei-tablets-mp-pro-12-2-5-30-nov|
+2026-11-06,TR,new,Samsung,audio,Samsung Galaxy Buds3,—,TRY,,6999.0,,,samsung-samsung-galaxy-buds3|
+2026-11-06,TR,new,Samsung,phone,Samsung Galaxy A36 5G,256GB,TRY,,25499.0,,,samsung-samsung-galaxy-a36-5g|256gb
+2026-11-06,TR,new,Samsung,phone,Samsung Galaxy A37 5G,128GB,TRY,,26999.0,,,samsung-samsung-galaxy-a37-5g|128gb
+2026-11-06,TR,new,Samsung,phone,Samsung Galaxy S26,512GB,TRY,,120999.0,,,samsung-samsung-galaxy-s26|512gb
+2026-11-06,TR,new,Samsung,tablet,Samsung Galaxy Tab S10 FE+ (Wi-Fi),128GB,TRY,,35499.0,,,samsung-samsung-galaxy-tab-s10-fe+-wi-fi|128gb
+2026-11-06,TR,new,Samsung,wear,"Samsung Galaxy Watch Ultra (Bluetooth, 47mm)",—,TRY,,27999.0,,,samsung-samsung-galaxy-watch-ultra-bluetooth-47mm|
+2026-11-06,TR,new,Samsung,wear,"Samsung Galaxy Watch8 (Bluetooth, 40mm)",—,TRY,,13999.0,,,samsung-samsung-galaxy-watch8-bluetooth-40mm|
+2026-11-06,TR,new,Samsung,wear,"Samsung Galaxy Watch8 (Bluetooth, 44mm)",—,TRY,,14999.0,,,samsung-samsung-galaxy-watch8-bluetooth-44mm|
+2026-11-06,TR,new,Xiaomi,phone,Xiaomi 17T,—,TRY,,54999.0,,,xiaomi-xiaomi-17t|
+2026-11-06,TR,new,Xiaomi,phone,Xiaomi 17T Opal,12GB+256GB,TRY,,50999.0,,,xiaomi-xiaomi-17t-opal|256gb
+2026-11-06,TR,new,Xiaomi,phone,Xiaomi POCO X8 Pro,12GB+512GB,TRY,,37999.0,,,xiaomi-xiaomi-poco-x8-pro|512gb
+2026-11-06,TR,new,Xiaomi,phone,Xiaomi POCO X8 Pro Max,12GB+512GB,TRY,,50999.0,,,xiaomi-xiaomi-poco-x8-pro-max|512gb
+2026-11-06,TR,new,Xiaomi,phone,Xiaomi REDMI 17 5G Canlı Turuncu,4GB+256GB,TRY,,20999.0,,,xiaomi-xiaomi-redmi-17-5g-canl-turuncu|256gb
+2026-11-06,TR,new,Xiaomi,phone,Xiaomi REDMI 17 Mese Yeşili,4GB+128GB,TRY,,17999.0,,,xiaomi-xiaomi-redmi-17-mese-ye-ili|128gb
+2026-11-06,TR,new,Xiaomi,phone,Xiaomi REDMI Note 17 Galaksi Moru,6GB+128GB,TRY,,19999.0,,,xiaomi-xiaomi-redmi-note-17-galaksi-moru|128gb
+2026-11-06,TR,new,Xiaomi,phone,Xiaomi REDMI Note 17 Pro 5G Gök Mavisi,8GB+256GB,TRY,,36999.0,,,xiaomi-xiaomi-redmi-note-17-pro-5g-g-k-mavisi|256gb
+2026-11-06,TR,new,Xiaomi,phone,Xiaomi REDMI Note 17 Pro Max 5G,8GB+256GB,TRY,,46999.0,,,xiaomi-xiaomi-redmi-note-17-pro-max-5g|256gb
+2026-11-06,TR,suspect,Huawei,wear,HUAWEI WATCH 5,—,TRY,27999.0,26999.0,-1000.0,-3.6,huawei-huawei-watch-5|
+2026-11-06,TR,suspect,Huawei,wear,HUAWEI WATCH GT Runner 2,—,TRY,17499.0,16499.0,-1000.0,-5.7,huawei-huawei-watch-gt-runner-2|
+2026-11-06,TR,up,Huawei,phone,HUAWEI Mate X6,512GB,TRY,139999.0,159999.0,20000.0,14.3,huawei-huawei-mate-x6|512gb
+2026-11-06,TR,up,Huawei,phone,HUAWEI Mate X6 Nebula Kırmızı,—,TRY,139999.0,159999.0,20000.0,14.3,huawei-huawei-mate-x6-nebula-k-rm-z|
+2026-11-06,TR,up,Huawei,phone,HUAWEI Mate X7,16GB+512GB,TRY,169999.0,179999.0,10000.0,5.9,huawei-huawei-mate-x7|512gb
+2026-11-06,TR,up,Huawei,phone,HUAWEI Mate X7 - Nebula Kırmızı,—,TRY,169999.0,179999.0,10000.0,5.9,huawei-huawei-mate-x7-nebula-k-rm-z|
