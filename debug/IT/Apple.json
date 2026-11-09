@@ -8,11 +8,11 @@
    "final_url": "https://www.apple.com/it/shop/buy-iphone",
    "title": "Acquista iPhone - Apple (IT)",
    "json_urls": [
-    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
     "https://www.apple.com/it/shop/bag/status?apikey=SJHJUH4YFCTTPD4F4",
     "https://www.apple.com/it/shop/api/digital-mat?path=library/step0_iphone/digitalmat&fae=true",
-    "https://www.apple.com/shop/shld/work/v3/q?jr=30"
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
+    "https://www.apple.com/shop/shld/work/v3/q?jr=30",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT"
    ],
    "links": [
     "https://www.apple.com/it/shop/buy-iphone/iphone-duo",
@@ -45,8 +45,8 @@
    "final_url": "https://www.apple.com/it/shop/buy-ipad",
    "title": "Acquista iPad - Apple (IT)",
    "json_urls": [
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
     "https://www.apple.com/it/shop/api/digital-mat?path=library/step0_ipad/digitalmat&fae=true"
    ],
    "links": [
@@ -110,7 +110,7 @@
     },
     {
      "url": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
-     "body": "{\"id\": \"NEchYgLoTBWvF2X7AWCZgQ\", \"results\": [{\"sectionName\": \"quickLinks\", \"sectionResults\": [{\"label\": \"Acquista i tuoi regali\", \"url\": \"https://www.apple.com/it/shop/goto/store\"}, {\"label\": \"Trova uno Store\", \"url\": \"https://www.apple.com/it/retail/\"}, {\"label\": \"Apple Gift Card\", \"url\": \"https://www.apple.com/it/shop/goto/giftcards\"}, {\"label\": \"Apple Intelligence\", \"url\": \"https://www.apple.com/it/apple-intelligence/\"}, {\"label\": \"Apple Trade In\", \"url\": \"https://www.apple.com/it/shop/goto/trade_in\"}]}, {\"sectionName\": \"suggestions\", \"sectionResults\": []}]}"
+     "body": "{\"id\": \"Mgp7scBtSEGjUf5xKFg5YA\", \"results\": [{\"sectionName\": \"quickLinks\", \"sectionResults\": [{\"label\": \"Acquista i tuoi regali\", \"url\": \"https://www.apple.com/it/shop/goto/store\"}, {\"label\": \"Trova uno Store\", \"url\": \"https://www.apple.com/it/retail/\"}, {\"label\": \"Apple Gift Card\", \"url\": \"https://www.apple.com/it/shop/goto/giftcards\"}, {\"label\": \"Apple Intelligence\", \"url\": \"https://www.apple.com/it/apple-intelligence/\"}, {\"label\": \"Apple Trade In\", \"url\": \"https://www.apple.com/it/shop/goto/trade_in\"}]}, {\"sectionName\": \"suggestions\", \"sectionResults\": []}]}"
     },
     {
      "url": "https://www.apple.com/it/shop/api/digital-mat?path=library/step0_watch/digitalmat&fae=true",
@@ -156,7 +156,7 @@
    "json_urls": [
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
-    "https://www.apple.com/it/shop/sba/d/init?fnode=692eeaeea41f144eee2864049cd0eec3258b6a923ea797b610bb9873352fefae053182590139b8d0f74e7b035f60f822aa532025b778cacb5",
+    "https://www.apple.com/it/shop/sba/d/init?fnode=bba9fee4c3c4d210e083fcf7a48d897dcaf2c340ec9dc5d4b35e9770c984ab2c5c98dcee35440a0d9ceb50db2c87c0613570903bea9e53963",
     "https://www.apple.com/it/shop/favoritesx/fetch"
    ],
    "links": [
@@ -208,7 +208,7 @@
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
     "https://www.apple.com/it/shop/favoritesx/fetch",
-    "https://www.apple.com/it/shop/sba/d/init?fnode=69601a6c34b9b315f773d8b3c0d0a73df07b15227185424181a35bb316b5d433512e5fb1e2574b1f1a1a95a214f652eb0963016ae9f194349"
+    "https://www.apple.com/it/shop/sba/d/init?fnode=bce059722b97267f7227b8cc989dff5cf667e11b7d1dbabe9288384cb5034c0711fa70bbc5a469a4315b7eecfdc24d090f499c0b2e154551a"
    ],
    "links": [
     "https://www.apple.com/it/shop/buy-iphone/iphone-18-pro",
@@ -262,7 +262,7 @@
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
     "https://www.apple.com/it/shop/favoritesx/fetch",
-    "https://www.apple.com/it/shop/sba/d/init?fnode=d3504c56028ce78d91f524b36e1f0d1432a8338656e5ee47c45103e888e259967573c037c2ca7d94f676d619d3dc6477a8dce6364a7465294"
+    "https://www.apple.com/it/shop/sba/d/init?fnode=57b4c5911e35815690d311c8f896ae0d8ded6daa6a41492288ee316356f4f86989b39a8d7e794d987c9553213eabc75012b0e26dd9ed4379d"
    ],
    "links": [
     "https://www.apple.com/it/shop/buy-iphone/iphone-air",
@@ -316,7 +316,7 @@
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
     "https://www.apple.com/it/shop/favoritesx/fetch",
-    "https://www.apple.com/it/shop/sba/d/init?fnode=9cf8ac85e0fac90afe3537f52e69b7e5a15cf3563df36d09c50b95d30d816532b6e361f42f9c2d5bfb369a326c66a76c766a9d8ef854c8cb9"
+    "https://www.apple.com/it/shop/sba/d/init?fnode=5796abcb02bab4dfba68e85d88cbd896583985c8358dcb52aa6792094b43c4f1ab9335376cf0ea55e6db9b1adc450f8f8a3bc64c641373e08"
    ],
    "links": [
     "https://www.apple.com/it/shop/buy-iphone/iphone-17",
@@ -367,7 +367,7 @@
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
     "https://www.apple.com/it/shop/favoritesx/fetch",
-    "https://www.apple.com/it/shop/sba/d/init?fnode=7731e38370be951e0a08b8c0dd433ab24d177499f298c59efea181f189f80923a0a7c883608fa29ffe9d399b86c8077fa452304a678c0dc80"
+    "https://www.apple.com/it/shop/sba/d/init?fnode=9cf12fd4d9fecf7bfcf2f930a7eea6d3f90d85299ce13e1786bbc719d492c5a9fa37d5fa3f6623aa3bfabc8ddd3d4ac6f473da04faf4092a2"
    ],
    "links": [
     "https://www.apple.com/it/shop/buy-iphone/iphone-17e",
@@ -413,9 +413,9 @@
    "json_urls": [
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
-    "https://www.apple.com/it/shop/api/product-gallery?fae=true&node=home%2Fshop_iphone%2Ffamily%2Fiphone_16%2Fselect&dm.dimensionScreensize=6_1inch",
     "https://www.apple.com/it/shop/favoritesx/fetch",
-    "https://www.apple.com/it/shop/sba/d/init?fnode=95a7753d4038e1b1e29d8d3c994dd93dc9470cae8e57f4b42177f2549f5109608f185bc6f549f3f704a935b5eecebae2fbcf14403e5307729"
+    "https://www.apple.com/it/shop/sba/d/init?fnode=578d61b630fea6837e7c6cfcb2b62838eb6932fa5df78fe481bd144cfae96c03ad53e771b0bf71f80b8eef23c09e5b54ae187bf3c69caec19",
+    "https://www.apple.com/it/shop/api/product-gallery?fae=true&node=home%2Fshop_iphone%2Ffamily%2Fiphone_16%2Fselect&dm.dimensionScreensize=6_1inch"
    ],
    "links": [
     "https://www.apple.com/it/shop/buy-iphone/iphone-16",
@@ -456,7 +456,7 @@
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
     "https://www.apple.com/it/shop/favoritesx/fetch",
-    "https://www.apple.com/it/shop/sba/d/init?fnode=98f69e62f5876e327a5647f4746e444b88cba209b6f6f68ee2ebd4c18b2743dc974426492334b7a272c5f26ef371095e583b84f5f13e88d1c",
+    "https://www.apple.com/it/shop/sba/d/init?fnode=65f253cde398499c00c4decc8156b648507a22f35f5b367318acb461efa22189e76ce1ada3dd36533c3ade7b72163be44f4adb5792589a1d4",
     "https://www.apple.com/it/shop/engrave/json?fae=true&product=MX2D3ZM%2FA"
    ],
    "links": [
@@ -510,7 +510,7 @@
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
     "https://www.apple.com/it/shop/favoritesx/fetch",
-    "https://www.apple.com/it/shop/sba/d/init?fnode=0d53623ad1c74f1b689e1f0fa1a208632ec99e1df9db8c971230dafa8e6a037ea097e3a75cee1b3097f4bb1ac67f5bb1c9533e926a13f9e87",
+    "https://www.apple.com/it/shop/sba/d/init?fnode=1b2a894bf2b6bac845e136f5b0cea76ff31926676a516b59324d4887e366a24907f75ac163eda2f9c938c2b4be410ed8c7c3f5fb60d438e95",
     "https://www.apple.com/it/shop/engrave/json?fae=true&product=MX2D3ZM%2FA"
    ],
    "links": [
@@ -564,7 +564,7 @@
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
     "https://www.apple.com/it/shop/favoritesx/fetch",
-    "https://www.apple.com/it/shop/sba/d/init?fnode=a197c0ed9c9e0deb12e3762d3cb213ebf7661ad2a2727e42b346337a2900b5392590fccc168a218a22e6fde706d480cf58e61853d235ca155"
+    "https://www.apple.com/it/shop/sba/d/init?fnode=9f5e1d072b40b3799cd3c9a059d5c14e814f48a31c30cd9fd31d358191cc8621de66dcef6cb4fd5691dd8a1e70b25b6c14162d789868525de"
    ],
    "links": [
     "https://www.apple.com/it/shop/buy-ipad/ipad",
@@ -617,7 +617,7 @@
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
     "https://www.apple.com/it/shop/favoritesx/fetch",
-    "https://www.apple.com/it/shop/sba/d/init?fnode=02b04da26a96c20ea187d7a4af696d669cba0e448b37d1dfd2398762427ca51a44035e63f39c58f01b37e6d57cfc5e8474925ef531357f848",
+    "https://www.apple.com/it/shop/sba/d/init?fnode=04ea851eb5ca2774e039f9e557d35209a07efce4147170351bf96af8e9e0bbb31237b9f14ddcf21acf350fd15b82a9275329bae17d050d9ec",
     "https://www.apple.com/it/shop/engrave/json?fae=true&product=MX2D3ZM%2FA"
    ],
    "links": [
@@ -665,7 +665,7 @@
    "json_urls": [
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
-    "https://www.apple.com/it/shop/sba/d/init?fnode=18c3fd782591d55038a56010c5b8cca381a12b2e3c3e9c07f78d78fb60acc867b64fddad82e3bc2b0d6cb44fd10473ce26ad7779304ee7336",
+    "https://www.apple.com/it/shop/sba/d/init?fnode=709011297ec1b3e1d9174bd0dca6bc4b45558099735a08c3ec5dfd1e2b69ba04649909821d3275b7f677b7dd1911666f87388291f020a530f",
     "https://www.apple.com/it/shop/favoritesx/fetch"
    ],
    "links": [
@@ -698,7 +698,7 @@
    "json_urls": [
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
-    "https://www.apple.com/it/shop/sba/d/init?fnode=5755fca4fcc13182121388460e901a59427fb2bb6d7b4b2453476e74fef37d62fdd4b7c32dfc24a409cfa6cfc88cd274cd8914b0c1987b955",
+    "https://www.apple.com/it/shop/sba/d/init?fnode=e5ec51c2aa9d532210d0766cae7136d998e6e9db42b8deaba51ae73e772789af160f187c57a3cd81e7a79599cfb79cb964f3e73094bfdd42a",
     "https://www.apple.com/it/shop/favoritesx/fetch"
    ],
    "links": [
@@ -731,7 +731,7 @@
    "json_urls": [
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
-    "https://www.apple.com/it/shop/sba/d/init?fnode=bc7c9d393be396c1a4fd6f1f9461e02e762907e331d69c8b19a1136d33ffaee9da6071c3db6b9c893f2e3835738fe7f05d7fa7c8f4e29c3b3",
+    "https://www.apple.com/it/shop/sba/d/init?fnode=72f17ef45f1c860f28d0517cc1b4956208c2da4f19b05db005a2083afa8730643809fc4dc082a1fa65a3880f26fc833dfb18fdf60bc65d022",
     "https://www.apple.com/it/shop/favoritesx/fetch"
    ],
    "links": [
@@ -762,8 +762,8 @@
    "json_urls": [
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=it_IT",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=it_IT",
-    "https://www.apple.com/it/shop/favoritesx/fetch",
     "https://www.apple.com/it/shop/updateSummary?node=home%2Fshop_airpods%2Ffamily%2Fairpods_pro_3&step=select&product=MFHP4ZM%2FA",
+    "https://www.apple.com/it/shop/favoritesx/fetch",
     "https://www.apple.com/it/shop/engrave/json?product=MFHP4ZM%2FA",
     "https://www.apple.com/it/shop/updateSummary?node=home%2Fshop_airpods%2Ffamily%2Fairpods_pro_3&step=select&product=MFHP4ZM%2FA&ao.applecareprotectionplan=none"
    ],
