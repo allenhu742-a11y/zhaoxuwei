@@ -9,21 +9,17 @@
    "title": "OnePlus Phone Store - OnePlus (Italia)",
    "json_urls": [
     "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/config/fetch",
-    "https://cdn0.forter.com/e38666f12941/845fc96c6c0f4e93af82d579d4514e1f/prop.json?_=1794273946645",
-    "https://cdn0.forter.com/e38666f12941/845fc96c6c0f4e93af82d579d4514e1f/prop.json?_=1794273946885",
-    "https://cdn0.forter.com/e38666f12941/845fc96c6c0f4e93af82d579d4514e1f/prop.json?_=1794273947047",
-    "https://cdn0.forter.com/e38666f12941/845fc96c6c0f4e93af82d579d4514e1f/prop.json?_=1794273947132",
+    "https://cdn0.forter.com/e38666f12941/ba95c7a14d2643f1aba90ef8b685e60a/prop.json?_=1794442202286",
+    "https://cdn0.forter.com/e38666f12941/ba95c7a14d2643f1aba90ef8b685e60a/prop.json?_=1794442202391",
+    "https://cdn0.forter.com/e38666f12941/ba95c7a14d2643f1aba90ef8b685e60a/prop.json?_=1794442202458",
+    "https://cdn0.forter.com/e38666f12941/ba95c7a14d2643f1aba90ef8b685e60a/wpt.json",
     "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
-    "https://cdn0.forter.com/e38666f12941/845fc96c6c0f4e93af82d579d4514e1f/wpt.json",
-    "https://cdn0.forter.com/e38666f12941/845fc96c6c0f4e93af82d579d4514e1f/prop.json?_=1794273947244",
-    "https://cdn0.forter.com/e38666f12941/845fc96c6c0f4e93af82d579d4514e1f/prop.json?_=1794273947422",
     "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
-    "https://cdn0.forter.com/e38666f12941/845fc96c6c0f4e93af82d579d4514e1f/wpt.json",
     "https://mallapi-eu.oneplus.com/v2/api/router",
-    "https://recommender.scarabresearch.com/merchants/16FD35672367412C/?pv=722200252&xp=1&cv=1&ca=&vc=store%20%3E%20phone&cp=1",
-    "https://ct.pinterest.com/user/?tid=2612444634775&cb=1794273948726&dep=2%2CPAGE_LOAD",
-    "https://onepluscom.pxf.io/xur/12532",
     "https://pixel-config.reddit.com/pixels/t2_u5n2mmw0/config",
+    "https://ct.pinterest.com/user/?tid=2612444634775&cb=1794442204271&dep=2%2CPAGE_LOAD",
+    "https://onepluscom.pxf.io/xur/12532",
+    "https://recommender.scarabresearch.com/merchants/16FD35672367412C/?pv=30390147&xp=1&cv=1&ca=&vc=store%20%3E%20phone&cp=1",
     "https://insight.adsrvr.org/track/realtimeconversion"
    ],
    "links": [],
@@ -38,15 +34,15 @@
     },
     {
      "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
-     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"2696996df37e4db29126e976e073c71e-154\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": {\"totalRecord\": 0, \"totalPage\": 0, \"startRec\": 0, \"endRec\": 0, \"currentPage\": 1, \"pageSize\": 12}}"
+     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"1c0edb5eb210059c7c595d708da4a80c-154\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": {\"totalRecord\": 0, \"totalPage\": 0, \"startRec\": 0, \"endRec\": 0, \"currentPage\": 1, \"pageSize\": 12}}"
     },
     {
      "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
-     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"2b2a8fd79b7d9edcb4bd3e332c804b5b-230\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
+     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"7cd2987add47a74c99afcdf116971c74-208\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
     },
     {
      "url": "https://mallapi-eu.oneplus.com/v2/api/router",
-     "body": "{\"success\": true, \"data\": null, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"943b4f9b47826941e06baef0fd2b68da-230\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
+     "body": "{\"success\": true, \"data\": null, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"b18a090ca448a69d07df50b04c96f34f-117\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
     }
    ]
   },
@@ -57,18 +53,15 @@
    "title": "OnePlus Tablet Store - OnePlus (Italia)",
    "json_urls": [
     "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/config/fetch",
-    "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
     "https://mallapi-eu.oneplus.com/v2/api/rest/mallapp/common/module/fetch",
-    "https://recommender.scarabresearch.com/merchants/16FD35672367412C/?pv=1785680695&xp=1&cv=1&ca=&vc=store%20%3E%20tablet&cp=1&vi=2231B5049AAF38BE",
     "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
-    "https://cdn0.forter.com/e38666f12941/845fc96c6c0f4e93af82d579d4514e1f/prop.json?_=1794273964743",
-    "https://cdn0.forter.com/e38666f12941/845fc96c6c0f4e93af82d579d4514e1f/prop.json?_=1794273965057",
-    "https://cdn0.forter.com/e38666f12941/845fc96c6c0f4e93af82d579d4514e1f/prop.json?_=1794273965504",
-    "https://cdn0.forter.com/e38666f12941/845fc96c6c0f4e93af82d579d4514e1f/wpt.json",
-    "https://cdn0.forter.com/e38666f12941/845fc96c6c0f4e93af82d579d4514e1f/prop.json?_=1794273965716",
-    "https://cdn0.forter.com/e38666f12941/845fc96c6c0f4e93af82d579d4514e1f/prop.json?_=1794273965857",
-    "https://cdn0.forter.com/e38666f12941/845fc96c6c0f4e93af82d579d4514e1f/prop.json?_=1794273965926",
-    "https://cdn0.forter.com/e38666f12941/845fc96c6c0f4e93af82d579d4514e1f/wpt.json",
+    "https://cdn0.forter.com/e38666f12941/ba95c7a14d2643f1aba90ef8b685e60a/prop.json?_=1794442219926",
+    "https://cdn0.forter.com/e38666f12941/ba95c7a14d2643f1aba90ef8b685e60a/prop.json?_=1794442219965",
+    "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
+    "https://recommender.scarabresearch.com/merchants/16FD35672367412C/?pv=742691371&xp=1&cv=1&ca=&vc=store%20%3E%20tablet&cp=1&vi=150A3104C44738EF",
+    "https://cdn0.forter.com/e38666f12941/ba95c7a14d2643f1aba90ef8b685e60a/prop.json?_=1794442220033",
+    "https://cdn0.forter.com/e38666f12941/ba95c7a14d2643f1aba90ef8b685e60a/wpt.json",
+    "https://mallapi-eu.oneplus.com/v2/api/router",
     "https://insight.adsrvr.org/track/realtimeconversion"
    ],
    "links": [],
@@ -82,16 +75,16 @@
      "body": "{\"success\": true, \"data\": {\"categoryList\": [{\"categoryName\": \"Store\", \"categoryCode\": \"CAT00001010\", \"urlKey\": \"store/all\", \"categoryImage\": {\"whiteCategoryImage\": \"https://image01-eu.oneplus.net/ebp/202207/25/1-M00-53-95-rBpB6mLeodeAMO_oAABPSqotiPU128.svg\", \"blankCategoryImage\": \"https://image01-eu.oneplus.net/ebp/202207/25/1-M00-53-95-rBpB6mLeodeAMO_oAABPSqotiPU128.svg\"}, \"filterGroups\": [{\"groupName\": \"Offerte\", \"groupType\": null, \"groupMutilSelect\": null, \"filterOptions\": [{\"storeViewCode\": null, \"optCode\": \"OFFER_BUY_WITH_GIFT\", \"optName\": \"Con regalo\", \"optCatOrTagCodes\": null, \"optSort\": \"1\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": \"\", \"defaultName\": \"With Gift\", \"customOpt\": null}, {\"storeViewCode\": null, \"optCode\": \"OFFER_DISCOUNTED\", \"optName\": \"In vendita\", \"optCatOrTagCodes\": null, \"optSort\": \"4\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": \"\", \"defaultName\": \"On Sale\", \"customOpt\": null}], \"groupCode\": \"OFFER\", \"groupSortCode\": 1, \"customGroup\": null}], \"sortOptions\": [{\"storeViewCode\": null, \"optCode\": \"LATEST\", \"optName\": \"Più recenti\", \"optCatOrTagCodes\": null, \"optSort\": \"2\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": null, \"defaultName\": \"Newest\", \"customOpt\": null}, {\"storeViewCode\": null, \"optCode\": \"PRICEL2H\", \"optName\": \"Prezzo (dal più basso al più alto)\", \"optCatOrTagCodes\": null, \"optSort\": \"3\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": null, \"defaultName\": \"Price(Low to High)\", \"customOpt\": null}, {\"storeViewCode\": null, \"optCode\": \"PRICEH2L\", \"optName\": \"Prezzo (dal più alto al più basso)\", \"optCatOrTagCodes\": null, \"optSort\": \"4\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": null, \"defaultName\": \"Price(High to Low)\", \"customOpt\": null}, {\"storeViewCode\": null, \"optCode\": \"DISCOUNT\", \"optName\": \"Tasso di sconto\", \"optCatOrTagCodes\": null, \"optSort\": \"5\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": null, \"defaultName\": \"Discount Rate\", \"customOpt\": null}, {\"storeViewCode\": null, \"optCode\": \"RECOMMENDED\", \"optName\": \"Consigliato\", \"optCatOrTagCodes\": null, \"optSort\": \"1\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": null, \"defaultName\": \"Recommended\", \"customOpt\": null}], \"compareAction\": {\"type\": \"H5_INNER\", \"uri\": \"\", \"uriDesc\": null, \"appUri\": null, \"appUriDesc\": null, \"text\": null, \"img\": null, \"fontColor\": null, \"buttonColor\": null, \"backgroundColor\": null, \"eventKey\": null, \"eventParams\": null, \"params\": null, \"checkL"
     },
     {
-     "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
-     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"377a634975ba1e7c421662485208db69-154\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": {\"totalRecord\": 0, \"totalPage\": 0, \"startRec\": 0, \"endRec\": 0, \"currentPage\": 1, \"pageSize\": 12}}"
-    },
-    {
      "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallapp/common/module/fetch",
-     "body": "{\"success\": true, \"data\": null, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"0cddb97c5c27188cc5e5327c58a2f68f-154\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
+     "body": "{\"success\": true, \"data\": null, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"a05b52b4d7f67b591173a143ba144632-230\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
     },
     {
      "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
-     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"f4ab5f6ebc224b18881e2158e4813784-230\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
+     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"13034aab8ae89ae3d1365395fa95bce7-230\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": {\"totalRecord\": 0, \"totalPage\": 0, \"startRec\": 0, \"endRec\": 0, \"currentPage\": 1, \"pageSize\": 12}}"
+    },
+    {
+     "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
+     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"7f44278a60de81b2de2429db737e434d-117\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
     }
    ]
   },
@@ -103,17 +96,17 @@
    "json_urls": [
     "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/config/fetch",
     "https://mallapi-eu.oneplus.com/v2/api/rest/mallapp/common/module/fetch",
-    "https://recommender.scarabresearch.com/merchants/16FD35672367412C/?pv=552718423&xp=1&cv=1&ca=&vc=store%20%3E%20audio&cp=1&vi=2231B5049AAF38BE",
-    "https://cdn0.forter.com/e38666f12941/845fc96c6c0f4e93af82d579d4514e1f/prop.json?_=1794273985331",
     "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
-    "https://cdn0.forter.com/e38666f12941/845fc96c6c0f4e93af82d579d4514e1f/prop.json?_=1794273985492",
-    "https://cdn0.forter.com/e38666f12941/845fc96c6c0f4e93af82d579d4514e1f/prop.json?_=1794273985597",
+    "https://cdn0.forter.com/e38666f12941/ba95c7a14d2643f1aba90ef8b685e60a/prop.json?_=1794442236904",
     "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
-    "https://cdn0.forter.com/e38666f12941/845fc96c6c0f4e93af82d579d4514e1f/wpt.json",
-    "https://cdn0.forter.com/e38666f12941/845fc96c6c0f4e93af82d579d4514e1f/prop.json?_=1794273986392",
-    "https://cdn0.forter.com/e38666f12941/845fc96c6c0f4e93af82d579d4514e1f/prop.json?_=1794273986515",
-    "https://cdn0.forter.com/e38666f12941/845fc96c6c0f4e93af82d579d4514e1f/prop.json?_=1794273986589",
-    "https://cdn0.forter.com/e38666f12941/845fc96c6c0f4e93af82d579d4514e1f/wpt.json",
+    "https://recommender.scarabresearch.com/merchants/16FD35672367412C/?pv=871006052&xp=1&cv=1&ca=&vc=store%20%3E%20audio&cp=1&vi=150A3104C44738EF",
+    "https://cdn0.forter.com/e38666f12941/ba95c7a14d2643f1aba90ef8b685e60a/prop.json?_=1794442237027",
+    "https://cdn0.forter.com/e38666f12941/ba95c7a14d2643f1aba90ef8b685e60a/prop.json?_=1794442237044",
+    "https://cdn0.forter.com/e38666f12941/ba95c7a14d2643f1aba90ef8b685e60a/wpt.json",
+    "https://cdn0.forter.com/e38666f12941/ba95c7a14d2643f1aba90ef8b685e60a/prop.json?_=1794442237610",
+    "https://cdn0.forter.com/e38666f12941/ba95c7a14d2643f1aba90ef8b685e60a/prop.json?_=1794442237626",
+    "https://cdn0.forter.com/e38666f12941/ba95c7a14d2643f1aba90ef8b685e60a/prop.json?_=1794442237665",
+    "https://cdn0.forter.com/e38666f12941/ba95c7a14d2643f1aba90ef8b685e60a/wpt.json",
     "https://mallapi-eu.oneplus.com/v2/api/router",
     "https://insight.adsrvr.org/track/realtimeconversion"
    ],
@@ -129,15 +122,15 @@
     },
     {
      "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallapp/common/module/fetch",
-     "body": "{\"success\": true, \"data\": null, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"d555565d35083a143668d86a78d098bb-154\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
+     "body": "{\"success\": true, \"data\": null, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"53817117292739d1243bff5695c156cb-154\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
     },
     {
      "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
-     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"1285ff214bd01eab2dc471f2c01f34a0-154\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": {\"totalRecord\": 0, \"totalPage\": 0, \"startRec\": 0, \"endRec\": 0, \"currentPage\": 1, \"pageSize\": 12}}"
+     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"fa583ffc740e2bbeddf414078c5fa48e-154\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": {\"totalRecord\": 0, \"totalPage\": 0, \"startRec\": 0, \"endRec\": 0, \"currentPage\": 1, \"pageSize\": 12}}"
     },
     {
      "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
-     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"32c1e5fdb397b7fa71fb286db0e3372c-117\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
+     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"867a62d899cfba5d0d31a38430b10112-230\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
     }
    ]
   },
@@ -147,19 +140,19 @@
    "final_url": "https://www.oneplus.com/it/store/wearables",
    "title": "OnePlus Wearables Store - OnePlus (Italia)",
    "json_urls": [
-    "https://recommender.scarabresearch.com/merchants/16FD35672367412C/?pv=1435783954&xp=1&cv=1&ca=&vc=store%20%3E%20wearables&cp=1&vi=2231B5049AAF38BE",
-    "https://cdn0.forter.com/e38666f12941/845fc96c6c0f4e93af82d579d4514e1f/prop.json?_=1794274002756",
-    "https://cdn0.forter.com/e38666f12941/845fc96c6c0f4e93af82d579d4514e1f/prop.json?_=1794274002996",
-    "https://cdn0.forter.com/e38666f12941/845fc96c6c0f4e93af82d579d4514e1f/prop.json?_=1794274003082",
-    "https://cdn0.forter.com/e38666f12941/845fc96c6c0f4e93af82d579d4514e1f/prop.json?_=1794274003083",
-    "https://cdn0.forter.com/e38666f12941/845fc96c6c0f4e93af82d579d4514e1f/prop.json?_=1794274003222",
-    "https://cdn0.forter.com/e38666f12941/845fc96c6c0f4e93af82d579d4514e1f/wpt.json",
-    "https://cdn0.forter.com/e38666f12941/845fc96c6c0f4e93af82d579d4514e1f/prop.json?_=1794274003297",
-    "https://cdn0.forter.com/e38666f12941/845fc96c6c0f4e93af82d579d4514e1f/wpt.json",
     "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/config/fetch",
     "https://mallapi-eu.oneplus.com/v2/api/rest/mallapp/common/module/fetch",
     "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
     "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
+    "https://cdn0.forter.com/e38666f12941/ba95c7a14d2643f1aba90ef8b685e60a/prop.json?_=1794442254981",
+    "https://cdn0.forter.com/e38666f12941/ba95c7a14d2643f1aba90ef8b685e60a/prop.json?_=1794442255049",
+    "https://recommender.scarabresearch.com/merchants/16FD35672367412C/?pv=1415787399&xp=1&cv=1&ca=&vc=store%20%3E%20wearables&cp=1&vi=150A3104C44738EF",
+    "https://cdn0.forter.com/e38666f12941/ba95c7a14d2643f1aba90ef8b685e60a/prop.json?_=1794442255129",
+    "https://cdn0.forter.com/e38666f12941/ba95c7a14d2643f1aba90ef8b685e60a/wpt.json",
+    "https://cdn0.forter.com/e38666f12941/ba95c7a14d2643f1aba90ef8b685e60a/prop.json?_=1794442255434",
+    "https://cdn0.forter.com/e38666f12941/ba95c7a14d2643f1aba90ef8b685e60a/prop.json?_=1794442255445",
+    "https://cdn0.forter.com/e38666f12941/ba95c7a14d2643f1aba90ef8b685e60a/prop.json?_=1794442255485",
+    "https://cdn0.forter.com/e38666f12941/ba95c7a14d2643f1aba90ef8b685e60a/wpt.json",
     "https://mallapi-eu.oneplus.com/v2/api/router",
     "https://insight.adsrvr.org/track/realtimeconversion"
    ],
@@ -175,15 +168,15 @@
     },
     {
      "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallapp/common/module/fetch",
-     "body": "{\"success\": true, \"data\": null, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"b8cade9b0929faa06fd54318b68af49b-230\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
+     "body": "{\"success\": true, \"data\": null, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"bcef265348064df5ac2a8ab5791fddc3-208\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
     },
     {
      "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
-     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"e9008366ee1b0ebbaf95206e20722347-117\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": {\"totalRecord\": 0, \"totalPage\": 0, \"startRec\": 0, \"endRec\": 0, \"currentPage\": 1, \"pageSize\": 12}}"
+     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"67423d7b48f8c6b794c59a2819e74d42-208\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": {\"totalRecord\": 0, \"totalPage\": 0, \"startRec\": 0, \"endRec\": 0, \"currentPage\": 1, \"pageSize\": 12}}"
     },
     {
      "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
-     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"a59e7bfef93d10151f5b838427d4bc6c-208\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
+     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"0be0bac4a06397150c0e7eb7b5218018-230\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
     }
    ]
   }
