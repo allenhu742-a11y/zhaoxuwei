@@ -9,16 +9,12 @@
    "title": "OnePlus Phone Store - OnePlus (România)",
    "json_urls": [
     "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/config/fetch",
-    "https://cdn0.forter.com/e38666f12941/b1e62910cf5c42c797e033bdca0104bc/prop.json?_=1794588524863",
-    "https://cdn0.forter.com/e38666f12941/b1e62910cf5c42c797e033bdca0104bc/prop.json?_=1794588525034",
     "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
-    "https://cdn0.forter.com/e38666f12941/b1e62910cf5c42c797e033bdca0104bc/prop.json?_=1794588525101",
-    "https://cdn0.forter.com/e38666f12941/b1e62910cf5c42c797e033bdca0104bc/prop.json?_=1794588525115",
-    "https://cdn0.forter.com/e38666f12941/b1e62910cf5c42c797e033bdca0104bc/prop.json?_=1794588525188",
-    "https://cdn0.forter.com/e38666f12941/b1e62910cf5c42c797e033bdca0104bc/wpt.json",
-    "https://cdn0.forter.com/e38666f12941/b1e62910cf5c42c797e033bdca0104bc/prop.json?_=1794588525244",
-    "https://cdn0.forter.com/e38666f12941/b1e62910cf5c42c797e033bdca0104bc/wpt.json",
     "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
+    "https://cdn0.forter.com/e38666f12941/280b62756f2b4caca3bfb73764743db5/prop.json?_=1794670239833",
+    "https://cdn0.forter.com/e38666f12941/280b62756f2b4caca3bfb73764743db5/prop.json?_=1794670239955",
+    "https://cdn0.forter.com/e38666f12941/280b62756f2b4caca3bfb73764743db5/prop.json?_=1794670239993",
+    "https://cdn0.forter.com/e38666f12941/280b62756f2b4caca3bfb73764743db5/wpt.json",
     "https://mallapi-eu.oneplus.com/v2/api/router"
    ],
    "links": [],
@@ -33,15 +29,15 @@
     },
     {
      "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
-     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"dc9d096375fb8517dd21fc46fe2dc149-154\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": {\"totalRecord\": 0, \"totalPage\": 0, \"startRec\": 0, \"endRec\": 0, \"currentPage\": 1, \"pageSize\": 12}}"
+     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"35aaf776b417e57ed66533835c861722-117\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": {\"totalRecord\": 0, \"totalPage\": 0, \"startRec\": 0, \"endRec\": 0, \"currentPage\": 1, \"pageSize\": 12}}"
     },
     {
      "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
-     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"3aa442e36f6a71f3fa64958f83d8e20a-154\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
+     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"612dd216ae8aed414ce1e31c2e643c39-230\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
     },
     {
      "url": "https://mallapi-eu.oneplus.com/v2/api/router",
-     "body": "{\"success\": true, \"data\": null, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"9c473b5e7ca673c31582d6e833ce0d51-154\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
+     "body": "{\"success\": true, \"data\": null, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"d59599588a3437f0ccba855ede6d1c09-208\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
     }
    ]
   },
@@ -51,13 +47,17 @@
    "final_url": "https://www.oneplus.com/ro/store/tablet",
    "title": "OnePlus Tablet Store - OnePlus (România)",
    "json_urls": [
-    "https://cdn0.forter.com/e38666f12941/b1e62910cf5c42c797e033bdca0104bc/prop.json?_=1794588548008",
-    "https://cdn0.forter.com/e38666f12941/b1e62910cf5c42c797e033bdca0104bc/prop.json?_=1794588548049",
-    "https://cdn0.forter.com/e38666f12941/b1e62910cf5c42c797e033bdca0104bc/prop.json?_=1794588548088",
-    "https://cdn0.forter.com/e38666f12941/b1e62910cf5c42c797e033bdca0104bc/wpt.json",
     "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/config/fetch",
     "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
+    "https://cdn0.forter.com/e38666f12941/280b62756f2b4caca3bfb73764743db5/prop.json?_=1794670257247",
+    "https://cdn0.forter.com/e38666f12941/280b62756f2b4caca3bfb73764743db5/prop.json?_=1794670257373",
+    "https://cdn0.forter.com/e38666f12941/280b62756f2b4caca3bfb73764743db5/prop.json?_=1794670257411",
     "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
+    "https://cdn0.forter.com/e38666f12941/280b62756f2b4caca3bfb73764743db5/wpt.json",
+    "https://cdn0.forter.com/e38666f12941/280b62756f2b4caca3bfb73764743db5/prop.json?_=1794670257904",
+    "https://cdn0.forter.com/e38666f12941/280b62756f2b4caca3bfb73764743db5/prop.json?_=1794670257914",
+    "https://cdn0.forter.com/e38666f12941/280b62756f2b4caca3bfb73764743db5/prop.json?_=1794670257924",
+    "https://cdn0.forter.com/e38666f12941/280b62756f2b4caca3bfb73764743db5/wpt.json",
     "https://mallapi-eu.oneplus.com/v2/api/router"
    ],
    "links": [],
@@ -72,15 +72,15 @@
     },
     {
      "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
-     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"f191e63b05fea70dc435f56bddd0fa70-117\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": {\"totalRecord\": 0, \"totalPage\": 0, \"startRec\": 0, \"endRec\": 0, \"currentPage\": 1, \"pageSize\": 12}}"
+     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"124f24b51391887ee9dfeae77bc6f427-230\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": {\"totalRecord\": 0, \"totalPage\": 0, \"startRec\": 0, \"endRec\": 0, \"currentPage\": 1, \"pageSize\": 12}}"
     },
     {
      "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
-     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"18fb8b859bb184f0902b34668aa3790d-230\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
+     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"4bc5ee21c3f1bc6f7852acb9793f7727-208\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
     },
     {
      "url": "https://mallapi-eu.oneplus.com/v2/api/router",
-     "body": "{\"success\": true, \"data\": null, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"1c3c9f5b7b94314a183321d88f0922fa-154\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
+     "body": "{\"success\": true, \"data\": null, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"107d8c1ce7baa645438cf8b1299f67d3-117\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
     }
    ]
   },
@@ -90,14 +90,18 @@
    "final_url": "https://www.oneplus.com/ro/store/audio",
    "title": "OnePlus Audio Store - OnePlus (România)",
    "json_urls": [
-    "https://cdn0.forter.com/e38666f12941/b1e62910cf5c42c797e033bdca0104bc/prop.json?_=1794588574780",
-    "https://cdn0.forter.com/e38666f12941/b1e62910cf5c42c797e033bdca0104bc/prop.json?_=1794588574823",
-    "https://cdn0.forter.com/e38666f12941/b1e62910cf5c42c797e033bdca0104bc/prop.json?_=1794588574863",
-    "https://cdn0.forter.com/e38666f12941/b1e62910cf5c42c797e033bdca0104bc/wpt.json",
     "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/config/fetch",
     "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
+    "https://cdn0.forter.com/e38666f12941/280b62756f2b4caca3bfb73764743db5/prop.json?_=1794670276869",
+    "https://cdn0.forter.com/e38666f12941/280b62756f2b4caca3bfb73764743db5/prop.json?_=1794670276972",
+    "https://cdn0.forter.com/e38666f12941/280b62756f2b4caca3bfb73764743db5/prop.json?_=1794670277027",
     "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
-    "https://mallapi-eu.oneplus.com/v2/api/router"
+    "https://cdn0.forter.com/e38666f12941/280b62756f2b4caca3bfb73764743db5/wpt.json",
+    "https://cdn0.forter.com/e38666f12941/280b62756f2b4caca3bfb73764743db5/prop.json?_=1794670277573",
+    "https://mallapi-eu.oneplus.com/v2/api/router",
+    "https://cdn0.forter.com/e38666f12941/280b62756f2b4caca3bfb73764743db5/prop.json?_=1794670277609",
+    "https://cdn0.forter.com/e38666f12941/280b62756f2b4caca3bfb73764743db5/prop.json?_=1794670277730",
+    "https://cdn0.forter.com/e38666f12941/280b62756f2b4caca3bfb73764743db5/wpt.json"
    ],
    "links": [],
    "tiles": [],
@@ -111,15 +115,15 @@
     },
     {
      "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
-     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"8d97e20d57157a6291fe4dec9659091a-117\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": {\"totalRecord\": 0, \"totalPage\": 0, \"startRec\": 0, \"endRec\": 0, \"currentPage\": 1, \"pageSize\": 12}}"
+     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"de085626aa886df36342ced61bc6e6dd-230\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": {\"totalRecord\": 0, \"totalPage\": 0, \"startRec\": 0, \"endRec\": 0, \"currentPage\": 1, \"pageSize\": 12}}"
     },
     {
      "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
-     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"39edfcfae3c6023554f51036d69a27ae-230\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
+     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"75de9ec4939000c572bcfd3bdf78baa8-154\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
     },
     {
      "url": "https://mallapi-eu.oneplus.com/v2/api/router",
-     "body": "{\"success\": true, \"data\": null, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"c59b79182788005042d80b41b6c73a94-230\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
+     "body": "{\"success\": true, \"data\": null, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"bf597f655ee5cd22dc67b3cba75af6f1-230\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
     }
    ]
   },
@@ -129,13 +133,13 @@
    "final_url": "https://www.oneplus.com/ro/store/wearables",
    "title": "OnePlus Wearables Store - OnePlus (România)",
    "json_urls": [
-    "https://cdn0.forter.com/e38666f12941/b1e62910cf5c42c797e033bdca0104bc/prop.json?_=1794588600256",
-    "https://cdn0.forter.com/e38666f12941/b1e62910cf5c42c797e033bdca0104bc/prop.json?_=1794588600388",
-    "https://cdn0.forter.com/e38666f12941/b1e62910cf5c42c797e033bdca0104bc/prop.json?_=1794588600423",
-    "https://cdn0.forter.com/e38666f12941/b1e62910cf5c42c797e033bdca0104bc/wpt.json",
     "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/config/fetch",
     "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
     "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
+    "https://cdn0.forter.com/e38666f12941/280b62756f2b4caca3bfb73764743db5/prop.json?_=1794670297252",
+    "https://cdn0.forter.com/e38666f12941/280b62756f2b4caca3bfb73764743db5/prop.json?_=1794670297292",
+    "https://cdn0.forter.com/e38666f12941/280b62756f2b4caca3bfb73764743db5/prop.json?_=1794670297351",
+    "https://cdn0.forter.com/e38666f12941/280b62756f2b4caca3bfb73764743db5/wpt.json",
     "https://mallapi-eu.oneplus.com/v2/api/router"
    ],
    "links": [],
@@ -150,15 +154,15 @@
     },
     {
      "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
-     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"c307314ff5f3a8b0756e39afb365ebee-117\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": {\"totalRecord\": 0, \"totalPage\": 0, \"startRec\": 0, \"endRec\": 0, \"currentPage\": 1, \"pageSize\": 12}}"
+     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"c383855593a74bba73154d7b7d5f2883-208\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": {\"totalRecord\": 0, \"totalPage\": 0, \"startRec\": 0, \"endRec\": 0, \"currentPage\": 1, \"pageSize\": 12}}"
     },
     {
      "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
-     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"144eaa77b4c13614cf661043d0b29864-230\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
+     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"8d4d9a0e2121c29c457b819d72a1a1c0-230\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
     },
     {
      "url": "https://mallapi-eu.oneplus.com/v2/api/router",
-     "body": "{\"success\": true, \"data\": null, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"27584f7cb901f55c989272602b29d760-154\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
+     "body": "{\"success\": true, \"data\": null, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"20070ff5d000d517424adc7e52a40abe-117\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
     }
    ]
   }

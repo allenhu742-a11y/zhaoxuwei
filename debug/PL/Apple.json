@@ -10,9 +10,9 @@
    "json_urls": [
     "https://www.apple.com/pl/shop/api/digital-mat?path=library/step0_iphone/digitalmat&fae=true",
     "https://www.apple.com/pl/shop/bag/status?apikey=SJHJUH4YFCTTPD4F4",
-    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
+    "https://www.apple.com/shop/shld/work/v3/q?jr=30",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
-    "https://www.apple.com/shop/shld/work/v3/q?jr=30"
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL"
    ],
    "links": [
     "https://www.apple.com/pl/shop/buy-iphone/iphone-duo",
@@ -46,8 +46,8 @@
    "final_url": "https://www.apple.com/pl/shop/buy-ipad",
    "title": "Kup iPada - Apple (PL)",
    "json_urls": [
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
     "https://www.apple.com/pl/shop/api/digital-mat?path=library/step0_ipad/digitalmat&fae=true"
    ],
    "links": [
@@ -80,9 +80,9 @@
    "final_url": "https://www.apple.com/pl/shop/buy-watch",
    "title": "Kup Apple Watch - Apple (PL)",
    "json_urls": [
-    "https://www.apple.com/pl/shop/api/digital-mat?path=library/step0_watch/digitalmat&fae=true",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
-    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL"
+    "https://www.apple.com/pl/shop/api/digital-mat?path=library/step0_watch/digitalmat&fae=true"
    ],
    "links": [
     "https://www.apple.com/pl/shop/buy-watch/apple-watch",
@@ -112,8 +112,8 @@
    "final_url": "https://www.apple.com/pl/shop/accessories/all/headphones-speakers",
    "title": "Słuchawki i głośniki - Wszystkie akcesoria - Apple (PL)",
    "json_urls": [
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
-    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL"
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL"
    ],
    "links": [
     "https://www.apple.com/pl/shop/buy-airpods/airpods-pro-3"
@@ -142,10 +142,10 @@
    "final_url": "https://www.apple.com/pl/shop/buy-iphone/iphone-duo",
    "title": "Kup iPhone’a Duo - Apple (PL)",
    "json_urls": [
-    "https://www.apple.com/pl/shop/favoritesx/fetch",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
-    "https://www.apple.com/pl/shop/sba/d/init?fnode=07018b35b2a38288c73a27c3abb41d994ce571567f1249ba10b89f2aa09fe0cbc1a75b4fa841d7663d52975dd5c1bd546d5872a4d3b5e0243",
-    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL"
+    "https://www.apple.com/pl/shop/favoritesx/fetch",
+    "https://www.apple.com/pl/shop/sba/d/init?fnode=6a2ff7867268c0db8aa9b4c86bdc0a6d5fdb75d395ea96bc916e73f340363617a758f548d634079c3020ad03bd51998c26aacfd00bc90bdc3"
    ],
    "links": [
     "https://www.apple.com/pl/shop/buy-iphone/iphone-duo",
@@ -189,57 +189,7 @@
   },
   {
    "url": "https://www.apple.com/pl/shop/buy-iphone/iphone-18-pro",
-   "status": 200,
-   "final_url": "https://www.apple.com/pl/shop/buy-iphone/iphone-18-pro",
-   "title": "iPhone 18 Pro i iPhone 18 Pro Max - Apple (PL)",
-   "json_urls": [
-    "https://www.apple.com/pl/shop/favoritesx/fetch",
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
-    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
-    "https://www.apple.com/pl/shop/sba/d/init?fnode=b4a62251aaa590a69277b4b93c7dd96cd13096e47ae1080a05c7745a0e722eef579dd74f7c429177004624b04cfd53331a25b5a08cffaac89"
-   ],
-   "links": [
-    "https://www.apple.com/pl/shop/buy-iphone/iphone-duo",
-    "https://www.apple.com/pl/shop/buy-iphone/iphone-18-pro",
-    "https://www.apple.com/pl/shop/buy-iphone/iphone-air",
-    "https://www.apple.com/pl/shop/buy-iphone/iphone-17",
-    "https://www.apple.com/pl/shop/buy-iphone/iphone-17e"
-   ],
-   "tiles": [
-    "256 GB Przypis 1 Od 6299 zł",
-    "512 GB Przypis 1 Od 7299 zł",
-    "1 TB Przypis 1 Od 9299 zł",
-    "2 TB Przypis 1 Od 12 299 zł",
-    "1 TB Przypis 1 burgund 9 799,00 zł",
-    "1 TB Przypis 1 błękit lodowca 9 799,00 zł",
-    "256 GB Przypis 1 srebrny 6 799,00 zł",
-    "256 GB Przypis 1 czarny 6 799,00 zł",
-    "2 TB Przypis 1 błękit lodowca 12 799,00 zł",
-    "512 GB Przypis 1 czarny 7 799,00 zł",
-    "2 TB Przypis 1 burgund 12 799,00 zł",
-    "2 TB Przypis 1 srebrny 12 799,00 zł",
-    "256 GB Przypis 1 błękit lodowca 6 799,00 zł",
-    "2 TB Przypis 1 czarny 12 799,00 zł",
-    "256 GB Przypis 1 burgund 6 799,00 zł"
-   ],
-   "price_texts": [
-    "Od 6299 zł",
-    "Od 6299 zł",
-    "Od 6299 zł",
-    "Od 6299 zł",
-    "Od 6299 zł",
-    "Od 6299 zł",
-    "Od 6299 zł",
-    "Od 6299 zł",
-    "Od 6299 zł",
-    "Od 6299 zł"
-   ],
-   "items_by_source": {
-    "apple-bootstrap": 32,
-    "jsonld": 2,
-    "dom-tile": 36
-   },
-   "text_sample": "Apple Sklep Mac iPad iPhone Watch AirPods Dom Rozrywka Akcesoria Wsparcie 0 + iPhone 18 Pro Od 6299 zł Bezpłatna dostawa Nowość Kup iPhone’a 18 Pro Od 6299 zł Apple Intelligence Przypis 4 Dowiedz się więcej, iPhone 18 Pro Poprzedni obraz w galerii Następny obraz w galerii Model. Który jest najlepszy dla Ciebie? iPhone 18 Pro Wyświetlacz o przekątnej 6,3 cala Przypis 2 Od 6299 zł iPhone 18 Pro Max Wyświetlacz o przekątnej 6,9 cala Przypis 2 Od 6799 zł Nie wiesz, który model wybrać? Sprawdź różnice w wielkości ekranu i długości działania baterii. Pokaż więcej Kolor. Wybierz swój ulubiony. Kolor burgund błękit lodowca srebrny czarny Pojemność. Ile pamięci potrzebujesz? 256 GB Przypis 1 Od 6299 zł 512 GB Przypis 1 Od 7299 zł 1 TB Przypis 1 Od 9299 zł 2 TB Przypis 1 Od 12 299 zł Nie wiesz, ile pamięci wybrać? Zorientuj się, ile miejsca będziesz potrzebować. Pokaż więcej Twój nowy iPhone już czeka. Teraz Twój ruch. Od 6299 zł Potrzebujesz więcej czasu? Zachowaj wszystkie wybory, zapisując to urządzenie w Zapisanych produktach tak, by wrócić do zakupów w dogodnej chwili. Zapisz na później Masz pytania? Zadzwoń pod numer 800‑702‑322. Szczegółowe informacje na temat dostawy zostaną wyświetlone na stronie płatności. Bezpłatna dostawa Kontynuuj Zawartość opakowania iPhone 18 Pro Przewód zasilający USB‑C Ochrona środowiska według Apple. Żeby osiągnąć neutralność węglową do 2030 roku (Otwiera się w nowym oknie) , iPhone’a 18 Pro i iPhone’a 18 Pro Max sprzedajemy bez za"
+   "error": "TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.apple.com/pl/shop/buy-iphone/iphone-18-pro\", waiting until \"domcontentloaded\"\n"
   },
   {
    "url": "https://www.apple.com/pl/shop/buy-iphone/iphone-air",
@@ -247,10 +197,10 @@
    "final_url": "https://www.apple.com/pl/shop/buy-iphone/iphone-air",
    "title": "Kup iPhone’a Air - Apple (PL)",
    "json_urls": [
-    "https://www.apple.com/pl/shop/favoritesx/fetch",
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
-    "https://www.apple.com/pl/shop/sba/d/init?fnode=71cf5d57c6541c5610b9dc278806001155182a2c9d0b3280f5a56bcef1a964417da220362edf4f7bfbea46016ea9231bc8895856e8ca1aca6"
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
+    "https://www.apple.com/pl/shop/favoritesx/fetch",
+    "https://www.apple.com/pl/shop/sba/d/init?fnode=2782cde16540bf4f1ce1359d5d1400b238329785384d402d96bce042d1a7e1bad38e2a1cbe3ca528609a066cf3e88883594db300abfec60bb"
    ],
    "links": [
     "https://www.apple.com/pl/shop/buy-iphone/iphone-duo",
@@ -301,10 +251,10 @@
    "final_url": "https://www.apple.com/pl/shop/buy-iphone/iphone-17",
    "title": "Kup iPhone’a 17 - Apple (PL)",
    "json_urls": [
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
     "https://www.apple.com/pl/shop/favoritesx/fetch",
-    "https://www.apple.com/pl/shop/sba/d/init?fnode=d221b52b51518a24faa890f2cdf05b87c96708a7714dd4cefa1b1b6a58ed425efc5d490e1973260ea8990628688e39c31751b937c0bb17844"
+    "https://www.apple.com/pl/shop/sba/d/init?fnode=aa505bcc89eb46af8dbccc5db033ee960bb3efd0a6474004ac6c8f2a8929a9ac98152857f2522cd8a16309b1d9d323d4389a3b06f434d684d"
    ],
    "links": [
     "https://www.apple.com/pl/shop/buy-iphone/iphone-duo",
@@ -352,10 +302,10 @@
    "final_url": "https://www.apple.com/pl/shop/buy-iphone/iphone-17e",
    "title": "Kup iPhone’a 17e - Apple (PL)",
    "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
     "https://www.apple.com/pl/shop/favoritesx/fetch",
-    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
-    "https://www.apple.com/pl/shop/sba/d/init?fnode=f89f1442706b5c10fe59363d450d618c5581c8d170618a0dac599f73586703ff680dd1626799bbeed9cea70d9f2f7438864804262663ab6e3"
+    "https://www.apple.com/pl/shop/sba/d/init?fnode=b8428e9f1ea2c8679906237146bab24c7ff24b53a39fd6da75076391a4765aeb0b53562b47fe242e6c8d5c82f0d43aa3e005384045ad3d385"
    ],
    "links": [
     "https://www.apple.com/pl/shop/buy-iphone/iphone-duo",
@@ -399,11 +349,10 @@
    "final_url": "https://www.apple.com/pl/shop/buy-iphone/iphone-16",
    "title": "Kup iPhone’a 16 - Apple (PL)",
    "json_urls": [
-    "https://www.apple.com/pl/shop/favoritesx/fetch",
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
-    "https://www.apple.com/pl/shop/sba/d/init?fnode=4782a249f1bb7f6d6010f1ce905e3b61e74fb091c1fe9ec7f096fae7d37fa971f4f6205291d4ed59e1b9137647f263e377d6f6cc3f04fdafc",
-    "https://www.apple.com/pl/shop/api/product-gallery?fae=true&node=home%2Fshop_iphone%2Ffamily%2Fiphone_16%2Fselect&dm.dimensionScreensize=6_1inch",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
+    "https://www.apple.com/pl/shop/favoritesx/fetch",
+    "https://www.apple.com/pl/shop/sba/d/init?fnode=ec52477270295fa7deb8008643c9e1a821060fa58bca92b6e3f274730fcd0e557c0947eddd5e33ddb1185bb23c8d26b9ea827139c8f9dd25b",
     "https://www.apple.com/pl/shop/api/product-gallery?fae=true&node=home%2Fshop_iphone%2Ffamily%2Fiphone_16%2Fselect&dm.dimensionScreensize=6_1inch"
    ],
    "links": [
@@ -441,10 +390,10 @@
    "final_url": "https://www.apple.com/pl/shop/buy-ipad/ipad-pro",
    "title": "Kup iPad Pro - Apple (PL)",
    "json_urls": [
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
     "https://www.apple.com/pl/shop/favoritesx/fetch",
-    "https://www.apple.com/pl/shop/sba/d/init?fnode=34fa44b058b83ab1f15fd874bfc82374d913d9c6cddcddc66fd64cee433d8ffbdec2574f19440cc3cc42fa83db25cd8ec2e932295299c397b",
+    "https://www.apple.com/pl/shop/sba/d/init?fnode=b1b35df8aa544b053f3153cee38475da308fe0fda09c90dc7aa53b810ac34b0b7a3129bd9f4705b737548dea1f2f1407360299265a390fa38",
     "https://www.apple.com/pl/shop/engrave/json?fae=true&product=MX2D3ZM%2FA"
    ],
    "links": [
@@ -485,10 +434,10 @@
    "final_url": "https://www.apple.com/pl/shop/buy-ipad/ipad-air",
    "title": "Kup iPada Air - Apple (PL)",
    "json_urls": [
-    "https://www.apple.com/pl/shop/favoritesx/fetch",
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
-    "https://www.apple.com/pl/shop/sba/d/init?fnode=12f94b35bc20c52f861fd55efb38a898ca81045c702b59ae5531c5ba6b33ebef2daf45be789732739aa2f150db885f499475cc52b4b0a522f",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
+    "https://www.apple.com/pl/shop/favoritesx/fetch",
+    "https://www.apple.com/pl/shop/sba/d/init?fnode=0b755467930a8ee44dee0af8dc3ed1b3e1fb71962540cad45a7ff03489b9448e52b579d3443362fd792bb76b063eab9dbc76fc9698cce037d",
     "https://www.apple.com/pl/shop/engrave/json?fae=true&product=MX2D3ZM%2FA"
    ],
    "links": [
@@ -539,10 +488,10 @@
    "final_url": "https://www.apple.com/pl/shop/buy-ipad/ipad",
    "title": "Kup iPada - Apple (PL)",
    "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
     "https://www.apple.com/pl/shop/favoritesx/fetch",
-    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
-    "https://www.apple.com/pl/shop/sba/d/init?fnode=38379ef51c1c4c3ffb1faa45ee5dcb929bdaba77f452d8cf866f8bc72bb0b53ad86f2d2f6c602475a15099cd0e58016ce280329289e6dc0a0"
+    "https://www.apple.com/pl/shop/sba/d/init?fnode=c005317061ead676a68e6468ed53e1c70d01526a77b26c3cdd6532afc7ab69f2b451dd50351585080fc141edc75ea0c61c919a00d38dc548b"
    ],
    "links": [
     "https://www.apple.com/pl/shop/buy-ipad/ipad-pro",
@@ -592,10 +541,10 @@
    "final_url": "https://www.apple.com/pl/shop/buy-ipad/ipad-mini",
    "title": "Kup iPada mini - Apple (PL)",
    "json_urls": [
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
     "https://www.apple.com/pl/shop/favoritesx/fetch",
-    "https://www.apple.com/pl/shop/sba/d/init?fnode=cef670c1b79575533a6237085b94c2ded448508d4f8f54932bfd831aa931e40dcbeadbd4117a96911bcaf4926f1986075e83b05ad590ae084",
+    "https://www.apple.com/pl/shop/sba/d/init?fnode=75967f5ae12243729e07072fd05f545637aa2d435416ed076219058b7fd0747a509f968d945b325fb1c21128e413e4f4e808350bd1617b247",
     "https://www.apple.com/pl/shop/engrave/json?fae=true&product=MX2D3ZM%2FA"
    ],
    "links": [
@@ -635,9 +584,9 @@
    "final_url": "https://www.apple.com/pl/shop/buy-watch/apple-watch",
    "title": "Kup Apple Watch Series 12 - Apple (PL)",
    "json_urls": [
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
-    "https://www.apple.com/pl/shop/sba/d/init?fnode=487f67ddde14b14a9efc0215e954c49982cb811536728597abd4ed1b43214ef36f7ff2ae42ae477633824b00b9e8c437f5d57b667fc86dec1",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
+    "https://www.apple.com/pl/shop/sba/d/init?fnode=b41e255e8e24944f60fce46100cc334e041b55d0eee556b93cd7d395ba80e7ca58ade29e8eb696c6418bc0c19e4452fbf5ff2e8c722c06014",
     "https://www.apple.com/pl/shop/favoritesx/fetch"
    ],
    "links": [
@@ -668,9 +617,9 @@
    "final_url": "https://www.apple.com/pl/shop/buy-watch/apple-watch-se",
    "title": "Kup Apple Watch SE 3 - Apple (PL)",
    "json_urls": [
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
-    "https://www.apple.com/pl/shop/sba/d/init?fnode=1fdbe2029e7028c1ba2f49e8850111eb7b87debe665453984def3665cfeca99513dff4676cc64c8310ae34dd5ba6fe1729188312970f43736",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
+    "https://www.apple.com/pl/shop/sba/d/init?fnode=995ad3f5cf0ec61c9e5b126fba43d2387d82ec9c2ac8bc716b02c7c203305d5da41163f1d1160442217be618240539a8280a0bf9fc8fffdd1",
     "https://www.apple.com/pl/shop/favoritesx/fetch"
    ],
    "links": [
@@ -701,10 +650,10 @@
    "final_url": "https://www.apple.com/pl/shop/buy-airpods/airpods-pro-3",
    "title": "Kup produkt AirPods Pro 3 - Apple (PL)",
    "json_urls": [
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
-    "https://www.apple.com/pl/shop/favoritesx/fetch",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
     "https://www.apple.com/pl/shop/updateSummary?node=home%2Fshop_airpods%2Ffamily%2Fairpods_pro_3&step=select&product=MFHP4ZM%2FA",
+    "https://www.apple.com/pl/shop/favoritesx/fetch",
     "https://www.apple.com/pl/shop/engrave/json?product=MFHP4ZM%2FA"
    ],
    "links": [
