@@ -2254,12 +2254,12 @@ date,country,type,brand,category,model,variant,currency,old,new,delta,pct,key
 2026-11-14,DE,gone,Xiaomi,tablet,Xiaomi REDMI Pad 2 Pro,8GB+256GB,EUR,329.9,,,,xiaomi-xiaomi-redmi-pad-2-pro|256gb
 2026-11-14,DE,new,Xiaomi,tablet,Xiaomi Pad 8 Pro,12GB+512GB,EUR,,609.9,,,xiaomi-xiaomi-pad-8-pro|512gb
 2026-11-14,DE,suspect,Samsung,tablet,"Samsung Galaxy Tab A11 (8,7"")",—,EUR,199.0,149.0,-50.0,-25.1,samsung-samsung-galaxy-tab-a11-8-7|
+2026-11-14,DE,suspect,Xiaomi,audio,Xiaomi REDMI Buds 8 Pro,—,EUR,59.99,69.99,10.0,16.7,xiaomi-xiaomi-redmi-buds-8-pro|
+2026-11-14,DE,suspect,Xiaomi,wear,Xiaomi Smart Band 10 Pro,—,EUR,67.99,79.99,12.0,17.6,xiaomi-xiaomi-smart-band-10-pro|
 2026-11-14,DE,up,Samsung,phone,Samsung Galaxy S26 FE,256GB,EUR,559.0,599.0,40.0,7.2,samsung-samsung-galaxy-s26-fe|256gb
 2026-11-14,DE,up,Samsung,phone,Samsung Galaxy Z Fold8,256GB,EUR,1509.0,1549.0,40.0,2.7,samsung-samsung-galaxy-z-fold8|256gb
 2026-11-14,DE,up,Samsung,tablet,Samsung Galaxy Tab A11,128GB,EUR,199.0,249.0,50.0,25.1,samsung-samsung-galaxy-tab-a11|128gb
-2026-11-14,DE,up,Xiaomi,audio,Xiaomi REDMI Buds 8 Pro,—,EUR,59.99,69.99,10.0,16.7,xiaomi-xiaomi-redmi-buds-8-pro|
 2026-11-14,DE,up,Xiaomi,phone,Xiaomi POCO M7 Pro 5G,—,EUR,189.9,209.9,20.0,10.5,xiaomi-xiaomi-poco-m7-pro-5g|
-2026-11-14,DE,up,Xiaomi,wear,Xiaomi Smart Band 10 Pro,—,EUR,67.99,79.99,12.0,17.6,xiaomi-xiaomi-smart-band-10-pro|
 2026-11-14,FR,gone,Xiaomi,phone,Xiaomi POCO M8 Pro 5G,—,EUR,289.0,,,,xiaomi-xiaomi-poco-m8-pro-5g|
 2026-11-14,FR,gone,Xiaomi,phone,Xiaomi POCO X8 Pro,—,EUR,369.9,,,,xiaomi-xiaomi-poco-x8-pro|
 2026-11-14,FR,gone,Xiaomi,phone,Xiaomi POCO X8 Pro Max,—,EUR,499.9,,,,xiaomi-xiaomi-poco-x8-pro-max|
@@ -2325,3 +2325,59 @@ date,country,type,brand,category,model,variant,currency,old,new,delta,pct,key
 2026-11-14,TR,gone,Xiaomi,phone,Xiaomi REDMI Note 17 Pro 5G Gök Mavisi,8GB+256GB,TRY,36999.0,,,,xiaomi-xiaomi-redmi-note-17-pro-5g-g-k-mavisi|256gb
 2026-11-14,TR,gone,Xiaomi,tablet,Xiaomi POCO Pad X1 Koyu,8GB+512GB,TRY,16999.0,,,,xiaomi-xiaomi-poco-pad-x1-koyu|512gb
 2026-11-14,TR,new,Xiaomi,phone,Xiaomi REDMI Note 17 Pro 5G,8GB+256GB,TRY,,36999.0,,,xiaomi-xiaomi-redmi-note-17-pro-5g|256gb
+2026-11-15,DE,down,Motorola,audio,Motorola signature moto buds 2 plus,—,EUR,1399.0,999.99,-399.01,-28.5,motorola-motorola-signature-moto-buds-2-plus|
+2026-11-15,DE,down,Xiaomi,audio,Xiaomi REDMI Buds 8,—,EUR,49.99,39.99,-10.0,-20.0,xiaomi-xiaomi-redmi-buds-8|
+2026-11-15,DE,down,Xiaomi,audio,Xiaomi REDMI Buds 8 Pro,—,EUR,69.99,59.99,-10.0,-14.3,xiaomi-xiaomi-redmi-buds-8-pro|
+2026-11-15,DE,down,Xiaomi,wear,Xiaomi Watch S5 46mm,—,EUR,179.99,149.99,-30.0,-16.7,xiaomi-xiaomi-watch-s5-46mm|
+2026-11-15,DE,gone,Xiaomi,phone,Xiaomi POCO F9 Ultra,16GB+512GB,EUR,849.9,,,,xiaomi-xiaomi-poco-f9-ultra|512gb
+2026-11-15,DE,gone,Xiaomi,tablet,Xiaomi Pad 8 Pro,12GB+512GB,EUR,609.9,,,,xiaomi-xiaomi-pad-8-pro|512gb
+2026-11-15,DE,gone,Xiaomi,tablet,Xiaomi REDMI Pad 2,4GB+256GB,EUR,189.9,,,,xiaomi-xiaomi-redmi-pad-2|256gb
+2026-11-15,DE,new,Apple,audio,AirPods Max (Lightning Anschluss) Ohrpolster,—,EUR,,79.0,,,apple-airpods-max-lightning-anschluss-ohrpolster|
+2026-11-15,DE,suspect,Xiaomi,wear,Xiaomi Smart Band 10 Pro,—,EUR,79.99,67.99,-12.0,-15.0,xiaomi-xiaomi-smart-band-10-pro|
+2026-11-15,DE,up,Samsung,phone,Samsung Galaxy A27 5G,128GB,EUR,259.0,269.0,10.0,3.9,samsung-samsung-galaxy-a27-5g|128gb
+2026-11-15,DE,up,Samsung,phone,Samsung Galaxy A57 5G,256GB,EUR,449.0,459.0,10.0,2.2,samsung-samsung-galaxy-a57-5g|256gb
+2026-11-15,DE,up,Samsung,phone,Samsung Galaxy Z Fold8,512GB,EUR,1639.0,1679.0,40.0,2.4,samsung-samsung-galaxy-z-fold8|512gb
+2026-11-15,FR,down,Samsung,tablet,"Samsung Galaxy Tab A11+ (11"", Wi-Fi)",128GB,EUR,329.0,249.0,-80.0,-24.3,samsung-samsung-galaxy-tab-a11+-11-wi-fi|128gb
+2026-11-15,FR,down,Samsung,tablet,"Samsung Galaxy Tab S10 FE Wi-Fi (10,9"")",128GB,EUR,629.0,429.0,-200.0,-31.8,samsung-samsung-galaxy-tab-s10-fe-wi-fi-10-9|128gb
+2026-11-15,FR,down,Samsung,tablet,"Samsung Galaxy Tab S11 Wi-Fi (11"")",128GB,EUR,1099.0,849.0,-250.0,-22.7,samsung-samsung-galaxy-tab-s11-wi-fi-11|128gb
+2026-11-15,FR,gone,Huawei,wear,HUAWEI WATCH D3 Launch,—,EUR,449.99,,,,huawei-huawei-watch-d3-launch|
+2026-11-15,FR,gone,Xiaomi,phone,Xiaomi 17T,—,EUR,653.0,,,,xiaomi-xiaomi-17t|
+2026-11-15,FR,gone,Xiaomi,phone,Xiaomi POCO C95 Pro,—,EUR,199.0,,,,xiaomi-xiaomi-poco-c95-pro|
+2026-11-15,FR,gone,Xiaomi,phone,Xiaomi POCO X8s,—,EUR,429.9,,,,xiaomi-xiaomi-poco-x8s|
+2026-11-15,FR,gone,Xiaomi,phone,Xiaomi REDMI Note 17 Pro Max 5G,8GB+512GB,EUR,449.0,,,,xiaomi-xiaomi-redmi-note-17-pro-max-5g|512gb
+2026-11-15,FR,new,Xiaomi,audio,Xiaomi REDMI Buds 5 Pro,—,EUR,,39.99,,,xiaomi-xiaomi-redmi-buds-5-pro|
+2026-11-15,FR,new,Xiaomi,phone,Xiaomi REDMI Note 17 Pro Max 5G photochromique,8GB+512GB,EUR,,449.0,,,xiaomi-xiaomi-redmi-note-17-pro-max-5g-photochromique|512gb
+2026-11-15,FR,suspect,Xiaomi,wear,Xiaomi Smart Band 10 Pro version NFC,—,EUR,89.0,74.99,-14.01,-15.7,xiaomi-xiaomi-smart-band-10-pro-version-nfc|
+2026-11-15,IT,gone,Xiaomi,phone,Xiaomi 17T,—,EUR,699.9,,,,xiaomi-xiaomi-17t|
+2026-11-15,IT,gone,Xiaomi,phone,Xiaomi 17T Pro,—,EUR,799.9,,,,xiaomi-xiaomi-17t-pro|
+2026-11-15,IT,gone,Xiaomi,phone,Xiaomi POCO M8 Pro 5G,12GB+512GB,EUR,349.9,,,,xiaomi-xiaomi-poco-m8-pro-5g|512gb
+2026-11-15,IT,gone,Xiaomi,phone,Xiaomi POCO X8 Pro,8GB+256GB,EUR,399.9,,,,xiaomi-xiaomi-poco-x8-pro|256gb
+2026-11-15,IT,gone,Xiaomi,phone,Xiaomi POCO X8 Pro Max,12GB+256GB,EUR,499.9,,,,xiaomi-xiaomi-poco-x8-pro-max|256gb
+2026-11-15,IT,gone,Xiaomi,phone,Xiaomi REDMI 17,—,EUR,199.9,,,,xiaomi-xiaomi-redmi-17|
+2026-11-15,IT,gone,Xiaomi,phone,Xiaomi REDMI Note 15 5G Glacier,8GB+512GB,EUR,279.9,,,,xiaomi-xiaomi-redmi-note-15-5g-glacier|512gb
+2026-11-15,IT,gone,Xiaomi,phone,Xiaomi REDMI Note 17 Pro Max 5G Cloud,8GB+512GB,EUR,499.9,,,,xiaomi-xiaomi-redmi-note-17-pro-max-5g-cloud|512gb
+2026-11-15,IT,gone,Xiaomi,tablet,Xiaomi REDMI Pad 2 Pro,8GB+256GB,EUR,329.9,,,,xiaomi-xiaomi-redmi-pad-2-pro|256gb
+2026-11-15,IT,gone,Xiaomi,wear,Xiaomi Watch S3/S4 Bezel Chrome,—,EUR,25.99,,,,xiaomi-xiaomi-watch-s3-s4-bezel-chrome|
+2026-11-15,IT,new,Huawei,tablet,HUAWEI MatePad Pro 12'',—,EUR,,1099.0,,,huawei-huawei-matepad-pro-12|
+2026-11-15,IT,new,Xiaomi,phone,Xiaomi 17T,12GB+512GB,EUR,,599.9,,,xiaomi-xiaomi-17t|512gb
+2026-11-15,IT,new,Xiaomi,phone,Xiaomi 17T Da,12GB+512GB,EUR,,599.9,,,xiaomi-xiaomi-17t-da|512gb
+2026-11-15,IT,up,Xiaomi,audio,Xiaomi REDMI Buds 6 Pro,—,EUR,74.0,74.99,0.99,1.3,xiaomi-xiaomi-redmi-buds-6-pro|
+2026-11-15,PL,down,Samsung,phone,Samsung Galaxy A18,128GB,PLN,999.0,959.0,-40.0,-4.0,samsung-samsung-galaxy-a18|128gb
+2026-11-15,PL,gone,Google,phone,Google Pixel 11 Pro,16GB+1TB,PLN,6899.0,,,,google-google-pixel-11-pro|1tb
+2026-11-15,PL,gone,Xiaomi,phone,Xiaomi POCO F9 Ultra,—,PLN,3299.0,,,,xiaomi-xiaomi-poco-f9-ultra|
+2026-11-15,PL,gone,Xiaomi,phone,Xiaomi REDMI Note 17 Pro 5G,—,PLN,1799.0,,,,xiaomi-xiaomi-redmi-note-17-pro-5g|
+2026-11-15,PL,suspect,Xiaomi,wear,Xiaomi Watch S3,—,PLN,649.0,339.0,-310.0,-47.8,xiaomi-xiaomi-watch-s3|
+2026-11-15,RO,gone,Xiaomi,phone,Xiaomi POCO F8 Pro,—,RON,2799.99,,,,xiaomi-xiaomi-poco-f8-pro|
+2026-11-15,RO,gone,Xiaomi,wear,Xiaomi Redmi Watch 5,—,RON,399.99,,,,xiaomi-xiaomi-redmi-watch-5|
+2026-11-15,TR,gone,Huawei,tablet,HUAWEI Tablets - MP Pro 12.2 5-30 Nov,—,TRY,50999.0,,,,huawei-huawei-tablets-mp-pro-12-2-5-30-nov|
+2026-11-15,TR,gone,Xiaomi,phone,Xiaomi 17T,12GB+512GB,TRY,62999.0,,,,xiaomi-xiaomi-17t|512gb
+2026-11-15,TR,gone,Xiaomi,phone,Xiaomi 17T 'den başlayan fiyatlarla,12GB+512GB,TRY,62999.0,,,,xiaomi-xiaomi-17t-den-ba-layan-fiyatlarla|512gb
+2026-11-15,TR,gone,Xiaomi,phone,Xiaomi 17T Pro,12GB+1TB,TRY,81999.0,,,,xiaomi-xiaomi-17t-pro|1tb
+2026-11-15,TR,gone,Xiaomi,phone,Xiaomi POCO C81 Pro,4GB+128GB,TRY,9799.0,,,,xiaomi-xiaomi-poco-c81-pro|128gb
+2026-11-15,TR,gone,Xiaomi,phone,Xiaomi POCO X8 Pro Max,12GB+512GB,TRY,45999.0,,,,xiaomi-xiaomi-poco-x8-pro-max|512gb
+2026-11-15,TR,gone,Xiaomi,phone,Xiaomi REDMI 17 5G Canlı Turuncu,4GB+256GB,TRY,20999.0,,,,xiaomi-xiaomi-redmi-17-5g-canl-turuncu|256gb
+2026-11-15,TR,gone,Xiaomi,phone,Xiaomi REDMI 17 Mese Yeşili,4GB+128GB,TRY,17999.0,,,,xiaomi-xiaomi-redmi-17-mese-ye-ili|128gb
+2026-11-15,TR,gone,Xiaomi,phone,Xiaomi REDMI Note 15 Pro Gece Siyahı,8GB+256GB,TRY,23599.0,,,,xiaomi-xiaomi-redmi-note-15-pro-gece-siyah|256gb
+2026-11-15,TR,gone,Xiaomi,phone,Xiaomi REDMI Note 17 Galaksi Moru,6GB+128GB,TRY,22999.0,,,,xiaomi-xiaomi-redmi-note-17-galaksi-moru|128gb
+2026-11-15,TR,gone,Xiaomi,phone,Xiaomi REDMI Note 17 Pro 5G,8GB+256GB,TRY,36999.0,,,,xiaomi-xiaomi-redmi-note-17-pro-5g|256gb
+2026-11-15,TR,gone,Xiaomi,phone,Xiaomi REDMI Note 17 Pro Max 5G,8GB+256GB,TRY,46999.0,,,,xiaomi-xiaomi-redmi-note-17-pro-max-5g|256gb
