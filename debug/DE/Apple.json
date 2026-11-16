@@ -46,8 +46,8 @@
    "final_url": "https://www.apple.com/de/shop/buy-ipad",
    "title": "iPad kaufen - Apple (DE)",
    "json_urls": [
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
     "https://www.apple.com/de/shop/api/digital-mat?path=library/step0_ipad/digitalmat&fae=true"
    ],
    "links": [
@@ -80,8 +80,8 @@
    "final_url": "https://www.apple.com/de/shop/buy-watch",
    "title": "Apple Watch kaufen - Apple (DE)",
    "json_urls": [
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
     "https://www.apple.com/de/shop/api/digital-mat?path=library/step0_watch/digitalmat&fae=true"
    ],
    "links": [
@@ -147,7 +147,7 @@
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
     "https://www.apple.com/de/shop/favoritesx/fetch",
-    "https://www.apple.com/de/shop/sba/d/init?fnode=e5b4d5d9fbb414bc0b29c9b5ad846d9ad82336d709e1635026780940b226211be95077a7ee51148403ea667992e5e28a68bc0836a80f373b8"
+    "https://www.apple.com/de/shop/sba/d/init?fnode=920aeeca9637ffa427ff92815d13e2f7d675512cab3e4dd9a5f5c34ee4139b1e3c6eec64375c3cfb5fc198bc6d38e61818435f9999662a4f0"
    ],
    "links": [
     "https://www.apple.com/de/shop/buy-iphone/iphone-duo",
@@ -195,12 +195,13 @@
    "final_url": "https://www.apple.com/de/shop/buy-iphone/iphone-18-pro",
    "title": "iPhone 18 Pro und iPhone 18 Pro Max kaufen - Apple (DE)",
    "json_urls": [
-    "https://securemvt.apple.com/rest/v1/delivery?client=apple&sessionId=c84ab77855564c7286c625c14515c59e&version=2.11.8",
-    "https://www.apple.com/de/shop/experience-meta?activityId=683166&experienceId=0&endDate=null",
+    "https://www.apple.com/de/shop/experience-meta",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=5b2bda8b2d8aee28f0f656f6b19e0dbe58356e13eee9ada40bfb82f3d93b857e11ecdc671dde22f3cf5f326302b3ac40ca22fe47ff4895ca0",
     "https://www.apple.com/de/shop/favoritesx/fetch",
-    "https://www.apple.com/de/shop/sba/d/init?fnode=bcc81c3f6c8e76eef832535dde5161964c4ca11eda8685debea0df744fc2b6c2d1e03cf30ad5b9427404fafcffa06a1b5f498b0be1979ad34"
+    "https://securemvt.apple.com/rest/v1/delivery?client=apple&sessionId=ce9f3070dbb84e7d9a0d71781a7c9bb8&version=2.11.8",
+    "https://www.apple.com/de/shop/experience-meta?activityId=683166&experienceId=0&endDate=1797659940"
    ],
    "links": [
     "https://www.apple.com/de/shop/buy-iphone/iphone-18-pro",
@@ -252,12 +253,12 @@
    "title": "iPhone Air kaufen - Apple (DE)",
    "json_urls": [
     "https://www.apple.com/de/shop/experience-meta",
+    "https://securemvt.apple.com/rest/v1/delivery?client=apple&sessionId=ce9f3070dbb84e7d9a0d71781a7c9bb8&version=2.11.8",
+    "https://www.apple.com/de/shop/experience-meta?activityId=683166&experienceId=0&endDate=null",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
     "https://www.apple.com/de/shop/favoritesx/fetch",
-    "https://www.apple.com/de/shop/sba/d/init?fnode=9023f85bc29c1c53a992897ce717a79e61d33c7b76268745183eff92f3c80c3ce06ffe9574bbe8bdf489fdb3b13edd56a6d107816284c02f4",
-    "https://securemvt.apple.com/rest/v1/delivery?client=apple&sessionId=c84ab77855564c7286c625c14515c59e&version=2.11.8",
-    "https://www.apple.com/de/shop/experience-meta?activityId=683166&experienceId=0&endDate=1797659940"
+    "https://www.apple.com/de/shop/sba/d/init?fnode=2556c78e79813ed772ac23c8ccdc20d0a3672bc9a7deff01cb423554d453d391845ca6f4a6bf98246fdbd850475565799a9860ec442d11b8d"
    ],
    "links": [
     "https://www.apple.com/de/shop/buy-iphone/iphone-air",
@@ -308,12 +309,12 @@
    "final_url": "https://www.apple.com/de/shop/buy-iphone/iphone-17",
    "title": "iPhone 17 kaufen - Apple (DE)",
    "json_urls": [
-    "https://securemvt.apple.com/rest/v1/delivery?client=apple&sessionId=c84ab77855564c7286c625c14515c59e&version=2.11.8",
+    "https://securemvt.apple.com/rest/v1/delivery?client=apple&sessionId=ce9f3070dbb84e7d9a0d71781a7c9bb8&version=2.11.8",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
     "https://www.apple.com/de/shop/experience-meta?activityId=683166&experienceId=0&endDate=null",
-    "https://www.apple.com/de/shop/favoritesx/fetch",
-    "https://www.apple.com/de/shop/sba/d/init?fnode=da69f6baf326bf70826dbb2d4bdbfbe3ca2055ca867fca82ea8f1055cf049387a0e0e7cccd6075f3b31d0358f18f4cc8c45374b9eb693c581"
+    "https://www.apple.com/de/shop/sba/d/init?fnode=02c63e61b505cdf19bd51371982b4de6cad125504b5c306613220511b4d64f770338791af65ab99b1c0db197ed10fac81865babdcdd99b17a",
+    "https://www.apple.com/de/shop/favoritesx/fetch"
    ],
    "links": [
     "https://www.apple.com/de/shop/buy-iphone/iphone-17",
@@ -361,12 +362,12 @@
    "final_url": "https://www.apple.com/de/shop/buy-iphone/iphone-17e",
    "title": "iPhone 17e kaufen - Apple (DE)",
    "json_urls": [
-    "https://securemvt.apple.com/rest/v1/delivery?client=apple&sessionId=c84ab77855564c7286c625c14515c59e&version=2.11.8",
+    "https://securemvt.apple.com/rest/v1/delivery?client=apple&sessionId=ce9f3070dbb84e7d9a0d71781a7c9bb8&version=2.11.8",
     "https://www.apple.com/de/shop/experience-meta?activityId=683166&experienceId=0&endDate=null",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
     "https://www.apple.com/de/shop/favoritesx/fetch",
-    "https://www.apple.com/de/shop/sba/d/init?fnode=aa2e4d5c175691482c145ab472e07ebac7a370639dc89297cad65685aea796f94d9c9f95e4b7632c089c845b8faecea9ea8a466a49fd0b307"
+    "https://www.apple.com/de/shop/sba/d/init?fnode=c0a839074db4994b20b27c7c83b60cd36cefb81b35921bbb0a278f5603c9752f70c5d9744ac96c46faaf3d9a7112ab49322b865014fdcdb42"
    ],
    "links": [
     "https://www.apple.com/de/shop/buy-iphone/iphone-17e",
@@ -410,12 +411,12 @@
    "final_url": "https://www.apple.com/de/shop/buy-iphone/iphone-16",
    "title": "iPhone 16 kaufen - Apple (DE)",
    "json_urls": [
-    "https://securemvt.apple.com/rest/v1/delivery?client=apple&sessionId=c84ab77855564c7286c625c14515c59e&version=2.11.8",
+    "https://securemvt.apple.com/rest/v1/delivery?client=apple&sessionId=ce9f3070dbb84e7d9a0d71781a7c9bb8&version=2.11.8",
     "https://www.apple.com/de/shop/experience-meta?activityId=683166&experienceId=0&endDate=null",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
     "https://www.apple.com/de/shop/favoritesx/fetch",
-    "https://www.apple.com/de/shop/sba/d/init?fnode=5b4344502f609a210e528ca05ddebb99856cac1eec6a0c13e61592c78b8e224b05f84b3909ea4a618a254b42b4c438eeae599d5674d1a23f0",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=182f0320dfce1bf08eabd426e4987b2c8bfa139af09ee1e4a729665dfe22bc3a45821611b1b8b5dd2879234677eb9fdd99f8c5706aad6f21d",
     "https://www.apple.com/de/shop/api/product-gallery?fae=true&node=home%2Fshop_iphone%2Ffamily%2Fiphone_16%2Fselect&dm.dimensionScreensize=6_1inch"
    ],
    "links": [
@@ -457,7 +458,7 @@
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
     "https://www.apple.com/de/shop/favoritesx/fetch",
-    "https://www.apple.com/de/shop/sba/d/init?fnode=9cb02075637d19cca983521bee3992ad7085cc30eae3b068e4302872559401ad8137c2fba3d0bfc94c7ff629fb7d94b7aaa0c1959fd9a7283",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=c55a4f522d39d4177c48df5633372d2ebac497000ca6c31864ce91fe84cb5e3d2d0864c3007f633d9f0128702c9302cebfe6c4231c6c06c45",
     "https://www.apple.com/de/shop/engrave/json?fae=true&product=MX2D3ZM%2FA"
    ],
    "links": [
@@ -495,7 +496,7 @@
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
     "https://www.apple.com/de/shop/favoritesx/fetch",
-    "https://www.apple.com/de/shop/sba/d/init?fnode=62b4fe5a82f83c945f5dded8db9e27b74e92cf5724c571401a948ca3ad476593539543b3ef962802d5b4471a918c522f687e57740841ef690",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=57299ebf8020ff4a23b542e76341ef28e2267c56c34921833875f7d805de24c644cd705e5a56afd92a34fd46f82bc1bd4ae9a0d8c009f9f6a",
     "https://www.apple.com/de/shop/engrave/json?fae=true&product=MX2D3ZM%2FA"
    ],
    "links": [
@@ -549,7 +550,7 @@
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
     "https://www.apple.com/de/shop/favoritesx/fetch",
-    "https://www.apple.com/de/shop/sba/d/init?fnode=ccc9135c6f95603b23d1bb07f62f3b2eb7aebfb7be7ad915d16f7192e9aeb5ffb3eae629a92c5b844a8765173a2656a6fe29664e14abfa271"
+    "https://www.apple.com/de/shop/sba/d/init?fnode=43caf6032f7c4d3e5b854ad255872fca1c71d7655bf88813ec5714ebc9a36e3f70b3a05a21461f3696017b46375fc10bac82f92af97795e0a"
    ],
    "links": [
     "https://www.apple.com/de/shop/buy-ipad/ipad",
@@ -599,10 +600,10 @@
    "final_url": "https://www.apple.com/de/shop/buy-ipad/ipad-mini",
    "title": "iPad mini kaufen - Apple (DE)",
    "json_urls": [
+    "https://www.apple.com/de/shop/favoritesx/fetch",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
-    "https://www.apple.com/de/shop/favoritesx/fetch",
-    "https://www.apple.com/de/shop/sba/d/init?fnode=7e9fa20098ba6daf4ad6d94049b5c9fd5c339b98a7019601f729317de530776c97c1294822de5840557f97c83f7f49628a812d7da622868c1",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=a0c7c44c949eb0b93fb092b170c8bb304e749dfa5c28511009497c3ca9617db6cf233760714671c5270f03d27d364c7b5d988a50e42879809",
     "https://www.apple.com/de/shop/engrave/json?fae=true&product=MX2D3ZM%2FA"
    ],
    "links": [
@@ -639,7 +640,7 @@
    "json_urls": [
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
-    "https://www.apple.com/de/shop/sba/d/init?fnode=e3aef53e9451e9cbe4a4c2cd04686ccc6e1fac9852a7135a0e07b5083bdf13694aa2ad6057574925758834ae5af6c67ad55c32cbad0bb9e03",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=9b6c04b5f9947e39efd249aa466181c8c14fa2687a5eaf51dbe066012f6292c82bf961c0f7cd9fbc8e9a8b0b26c09aca9320a9d96c58b9996",
     "https://www.apple.com/de/shop/favoritesx/fetch"
    ],
    "links": [
@@ -672,7 +673,7 @@
    "json_urls": [
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
-    "https://www.apple.com/de/shop/sba/d/init?fnode=269b95ecd1ec64f187500c8e10487ae834f334a040bc6fae8d7e0f05cebe1ef683bd30813ad279e347e59eb3ce2ad9c67d254a3aa397afee4",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=4303776ccf2feebe157f6c89eb4ec6eb7f92a578f07fb20ce63dd7d079e5eef95e4ff170f3471147d3087ad1e0bac62d2f995ae3070ccd538",
     "https://www.apple.com/de/shop/favoritesx/fetch"
    ],
    "links": [
@@ -705,7 +706,7 @@
    "json_urls": [
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
-    "https://www.apple.com/de/shop/sba/d/init?fnode=b5598b5b8753bc2153e1edc02fbc486567ea56c5b9c052a796b900a52194e2ffdbc67e007b4c14f9299fc8f3f44dce027d502666e7cfa07e2",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=06de1f79cd17c08b17a5ded8e53b89fe310d8552fa2b232c092535fa77bec14810aeca3c441db4dcc3b75a5037cc24678369bf021c7e7337e",
     "https://www.apple.com/de/shop/favoritesx/fetch"
    ],
    "links": [
