@@ -8,11 +8,11 @@
    "final_url": "https://www.apple.com/de/shop/buy-iphone",
    "title": "iPhone kaufen - Apple (DE)",
    "json_urls": [
+    "https://www.apple.com/de/shop/api/digital-mat?path=library/step0_iphone/digitalmat&fae=true",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
     "https://www.apple.com/de/shop/bag/status?apikey=SJHJUH4YFCTTPD4F4",
-    "https://www.apple.com/shop/shld/work/v3/q?jr=30",
-    "https://www.apple.com/de/shop/api/digital-mat?path=library/step0_iphone/digitalmat&fae=true"
+    "https://www.apple.com/shop/shld/work/v3/q?jr=30"
    ],
    "links": [
     "https://www.apple.com/de/shop/buy-iphone/iphone-duo",
@@ -46,9 +46,9 @@
    "final_url": "https://www.apple.com/de/shop/buy-ipad",
    "title": "iPad kaufen - Apple (DE)",
    "json_urls": [
-    "https://www.apple.com/de/shop/api/digital-mat?path=library/step0_ipad/digitalmat&fae=true",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
-    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE"
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
+    "https://www.apple.com/de/shop/api/digital-mat?path=library/step0_ipad/digitalmat&fae=true"
    ],
    "links": [
     "https://www.apple.com/de/shop/buy-ipad/ipad-pro",
@@ -113,8 +113,8 @@
    "final_url": "https://www.apple.com/de/shop/accessories/all/headphones-speakers",
    "title": "Kopfhörer & Lautsprecher - Alle Zubehörprodukte - Apple (DE)",
    "json_urls": [
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
-    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE"
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE"
    ],
    "links": [
     "https://www.apple.com/de/shop/buy-airpods/airpods-pro-3"
@@ -144,10 +144,10 @@
    "final_url": "https://www.apple.com/de/shop/buy-iphone/iphone-duo",
    "title": "iPhone Duo kaufen - Apple (DE)",
    "json_urls": [
-    "https://www.apple.com/de/shop/favoritesx/fetch",
-    "https://www.apple.com/de/shop/sba/d/init?fnode=988c3f3395aaa188bc4e848639ae212e6d9d4e5e76a04ca911363a13fc9953a4f9b5168c8b263a48e4a87f361b0de3071e7aeb798700bb22d",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
-    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE"
+    "https://www.apple.com/de/shop/sba/d/init?fnode=d2d17007d04a2681fb040f94991e393647d67dc7a8bb664ff7d55d09fe69211437862da63252d421ed1074d7ea6a2cf967a4daf9f794fb3c6",
+    "https://www.apple.com/de/shop/favoritesx/fetch"
    ],
    "links": [
     "https://www.apple.com/de/shop/buy-iphone/iphone-duo",
@@ -196,12 +196,12 @@
    "title": "iPhone 18 Pro und iPhone 18 Pro Max kaufen - Apple (DE)",
    "json_urls": [
     "https://www.apple.com/de/shop/experience-meta",
-    "https://securemvt.apple.com/rest/v1/delivery?client=apple&sessionId=26c0b7afae6c4c7e9e41de626ae8f3c7&version=2.11.8",
-    "https://www.apple.com/de/shop/favoritesx/fetch",
-    "https://www.apple.com/de/shop/sba/d/init?fnode=1eb3325e7df41e7b140fefa3677feeb206dc09735c527f0abbeb3b2dd47b375c8c0bda9102484978a20f81cb3550be8577681f90a128d3402",
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+    "https://securemvt.apple.com/rest/v1/delivery?client=apple&sessionId=61b0825dc570427eaf07870d3ee1b405&version=2.11.8",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
-    "https://www.apple.com/de/shop/experience-meta?activityId=683166&experienceId=2&endDate=1797659940"
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+    "https://www.apple.com/de/shop/favoritesx/fetch",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=13a84a99ba92d4cc332c53fd055d329ea1ca2ab2d670b30cccd1878d05af9115bc9f83db36238b8f405510997e21fdbda2514f2e2a1efda73",
+    "https://www.apple.com/de/shop/experience-meta?activityId=683166&experienceId=1&endDate=1797659940"
    ],
    "links": [
     "https://www.apple.com/de/shop/buy-iphone/iphone-18-pro",
@@ -244,7 +244,7 @@
     "jsonld": 2,
     "dom-tile": 32
    },
-   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + iPhone 18 Pro Ab 1.449 € oder 60,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Kostenloser Versand Beim Store abholen Neu iPhone 18 Pro kaufen Ab 1.449 € oder 60,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Apple Intelligence Fußnote 4 Weitere Infos, iPhone 18 Pro Erhalte von 30 € – 1.050 € für dein Eintauschgerät Fußnote ① Ratenzahlung mit Openbank Pay By Santander Fußnote ② Vorheriges Galeriebild Nächstes Galeriebild Modell. Welches ist das richtige Modell für dich? iPhone 18 Pro 6,3\" Display Fußnote 2 Ab 1.449 € oder 60,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② iPhone 18 Pro Max 6,9\" Display Fußnote 2 Ab 1.599 € oder 66,62 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Brauchst du Hilfe beim Auswählen eines Modells? Sieh dir die Unterschiede bei Displaygröße und Batterielaufzeit an. Mehr anzeigen Farben. Wähle die, die dir am besten gefällt. Farbe Burgunder Polar Silber Schwarz Speicherplatz. Wie viel Speicherplatz brauchst du? 256 GB Fußnote 1 Ab 1.449 € oder 60,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② 512 GB Fußnote 1 Ab 1.699 € oder 70,79 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② 1TB Fußnote 1 Ab 2."
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + Bezahle dein neues iPhone in 24 Raten. Fußnote ② Nach 11 Raten kannst du ohne weitere Kosten ein Upgrade in Anspruch nehmen. Fußnote ◊ 0 Euro Anzahlung. Weitere Infos iPhone 18 Pro Ab 1.449 € oder 60,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Kostenloser Versand Beim Store abholen Neu iPhone 18 Pro kaufen Ab 1.449 € oder 60,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Apple Intelligence Fußnote 4 Weitere Infos, iPhone 18 Pro Vorheriges Galeriebild Nächstes Galeriebild Modell. Welches ist das richtige Modell für dich? iPhone 18 Pro 6,3\" Display Fußnote 2 Ab 1.449 € oder 60,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② iPhone 18 Pro Max 6,9\" Display Fußnote 2 Ab 1.599 € oder 66,62 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Brauchst du Hilfe beim Auswählen eines Modells? Sieh dir die Unterschiede bei Displaygröße und Batterielaufzeit an. Mehr anzeigen Farben. Wähle die, die dir am besten gefällt. Farbe Burgunder Polar Silber Schwarz Speicherplatz. Wie viel Speicherplatz brauchst du? 256 GB Fußnote 1 Ab 1.449 € oder 60,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② 512 GB Fußnote 1 Ab 1.699 € oder 70,79 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins "
   },
   {
    "url": "https://www.apple.com/de/shop/buy-iphone/iphone-air",
@@ -252,12 +252,13 @@
    "final_url": "https://www.apple.com/de/shop/buy-iphone/iphone-air",
    "title": "iPhone Air kaufen - Apple (DE)",
    "json_urls": [
-    "https://securemvt.apple.com/rest/v1/delivery?client=apple&sessionId=26c0b7afae6c4c7e9e41de626ae8f3c7&version=2.11.8",
-    "https://www.apple.com/de/shop/experience-meta?activityId=683166&experienceId=2&endDate=null",
-    "https://www.apple.com/de/shop/favoritesx/fetch",
+    "https://www.apple.com/de/shop/experience-meta",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
-    "https://www.apple.com/de/shop/sba/d/init?fnode=9d812ea8cb5125a8dbcb44a3433a8490b2c860bd4f7702a48bf2d41d23a03855bbf23a6709ec578b2e81a04f951340a81888b3edd01869686",
-    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE"
+    "https://www.apple.com/de/shop/sba/d/init?fnode=a362bea3300b343697e304797f21d84184516779a7aafceb381501396e023b91f582c4d69f85e06adcb80c295d86574fd2dc3fc36a68d6e03",
+    "https://www.apple.com/de/shop/favoritesx/fetch",
+    "https://securemvt.apple.com/rest/v1/delivery?client=apple&sessionId=61b0825dc570427eaf07870d3ee1b405&version=2.11.8",
+    "https://www.apple.com/de/shop/experience-meta?activityId=683166&experienceId=1&endDate=1797659940"
    ],
    "links": [
     "https://www.apple.com/de/shop/buy-iphone/iphone-air",
@@ -300,7 +301,7 @@
     "jsonld": 1,
     "dom-tile": 12
    },
-   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + iPhone Air Ab 1.299 € oder 54,12 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Kostenloser Versand Beim Store abholen iPhone Air kaufen Ab 1.299 € oder 54,12 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Apple Intelligence Fußnote 4 Weitere Infos, iPhone Air Erhalte von 30 € – 1.050 € für dein Eintauschgerät Fußnote ① Ratenzahlung mit Openbank Pay By Santander Fußnote ② Vorheriges Galeriebild Nächstes Galeriebild Farben. Wähle die, die dir am besten gefällt. Farbe Himmelblau Wolkenweiß Space Schwarz Lichtgold Speicherplatz. Wie viel Speicherplatz brauchst du? 256 GB Fußnote 1 Ab 1.299 € oder 54,12 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② 512 GB Fußnote 1 Ab 1.549 € oder 64,54 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② 1TB Fußnote 1 Ab 2.049 € oder 85,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Du bist dir nicht sicher, wie viel Speicherplatz du wählen sollst? Mach dir ein besseres Bild davon, wie viel Speicher­platz du brauchen wirst. Mehr anzeigen Apple Trade In.Erhalte eine Gutschrift in Höhe von 30 € – 1.050 € für dein neues iPhone. Fußnote ① Eintauschgerät hinzufügen Beantworte ein paar Fragen, um den geschätzten Eintauschwert zu erfahren. Kein Eintausch "
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + Bezahle dein neues iPhone in 24 Raten. Fußnote ② Nach 11 Raten kannst du ohne weitere Kosten ein Upgrade in Anspruch nehmen. Fußnote ◊ 0 Euro Anzahlung. Weitere Infos iPhone Air Ab 1.299 € oder 54,12 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Kostenloser Versand Beim Store abholen iPhone Air kaufen Ab 1.299 € oder 54,12 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Apple Intelligence Fußnote 4 Weitere Infos, iPhone Air Vorheriges Galeriebild Nächstes Galeriebild Farben. Wähle die, die dir am besten gefällt. Farbe Himmelblau Wolkenweiß Space Schwarz Lichtgold Speicherplatz. Wie viel Speicherplatz brauchst du? 256 GB Fußnote 1 Ab 1.299 € oder 54,12 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② 512 GB Fußnote 1 Ab 1.549 € oder 64,54 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② 1TB Fußnote 1 Ab 2.049 € oder 85,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Du bist dir nicht sicher, wie viel Speicherplatz du wählen sollst? Mach dir ein besseres Bild davon, wie viel Speicher­platz du brauchen wirst. Mehr anzeigen Apple Trade In.Erhalte eine Gutschrift in Höhe von 30 € – 1.050 € für dein neues iPhone. Fußnote ① Eintauschgerät hinzufügen Beantworte ein paar Fragen, um den g"
   },
   {
    "url": "https://www.apple.com/de/shop/buy-iphone/iphone-17",
@@ -308,12 +309,12 @@
    "final_url": "https://www.apple.com/de/shop/buy-iphone/iphone-17",
    "title": "iPhone 17 kaufen - Apple (DE)",
    "json_urls": [
-    "https://securemvt.apple.com/rest/v1/delivery?client=apple&sessionId=26c0b7afae6c4c7e9e41de626ae8f3c7&version=2.11.8",
-    "https://www.apple.com/de/shop/experience-meta?activityId=683166&experienceId=2&endDate=null",
-    "https://www.apple.com/de/shop/favoritesx/fetch",
-    "https://www.apple.com/de/shop/sba/d/init?fnode=dad909ea5cf7625f22bcefecad483beda7430ab081c8568150efd072782c135fb27e69fd194a819ea05d757b8c7a4bc9dd01c54eefa374c79",
+    "https://securemvt.apple.com/rest/v1/delivery?client=apple&sessionId=61b0825dc570427eaf07870d3ee1b405&version=2.11.8",
+    "https://www.apple.com/de/shop/experience-meta?activityId=683166&experienceId=1&endDate=null",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
-    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE"
+    "https://www.apple.com/de/shop/favoritesx/fetch",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=e134fa81a3ef8bcaefccef1305b6512785a0df20cdc22340fa81db5d6f1834f62bf5762643d7b0b9914b26eedee459c3f3791861f1a744def"
    ],
    "links": [
     "https://www.apple.com/de/shop/buy-iphone/iphone-17",
@@ -353,7 +354,7 @@
     "jsonld": 1,
     "dom-tile": 10
    },
-   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + iPhone 17 Ab 1.099 € oder 45,79 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Kostenloser Versand Beim Store abholen iPhone 17 kaufen Ab 1.099 € oder 45,79 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Apple Intelligence Fußnote 4 Weitere Infos, iPhone 17 Erhalte von 30 € – 1.050 € für dein Eintauschgerät Fußnote ① Ratenzahlung mit Openbank Pay By Santander Fußnote ② Vorheriges Galeriebild Nächstes Galeriebild Farben. Wähle die, die dir am besten gefällt. Farbe Lavendel Nebelblau Weiß Salbei Schwarz Speicherplatz. Wie viel Speicherplatz brauchst du? 256 GB Fußnote 1 Ab 1.099 € oder 45,79 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② 512 GB Fußnote 1 Ab 1.349 € oder 56,21 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Du bist dir nicht sicher, wie viel Speicherplatz du wählen sollst? Mach dir ein besseres Bild davon, wie viel Speicher­platz du brauchen wirst. Mehr anzeigen Apple Trade In.Erhalte eine Gutschrift in Höhe von 30 € – 1.050 € für dein neues iPhone. Fußnote ① Eintauschgerät hinzufügen Beantworte ein paar Fragen, um den geschätzten Eintauschwert zu erfahren. Kein Eintausch Wie funktioniert die Inzahlungnahme? Erfahre, wie du bei diesem Kauf mit einer Inzahlungnahme sparen kannst. Oder lass dein Gerät koste"
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + Bezahle dein neues iPhone in 24 Raten. Fußnote ② Nach 11 Raten kannst du ohne weitere Kosten ein Upgrade in Anspruch nehmen. Fußnote ◊ 0 Euro Anzahlung. Weitere Infos iPhone 17 Ab 1.099 € oder 45,79 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Kostenloser Versand Beim Store abholen iPhone 17 kaufen Ab 1.099 € oder 45,79 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Apple Intelligence Fußnote 4 Weitere Infos, iPhone 17 Vorheriges Galeriebild Nächstes Galeriebild Farben. Wähle die, die dir am besten gefällt. Farbe Lavendel Nebelblau Weiß Salbei Schwarz Speicherplatz. Wie viel Speicherplatz brauchst du? 256 GB Fußnote 1 Ab 1.099 € oder 45,79 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② 512 GB Fußnote 1 Ab 1.349 € oder 56,21 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Du bist dir nicht sicher, wie viel Speicherplatz du wählen sollst? Mach dir ein besseres Bild davon, wie viel Speicher­platz du brauchen wirst. Mehr anzeigen Apple Trade In.Erhalte eine Gutschrift in Höhe von 30 € – 1.050 € für dein neues iPhone. Fußnote ① Eintauschgerät hinzufügen Beantworte ein paar Fragen, um den geschätzten Eintauschwert zu erfahren. Kein Eintausch Wie funktioniert die Inzahlungnahme? Erfahre, wie du bei diesem Kauf mit einer Inz"
   },
   {
    "url": "https://www.apple.com/de/shop/buy-iphone/iphone-17e",
@@ -361,12 +362,12 @@
    "final_url": "https://www.apple.com/de/shop/buy-iphone/iphone-17e",
    "title": "iPhone 17e kaufen - Apple (DE)",
    "json_urls": [
-    "https://securemvt.apple.com/rest/v1/delivery?client=apple&sessionId=26c0b7afae6c4c7e9e41de626ae8f3c7&version=2.11.8",
-    "https://www.apple.com/de/shop/experience-meta?activityId=683166&experienceId=2&endDate=null",
-    "https://www.apple.com/de/shop/favoritesx/fetch",
+    "https://securemvt.apple.com/rest/v1/delivery?client=apple&sessionId=61b0825dc570427eaf07870d3ee1b405&version=2.11.8",
+    "https://www.apple.com/de/shop/experience-meta?activityId=683166&experienceId=1&endDate=null",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
-    "https://www.apple.com/de/shop/sba/d/init?fnode=18787cc8d19ca7ccb17dd684821739f76e790d589947b3bfc877acdfe508f7d7fd48b44d5d95598d43a0f67d146620cba5a172507b514a5d9",
-    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE"
+    "https://www.apple.com/de/shop/favoritesx/fetch",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=771d6e2b1b01c127e16040334f965a417645c62039661a6aa891cfd65b061e4cb6433d6d759f8c47a09d840ef8d84a5c298653b3b5b0bcdf6"
    ],
    "links": [
     "https://www.apple.com/de/shop/buy-iphone/iphone-17e",
@@ -402,7 +403,7 @@
     "jsonld": 1,
     "dom-tile": 6
    },
-   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + iPhone 17e Ab 849 € oder 35,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Kostenloser Versand Beim Store abholen iPhone 17e kaufen Ab 849 € oder 35,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Apple Intelligence Fußnote 4 Weitere Infos, iPhone 17e Erhalte von 30 € – 1.050 € für dein Eintauschgerät Fußnote ① Ratenzahlung mit Openbank Pay By Santander Fußnote ② Vorheriges Galeriebild Nächstes Galeriebild Farben. Wähle die, die dir am besten gefällt. Farbe Hellrosa Weiß Schwarz Speicherplatz. Wie viel Speicherplatz brauchst du? 256 GB Fußnote 1 Ab 849 € oder 35,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② 512 GB Fußnote 1 Ab 1.099 € oder 45,79 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Du bist dir nicht sicher, wie viel Speicherplatz du wählen sollst? Mach dir ein besseres Bild davon, wie viel Speicher­platz du brauchen wirst. Mehr anzeigen Apple Trade In.Erhalte eine Gutschrift in Höhe von 30 € – 1.050 € für dein neues iPhone. Fußnote ① Eintauschgerät hinzufügen Beantworte ein paar Fragen, um den geschätzten Eintauschwert zu erfahren. Kein Eintausch Wie funktioniert die Inzahlungnahme? Erfahre, wie du bei diesem Kauf mit einer Inzahlungnahme sparen kannst. Oder lass dein Gerät kostenlos recyceln. Mehr "
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + Zahle für dein neues iPhone mit 0 % eff. Zins p.a. in 24 Raten. Fußnote ② Weitere Infos iPhone 17e Ab 849 € oder 35,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Kostenloser Versand Beim Store abholen iPhone 17e kaufen Ab 849 € oder 35,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Apple Intelligence Fußnote 4 Weitere Infos, iPhone 17e Vorheriges Galeriebild Nächstes Galeriebild Farben. Wähle die, die dir am besten gefällt. Farbe Hellrosa Weiß Schwarz Speicherplatz. Wie viel Speicherplatz brauchst du? 256 GB Fußnote 1 Ab 849 € oder 35,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② 512 GB Fußnote 1 Ab 1.099 € oder 45,79 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Du bist dir nicht sicher, wie viel Speicherplatz du wählen sollst? Mach dir ein besseres Bild davon, wie viel Speicher­platz du brauchen wirst. Mehr anzeigen Apple Trade In.Erhalte eine Gutschrift in Höhe von 30 € – 1.050 € für dein neues iPhone. Fußnote ① Eintauschgerät hinzufügen Beantworte ein paar Fragen, um den geschätzten Eintauschwert zu erfahren. Kein Eintausch Wie funktioniert die Inzahlungnahme? Erfahre, wie du bei diesem Kauf mit einer Inzahlungnahme sparen kannst. Oder lass dein Gerät kostenlos recyceln. Mehr anzeigen AppleCare Schutz. G"
   },
   {
    "url": "https://www.apple.com/de/shop/buy-iphone/iphone-16",
@@ -410,12 +411,13 @@
    "final_url": "https://www.apple.com/de/shop/buy-iphone/iphone-16",
    "title": "iPhone 16 kaufen - Apple (DE)",
    "json_urls": [
-    "https://securemvt.apple.com/rest/v1/delivery?client=apple&sessionId=26c0b7afae6c4c7e9e41de626ae8f3c7&version=2.11.8",
-    "https://www.apple.com/de/shop/experience-meta?activityId=683166&experienceId=2&endDate=null",
-    "https://www.apple.com/de/shop/favoritesx/fetch",
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
-    "https://www.apple.com/de/shop/sba/d/init?fnode=a1c0ef976cfba5a0a5ba24ce8fa611ba8b0af1c1c71f2b0503917c3226836b72f576a70a4bf1c6393d78e96994400244bfe71af458812b3d5",
+    "https://securemvt.apple.com/rest/v1/delivery?client=apple&sessionId=61b0825dc570427eaf07870d3ee1b405&version=2.11.8",
+    "https://www.apple.com/de/shop/experience-meta?activityId=683166&experienceId=1&endDate=null",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+    "https://www.apple.com/de/shop/favoritesx/fetch",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=39de50decb33511c356ad132fdf1fad348e91047ad69c1211021ef2e943198da44c91838bd310c90e8e96330d533846c2bdbf9449396794a0",
+    "https://www.apple.com/de/shop/api/product-gallery?fae=true&node=home%2Fshop_iphone%2Ffamily%2Fiphone_16%2Fselect&dm.dimensionScreensize=6_1inch",
     "https://www.apple.com/de/shop/api/product-gallery?fae=true&node=home%2Fshop_iphone%2Ffamily%2Fiphone_16%2Fselect&dm.dimensionScreensize=6_1inch"
    ],
    "links": [
@@ -446,7 +448,7 @@
     "jsonld": 1,
     "dom-price": 1
    },
-   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + iPhone 16 Ab 999 € oder 41,62 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Kostenloser Versand Beim Store abholen iPhone 16 kaufen Ab 999 € oder 41,62 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Apple Intelligence Fußnote 3 Weitere Infos, iPhone 16 Erhalte von 30 € – 1.050 € für dein Eintauschgerät Fußnote ① Ratenzahlung mit Openbank Pay By Santander Fußnote ② Vorheriges Galeriebild Nächstes Galeriebild Farben. Wähle die, die dir am besten gefällt. Farbe Ultramarin Blaugrün Weiß Pink Schwarz Kommt mit 128 GB Speicher Apple Trade In.Erhalte eine Gutschrift in Höhe von 30 € – 1.050 € für dein neues iPhone. Fußnote ① Eintauschgerät hinzufügen Beantworte ein paar Fragen, um den geschätzten Eintauschwert zu erfahren. Kein Eintausch Wie funktioniert die Inzahlungnahme? Erfahre, wie du bei diesem Kauf mit einer Inzahlungnahme sparen kannst. Oder lass dein Gerät kostenlos recyceln. Mehr anzeigen AppleCare Schutz. Ganz entspannt bleiben. Mit jedem Schutz. Fußnote ∆ AppleCare+ mit Diebstahl und Verlust Nur dieses Produkt absichern Unbegrenzte Anzahl von Reparaturen bei Missgeschicken wie Stürzen und verschütteten Flüssigkeiten Abdeckung bei Diebstahl und Verlust mit bis zu zwei Ansprüchen alle 12 Monate Vorrangiger Support durch Apple Expert:innen Express-Austauschservice – wir liefern dir ein Ersatzger"
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + Zahle für dein neues iPhone mit 0 % eff. Zins p.a. in 24 Raten. Fußnote ② Weitere Infos iPhone 16 Ab 999 € oder 41,62 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Kostenloser Versand Beim Store abholen iPhone 16 kaufen Ab 999 € oder 41,62 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Apple Intelligence Fußnote 3 Weitere Infos, iPhone 16 Vorheriges Galeriebild Nächstes Galeriebild Farben. Wähle die, die dir am besten gefällt. Farbe Ultramarin Blaugrün Weiß Pink Schwarz Kommt mit 128 GB Speicher Apple Trade In.Erhalte eine Gutschrift in Höhe von 30 € – 1.050 € für dein neues iPhone. Fußnote ① Eintauschgerät hinzufügen Beantworte ein paar Fragen, um den geschätzten Eintauschwert zu erfahren. Kein Eintausch Wie funktioniert die Inzahlungnahme? Erfahre, wie du bei diesem Kauf mit einer Inzahlungnahme sparen kannst. Oder lass dein Gerät kostenlos recyceln. Mehr anzeigen AppleCare Schutz. Ganz entspannt bleiben. Mit jedem Schutz. Fußnote ∆ AppleCare+ mit Diebstahl und Verlust Nur dieses Produkt absichern Unbegrenzte Anzahl von Reparaturen bei Missgeschicken wie Stürzen und verschütteten Flüssigkeiten Abdeckung bei Diebstahl und Verlust mit bis zu zwei Ansprüchen alle 12 Monate Vorrangiger Support durch Apple Expert:innen Express-Austauschservice – wir liefern dir ein Ersatzgerät, damit du nicht auf eine "
   },
   {
    "url": "https://www.apple.com/de/shop/buy-ipad/ipad-pro",
@@ -454,10 +456,10 @@
    "final_url": "https://www.apple.com/de/shop/buy-ipad/ipad-pro",
    "title": "iPad Pro kaufen - Apple (DE)",
    "json_urls": [
-    "https://www.apple.com/de/shop/favoritesx/fetch",
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
-    "https://www.apple.com/de/shop/sba/d/init?fnode=36de2ac644dfa51abe1aad55c8e3da7f2f21cefcac1121f9893c6430992939503e206d71924ab176d83e535893eeed866513c7e5eb8896221",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+    "https://www.apple.com/de/shop/favoritesx/fetch",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=f7fb3d788dcb7647541768da2cfbb22605f32560776bd395e9123b3d01ce295281de6cedde25cafeffebbe2502363bdd58fe123c7646f6cf9",
     "https://www.apple.com/de/shop/engrave/json?fae=true&product=MX2D3ZM%2FA"
    ],
    "links": [
@@ -492,10 +494,10 @@
    "final_url": "https://www.apple.com/de/shop/buy-ipad/ipad-air",
    "title": "iPad Air kaufen - Apple (DE)",
    "json_urls": [
-    "https://www.apple.com/de/shop/favoritesx/fetch",
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
-    "https://www.apple.com/de/shop/sba/d/init?fnode=b891eaf9e8dd6e04d050e97f5510c352f70dff831e8db42344e6693bf7ed8cc5cd2a207d3c1f814003da20c420c15c834a0a5c93b68b9102e",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=96c24cbce443acb0c0949c2687811468b024ada0c32fb89c8ed56a50b07e7262822dde0052dfb29beff1ea918963aa91357f97e3b78460edb",
+    "https://www.apple.com/de/shop/favoritesx/fetch",
     "https://www.apple.com/de/shop/engrave/json?fae=true&product=MX2D3ZM%2FA"
    ],
    "links": [
@@ -546,10 +548,10 @@
    "final_url": "https://www.apple.com/de/shop/buy-ipad/ipad",
    "title": "iPad kaufen - Apple (DE)",
    "json_urls": [
-    "https://www.apple.com/de/shop/favoritesx/fetch",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
-    "https://www.apple.com/de/shop/sba/d/init?fnode=5e64cffc046fdf4e4e18615bfd4b3dc095e3c789817f7d913186ce2619029f29ef185f5f6840ce51bc7fc6ec3012f15181474084c25a260b0"
+    "https://www.apple.com/de/shop/favoritesx/fetch",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=cb7a022f015391b11fd6b1a44b4fab9f499ece80483bef08c05ed96611665f49f2aa1127b9b4e21f8be6842a37b86bb3029dfc6716236c5c8"
    ],
    "links": [
     "https://www.apple.com/de/shop/buy-ipad/ipad",
@@ -599,10 +601,10 @@
    "final_url": "https://www.apple.com/de/shop/buy-ipad/ipad-mini",
    "title": "iPad mini kaufen - Apple (DE)",
    "json_urls": [
-    "https://www.apple.com/de/shop/favoritesx/fetch",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
-    "https://www.apple.com/de/shop/sba/d/init?fnode=a322a97eb7dc227ac8b80d8f7b827e3e246e43cbc59c0d9d4372b16fec9e58fcbe099012a4868ae0759c7807fd79b01387445b52c420ed8a9",
+    "https://www.apple.com/de/shop/favoritesx/fetch",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=1924f29e6ce8365176c5dd29662667c9d2357a403bf2da2a2df836dd2fbbf1a77857aa0c1f07a0b7507eebc90b0ec86be6a0785e3069006cf",
     "https://www.apple.com/de/shop/engrave/json?fae=true&product=MX2D3ZM%2FA"
    ],
    "links": [
@@ -639,7 +641,7 @@
    "json_urls": [
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
-    "https://www.apple.com/de/shop/sba/d/init?fnode=6c60aad442319adc13b23e2b22e4e753c26a7b7e4ad2fdbd01f0bb87ea10d17b8e305082e387bb14273c53ff5f57f59a3c85b940441679268",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=c205994defe5169bd25f133cc23fb78f75560079cb37e65a39fc4078a2048521e89cb0dc7e7e2355de61512a5de6383db4dd5d56a9ec86263",
     "https://www.apple.com/de/shop/favoritesx/fetch"
    ],
    "links": [
@@ -672,7 +674,7 @@
    "json_urls": [
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
-    "https://www.apple.com/de/shop/sba/d/init?fnode=e1d66d4a4c27ebbd49ce1dfd6aa9a2dc3d957303afc495a9de971b76d584aa802ac4179baa662fe9da2b7fc010f186327b31c5c8020d6cd03",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=8007a0852668058ac3c54eb3bd9104f1ab3e23b91ca2adc926288284c34474b7c6dacadc3a207cf895b722ac31fd5c7f541f1750decfd2733",
     "https://www.apple.com/de/shop/favoritesx/fetch"
    ],
    "links": [
@@ -703,9 +705,9 @@
    "final_url": "https://www.apple.com/de/shop/buy-watch/apple-watch-hermes",
    "title": "Apple Watch Hermès Series 12 kaufen - Apple (DE)",
    "json_urls": [
-    "https://www.apple.com/de/shop/sba/d/init?fnode=699e73835da29ed61e0f7db359525f43afdfbbea29a90258707d1da29139e9e94d49b814f808ae08e41af600bb85c46230a6375c3c3afb0ac",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=90d79037d430478bcbe969875d43c9fb8da10e920a0a1a5f8afb645eb5a3c93a677da4ea0a41961fea832079b8b303e79b4670cb17028d3d0",
     "https://www.apple.com/de/shop/favoritesx/fetch"
    ],
    "links": [
@@ -738,8 +740,8 @@
    "json_urls": [
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
-    "https://www.apple.com/de/shop/favoritesx/fetch",
     "https://www.apple.com/de/shop/updateSummary?node=home%2Fshop_airpods%2Ffamily%2Fairpods_pro_3&step=select&product=MFHP4ZM%2FA",
+    "https://www.apple.com/de/shop/favoritesx/fetch",
     "https://www.apple.com/de/shop/engrave/json?product=MFHP4ZM%2FA"
    ],
    "links": [
