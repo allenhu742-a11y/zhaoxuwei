@@ -86,6 +86,8 @@ COLORS = (
     "czarny biały niebieski zielony szary srebrny złoty różowy fioletowy "   # pl
     "nero bianco blu verde rosso grigio argento oro viola azzurro "         # it
     "negru alb albastru verde gri argintiu auriu roz mov "                  # ro
+    "czerwony granatowy pomarańczowy żółty beżowy grafitowy "
+    "kırmızı kirmizi siyahı mavisi lacivert turuncu bej "
     "siyah beyaz mavi yeşil gri gümüş altın pembe mor"                      # tr
 ).split()
 COLOR_RE = re.compile(r"(?<!\w)(" + "|".join(map(re.escape, COLORS)) + r")(?!\w)", re.I)
@@ -101,9 +103,9 @@ ACCESSORY = re.compile(
     r"husă|husa|încărcător|incarcator|cablu|adaptor|curea|tastatur|"                     # ro
     r"kılıf|kilif|ekran koruyucu|şarj|sarj|kablo|adaptör|kordon|kayış|klavye|kalem",     # tr
     re.I)
-REFURB = re.compile(r"entdecke|discover|scopri|ricondizionat|découvr|odkryj|descoper|keşfet|refurb|re-?newed|certified|reconditionn|odnowion|recondi|yenilenmi|generalüberholt|wie neu|"
+REFURB = re.compile(r"pacchetto|package|paquete|zestaw|pachet|\bkit\b|with KB|\bKB\b|entdecke|discover|scopri|ricondizionat|découvr|odkryj|descoper|keşfet|refurb|re-?newed|certified|reconditionn|odnowion|recondi|yenilenmi|generalüberholt|wie neu|"
                     r"bundle|paket|pack\b|加价|[぀-ヿ一-鿿]", re.I)
-BUY_WORDS = re.compile(r"\s+(kaufen|jetzt kaufen|acheter|kup(?:uj)?|cumpără|cumpara|acquista|compra|satın al)\b.*$", re.I)
+BUY_WORDS = re.compile(r"\s+(kaufen|jetzt kaufen|acheter|kup(?:uj)?|cumpără|cumpara|acquista|compra|satın al(?:ın)?|satin al(?:in)?)\b.*$", re.I)
 
 CATS = [
     ("audio", re.compile(r"buds|airpods|freebuds|freeclip|earbuds|earphones?|kopfhörer|headphones?|beats|\bpods\b|freelace|"
@@ -178,6 +180,8 @@ def canonical_model(brand, name):
     n = re.sub(r"\b(Produktdatenblatt|Datenblatt|Fiche produit|fiche|Scheda prodotto|Karta produktu|UVP|PDP|NEU|NEW|Nuovo|Nouveau)\b", " ", n, flags=re.I)
     n = re.sub(r"\b(January|February|March|April|May|June|July|August|September|October|November|December|"
                r"Januar|Februar|März|Mai|Juni|Juli|Oktober|Dezember|Black Friday|Singles Day|11\.11)\s+(Offers?|Angebote|Deals?|Sale)\s*[-–:]\s*", " ", n, flags=re.I)
+    n = re.sub(r"^((?:HUAWEI|HONOR)\s+)(Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec|BF|Promo)\s+", r"\1", n, flags=re.I)
+    n = re.sub(r"\s+(Series|Serie|Série|Seria)\s*$", "", n, flags=re.I)
     n = re.sub(r"\s[—–]\s?\d{1,2}\b", " ", n)
     n = re.sub(r"(?<=\S)-\d+\.\d+\b", " ", n)                        # 'Pro-699.9' (price glued to name)
     n = re.sub(r"(?:(?<=\s)|(?<=\S))-(?:\d{3,4}-)*\d{3,4}\b", " ", n)     # Honor campaign codes '-1102', '-649-1102'
@@ -187,6 +191,10 @@ def canonical_model(brand, name):
     n = re.sub(r"\b\d{1,2}\s?\+\s?(?=\s|$)", " ", n)                       # '4+' left from '4+128GB'
     n = re.sub(r"\bRAM\b|\bROM\b|\bSM-[A-Z0-9]{4,}\b|\bStandard\b", " ", n)
     n = _cut_outside_parens(n, ",")
+    n = _cut_outside_parens(n, ":")
+    n = re.sub(r"\b(iPhone|iPad)(?:['’]a|a)\b", r"\1", n)          # Polish 'Kup iPhone’a 18 Pro'
+    n = re.sub(r"(?:\s+-\s*/)+\s*-\s*", " - ", n)                    # 'Mate X6 - / - Czerwony'
+
     n = re.sub(r"\s[|–—]\s.*$", "", n)
     n = STORAGE_RE.sub(" ", n)
     n = COLOR_RE.sub(" ", n)
@@ -519,13 +527,15 @@ def dom(info, url, cur):
         else:
             # 'Google Pixel 11 Pro  Ab 1.199 € oder 33,31 €/Monat' - the from-price printed right under the product name
             text = info.get("text") or ""
-            i = text.find(name)
-            if i >= 0:
-                m = re.search(rf"(?:{FROM_WORDS})\s+((?:{CUR_SYM[cur]})?\s?(?:{NUM})\s?(?:{CUR_SYM[cur]})?)", text[i:i + 400], re.I)
+            short = re.split(r"\s*[:&|–]\s*|\s+-\s+", name)[0].strip()      # 'Google Pixel 11 Pro & 11 Pro XL: ...' -> 'Google Pixel 11 Pro'
+            rx = re.compile(rf"(?:{FROM_WORDS})\s+((?:{CUR_SYM[cur]})?\s?(?:{NUM})\s?(?:{CUR_SYM[cur]})?)", re.I)
+            for mm in re.finditer(re.escape(short), text) if len(short) > 3 else []:
+                m = rx.match(text[mm.end():mm.end() + 80].lstrip(" ·:-"))
                 p = parse_price(m.group(1), cur) if m else None
                 if p:
-                    out.append({"name": name, "variant": "—", "price": p, "list_price": None,
+                    out.append({"name": short, "variant": "—", "price": p, "list_price": None,
                                 "sku": "", "url": url, "source": "dom-from"})
+                    break
     return out
 
 

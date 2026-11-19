@@ -29,6 +29,17 @@ h2{font-size:17px;margin:26px 0 2px}
 .seg button:disabled{opacity:.4;cursor:not-allowed}
 input[type=search],select{background:var(--bg);color:var(--fg);border:1px solid var(--line);border-radius:4px;padding:5px 8px;font:inherit}
 #modelQ,#skuQ{min-width:280px}
+table.ladder{border-collapse:separate;border-spacing:0;table-layout:fixed}
+table.ladder th{color:#fff;font-size:15px;text-align:center;padding:6px 10px;width:200px;min-width:200px;max-width:200px}
+table.ladder td{width:200px;max-width:200px}
+table.ladder th.band,table.ladder td.band{min-width:110px;width:110px;background:var(--head);color:var(--fg);font-weight:700;text-align:center;position:sticky;left:0;z-index:2}
+table.ladder td{vertical-align:top;text-align:left;white-space:normal;padding:4px 6px;border-right:1px solid var(--bg);border-bottom:1px solid var(--line)}
+.lcard{padding:3px 4px 5px;cursor:pointer;border-radius:4px;color:#1f2328}
+.lcard:hover{outline:1px solid #0003}
+.lcard b{display:block;font-size:13px}
+.lcard i{display:block;font-size:12px;font-style:italic;color:#3d444d}
+.lcard .pr{font-style:normal;color:#b42318;font-weight:600}
+.lcard .dn{color:#15803d;font-weight:600}.lcard .up2{color:#b42318;font-weight:600}
 .btn{font:inherit;border:1px solid var(--line);background:var(--chip);color:var(--fg);padding:4px 10px;border-radius:6px;cursor:pointer}
 .btn:hover{border-color:var(--acc)}
 .pick{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:14px;padding:2px 4px 2px 10px}
@@ -82,6 +93,16 @@ a{color:inherit}
     <span class="meta" id="xlsMsg"></span></div>
   <div class="sum" id="sum"></div>
 
+  <h2>价格摆位图 / Price ladder</h2>
+  <div class="panel">
+    <div class="row">
+      <span class="seg" id="ladCat"></span>
+      <span class="seg" id="ladMode"><button data-v="now" class="on">当前售价</button><button data-v="rrp">官网原价 RRP</button></span>
+      <span class="meta" id="ladInfo"></span>
+    </div>
+    <div class="scroll" style="border:0"><table id="ladder" class="ladder"></table></div>
+  </div>
+
   <h2>型号走势 / Model trend</h2>
   <div class="panel">
     <div class="row">
@@ -115,7 +136,7 @@ a{color:inherit}
   <div class="row" style="margin-top:20px">
     <label>区间 / Range <select id="range"><option value="7">7 天</option><option value="15" selected>15 天</option><option value="30">30 天</option><option value="9999">全部 / all</option></select></label>
     <input type="search" id="q" placeholder="筛选表格 / filter grid…">
-    <label><input type="checkbox" id="onlyChanged"> 仅显示有变动 / only changed</label>
+    <label title="默认只显示区间内有调价的 SKU；取消勾选可看全部"><input type="checkbox" id="onlyChanged" checked> 仅显示有价格变动 / only changed</label>
   </div>
   <div class="row" id="legend"><span class="meta">品牌 / Brand:</span></div>
   <div class="row"><span class="meta">标注 / Marks:</span>
@@ -293,8 +314,62 @@ function render() {
     html += '</table></div>';
   }
   $('#sections').innerHTML = html;
+  renderLadder();
 }
 
+
+// ---------------------------------------------------------------- price ladder (brand x price band, like an RRP positioning chart)
+const BANDS_EUR = {phone: [2000, 1600, 1300, 1000, 800, 600, 400, 250, 0], tablet: [1500, 1000, 700, 500, 300, 200, 0],
+                   wear: [800, 500, 350, 250, 150, 80, 0], audio: [400, 250, 180, 120, 70, 40, 0]};
+const BRAND_HEAD = {Apple: '#6b7280', Samsung: '#1f6fc5', Xiaomi: '#ea6a24', Honor: '#1aa0d8', 'Google': '#a0309e', Huawei: '#c8102e', Motorola: '#2b4a8b', OnePlus: '#3f3f46'};
+let ladCat = 'phone', ladMode = 'now';
+const nice = x => { if (x < 100) return Math.round(x); const p = Math.pow(10, Math.floor(Math.log10(x)) - 1); return Math.round(x / p) * p; };
+const shortName = (m, b) => { const s2 = m.replace(new RegExp('^(' + b + '|HUAWEI|HONOR|Samsung|Xiaomi|Google|Motorola|OnePlus)\\s+', 'i'), ''); return /^\d/.test(s2) ? m : s2; };
+function ladderModels(cat) {
+  const today = D.dates[D.dates.length - 1], d15 = D.dates[Math.max(0, D.dates.length - 15)];
+  const by = {};
+  for (const [k, m] of Object.entries(D.skus)) {
+    if (m.category !== cat || off.has(m.brand)) continue;
+    const p = D.prices[k][today]; if (!p) continue;
+    const cur = by[m.mkey];
+    if (!cur || p[0] < cur.now) by[m.mkey] = {m, k, now: p[0], rrp: p[1] && p[1] > p[0] ? p[1] : p[0], promo: p[1] && p[1] > p[0], n: (cur ? cur.n : 0) + 1};
+    else cur.n++;
+  }
+  for (const x of Object.values(by)) {                 // entry-price move vs ~15 days ago
+    const old = D.prices[x.k][d15]; x.d15 = old ? x.now - old[0] : 0;
+  }
+  return Object.values(by);
+}
+function renderLadder() {
+  if (offCat.size && offCat.has(ladCat)) ladCat = Object.keys(IDX.categories).find(c => !offCat.has(c)) || 'phone';
+  $('#ladCat').innerHTML = Object.entries(IDX.categories).filter(([c]) => !offCat.has(c)).map(([c, l]) => `<button data-v="${c}" class="${c === ladCat ? 'on' : ''}">${esc(l)}</button>`).join('');
+  const today = D.dates[D.dates.length - 1], cur = curName();
+  const fxd = (eur || D.currency === 'EUR') ? 1 : (D.fx[today] || 1);
+  const edges = BANDS_EUR[ladCat].map(e => e === 0 ? 0 : nice(e * fxd));
+  const models = ladderModels(ladCat);
+  const val = x => conv(ladMode === 'rrp' ? x.rrp : x.now, today);
+  const brands = Object.keys(IDX.brandColors).filter(b => models.some(x => x.m.brand === b));
+  const lab = v => cur === 'TRY' ? '₺' + v.toLocaleString('de-DE') : cur === 'EUR' ? '€' + v.toLocaleString('de-DE') : v.toLocaleString('de-DE') + ' ' + SYM[cur];
+  $('#ladInfo').textContent = `${D.name} · ${today} · ${models.length} 个型号 · 每个型号按最低存储版本摆位（${ladMode === 'rrp' ? '官网原价，无原价时用售价' : '当前售价'}）· 点击卡片看走势`;
+  if (!models.length) { $('#ladder').innerHTML = '<tr><td class="empty">暂无数据 / no data</td></tr>'; return; }
+  let html = '<tr><th class="band" style="background:var(--head);color:var(--fg)">' + (ladMode === 'rrp' ? 'RRP' : '售价') + '</th>' + brands.map(b => `<th style="background:${BRAND_HEAD[b] || '#555'}">${b}</th>`).join('') + '</tr>';
+  for (let i = 0; i < edges.length; i++) {
+    const lo = edges[i], hi = i ? edges[i - 1] : Infinity;
+    const inBand = models.filter(x => { const v = val(x); return v >= lo && v < hi; });
+    if (!inBand.length) continue;
+    const label = i === 0 ? lab(lo) + '+' : lo === 0 ? '< ' + lab(hi) : lab(lo) + '–' + lab(hi - 1);
+    html += `<tr><td class="band">${label}</td>` + brands.map(b => {
+      const xs = inBand.filter(x => x.m.brand === b).sort((a, c) => val(c) - val(a));
+      return `<td style="background:${IDX.brandColors[b] || '#eee'}">` + xs.map(x => {
+        const mv = Math.abs(x.d15) > 0.005 ? `<span class="${x.d15 < 0 ? 'dn' : 'up2'}"> ${x.d15 < 0 ? '▼' : '▲'}${fmt(Math.abs(conv(x.d15, today)))}</span>` : '';
+        return `<div class="lcard" data-m="${esc(x.m.model)}" title="${esc(x.m.model)} · ${x.n} 个存储版本${x.promo ? ' · 原价 ' + fmt(conv(x.rrp, today)) : ''}"><b>${esc(shortName(x.m.model, b))}</b>` +
+          `<i>${esc(x.m.variant === '—' ? '' : x.m.variant + ' | ')}${fmt(conv(ladMode === 'rrp' ? x.rrp : x.now, today))}${mv}</i>` +
+          (x.promo ? `<i>${ladMode === 'rrp' ? '现价 <span class="pr">' + fmt(conv(x.now, today)) + '</span>' : '原价 <s>' + fmt(conv(x.rrp, today)) + '</s>'}</i>` : '') + '</div>';
+      }).join('') + '</td>';
+    }).join('') + '</tr>';
+  }
+  $('#ladder').innerHTML = html;
+}
 
 // ---------------------------------------------------------------- 15-day sparkline per SKU (always the last 15 snapshot days)
 function sparkline(k) {
@@ -452,7 +527,28 @@ async function exportView() {
     for (const d of cd) { const r = wp.addRow([d, ...series.map(s => s.byDate[d] != null ? Math.round(s.byDate[d] * 100) / 100 : null)]); series.forEach((s, i) => r.getCell(2 + i).numFmt = cmpMode === 'cross' ? '#,##0.00 "€"' : numFmt); }
     styleHeader(wp);
   }
-  // 5) notes
+  // 5) price ladder (current category of the ladder)
+  {
+    const wl = wb.addWorksheet('价格摆位');
+    const today2 = D.dates[D.dates.length - 1], fxd = (eur || D.currency === 'EUR') ? 1 : (D.fx[today2] || 1);
+    const edges = BANDS_EUR[ladCat].map(e2 => e2 === 0 ? 0 : nice(e2 * fxd)), models = ladderModels(ladCat);
+    const val = x => conv(ladMode === 'rrp' ? x.rrp : x.now, today2);
+    const brands = Object.keys(IDX.brandColors).filter(b => models.some(x => x.m.brand === b));
+    wl.columns = [{header: (ladMode === 'rrp' ? 'RRP' : '售价') + ' · ' + IDX.categories[ladCat], width: 16}, ...brands.map(b => ({header: b, width: 30}))];
+    wl.getRow(1).font = {bold: true, color: {argb: 'FFFFFFFF'}};
+    brands.forEach((b, i) => wl.getRow(1).getCell(2 + i).fill = {type: 'pattern', pattern: 'solid', fgColor: {argb: 'FF' + (BRAND_HEAD[b] || '#555555').slice(1)}});
+    wl.getRow(1).getCell(1).fill = {type: 'pattern', pattern: 'solid', fgColor: {argb: 'FF475569'}};
+    for (let i = 0; i < edges.length; i++) {
+      const lo = edges[i], hi = i ? edges[i - 1] : Infinity, inBand = models.filter(x => { const v = val(x); return v >= lo && v < hi; });
+      if (!inBand.length) continue;
+      const r = wl.addRow([i === 0 ? `${lo}+` : lo === 0 ? `< ${hi}` : `${lo}–${hi - 1}`, ...brands.map(b => inBand.filter(x => x.m.brand === b).sort((a, c) => val(c) - val(a))
+        .map(x => `${shortName(x.m.model, b)}\n${x.m.variant === '—' ? '' : x.m.variant + ' | '}${fmt(conv(ladMode === 'rrp' ? x.rrp : x.now, today2))}${x.promo ? (ladMode === 'rrp' ? ' (现价 ' + fmt(conv(x.now, today2)) + ')' : ' (原价 ' + fmt(conv(x.rrp, today2)) + ')') : ''}`).join('\n\n'))]);
+      r.alignment = {wrapText: true, vertical: 'top'}; r.getCell(1).font = {bold: true};
+      brands.forEach((b, j) => r.getCell(2 + j).fill = {type: 'pattern', pattern: 'solid', fgColor: {argb: 'FF' + (IDX.brandColors[b] || '#eeeeee').slice(1)}});
+    }
+    wl.views = [{state: 'frozen', xSplit: 1, ySplit: 1}];
+  }
+  // 6) notes
   const wn = wb.addWorksheet('说明');
   wn.columns = [{width: 18}, {width: 80}];
   [['国家', `${D.name} (${cc})`], ['币种', cur + (cur !== D.currency ? `（由 ${D.currency} 按 ECB 每日汇率换算）` : '')], ['截至', today], ['日期区间', `${dates[0]} → ${today}`],
@@ -552,6 +648,9 @@ async function init() {
   $('#skuQ').addEventListener('keydown', e => { if (e.key === 'Enter') pickFromInput(); });
   $('#addModelAll').onclick = () => { const hit = curModel && findModel(curModel); if (!hit) { $('#modelQ').focus(); return; }
     Object.keys(D.skus).filter(k => D.skus[k].mkey === hit[0]).forEach(k => { if (!picks.includes(k)) picks.push(k); }); setURL(); drawCompare(); };
+  $('#ladCat').onclick = e => { const b = e.target.closest('button'); if (b) { ladCat = b.dataset.v; renderLadder(); } };
+  $('#ladMode').onclick = e => { const b = e.target.closest('button'); if (!b) return; ladMode = b.dataset.v; [...$('#ladMode').children].forEach(x => x.classList.toggle('on', x === b)); renderLadder(); };
+  $('#ladder').addEventListener('click', e => { const c = e.target.closest('.lcard'); if (c) { $('#modelQ').value = c.dataset.m; showModel(c.dataset.m); $('#modelQ').scrollIntoView({behavior: 'smooth', block: 'center'}); } });
   $('#cmpClear').onclick = () => { picks = []; setURL(); drawCompare(); };
   $('#cmpMode').onclick = e => { const b = e.target.closest('button'); if (!b) return; cmpMode = b.dataset.v; [...$('#cmpMode').children].forEach(x => x.classList.toggle('on', x === b)); drawCompare(); };
   $('#cmpNorm').onclick = e => { const b = e.target.closest('button'); if (!b) return; cmpNorm = b.dataset.v === 'idx'; [...$('#cmpNorm').children].forEach(x => x.classList.toggle('on', x === b)); drawCompare(); };

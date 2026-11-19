@@ -5,6 +5,7 @@ Reads:  data/snapshots/<date>/<CC>.json   (legacy data/snapshots/<date>.json = D
 Writes: data/history.csv, data/changes.csv, docs/data/<CC>.json, docs/data/index.json, docs/index.html
 """
 import csv
+import re
 import glob
 import json
 import os
@@ -46,6 +47,54 @@ def reclean(s):
     return rows
 
 
+# words that make a real, different product - never merged away as "just a colour"
+KEEP_WORDS = re.compile(
+    r"\b(Pro|Max|Ultra|Plus|Lite|Mini|FE|Fold|Flip|Air|Edge|Neo|Smart|Prime|Power|Fusion|Classic|Active|Open|Fit|Play|"
+    r"Note|Pad|Watch|Buds|XL|Tab|Kids|Runner|Sport|NFC|Cellular|LTE|eSIM|Wi.?Fi|Hermès|Duo|Slim|Racing|Limited|MOLLY|Prestige)\b|\d", re.I)
+
+
+def color_merge_map(rows_by_date):
+    """Find model names that are another model + colour/finish words only, e.g. 'HONOR 200 Lite Cyan Lake',
+    'Xiaomi 17T Pro Deep', '11" iPad Air Wi-Fi - Space'. They are merged into the base model when their prices
+    match the base model's (colour variants cost the same) or when they never appear on the same day."""
+    names, pr = {}, defaultdict(dict)
+    for d, rows in rows_by_date.items():
+        for r in rows:
+            names[r["mkey"]] = (r["brand"], r["category"], r["model"])
+            pr[r["mkey"]][(d, r["key"].split("|", 1)[1])] = r["price"]
+    groups = defaultdict(list)
+    for mk, (b, c, m) in names.items():
+        groups[(b, c)].append(mk)
+    mmap = {}
+    for (b, c), mks in groups.items():
+        mks.sort(key=lambda k: len(names[k][2]))
+        for i, B in enumerate(mks):
+            mb = names[B][2]
+            for A in reversed(mks[:i]):                        # longest matching base first
+                ma = names[A][2]
+                if not mb.lower().startswith(ma.lower() + " "):
+                    continue
+                extra = mb[len(ma):].strip(" -–()")
+                if not extra or KEEP_WORDS.search(extra) or len(extra.split()) > 4:
+                    break
+                common = set(pr[A]) & set(pr[B])
+                if common:                                      # same day, same storage: prices must match
+                    same = sum(1 for k in common if abs(pr[A][k] - pr[B][k]) <= 0.01 * pr[A][k])
+                    ok = same / len(common) >= 0.8
+                else:                                           # otherwise each of B's prices must be one A also had
+                    pa = list(pr[A].values())
+                    ok = all(any(abs(pb - x) <= 0.01 * x for x in pa) for pb in pr[B].values())
+                if ok:
+                    mmap[B] = A
+                break
+    def root(k):
+        seen = set()
+        while k in mmap and k not in seen:
+            seen.add(k); k = mmap[k]
+        return k
+    return {k: root(k) for k in mmap}, names
+
+
 SUSPECT_PCT = 70          # a single-day move this large is almost always a scraping error
 REVERT_PCT = 15           # A -> B -> A within one day: a glitch, not a price change
 
@@ -82,12 +131,21 @@ def build_country(cc, snaps):
     dates = [s["date"] for s in snaps]
     skus, prices, ranks, changes, fx = {}, {}, defaultdict(dict), [], {}
     last = {}
+    rows_by_date = {s["date"]: reclean(s) for s in snaps}
+    mmap, names = color_merge_map(rows_by_date)
     for s in snaps:
         d = s["date"]
         fx[d] = s.get("fx_eur") or 1.0
         ok_brands = {b for b, st in s.get("status", {}).items() if st.get("count", 0) > 0}
         seen = set()
-        for it in reclean(s):
+        rows = []
+        for it in rows_by_date[d]:
+            if it["mkey"] in mmap:                              # colour variant -> base model
+                base = mmap[it["mkey"]]
+                it = {**it, "mkey": base, "model": names[base][2], "key": base + "|" + it["key"].split("|", 1)[1]}
+            rows.append(it)
+        rows.sort(key=lambda r: r["price"])                     # merged colours: keep the lowest price
+        for it in rows:
             k = it["key"]
             if k in seen:
                 continue
