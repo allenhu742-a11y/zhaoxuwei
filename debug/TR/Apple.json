@@ -9,9 +9,9 @@
    "title": "iPhone Satın Alın - Apple (TR)",
    "json_urls": [
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
     "https://www.apple.com/tr/shop/bag/status?apikey=SJHJUH4YFCTTPD4F4",
     "https://www.apple.com/shop/shld/work/v3/q?jr=30",
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
     "https://www.apple.com/tr/shop/api/digital-mat?path=library/step0_iphone/digitalmat&fae=true"
    ],
    "links": [
@@ -43,16 +43,16 @@
      "body": "[{\"name\": \"apple\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple home\"}], \"id\": \"3d39a8ff\"}, {\"name\": \"store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"store\"}, {\"name\": \"data-analytics-element-engagement\", \"value\": \"hover - store\"}], \"baseGroups\": [{\"id\": \"efe9efd0\", \"title\": \"Hızlı Bağlantılar\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"quick links - store\"}], \"baseLinks\": [{\"id\": \"cb439f7a\", \"text\": \"Bir Mağaza Bulun\", \"url\": \"/tr/retail/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"find a store\"}], \"ariaLabel\": \"\"}, {\"id\": \"749e2d74\", \"text\": \"Sipariş Durumu\", \"url\": \"/tr/shop/goto/order/list\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"order status\"}], \"ariaLabel\": \"\"}, {\"id\": \"82789284\", \"text\": \"Ödeme Kolaylıkları\", \"url\": \"/tr/shop/goto/ww/financing\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"financing\"}], \"ariaLabel\": \"\"}]}, {\"id\": \"2edc9e5d\", \"title\": \"Özel Mağazalardan Alışveriş Yapın\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"shop special stores\"}], \"baseLinks\": [{\"id\": \"a5831c32\", \"text\": \"Eğitim\", \"url\": \"/tr/shop/goto/educationrouting\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"education\"}], \"ariaLabel\": \"\"}, {\"id\": \"26962b0e\", \"text\": \"İş Dünyası\", \"url\": \"/tr/retail/business/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"business\"}], \"ariaLabel\": \"\"}]}], \"elevatedGroups\": [{\"id\": \"34a90a07\", \"title\": \"Alışveriş Yapın\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"explore shop\"}], \"elevatedLinks\": [{\"id\": \"748af4cf\", \"text\": \"Hediye Satın Alın\", \"url\": \"/tr/shop/goto/store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"shop gifts\"}], \"ariaLabel\": \"\"}, {\"id\": \"ecda88f8\", \"text\": \"Mac\", \"url\": \"/tr/shop/goto/buy_mac\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"mac\"}], \"ariaLabel\": \"\"}, {\"id\": \"f82ba1fa\", \"text\": \"iPad\", \"url\": \"/tr/shop/goto/buy_ipad\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"ipad\"}], \"ariaLabel\": \"\"}, {\"id\": \"cc713ed0\", \"text\": \"iPhone\", \"url\": \"/tr/shop/goto/buy_iphone\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"iphone\"}], \"ariaLabel\": \"\"}, {\"id\": \"c2a9286e\", \"text\": \"Apple Watch\", \"url\": \"/tr/shop/goto/buy_watch\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"ap"
     },
     {
+     "url": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
+     "body": "{\"id\": \"O9p8CZpZR0qDeWEWZ-hQpA\", \"results\": [{\"sectionName\": \"quickLinks\", \"sectionResults\": [{\"label\": \"Hediye Satın Alın\", \"url\": \"https://www.apple.com/tr/shop/goto/store\"}, {\"label\": \"Bir Mağaza Bulun\", \"url\": \"https://www.apple.com/tr/retail/\"}, {\"label\": \"Hediye Kartları\", \"url\": \"https://www.apple.com/tr/shop/goto/giftcards\"}, {\"label\": \"AirPods\", \"url\": \"https://www.apple.com/tr/airpods/\"}, {\"label\": \"Apple Intelligence\", \"url\": \"https://www.apple.com/tr/apple-intelligence/\"}]}, {\"sectionName\": \"suggestions\", \"sectionResults\": []}]}"
+    },
+    {
      "url": "https://www.apple.com/tr/shop/bag/status?apikey=SJHJUH4YFCTTPD4F4",
      "body": "{\"items\": 0, \"ttl\": 180, \"api\": {\"flyout\": \"/%5Bstorefront%5D/shop/bag/flyout\", \"addToBag\": \"/%5Bstorefront%5D/shop/bag/add?product=%5Bpart%5D\"}}"
     },
     {
      "url": "https://www.apple.com/shop/shld/work/v3/q?jr=30",
-     "body": "{\"salt\": \"83924d4a897423317510adc3ca41187e9f68c67656af9c7c2a26bef2aa8d71675e57cf3ace36c30b38cd7b1a2d033f11\", \"t\": 1794959641.866, \"challenge_version\": 3, \"algorithm\": \"SHA-384\", \"X\": \"981411faf0e30d4b99831fe0f71bed4710471e0f801c711351150e03c7194093\", \"timeout\": 3000, \"challenge\": \"e5882fea4fd371419b0c28335609d8702c35c8d3e10e371051834ec6e910fb1ee3d446b360f1e054476f93d2f6522356\", \"signature\": \"fe892a121d5a47b81df7326b18b439b8c784f9d12b96469e3004f15e12405f69\"}"
-    },
-    {
-     "url": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
-     "body": "{\"id\": \"M1Mfc9vWREKCmAXXE2XUdw\", \"results\": [{\"sectionName\": \"quickLinks\", \"sectionResults\": [{\"label\": \"Hediye Satın Alın\", \"url\": \"https://www.apple.com/tr/shop/goto/store\"}, {\"label\": \"Bir Mağaza Bulun\", \"url\": \"https://www.apple.com/tr/retail/\"}, {\"label\": \"Hediye Kartları\", \"url\": \"https://www.apple.com/tr/shop/goto/giftcards\"}, {\"label\": \"AirPods\", \"url\": \"https://www.apple.com/tr/airpods/\"}, {\"label\": \"Apple Intelligence\", \"url\": \"https://www.apple.com/tr/apple-intelligence/\"}]}, {\"sectionName\": \"suggestions\", \"sectionResults\": []}]}"
+     "body": "{\"signature\": \"37cf3de82436dbfd959d7c76c915a8b6016c513c458ef23896abeaee53d39880\", \"challenge_version\": 3, \"challenge\": \"ade4a6c3e5055f960d726049128981c0a5916b1885c012a601c203ccb10a4cdb7976d43cda2f11710cd96ee4f30add9b\", \"X\": \"473308c6426f02942c40d4f8268017c694da8c4da0bed3d5930351dcf21fb76a\", \"algorithm\": \"SHA-384\", \"salt\": \"9181f4e31bea8847dff8426f5428964ab3808eb2ae872494a5996a5312e061c71dc03f45d6135f14a796ce8ff75402b7\", \"t\": 1795044496.414, \"timeout\": 3000}"
     }
    ]
   },
@@ -62,8 +62,8 @@
    "final_url": "https://www.apple.com/tr/shop/buy-ipad",
    "title": "iPad Satın Alın - Apple (TR)",
    "json_urls": [
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
     "https://www.apple.com/tr/shop/api/digital-mat?path=library/step0_ipad/digitalmat&fae=true"
    ],
    "links": [
@@ -89,16 +89,16 @@
    "text_sample": "wzlhp Store Mac iPad iPhone Watch AirPods Ev Eğlence Aksesuarlar Destek 0 + iPad Satın Alın Bir Uzman ile görüşün (Yeni pencerede açılır) Bir Apple Store bulun (yeni bir pencerede açılır) Tüm Modeller iPad aksesuarları Tasarruf Etmenin Yolları Yalnızca Apple’da Kurulum ve Destek iPad deneyimi Size Özel Mağazalar Tüm modeller. Dilediğinizi seçin. iPad Pro Daha yakından bakın - iPad Pro Başlangıç fiyatı: 85.999 TL Satın Alın - iPad Pro iPad Air Daha yakından bakın - iPad Air Başlangıç fiyatı: 52.499 TL Satın Alın - iPad Air iPad Daha yakından bakın - iPad Başlangıç fiyatı: 31.999 TL Satın Alın - iPad YENİ iPad mini - YENİ Daha yakından bakın - iPad mini Başlangıç fiyatı: 48.999 TL Satın Alın - iPad mini TÜM MODELLERİ KARŞILAŞTIRIN Size en uygun iPad hangisi? - (Yeni pencerede açılır) Tüm iPad aksesuarlarını keşfedin. Önceki - Tüm Modeller Sonraki - Tüm Modeller iPad aksesuarları. Seveni çok. YENİ YIL AKSESUARLARI Birlikte daha güzel. - (Yeni pencerede açılır) Ücretsiz Lazer Baskı Apple Pencil Pro - Ücretsiz Lazer Baskı 7.199,00 TL 13 inç iPad Air (M4) için Magic Keyboard - Türkçe Q Klavye - Siyah 14.499,00 TL 13 inç iPad Pro (M5) için Magic Keyboard - Türkçe Q Klavye - Siyah 18.859,00 TL Apple Pencil (USB-C) 4.199,00 TL Yeni Beats 360 Kulaklık - Siyah Performans Örgülü Kulaklık Yastıkları - Siyah - Yeni 25.999,00 TL Yeni AirPods 5 - Yeni 9.999,00 TL iPad (A16) için Tech21 FlexFolio 3.799,00 TL iPad (A16) için Magic Keyboard Folio - Türkçe Q Klavye 13.449,00 TL Önceki -",
    "json_samples": [
     {
-     "url": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
-     "body": "{\"id\": \"M1Mfc9vWREKCmAXXE2XUdw\", \"results\": [{\"sectionName\": \"quickLinks\", \"sectionResults\": [{\"label\": \"Hediye Satın Alın\", \"url\": \"https://www.apple.com/tr/shop/goto/store\"}, {\"label\": \"Bir Mağaza Bulun\", \"url\": \"https://www.apple.com/tr/retail/\"}, {\"label\": \"Hediye Kartları\", \"url\": \"https://www.apple.com/tr/shop/goto/giftcards\"}, {\"label\": \"AirPods\", \"url\": \"https://www.apple.com/tr/airpods/\"}, {\"label\": \"Apple Intelligence\", \"url\": \"https://www.apple.com/tr/apple-intelligence/\"}]}, {\"sectionName\": \"suggestions\", \"sectionResults\": []}]}"
-    },
-    {
      "url": "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR",
      "body": "[{\"name\": \"apple\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple home\"}], \"id\": \"3d39a8ff\"}, {\"name\": \"store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"store\"}, {\"name\": \"data-analytics-element-engagement\", \"value\": \"hover - store\"}], \"baseGroups\": [{\"id\": \"efe9efd0\", \"title\": \"Hızlı Bağlantılar\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"quick links - store\"}], \"baseLinks\": [{\"id\": \"cb439f7a\", \"text\": \"Bir Mağaza Bulun\", \"url\": \"/tr/retail/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"find a store\"}], \"ariaLabel\": \"\"}, {\"id\": \"749e2d74\", \"text\": \"Sipariş Durumu\", \"url\": \"/tr/shop/goto/order/list\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"order status\"}], \"ariaLabel\": \"\"}, {\"id\": \"82789284\", \"text\": \"Ödeme Kolaylıkları\", \"url\": \"/tr/shop/goto/ww/financing\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"financing\"}], \"ariaLabel\": \"\"}]}, {\"id\": \"2edc9e5d\", \"title\": \"Özel Mağazalardan Alışveriş Yapın\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"shop special stores\"}], \"baseLinks\": [{\"id\": \"a5831c32\", \"text\": \"Eğitim\", \"url\": \"/tr/shop/goto/educationrouting\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"education\"}], \"ariaLabel\": \"\"}, {\"id\": \"26962b0e\", \"text\": \"İş Dünyası\", \"url\": \"/tr/retail/business/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"business\"}], \"ariaLabel\": \"\"}]}], \"elevatedGroups\": [{\"id\": \"34a90a07\", \"title\": \"Alışveriş Yapın\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"explore shop\"}], \"elevatedLinks\": [{\"id\": \"748af4cf\", \"text\": \"Hediye Satın Alın\", \"url\": \"/tr/shop/goto/store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"shop gifts\"}], \"ariaLabel\": \"\"}, {\"id\": \"ecda88f8\", \"text\": \"Mac\", \"url\": \"/tr/shop/goto/buy_mac\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"mac\"}], \"ariaLabel\": \"\"}, {\"id\": \"f82ba1fa\", \"text\": \"iPad\", \"url\": \"/tr/shop/goto/buy_ipad\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"ipad\"}], \"ariaLabel\": \"\"}, {\"id\": \"cc713ed0\", \"text\": \"iPhone\", \"url\": \"/tr/shop/goto/buy_iphone\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"iphone\"}], \"ariaLabel\": \"\"}, {\"id\": \"c2a9286e\", \"text\": \"Apple Watch\", \"url\": \"/tr/shop/goto/buy_watch\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"ap"
     },
     {
+     "url": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
+     "body": "{\"id\": \"O9p8CZpZR0qDeWEWZ-hQpA\", \"results\": [{\"sectionName\": \"quickLinks\", \"sectionResults\": [{\"label\": \"Hediye Satın Alın\", \"url\": \"https://www.apple.com/tr/shop/goto/store\"}, {\"label\": \"Bir Mağaza Bulun\", \"url\": \"https://www.apple.com/tr/retail/\"}, {\"label\": \"Hediye Kartları\", \"url\": \"https://www.apple.com/tr/shop/goto/giftcards\"}, {\"label\": \"AirPods\", \"url\": \"https://www.apple.com/tr/airpods/\"}, {\"label\": \"Apple Intelligence\", \"url\": \"https://www.apple.com/tr/apple-intelligence/\"}]}, {\"sectionName\": \"suggestions\", \"sectionResults\": []}]}"
+    },
+    {
      "url": "https://www.apple.com/tr/shop/api/digital-mat?path=library/step0_ipad/digitalmat&fae=true",
-     "body": "{\"head\": {\"status\": \"200\", \"data\": {}}, \"body\": {\"digitalMat\": [{\"productName\": \"iPad Pro\", \"tabDescriptionLabel\": \"Ekran Boyutu\", \"enableDarkTheme\": false, \"familyTypes\": [{\"exploreLink\": {\"url\": \"https://www.apple.com/tr/ipad-pro\", \"text\": \"iPad Pro hakkında daha fazlasını keşfedin\", \"dataVar\": {}, \"omnitureData\": {\"linkText\": \"iPad Pro hakkında daha fazlasını keşfedin\", \"commitCodeId\": 0}, \"newTab\": false, \"isLinkAsButton\": false, \"link\": \"https://www.apple.com/tr/ipad-pro\", \"deeplink\": []}, \"valuePropsContent\": {\"items\": [{\"index\": 0, \"value\": \"<div class=\\\"rf-digitalmat-valueprops-icon\\\"><div class=\\\"as-svgicon-container dd-color-forest-green\\\">\\n<svg width=\\\"21\\\" height=\\\"25\\\" viewBox=\\\"0 0 21 25\\\" class=\\\"dd-glyph-svg dd-glyph-reduced\\\" aria-hidden=\\\"true\\\">\\n  <path d=\\\"m18.5 5h-16a2.5 2.5 0 0 0 -2.5 2.5v10a2.5 2.5 0 0 0 2.5 2.5h15.9958a2.5 2.5 0 0 0 2.5-2.5l.0042-10a2.5 2.5 0 0 0 -2.5-2.5zm-16 1h16a1.5017 1.5017 0 0 1 1.5 1.5v1.5h-19v-1.5a1.5017 1.5017 0 0 1 1.5-1.5zm15.9958 13h-15.9958a1.5017 1.5017 0 0 1 -1.5-1.5v-6.5h19v6.5a1.5053 1.5053 0 0 1 -1.5042 1.5zm-11.4958-5.0179v2.0358a.83.83 0 0 1 -.8.8571h-2.4a.83.83 0 0 1 -.8-.8571v-2.0358a.83.83 0 0 1 .8-.8571h2.4a.83.83 0 0 1 .8.8571z\\\" />\\n</svg></div></div><div class=\\\"rf-digitalmat-valueprops-description\\\"><h3 class=\\\"rf-digitalmat-valueprops-header\\\">Ödeme kolaylıkları</h3><span>Aylık taksit seçenekleriyle kolayca ödeyin.</span></div>\", \"even\": true, \"position\": 1, \"last\": false, \"first\": true}, {\"index\": 1, \"value\": \"<div class=\\\"rf-digitalmat-valueprops-icon\\\">\\n\\t<div class=\\\"as-svgicon-container dd-color-forest-green\\\">\\n\\t\\t\\n<svg width=\\\"23\\\" height=\\\"25\\\" viewBox=\\\"0 0 23 25\\\" class=\\\"dd-glyph-svg dd-glyph-reduced\\\" aria-hidden=\\\"true\\\">\\n  <path d=\\\"m22.4825 12.8467-2.9209-3.2085c-.4121-.4473-.8828-.6382-1.5752-.6382h-1.9863v-2.505c0-1.3807-1.1194-2.5-2.5-2.5h-11.0001c-1.3806 0-2.5 1.1194-2.5 2.5v9.75c0 1.3808 1.1194 2.5 2.5 2.5h.5479c.2258 1.2913 1.3462 2.275 2.7021 2.275s2.28-.7235 2.6721-2.0201h6.6808c.3199 1.1639 1.3814 2.02 2.647 2.02 1.3477 0 2.4639-.9707 2.6997-2.25h.7349c1.1367 0 1.8154-.6689 1.8154-1.7896v-2.8081c0-.498-.1914-.9849-.5176-1.3257zm-15.0562 5.8984c-.2087.7333-.8772 1.275-1.6763 1.275s-1.4675-.5417-1.6763-1.275c-.0432-.152-.0737-.3093-.0737-.475 0-.1841.0364-.3582.0894-.525.2246-.7075.8799-1.225 1.6606-1.225s1.436.5175 1.6606 1.225c.053.1668.0894.3409.0894.525 0 .1657-.0305.3229-.0737.475zm1.0208-.745c-.1238-1.3988-1.3582-2.4799-2.697-2.4799s-2.4517.9578-2.697 2."
+     "body": "{\"head\": {\"status\": \"200\", \"data\": {}}, \"body\": {\"digitalMat\": [{\"productName\": \"iPad Pro\", \"tabDescriptionLabel\": \"Ekran Boyutu\", \"enableDarkTheme\": false, \"familyTypes\": [{\"footer\": \"<ol>\\n    <li>Apple Intelligence, beta sürümünde kullanıma sunulmuştur. Bazı özellikler her bölgede veya her dilde kullanılamayabilir. Özelliklerin ve dillerin kullanılabilirliği ve sistem gereksinimleri için lütfen <a href=\\\"https://support.apple.com/tr-tr/121115\\\" target=\\\"_blank\\\">support.apple.com/tr-tr/121115<span class=\\\"a11y\\\">(Yeni pencerede açılır)</span></a> sayfasını inceleyin.</li>\\n    <li>Aygıtların ekranları yuvarlatılmış köşelere sahiptir. Dikdörtgen&nbsp;olarak ölçüldüğünde 13&nbsp;inç iPad&nbsp;Pro diyagonal&nbsp;olarak 13&nbsp;inç&nbsp;ve 11&nbsp;inç iPad&nbsp;Pro diyagonal&nbsp;olarak 11.1&nbsp;inçtir. Görüntülenebilen gerçek alan daha azdır.</li>\\n    \\n    <li>Aksesuarlar ayrı satılır&nbsp;ve stoklarla sınırlıdır.</li>\\n</ol>\", \"productPrice\": {\"priceData\": {\"fullPrice\": {\"priceString\": \"Başlangıç fiyatı:<span> 85.999 TL</span>\", \"raw\": {\"price\": \"85999.00\"}}, \"refurbProduct\": false, \"priceFeeDisclaimer\": {\"priceString\": \"KDV ve yasal ücretler dahildir: Yaklaşık 16.105,00 TL.<as-footnote data-id=\\\"c797ec623451481bcb7b6f5ad02aa26a\\\" data-assigned=\\\"false\\\"><sup data-autom=\\\"footnote-sub\\\" class=\\\"as-footnote\\\"><span class=\\\"visuallyhidden\\\">&nbsp;Dipnot&nbsp;</span></sup></as-footnote>\"}}, \"templateId\": \"MONTHLY_IN_FINANCING_LINK\", \"staticAssets\": {\"priceSeparator\": \" \"}}, \"productName\": \"11 inç iPad Pro\", \"basePart\": \"MDWK4\", \"complianceModel\": {}, \"productImages\": {\"items\": [{\"index\": 0, \"value\": {\"sources\": [{\"srcSet\": \"https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipadpro11-digitalmat-gallery-1-202404?wid=728&hei=666&fmt=png-alpha&.v=UXVFY3VaaTg1Y0ZJTnlIMXY0b1VhZlRhSXFkOFhqdTgvUmc4VitXa2VzZFJ4eU1GZzRtNm5oQnN2QW1zUW9UeFRnWXNaUGkzWFF6Q0FVUXZLQlA2QVJzajl1Z3B2NFRSeldmSW5hQ2dEQTFGL2IrS3hzc1FsY2pXLzZHM212TVI\", \"type\": \"image/png\"}], \"width\": \"364\", \"height\": \"333\", \"attrs\": \"\", \"imageName\": \"ipadpro11-digitalmat-gallery-1-202404\", \"originalImageName\": \"ipadpro11-digitalmat-gallery-1-202404\", \"alt\": \"İki renk seçeneğiyle iPad Pro, Uzay Siyahı, Gümüş Rengi, Pro Kamera Sistemi, tam ekran tasarımına sahip ön yüzey\", \"noImage\": false, \"deferSrc\": false, \"singleElementSources\": true, \"scaleFactor\": \"2X\"}, \"position\": 1, \"even\": true, \"first\": true, \"last\": false}, {\"index\": 1, \"value\": {\"sources\": [{\"srcSet\": \"https://store.storeimages.cdn-app"
     }
    ]
   },
@@ -108,8 +108,8 @@
    "final_url": "https://www.apple.com/tr/shop/buy-watch",
    "title": "Apple Watch Satın Alın - Apple (TR)",
    "json_urls": [
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
     "https://www.apple.com/tr/shop/api/digital-mat?path=library/step0_watch/digitalmat&fae=true"
    ],
    "links": [
@@ -134,16 +134,16 @@
    "text_sample": "wzlhp Store Mac iPad iPhone Watch AirPods Ev Eğlence Aksesuarlar Destek 0 + Apple Watch Satın Alın Bir Uzman ile görüşün (Yeni pencerede açılır) Bir Apple Store bulun (yeni bir pencerede açılır) Tüm Modeller Apple Watch aksesuarları Tasarruf Etmenin Yolları Yalnızca Apple’da Şarj İçin Vazgeçilmezler Apple Watch deneyimi Kurulum ve Destek Size Özel Mağazalar Önceki - local navigation link Tüm modeller. Dilediğinizi seçin. YENİ Apple Watch Series 12 - YENİ Daha yakından bakın - Apple Watch Series 12 + Başlangıç fiyatı: 27.999 TL Satın Alın - Apple Watch Series 12 YENİ Apple Watch Ultra 4 - YENİ Daha yakından bakın - Apple Watch Ultra 4 Başlangıç fiyatı: 75.999 TL Satın Alın - Apple Watch Ultra 4 Apple Watch SE 3 Daha yakından bakın - Apple Watch SE 3 Başlangıç fiyatı: 16.999 TL Satın Alın - Apple Watch SE 3 MODELLERİ KARŞILAŞTIRIN Size en uygun Apple Watch hangisi? - (Yeni pencerede açılır) Tüm Apple Watch aksesuarlarını keşfedin. Önceki - Tüm Modeller Sonraki - Tüm Modeller Apple Watch aksesuarları. Güzel zamanlar. YENİ YIL AKSESUARLARI Birlikte daha güzel. - (Yeni pencerede açılır) + Yeni 40 mm Burgonya Ekose Spor Loop - Yeni 2.499,00 TL Yeni 42 mm Koyu Bronz Milano Loop - Yeni 4.999,00 TL + Yeni 40 mm Klasik Zeytin Yeşili Spor Kordon - S/M - Yeni 2.499,00 TL Yeni 40 mm After Dark Black Nike Spor Kordon - M/L - Yeni 2.499,00 TL Yeni 46 mm Asfalt Grisi Nike Spor Loop - Yeni 2.499,00 TL Yeni 46 mm Kır Çiçeği Mavisi Manyetik Baklalı Model Kayış - M/L - Yeni 4.999,00 TL Yeni 49 m",
    "json_samples": [
     {
-     "url": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
-     "body": "{\"id\": \"M1Mfc9vWREKCmAXXE2XUdw\", \"results\": [{\"sectionName\": \"quickLinks\", \"sectionResults\": [{\"label\": \"Hediye Satın Alın\", \"url\": \"https://www.apple.com/tr/shop/goto/store\"}, {\"label\": \"Bir Mağaza Bulun\", \"url\": \"https://www.apple.com/tr/retail/\"}, {\"label\": \"Hediye Kartları\", \"url\": \"https://www.apple.com/tr/shop/goto/giftcards\"}, {\"label\": \"AirPods\", \"url\": \"https://www.apple.com/tr/airpods/\"}, {\"label\": \"Apple Intelligence\", \"url\": \"https://www.apple.com/tr/apple-intelligence/\"}]}, {\"sectionName\": \"suggestions\", \"sectionResults\": []}]}"
-    },
-    {
      "url": "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR",
      "body": "[{\"name\": \"apple\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple home\"}], \"id\": \"3d39a8ff\"}, {\"name\": \"store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"store\"}, {\"name\": \"data-analytics-element-engagement\", \"value\": \"hover - store\"}], \"baseGroups\": [{\"id\": \"efe9efd0\", \"title\": \"Hızlı Bağlantılar\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"quick links - store\"}], \"baseLinks\": [{\"id\": \"cb439f7a\", \"text\": \"Bir Mağaza Bulun\", \"url\": \"/tr/retail/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"find a store\"}], \"ariaLabel\": \"\"}, {\"id\": \"749e2d74\", \"text\": \"Sipariş Durumu\", \"url\": \"/tr/shop/goto/order/list\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"order status\"}], \"ariaLabel\": \"\"}, {\"id\": \"82789284\", \"text\": \"Ödeme Kolaylıkları\", \"url\": \"/tr/shop/goto/ww/financing\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"financing\"}], \"ariaLabel\": \"\"}]}, {\"id\": \"2edc9e5d\", \"title\": \"Özel Mağazalardan Alışveriş Yapın\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"shop special stores\"}], \"baseLinks\": [{\"id\": \"a5831c32\", \"text\": \"Eğitim\", \"url\": \"/tr/shop/goto/educationrouting\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"education\"}], \"ariaLabel\": \"\"}, {\"id\": \"26962b0e\", \"text\": \"İş Dünyası\", \"url\": \"/tr/retail/business/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"business\"}], \"ariaLabel\": \"\"}]}], \"elevatedGroups\": [{\"id\": \"34a90a07\", \"title\": \"Alışveriş Yapın\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"explore shop\"}], \"elevatedLinks\": [{\"id\": \"748af4cf\", \"text\": \"Hediye Satın Alın\", \"url\": \"/tr/shop/goto/store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"shop gifts\"}], \"ariaLabel\": \"\"}, {\"id\": \"ecda88f8\", \"text\": \"Mac\", \"url\": \"/tr/shop/goto/buy_mac\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"mac\"}], \"ariaLabel\": \"\"}, {\"id\": \"f82ba1fa\", \"text\": \"iPad\", \"url\": \"/tr/shop/goto/buy_ipad\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"ipad\"}], \"ariaLabel\": \"\"}, {\"id\": \"cc713ed0\", \"text\": \"iPhone\", \"url\": \"/tr/shop/goto/buy_iphone\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"iphone\"}], \"ariaLabel\": \"\"}, {\"id\": \"c2a9286e\", \"text\": \"Apple Watch\", \"url\": \"/tr/shop/goto/buy_watch\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"ap"
     },
     {
+     "url": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
+     "body": "{\"id\": \"O9p8CZpZR0qDeWEWZ-hQpA\", \"results\": [{\"sectionName\": \"quickLinks\", \"sectionResults\": [{\"label\": \"Hediye Satın Alın\", \"url\": \"https://www.apple.com/tr/shop/goto/store\"}, {\"label\": \"Bir Mağaza Bulun\", \"url\": \"https://www.apple.com/tr/retail/\"}, {\"label\": \"Hediye Kartları\", \"url\": \"https://www.apple.com/tr/shop/goto/giftcards\"}, {\"label\": \"AirPods\", \"url\": \"https://www.apple.com/tr/airpods/\"}, {\"label\": \"Apple Intelligence\", \"url\": \"https://www.apple.com/tr/apple-intelligence/\"}]}, {\"sectionName\": \"suggestions\", \"sectionResults\": []}]}"
+    },
+    {
      "url": "https://www.apple.com/tr/shop/api/digital-mat?path=library/step0_watch/digitalmat&fae=true",
-     "body": "{\"head\": {\"status\": \"200\", \"data\": {}}, \"body\": {\"digitalMat\": [{\"productName\": \"Apple Watch Series 12\", \"enableDarkTheme\": false, \"familyTypes\": [{\"basePart\": \"MJE74\", \"violator\": \"YENİ\", \"productName\": \"Apple Watch Series 12\", \"productPrice\": {\"priceData\": {\"fullPrice\": {\"priceString\": \"Başlangıç fiyatı: <span class=\\\"nowrap\\\">27.999 TL</span>\", \"raw\": {\"price\": \"27999.00\"}}, \"refurbProduct\": false}, \"staticAssets\": {\"priceSeparator\": \" \"}, \"templateId\": \"MONTHLY_IN_FINANCING_LINK\"}, \"complianceModel\": {}, \"priceString\": \"Başlangıç fiyatı: <nobr></nobr>27.999 TL\", \"productImages\": {\"items\": [{\"index\": 0, \"value\": {\"sources\": [{\"srcSet\": \"https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/watch-s12-digitalmat-gallery-1-202609_GEO_TR?wid=728&hei=666&fmt=webp-alpha&qlt=90&.v=VDhiOElCSFVwSmNzdTJnVGVnWWM4dlRhSXFkOFhqdTgvUmc4VitXa2VzZkI1Rkt1M242TjBSTmE2SHRuRGY1cVdwS3BmOE5lS0dKc1dRREcrSXh5V1B6K2NoQ2wwWkU3MFJ2bWRXKzVvOGFIOEJxUFFmaHJxWlN0ajBMZzFVQUpGMTRwdmMxcUdVVkl1R01iM3JHMEdB&traceId=1\", \"type\": \"image/webp\"}, {\"srcSet\": \"https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/watch-s12-digitalmat-gallery-1-202609_GEO_TR?wid=728&hei=666&fmt=png-alpha&.v=VDhiOElCSFVwSmNzdTJnVGVnWWM4dlRhSXFkOFhqdTgvUmc4VitXa2VzZkI1Rkt1M242TjBSTmE2SHRuRGY1cVdwS3BmOE5lS0dKc1dRREcrSXh5V01lcC9qYU9xUXZmS1NmbGxtTVBCNU84OWNQS3Noem5OenBwUmlhMGtjQnU&traceId=1\", \"type\": \"image/png\", \"last\": \"true\"}], \"width\": \"364\", \"height\": \"333\", \"attrs\": \"\", \"imageName\": \"watch-s12-digitalmat-gallery-1-202609_GEO_TR\", \"originalImageName\": \"watch-s12-digitalmat-gallery-1-202609_GEO_TR\", \"alt\": \"Apple Watch Series 12, ekranda kırmızı kalp grafiği, kalp atış hızı takibi gösteriliyor, alüminyum kasa, koyu bronz renk, kenarlara kadar uzanan ekran, Spor Kordon’a takılı, klasik zeytin yeşili renk (toprak yeşili)\", \"noImage\": false, \"deferSrc\": false, \"singleElementSources\": false, \"scaleFactor\": \"2X\"}, \"position\": 1, \"even\": true, \"last\": false, \"first\": true}, {\"index\": 1, \"value\": {\"sources\": [{\"srcSet\": \"https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/watch-s12-digitalmat-gallery-2-202609_GEO_TR?wid=728&hei=666&fmt=webp-alpha&qlt=90&.v=VDhiOElCSFVwSmNzdTJnVGVnWWM4dHp0bzhwRTZxYVNNMnVRTXVpMUZETEI1Rkt1M242TjBSTmE2SHRuRGY1cVdwS3BmOE5lS0dKc1dRREcrSXh5V1B6K2NoQ2wwWkU3MFJ2bWRXKzVvOFkvNVZCRmE0QlZGVHBjVFFmUGtxNXJLWUxyZ2RycEJyMnRkR3R5dC9EZi93&traceId=1\", \"type\": \"image/webp\"}, {\"srcSet\": \"https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/watch-s12-digitalmat-gal"
+     "body": "{\"head\": {\"status\": \"200\", \"data\": {}}, \"body\": {\"digitalMat\": [{\"productName\": \"Apple Watch Series 12\", \"enableDarkTheme\": false, \"familyTypes\": [{\"productImages\": {\"items\": [{\"index\": 0, \"value\": {\"sources\": [{\"srcSet\": \"https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/watch-s12-digitalmat-gallery-1-202609_GEO_TR?wid=728&hei=666&fmt=webp-alpha&qlt=90&.v=VDhiOElCSFVwSmNzdTJnVGVnWWM4dlRhSXFkOFhqdTgvUmc4VitXa2VzZkI1Rkt1M242TjBSTmE2SHRuRGY1cVdwS3BmOE5lS0dKc1dRREcrSXh5V1B6K2NoQ2wwWkU3MFJ2bWRXKzVvOGFIOEJxUFFmaHJxWlN0ajBMZzFVQUpGMTRwdmMxcUdVVkl1R01iM3JHMEdB&traceId=1\", \"type\": \"image/webp\"}, {\"srcSet\": \"https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/watch-s12-digitalmat-gallery-1-202609_GEO_TR?wid=728&hei=666&fmt=png-alpha&.v=VDhiOElCSFVwSmNzdTJnVGVnWWM4dlRhSXFkOFhqdTgvUmc4VitXa2VzZkI1Rkt1M242TjBSTmE2SHRuRGY1cVdwS3BmOE5lS0dKc1dRREcrSXh5V01lcC9qYU9xUXZmS1NmbGxtTVBCNU84OWNQS3Noem5OenBwUmlhMGtjQnU&traceId=1\", \"type\": \"image/png\", \"last\": \"true\"}], \"width\": \"364\", \"height\": \"333\", \"attrs\": \"\", \"imageName\": \"watch-s12-digitalmat-gallery-1-202609_GEO_TR\", \"originalImageName\": \"watch-s12-digitalmat-gallery-1-202609_GEO_TR\", \"alt\": \"Apple Watch Series 12, ekranda kırmızı kalp grafiği, kalp atış hızı takibi gösteriliyor, alüminyum kasa, koyu bronz renk, kenarlara kadar uzanan ekran, Spor Kordon’a takılı, klasik zeytin yeşili renk (toprak yeşili)\", \"noImage\": false, \"deferSrc\": false, \"singleElementSources\": false, \"scaleFactor\": \"2X\"}, \"even\": true, \"position\": 1, \"first\": true, \"last\": false}, {\"index\": 1, \"value\": {\"sources\": [{\"srcSet\": \"https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/watch-s12-digitalmat-gallery-2-202609_GEO_TR?wid=728&hei=666&fmt=webp-alpha&qlt=90&.v=VDhiOElCSFVwSmNzdTJnVGVnWWM4dHp0bzhwRTZxYVNNMnVRTXVpMUZETEI1Rkt1M242TjBSTmE2SHRuRGY1cVdwS3BmOE5lS0dKc1dRREcrSXh5V1B6K2NoQ2wwWkU3MFJ2bWRXKzVvOFkvNVZCRmE0QlZGVHBjVFFmUGtxNXJLWUxyZ2RycEJyMnRkR3R5dC9EZi93&traceId=1\", \"type\": \"image/webp\"}, {\"srcSet\": \"https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/watch-s12-digitalmat-gallery-2-202609_GEO_TR?wid=728&hei=666&fmt=png-alpha&.v=VDhiOElCSFVwSmNzdTJnVGVnWWM4dHp0bzhwRTZxYVNNMnVRTXVpMUZETEI1Rkt1M242TjBSTmE2SHRuRGY1cVdwS3BmOE5lS0dKc1dRREcrSXh5V01lcC9qYU9xUXZmS1NmbGxtTVBCNU9SLzJhNkVKa1lpZU5jc3JIekJMOS8&traceId=1\", \"type\": \"image/png\", \"last\": \"true\"}], \"width\": \"364\", \"height\": \"333\", \"attrs\": \"\", \"imageName\": \"watch-s12-digitalmat-gallery-2-202609_GEO_TR\", \"originalImageName\": \"watch-s12-digitalma"
     }
    ]
   },
@@ -153,8 +153,8 @@
    "final_url": "https://www.apple.com/tr/shop/accessories/all/headphones-speakers",
    "title": "Kulaklıklar ve Hoparlörler - Tüm Aksesuarlar - Apple (TR)",
    "json_urls": [
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
-    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR"
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR"
    ],
    "links": [
     "https://www.apple.com/tr/shop/buy-airpods/airpods-pro-3"
@@ -184,10 +184,10 @@
    "final_url": "https://www.apple.com/tr/shop/buy-iphone/iphone-duo",
    "title": "iPhone Duo satın alın - Apple (TR)",
    "json_urls": [
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR",
-    "https://www.apple.com/tr/shop/sba/d/init?fnode=1ec19880d6bf68a7103b2c765fee0c008187849d35bd124823d5edd74121c9bfcb1e8d99116284538d4065840202182bad585df8d4b0ebc33",
-    "https://www.apple.com/tr/shop/favoritesx/fetch"
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
+    "https://www.apple.com/tr/shop/favoritesx/fetch",
+    "https://www.apple.com/tr/shop/sba/d/init?fnode=a98a21d71a54e1e468365ec2c46b00c7b1d6ef330268021e31e7226a43efcb9be4de6fd358fd0ebb89b674cefa90745f530e6900a48fd1acd"
    ],
    "links": [
     "https://www.apple.com/tr/shop/buy-iphone/iphone-duo",
@@ -235,10 +235,10 @@
    "final_url": "https://www.apple.com/tr/shop/buy-iphone/iphone-18-pro",
    "title": "iPhone 18 Pro ve iPhone 18 Pro Max satın alın - Apple (TR)",
    "json_urls": [
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
     "https://www.apple.com/tr/shop/favoritesx/fetch",
-    "https://www.apple.com/tr/shop/sba/d/init?fnode=f9ec94a005c1f137cc616f6a839a127d2c368347a66b724ca35a0c7195cf72e265e0210368fab1ebfefcbea1b765ffd7ea5940c59a00b1e57"
+    "https://www.apple.com/tr/shop/sba/d/init?fnode=5f88d69e84ecfd2c217ec9d0c7ef7865903db958da1ef8b23a4aabd9005005cc167dcc184f05beebae248ec725e7e61b1178b8049768886d0"
    ],
    "links": [
     "https://www.apple.com/tr/shop/buy-iphone/iphone-18-pro",
@@ -289,10 +289,10 @@
    "final_url": "https://www.apple.com/tr/shop/buy-iphone/iphone-air",
    "title": "iPhone Air satın alın - Apple (TR)",
    "json_urls": [
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
     "https://www.apple.com/tr/shop/favoritesx/fetch",
-    "https://www.apple.com/tr/shop/sba/d/init?fnode=f66701a0bdf07c8d03409a6e9f62f17034d3540ed770635843e084677b73ecdc5a7f3be7f562a2763fa7df43e10ee06112cfeb36c151dd3bc"
+    "https://www.apple.com/tr/shop/sba/d/init?fnode=8b79cf3f23d48b96cdfd6233482effab85f721e0c2a1b295c55716eb3bdb6d63fe7af74e238ac65f1ae5363ca0a566e50df3c13f41b98069b"
    ],
    "links": [
     "https://www.apple.com/tr/shop/buy-iphone/iphone-air",
@@ -343,10 +343,10 @@
    "final_url": "https://www.apple.com/tr/shop/buy-iphone/iphone-17",
    "title": "iPhone 17 satın alın - Apple (TR)",
    "json_urls": [
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
     "https://www.apple.com/tr/shop/favoritesx/fetch",
-    "https://www.apple.com/tr/shop/sba/d/init?fnode=4a79e8804a40bfbde73d5b5b8088143a3f85bb81a6f073420aab9f9d97ee550141dc3e087bd8bd8a93dc78d7f6fdd3b7be7e36c15e04242a3"
+    "https://www.apple.com/tr/shop/sba/d/init?fnode=d5d69c73851d105318b15ab3e75cfeef79962e7e6ccb96050e42561bed57c365f645c85a12c47f55b3b335309b9db73162ff8a53b0ed1c975"
    ],
    "links": [
     "https://www.apple.com/tr/shop/buy-iphone/iphone-17",
@@ -394,10 +394,10 @@
    "final_url": "https://www.apple.com/tr/shop/buy-iphone/iphone-17e",
    "title": "iPhone 17e Satın Al - Apple (TR)",
    "json_urls": [
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR",
-    "https://www.apple.com/tr/shop/sba/d/init?fnode=6dce36da78e79ae94520d23f9db6b6a00d3c5920c600e0f46a7aaceb0c51856b2c4ee5ae446f0fe6eeca47b56e9067fa7f5b8273f9f77cfa8",
-    "https://www.apple.com/tr/shop/favoritesx/fetch"
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
+    "https://www.apple.com/tr/shop/favoritesx/fetch",
+    "https://www.apple.com/tr/shop/sba/d/init?fnode=beddd23ac59bf34a991bda5ab9ddbaf033fd02d5446891e27aa3b0c533605da194879c02c08a9a812ce2029425bc83c524194e5a190ec7456"
    ],
    "links": [
     "https://www.apple.com/tr/shop/buy-iphone/iphone-17e",
@@ -441,11 +441,12 @@
    "final_url": "https://www.apple.com/tr/shop/buy-iphone/iphone-16",
    "title": "iPhone 16 satın alın - Apple (TR)",
    "json_urls": [
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
     "https://www.apple.com/tr/shop/favoritesx/fetch",
+    "https://www.apple.com/tr/shop/sba/d/init?fnode=e1b0be93386798741efa9e5825807f90fee946d9324c220c30c460bc0c6a51b1d2dc17ac7a9d2fc2396ab7da61bd180e697717f7e60539107",
     "https://www.apple.com/tr/shop/api/product-gallery?fae=true&node=home%2Fshop_iphone%2Ffamily%2Fiphone_16%2Fselect&dm.dimensionScreensize=6_1inch",
-    "https://www.apple.com/tr/shop/sba/d/init?fnode=aab834a6902092cc1d9dc88dec8cc99664b242c7f1d1a4039e82f1158dd0bf29f5fc8a79ee9292119e31a974f2169b36ec70eef3434207a74"
+    "https://www.apple.com/tr/shop/api/product-gallery?fae=true&node=home%2Fshop_iphone%2Ffamily%2Fiphone_16%2Fselect&dm.dimensionScreensize=6_1inch"
    ],
    "links": [
     "https://www.apple.com/tr/shop/buy-iphone/iphone-16",
@@ -483,10 +484,10 @@
    "final_url": "https://www.apple.com/tr/shop/buy-ipad/ipad-pro",
    "title": "iPad Pro Satın Alın - Apple (TR)",
    "json_urls": [
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
     "https://www.apple.com/tr/shop/favoritesx/fetch",
-    "https://www.apple.com/tr/shop/sba/d/init?fnode=e58f4121c43cee9865ad24a7549e4c193d5ecd2090f8f4eeaeb02ef4e7e3288bc2ff5ad60fa04a3a7bf35f6e1ea9f369946605147bdf04d6b",
+    "https://www.apple.com/tr/shop/sba/d/init?fnode=37c316ffa6e34781a66e419004cf6bb0874533cf0be4af48a36621393cae502b18f0b982a6ece1c5580d1db04a2ffd08485571bb6a63edbbe",
     "https://www.apple.com/tr/shop/engrave/json?fae=true&product=MX2D3ZE%2FA"
    ],
    "links": [
@@ -527,10 +528,10 @@
    "final_url": "https://www.apple.com/tr/shop/buy-ipad/ipad-air",
    "title": "iPad Air satın alın - Apple (TR)",
    "json_urls": [
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
-    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR",
     "https://www.apple.com/tr/shop/favoritesx/fetch",
-    "https://www.apple.com/tr/shop/sba/d/init?fnode=b140a1520ad6d93369443fa893041b7c6e1109ea29323549e0b21c9f7432218db9a8e875467b684a0bbc7865a38a2ac25362bf9afee073f21",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
+    "https://www.apple.com/tr/shop/sba/d/init?fnode=b38f014091d4c3351eeb1ee6f95636ee923a0dd184bb81d9ae95dd357cd3d4531589b068de82621be32f7af9647005a985238ba3c0306294e",
     "https://www.apple.com/tr/shop/engrave/json?fae=true&product=MX2D3ZE%2FA"
    ],
    "links": [
@@ -581,10 +582,10 @@
    "final_url": "https://www.apple.com/tr/shop/buy-ipad/ipad",
    "title": "iPad Satın Alın - Apple (TR)",
    "json_urls": [
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
     "https://www.apple.com/tr/shop/favoritesx/fetch",
-    "https://www.apple.com/tr/shop/sba/d/init?fnode=82bde4db2a3b041bdef018ec2b531f8f554f3df75f86df9e7d33dfb227e4d6e7db59681ee89c3f62723c4c95476aee6fc02dfd00ac139d23c"
+    "https://www.apple.com/tr/shop/sba/d/init?fnode=5e9f7b8e5750cccd6ac100bedb06a3baad02948001230d06712f4041b16a39b04c57f4a8b021452c64b0bba3c8cd5de8e2f2d4a8292486d6d"
    ],
    "links": [
     "https://www.apple.com/tr/shop/buy-ipad/ipad",
@@ -634,10 +635,10 @@
    "final_url": "https://www.apple.com/tr/shop/buy-ipad/ipad-mini",
    "title": "iPad mini Satın Alın - Apple (TR)",
    "json_urls": [
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
     "https://www.apple.com/tr/shop/favoritesx/fetch",
-    "https://www.apple.com/tr/shop/sba/d/init?fnode=ded2e48f19e0c57310c3c0a0e16479592afe28ff4b7005fa420e15207778ec3de3cdca81677bb9d76721423633e7f51cd9ee17fc90c3ecbe2",
+    "https://www.apple.com/tr/shop/sba/d/init?fnode=54ed1278d2802b7055e71d33c155b1ffb4ac6cdffc1091259119e4e9d3ebc932d633d6c257a23b3a487488a914fabc3edd3fe736de48a7b4f",
     "https://www.apple.com/tr/shop/engrave/json?fae=true&product=MX2D3ZE%2FA"
    ],
    "links": [
@@ -677,9 +678,9 @@
    "final_url": "https://www.apple.com/tr/shop/buy-watch/apple-watch",
    "title": "Apple Watch Series 12 satın alın - Apple (TR)",
    "json_urls": [
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR",
-    "https://www.apple.com/tr/shop/sba/d/init?fnode=cef8706314444e5d1bfe808ca29b6a3ad59f0933ef04237c97ac282d3c87f84b1773a2ec44abbda6fc3e859ae1065854aef41f142135e2ff6",
+    "https://www.apple.com/tr/shop/sba/d/init?fnode=d11093f9eaabc152ac118ecab17b0277ae1705387348a7fc1dd4b781be811c65d8a3c9607e90ad9e191ef2bf799c8830a39417ba44902e546",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
     "https://www.apple.com/tr/shop/favoritesx/fetch"
    ],
    "links": [
@@ -710,8 +711,8 @@
    "final_url": "https://www.apple.com/tr/shop/buy-watch/apple-watch-ultra",
    "title": "Apple Watch Ultra 4 satın alın - Apple (TR)",
    "json_urls": [
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
     "https://www.apple.com/tr/shop/favoritesx/fetch"
    ],
    "links": [
@@ -742,9 +743,9 @@
    "final_url": "https://www.apple.com/tr/shop/buy-watch/apple-watch-se",
    "title": "Apple Watch SE 3 satın alın - Apple (TR)",
    "json_urls": [
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR",
-    "https://www.apple.com/tr/shop/sba/d/init?fnode=2876101d4af1c2213e76e752dc36566043c9b9a1bf662c388643fa9c5afa17946e9c4673a11962fb49245b29eeba7a8bfb004ce04ba23125c",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
+    "https://www.apple.com/tr/shop/sba/d/init?fnode=e43c6dcb989885cd47af94ed2b661719a22a14af7dd677f7094e1accc13305eabac3685b54362b021be24c35cad26d73d8aac52822972efd9",
     "https://www.apple.com/tr/shop/api/kit-product-gallery?fae=true&node=home%2Fshop_watch%2Ffamily%2Fapple_watch_se%2Fselect&dm.watch_bands-dimensionBandStyle=sport",
     "https://www.apple.com/tr/shop/favoritesx/fetch"
    ],
@@ -776,8 +777,8 @@
    "final_url": "https://www.apple.com/tr/shop/buy-airpods/airpods-pro-3",
    "title": "AirPods Pro 3 satın alın - Apple (TR)",
    "json_urls": [
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=tr_TR",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=tr_TR",
     "https://www.apple.com/tr/shop/favoritesx/fetch",
     "https://www.apple.com/tr/shop/updateSummary?node=home%2Fshop_airpods%2Ffamily%2Fairpods_pro_3&step=select&product=MFHP4TU%2FA",
     "https://www.apple.com/tr/shop/engrave/json?product=MFHP4TU%2FA"
