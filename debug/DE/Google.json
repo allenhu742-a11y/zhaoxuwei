@@ -61,7 +61,7 @@
    "title": "Google Store für Geräte und Zubehör von Google",
    "json_urls": [
     "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
-    "https://store.google.com/intl/de/ideas/feed/de-storefront.json?c=1795044669792"
+    "https://store.google.com/intl/de/ideas/feed/de-storefront.json?c=1795114677034"
    ],
    "links": [
     "https://store.google.com/de/product/pixel_11_pro",
@@ -100,10 +100,18 @@
    ],
    "tiles": [],
    "price_texts": [],
-   "items_by_source": {
-    "dom-from": 1
-   },
-   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Google Store für Geräte und Zubehör von Google Black Friday-Angebote ansehen Beliebt im Google Store. Black Friday-Angebot Google Pixel 11 Pro und Pro XL Ab 899 € 1.099 € 200 € Rabatt Üblicher Verkaufspreis: 1.199 € Kaufen Black Friday-Angebot Google Pixel 11 Pro Fold Ab 1.999 € Kaufen Black Friday-Angebot Google Pixel 11 Ab 699 € 899 € 200 € Rabatt Üblicher Verkaufspreis: 999 € Kaufen Black Friday-Angebot Google Pixel Watch 5 Ab 349 € 419 € 70 € Rabatt Üblicher Verkaufspreis: 419 € Kaufen Black Friday-Angebot Google Pixel Buds Pro 2 169 € 249 € 80 € Rabatt Üblicher Verkaufspreis: 249 € Kaufen Neu Google Fitbit Edge Ab 179,99 € Kaufen Neu Google Fitbit Air 99,99 € Kaufen Black Friday-Angebot Google Home Speaker 119,99 € Kaufen Black Friday-Angebot Google Pixel 10a Ab 429 € 649 € 220 € Rabatt Üblicher Verkaufspreis: 649 € Kaufen Black Friday-Angebot Google Pixel Buds 2a 119 € 149 € 30 € Rabatt Üblicher Verkaufspreis: 149 € Kaufen Nest Cam (Outdoor, mit Kabel, 2. Gen.) 149,99 € Kaufen Black Friday-Angebot Nest Cam (Indoor, mit Kabel, 3. Gen.) 69,99 € 99,99 € 30 € Rabatt Üblicher Verkaufspreis: 99,99 € Kaufen Die Black-Friday-Angebote sind da. Erhalte bis zu 200 € Rabatt beim Kauf eines Google Pixel 11 Pro oder Pro XL.^ Alle Angebote enden am 01.12. Ab 899 € 1.099 € 200 € Rabatt Üblicher Ver"
+   "items_by_source": {},
+   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Google Store für Geräte und Zubehör von Google Black Friday-Angebote ansehen Beliebt im Google Store. Black Friday-Angebot Google Pixel 11 Pro und Pro XL Ab 899 € 1.099 € 200 € Rabatt Üblicher Verkaufspreis: 1.199 € Kaufen Black Friday-Angebot Google Pixel 11 Pro Fold Ab 1.999 € Kaufen Black Friday-Angebot Google Pixel 11 Ab 699 € 899 € 200 € Rabatt Üblicher Verkaufspreis: 999 € Kaufen Black Friday-Angebot Google Pixel Watch 5 Ab 349 € 419 € 70 € Rabatt Üblicher Verkaufspreis: 419 € Kaufen Black Friday-Angebot Google Pixel Buds Pro 2 169 € 249 € 80 € Rabatt Üblicher Verkaufspreis: 249 € Kaufen Neu Google Fitbit Edge Ab 179,99 € Kaufen Neu Google Fitbit Air 99,99 € Kaufen Black Friday-Angebot Google Home Speaker 119,99 € Kaufen Black Friday-Angebot Google Pixel 10a Ab 429 € 649 € 220 € Rabatt Üblicher Verkaufspreis: 649 € Kaufen Black Friday-Angebot Google Pixel Buds 2a 119 € 149 € 30 € Rabatt Üblicher Verkaufspreis: 149 € Kaufen Nest Cam (Outdoor, mit Kabel, 2. Gen.) 149,99 € Kaufen Black Friday-Angebot Nest Cam (Indoor, mit Kabel, 3. Gen.) 69,99 € 99,99 € 30 € Rabatt Üblicher Verkaufspreis: 99,99 € Kaufen Die Black-Friday-Angebote sind da. Erhalte bis zu 200 € Rabatt beim Kauf eines Google Pixel 11 Pro oder Pro XL.^ Alle Angebote enden am 01.12. Ab 899 € 1.099 € 200 € Rabatt Üblicher Ver",
+   "json_samples": [
+    {
+     "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
+     "body": "[null, null, null, null, null, null, null, null, null, null, 0]"
+    },
+    {
+     "url": "https://store.google.com/intl/de/ideas/feed/de-storefront.json?c=1795114677034",
+     "body": "{\"articles\": [{\"title\": \"Pixel HiLight: Wichtige Benachrichtigungen und Anrufe bemerken, ohne aufs Display zu schauen.\", \"url\": \"https://store.google.com/magazine/pixel-hilight-notifications\", \"imageURL\": \"https://lh3.googleusercontent.com/n9S5DfuRRTDCFo5cO7b5MwoBRWw4Wuo0b3bABzXIAIRRA7CJztq7tEoDQ-iCwv5tAu8KvFvf6HtCfKenav6-bsqYobCLTMgw6A\", \"imageAltText\": \"HiLight leuchtet auf der Kameraleiste des Pixel 11 Pro\"}, {\"title\": \"Google Pixel 11-Wunderschön veredelt.\\nUnd für das echte Leben entwickelt.\", \"url\": \"https://store.google.com/magazine/pixel-11-design\", \"imageURL\": \"https://lh3.googleusercontent.com/cZbajDzcwE1gz-hOQ19d-qvXQ3PncXA_3c6LD7mZjC16q8yj9gdL-WD4PY0xbiNesoiVeNb5qYwKcc1pdHUJwIJ7fk-s5QLCNg\", \"imageAltText\": \"Die Kameraleiste des Google Pixel 11 Pro mit sanft leuchtendem HiLight\"}, {\"title\": \"Halte die Action fest, ohne den Moment zu verpassen.\", \"url\": \"https://store.google.com/magazine/pixel-magic-capture\", \"imageURL\": \"https://lh3.googleusercontent.com/IHFwhGnGPIXM-unwcBIoQ_1AkPFEP1DeWhzUHbHyyKOBftU7h1enDDgUfJGvTUQEvnQUEhJW-wXvPeQc3zvANRVIhfbF_t4Ua3Rr\", \"imageAltText\": \"Eine Mutter und eine Tochter, die fröhlich aussehen und für ein Foto lächeln.\"}, {\"title\": \"Google Pixel 11 – Datenschutz und Sicherheit: Fortschrittlicher Schutz für deine persönlichen Daten\", \"url\": \"https://store.google.com/magazine/pixel-safe\", \"imageURL\": \"https://lh3.googleusercontent.com/jOAnQZ237MGSNC_nMkTlBdz-SnuukIZ9IQK-cVQL0xUNXAFWrrPz2HQT32qwwaUXiwgJSyO0CAK9ym5Qd-2XlADGy4ue_G9jlkA\", \"imageAltText\": \"Eine Person hält ein Google Pixel 11 Pro Fold. Unten links im Bild ist ein Symbol zum Verriegeln zu sehen.\"}, {\"title\": \"Die Leistung des Google Pixel 11: Genug Energie für den ganzen Tag.\", \"url\": \"https://store.google.com/magazine/pixel-performance\", \"imageURL\": \"https://lh3.googleusercontent.com/3R686kSYuL3kFXhiZB_l4_X24GCbu9F2UitvwWMbbryzdR-hvESmIs4faSX889F4eIN4zvBo3f2AbtSDkASNZTCHIlMd_fyUtg\", \"imageAltText\": \"Google Tensor G6-Prozessor\"}]}"
+    }
+   ]
   },
   {
    "url": "https://store.google.com/de/category/watches",
@@ -243,10 +251,14 @@
    ],
    "tiles": [],
    "price_texts": [],
-   "items_by_source": {
-    "dom-from": 1
-   },
-   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Entdecke das Google Pixel 11 Pro & 11 Pro XL | Google Store DE Menü Google Pixel 11 Pro Ab 899 € 1.099 € 200 € Rabatt oder 24,97 €/Monat bei Finanzierung über 36 Monate* Üblicher Verkaufspreis: 1.199 € Kaufen Erhalte bis zu 200 € Rabatt beim Kauf vom Google Pixel 11 Pro oder Pro XL. Das Angebot endet am 01.12.^ Kaufen Erhalte jetzt 50 € bis zu 775 € zurück, indem du ein teilnahmeberechtigtes Gerät in Zahlung gibst.ΔΔ Nutze unser Trade-in und erhalte sofort Geld zurück. Nur für berechtigte Kunden verfügbar. Weitere Informationen zum Trade-In. Geschätzten Trade-In-Wert erhalten Jede Farbe hat ihren eigenen Vibe. Welche passt zu dir? Ab 899 € 1.099 € 200 € Rabatt oder 24,97 €/Monat bei Finanzierung über 36 Monate* Üblicher Verkaufspreis: 1.199 € Kaufen Pro 6,3 (161 mm) Zoll Pro XL 6,8 (171 mm) Zoll Canyon Was ist neu beim Google Pixel 11 Pro? Smartphones vergleichen Gemini Intelligence: Weniger Tippen, mehr leben. Leistungsstarke, personalisierte Unterstützung für den Alltag. Mühelos Informationen finden, Aktionen ausführen und Ideen sammeln1 – Pixel erledigt die lästigen Routineaufgaben, damit du dich auf das konzentrieren kannst, was dir wichtig ist. Mit der Funktion „Magische Aufnahme“ hältst du Momente in Echtzeit fest, während du sie erlebst. Mit nur einem Tippen nimmt dein Goog"
+   "items_by_source": {},
+   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Entdecke das Google Pixel 11 Pro & 11 Pro XL | Google Store DE Menü Google Pixel 11 Pro Ab 899 € 1.099 € 200 € Rabatt oder 24,97 €/Monat bei Finanzierung über 36 Monate* Üblicher Verkaufspreis: 1.199 € Kaufen Erhalte bis zu 200 € Rabatt beim Kauf vom Google Pixel 11 Pro oder Pro XL. Das Angebot endet am 01.12.^ Kaufen Erhalte jetzt 50 € bis zu 775 € zurück, indem du ein teilnahmeberechtigtes Gerät in Zahlung gibst.ΔΔ Nutze unser Trade-in und erhalte sofort Geld zurück. Nur für berechtigte Kunden verfügbar. Weitere Informationen zum Trade-In. Geschätzten Trade-In-Wert erhalten Jede Farbe hat ihren eigenen Vibe. Welche passt zu dir? Ab 899 € 1.099 € 200 € Rabatt oder 24,97 €/Monat bei Finanzierung über 36 Monate* Üblicher Verkaufspreis: 1.199 € Kaufen Pro 6,3 (161 mm) Zoll Pro XL 6,8 (171 mm) Zoll Canyon Was ist neu beim Google Pixel 11 Pro? Smartphones vergleichen Gemini Intelligence: Weniger Tippen, mehr leben. Leistungsstarke, personalisierte Unterstützung für den Alltag. Mühelos Informationen finden, Aktionen ausführen und Ideen sammeln1 – Pixel erledigt die lästigen Routineaufgaben, damit du dich auf das konzentrieren kannst, was dir wichtig ist. Mit der Funktion „Magische Aufnahme“ hältst du Momente in Echtzeit fest, während du sie erlebst. Mit nur einem Tippen nimmt dein Goog",
+   "json_samples": [
+    {
+     "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
+     "body": "[null, null, null, null, null, null, null, null, null, null, 0]"
+    }
+   ]
   },
   {
    "url": "https://store.google.com/de/product/pixel_11_pro_fold",
@@ -369,6 +381,7 @@
     "https://store.google.com/de/product/google_tv_streamer",
     "https://store.google.com/de/product/nest_hub_2nd_gen",
     "https://store.google.com/de/product/nest_wifi_pro",
+    "https://store.google.com/de/product/pixel_10a_specs",
     "https://store.google.com/de/config/pixel_10a",
     "https://store.google.com/de/config/pixel_10",
     "https://store.google.com/de/product/pixel_10",
@@ -380,10 +393,14 @@
    ],
    "tiles": [],
    "price_texts": [],
-   "items_by_source": {
-    "dom-from": 1
-   },
-   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Google Pixel 10a - Akku für den Ganzen Tag, Langlebig | Google Store DE Menü Pixel 10a Ab 429 € 649 € 220 € Rabatt oder 11,92 €/Monat bei Finanzierung über 36 Monate* Üblicher Verkaufspreis: 649 € Kaufen Google Pixel 10a Leistung, die begeistert. Zu einem Preis, der überzeugt. Ab 429 € 649 € 220 € Rabatt oder 11,92 €/Monat bei Finanzierung über 36 Monate* Üblicher Verkaufspreis: 649 € Kaufen Erhalte 220 € Rabatt beim Kauf vom Google Pixel 10a. Das Angebot endet am 01.12.^ Kaufen Erhalte jetzt 50 € bis zu 445 € zurück, indem du ein teilnahmeberechtigtes Gerät in Zahlung gibst.ΔΔ Nutze unser Trade-in und erhalte sofort Geld zurück. Nur für berechtigte Kunden verfügbar. Weitere Informationen zum Trade-In. Geschätzten Trade-In-Wert erhalten Alles, was du brauchst, zu einem attraktiven Preis. Smartphones vergleichen Das neue Smartphone im Fokus Widerstandsfähig im Design. Und reibungslose Performance. Mehr als 30 Stunden Akkulaufzeit und schnelles Laden.1,2 Fotos, bei denen es Klick macht. 7 Jahre lang neue Funktionen und Sicherheitsupdates.3 Gemini ist dein integrierter KI-Assistent.4 So einfach machst du Fotos, die du liebst.5 Halte alltägliche Momente mit lebendigen, gestochen scharfen Details fest. Mit Google AI kannst du dafür sorgen, dass sich jedes Foto sehen lassen kann und dir auch"
+   "items_by_source": {},
+   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Google Pixel 10a - Akku für den Ganzen Tag, Langlebig | Google Store DE Pixel 10a Übersicht Technische Daten Vergleichen Zu Pixel wechseln Ab 429 €649 € oder 11,92 €/Monat bei Finanzierung über 36 Monate* Üblicher Verkaufspreis: 649 € Kaufen Google Pixel 10a Leistung, die begeistert. Zu einem Preis, der überzeugt. Ab 429 € 649 € 220 € Rabatt oder 11,92 €/Monat bei Finanzierung über 36 Monate* Üblicher Verkaufspreis: 649 € Kaufen Erhalte 220 € Rabatt beim Kauf vom Google Pixel 10a. Das Angebot endet am 01.12.^ Kaufen Erhalte jetzt 50 € bis zu 445 € zurück, indem du ein teilnahmeberechtigtes Gerät in Zahlung gibst.ΔΔ Nutze unser Trade-in und erhalte sofort Geld zurück. Nur für berechtigte Kunden verfügbar. Weitere Informationen zum Trade-In. Geschätzten Trade-In-Wert erhalten Alles, was du brauchst, zu einem attraktiven Preis. Smartphones vergleichen Das neue Smartphone im Fokus Widerstandsfähig im Design. Und reibungslose Performance. Mehr als 30 Stunden Akkulaufzeit und schnelles Laden.1,2 Fotos, bei denen es Klick macht. 7 Jahre lang neue Funktionen und Sicherheitsupdates.3 Gemini ist dein integrierter KI-Assistent.4 So einfach machst du Fotos, die du liebst.5 Halte alltägliche Momente mit lebendigen, gestochen scharfen Details fest. Mit Google AI kannst du dafür sorgen, dass sich jed",
+   "json_samples": [
+    {
+     "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
+     "body": "[null, null, null, null, null, null, null, null, null, null, 0]"
+    }
+   ]
   },
   {
    "url": "https://store.google.com/de/product/pixel_watch_5",
@@ -454,6 +471,7 @@
     "https://store.google.com/de/product/google_tv_streamer",
     "https://store.google.com/de/product/nest_hub_2nd_gen",
     "https://store.google.com/de/product/nest_wifi_pro",
+    "https://store.google.com/de/product/google_fitbit_edge_specs",
     "https://store.google.com/de/config/google_fitbit_edge",
     "https://store.google.com/de/config/pixel_11_pro",
     "https://store.google.com/de/config/pixel_buds_pro_2",
@@ -461,10 +479,14 @@
    ],
    "tiles": [],
    "price_texts": [],
-   "items_by_source": {
-    "dom-from": 1
-   },
-   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Google Fitbit Edge: Fortschrittlicher Gesundheits- und Fitness-Tracker Menü Google Fitbit Edge Ab 179,99 € oder 7,50 €/Monat bei Finanzierung über 24 Monate* Kaufen Google Fitbit Edge Coaching, genau im richtigen Moment. Mit einer Google Health Premium-Mitgliedschaft kannst du personalisiertes Coaching mit Gemini nutzen.1 Ab 179,99 € oder 7,50 €/Monat bei Finanzierung über 24 Monate* Kaufen Klassisch Stephen Curry Ein mit Gemini entwickeltes Coaching: Genau auf dich zugeschnitten.28 Probiere Google Health Premium 3 Monate lang kostenlos aus.1 Dein täglicher Begleiter für Fitness und Wellness – mit personalisiertem Coaching von Gemini.1 Google Health wurde gemeinsam mit Stephen Curry entwickelt und funktioniert mit deinem Tracker, damit du dein Bestes geben kannst. Die Google Health App führt Daten von deinem Wearable und deinen verknüpften Apps zusammen – für einen besseren Überblick über deine Fortschritte. Personalisiertes Coaching, das mit Gemini entwickelt wurde und sich an dich anpasst. Der Google Health Coach bietet individuelle, proaktive und anpassungsfähige Unterstützung – egal, wo du gerade stehst und was du als Nächstes vorhast.1 Trainingspläne und Workouts, die speziell für dich erstellt wurden und sich flexibel an deine Bedürfnisse anpassen. Der Google Health Coach erstellt u"
+   "items_by_source": {},
+   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Google Fitbit Edge: Fortschrittlicher Gesundheits- und Fitness-Tracker Google Fitbit Edge Überblick Technische Daten Vergleichen Ab 179,99 € oder 7,50 €/Monat bei Finanzierung über 24 Monate* Kaufen Google Fitbit Edge Coaching, genau im richtigen Moment. Mit einer Google Health Premium-Mitgliedschaft kannst du personalisiertes Coaching mit Gemini nutzen.1 Ab 179,99 € oder 7,50 €/Monat bei Finanzierung über 24 Monate* Kaufen Klassisch Stephen Curry Ein mit Gemini entwickeltes Coaching: Genau auf dich zugeschnitten.28 Probiere Google Health Premium 3 Monate lang kostenlos aus.1 Dein täglicher Begleiter für Fitness und Wellness – mit personalisiertem Coaching von Gemini.1 Google Health wurde gemeinsam mit Stephen Curry entwickelt und funktioniert mit deinem Tracker, damit du dein Bestes geben kannst. Die Google Health App führt Daten von deinem Wearable und deinen verknüpften Apps zusammen – für einen besseren Überblick über deine Fortschritte. Personalisiertes Coaching, das mit Gemini entwickelt wurde und sich an dich anpasst. Der Google Health Coach bietet individuelle, proaktive und anpassungsfähige Unterstützung – egal, wo du gerade stehst und was du als Nächstes vorhast.1 Trainingspläne und Workouts, die speziell für dich erstellt wurden und sich flexibel an deine Bedürfnisse anpassen. ",
+   "json_samples": [
+    {
+     "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
+     "body": "[null, null, null, null, null, null, null, null, null, null, 0]"
+    }
+   ]
   },
   {
    "url": "https://store.google.com/de/product/google_fitbit_air",
@@ -644,10 +666,14 @@
    ],
    "tiles": [],
    "price_texts": [],
-   "items_by_source": {
-    "dom-from": 1
-   },
-   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Google Health Premium mit Google Health Coach Google Health Premium Ab 8,99 €/Monat Abonnieren Die Fitbit App ist jetzt die Google Health App. Dein persönlicher Gesundheitscoach, entwickelt mit Gemini. Google Health Premium bietet dir Fitness-, Schlaf- und Gesundheitscoaching, das sich deinen Bedürfnissen anpasst.1 Google Health. In Partnerschaft mit Stephen Curry und unseren Experten entwickelt. 1 Wissenschaftlich fundierte Empfehlungen für deinen Weg zu Fitness und Wohlbefinden. Ein mit Gemini entwickelter Gesundheitscoach, der dir proaktive, persönliche und adaptive Unterstützung liefert, damit du dein Bestes geben kannst. Fitnesspläne, die auf deine großen Ziele zugeschnitten sind und sich schnell anpassen lassen. Damit du den Schlaf bekommst, den du brauchst – jede Nacht. Fitness Individuelle Trainingspläne ab dem ersten «Hallo» Alles beginnt mit einem Gespräch. Du erzählst dem Google Health Coach von deinen Vorlieben und Gewohnheiten und bekommst darauf aufbauend Trainingspläne, die zu deinem Alltag passen – alles mit Gemini entwickelt.1 Der Google Health Coach behält deine Tagesform und langfristige Ziele im Blick. Er erstellt einen personalisierten Fitnessplan sowie tägliche Workouts, die auf deinen Zeitplan zugeschnitten sind.1 Um deine Fitnessmuster sichtbar zu machen, erkennt d"
+   "items_by_source": {},
+   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Google Health Premium mit Google Health Coach Google Health Premium Ab 8,99 €/Monat Abonnieren Die Fitbit App ist jetzt die Google Health App. Dein persönlicher Gesundheitscoach, entwickelt mit Gemini. Google Health Premium bietet dir Fitness-, Schlaf- und Gesundheitscoaching, das sich deinen Bedürfnissen anpasst.1 Google Health. In Partnerschaft mit Stephen Curry und unseren Experten entwickelt. 1 Wissenschaftlich fundierte Empfehlungen für deinen Weg zu Fitness und Wohlbefinden. Ein mit Gemini entwickelter Gesundheitscoach, der dir proaktive, persönliche und adaptive Unterstützung liefert, damit du dein Bestes geben kannst. Fitnesspläne, die auf deine großen Ziele zugeschnitten sind und sich schnell anpassen lassen. Damit du den Schlaf bekommst, den du brauchst – jede Nacht. Fitness Individuelle Trainingspläne ab dem ersten «Hallo» Alles beginnt mit einem Gespräch. Du erzählst dem Google Health Coach von deinen Vorlieben und Gewohnheiten und bekommst darauf aufbauend Trainingspläne, die zu deinem Alltag passen – alles mit Gemini entwickelt.1 Der Google Health Coach behält deine Tagesform und langfristige Ziele im Blick. Er erstellt einen personalisierten Fitnessplan sowie tägliche Workouts, die auf deinen Zeitplan zugeschnitten sind.1 Um deine Fitnessmuster sichtbar zu machen, erkennt d",
+   "json_samples": [
+    {
+     "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
+     "body": "[null, null, null, null, null, null, null, null, null, null, 0]"
+    }
+   ]
   },
   {
    "url": "https://store.google.com/de/config/google_health_premium",
@@ -656,7 +682,7 @@
    "title": "Google Store für Geräte und Zubehör von Google",
    "json_urls": [
     "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
-    "https://store.google.com/intl/de/ideas/feed/de-storefront.json?c=1795044751923"
+    "https://store.google.com/intl/de/ideas/feed/de-storefront.json?c=1795114753901"
    ],
    "links": [
     "https://store.google.com/de/product/pixel_11_pro",
@@ -695,10 +721,18 @@
    ],
    "tiles": [],
    "price_texts": [],
-   "items_by_source": {
-    "dom-from": 1
-   },
-   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Google Store für Geräte und Zubehör von Google Black Friday-Angebote ansehen Beliebt im Google Store. Black Friday-Angebot Google Pixel 11 Pro und Pro XL Ab 899 € 1.099 € 200 € Rabatt Üblicher Verkaufspreis: 1.199 € Kaufen Black Friday-Angebot Google Pixel 11 Pro Fold Ab 1.999 € Kaufen Black Friday-Angebot Google Pixel 11 Ab 699 € 899 € 200 € Rabatt Üblicher Verkaufspreis: 999 € Kaufen Black Friday-Angebot Google Pixel Watch 5 Ab 349 € 419 € 70 € Rabatt Üblicher Verkaufspreis: 419 € Kaufen Black Friday-Angebot Google Pixel Buds Pro 2 169 € 249 € 80 € Rabatt Üblicher Verkaufspreis: 249 € Kaufen Neu Google Fitbit Edge Ab 179,99 € Kaufen Neu Google Fitbit Air 99,99 € Kaufen Black Friday-Angebot Google Home Speaker 119,99 € Kaufen Black Friday-Angebot Google Pixel 10a Ab 429 € 649 € 220 € Rabatt Üblicher Verkaufspreis: 649 € Kaufen Black Friday-Angebot Google Pixel Buds 2a 119 € 149 € 30 € Rabatt Üblicher Verkaufspreis: 149 € Kaufen Nest Cam (Outdoor, mit Kabel, 2. Gen.) 149,99 € Kaufen Black Friday-Angebot Nest Cam (Indoor, mit Kabel, 3. Gen.) 69,99 € 99,99 € 30 € Rabatt Üblicher Verkaufspreis: 99,99 € Kaufen Die Black-Friday-Angebote sind da. Erhalte bis zu 200 € Rabatt beim Kauf eines Google Pixel 11 Pro oder Pro XL.^ Alle Angebote enden am 01.12. Ab 899 € 1.099 € 200 € Rabatt Üblicher Ver"
+   "items_by_source": {},
+   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Google Store für Geräte und Zubehör von Google Black Friday-Angebote ansehen Beliebt im Google Store. Black Friday-Angebot Google Pixel 11 Pro und Pro XL Ab 899 € 1.099 € 200 € Rabatt Üblicher Verkaufspreis: 1.199 € Kaufen Black Friday-Angebot Google Pixel 11 Pro Fold Ab 1.999 € Kaufen Black Friday-Angebot Google Pixel 11 Ab 699 € 899 € 200 € Rabatt Üblicher Verkaufspreis: 999 € Kaufen Black Friday-Angebot Google Pixel Watch 5 Ab 349 € 419 € 70 € Rabatt Üblicher Verkaufspreis: 419 € Kaufen Black Friday-Angebot Google Pixel Buds Pro 2 169 € 249 € 80 € Rabatt Üblicher Verkaufspreis: 249 € Kaufen Neu Google Fitbit Edge Ab 179,99 € Kaufen Neu Google Fitbit Air 99,99 € Kaufen Black Friday-Angebot Google Home Speaker 119,99 € Kaufen Black Friday-Angebot Google Pixel 10a Ab 429 € 649 € 220 € Rabatt Üblicher Verkaufspreis: 649 € Kaufen Black Friday-Angebot Google Pixel Buds 2a 119 € 149 € 30 € Rabatt Üblicher Verkaufspreis: 149 € Kaufen Nest Cam (Outdoor, mit Kabel, 2. Gen.) 149,99 € Kaufen Black Friday-Angebot Nest Cam (Indoor, mit Kabel, 3. Gen.) 69,99 € 99,99 € 30 € Rabatt Üblicher Verkaufspreis: 99,99 € Kaufen Die Black-Friday-Angebote sind da. Erhalte bis zu 200 € Rabatt beim Kauf eines Google Pixel 11 Pro oder Pro XL.^ Alle Angebote enden am 01.12. Ab 899 € 1.099 € 200 € Rabatt Üblicher Ver",
+   "json_samples": [
+    {
+     "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
+     "body": "[null, null, null, null, null, null, null, null, null, null, 0]"
+    },
+    {
+     "url": "https://store.google.com/intl/de/ideas/feed/de-storefront.json?c=1795114753901",
+     "body": "{\"articles\": [{\"title\": \"Pixel HiLight: Wichtige Benachrichtigungen und Anrufe bemerken, ohne aufs Display zu schauen.\", \"url\": \"https://store.google.com/magazine/pixel-hilight-notifications\", \"imageURL\": \"https://lh3.googleusercontent.com/n9S5DfuRRTDCFo5cO7b5MwoBRWw4Wuo0b3bABzXIAIRRA7CJztq7tEoDQ-iCwv5tAu8KvFvf6HtCfKenav6-bsqYobCLTMgw6A\", \"imageAltText\": \"HiLight leuchtet auf der Kameraleiste des Pixel 11 Pro\"}, {\"title\": \"Google Pixel 11-Wunderschön veredelt.\\nUnd für das echte Leben entwickelt.\", \"url\": \"https://store.google.com/magazine/pixel-11-design\", \"imageURL\": \"https://lh3.googleusercontent.com/cZbajDzcwE1gz-hOQ19d-qvXQ3PncXA_3c6LD7mZjC16q8yj9gdL-WD4PY0xbiNesoiVeNb5qYwKcc1pdHUJwIJ7fk-s5QLCNg\", \"imageAltText\": \"Die Kameraleiste des Google Pixel 11 Pro mit sanft leuchtendem HiLight\"}, {\"title\": \"Halte die Action fest, ohne den Moment zu verpassen.\", \"url\": \"https://store.google.com/magazine/pixel-magic-capture\", \"imageURL\": \"https://lh3.googleusercontent.com/IHFwhGnGPIXM-unwcBIoQ_1AkPFEP1DeWhzUHbHyyKOBftU7h1enDDgUfJGvTUQEvnQUEhJW-wXvPeQc3zvANRVIhfbF_t4Ua3Rr\", \"imageAltText\": \"Eine Mutter und eine Tochter, die fröhlich aussehen und für ein Foto lächeln.\"}, {\"title\": \"Google Pixel 11 – Datenschutz und Sicherheit: Fortschrittlicher Schutz für deine persönlichen Daten\", \"url\": \"https://store.google.com/magazine/pixel-safe\", \"imageURL\": \"https://lh3.googleusercontent.com/jOAnQZ237MGSNC_nMkTlBdz-SnuukIZ9IQK-cVQL0xUNXAFWrrPz2HQT32qwwaUXiwgJSyO0CAK9ym5Qd-2XlADGy4ue_G9jlkA\", \"imageAltText\": \"Eine Person hält ein Google Pixel 11 Pro Fold. Unten links im Bild ist ein Symbol zum Verriegeln zu sehen.\"}, {\"title\": \"Die Leistung des Google Pixel 11: Genug Energie für den ganzen Tag.\", \"url\": \"https://store.google.com/magazine/pixel-performance\", \"imageURL\": \"https://lh3.googleusercontent.com/3R686kSYuL3kFXhiZB_l4_X24GCbu9F2UitvwWMbbryzdR-hvESmIs4faSX889F4eIN4zvBo3f2AbtSDkASNZTCHIlMd_fyUtg\", \"imageAltText\": \"Google Tensor G6-Prozessor\"}]}"
+    }
+   ]
   },
   {
    "url": "https://store.google.com/de/product/pixel_buds_pro_2",
@@ -730,6 +764,7 @@
     "https://store.google.com/de/product/google_tv_streamer",
     "https://store.google.com/de/product/nest_hub_2nd_gen",
     "https://store.google.com/de/product/nest_wifi_pro",
+    "https://store.google.com/de/product/pixel_buds_pro_2_specs",
     "https://store.google.com/de/config/pixel_buds_pro_2",
     "https://store.google.com/de/config/pixel_buds_2a",
     "https://store.google.com/de/config/pixel_11_pro",
@@ -763,7 +798,7 @@
    "tiles": [],
    "price_texts": [],
    "items_by_source": {},
-   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Pixel Buds Pro 2: Kabellose Kopfhörer von Google - Google Store Menü Google Pixel Buds Pro 2 169 € 249 € 80 € Rabatt oder 7,04 €/Monat bei Finanzierung über 24 Monate* Üblicher Verkaufspreis: 249 € Kaufen So klingt die Zukunft. 169 € 249 € 80 € Rabatt oder 7,04 €/Monat bei Finanzierung über 24 Monate* Üblicher Verkaufspreis: 249 € Kaufen Farbe: Porcelain Folie 1 von 4 1 / 4 Draufsicht auf ein Paar Pixel Buds Pro 2 in der Farbe Porcelain. Bild 1 von 4. Erhalte 80 € Rabatt beim Kauf bei den Google Pixel Buds Pro 2. Das Angebot endet am 01.12.^ Kaufen So klingt die Zukunft. Google Pixel Buds im Vergleich Sound, der sich an deine Welt anpasst. Google Tensor A1 unterdrückt doppelt so viele Geräusche1 Drehen für einen sicheren und bequemen Sitz. Bis zu 30 Stunden Wiedergabezeit (mit Lade-Case).2 Sprich live mit Gemini.3 Sound, der sich an deine Welt anpasst. Die automatische Audiooptimierung passt sich automatisch an die Geräusche in deiner Umgebung an.4 Sie verringert die Geräusche und unterdrückt Ablenkungen in lauten Umgebungen. So lässt es sich angenehm hören, während du deine Umgebung weiterhin wahrnimmst. Erstklassiger Sound auf Profi-Niveau. Die Google Pixel Buds Pro 2 bieten dir eine klare und beeindruckende Soundqualität. Der hochauflösende 24‑Bit/96 Hz-Opus HD-Codec sorgt in Kombinati",
+   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Pixel Buds Pro 2: Kabellose Kopfhörer von Google - Google Store Google Pixel Buds Pro 2 Übersicht Technische Daten Vergleichen 169 €249 € oder 7,04 €/Monat bei Finanzierung über 24 Monate* Üblicher Verkaufspreis: 249 € Kaufen So klingt die Zukunft. 169 € 249 € 80 € Rabatt oder 7,04 €/Monat bei Finanzierung über 24 Monate* Üblicher Verkaufspreis: 249 € Kaufen Farbe: Porcelain Folie 1 von 4 1 / 4 Draufsicht auf ein Paar Pixel Buds Pro 2 in der Farbe Porcelain. Bild 1 von 4. Erhalte 80 € Rabatt beim Kauf bei den Google Pixel Buds Pro 2. Das Angebot endet am 01.12.^ Kaufen So klingt die Zukunft. Google Pixel Buds im Vergleich Sound, der sich an deine Welt anpasst. Google Tensor A1 unterdrückt doppelt so viele Geräusche1 Drehen für einen sicheren und bequemen Sitz. Bis zu 30 Stunden Wiedergabezeit (mit Lade-Case).2 Sprich live mit Gemini.3 Sound, der sich an deine Welt anpasst. Die automatische Audiooptimierung passt sich automatisch an die Geräusche in deiner Umgebung an.4 Sie verringert die Geräusche und unterdrückt Ablenkungen in lauten Umgebungen. So lässt es sich angenehm hören, während du deine Umgebung weiterhin wahrnimmst. Erstklassiger Sound auf Profi-Niveau. Die Google Pixel Buds Pro 2 bieten dir eine klare und beeindruckende Soundqualität. Der hochauflösende 24‑Bit/96 Hz-Opus HD-Cod",
    "json_samples": [
     {
      "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
@@ -801,6 +836,7 @@
     "https://store.google.com/de/product/google_tv_streamer",
     "https://store.google.com/de/product/nest_hub_2nd_gen",
     "https://store.google.com/de/product/nest_wifi_pro",
+    "https://store.google.com/de/product/pixel_buds_2a_specs",
     "https://store.google.com/de/config/pixel_buds_2a",
     "https://store.google.com/de/config/pixel_buds_pro_2",
     "https://store.google.com/de/config/pixel_11",
@@ -810,7 +846,7 @@
    "tiles": [],
    "price_texts": [],
    "items_by_source": {},
-   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Google Pixel Buds 2a Menü Google Pixel Buds 2a 119 € 149 € 30 € Rabatt oder 39,67 €/Monat in 3 monatlichen Raten Üblicher Verkaufspreis: 149 € Kaufen Satter Sound. Sitzen perfekt. 119 € 149 € 30 € Rabatt oder 39,67 €/Monat in 3 monatlichen Raten Üblicher Verkaufspreis: 149 € Kaufen Farbe: Fog Folie 1 von 4 1 / 4 Pixel Buds 2a in der Farbe Fog. Bild 1 von 4. Erhalte 30 € Rabatt beim Kauf bei den Google Pixel Buds 2a. Das Angebot endet am 01.12.^ Kaufen Ein, Akku, der lange hält. Google Pixel Buds im Vergleich Aktive Geräuschunterdrückung. Für einen bequemen Sitz drehen. Bis zu 20 Stunden Wiedergabezeit (mit Lade-Case).1 Schweiß‑ und wasserabweisend.2 Unterstützung per Sprachbefehl mit Gemini.3 Drehen für den perfekten Sitz Mit dem drehbaren Stabilisator kannst du deine Google Pixel Buds 2a beim Training oder auf dem Weg zur Arbeit sicher im Ohr halten. Der drehbare Stabilisator deiner Pixel Buds 2a passt sich ganz einfach an deine Aktivitäten an. Höre nur das, was du hören möchtest. Erstmals bei Kopfhörern der A-Series kannst du die aktive Geräuschunterdrückung verwenden, um Außengeräusche zu blockieren – für einen klaren Sound. Außerdem kannst du in den Transparenzmodus wechseln, wenn du die Welt um dich herum hören möchtest. Jeder Ton, kristallklar. Das innovative Akustikdesign und der d",
+   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Google Pixel Buds 2a Google Pixel Buds 2a Übersicht Technische Daten Vergleichen 119 €149 € oder 39,67 €/Monat in 3 monatlichen Raten Üblicher Verkaufspreis: 149 € Kaufen Satter Sound. Sitzen perfekt. 119 € 149 € 30 € Rabatt oder 39,67 €/Monat in 3 monatlichen Raten Üblicher Verkaufspreis: 149 € Kaufen Farbe: Fog Folie 1 von 4 1 / 4 Pixel Buds 2a in der Farbe Fog. Bild 1 von 4. Erhalte 30 € Rabatt beim Kauf bei den Google Pixel Buds 2a. Das Angebot endet am 01.12.^ Kaufen Ein, Akku, der lange hält. Google Pixel Buds im Vergleich Aktive Geräuschunterdrückung. Für einen bequemen Sitz drehen. Bis zu 20 Stunden Wiedergabezeit (mit Lade-Case).1 Schweiß‑ und wasserabweisend.2 Unterstützung per Sprachbefehl mit Gemini.3 Drehen für den perfekten Sitz Mit dem drehbaren Stabilisator kannst du deine Google Pixel Buds 2a beim Training oder auf dem Weg zur Arbeit sicher im Ohr halten. Der drehbare Stabilisator deiner Pixel Buds 2a passt sich ganz einfach an deine Aktivitäten an. Höre nur das, was du hören möchtest. Erstmals bei Kopfhörern der A-Series kannst du die aktive Geräuschunterdrückung verwenden, um Außengeräusche zu blockieren – für einen klaren Sound. Außerdem kannst du in den Transparenzmodus wechseln, wenn du die Welt um dich herum hören möchtest. Jeder Ton, kristallklar. Das innovative Ak",
    "json_samples": [
     {
      "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
@@ -848,15 +884,20 @@
     "https://store.google.com/de/product/google_tv_streamer",
     "https://store.google.com/de/product/nest_hub_2nd_gen",
     "https://store.google.com/de/product/nest_wifi_pro",
-    "https://store.google.com/de/config/nest_cam_battery",
+    "https://store.google.com/de/product/nest_cam_battery_specs",
+    "https://store.google.com/de/product/nest_cam_battery_setup",
     "https://store.google.com/de/product/google_home_premium"
    ],
    "tiles": [],
    "price_texts": [],
-   "items_by_source": {
-    "dom-from": 1
-   },
-   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Nest Cam (mit Akku) – Google Store Menü Nest Cam (Outdoor oder Indoor | mit Akku) Ab 199,99 € oder 8,33 €/Monat bei Finanzierung über 24 Monate* Kaufen Die intelligente Kamera. Einfach überall platzieren. Die akkubetriebene intelligente Überwachungskamera für dein Zuhause. Benachrichtigungen für alles, was wichtig ist. Nest Cam kann sogar Personen und Fahrzeuge unterscheiden, sodass du genau die Benachrichtigungen einrichten kannst, die du brauchst.1,2 Drinnen oder draußen, bei jedem Wetter. Nest Cam ist witterungsbeständig und akkubetrieben. Sie passt deshalb so gut wie überall hin – ins Wohnzimmer oder in den Garten.2 Sofort aktiv werden, wenn es nötig ist. Wenn etwas passiert, kannst du direkt über die Google Home App auf die Benachrichtigung reagieren.1 Deine Kamera individuell anpassen. Mit einem Standfuß und anderem Zubehör passt Nest Cam in jedes Zuhause. Benachrichtigungen für alles, was wichtig ist. Wer ist im Garten? Ist die Zeitung schon da? Dank Livestream rund um die Uhr und 3 Stunden ereignisbasiertem Videoverlauf ohne kostenpflichtiges Abo 4 behältst du mit Nest Cam dein Zuhause im Blick.1,2 Intelligentere Benachrichtigungen. Alles gut im Blick. Reise in die Vergangenheit. Nest Cam ist eine intelligente Kamera, die dich über Personen, Tiere und Fahrzeuge benachrichtigen kan"
+   "items_by_source": {},
+   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Nest Cam (mit Akku) – Google Store Nest Cam (Outdoor oder Indoor | mit Akku) Überblick Technische Daten Vergleichen So gehts Ab 199,99 € oder 8,33 €/Monat bei Finanzierung über 24 Monate* Kaufen Die intelligente Kamera. Einfach überall platzieren. Die akkubetriebene intelligente Überwachungskamera für dein Zuhause. Benachrichtigungen für alles, was wichtig ist. Nest Cam kann sogar Personen und Fahrzeuge unterscheiden, sodass du genau die Benachrichtigungen einrichten kannst, die du brauchst.1,2 Drinnen oder draußen, bei jedem Wetter. Nest Cam ist witterungsbeständig und akkubetrieben. Sie passt deshalb so gut wie überall hin – ins Wohnzimmer oder in den Garten.2 Sofort aktiv werden, wenn es nötig ist. Wenn etwas passiert, kannst du direkt über die Google Home App auf die Benachrichtigung reagieren.1 Deine Kamera individuell anpassen. Mit einem Standfuß und anderem Zubehör passt Nest Cam in jedes Zuhause. Benachrichtigungen für alles, was wichtig ist. Wer ist im Garten? Ist die Zeitung schon da? Dank Livestream rund um die Uhr und 3 Stunden ereignisbasiertem Videoverlauf ohne kostenpflichtiges Abo 4 behältst du mit Nest Cam dein Zuhause im Blick.1,2 Intelligentere Benachrichtigungen. Alles gut im Blick. Reise in die Vergangenheit. Nest Cam ist eine intelligente Kamera, die dich über Person",
+   "json_samples": [
+    {
+     "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
+     "body": "[null, null, null, null, null, null, null, null, null, null, 0]"
+    }
+   ]
   },
   {
    "url": "https://store.google.com/de/config/nest_cam_battery",
@@ -930,13 +971,14 @@
     "https://store.google.com/de/product/google_tv_streamer",
     "https://store.google.com/de/product/nest_hub_2nd_gen",
     "https://store.google.com/de/product/nest_wifi_pro",
+    "https://store.google.com/de/product/nest_cam_outdoor_wired_2nd_gen_specs",
     "https://store.google.com/de/product/google_home_premium",
     "https://store.google.com/de/config/nest_cam_battery"
    ],
    "tiles": [],
    "price_texts": [],
    "items_by_source": {},
-   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Nest Cam (Outdoor, mit Kabel) Menü Nest Cam (Outdoor, mit Kabel, 2. Gen.) 149,99 € oder 6,25 €/Monat bei Finanzierung über 24 Monate* Kaufen Mit 2K alles im Blick. Mit KI genauer informiert. Mit Gemini, der leistungsstärksten KI von Google, ist dein Zuhause sicherer. Für die Funktionen ist ein Google Home Premium Abo erforderlich (separat erhältlich).3,4,5 149,99 € oder 6,25 €/Monat bei Finanzierung über 24 Monate* Kaufen Folie 1 von 4 1 / 4 Eine Nest mit Kabel in der Farbe Snow, an der Außenfassade eines Hauses in Teal Blue angebracht Bild 1 von 4. Beim Kauf einer Nest Cam (Outdoor, mit Kabel, 2. Generation) kannst du 1 Monat lang Google Home Premium testen. Für ein Smart Home mit durchsuchbarem Videoverlauf, detaillierten Ereignisbeschreibungen, 10‑tägigem lückenlosem Videoverlauf und weiteren praktischen Funktionen.5,6 Mehr erfahren Die intelligentere Nest Cam Outdoor mit Kabel, die noch mehr zu bieten hat.3 Kameras vergleichen Noch mehr Funktionen mit Gemini.5 Gehe zurück, um zu sehen, was du verpasst hast.7 2K-Video Live-Stream – bei Tag und Nacht.4,7 Kompatibel mit deinen bevorzugten kompatiblen Geräten.7 Für den Schutz deiner Daten konzipiert. Von DXOMARK als beste Außenkamera 2026 bewertet.1,2 Die leistungsstarke und intelligente Sicherheitslösung für dein Zuhause, entwickelt mit",
+   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Nest Cam (Outdoor, mit Kabel) Nest Cam (Outdoor, mit Kabel, 2. Gen.) Übersicht Technische Daten Vergleichen 149,99 € oder 6,25 €/Monat bei Finanzierung über 24 Monate* In den Einkaufswagen Mit 2K alles im Blick. Mit KI genauer informiert. Mit Gemini, der leistungsstärksten KI von Google, ist dein Zuhause sicherer. Für die Funktionen ist ein Google Home Premium Abo erforderlich (separat erhältlich).3,4,5 149,99 € oder 6,25 €/Monat bei Finanzierung über 24 Monate* Kaufen Folie 1 von 4 1 / 4 Eine Nest mit Kabel in der Farbe Snow, an der Außenfassade eines Hauses in Teal Blue angebracht Bild 1 von 4. Beim Kauf einer Nest Cam (Outdoor, mit Kabel, 2. Generation) kannst du 1 Monat lang Google Home Premium testen. Für ein Smart Home mit durchsuchbarem Videoverlauf, detaillierten Ereignisbeschreibungen, 10‑tägigem lückenlosem Videoverlauf und weiteren praktischen Funktionen.5,6 Mehr erfahren Die intelligentere Nest Cam Outdoor mit Kabel, die noch mehr zu bieten hat.3 Kameras vergleichen Noch mehr Funktionen mit Gemini.5 Gehe zurück, um zu sehen, was du verpasst hast.7 2K-Video Live-Stream – bei Tag und Nacht.4,7 Kompatibel mit deinen bevorzugten kompatiblen Geräten.7 Für den Schutz deiner Daten konzipiert. Von DXOMARK als beste Außenkamera 2026 bewertet.1,2 Die leistungsstarke und intelligente Si",
    "json_samples": [
     {
      "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
@@ -951,7 +993,7 @@
    "title": "Google Store für Geräte und Zubehör von Google",
    "json_urls": [
     "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
-    "https://store.google.com/intl/de/ideas/feed/de-storefront.json?c=1795044774309"
+    "https://store.google.com/intl/de/ideas/feed/de-storefront.json?c=1795114779209"
    ],
    "links": [
     "https://store.google.com/de/product/pixel_11_pro",
@@ -990,10 +1032,18 @@
    ],
    "tiles": [],
    "price_texts": [],
-   "items_by_source": {
-    "dom-from": 1
-   },
-   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Google Store für Geräte und Zubehör von Google Black Friday-Angebote ansehen Beliebt im Google Store. Black Friday-Angebot Google Pixel 11 Pro und Pro XL Ab 899 € 1.099 € 200 € Rabatt Üblicher Verkaufspreis: 1.199 € Kaufen Black Friday-Angebot Google Pixel 11 Pro Fold Ab 1.999 € Kaufen Black Friday-Angebot Google Pixel 11 Ab 699 € 899 € 200 € Rabatt Üblicher Verkaufspreis: 999 € Kaufen Black Friday-Angebot Google Pixel Watch 5 Ab 349 € 419 € 70 € Rabatt Üblicher Verkaufspreis: 419 € Kaufen Black Friday-Angebot Google Pixel Buds Pro 2 169 € 249 € 80 € Rabatt Üblicher Verkaufspreis: 249 € Kaufen Neu Google Fitbit Edge Ab 179,99 € Kaufen Neu Google Fitbit Air 99,99 € Kaufen Black Friday-Angebot Google Home Speaker 119,99 € Kaufen Black Friday-Angebot Google Pixel 10a Ab 429 € 649 € 220 € Rabatt Üblicher Verkaufspreis: 649 € Kaufen Black Friday-Angebot Google Pixel Buds 2a 119 € 149 € 30 € Rabatt Üblicher Verkaufspreis: 149 € Kaufen Nest Cam (Outdoor, mit Kabel, 2. Gen.) 149,99 € Kaufen Black Friday-Angebot Nest Cam (Indoor, mit Kabel, 3. Gen.) 69,99 € 99,99 € 30 € Rabatt Üblicher Verkaufspreis: 99,99 € Kaufen Die Black-Friday-Angebote sind da. Erhalte bis zu 200 € Rabatt beim Kauf eines Google Pixel 11 Pro oder Pro XL.^ Alle Angebote enden am 01.12. Ab 899 € 1.099 € 200 € Rabatt Üblicher Ver"
+   "items_by_source": {},
+   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Google Store für Geräte und Zubehör von Google Black Friday-Angebote ansehen Beliebt im Google Store. Black Friday-Angebot Google Pixel 11 Pro und Pro XL Ab 899 € 1.099 € 200 € Rabatt Üblicher Verkaufspreis: 1.199 € Kaufen Black Friday-Angebot Google Pixel 11 Pro Fold Ab 1.999 € Kaufen Black Friday-Angebot Google Pixel 11 Ab 699 € 899 € 200 € Rabatt Üblicher Verkaufspreis: 999 € Kaufen Black Friday-Angebot Google Pixel Watch 5 Ab 349 € 419 € 70 € Rabatt Üblicher Verkaufspreis: 419 € Kaufen Black Friday-Angebot Google Pixel Buds Pro 2 169 € 249 € 80 € Rabatt Üblicher Verkaufspreis: 249 € Kaufen Neu Google Fitbit Edge Ab 179,99 € Kaufen Neu Google Fitbit Air 99,99 € Kaufen Black Friday-Angebot Google Home Speaker 119,99 € Kaufen Black Friday-Angebot Google Pixel 10a Ab 429 € 649 € 220 € Rabatt Üblicher Verkaufspreis: 649 € Kaufen Black Friday-Angebot Google Pixel Buds 2a 119 € 149 € 30 € Rabatt Üblicher Verkaufspreis: 149 € Kaufen Nest Cam (Outdoor, mit Kabel, 2. Gen.) 149,99 € Kaufen Black Friday-Angebot Nest Cam (Indoor, mit Kabel, 3. Gen.) 69,99 € 99,99 € 30 € Rabatt Üblicher Verkaufspreis: 99,99 € Kaufen Die Black-Friday-Angebote sind da. Erhalte bis zu 200 € Rabatt beim Kauf eines Google Pixel 11 Pro oder Pro XL.^ Alle Angebote enden am 01.12. Ab 899 € 1.099 € 200 € Rabatt Üblicher Ver",
+   "json_samples": [
+    {
+     "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
+     "body": "[null, null, null, null, null, null, null, null, null, null, 0]"
+    },
+    {
+     "url": "https://store.google.com/intl/de/ideas/feed/de-storefront.json?c=1795114779209",
+     "body": "{\"articles\": [{\"title\": \"Pixel HiLight: Wichtige Benachrichtigungen und Anrufe bemerken, ohne aufs Display zu schauen.\", \"url\": \"https://store.google.com/magazine/pixel-hilight-notifications\", \"imageURL\": \"https://lh3.googleusercontent.com/n9S5DfuRRTDCFo5cO7b5MwoBRWw4Wuo0b3bABzXIAIRRA7CJztq7tEoDQ-iCwv5tAu8KvFvf6HtCfKenav6-bsqYobCLTMgw6A\", \"imageAltText\": \"HiLight leuchtet auf der Kameraleiste des Pixel 11 Pro\"}, {\"title\": \"Google Pixel 11-Wunderschön veredelt.\\nUnd für das echte Leben entwickelt.\", \"url\": \"https://store.google.com/magazine/pixel-11-design\", \"imageURL\": \"https://lh3.googleusercontent.com/cZbajDzcwE1gz-hOQ19d-qvXQ3PncXA_3c6LD7mZjC16q8yj9gdL-WD4PY0xbiNesoiVeNb5qYwKcc1pdHUJwIJ7fk-s5QLCNg\", \"imageAltText\": \"Die Kameraleiste des Google Pixel 11 Pro mit sanft leuchtendem HiLight\"}, {\"title\": \"Halte die Action fest, ohne den Moment zu verpassen.\", \"url\": \"https://store.google.com/magazine/pixel-magic-capture\", \"imageURL\": \"https://lh3.googleusercontent.com/IHFwhGnGPIXM-unwcBIoQ_1AkPFEP1DeWhzUHbHyyKOBftU7h1enDDgUfJGvTUQEvnQUEhJW-wXvPeQc3zvANRVIhfbF_t4Ua3Rr\", \"imageAltText\": \"Eine Mutter und eine Tochter, die fröhlich aussehen und für ein Foto lächeln.\"}, {\"title\": \"Google Pixel 11 – Datenschutz und Sicherheit: Fortschrittlicher Schutz für deine persönlichen Daten\", \"url\": \"https://store.google.com/magazine/pixel-safe\", \"imageURL\": \"https://lh3.googleusercontent.com/jOAnQZ237MGSNC_nMkTlBdz-SnuukIZ9IQK-cVQL0xUNXAFWrrPz2HQT32qwwaUXiwgJSyO0CAK9ym5Qd-2XlADGy4ue_G9jlkA\", \"imageAltText\": \"Eine Person hält ein Google Pixel 11 Pro Fold. Unten links im Bild ist ein Symbol zum Verriegeln zu sehen.\"}, {\"title\": \"Die Leistung des Google Pixel 11: Genug Energie für den ganzen Tag.\", \"url\": \"https://store.google.com/magazine/pixel-performance\", \"imageURL\": \"https://lh3.googleusercontent.com/3R686kSYuL3kFXhiZB_l4_X24GCbu9F2UitvwWMbbryzdR-hvESmIs4faSX889F4eIN4zvBo3f2AbtSDkASNZTCHIlMd_fyUtg\", \"imageAltText\": \"Google Tensor G6-Prozessor\"}]}"
+    }
+   ]
   },
   {
    "url": "https://store.google.com/de/product/nest_cam_floodlight",
@@ -1025,12 +1075,13 @@
     "https://store.google.com/de/product/google_tv_streamer",
     "https://store.google.com/de/product/nest_hub_2nd_gen",
     "https://store.google.com/de/product/nest_wifi_pro",
+    "https://store.google.com/de/product/nest_cam_floodlight_specs",
     "https://store.google.com/de/config/nest_cam_floodlight"
    ],
    "tiles": [],
    "price_texts": [],
    "items_by_source": {},
-   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Nest Cam mit Flutlicht – Google Store Menü Nest Cam mit Flutlicht – Außen | mit Kabel 299,99 € oder 12,50 €/Monat bei Finanzierung über 24 Monate* Kaufen Die intelligente Kamera mit Flutlicht. Einfach mehr im Blick. Kaufen Einfach und intelligent: Die Kamera mit Flutlicht Es werde Licht. Durch die intelligenten Benachrichtigungen bleibst du besser darüber informiert, ob etwas Wichtiges passiert. Außerdem kann die Kamera zwischen Personen, Fahrzeugen und Tieren unterscheiden.1 Ein Flutlicht so individuell wie deine Anforderungen. Du stellst die Helligkeit und Empfindlichkeit des Flutlichts selbst ein und entscheidest, wie lange das Licht leuchten soll. Außerdem hast du die Möglichkeit, individuelle Abläufe zu erstellen. 1 Schnell reagieren. Du kannst die Kamera einfach per Sprachbefehl einschalten und sogar über sie sprechen.1 Privates bleibt privat. Durch die Bestätigung in zwei Schritten werden deine Daten besser geschützt. Anhand der grünen LED erkennst du außerdem, ob die Kamera gerade aufnimmt. Es werde Licht. Dank Nest Cam und intelligenten Benachrichtigungen bleibst du besser darüber informiert, ob etwas Wichtiges passiert. Außerdem kannst du einstellen, dass Nest Cam automatisch das Flutlicht einschaltet, wenn sich etwas tut, und dich anschließend benachrichtigt.1 Intelligente Bena",
+   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Nest Cam mit Flutlicht – Google Store Nest Cam mit Flutlicht – Außen | mit Kabel Übersicht Technische Daten Vergleichen 299,99 € oder 12,50 €/Monat bei Finanzierung über 24 Monate* Kaufen Die intelligente Kamera mit Flutlicht. Einfach mehr im Blick. Kaufen Einfach und intelligent: Die Kamera mit Flutlicht Es werde Licht. Durch die intelligenten Benachrichtigungen bleibst du besser darüber informiert, ob etwas Wichtiges passiert. Außerdem kann die Kamera zwischen Personen, Fahrzeugen und Tieren unterscheiden.1 Ein Flutlicht so individuell wie deine Anforderungen. Du stellst die Helligkeit und Empfindlichkeit des Flutlichts selbst ein und entscheidest, wie lange das Licht leuchten soll. Außerdem hast du die Möglichkeit, individuelle Abläufe zu erstellen. 1 Schnell reagieren. Du kannst die Kamera einfach per Sprachbefehl einschalten und sogar über sie sprechen.1 Privates bleibt privat. Durch die Bestätigung in zwei Schritten werden deine Daten besser geschützt. Anhand der grünen LED erkennst du außerdem, ob die Kamera gerade aufnimmt. Es werde Licht. Dank Nest Cam und intelligenten Benachrichtigungen bleibst du besser darüber informiert, ob etwas Wichtiges passiert. Außerdem kannst du einstellen, dass Nest Cam automatisch das Flutlicht einschaltet, wenn sich etwas tut, und dich anschließend ",
    "json_samples": [
     {
      "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
@@ -1110,15 +1161,16 @@
     "https://store.google.com/de/product/google_tv_streamer",
     "https://store.google.com/de/product/nest_hub_2nd_gen",
     "https://store.google.com/de/product/nest_wifi_pro",
-    "https://store.google.com/de/config/nest_cam_indoor_wired_3rd_gen",
     "https://store.google.com/de/product/nest_cam_indoor_wired_3rd_gen",
+    "https://store.google.com/de/product/nest_cam_indoor_wired_3rd_gen_specs",
+    "https://store.google.com/de/config/nest_cam_indoor_wired_3rd_gen",
     "https://store.google.com/de/product/google_home_premium",
     "https://store.google.com/de/config/nest_cam_battery"
    ],
    "tiles": [],
    "price_texts": [],
    "items_by_source": {},
-   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Nest Cam (Indoor, mit Kabel, 3. Generation) Menü Nest Cam (Indoor, mit Kabel, 3. Gen.) 69,99 € 99,99 € 30 € Rabatt oder 23,33 €/Monat in 3 monatlichen Raten Üblicher Verkaufspreis: 99,99 € Kaufen Mehr Informationen mit 2K und Gemini. Mit Gemini, der leistungsstärksten KI von Google, ist dein Zuhause sicherer.3 ,4 ,7 ,8 69,99 € 99,99 € 30 € Rabatt oder 23,33 €/Monat in 3 monatlichen Raten Üblicher Verkaufspreis: 99,99 € Kaufen Folie 1 von 5 1 / 5 Die Nest Cam Indoor in der Farbe Snow auf einem Bücherregal Bild 1 von 5. Erhalte 30 € Rabatt beim Kauf bei der Nest Cam (Indoor, mit Kabel, 3. Gen.). Das Angebot endet am 01.12.^ Kaufen Beim Kauf einer Nest Cam (Indoor, mit Kabel, 3. Generation) kannst du 1 Monat lang Google Home Premium testen. Für ein Smart Home mit durchsuchbarem Videoverlauf, detaillierten Ereignisbeschreibungen, 10‑tägigem lückenlosem Videoverlauf und weiteren praktischen Funktionen.4,5 Mehr erfahren Die intelligentere Nest Cam Indoor mit Kabel, die noch mehr zu bieten hat.9 Kameras vergleichen Noch mehr Sicherheit mit Gemini4 Gehe zurück, um zu sehen, was du verpasst hast.4 ,8 2K-Video Live-Stream – bei Tag und Nacht.3,8 Kompatibel mit deinen bevorzugten kompatiblen Geräten.10 Für den Schutz deiner Daten konzipiert. Von DXOMARK als die Indoor-Kamera mit der besten Bildquali",
+   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Nest Cam (Indoor, mit Kabel, 3. Generation) Nest Cam (Indoor, mit Kabel, 3. Gen.) Übersicht Technische Daten Vergleichen 69,99 €99,99 € oder 23,33 €/Monat in 3 monatlichen Raten Üblicher Verkaufspreis: 99,99 € In den Einkaufswagen Mehr Informationen mit 2K und Gemini. Mit Gemini, der leistungsstärksten KI von Google, ist dein Zuhause sicherer.3 ,4 ,7 ,8 69,99 € 99,99 € 30 € Rabatt oder 23,33 €/Monat in 3 monatlichen Raten Üblicher Verkaufspreis: 99,99 € Kaufen Folie 1 von 5 1 / 5 Die Nest Cam Indoor in der Farbe Snow auf einem Bücherregal Bild 1 von 5. Erhalte 30 € Rabatt beim Kauf bei der Nest Cam (Indoor, mit Kabel, 3. Gen.). Das Angebot endet am 01.12.^ Kaufen Beim Kauf einer Nest Cam (Indoor, mit Kabel, 3. Generation) kannst du 1 Monat lang Google Home Premium testen. Für ein Smart Home mit durchsuchbarem Videoverlauf, detaillierten Ereignisbeschreibungen, 10‑tägigem lückenlosem Videoverlauf und weiteren praktischen Funktionen.4,5 Mehr erfahren Die intelligentere Nest Cam Indoor mit Kabel, die noch mehr zu bieten hat.9 Kameras vergleichen Noch mehr Sicherheit mit Gemini4 Gehe zurück, um zu sehen, was du verpasst hast.4 ,8 2K-Video Live-Stream – bei Tag und Nacht.3,8 Kompatibel mit deinen bevorzugten kompatiblen Geräten.10 Für den Schutz deiner Daten konzipiert. Von DXOMARK als die Ind",
    "json_samples": [
     {
      "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
@@ -1156,15 +1208,16 @@
     "https://store.google.com/de/product/google_tv_streamer",
     "https://store.google.com/de/product/nest_hub_2nd_gen",
     "https://store.google.com/de/product/nest_wifi_pro",
-    "https://store.google.com/de/config/nest_cam_indoor_wired_3rd_gen",
     "https://store.google.com/de/product/nest_cam_indoor_wired_3rd_gen",
+    "https://store.google.com/de/product/nest_cam_indoor_wired_3rd_gen_specs",
+    "https://store.google.com/de/config/nest_cam_indoor_wired_3rd_gen",
     "https://store.google.com/de/product/google_home_premium",
     "https://store.google.com/de/config/nest_cam_battery"
    ],
    "tiles": [],
    "price_texts": [],
    "items_by_source": {},
-   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Nest Cam (Indoor, mit Kabel, 3. Generation) Menü Nest Cam (Indoor, mit Kabel, 3. Gen.) 69,99 € 99,99 € 30 € Rabatt oder 23,33 €/Monat in 3 monatlichen Raten Üblicher Verkaufspreis: 99,99 € Kaufen Mehr Informationen mit 2K und Gemini. Mit Gemini, der leistungsstärksten KI von Google, ist dein Zuhause sicherer.3 ,4 ,7 ,8 69,99 € 99,99 € 30 € Rabatt oder 23,33 €/Monat in 3 monatlichen Raten Üblicher Verkaufspreis: 99,99 € Kaufen Folie 1 von 5 1 / 5 Die Nest Cam Indoor in der Farbe Snow auf einem Bücherregal Bild 1 von 5. Erhalte 30 € Rabatt beim Kauf bei der Nest Cam (Indoor, mit Kabel, 3. Gen.). Das Angebot endet am 01.12.^ Kaufen Beim Kauf einer Nest Cam (Indoor, mit Kabel, 3. Generation) kannst du 1 Monat lang Google Home Premium testen. Für ein Smart Home mit durchsuchbarem Videoverlauf, detaillierten Ereignisbeschreibungen, 10‑tägigem lückenlosem Videoverlauf und weiteren praktischen Funktionen.4,5 Mehr erfahren Die intelligentere Nest Cam Indoor mit Kabel, die noch mehr zu bieten hat.9 Kameras vergleichen Noch mehr Sicherheit mit Gemini4 Gehe zurück, um zu sehen, was du verpasst hast.4 ,8 2K-Video Live-Stream – bei Tag und Nacht.3,8 Kompatibel mit deinen bevorzugten kompatiblen Geräten.10 Für den Schutz deiner Daten konzipiert. Von DXOMARK als die Indoor-Kamera mit der besten Bildquali",
+   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Nest Cam (Indoor, mit Kabel, 3. Generation) Nest Cam (Indoor, mit Kabel, 3. Gen.) Übersicht Technische Daten Vergleichen 69,99 €99,99 € oder 23,33 €/Monat in 3 monatlichen Raten Üblicher Verkaufspreis: 99,99 € In den Einkaufswagen Mehr Informationen mit 2K und Gemini. Mit Gemini, der leistungsstärksten KI von Google, ist dein Zuhause sicherer.3 ,4 ,7 ,8 69,99 € 99,99 € 30 € Rabatt oder 23,33 €/Monat in 3 monatlichen Raten Üblicher Verkaufspreis: 99,99 € Kaufen Folie 1 von 5 1 / 5 Die Nest Cam Indoor in der Farbe Snow auf einem Bücherregal Bild 1 von 5. Erhalte 30 € Rabatt beim Kauf bei der Nest Cam (Indoor, mit Kabel, 3. Gen.). Das Angebot endet am 01.12.^ Kaufen Beim Kauf einer Nest Cam (Indoor, mit Kabel, 3. Generation) kannst du 1 Monat lang Google Home Premium testen. Für ein Smart Home mit durchsuchbarem Videoverlauf, detaillierten Ereignisbeschreibungen, 10‑tägigem lückenlosem Videoverlauf und weiteren praktischen Funktionen.4,5 Mehr erfahren Die intelligentere Nest Cam Indoor mit Kabel, die noch mehr zu bieten hat.9 Kameras vergleichen Noch mehr Sicherheit mit Gemini4 Gehe zurück, um zu sehen, was du verpasst hast.4 ,8 2K-Video Live-Stream – bei Tag und Nacht.3,8 Kompatibel mit deinen bevorzugten kompatiblen Geräten.10 Für den Schutz deiner Daten konzipiert. Von DXOMARK als die Ind",
    "json_samples": [
     {
      "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
@@ -1211,10 +1264,14 @@
    ],
    "tiles": [],
    "price_texts": [],
-   "items_by_source": {
-    "dom-from": 1
-   },
-   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Google Home Premium-Abo Google Home Premium Ab 10 €/Monat Abonnieren Google Home Premium mit Gemini bietet dir das volle Potenzial deines Smart Homes. Gemini, die leistungsstärkste KI von Google, macht dein Zuhause noch intelligenter und sicherer. Mit einem Abo für Google Home Premium kannst du Kameras, Lautsprecher und Displays mit Gemini verbessern.9 Ein Abo für alle deine Google Home Geräte. Mit nur einem Google Home Premium-Abo kannst du innovative Sicherheitsfunktionen für dein gesamtes Smart Home nutzen.1 Standard 10 €/Monat oder 100 €/Jahr Spare 20 € mit einem Jahresabo 30 Tage ereignisbasierter Videoverlauf2 Wichtige Punkte des Geschehens über Kameras und Türklingeln einfangen Intelligente Benachrichtigungen Intelligente Benachrichtigungen bei Personen, Fahrzeugen und Tieren2 Gemini für Zuhause1,9 Mit Gemini Live auf Lautsprecher und Displays kannst du dich ganz natürlich unterhalten und auf ein Thema eingehen Hilf mir beim Gestalten1,3 Automatisiere dein Zuhause, indem du in der Google Home App einfach eingibst, was du möchtest Advanced 18 €/Monat oder 180 €/Jahr Spare 36 € mit einem Jahresabo Alle Standardfunktionen sowie: 60 Tage ereignisbasierter Videoverlauf2 Mit Kamera- und Türklingel-Highlights noch mehr einfangen Lückenloser Videoverlauf2,4 10 Tage lang Rund-um-die-Uhr"
+   "items_by_source": {},
+   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Google Home Premium-Abo Google Home Premium Ab 10 €/Monat Abonnieren Google Home Premium mit Gemini bietet dir das volle Potenzial deines Smart Homes. Gemini, die leistungsstärkste KI von Google, macht dein Zuhause noch intelligenter und sicherer. Mit einem Abo für Google Home Premium kannst du Kameras, Lautsprecher und Displays mit Gemini verbessern.9 Ein Abo für alle deine Google Home Geräte. Mit nur einem Google Home Premium-Abo kannst du innovative Sicherheitsfunktionen für dein gesamtes Smart Home nutzen.1 Standard 10 €/Monat oder 100 €/Jahr Spare 20 € mit einem Jahresabo 30 Tage ereignisbasierter Videoverlauf2 Wichtige Punkte des Geschehens über Kameras und Türklingeln einfangen Intelligente Benachrichtigungen Intelligente Benachrichtigungen bei Personen, Fahrzeugen und Tieren2 Gemini für Zuhause1,9 Mit Gemini Live auf Lautsprecher und Displays kannst du dich ganz natürlich unterhalten und auf ein Thema eingehen Hilf mir beim Gestalten1,3 Automatisiere dein Zuhause, indem du in der Google Home App einfach eingibst, was du möchtest Advanced 18 €/Monat oder 180 €/Jahr Spare 36 € mit einem Jahresabo Alle Standardfunktionen sowie: 60 Tage ereignisbasierter Videoverlauf2 Mit Kamera- und Türklingel-Highlights noch mehr einfangen Lückenloser Videoverlauf2,4 10 Tage lang Rund-um-die-Uhr",
+   "json_samples": [
+    {
+     "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
+     "body": "[null, null, null, null, null, null, null, null, null, null, 0]"
+    }
+   ]
   },
   {
    "url": "https://store.google.com/de/config/nest_aware",
@@ -1223,7 +1280,7 @@
    "title": "Google Store für Geräte und Zubehör von Google",
    "json_urls": [
     "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
-    "https://store.google.com/intl/de/ideas/feed/de-storefront.json?c=1795044801435"
+    "https://store.google.com/intl/de/ideas/feed/de-storefront.json?c=1795114799519"
    ],
    "links": [
     "https://store.google.com/de/product/pixel_11_pro",
@@ -1262,10 +1319,18 @@
    ],
    "tiles": [],
    "price_texts": [],
-   "items_by_source": {
-    "dom-from": 1
-   },
-   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Google Store für Geräte und Zubehör von Google Black Friday-Angebote ansehen Beliebt im Google Store. Black Friday-Angebot Google Pixel 11 Pro und Pro XL Ab 899 € 1.099 € 200 € Rabatt Üblicher Verkaufspreis: 1.199 € Kaufen Black Friday-Angebot Google Pixel 11 Pro Fold Ab 1.999 € Kaufen Black Friday-Angebot Google Pixel 11 Ab 699 € 899 € 200 € Rabatt Üblicher Verkaufspreis: 999 € Kaufen Black Friday-Angebot Google Pixel Watch 5 Ab 349 € 419 € 70 € Rabatt Üblicher Verkaufspreis: 419 € Kaufen Black Friday-Angebot Google Pixel Buds Pro 2 169 € 249 € 80 € Rabatt Üblicher Verkaufspreis: 249 € Kaufen Neu Google Fitbit Edge Ab 179,99 € Kaufen Neu Google Fitbit Air 99,99 € Kaufen Black Friday-Angebot Google Home Speaker 119,99 € Kaufen Black Friday-Angebot Google Pixel 10a Ab 429 € 649 € 220 € Rabatt Üblicher Verkaufspreis: 649 € Kaufen Black Friday-Angebot Google Pixel Buds 2a 119 € 149 € 30 € Rabatt Üblicher Verkaufspreis: 149 € Kaufen Nest Cam (Outdoor, mit Kabel, 2. Gen.) 149,99 € Kaufen Black Friday-Angebot Nest Cam (Indoor, mit Kabel, 3. Gen.) 69,99 € 99,99 € 30 € Rabatt Üblicher Verkaufspreis: 99,99 € Kaufen Die Black-Friday-Angebote sind da. Erhalte bis zu 200 € Rabatt beim Kauf eines Google Pixel 11 Pro oder Pro XL.^ Alle Angebote enden am 01.12. Ab 899 € 1.099 € 200 € Rabatt Üblicher Ver"
+   "items_by_source": {},
+   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Google Store für Geräte und Zubehör von Google Black Friday-Angebote ansehen Beliebt im Google Store. Black Friday-Angebot Google Pixel 11 Pro und Pro XL Ab 899 € 1.099 € 200 € Rabatt Üblicher Verkaufspreis: 1.199 € Kaufen Black Friday-Angebot Google Pixel 11 Pro Fold Ab 1.999 € Kaufen Black Friday-Angebot Google Pixel 11 Ab 699 € 899 € 200 € Rabatt Üblicher Verkaufspreis: 999 € Kaufen Black Friday-Angebot Google Pixel Watch 5 Ab 349 € 419 € 70 € Rabatt Üblicher Verkaufspreis: 419 € Kaufen Black Friday-Angebot Google Pixel Buds Pro 2 169 € 249 € 80 € Rabatt Üblicher Verkaufspreis: 249 € Kaufen Neu Google Fitbit Edge Ab 179,99 € Kaufen Neu Google Fitbit Air 99,99 € Kaufen Black Friday-Angebot Google Home Speaker 119,99 € Kaufen Black Friday-Angebot Google Pixel 10a Ab 429 € 649 € 220 € Rabatt Üblicher Verkaufspreis: 649 € Kaufen Black Friday-Angebot Google Pixel Buds 2a 119 € 149 € 30 € Rabatt Üblicher Verkaufspreis: 149 € Kaufen Nest Cam (Outdoor, mit Kabel, 2. Gen.) 149,99 € Kaufen Black Friday-Angebot Nest Cam (Indoor, mit Kabel, 3. Gen.) 69,99 € 99,99 € 30 € Rabatt Üblicher Verkaufspreis: 99,99 € Kaufen Die Black-Friday-Angebote sind da. Erhalte bis zu 200 € Rabatt beim Kauf eines Google Pixel 11 Pro oder Pro XL.^ Alle Angebote enden am 01.12. Ab 899 € 1.099 € 200 € Rabatt Üblicher Ver",
+   "json_samples": [
+    {
+     "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
+     "body": "[null, null, null, null, null, null, null, null, null, null, 0]"
+    },
+    {
+     "url": "https://store.google.com/intl/de/ideas/feed/de-storefront.json?c=1795114799519",
+     "body": "{\"articles\": [{\"title\": \"Pixel HiLight: Wichtige Benachrichtigungen und Anrufe bemerken, ohne aufs Display zu schauen.\", \"url\": \"https://store.google.com/magazine/pixel-hilight-notifications\", \"imageURL\": \"https://lh3.googleusercontent.com/n9S5DfuRRTDCFo5cO7b5MwoBRWw4Wuo0b3bABzXIAIRRA7CJztq7tEoDQ-iCwv5tAu8KvFvf6HtCfKenav6-bsqYobCLTMgw6A\", \"imageAltText\": \"HiLight leuchtet auf der Kameraleiste des Pixel 11 Pro\"}, {\"title\": \"Google Pixel 11-Wunderschön veredelt.\\nUnd für das echte Leben entwickelt.\", \"url\": \"https://store.google.com/magazine/pixel-11-design\", \"imageURL\": \"https://lh3.googleusercontent.com/cZbajDzcwE1gz-hOQ19d-qvXQ3PncXA_3c6LD7mZjC16q8yj9gdL-WD4PY0xbiNesoiVeNb5qYwKcc1pdHUJwIJ7fk-s5QLCNg\", \"imageAltText\": \"Die Kameraleiste des Google Pixel 11 Pro mit sanft leuchtendem HiLight\"}, {\"title\": \"Halte die Action fest, ohne den Moment zu verpassen.\", \"url\": \"https://store.google.com/magazine/pixel-magic-capture\", \"imageURL\": \"https://lh3.googleusercontent.com/IHFwhGnGPIXM-unwcBIoQ_1AkPFEP1DeWhzUHbHyyKOBftU7h1enDDgUfJGvTUQEvnQUEhJW-wXvPeQc3zvANRVIhfbF_t4Ua3Rr\", \"imageAltText\": \"Eine Mutter und eine Tochter, die fröhlich aussehen und für ein Foto lächeln.\"}, {\"title\": \"Google Pixel 11 – Datenschutz und Sicherheit: Fortschrittlicher Schutz für deine persönlichen Daten\", \"url\": \"https://store.google.com/magazine/pixel-safe\", \"imageURL\": \"https://lh3.googleusercontent.com/jOAnQZ237MGSNC_nMkTlBdz-SnuukIZ9IQK-cVQL0xUNXAFWrrPz2HQT32qwwaUXiwgJSyO0CAK9ym5Qd-2XlADGy4ue_G9jlkA\", \"imageAltText\": \"Eine Person hält ein Google Pixel 11 Pro Fold. Unten links im Bild ist ein Symbol zum Verriegeln zu sehen.\"}, {\"title\": \"Die Leistung des Google Pixel 11: Genug Energie für den ganzen Tag.\", \"url\": \"https://store.google.com/magazine/pixel-performance\", \"imageURL\": \"https://lh3.googleusercontent.com/3R686kSYuL3kFXhiZB_l4_X24GCbu9F2UitvwWMbbryzdR-hvESmIs4faSX889F4eIN4zvBo3f2AbtSDkASNZTCHIlMd_fyUtg\", \"imageAltText\": \"Google Tensor G6-Prozessor\"}]}"
+    }
+   ]
   },
   {
    "url": "https://store.google.com/de/product/nest_doorbell_battery",
@@ -1297,6 +1362,8 @@
     "https://store.google.com/de/product/google_tv_streamer",
     "https://store.google.com/de/product/nest_hub_2nd_gen",
     "https://store.google.com/de/product/nest_wifi_pro",
+    "https://store.google.com/de/product/nest_doorbell_battery_specs",
+    "https://store.google.com/de/product/nest_doorbell_battery_setup",
     "https://store.google.com/de/product/front_door_package",
     "https://store.google.com/de/product/google_home_premium",
     "https://store.google.com/de/product/outdoor_security_package"
@@ -1304,7 +1371,7 @@
    "tiles": [],
    "price_texts": [],
    "items_by_source": {},
-   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Nest-Videotürklingel (mit Akku) mit gestochen scharfen HD‑Videos Menü Nest Doorbell (mit Akku) 199,99 € oder 8,33 €/Monat bei Finanzierung über 24 Monate* Kaufen Die intelligente Türklingel. Einfach kabellos montieren. Die akkubetriebene Türklingel: So smart, dass sie dich sogar über wichtige Ereignisse informiert. Nichts mehr verpassen. So weisst du ganz genau, was an deiner Haustür vor sich geht, und wirst umgehend informiert, wenn etwas Wichtiges passiert.1 Auch von unterwegs aus Hallo sagen. Du kannst direkt auf deine Türklingel reagieren oder vorab eingerichtete Nachrichten hinterlassen. Funktioniert mit Akku und mit jeder Tür. Nest Doorbell kommt ohne Kabel aus und passt deshalb zu jedem Zuhause, ganz gleich, ob Haus oder Wohnung. Nichts mehr verpassen. Dank intelligenter Benachrichtigungen und Funktionen weißt du sofort, wenn etwas passiert, und kannst darauf antworten – von überall aus. Wissen, was los ist – mit intelligenten Benachrichtigungen. Die Nest Doorbell kann zwischen Personen, Paketen, Tieren und Fahrzeugen unterscheiden. Und weil du bei allen wichtigen Ereignissen benachrichtigt wirst, hat das Rätselraten ein Ende. Mit dem Google Home Premium-Abo hast du außerdem Zugriff auf einen 60-tägigen ereignisbasierten Videoverlauf. Gestochen scharfe Bilder bei Tag und Nacht. HDR",
+   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Nest-Videotürklingel (mit Akku) mit gestochen scharfen HD‑Videos Nest Doorbell (mit Akku) Übersicht Technische Daten Vergleichen Funktionsweise 199,99 € oder 8,33 €/Monat bei Finanzierung über 24 Monate* Jetzt anmelden & benachrichtigen lassen Die intelligente Türklingel. Einfach kabellos montieren. Die akkubetriebene Türklingel: So smart, dass sie dich sogar über wichtige Ereignisse informiert. Nichts mehr verpassen. So weisst du ganz genau, was an deiner Haustür vor sich geht, und wirst umgehend informiert, wenn etwas Wichtiges passiert.1 Auch von unterwegs aus Hallo sagen. Du kannst direkt auf deine Türklingel reagieren oder vorab eingerichtete Nachrichten hinterlassen. Funktioniert mit Akku und mit jeder Tür. Nest Doorbell kommt ohne Kabel aus und passt deshalb zu jedem Zuhause, ganz gleich, ob Haus oder Wohnung. Nichts mehr verpassen. Dank intelligenter Benachrichtigungen und Funktionen weißt du sofort, wenn etwas passiert, und kannst darauf antworten – von überall aus. Wissen, was los ist – mit intelligenten Benachrichtigungen. Die Nest Doorbell kann zwischen Personen, Paketen, Tieren und Fahrzeugen unterscheiden. Und weil du bei allen wichtigen Ereignissen benachrichtigt wirst, hat das Rätselraten ein Ende. Mit dem Google Home Premium-Abo hast du außerdem Zugriff auf einen 60-tägig",
    "json_samples": [
     {
      "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
@@ -1342,6 +1409,8 @@
     "https://store.google.com/de/product/google_tv_streamer",
     "https://store.google.com/de/product/nest_hub_2nd_gen",
     "https://store.google.com/de/product/nest_wifi_pro",
+    "https://store.google.com/de/product/nest_doorbell_battery_specs",
+    "https://store.google.com/de/product/nest_doorbell_battery_setup",
     "https://store.google.com/de/product/front_door_package",
     "https://store.google.com/de/product/google_home_premium",
     "https://store.google.com/de/product/outdoor_security_package"
@@ -1349,7 +1418,7 @@
    "tiles": [],
    "price_texts": [],
    "items_by_source": {},
-   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Nest-Videotürklingel (mit Akku) mit gestochen scharfen HD‑Videos Menü Nest Doorbell (mit Akku) 199,99 € oder 8,33 €/Monat bei Finanzierung über 24 Monate* Kaufen Die intelligente Türklingel. Einfach kabellos montieren. Die akkubetriebene Türklingel: So smart, dass sie dich sogar über wichtige Ereignisse informiert. Nichts mehr verpassen. So weisst du ganz genau, was an deiner Haustür vor sich geht, und wirst umgehend informiert, wenn etwas Wichtiges passiert.1 Auch von unterwegs aus Hallo sagen. Du kannst direkt auf deine Türklingel reagieren oder vorab eingerichtete Nachrichten hinterlassen. Funktioniert mit Akku und mit jeder Tür. Nest Doorbell kommt ohne Kabel aus und passt deshalb zu jedem Zuhause, ganz gleich, ob Haus oder Wohnung. Nichts mehr verpassen. Dank intelligenter Benachrichtigungen und Funktionen weißt du sofort, wenn etwas passiert, und kannst darauf antworten – von überall aus. Wissen, was los ist – mit intelligenten Benachrichtigungen. Die Nest Doorbell kann zwischen Personen, Paketen, Tieren und Fahrzeugen unterscheiden. Und weil du bei allen wichtigen Ereignissen benachrichtigt wirst, hat das Rätselraten ein Ende. Mit dem Google Home Premium-Abo hast du außerdem Zugriff auf einen 60-tägigen ereignisbasierten Videoverlauf. Gestochen scharfe Bilder bei Tag und Nacht. HDR",
+   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Nest-Videotürklingel (mit Akku) mit gestochen scharfen HD‑Videos Nest Doorbell (mit Akku) Übersicht Technische Daten Vergleichen Funktionsweise 199,99 € oder 8,33 €/Monat bei Finanzierung über 24 Monate* Jetzt anmelden & benachrichtigen lassen Die intelligente Türklingel. Einfach kabellos montieren. Die akkubetriebene Türklingel: So smart, dass sie dich sogar über wichtige Ereignisse informiert. Nichts mehr verpassen. So weisst du ganz genau, was an deiner Haustür vor sich geht, und wirst umgehend informiert, wenn etwas Wichtiges passiert.1 Auch von unterwegs aus Hallo sagen. Du kannst direkt auf deine Türklingel reagieren oder vorab eingerichtete Nachrichten hinterlassen. Funktioniert mit Akku und mit jeder Tür. Nest Doorbell kommt ohne Kabel aus und passt deshalb zu jedem Zuhause, ganz gleich, ob Haus oder Wohnung. Nichts mehr verpassen. Dank intelligenter Benachrichtigungen und Funktionen weißt du sofort, wenn etwas passiert, und kannst darauf antworten – von überall aus. Wissen, was los ist – mit intelligenten Benachrichtigungen. Die Nest Doorbell kann zwischen Personen, Paketen, Tieren und Fahrzeugen unterscheiden. Und weil du bei allen wichtigen Ereignissen benachrichtigt wirst, hat das Rätselraten ein Ende. Mit dem Google Home Premium-Abo hast du außerdem Zugriff auf einen 60-tägig",
    "json_samples": [
     {
      "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
@@ -1387,13 +1456,14 @@
     "https://store.google.com/de/product/google_tv_streamer",
     "https://store.google.com/de/product/nest_hub_2nd_gen",
     "https://store.google.com/de/product/nest_wifi_pro",
+    "https://store.google.com/de/product/google_home_speaker_specs",
     "https://store.google.com/de/config/google_home_speaker",
     "https://store.google.com/de/product/google_home_premium"
    ],
    "tiles": [],
    "price_texts": [],
    "items_by_source": {},
-   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Der Google Home Speaker, mit Gemini Menü Google Home Speaker 119,99 € oder 40,00 €/Monat in 3 monatlichen Raten Kaufen Klingt brillant: Der Lautsprecher mit der Magie von Gemini. Der intelligente Lautsprecher mit 360°-Sound trifft auf die Magie von Gemini – für ein noch smarteres Zuhause.2 119,99 € oder 40,00 €/Monat in 3 monatlichen Raten Kaufen Farbe: Porcelain Folie 1 von 3 1 / 3 Google Home Speaker in der Farbe Porcelain auf einem Stapel Bücher Bild 1 von 3. Erhalte 40 € Rabatt beim Kauf von zwei Google Home Speakers.^ Das Angebot endet am 01.12. Kaufen Jetzt Google Home Premium 30 Tage lang kostenlos ausprobieren Teste Google Home Premium 30 Tage lang kostenlos beim Kauf eines Google Home Speakers. Dich erwartet eine noch leistungsfähigere Version des smarten Assistenten Gemini für Home.1 Du profitierst von fachkundiger Hilfe und kannst ganz einfach sprechen, unterbrechen und Folgefragen stellen.2 Und nach Ablauf deines Probezeitraums unterstützt Gemini dich weiterhin bei alltäglichen Aufgaben, mit schnellen Antworten und mit dem Zugriff auf die Smart-Home-Steuerung.3 Mehr erfahren Der bisher umfassendste Lautsprecher von Google.4 Sprich darüber mit Gemini Live.4 Kompetente Hilfe per Sprachbefehl.4 Satter 360°-Sound. Durchdachtes Design. Mehr Datenschutz und Sicherheit. Sprich live m",
+   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Der Google Home Speaker, mit Gemini Google Home Speaker Überblick Technische Daten Vergleichen 119,99 € oder 40,00 €/Monat in 3 monatlichen Raten Kaufen Klingt brillant: Der Lautsprecher mit der Magie von Gemini. Der intelligente Lautsprecher mit 360°-Sound trifft auf die Magie von Gemini – für ein noch smarteres Zuhause.2 119,99 € oder 40,00 €/Monat in 3 monatlichen Raten Kaufen Farbe: Porcelain Folie 1 von 3 1 / 3 Google Home Speaker in der Farbe Porcelain auf einem Stapel Bücher Bild 1 von 3. Erhalte 40 € Rabatt beim Kauf von zwei Google Home Speakers.^ Das Angebot endet am 01.12. Kaufen Jetzt Google Home Premium 30 Tage lang kostenlos ausprobieren Teste Google Home Premium 30 Tage lang kostenlos beim Kauf eines Google Home Speakers. Dich erwartet eine noch leistungsfähigere Version des smarten Assistenten Gemini für Home.1 Du profitierst von fachkundiger Hilfe und kannst ganz einfach sprechen, unterbrechen und Folgefragen stellen.2 Und nach Ablauf deines Probezeitraums unterstützt Gemini dich weiterhin bei alltäglichen Aufgaben, mit schnellen Antworten und mit dem Zugriff auf die Smart-Home-Steuerung.3 Mehr erfahren Der bisher umfassendste Lautsprecher von Google.4 Sprich darüber mit Gemini Live.4 Kompetente Hilfe per Sprachbefehl.4 Satter 360°-Sound. Durchdachtes Design. Mehr Datensc",
    "json_samples": [
     {
      "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
@@ -1431,13 +1501,15 @@
     "https://store.google.com/de/product/google_tv_streamer",
     "https://store.google.com/de/product/nest_hub_2nd_gen",
     "https://store.google.com/de/product/nest_wifi_pro",
+    "https://store.google.com/de/product/google_tv_streamer_specs",
+    "https://store.google.com/de/product/gtv_streamer_apps_partners",
     "https://store.google.com/de/product/google_tv_streamer_remote",
     "https://store.google.com/de/config/pixel_buds_pro_2"
    ],
    "tiles": [],
    "price_texts": [],
    "items_by_source": {},
-   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Google TV Streamer (4K) Menü Google TV Streamer (4K) 169 € oder 7,04 €/Monat bei Finanzierung über 24 Monate* Kaufen Bestes Entertainment – ganz ohne Drama 169 € oder 7,04 €/Monat bei Finanzierung über 24 Monate* Kaufen Folie 1 von 3 1 / 3 Seitliche Ansicht des Google TV Streamer in Porcelain Bild 1 von 3. Personalisierte Unterhaltung für alle Optimale Leistung für einfache Navigation Starker Sound in jedem Raum – oder nur für dich Alle Smart‑Home-Geräte immer im Blick Ansprechendes Design, das sich bestens einfügt Perfekt auf dich abgestimmt – ganz einfach. Ein Bildschirm. Alle Möglichkeiten. Du kannst die Filme und Serien all deiner Anbieter ansehen und personalisierte Empfehlungen erhalten.1 Vorhang auf fürs Kino zu Hause Bei bis zu 4K HDR mit Dolby Vision entgeht dir kein Detail und Dolby Atmos sorgt für authentischen 3D‑Sound.2 Mehr Speicher, mehr Unterhaltung 32 GB Speicherplatz für all deine Lieblings-Apps3. So kommt nie Langeweile auf. Herausragende Leistung. Der 22 % schnellere Prozessor ermöglicht eine einfache Bedienung und ein schnelles Umschalten zwischen einzelnen Apps.4 Du kannst das Licht dimmen und musst dabei nicht einmal „Pause“ drücken.5 Steuere deine Smart-Home-Geräte einfach über den Fernseher und das neue Steuerfeld fürs Smart Home.1 In jedem Zuhause zu Hause Das sc",
+   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Google TV Streamer (4K) Google TV Streamer (4K) Übersicht Technische Daten Vergleichen Apps und Partner Google TV 169 € oder 7,04 €/Monat bei Finanzierung über 24 Monate* In den Einkaufswagen Bestes Entertainment – ganz ohne Drama 169 € oder 7,04 €/Monat bei Finanzierung über 24 Monate* Kaufen Folie 1 von 3 1 / 3 Seitliche Ansicht des Google TV Streamer in Porcelain Bild 1 von 3. Personalisierte Unterhaltung für alle Optimale Leistung für einfache Navigation Starker Sound in jedem Raum – oder nur für dich Alle Smart‑Home-Geräte immer im Blick Ansprechendes Design, das sich bestens einfügt Perfekt auf dich abgestimmt – ganz einfach. Ein Bildschirm. Alle Möglichkeiten. Du kannst die Filme und Serien all deiner Anbieter ansehen und personalisierte Empfehlungen erhalten.1 Vorhang auf fürs Kino zu Hause Bei bis zu 4K HDR mit Dolby Vision entgeht dir kein Detail und Dolby Atmos sorgt für authentischen 3D‑Sound.2 Mehr Speicher, mehr Unterhaltung 32 GB Speicherplatz für all deine Lieblings-Apps3. So kommt nie Langeweile auf. Herausragende Leistung. Der 22 % schnellere Prozessor ermöglicht eine einfache Bedienung und ein schnelles Umschalten zwischen einzelnen Apps.4 Du kannst das Licht dimmen und musst dabei nicht einmal „Pause“ drücken.5 Steuere deine Smart-Home-Geräte einfach über den Fernseher",
    "json_samples": [
     {
      "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
@@ -1452,7 +1524,7 @@
    "title": "Google Store für Geräte und Zubehör von Google",
    "json_urls": [
     "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
-    "https://store.google.com/intl/de/ideas/feed/de-storefront.json?c=1795044820247"
+    "https://store.google.com/intl/de/ideas/feed/de-storefront.json?c=1795114826293"
    ],
    "links": [
     "https://store.google.com/de/product/pixel_11_pro",
@@ -1491,10 +1563,18 @@
    ],
    "tiles": [],
    "price_texts": [],
-   "items_by_source": {
-    "dom-from": 1
-   },
-   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Google Store für Geräte und Zubehör von Google Black Friday-Angebote ansehen Beliebt im Google Store. Black Friday-Angebot Google Pixel 11 Pro und Pro XL Ab 899 € 1.099 € 200 € Rabatt Üblicher Verkaufspreis: 1.199 € Kaufen Black Friday-Angebot Google Pixel 11 Pro Fold Ab 1.999 € Kaufen Black Friday-Angebot Google Pixel 11 Ab 699 € 899 € 200 € Rabatt Üblicher Verkaufspreis: 999 € Kaufen Black Friday-Angebot Google Pixel Watch 5 Ab 349 € 419 € 70 € Rabatt Üblicher Verkaufspreis: 419 € Kaufen Black Friday-Angebot Google Pixel Buds Pro 2 169 € 249 € 80 € Rabatt Üblicher Verkaufspreis: 249 € Kaufen Neu Google Fitbit Edge Ab 179,99 € Kaufen Neu Google Fitbit Air 99,99 € Kaufen Black Friday-Angebot Google Home Speaker 119,99 € Kaufen Black Friday-Angebot Google Pixel 10a Ab 429 € 649 € 220 € Rabatt Üblicher Verkaufspreis: 649 € Kaufen Black Friday-Angebot Google Pixel Buds 2a 119 € 149 € 30 € Rabatt Üblicher Verkaufspreis: 149 € Kaufen Nest Cam (Outdoor, mit Kabel, 2. Gen.) 149,99 € Kaufen Black Friday-Angebot Nest Cam (Indoor, mit Kabel, 3. Gen.) 69,99 € 99,99 € 30 € Rabatt Üblicher Verkaufspreis: 99,99 € Kaufen Die Black-Friday-Angebote sind da. Erhalte bis zu 200 € Rabatt beim Kauf eines Google Pixel 11 Pro oder Pro XL.^ Alle Angebote enden am 01.12. Ab 899 € 1.099 € 200 € Rabatt Üblicher Ver"
+   "items_by_source": {},
+   "text_sample": "Navigation überspringen Die Black Friday-Angebote sind endlich da. Nur bis zum 01.12.2026.Jetzt kaufen Smartphones Smartwatches & Tracker Kopfhörer Smart Home Zubehör Angebote Hilfe Anmelden Google Store für Geräte und Zubehör von Google Black Friday-Angebote ansehen Beliebt im Google Store. Black Friday-Angebot Google Pixel 11 Pro und Pro XL Ab 899 € 1.099 € 200 € Rabatt Üblicher Verkaufspreis: 1.199 € Kaufen Black Friday-Angebot Google Pixel 11 Pro Fold Ab 1.999 € Kaufen Black Friday-Angebot Google Pixel 11 Ab 699 € 899 € 200 € Rabatt Üblicher Verkaufspreis: 999 € Kaufen Black Friday-Angebot Google Pixel Watch 5 Ab 349 € 419 € 70 € Rabatt Üblicher Verkaufspreis: 419 € Kaufen Black Friday-Angebot Google Pixel Buds Pro 2 169 € 249 € 80 € Rabatt Üblicher Verkaufspreis: 249 € Kaufen Neu Google Fitbit Edge Ab 179,99 € Kaufen Neu Google Fitbit Air 99,99 € Kaufen Black Friday-Angebot Google Home Speaker 119,99 € Kaufen Black Friday-Angebot Google Pixel 10a Ab 429 € 649 € 220 € Rabatt Üblicher Verkaufspreis: 649 € Kaufen Black Friday-Angebot Google Pixel Buds 2a 119 € 149 € 30 € Rabatt Üblicher Verkaufspreis: 149 € Kaufen Nest Cam (Outdoor, mit Kabel, 2. Gen.) 149,99 € Kaufen Black Friday-Angebot Nest Cam (Indoor, mit Kabel, 3. Gen.) 69,99 € 99,99 € 30 € Rabatt Üblicher Verkaufspreis: 99,99 € Kaufen Die Black-Friday-Angebote sind da. Erhalte bis zu 200 € Rabatt beim Kauf eines Google Pixel 11 Pro oder Pro XL.^ Alle Angebote enden am 01.12. Ab 899 € 1.099 € 200 € Rabatt Üblicher Ver",
+   "json_samples": [
+    {
+     "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
+     "body": "[null, null, null, null, null, null, null, null, null, null, 0]"
+    },
+    {
+     "url": "https://store.google.com/intl/de/ideas/feed/de-storefront.json?c=1795114826293",
+     "body": "{\"articles\": [{\"title\": \"Pixel HiLight: Wichtige Benachrichtigungen und Anrufe bemerken, ohne aufs Display zu schauen.\", \"url\": \"https://store.google.com/magazine/pixel-hilight-notifications\", \"imageURL\": \"https://lh3.googleusercontent.com/n9S5DfuRRTDCFo5cO7b5MwoBRWw4Wuo0b3bABzXIAIRRA7CJztq7tEoDQ-iCwv5tAu8KvFvf6HtCfKenav6-bsqYobCLTMgw6A\", \"imageAltText\": \"HiLight leuchtet auf der Kameraleiste des Pixel 11 Pro\"}, {\"title\": \"Google Pixel 11-Wunderschön veredelt.\\nUnd für das echte Leben entwickelt.\", \"url\": \"https://store.google.com/magazine/pixel-11-design\", \"imageURL\": \"https://lh3.googleusercontent.com/cZbajDzcwE1gz-hOQ19d-qvXQ3PncXA_3c6LD7mZjC16q8yj9gdL-WD4PY0xbiNesoiVeNb5qYwKcc1pdHUJwIJ7fk-s5QLCNg\", \"imageAltText\": \"Die Kameraleiste des Google Pixel 11 Pro mit sanft leuchtendem HiLight\"}, {\"title\": \"Halte die Action fest, ohne den Moment zu verpassen.\", \"url\": \"https://store.google.com/magazine/pixel-magic-capture\", \"imageURL\": \"https://lh3.googleusercontent.com/IHFwhGnGPIXM-unwcBIoQ_1AkPFEP1DeWhzUHbHyyKOBftU7h1enDDgUfJGvTUQEvnQUEhJW-wXvPeQc3zvANRVIhfbF_t4Ua3Rr\", \"imageAltText\": \"Eine Mutter und eine Tochter, die fröhlich aussehen und für ein Foto lächeln.\"}, {\"title\": \"Google Pixel 11 – Datenschutz und Sicherheit: Fortschrittlicher Schutz für deine persönlichen Daten\", \"url\": \"https://store.google.com/magazine/pixel-safe\", \"imageURL\": \"https://lh3.googleusercontent.com/jOAnQZ237MGSNC_nMkTlBdz-SnuukIZ9IQK-cVQL0xUNXAFWrrPz2HQT32qwwaUXiwgJSyO0CAK9ym5Qd-2XlADGy4ue_G9jlkA\", \"imageAltText\": \"Eine Person hält ein Google Pixel 11 Pro Fold. Unten links im Bild ist ein Symbol zum Verriegeln zu sehen.\"}, {\"title\": \"Die Leistung des Google Pixel 11: Genug Energie für den ganzen Tag.\", \"url\": \"https://store.google.com/magazine/pixel-performance\", \"imageURL\": \"https://lh3.googleusercontent.com/3R686kSYuL3kFXhiZB_l4_X24GCbu9F2UitvwWMbbryzdR-hvESmIs4faSX889F4eIN4zvBo3f2AbtSDkASNZTCHIlMd_fyUtg\", \"imageAltText\": \"Google Tensor G6-Prozessor\"}]}"
+    }
+   ]
   },
   {
    "url": "https://store.google.com/de/product/nest_hub_2nd_gen",

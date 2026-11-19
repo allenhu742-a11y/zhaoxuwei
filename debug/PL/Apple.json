@@ -8,11 +8,11 @@
    "final_url": "https://www.apple.com/pl/shop/buy-iphone",
    "title": "Kup iPhone’a - Apple (PL)",
    "json_urls": [
-    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
     "https://www.apple.com/pl/shop/bag/status?apikey=SJHJUH4YFCTTPD4F4",
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
+    "https://www.apple.com/pl/shop/api/digital-mat?path=library/step0_iphone/digitalmat&fae=true",
     "https://www.apple.com/shop/shld/work/v3/q?jr=30",
-    "https://www.apple.com/pl/shop/api/digital-mat?path=library/step0_iphone/digitalmat&fae=true"
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL"
    ],
    "links": [
     "https://www.apple.com/pl/shop/buy-iphone/iphone-duo",
@@ -35,10 +35,26 @@
     "Od 6299 zł",
     "Od 6299 zł"
    ],
-   "items_by_source": {
-    "dom-from": 1
-   },
-   "text_sample": "Apple Sklep Mac iPad iPhone Watch AirPods Dom Rozrywka Akcesoria Wsparcie 0 + Kup iPhone’a Potrzebujesz pomocy w zakupach? Zadzwoń pod numer 800‑702‑322. Wszystkie modele Dodatki do iPhone’a Tylko w Apple Konfiguracja i wsparcie Radość z iPhone’a Wszystkie modele. Który dla Ciebie? NOWOŚĆ iPhone Duo - NOWOŚĆ W zbliżeniu - iPhone Duo Od 9999 zł Kup - iPhone Duo NOWOŚĆ iPhone 18 Pro i iPhone 18 Pro Max - NOWOŚĆ W zbliżeniu - iPhone 18 Pro i iPhone 18 Pro Max Od 6299 zł Kup - iPhone 18 Pro i iPhone 18 Pro Max iPhone Air W zbliżeniu - iPhone Air Od 5799 zł Kup - iPhone Air iPhone 17 W zbliżeniu - iPhone 17 Od 4499 zł Kup - iPhone 17 iPhone 17e W zbliżeniu - iPhone 17e Od 3499 zł Kup - iPhone 17e iPhone 16 W zbliżeniu - iPhone 16 Od 3999 zł Kup - iPhone 16 PORÓWNAJ WSZYSTKIE MODELE Który dla Ciebie? - (Otwiera się w nowym oknie) Zobacz akcesoria do iPhone’a. Wstecz - Wszystkie modele. Dalej - Wszystkie modele. Dodatki do iPhone’a. Wybierz idealny prezent. AKCESORIA NA ŚWIĘTA Razem lepsze. - (Otwiera się w nowym oknie) Nowość Etui z tkaniny TechWoven z MagSafe do iPhone’a 18 Pro - burgund - Nowość 319,00 zł Nowość Etui Folio do iPhone’a Duo z podpórką – jasnobeżowe - Nowość 629,00 zł Nowość Etui do iPhone’a Duo – granat - Nowość 399,00 zł Nowość Zasilacz o mocy 40 W z dynamiczną regulacją mocy do 60 W - Nowość 199,00 zł Ładowarka MagSafe (2 m) 249,00 zł Tylko w Apple Stojak na portfel MOFT Snap Field zgodny z MagSafe - Tylko w Apple 209,00 zł Nowość Pasek na nadgarstek – chłodny bł"
+   "items_by_source": {},
+   "text_sample": "Apple Sklep Mac iPad iPhone Watch AirPods Dom Rozrywka Akcesoria Wsparcie 0 + Już od Black Friday odbierz kartę upominkową Apple Gift Card wartą nawet 1 140 zł Przypis ※ przy zakupie kwalifikującego się produktu. Dowiedz się więcej Kup iPhone’a Potrzebujesz pomocy w zakupach? Zadzwoń pod numer 800‑702‑322. Wszystkie modele Dodatki do iPhone’a Tak zaoszczędzisz Tylko w Apple Konfiguracja i wsparcie Radość z iPhone’a Wszystkie modele. Który dla Ciebie? NOWOŚĆ iPhone Duo - NOWOŚĆ W zbliżeniu - iPhone Duo Od 9999 zł Kup - iPhone Duo NOWOŚĆ iPhone 18 Pro i iPhone 18 Pro Max - NOWOŚĆ W zbliżeniu - iPhone 18 Pro i iPhone 18 Pro Max Od 6299 zł Kup - iPhone 18 Pro i iPhone 18 Pro Max iPhone Air W zbliżeniu - iPhone Air Od 5799 zł Kup - iPhone Air iPhone 17 W zbliżeniu - iPhone 17 Od 4499 zł Kup - iPhone 17 iPhone 17e W zbliżeniu - iPhone 17e Od 3499 zł Kup - iPhone 17e iPhone 16 W zbliżeniu - iPhone 16 Od 3999 zł Kup - iPhone 16 PORÓWNAJ WSZYSTKIE MODELE Który dla Ciebie? - (Otwiera się w nowym oknie) Zobacz akcesoria do iPhone’a. Wstecz - Wszystkie modele. Dalej - Wszystkie modele. Dodatki do iPhone’a. Wybierz idealny prezent. AKCESORIA NA ŚWIĘTA Razem lepsze. - (Otwiera się w nowym oknie) Nowość Etui z tkaniny TechWoven z MagSafe do iPhone’a 18 Pro - burgund - Nowość 319,00 zł Nowość Etui Folio do iPhone’a Duo z podpórką – jasnobeżowe - Nowość 629,00 zł Nowość Etui do iPhone’a Duo – granat - Nowość 399,00 zł Nowość Zasilacz o mocy 40 W z dynamiczną regulacją mocy do 60 W - Nowość ",
+   "json_samples": [
+    {
+     "url": "https://www.apple.com/pl/shop/bag/status?apikey=SJHJUH4YFCTTPD4F4",
+     "body": "{\"items\": 0, \"ttl\": 180, \"api\": {\"flyout\": \"/%5Bstorefront%5D/shop/bag/flyout\", \"addToBag\": \"/%5Bstorefront%5D/shop/bag/add?product=%5Bpart%5D\"}}"
+    },
+    {
+     "url": "https://www.apple.com/pl/shop/api/digital-mat?path=library/step0_iphone/digitalmat&fae=true",
+     "body": "{\"head\": {\"status\": \"200\", \"data\": {}}, \"body\": {\"digitalMat\": [{\"productName\": \"iPhone Duo\", \"tabDescriptionLabel\": \"Rozmiar wyświetlacza\", \"enableDarkTheme\": false, \"familyTypes\": [{\"productName\": \"iPhone Duo\", \"violator\": \"NOWOŚĆ\", \"basePart\": \"MK2D4\", \"complianceModel\": {\"energyLabel\": {\"image\": {\"sources\": [{\"srcSet\": \"https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/a3720-energy-label?wid=520&hei=1040&fmt=png-alpha&.v=aFBmMkx1WE9FU2hrQVNHRGdoRGI3MitOSFJGVENabzZhcUdLNmtnLzlsaDdERlVmc0RydW5JVTQxeGZrVkg3ZnErUGYycVlzSENJYTBlNEMwYWoySW4wNHhvUHQxNHZ4MERLMWI4MmVvbTQ\", \"type\": \"image/png\"}], \"width\": \"260\", \"height\": \"520\", \"attrs\": \"\", \"imageName\": \"a3720-energy-label\", \"originalImageName\": \"a3720-energy-label\", \"alt\": \"\", \"noImage\": false, \"deferSrc\": false, \"singleElementSources\": true, \"scaleFactor\": \"2X\"}, \"accessibilityText\": \"Etykieta energetyczna UE\"}, \"energyRating\": {\"image\": {\"sources\": [{\"srcSet\": \"https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/a3720-energy-rating?wid=64&hei=34&fmt=png-alpha&.v=VWVUS3NoVmthWFVwbHZkeEUvTGVPcHdLMk5lQzQwVExKL1NqZEI1T000Q3JaL2ROTnRZcUdteU9LdWJLTTdWT09ZdFc0VlVHZmdGYXZKRXZXMVhFUm41cU1XNzliRmYrYjhjMnhmd2RlR2M\", \"type\": \"image/png\"}], \"width\": \"32\", \"height\": \"17\", \"attrs\": \"\", \"imageName\": \"a3720-energy-rating\", \"originalImageName\": \"a3720-energy-rating\", \"alt\": \"\", \"noImage\": false, \"deferSrc\": false, \"singleElementSources\": true, \"scaleFactor\": \"2X\"}, \"accessibilityText\": \"Dowiedz się więcej\"}, \"productInformationSheet\": {\"text\": \"Zobacz pełne informacje o produkcie (PDF)\", \"url\": \"https://regulatoryinfo.apple.com/cwt/api/ext/file?fileId=energyLabels/A3720_V1/A3720/A3720_PIS_LotX_PL_Polish.pdf\", \"title\": \"Karta informacyjna produktu PDF, iPhone Duo\"}, \"overlayHeader\": \"iPhone Duo Informacje energetyczne\", \"productName\": \"iPhone Duo\"}, \"productPrice\": {\"priceData\": {\"fullPrice\": {\"priceString\": \"Od <span class=\\\"nowrap\\\">9999 zł</span>\", \"raw\": {\"price\": \"9999.00\"}}, \"refurbProduct\": false, \"priceFeeDisclaimer\": {\"priceString\": \"Łączna cena urządzenia zawiera podatek VAT w wysokości ok. 1 870,00 zł<as-footnote data-id=\\\"c797ec623451481bcb7b6f5ad02aa26a\\\" data-assigned=\\\"false\\\"><sup data-autom=\\\"footnote-sub\\\" class=\\\"as-footnote\\\"><span class=\\\"visuallyhidden\\\">&nbsp;Przypis&nbsp;</span></sup></as-footnote>.\"}}, \"templateId\": \"NO_MONTHLY\", \"staticAssets\": {\"priceSeparator\": \" \"}}, \"productImages\": {\"items\": [{\"index\": 0, \"value\": {\"sources\": [{\"srcSet\": \"https://store.storeimages.cdn-"
+    },
+    {
+     "url": "https://www.apple.com/shop/shld/work/v3/q?jr=30",
+     "body": "{\"algorithm\": \"SHA-384\", \"challenge\": \"329488f60136c183d3e67026671de59e774fb048d3da8024a2063f1943c18688e4e9402b1a3f2a3917a26f09fe933a92\", \"t\": 1795114492.842, \"challenge_version\": 3, \"signature\": \"8c5bf85459d62df65d9e1c177262dd3c2f931b318455e14fea8de9c125655c28\", \"X\": \"55d1857101bc7ee2df8f0c86ff79656b45cf234d4ae432c00a511a9e7bf554fb\", \"timeout\": 3000, \"salt\": \"12fa2790658627db6969a23125f53c59f32b5bcdb58bf018a33967b54422fad303a9ee4bcf0d20c14cca2bd0c34b060c\"}"
+    },
+    {
+     "url": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
+     "body": "{\"id\": \"nbPPZHuKSUm85-LN_IxlhA\", \"results\": [{\"sectionName\": \"quickLinks\", \"sectionResults\": [{\"label\": \"Zobacz prezenty\", \"url\": \"https://www.apple.com/pl/shop/goto/store\"}, {\"label\": \"Kupuj w internetowym sklepie Apple Store\", \"url\": \"https://www.apple.com/pl/shop/goto/shop\"}, {\"label\": \"Apple Gift Card\", \"url\": \"https://www.apple.com/pl/shop/goto/giftcards\"}, {\"label\": \"Apple Intelligence\", \"url\": \"https://www.apple.com/pl/apple-intelligence/\"}]}, {\"sectionName\": \"suggestions\", \"sectionResults\": []}]}"
+    }
+   ]
   },
   {
    "url": "https://www.apple.com/pl/shop/buy-ipad",
@@ -69,10 +85,22 @@
     "Od 3699 zł",
     "Od 3699 zł"
    ],
-   "items_by_source": {
-    "dom-from": 1
-   },
-   "text_sample": "Apple Sklep Mac iPad iPhone Watch AirPods Dom Rozrywka Akcesoria Wsparcie 0 + Kup iPada Potrzebujesz pomocy w zakupach? Zadzwoń pod numer 800‑702‑322. Wszystkie modele Dodatki do iPada Tak zaoszczędzisz Tylko w Apple Konfiguracja i wsparcie Radość z iPada Wyjątkowe okazje Wszystkie modele. Który dla Ciebie? iPad Pro W zbliżeniu - iPad Pro Od 5999 zł Kup - iPad Pro iPad Air W zbliżeniu - iPad Air Od 3699 zł Kup - iPad Air iPad W zbliżeniu - iPad Od 2199 zł Kup - iPad NOWOŚĆ iPad mini - NOWOŚĆ W zbliżeniu - iPad mini Od 3499 zł Kup - iPad mini PORÓWNAJ WSZYSTKIE MODELE Który iPad jest właśnie dla Ciebie? - (Otwiera się w nowym oknie) Zobacz wszystkie akcesoria do iPada. Wstecz - Wszystkie modele Dalej - Wszystkie modele Dodatki do iPada. Perfekcyjny, jak by nie patrzeć. AKCESORIA NA ŚWIĘTA Razem lepsze. - (Otwiera się w nowym oknie) Bezpłatny grawerunek Apple Pencil Pro - Bezpłatny grawerunek 649,00 zł Klawiatura Magic Keyboard do iPada Air 13 cali (M4) – angielski (międzynarodowy) – czarny 1 499,00 zł Klawiatura Magic Keyboard do iPada Pro 13 cali (M5) – angielski (międzynarodowy) – czarna 1 799,00 zł Etui MOFT Float Folio do iPada Pro 11 cali 239,00 zł Apple Pencil (USB‑C) 399,00 zł Nowość Słuchawki wokółuszne Beats 360 – czarne z poduszkami Performance Knit w kolorze czarnym - Nowość 1 499,00 zł Nowość AirPods 5 - Nowość 599,00 zł Etui Tech21 FlexFolio do iPada (A16) 239,00 zł Magic Keyboard Folio do iPada (A16) – angielski (międzynarodowy) 1 299,00 zł Wstecz - Doda"
+   "items_by_source": {},
+   "text_sample": "Apple Sklep Mac iPad iPhone Watch AirPods Dom Rozrywka Akcesoria Wsparcie 0 + Już od Black Friday odbierz kartę upominkową Apple Gift Card wartą nawet 1 140 zł Przypis ※ przy zakupie kwalifikującego się produktu. Dowiedz się więcej Kup iPada Potrzebujesz pomocy w zakupach? Zadzwoń pod numer 800‑702‑322. Wszystkie modele Dodatki do iPada Tak zaoszczędzisz Tylko w Apple Konfiguracja i wsparcie Radość z iPada Wyjątkowe okazje Wszystkie modele. Który dla Ciebie? iPad Pro W zbliżeniu - iPad Pro Od 5999 zł Kup - iPad Pro iPad Air W zbliżeniu - iPad Air Od 3699 zł Kup - iPad Air iPad W zbliżeniu - iPad Od 2199 zł Kup - iPad NOWOŚĆ iPad mini - NOWOŚĆ W zbliżeniu - iPad mini Od 3499 zł Kup - iPad mini PORÓWNAJ WSZYSTKIE MODELE Który iPad jest właśnie dla Ciebie? - (Otwiera się w nowym oknie) Zobacz wszystkie akcesoria do iPada. Wstecz - Wszystkie modele Dalej - Wszystkie modele Dodatki do iPada. Perfekcyjny, jak by nie patrzeć. AKCESORIA NA ŚWIĘTA Razem lepsze. - (Otwiera się w nowym oknie) Bezpłatny grawerunek Apple Pencil Pro - Bezpłatny grawerunek 649,00 zł Klawiatura Magic Keyboard do iPada Air 13 cali (M4) – angielski (międzynarodowy) – czarny 1 499,00 zł Klawiatura Magic Keyboard do iPada Pro 13 cali (M5) – angielski (międzynarodowy) – czarna 1 799,00 zł Etui MOFT Float Folio do iPada Pro 11 cali 239,00 zł Apple Pencil (USB‑C) 399,00 zł Nowość Słuchawki wokółuszne Beats 360 – czarne z poduszkami Performance Knit w kolorze czarnym - Nowość 1 499,00 zł Nowość AirPods 5 ",
+   "json_samples": [
+    {
+     "url": "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
+     "body": "[{\"name\": \"apple\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple home\"}], \"id\": \"3d39a8ff\"}, {\"name\": \"store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"store\"}, {\"name\": \"data-analytics-element-engagement\", \"value\": \"hover - store\"}], \"baseGroups\": [{\"id\": \"d1043af2\", \"title\": \"Podręczne łącza\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"quick links - store\"}], \"baseLinks\": [{\"id\": \"658469ae\", \"text\": \"Stan zamówienia\", \"url\": \"/pl/shop/goto/order/list\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"order status\"}], \"ariaLabel\": \"\"}]}, {\"id\": \"54dfd434\", \"title\": \"Sklepy specjalne\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"shop special stores\"}], \"baseLinks\": [{\"id\": \"9a8ea065\", \"text\": \"Odnowione i certyfikowane\", \"url\": \"/pl/shop/goto/special_deals\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"certified refurbished\"}], \"ariaLabel\": \"\"}, {\"id\": \"cb6f090b\", \"text\": \"Edukacja\", \"url\": \"/pl/shop/goto/educationrouting\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"education\"}], \"ariaLabel\": \"\"}]}], \"elevatedGroups\": [{\"id\": \"3478ae43\", \"title\": \"Zobacz\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"explore shop\"}], \"elevatedLinks\": [{\"id\": \"864fbe43\", \"text\": \"Kup prezenty\", \"url\": \"/pl/shop/goto/store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"shop gifts\"}], \"ariaLabel\": \"\"}, {\"id\": \"087afb59\", \"text\": \"Mac\", \"url\": \"/pl/shop/goto/buy_mac\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"mac\"}], \"ariaLabel\": \"\"}, {\"id\": \"626ee1c2\", \"text\": \"iPad\", \"url\": \"/pl/shop/goto/buy_ipad\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"ipad\"}], \"ariaLabel\": \"\"}, {\"id\": \"b5a39f77\", \"text\": \"iPhone\", \"url\": \"/pl/shop/goto/buy_iphone\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"iphone\"}], \"ariaLabel\": \"\"}, {\"id\": \"8b2c2f5a\", \"text\": \"Apple Watch\", \"url\": \"/pl/shop/goto/buy_watch\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple watch\"}], \"ariaLabel\": \"\"}, {\"id\": \"86b69ecf\", \"text\": \"AirPods\", \"url\": \"/pl/shop/goto/airpods/accessories\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"airpods\"}], \"ariaLabel\": \"\"}, {\"id\": \"a1ca647c\", \"text\": \"Akcesoria\", \"url\": \"/pl/shop/goto/buy_accessories\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"va"
+    },
+    {
+     "url": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
+     "body": "{\"id\": \"nbPPZHuKSUm85-LN_IxlhA\", \"results\": [{\"sectionName\": \"quickLinks\", \"sectionResults\": [{\"label\": \"Zobacz prezenty\", \"url\": \"https://www.apple.com/pl/shop/goto/store\"}, {\"label\": \"Kupuj w internetowym sklepie Apple Store\", \"url\": \"https://www.apple.com/pl/shop/goto/shop\"}, {\"label\": \"Apple Gift Card\", \"url\": \"https://www.apple.com/pl/shop/goto/giftcards\"}, {\"label\": \"Apple Intelligence\", \"url\": \"https://www.apple.com/pl/apple-intelligence/\"}]}, {\"sectionName\": \"suggestions\", \"sectionResults\": []}]}"
+    },
+    {
+     "url": "https://www.apple.com/pl/shop/api/digital-mat?path=library/step0_ipad/digitalmat&fae=true",
+     "body": "{\"head\": {\"status\": \"200\", \"data\": {}}, \"body\": {\"digitalMat\": [{\"productName\": \"iPad Pro\", \"tabDescriptionLabel\": \"Rozmiar wyświetlacza\", \"enableDarkTheme\": false, \"familyTypes\": [{\"productName\": \"iPad Pro 11 cali\", \"basePart\": \"MDWK4\", \"complianceModel\": {\"energyLabel\": {\"image\": {\"sources\": [{\"srcSet\": \"https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/a3357-energy-label?wid=520&hei=1040&fmt=png-alpha&.v=Yng0S21aSkRpVjNKYlhCVzFaTzZkRytOSFJGVENabzZhcUdLNmtnLzlsaDdERlVmc0RydW5JVTQxeGZrVkg3ZmN5TUhWK0Z6UFFQNmNyY1krZkxQdlc2TElBb25pdWtobWFNcnpLVmp5MzQ\", \"type\": \"image/png\"}], \"width\": \"260\", \"height\": \"520\", \"attrs\": \"\", \"imageName\": \"a3357-energy-label\", \"originalImageName\": \"a3357-energy-label\", \"alt\": \"Etykieta energetyczna UE, kod QR i informacje, model Apple A3269, klasa G, klasy efektywności energetycznej (w skali od A do G), od A (najwyższa efektywność) do G (najniższa efektywność), trwałość baterii na cykl, 72 godziny i 0 minut na pełne naładowanie baterii, wytrzymałość na spadki swobodne wielokrotne klasy E, od A (największa solidność) do E (najmniejsza solidność), możliwość naprawy klasy C, od A (największa możliwość naprawy) do E (najmniejsza możliwość naprawy), trwałość baterii w cyklach 1000, ochrona przed wnikaniem pyłu i wody (IP) klasy IP42, rozporządzenie 2023/1669\", \"noImage\": false, \"deferSrc\": false, \"singleElementSources\": true, \"scaleFactor\": \"2X\"}, \"accessibilityText\": \"Etykieta energetyczna UE\"}, \"energyRating\": {\"image\": {\"sources\": [{\"srcSet\": \"https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/a3357-energy-rating?wid=64&hei=34&fmt=png-alpha&.v=OGpINWFxYkhyc292VENGaVJrT3AyNXdLMk5lQzQwVExKL1NqZEI1T000Q3JaL2ROTnRZcUdteU9LdWJLTTdWT1VuSzVDZWdMQmdmQkxYVHVDWFB5VEg1cU1XNzliRmYrYjhjMnhmd2RlR2M\", \"type\": \"image/png\"}], \"width\": \"32\", \"height\": \"17\", \"attrs\": \"\", \"imageName\": \"a3357-energy-rating\", \"originalImageName\": \"a3357-energy-rating\", \"alt\": \"Klasa energetyczna {G}, skala od A do G, {iPad Pro 11 cali Wi‑Fi}\", \"noImage\": false, \"deferSrc\": false, \"singleElementSources\": true, \"scaleFactor\": \"2X\"}, \"accessibilityText\": \"Dowiedz się więcej\"}, \"productInformationSheet\": {\"text\": \"Zobacz pełne informacje o produkcie (PDF)\", \"url\": \"https://regulatoryinfo.apple.com/cwt/api/ext/file?fileId=energyLabels/A3357_V1/A3357/A3357_Product_Information_Sheet_PL_Polish.pdf\", \"title\": \"Karta informacyjna produktu PDF, iPad Pro 11 cali\"}, \"overlayHeader\": \"iPad Pro 11 cali Informacje energetyczne\", \"productName\": \"iPad Pro 11 c"
+    }
+   ]
   },
   {
    "url": "https://www.apple.com/pl/shop/buy-watch",
@@ -80,8 +108,8 @@
    "final_url": "https://www.apple.com/pl/shop/buy-watch",
    "title": "Kup Apple Watch - Apple (PL)",
    "json_urls": [
-    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
     "https://www.apple.com/pl/shop/api/digital-mat?path=library/step0_watch/digitalmat&fae=true"
    ],
    "links": [
@@ -101,10 +129,22 @@
     "499,00 zł",
     "499,00 zł"
    ],
-   "items_by_source": {
-    "dom-from": 1
-   },
-   "text_sample": "Apple Sklep Mac iPad iPhone Watch AirPods Dom Rozrywka Akcesoria Wsparcie 0 + Kup Apple Watch Potrzebujesz pomocy w zakupach? Zadzwoń pod numer 800‑702‑322. Wszystkie modele Dodatki do Apple Watch Tylko w Apple Niezbędniki do ładowania Apple Watch Radość z Apple Watch Konfiguracja i wsparcie Wszystkie modele. Który dla Ciebie? NOWOŚĆ Apple Watch Series 12 - NOWOŚĆ W zbliżeniu - Apple Watch Series 12 + Od 1899 zł Kup - Apple Watch Series 12 NOWOŚĆ Apple Watch Ultra 4 - NOWOŚĆ W zbliżeniu - Apple Watch Ultra 4 Od 3799 zł Kup - Apple Watch Ultra 4 Apple Watch SE 3 W zbliżeniu - Apple Watch SE 3 Od 1099 zł Kup - Apple Watch SE 3 PORÓWNAJ WSZYSTKIE MODELE Który Apple Watch Ci pasuje? - (Otwiera się w nowym oknie) Zobacz wszystkie akcesoria do Apple Watch. Wstecz - Wszystkie modele Dalej - Wszystkie modele Dodatki do Apple Watch. Czas świętować. AKCESORIA NA ŚWIĘTA Razem lepsze. - (Otwiera się w nowym oknie) + Nowość Opaska sportowa w kolorze burgunda w kratę do koperty 40 mm - Nowość 199,00 zł Nowość Bransoleta mediolańska w kolorze ciemnego brązu do koperty 42 mm - Nowość 499,00 zł + Nowość Pasek sportowy w kolorze oliwki do koperty 40 mm – rozmiar S/M - Nowość 199,00 zł Nowość Pasek sportowy Nike w kolorze czerni po zmroku do koperty 40 mm – rozmiar M/L - Nowość 199,00 zł Nowość Opaska sportowa Nike w kolorze betonowej szarości do koperty 46 mm - Nowość 199,00 zł Nowość Karbowany pasek magnetyczny w kolorze polnym niebieskim do koperty 46 mm – rozmiar M/L - Nowość 499,00 zł Nowo"
+   "items_by_source": {},
+   "text_sample": "Apple Sklep Mac iPad iPhone Watch AirPods Dom Rozrywka Akcesoria Wsparcie 0 + Już od Black Friday odbierz kartę upominkową Apple Gift Card wartą nawet 1 140 zł Przypis ※ przy zakupie kwalifikującego się produktu. Dowiedz się więcej Kup Apple Watch Potrzebujesz pomocy w zakupach? Zadzwoń pod numer 800‑702‑322. Wszystkie modele Dodatki do Apple Watch Tak zaoszczędzisz Tylko w Apple Niezbędniki do ładowania Apple Watch Radość z Apple Watch Konfiguracja i wsparcie Wstecz - local navigation link Wszystkie modele. Który dla Ciebie? NOWOŚĆ Apple Watch Series 12 - NOWOŚĆ W zbliżeniu - Apple Watch Series 12 + Od 1899 zł Kup - Apple Watch Series 12 NOWOŚĆ Apple Watch Ultra 4 - NOWOŚĆ W zbliżeniu - Apple Watch Ultra 4 Od 3799 zł Kup - Apple Watch Ultra 4 Apple Watch SE 3 W zbliżeniu - Apple Watch SE 3 Od 1099 zł Kup - Apple Watch SE 3 PORÓWNAJ WSZYSTKIE MODELE Który Apple Watch Ci pasuje? - (Otwiera się w nowym oknie) Zobacz wszystkie akcesoria do Apple Watch. Wstecz - Wszystkie modele Dalej - Wszystkie modele Dodatki do Apple Watch. Czas świętować. AKCESORIA NA ŚWIĘTA Razem lepsze. - (Otwiera się w nowym oknie) + Nowość Opaska sportowa w kolorze burgunda w kratę do koperty 40 mm - Nowość 199,00 zł Nowość Bransoleta mediolańska w kolorze ciemnego brązu do koperty 42 mm - Nowość 499,00 zł + Nowość Pasek sportowy w kolorze oliwki do koperty 40 mm – rozmiar S/M - Nowość 199,00 zł Nowość Pasek sportowy Nike w kolorze czerni po zmroku do koperty 40 mm – rozmiar M/L - Nowość 199,00 zł Nowoś",
+   "json_samples": [
+    {
+     "url": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
+     "body": "{\"id\": \"nbPPZHuKSUm85-LN_IxlhA\", \"results\": [{\"sectionName\": \"quickLinks\", \"sectionResults\": [{\"label\": \"Zobacz prezenty\", \"url\": \"https://www.apple.com/pl/shop/goto/store\"}, {\"label\": \"Kupuj w internetowym sklepie Apple Store\", \"url\": \"https://www.apple.com/pl/shop/goto/shop\"}, {\"label\": \"Apple Gift Card\", \"url\": \"https://www.apple.com/pl/shop/goto/giftcards\"}, {\"label\": \"Apple Intelligence\", \"url\": \"https://www.apple.com/pl/apple-intelligence/\"}]}, {\"sectionName\": \"suggestions\", \"sectionResults\": []}]}"
+    },
+    {
+     "url": "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
+     "body": "[{\"name\": \"apple\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple home\"}], \"id\": \"3d39a8ff\"}, {\"name\": \"store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"store\"}, {\"name\": \"data-analytics-element-engagement\", \"value\": \"hover - store\"}], \"baseGroups\": [{\"id\": \"d1043af2\", \"title\": \"Podręczne łącza\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"quick links - store\"}], \"baseLinks\": [{\"id\": \"658469ae\", \"text\": \"Stan zamówienia\", \"url\": \"/pl/shop/goto/order/list\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"order status\"}], \"ariaLabel\": \"\"}]}, {\"id\": \"54dfd434\", \"title\": \"Sklepy specjalne\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"shop special stores\"}], \"baseLinks\": [{\"id\": \"9a8ea065\", \"text\": \"Odnowione i certyfikowane\", \"url\": \"/pl/shop/goto/special_deals\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"certified refurbished\"}], \"ariaLabel\": \"\"}, {\"id\": \"cb6f090b\", \"text\": \"Edukacja\", \"url\": \"/pl/shop/goto/educationrouting\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"education\"}], \"ariaLabel\": \"\"}]}], \"elevatedGroups\": [{\"id\": \"3478ae43\", \"title\": \"Zobacz\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"explore shop\"}], \"elevatedLinks\": [{\"id\": \"864fbe43\", \"text\": \"Kup prezenty\", \"url\": \"/pl/shop/goto/store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"shop gifts\"}], \"ariaLabel\": \"\"}, {\"id\": \"087afb59\", \"text\": \"Mac\", \"url\": \"/pl/shop/goto/buy_mac\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"mac\"}], \"ariaLabel\": \"\"}, {\"id\": \"626ee1c2\", \"text\": \"iPad\", \"url\": \"/pl/shop/goto/buy_ipad\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"ipad\"}], \"ariaLabel\": \"\"}, {\"id\": \"b5a39f77\", \"text\": \"iPhone\", \"url\": \"/pl/shop/goto/buy_iphone\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"iphone\"}], \"ariaLabel\": \"\"}, {\"id\": \"8b2c2f5a\", \"text\": \"Apple Watch\", \"url\": \"/pl/shop/goto/buy_watch\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple watch\"}], \"ariaLabel\": \"\"}, {\"id\": \"86b69ecf\", \"text\": \"AirPods\", \"url\": \"/pl/shop/goto/airpods/accessories\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"airpods\"}], \"ariaLabel\": \"\"}, {\"id\": \"a1ca647c\", \"text\": \"Akcesoria\", \"url\": \"/pl/shop/goto/buy_accessories\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"va"
+    },
+    {
+     "url": "https://www.apple.com/pl/shop/api/digital-mat?path=library/step0_watch/digitalmat&fae=true",
+     "body": "{\"head\": {\"status\": \"200\", \"data\": {}}, \"body\": {\"digitalMat\": [{\"productName\": \"Apple Watch Series 12\", \"enableDarkTheme\": false, \"familyTypes\": [{\"violator\": \"NOWOŚĆ\", \"basePart\": \"MJE74\", \"productPrice\": {\"priceData\": {\"fullPrice\": {\"priceString\": \"Od <span class=\\\"nowrap\\\">1899 zł</span>\", \"raw\": {\"price\": \"1899.00\"}}, \"refurbProduct\": false}, \"templateId\": \"NO_MONTHLY\", \"staticAssets\": {\"priceSeparator\": \" \"}}, \"productImages\": {\"items\": [{\"index\": 0, \"value\": {\"sources\": [{\"srcSet\": \"https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/watch-s12-digitalmat-gallery-1-202609?wid=728&hei=666&fmt=webp-alpha&qlt=90&.v=VDhiOElCSFVwSmNzdTJnVGVnWWM4dlRhSXFkOFhqdTgvUmc4VitXa2VzZUJqUFlDdy9iaUJUTWRWbGhWN3pHbHVnNjVCMjg1Y2dIcnBCekJQUXZlemZvZUk3ZVZqK0FuWVJRM3FKNkVncGNhdUl1VVJZMkNUMm1MdWtiK2prYWQ&traceId=1\", \"type\": \"image/webp\"}, {\"srcSet\": \"https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/watch-s12-digitalmat-gallery-1-202609?wid=728&hei=666&fmt=png-alpha&.v=VDhiOElCSFVwSmNzdTJnVGVnWWM4dlRhSXFkOFhqdTgvUmc4VitXa2VzZUJqUFlDdy9iaUJUTWRWbGhWN3pHbFRnWXNaUGkzWFF6Q0FVUXZLQlA2QVp5REh0YURpVFcybGVDU1hZMXhuSzhWYkdkc2R5di82ZFJZVmlhaXhBWng&traceId=1\", \"type\": \"image/png\", \"last\": \"true\"}], \"width\": \"364\", \"height\": \"333\", \"attrs\": \"\", \"imageName\": \"watch-s12-digitalmat-gallery-1-202609\", \"originalImageName\": \"watch-s12-digitalmat-gallery-1-202609\", \"alt\": \"Apple Watch Series 12 z aluminiową kopertą w kolorze ciemnego brązu i paskiem sportowym w kolorze oliwki (ziemistej zieleni) wyświetla na ekranie ikonę czerwonego serca i monitorowanie tętna. Ekran sięga krawędzi koperty.\", \"noImage\": false, \"deferSrc\": false, \"singleElementSources\": false, \"scaleFactor\": \"2X\"}, \"even\": true, \"position\": 1, \"first\": true, \"last\": false}, {\"index\": 1, \"value\": {\"sources\": [{\"srcSet\": \"https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/watch-s12-digitalmat-gallery-2-202609?wid=728&hei=666&fmt=webp-alpha&qlt=90&.v=VDhiOElCSFVwSmNzdTJnVGVnWWM4dHp0bzhwRTZxYVNNMnVRTXVpMUZES0JqUFlDdy9iaUJUTWRWbGhWN3pHbHVnNjVCMjg1Y2dIcnBCekJQUXZlemZvZUk3ZVZqK0FuWVJRM3FKNkVncGUyREpkK1B0TFdDZ2JEbm1Oa0RoOTA&traceId=1\", \"type\": \"image/webp\"}, {\"srcSet\": \"https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/watch-s12-digitalmat-gallery-2-202609?wid=728&hei=666&fmt=png-alpha&.v=VDhiOElCSFVwSmNzdTJnVGVnWWM4dHp0bzhwRTZxYVNNMnVRTXVpMUZES0JqUFlDdy9iaUJUTWRWbGhWN3pHbFRnWXNaUGkzWFF6Q0FVUXZLQlA2QWU2MXByU2pTYnFDQ2hqSmhkb1lRb0U3N3hZK1lwbTNBWmEwdTZBS1RJZWM&traceId=1\", \"type\": \""
+    }
+   ]
   },
   {
    "url": "https://www.apple.com/pl/shop/accessories/all/headphones-speakers",
@@ -112,8 +152,8 @@
    "final_url": "https://www.apple.com/pl/shop/accessories/all/headphones-speakers",
    "title": "Słuchawki i głośniki - Wszystkie akcesoria - Apple (PL)",
    "json_urls": [
-    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL"
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL"
    ],
    "links": [
     "https://www.apple.com/pl/shop/buy-airpods/airpods-pro-3"
@@ -142,10 +182,10 @@
    "final_url": "https://www.apple.com/pl/shop/buy-iphone/iphone-duo",
    "title": "Kup iPhone’a Duo - Apple (PL)",
    "json_urls": [
-    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
     "https://www.apple.com/pl/shop/favoritesx/fetch",
-    "https://www.apple.com/pl/shop/sba/d/init?fnode=8b96798701b6b7fe189c27cc86ca2963c535c1743e74c04ad1dd524cf4e1c50b866c2a5201fea8874f948908117dcd9d0b2d530264fcad487"
+    "https://www.apple.com/pl/shop/sba/d/init?fnode=6a2357e690fed7346d0807ce37eb711f551c7dfa03a343b71d9f84fd1fd8016f21215f5dacf52e716e17f6858c061152a778588d96d3ce466"
    ],
    "links": [
     "https://www.apple.com/pl/shop/buy-iphone/iphone-duo",
@@ -193,10 +233,10 @@
    "final_url": "https://www.apple.com/pl/shop/buy-iphone/iphone-18-pro",
    "title": "iPhone 18 Pro i iPhone 18 Pro Max - Apple (PL)",
    "json_urls": [
-    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
-    "https://www.apple.com/pl/shop/favoritesx/fetch",
-    "https://www.apple.com/pl/shop/sba/d/init?fnode=42ee558e3e533caff7fc8e4006a936e859b0260ed421920881dbd178b55ba3b0a00e04c4be35d9c8a62319c33086e7bcaec37d086b6a9a673"
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
+    "https://www.apple.com/pl/shop/sba/d/init?fnode=dbbf10672b1033a3143ee30965834602c1dcade89b70afc2c816cdb28fa0448cf4222e381a60e7b10adc87ce18d03d98390a2d4bccebd2ecd",
+    "https://www.apple.com/pl/shop/favoritesx/fetch"
    ],
    "links": [
     "https://www.apple.com/pl/shop/buy-iphone/iphone-duo",
@@ -247,10 +287,10 @@
    "final_url": "https://www.apple.com/pl/shop/buy-iphone/iphone-air",
    "title": "Kup iPhone’a Air - Apple (PL)",
    "json_urls": [
-    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
-    "https://www.apple.com/pl/shop/favoritesx/fetch",
-    "https://www.apple.com/pl/shop/sba/d/init?fnode=0ac69bb1648bcbbeaa4e90e2cf49c3998fbb475c09a11d3a329c933d26fa804a2ca902dc5d29e470c9023d537807e19a991a5dbaea01cf20a"
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
+    "https://www.apple.com/pl/shop/sba/d/init?fnode=2fbe0d3acaf226f28cb2a9e41b91ba1ad4b0a6fffb3bb4a8e15e2913da3d2dde4a0fd3dcbf408ab44cdef058d76a1955352feced6e2def1a8",
+    "https://www.apple.com/pl/shop/favoritesx/fetch"
    ],
    "links": [
     "https://www.apple.com/pl/shop/buy-iphone/iphone-duo",
@@ -301,10 +341,10 @@
    "final_url": "https://www.apple.com/pl/shop/buy-iphone/iphone-17",
    "title": "Kup iPhone’a 17 - Apple (PL)",
    "json_urls": [
-    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
-    "https://www.apple.com/pl/shop/favoritesx/fetch",
-    "https://www.apple.com/pl/shop/sba/d/init?fnode=8c838adc04a35a2123c867b45eb070c1e8957325da945da661e3419ea0b2eb80c666331cd6abbc3ba426603eb371e953b28f91955927868f3"
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
+    "https://www.apple.com/pl/shop/sba/d/init?fnode=90494f2d3d3625496ecbeeaf1aeff3e3f5c8101b75c7bea94da7a714b2706e9621b6f98b40dbbb58fb9943039c91be1b5df9d1e903657d209",
+    "https://www.apple.com/pl/shop/favoritesx/fetch"
    ],
    "links": [
     "https://www.apple.com/pl/shop/buy-iphone/iphone-duo",
@@ -352,10 +392,10 @@
    "final_url": "https://www.apple.com/pl/shop/buy-iphone/iphone-17e",
    "title": "Kup iPhone’a 17e - Apple (PL)",
    "json_urls": [
-    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
     "https://www.apple.com/pl/shop/favoritesx/fetch",
-    "https://www.apple.com/pl/shop/sba/d/init?fnode=9fb09cd0ff53eb7a4a76c1c88abe8e7b242fa5535de0e88b555e1aea41847042b8121ca55780ee28b8b9db4bc7a2941b245f9d04950b7daf6"
+    "https://www.apple.com/pl/shop/sba/d/init?fnode=8f823ff590786c380a6ab3662da823dbed1812a6e3036b4a9cc9d0d926f343f818b6f87ab04379329ecee341a53906be5f3c85df1eac02f96"
    ],
    "links": [
     "https://www.apple.com/pl/shop/buy-iphone/iphone-duo",
@@ -399,11 +439,11 @@
    "final_url": "https://www.apple.com/pl/shop/buy-iphone/iphone-16",
    "title": "Kup iPhone’a 16 - Apple (PL)",
    "json_urls": [
-    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
-    "https://www.apple.com/pl/shop/api/product-gallery?fae=true&node=home%2Fshop_iphone%2Ffamily%2Fiphone_16%2Fselect&dm.dimensionScreensize=6_1inch",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
     "https://www.apple.com/pl/shop/favoritesx/fetch",
-    "https://www.apple.com/pl/shop/sba/d/init?fnode=cd8c28f8538366c08557852502718ab78fdfa1819af63872bb6d78e96277810c0b6aafb3c9ac0e97b1961efd13cdaff1d4948ab979a711956"
+    "https://www.apple.com/pl/shop/sba/d/init?fnode=89c64a2b6023dbc33a4c72a784823592059a391fc9a6e291a161912b3de1c65aca587076fea6fe18a5bf60ea9d23a2834017d36e21338bf16",
+    "https://www.apple.com/pl/shop/api/product-gallery?fae=true&node=home%2Fshop_iphone%2Ffamily%2Fiphone_16%2Fselect&dm.dimensionScreensize=6_1inch"
    ],
    "links": [
     "https://www.apple.com/pl/shop/buy-iphone/iphone-duo",
@@ -440,10 +480,10 @@
    "final_url": "https://www.apple.com/pl/shop/buy-ipad/ipad-pro",
    "title": "Kup iPad Pro - Apple (PL)",
    "json_urls": [
-    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
+    "https://www.apple.com/pl/shop/sba/d/init?fnode=fb4084c5c743b7019145b6711b051fdab24c1c577931ab3ea775541b50a62e41328154d7ff7a5a93c57fac73917526fb11b73b961fcba52f0",
     "https://www.apple.com/pl/shop/favoritesx/fetch",
-    "https://www.apple.com/pl/shop/sba/d/init?fnode=b4db8764fcda9a3c9da7f88da02ff7baa98a85d4e8f7340745d3791894f4e75920eb2f8dbfed9c49b0de9091e9159a7b8b77fedca60d8194f",
     "https://www.apple.com/pl/shop/engrave/json?fae=true&product=MX2D3ZM%2FA"
    ],
    "links": [
@@ -484,10 +524,10 @@
    "final_url": "https://www.apple.com/pl/shop/buy-ipad/ipad-air",
    "title": "Kup iPada Air - Apple (PL)",
    "json_urls": [
-    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
+    "https://www.apple.com/pl/shop/sba/d/init?fnode=272e0fdf7bd5f3b8f55cd5f517e2c9ffd95c7a62a64c1887413ff361472849d1a8e1db9dcc7eb3d5c9fd8566939ed2b1dd9aa142019b3a335",
     "https://www.apple.com/pl/shop/favoritesx/fetch",
-    "https://www.apple.com/pl/shop/sba/d/init?fnode=39cb429ab6f37a0df428f302b34c907edfb861e09817e612f336b5cb6d3f712c904f053ceb2e15fe17abdf4787e233f10c6a178d0e0bd4705",
     "https://www.apple.com/pl/shop/engrave/json?fae=true&product=MX2D3ZM%2FA"
    ],
    "links": [
@@ -538,10 +578,10 @@
    "final_url": "https://www.apple.com/pl/shop/buy-ipad/ipad",
    "title": "Kup iPada - Apple (PL)",
    "json_urls": [
-    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
     "https://www.apple.com/pl/shop/favoritesx/fetch",
-    "https://www.apple.com/pl/shop/sba/d/init?fnode=a05ab063cadb1ec94af569cce93757b8283ad06537fb1aad4ccd15ab290c46680efabc550c4cefdced56e9e284e08a0f84d445c88ed98962e"
+    "https://www.apple.com/pl/shop/sba/d/init?fnode=2471a3d9e09542c1e3baae500c11869acbd29a2e860ea55d6ad7d0e13fedc8a99b6e735af4266e4f3fdb77363178104c43b7affc55cca2779"
    ],
    "links": [
     "https://www.apple.com/pl/shop/buy-ipad/ipad-pro",
@@ -591,10 +631,10 @@
    "final_url": "https://www.apple.com/pl/shop/buy-ipad/ipad-mini",
    "title": "Kup iPada mini - Apple (PL)",
    "json_urls": [
-    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
     "https://www.apple.com/pl/shop/favoritesx/fetch",
-    "https://www.apple.com/pl/shop/sba/d/init?fnode=e3b79a6763559148c0b8ea91ba933372ef3742760928aa9250ee78227bbc868e651632397f90c0e6ed53430471280204c05a9a3fc25e2ae25",
+    "https://www.apple.com/pl/shop/sba/d/init?fnode=fb57401ae6021ce556418f29a9a57a01125ea9ec28ceb6cc8f92a6dd44a11f80a7c23d16a8bea4bbdf816499a630677bfd6a63c34a6979cb2",
     "https://www.apple.com/pl/shop/engrave/json?fae=true&product=MX2D3ZM%2FA"
    ],
    "links": [
@@ -634,9 +674,9 @@
    "final_url": "https://www.apple.com/pl/shop/buy-watch/apple-watch",
    "title": "Kup Apple Watch Series 12 - Apple (PL)",
    "json_urls": [
-    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
-    "https://www.apple.com/pl/shop/sba/d/init?fnode=149064bdf88f054430cc641ab083f285142a0126176d77442d5ccd7d43366a91141dd2a13337c08ed6fed12aabbb5d9b0cc014f17e68018e8",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
+    "https://www.apple.com/pl/shop/sba/d/init?fnode=4ee81a6a61a07b68d095104efb8d0e3b29936cc6ab6052156866354cba4f331b0ed5230743c5e01e23a9d9ef39438d8df56208a7dce19ca9a",
     "https://www.apple.com/pl/shop/favoritesx/fetch"
    ],
    "links": [
@@ -667,9 +707,9 @@
    "final_url": "https://www.apple.com/pl/shop/buy-watch/apple-watch-se",
    "title": "Kup Apple Watch SE 3 - Apple (PL)",
    "json_urls": [
-    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=pl_PL",
-    "https://www.apple.com/pl/shop/sba/d/init?fnode=d7daae9b38b12ebf5dc40887c44ca9ec5ee5de3659b531e8d8e11a91be94d3e756569f423dd1d05329dbae62cfa6b1fd03270b7eddfc13fdd",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=pl_PL",
+    "https://www.apple.com/pl/shop/sba/d/init?fnode=1a73f0cb3d089e1d72d8357f5be450262cf6f3f1efd8048055bb629fc95424f1951e487ba8c5f6438368fbc3d6de2aec3329e09db40d8aa91",
     "https://www.apple.com/pl/shop/favoritesx/fetch"
    ],
    "links": [
