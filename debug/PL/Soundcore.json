@@ -1,0 +1,20 @@
+{
+ "brand": "Soundcore",
+ "country": "PL",
+ "pages": [],
+ "shopify": [
+  {
+   "url": "https://pl.soundcore.com/products.json?limit=250&page=1",
+   "error": "HTTPSConnectionPool(host='pl.soundcore.com', port=443): Max retries exceeded with url: /products.json?limit=250&page=1 (Caused by NameResolutionError(\"HTTPSConn"
+  },
+  {
+   "url": "https://www.soundcore.com/pl/products.json?limit=250&page=1",
+   "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+   "url": "https://soundcore.com/pl/products.json?limit=250&page=1",
+   "error": "HTTPSConnectionPool(host='www.soundcore.com', port=443): Read timed out. (read timeout=30)"
+  }
+ ],
+ "raw_names": []
+}

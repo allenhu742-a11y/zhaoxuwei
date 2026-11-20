@@ -10,9 +10,9 @@
    "json_urls": [
     "https://www.apple.com/de/shop/api/digital-mat?path=library/step0_iphone/digitalmat&fae=true",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
-    "https://www.apple.com/de/shop/bag/status?apikey=SJHJUH4YFCTTPD4F4",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
-    "https://www.apple.com/shop/shld/work/v3/q?jr=30"
+    "https://www.apple.com/shop/shld/work/v3/q?jr=30",
+    "https://www.apple.com/de/shop/bag/status?apikey=SJHJUH4YFCTTPD4F4"
    ],
    "links": [
     "https://www.apple.com/de/shop/buy-iphone/iphone-duo",
@@ -40,19 +40,19 @@
    "json_samples": [
     {
      "url": "https://www.apple.com/de/shop/api/digital-mat?path=library/step0_iphone/digitalmat&fae=true",
-     "body": "{\"head\": {\"status\": \"200\", \"data\": {}}, \"body\": {\"digitalMat\": [{\"tabDescriptionLabel\": \"Display-Größe\", \"enableDarkTheme\": false, \"familyTypes\": [{\"exploreLink\": {\"url\": \"https://www.apple.com/de/iphone-duo\", \"text\": \"Erfahre mehr über iPhone Duo\", \"dataVar\": {}, \"omnitureData\": {\"linkText\": \"Erfahre mehr über iPhone Duo\", \"commitCodeId\": 0}, \"newTab\": false, \"isLinkAsButton\": false, \"link\": \"https://www.apple.com/de/iphone-duo\", \"deeplink\": []}, \"valuePropsContent\": {\"items\": [{\"index\": 0, \"value\": \"<div class=\\\"rf-digitalmat-valueprops-icon\\\">\\n    <div class=\\\"as-svgicon-container dd-color-forest-green\\\">\\n        \\n<svg width=\\\"21\\\" height=\\\"25\\\" viewBox=\\\"0 0 21 25\\\" class=\\\"dd-glyph-svg dd-glyph-reduced\\\" aria-hidden=\\\"true\\\">\\n  <path d=\\\"m18.5 5h-16a2.5 2.5 0 0 0 -2.5 2.5v10a2.5 2.5 0 0 0 2.5 2.5h15.9958a2.5 2.5 0 0 0 2.5-2.5l.0042-10a2.5 2.5 0 0 0 -2.5-2.5zm-16 1h16a1.5017 1.5017 0 0 1 1.5 1.5v1.5h-19v-1.5a1.5017 1.5017 0 0 1 1.5-1.5zm15.9958 13h-15.9958a1.5017 1.5017 0 0 1 -1.5-1.5v-6.5h19v6.5a1.5053 1.5053 0 0 1 -1.5042 1.5zm-11.4958-5.0179v2.0358a.83.83 0 0 1 -.8.8571h-2.4a.83.83 0 0 1 -.8-.8571v-2.0358a.83.83 0 0 1 .8-.8571h2.4a.83.83 0 0 1 .8.8571z\\\" />\\n</svg>\\n    </div>\\n</div>\\n<div class=\\\"rf-digitalmat-valueprops-description\\\">\\n    <h3 class=\\\"rf-digitalmat-valueprops-header\\\">\\n        Entdecke Finanzierungsoptionen.\\n    </h3>\\n    Finanzierung mit 0&nbsp;% Zinsen möglich.<as-footnote data-id=\\\"23fc6f695e689ff7be731fbcdcfc5013\\\" data-assigned=\\\"false\\\"><sup data-autom=\\\"footnote-sub\\\" class=\\\"as-footnote\\\"><span class=\\\"visuallyhidden\\\">&nbsp;Fußnote&nbsp;</span></sup></as-footnote>\\n</div>\", \"even\": true, \"position\": 1, \"first\": true, \"last\": false}, {\"index\": 1, \"value\": \"<div class=\\\"rf-digitalmat-valueprops-icon\\\">\\n\\t<div class=\\\"as-svgicon-container dd-color-blue-violet\\\">\\n\\t\\t\\n<svg width=\\\"19\\\" height=\\\"25\\\" viewBox=\\\"0 0 19 25\\\" class=\\\"dd-glyph-svg dd-glyph-reduced\\\" aria-hidden=\\\"true\\\">\\n  <path d=\\\"m18 13.333v4.167c0 1.9297-1.57 3.5-3.4996 3.5h-10c-1.9297 0-3.5-1.5703-3.5-3.5v-1.9532h-.5476c-.3298 0-.4167-.2245-.2336-.4808l1.0259-1.4563c.1465-.2107.3663-.2062.5129 0l1.0259 1.4608c.1786.2518.0916.4763-.2336.4763h-.5503v1.9532c0 1.3789 1.1215 2.5 2.5004 2.5h10c1.3789 0 2.5-1.1211 2.5-2.5v-4.167c0-.2764.2236-.5.5-.5s.4996.2236.4996.5zm.5472-3.8798h-.5472v-1.9532c0-1.9297-1.57-3.5-3.4996-3.5h-10c-1.9297 0-3.5 1.5703-3.5 3.5v4.167c0 .2764.2236.5.5.5s.4996-.2236.4996-.5v-4.167c0-1.3789 1.1215-2.5 2.5004-2.5h10c1.3789 0 2.5 1"
+     "body": "{\"head\": {\"status\": \"200\", \"data\": {}}, \"body\": {\"digitalMat\": [{\"enableDarkTheme\": false, \"familyTypes\": [{\"exploreLink\": {\"url\": \"https://www.apple.com/de/iphone-duo\", \"text\": \"Erfahre mehr über iPhone Duo\", \"dataVar\": {}, \"omnitureData\": {\"linkText\": \"Erfahre mehr über iPhone Duo\", \"commitCodeId\": 0}, \"newTab\": false, \"isLinkAsButton\": false, \"link\": \"https://www.apple.com/de/iphone-duo\", \"deeplink\": []}, \"valuePropsContent\": {\"items\": [{\"index\": 0, \"value\": \"<div class=\\\"rf-digitalmat-valueprops-icon\\\">\\n    <div class=\\\"as-svgicon-container dd-color-forest-green\\\">\\n        \\n<svg width=\\\"21\\\" height=\\\"25\\\" viewBox=\\\"0 0 21 25\\\" class=\\\"dd-glyph-svg dd-glyph-reduced\\\" aria-hidden=\\\"true\\\">\\n  <path d=\\\"m18.5 5h-16a2.5 2.5 0 0 0 -2.5 2.5v10a2.5 2.5 0 0 0 2.5 2.5h15.9958a2.5 2.5 0 0 0 2.5-2.5l.0042-10a2.5 2.5 0 0 0 -2.5-2.5zm-16 1h16a1.5017 1.5017 0 0 1 1.5 1.5v1.5h-19v-1.5a1.5017 1.5017 0 0 1 1.5-1.5zm15.9958 13h-15.9958a1.5017 1.5017 0 0 1 -1.5-1.5v-6.5h19v6.5a1.5053 1.5053 0 0 1 -1.5042 1.5zm-11.4958-5.0179v2.0358a.83.83 0 0 1 -.8.8571h-2.4a.83.83 0 0 1 -.8-.8571v-2.0358a.83.83 0 0 1 .8-.8571h2.4a.83.83 0 0 1 .8.8571z\\\" />\\n</svg>\\n    </div>\\n</div>\\n<div class=\\\"rf-digitalmat-valueprops-description\\\">\\n    <h3 class=\\\"rf-digitalmat-valueprops-header\\\">\\n        Entdecke Finanzierungsoptionen.\\n    </h3>\\n    Finanzierung mit 0&nbsp;% Zinsen möglich.<as-footnote data-id=\\\"23fc6f695e689ff7be731fbcdcfc5013\\\" data-assigned=\\\"false\\\"><sup data-autom=\\\"footnote-sub\\\" class=\\\"as-footnote\\\"><span class=\\\"visuallyhidden\\\">&nbsp;Fußnote&nbsp;</span></sup></as-footnote>\\n</div>\", \"position\": 1, \"even\": true, \"first\": true, \"last\": false}, {\"index\": 1, \"value\": \"<div class=\\\"rf-digitalmat-valueprops-icon\\\">\\n\\t<div class=\\\"as-svgicon-container dd-color-blue-violet\\\">\\n\\t\\t\\n<svg width=\\\"19\\\" height=\\\"25\\\" viewBox=\\\"0 0 19 25\\\" class=\\\"dd-glyph-svg dd-glyph-reduced\\\" aria-hidden=\\\"true\\\">\\n  <path d=\\\"m18 13.333v4.167c0 1.9297-1.57 3.5-3.4996 3.5h-10c-1.9297 0-3.5-1.5703-3.5-3.5v-1.9532h-.5476c-.3298 0-.4167-.2245-.2336-.4808l1.0259-1.4563c.1465-.2107.3663-.2062.5129 0l1.0259 1.4608c.1786.2518.0916.4763-.2336.4763h-.5503v1.9532c0 1.3789 1.1215 2.5 2.5004 2.5h10c1.3789 0 2.5-1.1211 2.5-2.5v-4.167c0-.2764.2236-.5.5-.5s.4996.2236.4996.5zm.5472-3.8798h-.5472v-1.9532c0-1.9297-1.57-3.5-3.4996-3.5h-10c-1.9297 0-3.5 1.5703-3.5 3.5v4.167c0 .2764.2236.5.5.5s.4996-.2236.4996-.5v-4.167c0-1.3789 1.1215-2.5 2.5004-2.5h10c1.3789 0 2.5 1.1211 2.5 2.5v1.9532h-.5507c-.3251 0-.41"
     },
     {
      "url": "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
      "body": "[{\"name\": \"apple\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple home\"}], \"id\": \"3d39a8ff\"}, {\"name\": \"store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"store\"}, {\"name\": \"data-analytics-element-engagement\", \"value\": \"hover - store\"}], \"baseGroups\": [{\"id\": \"a8e6f8aa\", \"title\": \"Quick Links\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"quick links - store\"}], \"baseLinks\": [{\"id\": \"3bec88cd\", \"text\": \"Apple Store Black Friday Event\", \"url\": \"/de/shop/goto/gifts/black_friday_event\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple store black friday event\"}], \"ariaLabel\": \"\"}, {\"id\": \"622c2f61\", \"text\": \"Store finden\", \"url\": \"/de/retail/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"find a store\"}], \"ariaLabel\": \"\"}, {\"id\": \"6d4e3e8b\", \"text\": \"Bestellstatus\", \"url\": \"/de/shop/goto/order/list\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"order status\"}], \"ariaLabel\": \"\"}, {\"id\": \"0b7b196e\", \"text\": \"Apple Trade In\", \"url\": \"/de/shop/goto/trade_in\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple trade in\"}], \"ariaLabel\": \"\"}, {\"id\": \"65ecdde8\", \"text\": \"Finanzierung\", \"url\": \"/de/shop/goto/ww/financing\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"financing\"}], \"ariaLabel\": \"\"}, {\"id\": \"d0a7244e\", \"text\": \"Persönliches Setup\", \"url\": \"/de/shop/goto/personal_setup\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"personal setup\"}], \"ariaLabel\": \"\"}]}, {\"id\": \"4fb20b79\", \"title\": \"Spezielle Stores\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"shop special stores\"}], \"baseLinks\": [{\"id\": \"9bd6adcf\", \"text\": \"Zertifiziert Refurbished\", \"url\": \"/de/shop/goto/special_deals\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"certified refurbished\"}], \"ariaLabel\": \"\"}, {\"id\": \"0a88d8e4\", \"text\": \"Bildung\", \"url\": \"/de/shop/goto/educationrouting\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"education\"}], \"ariaLabel\": \"\"}, {\"id\": \"a503a18a\", \"text\": \"Business\", \"url\": \"/de/retail/business/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"business\"}], \"ariaLabel\": \"\"}]}], \"elevatedGroups\": [{\"id\": \"51e6512f\", \"title\": \"Kaufen\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"explore shop\"}], \"elevatedLinks\": [{\"id\": \"6b9fde3f\", \"text\": \"Geschenke kaufen\", \""
     },
     {
-     "url": "https://www.apple.com/de/shop/bag/status?apikey=SJHJUH4YFCTTPD4F4",
-     "body": "{\"items\": 0, \"ttl\": 180, \"api\": {\"flyout\": \"/%5Bstorefront%5D/shop/bag/flyout\", \"addToBag\": \"/%5Bstorefront%5D/shop/bag/add?product=%5Bpart%5D\"}}"
+     "url": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+     "body": "{\"id\": \"MK4U_yHHQ3K55qUSyGHnHw\", \"results\": [{\"sectionName\": \"quickLinks\", \"sectionResults\": [{\"label\": \"Apple Store Black Friday Event\", \"url\": \"https://www.apple.com/de/shop/goto/gifts/black_friday_event\"}, {\"label\": \"Geschenke kaufen\", \"url\": \"https://www.apple.com/de/shop/goto/store\"}, {\"label\": \"Apple Gift Card\", \"url\": \"https://www.apple.com/de/shop/goto/giftcards\"}, {\"label\": \"Store finden\", \"url\": \"https://www.apple.com/de/retail/\"}, {\"label\": \"Apple Trade In\", \"url\": \"https://www.apple.com/de/shop/goto/trade_in\"}]}, {\"sectionName\": \"suggestions\", \"sectionResults\": []}]}"
     },
     {
-     "url": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
-     "body": "{\"id\": \"k4oYmBojQymHiP2il4Sg8g\", \"results\": [{\"sectionName\": \"quickLinks\", \"sectionResults\": [{\"label\": \"Apple Store Black Friday Event\", \"url\": \"https://www.apple.com/de/shop/goto/gifts/black_friday_event\"}, {\"label\": \"Geschenke kaufen\", \"url\": \"https://www.apple.com/de/shop/goto/store\"}, {\"label\": \"Apple Gift Card\", \"url\": \"https://www.apple.com/de/shop/goto/giftcards\"}, {\"label\": \"Store finden\", \"url\": \"https://www.apple.com/de/retail/\"}, {\"label\": \"Apple Trade In\", \"url\": \"https://www.apple.com/de/shop/goto/trade_in\"}]}, {\"sectionName\": \"suggestions\", \"sectionResults\": []}]}"
+     "url": "https://www.apple.com/shop/shld/work/v3/q?jr=30",
+     "body": "{\"t\": 1795184467.264, \"signature\": \"88c7f3810e4709657789e9e93c07d6d2c9644a0f89a18a5906b9070e549583f5\", \"salt\": \"b040960fc84939eeb5aac9269a1488e56cf11ab66de7e84c7d42da9ebc09e2de5d5fc0c0398c9a77220d5b12ecefa72d\", \"timeout\": 3000, \"X\": \"0391a124aff5b4128805d095c24dae254b1be7c4cfcff463d354b7606488db0d\", \"challenge_version\": 3, \"challenge\": \"2c88adcc9a2b918693038697a758da0008ab3efa116d90caa0db53754a7b8e75e09a1775d0f3db41448dbba378bbf840\", \"algorithm\": \"SHA-384\"}"
     }
    ]
   },
@@ -62,9 +62,9 @@
    "final_url": "https://www.apple.com/de/shop/buy-ipad",
    "title": "iPad kaufen - Apple (DE)",
    "json_urls": [
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+    "https://www.apple.com/de/shop/api/digital-mat?path=library/step0_ipad/digitalmat&fae=true",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
-    "https://www.apple.com/de/shop/api/digital-mat?path=library/step0_ipad/digitalmat&fae=true"
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE"
    ],
    "links": [
     "https://www.apple.com/de/shop/buy-ipad/ipad-pro",
@@ -89,16 +89,16 @@
    "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + Erhalte ab Black Friday eine Apple Gift Card über bis zu 240 € Fußnote ① beim Kauf eines qualifizierten Produkts. Zahle für dein neues iPad mit 0 % eff. Zins p.a. in 12 Raten. Fußnote ② Weitere Infos Erhalte ab Black Friday eine Apple Gift Card über bis zu 240 € Fußnote ① beim Kauf eines qualifizierten Produkts. Zurück Weiter iPad kaufen Frag unsere Specialists (Öffnet ein neues Fenster) Apple Store finden (öffnet ein neues Fenster) Alle Modelle iPad Zubehör Weniger zahlen ist möglich Nur bei Apple Setup und Support Das iPad Erlebnis Spezielle Stores Alle Modelle. Welches wird deins? iPad Pro Genauer ansehen - iPad Pro Ab 1.299 € oder 108,25 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Kaufen - iPad Pro iPad Air Genauer ansehen - iPad Air Ab 799 € oder 66,58 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Kaufen - iPad Air iPad Genauer ansehen - iPad Ab 499 € oder 41,58 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Kaufen - iPad NEU iPad mini - NEU Genauer ansehen - iPad mini Ab 749 € oder 62,42 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Kaufen - iPad mini ALLE MODELLE VERGLEICHEN Welches iPad ist das richtige für dich? - (Öffnet ein neues Fenster) Entdecke iPad Zubehör. Zurück - Alle Modelle Weiter - Alle Mod",
    "json_samples": [
     {
-     "url": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
-     "body": "{\"id\": \"k4oYmBojQymHiP2il4Sg8g\", \"results\": [{\"sectionName\": \"quickLinks\", \"sectionResults\": [{\"label\": \"Apple Store Black Friday Event\", \"url\": \"https://www.apple.com/de/shop/goto/gifts/black_friday_event\"}, {\"label\": \"Geschenke kaufen\", \"url\": \"https://www.apple.com/de/shop/goto/store\"}, {\"label\": \"Apple Gift Card\", \"url\": \"https://www.apple.com/de/shop/goto/giftcards\"}, {\"label\": \"Store finden\", \"url\": \"https://www.apple.com/de/retail/\"}, {\"label\": \"Apple Trade In\", \"url\": \"https://www.apple.com/de/shop/goto/trade_in\"}]}, {\"sectionName\": \"suggestions\", \"sectionResults\": []}]}"
+     "url": "https://www.apple.com/de/shop/api/digital-mat?path=library/step0_ipad/digitalmat&fae=true",
+     "body": "{\"head\": {\"status\": \"200\", \"data\": {}}, \"body\": {\"digitalMat\": [{\"enableDarkTheme\": false, \"familyTypes\": [{\"valuePropsContent\": {\"items\": [{\"index\": 0, \"value\": \"<div class=\\\"rf-digitalmat-valueprops-icon\\\"><div class=\\\"as-svgicon-container dd-color-green\\\">\\n<svg width=\\\"21\\\" height=\\\"25\\\" viewBox=\\\"0 0 21 25\\\" class=\\\"dd-glyph-svg dd-glyph-reduced\\\" aria-hidden=\\\"true\\\">\\n  <path d=\\\"m18.5 5h-16a2.5 2.5 0 0 0 -2.5 2.5v10a2.5 2.5 0 0 0 2.5 2.5h15.9958a2.5 2.5 0 0 0 2.5-2.5l.0042-10a2.5 2.5 0 0 0 -2.5-2.5zm-16 1h16a1.5017 1.5017 0 0 1 1.5 1.5v1.5h-19v-1.5a1.5017 1.5017 0 0 1 1.5-1.5zm15.9958 13h-15.9958a1.5017 1.5017 0 0 1 -1.5-1.5v-6.5h19v6.5a1.5053 1.5053 0 0 1 -1.5042 1.5zm-11.4958-5.0179v2.0358a.83.83 0 0 1 -.8.8571h-2.4a.83.83 0 0 1 -.8-.8571v-2.0358a.83.83 0 0 1 .8-.8571h2.4a.83.83 0 0 1 .8.8571z\\\" />\\n</svg></div></div><div class=\\\"rf-digitalmat-valueprops-description\\\"><h3 class=\\\"rf-digitalmat-valueprops-header\\\">Flexible monatliche Zahlungen</h3><span>Wähle die Ratenzahlungsoption, die am besten für dich passt.<as-footnote data-id=\\\"23fc6f695e689ff7be731fbcdcfc5013\\\" data-assigned=\\\"false\\\"><sup data-autom=\\\"footnote-sub\\\" class=\\\"as-footnote\\\"><span class=\\\"visuallyhidden\\\">&nbsp;Fußnote&nbsp;</span></sup></as-footnote></span></div>\", \"position\": 1, \"even\": true, \"last\": false, \"first\": true}, {\"index\": 1, \"value\": \"<div class=\\\"rf-digitalmat-valueprops-icon\\\"><div class=\\\"as-svgicon-container dd-color-blue-violet\\\">\\n<svg width=\\\"19\\\" height=\\\"25\\\" viewBox=\\\"0 0 19 25\\\" class=\\\"dd-glyph-svg dd-glyph-reduced\\\" aria-hidden=\\\"true\\\">\\n  <path d=\\\"m18 13.333v4.167c0 1.9297-1.57 3.5-3.4996 3.5h-10c-1.9297 0-3.5-1.5703-3.5-3.5v-1.9532h-.5476c-.3298 0-.4167-.2245-.2336-.4808l1.0259-1.4563c.1465-.2107.3663-.2062.5129 0l1.0259 1.4608c.1786.2518.0916.4763-.2336.4763h-.5503v1.9532c0 1.3789 1.1215 2.5 2.5004 2.5h10c1.3789 0 2.5-1.1211 2.5-2.5v-4.167c0-.2764.2236-.5.5-.5s.4996.2236.4996.5zm.5472-3.8798h-.5472v-1.9532c0-1.9297-1.57-3.5-3.4996-3.5h-10c-1.9297 0-3.5 1.5703-3.5 3.5v4.167c0 .2764.2236.5.5.5s.4996-.2236.4996-.5v-4.167c0-1.3789 1.1215-2.5 2.5004-2.5h10c1.3789 0 2.5 1.1211 2.5 2.5v1.9532h-.5507c-.3251 0-.4122.2245-.2336.4762l1.0259 1.4609c.1465.2061.3663.2107.5129 0l1.0258-1.4563c.1832-.2563.0962-.4808-.2336-.4808zm-5.146-.4532h-8.2099c-.2903 0-.52.0796-.6891.2368-.1681.1572-.2522.391-.2522.7004v5.0549h-.3784c-.1378 0-.2551.0501-.3519.1483-.0968.0992-.1447.2171-.1447.3566 0 .1375.0479.2564.1447.3556.0968.0982.2141.1474.3519.1474h7.9784c-.129-.2063"
     },
     {
      "url": "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
      "body": "[{\"name\": \"apple\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple home\"}], \"id\": \"3d39a8ff\"}, {\"name\": \"store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"store\"}, {\"name\": \"data-analytics-element-engagement\", \"value\": \"hover - store\"}], \"baseGroups\": [{\"id\": \"a8e6f8aa\", \"title\": \"Quick Links\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"quick links - store\"}], \"baseLinks\": [{\"id\": \"3bec88cd\", \"text\": \"Apple Store Black Friday Event\", \"url\": \"/de/shop/goto/gifts/black_friday_event\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple store black friday event\"}], \"ariaLabel\": \"\"}, {\"id\": \"622c2f61\", \"text\": \"Store finden\", \"url\": \"/de/retail/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"find a store\"}], \"ariaLabel\": \"\"}, {\"id\": \"6d4e3e8b\", \"text\": \"Bestellstatus\", \"url\": \"/de/shop/goto/order/list\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"order status\"}], \"ariaLabel\": \"\"}, {\"id\": \"0b7b196e\", \"text\": \"Apple Trade In\", \"url\": \"/de/shop/goto/trade_in\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple trade in\"}], \"ariaLabel\": \"\"}, {\"id\": \"65ecdde8\", \"text\": \"Finanzierung\", \"url\": \"/de/shop/goto/ww/financing\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"financing\"}], \"ariaLabel\": \"\"}, {\"id\": \"d0a7244e\", \"text\": \"Persönliches Setup\", \"url\": \"/de/shop/goto/personal_setup\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"personal setup\"}], \"ariaLabel\": \"\"}]}, {\"id\": \"4fb20b79\", \"title\": \"Spezielle Stores\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"shop special stores\"}], \"baseLinks\": [{\"id\": \"9bd6adcf\", \"text\": \"Zertifiziert Refurbished\", \"url\": \"/de/shop/goto/special_deals\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"certified refurbished\"}], \"ariaLabel\": \"\"}, {\"id\": \"0a88d8e4\", \"text\": \"Bildung\", \"url\": \"/de/shop/goto/educationrouting\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"education\"}], \"ariaLabel\": \"\"}, {\"id\": \"a503a18a\", \"text\": \"Business\", \"url\": \"/de/retail/business/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"business\"}], \"ariaLabel\": \"\"}]}], \"elevatedGroups\": [{\"id\": \"51e6512f\", \"title\": \"Kaufen\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"explore shop\"}], \"elevatedLinks\": [{\"id\": \"6b9fde3f\", \"text\": \"Geschenke kaufen\", \""
     },
     {
-     "url": "https://www.apple.com/de/shop/api/digital-mat?path=library/step0_ipad/digitalmat&fae=true",
-     "body": "{\"head\": {\"status\": \"200\", \"data\": {}}, \"body\": {\"digitalMat\": [{\"productName\": \"iPad Pro\", \"tabDescriptionLabel\": \"Display-Größe\", \"enableDarkTheme\": false, \"familyTypes\": [{\"footer\": \"<ol>\\n    <li>Apple Intelligence ist in der Betaversion verfügbar. Einige Features sind u.&nbsp;U. nicht in allen Regionen oder Sprachen verfügbar. Informationen zur Verfügbarkeit von Features, Sprachen und System­anforderungen findest du unter <a href=\\\"https://support.apple.com/de-de/121115\\\" target=\\\"_blank\\\">support.apple.com/121115<span class=\\\"a11y\\\"> (Öffnet ein neues Fenster)</span></a>.</li>\\n    <li>Die Displays haben gerundete Ecken. Als Rechteck gemessen beträgt die Diagonale 13\\\" (33,02&nbsp;cm) beim 13\\\"&nbsp;iPad&nbsp;Pro und 11,1\\\" (28,22&nbsp;cm) beim 11\\\"&nbsp;iPad&nbsp;Pro. Der tatsächlich sichtbare Displaybereich ist kleiner.</li>\\n    \\n    <li>Zubehör ist separat erhältlich und abhängig von der Verfügbarkeit.</li>\\n</ol>\", \"productPrice\": {\"priceData\": {\"fullPrice\": {\"priceString\": \"Ab <span class=\\\"nowrap\\\">1.299 €</span>\", \"raw\": {\"price\": \"1299.00\"}}, \"monthlyPrice\": {\"priceString\": \" oder <span>108,25 €<span aria-hidden=\\\"true\\\">/Rate </span><span class=\\\"visuallyhidden\\\">pro Rate</span><span class=\\\"as-price-acinstallmentmonths\\\"> bei 12 <span aria-hidden=\\\"true\\\">Raten</span><span class=\\\"visuallyhidden\\\">Raten</span></span> mit 0 % eff. Zins p.a.<span class=\\\"visuallyhidden\\\">eff. Zins p.a.</span><span class=\\\"as-price-acinstallmentterms-footnotes\\\"><as-footnote data-id=\\\"23fc6f695e689ff7be731fbcdcfc5013\\\" data-assigned=\\\"false\\\"><sup data-autom=\\\"footnote-sub\\\" class=\\\"as-footnote\\\"><span class=\\\"visuallyhidden\\\">&nbsp;Fußnote&nbsp;</span></sup></as-footnote></span></span>\"}, \"refurbProduct\": false, \"priceFeeDisclaimer\": {\"priceString\": \"Einschließlich MwSt. und ges. Gebühren i. H. v. ca. 215,00 €.<as-footnote data-id=\\\"c797ec623451481bcb7b6f5ad02aa26a\\\" data-assigned=\\\"false\\\"><sup data-autom=\\\"footnote-sub\\\" class=\\\"as-footnote\\\"><span class=\\\"visuallyhidden\\\">&nbsp;Fußnote&nbsp;</span></sup></as-footnote>\"}}, \"templateId\": \"LEAD_WITH_FULL_PRICE\", \"staticAssets\": {\"priceSeparator\": \" \"}}, \"complianceModel\": {\"energyLabel\": {\"image\": {\"sources\": [{\"srcSet\": \"https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/a3357-energy-label?wid=520&hei=1040&fmt=png-alpha&.v=Yng0S21aSkRpVjNKYlhCVzFaTzZkRytOSFJGVENabzZhcUdLNmtnLzlsaDdERlVmc0RydW5JVTQxeGZrVkg3ZmN5TUhWK0Z6UFFQNmNyY1krZkxQdlc2TElBb25pdWtobWFNcnpLVmp5MzQ\", \"type\": \"image/png\"}], \"wi"
+     "url": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+     "body": "{\"id\": \"MK4U_yHHQ3K55qUSyGHnHw\", \"results\": [{\"sectionName\": \"quickLinks\", \"sectionResults\": [{\"label\": \"Apple Store Black Friday Event\", \"url\": \"https://www.apple.com/de/shop/goto/gifts/black_friday_event\"}, {\"label\": \"Geschenke kaufen\", \"url\": \"https://www.apple.com/de/shop/goto/store\"}, {\"label\": \"Apple Gift Card\", \"url\": \"https://www.apple.com/de/shop/goto/giftcards\"}, {\"label\": \"Store finden\", \"url\": \"https://www.apple.com/de/retail/\"}, {\"label\": \"Apple Trade In\", \"url\": \"https://www.apple.com/de/shop/goto/trade_in\"}]}, {\"sectionName\": \"suggestions\", \"sectionResults\": []}]}"
     }
    ]
   },
@@ -108,9 +108,9 @@
    "final_url": "https://www.apple.com/de/shop/buy-watch",
    "title": "Apple Watch kaufen - Apple (DE)",
    "json_urls": [
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
     "https://www.apple.com/de/shop/api/digital-mat?path=library/step0_watch/digitalmat&fae=true",
-    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE"
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE"
    ],
    "links": [
     "https://www.apple.com/de/shop/buy-watch/apple-watch",
@@ -134,16 +134,16 @@
    "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + Erhalte ab Black Friday eine Apple Gift Card über bis zu 240 € Fußnote ② beim Kauf eines qualifizierten Produkts. Zahle für deine neue Apple Watch mit 0 % eff. Zins p.a. in 12 Raten. Fußnote Fußnote ① Weitere Infos Erhalte ab Black Friday eine Apple Gift Card über bis zu 240 € Fußnote ② beim Kauf eines qualifizierten Produkts. Zurück Weiter Apple Watch kaufen Frag unsere Specialists (Öffnet ein neues Fenster) Apple Store finden (öffnet ein neues Fenster) Alle Modelle Apple Watch Zubehör Weniger zahlen ist möglich Nur bei Apple Apple Watch Ladezubehör Das Apple Watch Erlebnis Setup und Support Zurück - local navigation link Alle Modelle. Welches wird deins? NEU Apple Watch Series 12 - NEU Genauer ansehen - Apple Watch Series 12 + Ab 449 € oder 37,42 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ① Kaufen - Apple Watch Series 12 NEU Apple Watch Ultra 4 - NEU Genauer ansehen - Apple Watch Ultra 4 Ab 899 € oder 74,92 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ① Kaufen - Apple Watch Ultra 4 Apple Watch SE 3 Genauer ansehen - Apple Watch SE 3 Ab 269 € oder 22,42 €/Rate pro Rate bei 12 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ① Kaufen - Apple Watch SE 3 NEU Apple Watch Hermès Series 12 - NEU Genauer ansehen - Apple Watch Hermès Series 12 Ab 1.599 € oder 133,25 €/Rate pro Rate bei 12 Raten",
    "json_samples": [
     {
-     "url": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
-     "body": "{\"id\": \"k4oYmBojQymHiP2il4Sg8g\", \"results\": [{\"sectionName\": \"quickLinks\", \"sectionResults\": [{\"label\": \"Apple Store Black Friday Event\", \"url\": \"https://www.apple.com/de/shop/goto/gifts/black_friday_event\"}, {\"label\": \"Geschenke kaufen\", \"url\": \"https://www.apple.com/de/shop/goto/store\"}, {\"label\": \"Apple Gift Card\", \"url\": \"https://www.apple.com/de/shop/goto/giftcards\"}, {\"label\": \"Store finden\", \"url\": \"https://www.apple.com/de/retail/\"}, {\"label\": \"Apple Trade In\", \"url\": \"https://www.apple.com/de/shop/goto/trade_in\"}]}, {\"sectionName\": \"suggestions\", \"sectionResults\": []}]}"
-    },
-    {
      "url": "https://www.apple.com/de/shop/api/digital-mat?path=library/step0_watch/digitalmat&fae=true",
-     "body": "{\"head\": {\"status\": \"200\", \"data\": {}}, \"body\": {\"digitalMat\": [{\"enableDarkTheme\": false, \"familyTypes\": [{\"valuePropsContent\": {\"items\": [{\"index\": 0, \"value\": \"<div class=\\\"rf-digitalmat-valueprops-icon\\\"><div class=\\\"as-svgicon-container dd-color-green\\\">\\n<svg width=\\\"21\\\" height=\\\"25\\\" viewBox=\\\"0 0 21 25\\\" class=\\\"dd-glyph-svg dd-glyph-reduced\\\" aria-hidden=\\\"true\\\">\\n  <path d=\\\"m18.5 5h-16a2.5 2.5 0 0 0 -2.5 2.5v10a2.5 2.5 0 0 0 2.5 2.5h15.9958a2.5 2.5 0 0 0 2.5-2.5l.0042-10a2.5 2.5 0 0 0 -2.5-2.5zm-16 1h16a1.5017 1.5017 0 0 1 1.5 1.5v1.5h-19v-1.5a1.5017 1.5017 0 0 1 1.5-1.5zm15.9958 13h-15.9958a1.5017 1.5017 0 0 1 -1.5-1.5v-6.5h19v6.5a1.5053 1.5053 0 0 1 -1.5042 1.5zm-11.4958-5.0179v2.0358a.83.83 0 0 1 -.8.8571h-2.4a.83.83 0 0 1 -.8-.8571v-2.0358a.83.83 0 0 1 .8-.8571h2.4a.83.83 0 0 1 .8.8571z\\\" />\\n</svg></div></div><div class=\\\"rf-digitalmat-valueprops-description\\\"><h3 class=\\\"rf-digitalmat-valueprops-header\\\">Flexible monatliche Zahlungen</h3><span>Wähle die Ratenzahlungsoption, die am besten für dich passt.<as-footnote data-id=\\\"23fc6f695e689ff7be731fbcdcfc5013\\\" data-assigned=\\\"false\\\"><sup data-autom=\\\"footnote-sub\\\" class=\\\"as-footnote\\\"><span class=\\\"visuallyhidden\\\">&nbsp;Fußnote&nbsp;</span></sup></as-footnote></span></div>\", \"position\": 1, \"even\": true, \"last\": false, \"first\": true}, {\"index\": 1, \"value\": \"<div class=\\\"rf-digitalmat-valueprops-icon\\\">\\n\\t<div class=\\\"as-svgicon-container dd-color-blue-violet\\\">\\n\\t\\t\\n<svg width=\\\"19\\\" height=\\\"25\\\" viewBox=\\\"0 0 19 25\\\" class=\\\"dd-glyph-svg dd-glyph-reduced\\\" aria-hidden=\\\"true\\\">\\n  <path d=\\\"m18 13.333v4.167c0 1.9297-1.57 3.5-3.4996 3.5h-10c-1.9297 0-3.5-1.5703-3.5-3.5v-1.9532h-.5476c-.3298 0-.4167-.2245-.2336-.4808l1.0259-1.4563c.1465-.2107.3663-.2062.5129 0l1.0259 1.4608c.1786.2518.0916.4763-.2336.4763h-.5503v1.9532c0 1.3789 1.1215 2.5 2.5004 2.5h10c1.3789 0 2.5-1.1211 2.5-2.5v-4.167c0-.2764.2236-.5.5-.5s.4996.2236.4996.5zm.5472-3.8798h-.5472v-1.9532c0-1.9297-1.57-3.5-3.4996-3.5h-10c-1.9297 0-3.5 1.5703-3.5 3.5v4.167c0 .2764.2236.5.5.5s.4996-.2236.4996-.5v-4.167c0-1.3789 1.1215-2.5 2.5004-2.5h10c1.3789 0 2.5 1.1211 2.5 2.5v1.9532h-.5507c-.3251 0-.4122.2245-.2336.4762l1.0259 1.4609c.1465.2061.3663.2107.5129 0l1.0258-1.4563c.1832-.2563.0962-.4808-.2336-.4808zm-5.146-.4532h-8.2099c-.2903 0-.52.0796-.6891.2368-.1681.1572-.2522.391-.2522.7004v5.0549h-.3784c-.1378 0-.2551.0501-.3519.1483-.0968.0992-.1447.2171-.1447.3566 0 .1375.0479.2564.1447.3556.0968.0982.2141.1474.3519.1474h7.9784c-"
+     "body": "{\"head\": {\"status\": \"200\", \"data\": {}}, \"body\": {\"digitalMat\": [{\"enableDarkTheme\": false, \"familyTypes\": [{\"complianceModel\": {}, \"violator\": \"NEU\", \"productPrice\": {\"priceData\": {\"fullPrice\": {\"priceString\": \"<span class=\\\"as-pricepoint-fullprice\\\">Ab <span class=\\\"nowrap\\\">449 €</span></span>\", \"raw\": {\"price\": \"449.00\"}}, \"monthlyPrice\": {\"priceString\": \" oder <span>37,42 €<span aria-hidden=\\\"true\\\">/Rate </span><span class=\\\"visuallyhidden\\\">pro Rate</span><span class=\\\"as-price-acinstallmentmonths\\\"> bei 12 <span aria-hidden=\\\"true\\\">Raten</span><span class=\\\"visuallyhidden\\\">Raten</span></span> mit 0 % eff. Zins p.a.<span class=\\\"visuallyhidden\\\">eff. Zins p.a.</span><span class=\\\"as-price-acinstallmentterms-footnotes\\\"><as-footnote data-id=\\\"23fc6f695e689ff7be731fbcdcfc5013\\\" data-assigned=\\\"false\\\"><sup data-autom=\\\"footnote-sub\\\" class=\\\"as-footnote\\\"><span class=\\\"visuallyhidden\\\">&nbsp;Fußnote&nbsp;</span></sup></as-footnote></span></span>\"}, \"refurbProduct\": false}, \"staticAssets\": {\"priceSeparator\": \" \"}, \"templateId\": \"LEAD_WITH_FULL_PRICE\"}, \"priceString\": \"Ab <span class=\\\"nowrap\\\">449 €</span>  oder <span>37,42 €<span aria-hidden=\\\"true\\\">/Rate </span><span class=\\\"visuallyhidden\\\">pro Rate</span><span class=\\\"as-price-acinstallmentmonths\\\"> bei 12 <span aria-hidden=\\\"true\\\">Raten</span><span class=\\\"visuallyhidden\\\">Raten</span></span> mit 0&nbsp;% eff. Zins p.a.<span class=\\\"visuallyhidden\\\">eff. Zins&nbsp;p.a.</span><span class=\\\"as-price-acinstallmentterms-footnotes\\\"><as-footnote data-id=\\\"23fc6f695e689ff7be731fbcdcfc5013\\\" data-assigned=\\\"false\\\"><sup data-autom=\\\"footnote-sub\\\" class=\\\"as-footnote\\\"><span class=\\\"visuallyhidden\\\">&nbsp;Fußnote&nbsp;</span></sup></as-footnote></span></span>\", \"primaryButton\": \"Kaufen\", \"productLink\": {\"link\": {\"omnitureData\": {\"slotName\": \"digitalMat-2\", \"linkText\": \"Apple Watch Series 12 Apple Watch\", \"partNumber\": \"WS12_APPLEWATCH\"}, \"dataVar\": {}, \"text\": \"Apple Watch Series 12\", \"url\": \"/de/shop/buy-watch/apple-watch\"}}, \"exploreLink\": {\"url\": \"https://www.apple.com/de/apple-watch-series-12\", \"text\": \"Erfahre mehr über die Apple Watch Series 12\", \"dataVar\": {}, \"omnitureData\": {\"linkText\": \"Erfahre mehr über die Apple Watch Series 12\", \"commitCodeId\": 0}, \"newTab\": false, \"isLinkAsButton\": false, \"link\": \"https://www.apple.com/de/apple-watch-series-12\", \"deeplink\": []}, \"colorGallery\": {\"galleryTitle\": \"Verfügbare Farboptionen:\", \"gallery\": {\"size\": 8, \"items\": [{\"index\": 1, \"value\": {\"image\": {"
     },
     {
      "url": "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
      "body": "[{\"name\": \"apple\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple home\"}], \"id\": \"3d39a8ff\"}, {\"name\": \"store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"store\"}, {\"name\": \"data-analytics-element-engagement\", \"value\": \"hover - store\"}], \"baseGroups\": [{\"id\": \"a8e6f8aa\", \"title\": \"Quick Links\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"quick links - store\"}], \"baseLinks\": [{\"id\": \"3bec88cd\", \"text\": \"Apple Store Black Friday Event\", \"url\": \"/de/shop/goto/gifts/black_friday_event\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple store black friday event\"}], \"ariaLabel\": \"\"}, {\"id\": \"622c2f61\", \"text\": \"Store finden\", \"url\": \"/de/retail/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"find a store\"}], \"ariaLabel\": \"\"}, {\"id\": \"6d4e3e8b\", \"text\": \"Bestellstatus\", \"url\": \"/de/shop/goto/order/list\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"order status\"}], \"ariaLabel\": \"\"}, {\"id\": \"0b7b196e\", \"text\": \"Apple Trade In\", \"url\": \"/de/shop/goto/trade_in\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple trade in\"}], \"ariaLabel\": \"\"}, {\"id\": \"65ecdde8\", \"text\": \"Finanzierung\", \"url\": \"/de/shop/goto/ww/financing\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"financing\"}], \"ariaLabel\": \"\"}, {\"id\": \"d0a7244e\", \"text\": \"Persönliches Setup\", \"url\": \"/de/shop/goto/personal_setup\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"personal setup\"}], \"ariaLabel\": \"\"}]}, {\"id\": \"4fb20b79\", \"title\": \"Spezielle Stores\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"shop special stores\"}], \"baseLinks\": [{\"id\": \"9bd6adcf\", \"text\": \"Zertifiziert Refurbished\", \"url\": \"/de/shop/goto/special_deals\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"certified refurbished\"}], \"ariaLabel\": \"\"}, {\"id\": \"0a88d8e4\", \"text\": \"Bildung\", \"url\": \"/de/shop/goto/educationrouting\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"education\"}], \"ariaLabel\": \"\"}, {\"id\": \"a503a18a\", \"text\": \"Business\", \"url\": \"/de/retail/business/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"business\"}], \"ariaLabel\": \"\"}]}], \"elevatedGroups\": [{\"id\": \"51e6512f\", \"title\": \"Kaufen\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"explore shop\"}], \"elevatedLinks\": [{\"id\": \"6b9fde3f\", \"text\": \"Geschenke kaufen\", \""
+    },
+    {
+     "url": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+     "body": "{\"id\": \"MK4U_yHHQ3K55qUSyGHnHw\", \"results\": [{\"sectionName\": \"quickLinks\", \"sectionResults\": [{\"label\": \"Apple Store Black Friday Event\", \"url\": \"https://www.apple.com/de/shop/goto/gifts/black_friday_event\"}, {\"label\": \"Geschenke kaufen\", \"url\": \"https://www.apple.com/de/shop/goto/store\"}, {\"label\": \"Apple Gift Card\", \"url\": \"https://www.apple.com/de/shop/goto/giftcards\"}, {\"label\": \"Store finden\", \"url\": \"https://www.apple.com/de/retail/\"}, {\"label\": \"Apple Trade In\", \"url\": \"https://www.apple.com/de/shop/goto/trade_in\"}]}, {\"sectionName\": \"suggestions\", \"sectionResults\": []}]}"
     }
    ]
   },
@@ -153,8 +153,8 @@
    "final_url": "https://www.apple.com/de/shop/accessories/all/headphones-speakers",
    "title": "Kopfhörer & Lautsprecher - Alle Zubehörprodukte - Apple (DE)",
    "json_urls": [
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
-    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE"
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE"
    ],
    "links": [
     "https://www.apple.com/de/shop/buy-airpods/airpods-pro-3"
@@ -178,15 +178,65 @@
    "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + Alle Zubehörprodukte Kopfhörer & Lautsprecher Zubehörtyp Kompatibilität Marke Farbe Kopfhörer-Typ Verbindung Features Nur bei Apple Sortieren nach: Empfohlen Kostenlose Gravur AirPods Pro 3 249,00 € Neu AirPods 5 mit kabellosem Ladecase 169,00 € Neu AirPods 5 149,00 € Kostenlose Gravur AirPods Max 2 579,00 € Neu HomePod mini 2 169,00 € HomePod 399,00 € Zurück Bild - EarPods (USB-C) Weiter Bild - EarPods (USB-C) EarPods (USB-C) 19,00 € Neu Beats 360 349,95 € Zurück Bild - Beats 360 Cushion Kit – Performance Ohrpolster und Kopfbügel aus Strickgewebe in Schwarz Weiter Bild - Beats 360 Cushion Kit – Performance Ohrpolster und Kopfbügel aus Strickgewebe in Schwarz Neu Beats 360 Cushion Kit – Performance Ohrpolster und Kopfbügel aus Strickgewebe in Schwarz 59,95 € Zurück Bild - Beats 360 Cushion Kit – UltraPlush Ohrpolster und Kopfbügel in Schwarz Weiter Bild - Beats 360 Cushion Kit – UltraPlush Ohrpolster und Kopfbügel in Schwarz Neu Beats 360 Cushion Kit – UltraPlush Ohrpolster und Kopfbügel in Schwarz 59,95 € Zurück Bild - Beats Studio Pro kabellose Kopfhörer – Espresso Weiter Bild - Beats Studio Pro kabellose Kopfhörer – Espresso Beats Studio Pro kabellose Kopfhörer – Espresso 299,95 € Zurück Bild - Beats Solo 4 – Kabellose On‑Ear Kopfhörer – Schieferblau Weiter Bild - Beats Solo 4 – Kabellose On‑Ear Kopfhörer – Schieferblau Beats Solo 4 – Kabellose On‑Ear Kopfhörer – Schieferblau 229,95 € Z"
   },
   {
+   "url": "https://www.apple.com/de/shop/buy-airpods",
+   "status": 404,
+   "final_url": "https://www.apple.com/de/shop/buy-airpods",
+   "title": "Seite nicht gefunden - Apple (DE)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE"
+   ],
+   "links": [],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + Leider wurde die gewünschte Seite nicht gefunden. apple.com durchsuchen submit Oder auf unserer Sitemap nachsehen Footer Fußnoten Die Preise beinhalten die Mehrwertsteuer (19 %), anwendbare Copyright-Gebühren und Versicherungssteuer (wo erforderlich). Nicht enthalten sind Lieferkosten, wenn nicht anders angegeben. Der Mehrwertsteuersatz für Produkte, die entsprechend dem europäischen Mehrwertsteuergesetz als Dienstleistungen klassifiziert sind, beträgt 23 %. Sie unterliegen dem Mehrwertsteuersatz des Landes oder der Region, aus dem/aus der Apple Distribution International Ltd. solche Produkte liefert, hier die Republik Irland. Der zu zahlende Mehrwertsteuersatz für das Qualifizierte Produkt ist auf dem Auftragsformular aufgeführt. Apple Distribution International Ltd. unterliegt der Regulierung durch die irische Zentralbank und hat die Genehmigung, ihre Dienste in bestimmten Ländern oder Regionen des EWR (Europäischer Wirtschaftsraum) anzubieten. Weitere Informationen auf registers.centralbank.ie Apple Distribution International Ltd. ist beim deutschen Elektroaltgeräteregister mit der Nummer DE 93597216 als Hersteller registriert. Apple Seite nicht gefunden Einkaufen und mehr Store Mac iPad iPhone Watch Vision AirPods TV & Home AirTag Zubehör Geschenkkarten Apple Wallet Apple Pay Account Deinen Apple Account verwalten Apple Store Account iCloud.com Unterhaltung Apple One Apple TV Appl",
+   "json_samples": [
+    {
+     "url": "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
+     "body": "[{\"name\": \"apple\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple home\"}], \"id\": \"3d39a8ff\"}, {\"name\": \"store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"store\"}, {\"name\": \"data-analytics-element-engagement\", \"value\": \"hover - store\"}], \"baseGroups\": [{\"id\": \"a8e6f8aa\", \"title\": \"Quick Links\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"quick links - store\"}], \"baseLinks\": [{\"id\": \"3bec88cd\", \"text\": \"Apple Store Black Friday Event\", \"url\": \"/de/shop/goto/gifts/black_friday_event\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple store black friday event\"}], \"ariaLabel\": \"\"}, {\"id\": \"622c2f61\", \"text\": \"Store finden\", \"url\": \"/de/retail/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"find a store\"}], \"ariaLabel\": \"\"}, {\"id\": \"6d4e3e8b\", \"text\": \"Bestellstatus\", \"url\": \"/de/shop/goto/order/list\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"order status\"}], \"ariaLabel\": \"\"}, {\"id\": \"0b7b196e\", \"text\": \"Apple Trade In\", \"url\": \"/de/shop/goto/trade_in\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple trade in\"}], \"ariaLabel\": \"\"}, {\"id\": \"65ecdde8\", \"text\": \"Finanzierung\", \"url\": \"/de/shop/goto/ww/financing\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"financing\"}], \"ariaLabel\": \"\"}, {\"id\": \"d0a7244e\", \"text\": \"Persönliches Setup\", \"url\": \"/de/shop/goto/personal_setup\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"personal setup\"}], \"ariaLabel\": \"\"}]}, {\"id\": \"4fb20b79\", \"title\": \"Spezielle Stores\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"shop special stores\"}], \"baseLinks\": [{\"id\": \"9bd6adcf\", \"text\": \"Zertifiziert Refurbished\", \"url\": \"/de/shop/goto/special_deals\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"certified refurbished\"}], \"ariaLabel\": \"\"}, {\"id\": \"0a88d8e4\", \"text\": \"Bildung\", \"url\": \"/de/shop/goto/educationrouting\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"education\"}], \"ariaLabel\": \"\"}, {\"id\": \"a503a18a\", \"text\": \"Business\", \"url\": \"/de/retail/business/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"business\"}], \"ariaLabel\": \"\"}]}], \"elevatedGroups\": [{\"id\": \"51e6512f\", \"title\": \"Kaufen\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"explore shop\"}], \"elevatedLinks\": [{\"id\": \"6b9fde3f\", \"text\": \"Geschenke kaufen\", \""
+    },
+    {
+     "url": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+     "body": "{\"id\": \"MK4U_yHHQ3K55qUSyGHnHw\", \"results\": [{\"sectionName\": \"quickLinks\", \"sectionResults\": [{\"label\": \"Apple Store Black Friday Event\", \"url\": \"https://www.apple.com/de/shop/goto/gifts/black_friday_event\"}, {\"label\": \"Geschenke kaufen\", \"url\": \"https://www.apple.com/de/shop/goto/store\"}, {\"label\": \"Apple Gift Card\", \"url\": \"https://www.apple.com/de/shop/goto/giftcards\"}, {\"label\": \"Store finden\", \"url\": \"https://www.apple.com/de/retail/\"}, {\"label\": \"Apple Trade In\", \"url\": \"https://www.apple.com/de/shop/goto/trade_in\"}]}, {\"sectionName\": \"suggestions\", \"sectionResults\": []}]}"
+    }
+   ]
+  },
+  {
+   "url": "https://www.apple.com/de/shop/buy-homepod",
+   "status": 404,
+   "final_url": "https://www.apple.com/de/shop/buy-homepod",
+   "title": "Seite nicht gefunden - Apple (DE)",
+   "json_urls": [
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE"
+   ],
+   "links": [],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + Leider wurde die gewünschte Seite nicht gefunden. apple.com durchsuchen submit Oder auf unserer Sitemap nachsehen Footer Fußnoten Die Preise beinhalten die Mehrwertsteuer (19 %), anwendbare Copyright-Gebühren und Versicherungssteuer (wo erforderlich). Nicht enthalten sind Lieferkosten, wenn nicht anders angegeben. Der Mehrwertsteuersatz für Produkte, die entsprechend dem europäischen Mehrwertsteuergesetz als Dienstleistungen klassifiziert sind, beträgt 23 %. Sie unterliegen dem Mehrwertsteuersatz des Landes oder der Region, aus dem/aus der Apple Distribution International Ltd. solche Produkte liefert, hier die Republik Irland. Der zu zahlende Mehrwertsteuersatz für das Qualifizierte Produkt ist auf dem Auftragsformular aufgeführt. Apple Distribution International Ltd. unterliegt der Regulierung durch die irische Zentralbank und hat die Genehmigung, ihre Dienste in bestimmten Ländern oder Regionen des EWR (Europäischer Wirtschaftsraum) anzubieten. Weitere Informationen auf registers.centralbank.ie Apple Distribution International Ltd. ist beim deutschen Elektroaltgeräteregister mit der Nummer DE 93597216 als Hersteller registriert. Apple Seite nicht gefunden Einkaufen und mehr Store Mac iPad iPhone Watch Vision AirPods TV & Home AirTag Zubehör Geschenkkarten Apple Wallet Apple Pay Account Deinen Apple Account verwalten Apple Store Account iCloud.com Unterhaltung Apple One Apple TV Appl",
+   "json_samples": [
+    {
+     "url": "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
+     "body": "[{\"name\": \"apple\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple home\"}], \"id\": \"3d39a8ff\"}, {\"name\": \"store\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"store\"}, {\"name\": \"data-analytics-element-engagement\", \"value\": \"hover - store\"}], \"baseGroups\": [{\"id\": \"a8e6f8aa\", \"title\": \"Quick Links\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"quick links - store\"}], \"baseLinks\": [{\"id\": \"3bec88cd\", \"text\": \"Apple Store Black Friday Event\", \"url\": \"/de/shop/goto/gifts/black_friday_event\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple store black friday event\"}], \"ariaLabel\": \"\"}, {\"id\": \"622c2f61\", \"text\": \"Store finden\", \"url\": \"/de/retail/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"find a store\"}], \"ariaLabel\": \"\"}, {\"id\": \"6d4e3e8b\", \"text\": \"Bestellstatus\", \"url\": \"/de/shop/goto/order/list\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"order status\"}], \"ariaLabel\": \"\"}, {\"id\": \"0b7b196e\", \"text\": \"Apple Trade In\", \"url\": \"/de/shop/goto/trade_in\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"apple trade in\"}], \"ariaLabel\": \"\"}, {\"id\": \"65ecdde8\", \"text\": \"Finanzierung\", \"url\": \"/de/shop/goto/ww/financing\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"financing\"}], \"ariaLabel\": \"\"}, {\"id\": \"d0a7244e\", \"text\": \"Persönliches Setup\", \"url\": \"/de/shop/goto/personal_setup\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"personal setup\"}], \"ariaLabel\": \"\"}]}, {\"id\": \"4fb20b79\", \"title\": \"Spezielle Stores\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"shop special stores\"}], \"baseLinks\": [{\"id\": \"9bd6adcf\", \"text\": \"Zertifiziert Refurbished\", \"url\": \"/de/shop/goto/special_deals\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"certified refurbished\"}], \"ariaLabel\": \"\"}, {\"id\": \"0a88d8e4\", \"text\": \"Bildung\", \"url\": \"/de/shop/goto/educationrouting\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"education\"}], \"ariaLabel\": \"\"}, {\"id\": \"a503a18a\", \"text\": \"Business\", \"url\": \"/de/retail/business/\", \"analyticsAttributes\": [{\"name\": \"data-analytics-title\", \"value\": \"business\"}], \"ariaLabel\": \"\"}]}], \"elevatedGroups\": [{\"id\": \"51e6512f\", \"title\": \"Kaufen\", \"analyticsAttributes\": [{\"name\": \"data-analytics-region\", \"value\": \"explore shop\"}], \"elevatedLinks\": [{\"id\": \"6b9fde3f\", \"text\": \"Geschenke kaufen\", \""
+    },
+    {
+     "url": "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+     "body": "{\"id\": \"MK4U_yHHQ3K55qUSyGHnHw\", \"results\": [{\"sectionName\": \"quickLinks\", \"sectionResults\": [{\"label\": \"Apple Store Black Friday Event\", \"url\": \"https://www.apple.com/de/shop/goto/gifts/black_friday_event\"}, {\"label\": \"Geschenke kaufen\", \"url\": \"https://www.apple.com/de/shop/goto/store\"}, {\"label\": \"Apple Gift Card\", \"url\": \"https://www.apple.com/de/shop/goto/giftcards\"}, {\"label\": \"Store finden\", \"url\": \"https://www.apple.com/de/retail/\"}, {\"label\": \"Apple Trade In\", \"url\": \"https://www.apple.com/de/shop/goto/trade_in\"}]}, {\"sectionName\": \"suggestions\", \"sectionResults\": []}]}"
+    }
+   ]
+  },
+  {
    "url": "https://www.apple.com/de/shop/buy-iphone/iphone-duo",
    "status": 200,
    "final_url": "https://www.apple.com/de/shop/buy-iphone/iphone-duo",
    "title": "iPhone Duo kaufen - Apple (DE)",
    "json_urls": [
-    "https://www.apple.com/de/shop/favoritesx/fetch",
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
-    "https://www.apple.com/de/shop/sba/d/init?fnode=c665071d8059e275c322713f49565e8494ef3576cdb587a4d6595e20b6ffdcc86a8c6a96362d3a43d0f28416e21525f64e75463413cf0638f"
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=8f72e492e333b22a62d1b16def9f838f8c6a017b69eeb688c90fee6fa354ebe2420b373a478e8ed527977500ad45cd86c7db20c9d176038f7",
+    "https://www.apple.com/de/shop/favoritesx/fetch"
    ],
    "links": [
     "https://www.apple.com/de/shop/buy-iphone/iphone-duo",
@@ -235,12 +285,12 @@
    "title": "iPhone 18 Pro und iPhone 18 Pro Max kaufen - Apple (DE)",
    "json_urls": [
     "https://www.apple.com/de/shop/experience-meta",
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+    "https://securemvt.apple.com/rest/v1/delivery?client=apple&sessionId=d8f59f74e2364759aed1d033cd2ae8e6&version=2.11.8",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
-    "https://www.apple.com/de/shop/favoritesx/fetch",
-    "https://securemvt.apple.com/rest/v1/delivery?client=apple&sessionId=82ddb89af27f4cb59ce24df6e368cdae&version=2.11.8",
-    "https://www.apple.com/de/shop/sba/d/init?fnode=188ece215aab24ad23ef13821f3cbe267f580da65e39bda6ef5f5668fa42e25aca2c1a2b419fe165972cad7b3111a007c7dba06e3dd779791",
-    "https://www.apple.com/de/shop/experience-meta?activityId=683166&experienceId=0&endDate=1797659940"
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=c6d9879963c5847adbdd7e3dd13f09a145da54d906e620b7ae8e7b582fa8827a05d9a4d95b435638b687ee483c9489b8f1b3e7dfee6a1ebf4",
+    "https://www.apple.com/de/shop/experience-meta?activityId=683166&experienceId=2&endDate=1797659940",
+    "https://www.apple.com/de/shop/favoritesx/fetch"
    ],
    "links": [
     "https://www.apple.com/de/shop/buy-iphone/iphone-18-pro",
@@ -283,7 +333,7 @@
     "jsonld": 2,
     "dom-tile": 32
    },
-   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + Bezahle dein neues iPhone in 24 Raten. Fußnote ② Nach 11 Raten kannst du ohne weitere Kosten ein Upgrade in Anspruch nehmen. Fußnote ◊ 0 Euro Anzahlung. Weitere Infos iPhone 18 Pro Ab 1.449 € oder 60,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Kostenloser Versand Beim Store abholen Neu iPhone 18 Pro kaufen Ab 1.449 € oder 60,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Apple Intelligence Fußnote 4 Weitere Infos, iPhone 18 Pro Erhalte von 30 € – 1.050 € für dein Eintauschgerät Fußnote ① Ratenzahlung mit Openbank Pay By Santander Fußnote ② Vorheriges Galeriebild Nächstes Galeriebild Modell. Welches ist das richtige Modell für dich? iPhone 18 Pro 6,3\" Display Fußnote 2 Ab 1.449 € oder 60,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② iPhone 18 Pro Max 6,9\" Display Fußnote 2 Ab 1.599 € oder 66,62 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Brauchst du Hilfe beim Auswählen eines Modells? Sieh dir die Unterschiede bei Displaygröße und Batterielaufzeit an. Mehr anzeigen Farben. Wähle die, die dir am besten gefällt. Farbe Burgunder Polar Silber Schwarz Speicherplatz. Wie viel Speicherplatz brauchst du? 256 GB Fußnote 1 Ab 1.449 € oder 60,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. "
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + iPhone 18 Pro Ab 1.449 € oder 60,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Kostenloser Versand Beim Store abholen Neu iPhone 18 Pro kaufen Ab 1.449 € oder 60,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Apple Intelligence Fußnote 4 Weitere Infos, iPhone 18 Pro Erhalte von 30 € – 1.050 € für dein Eintauschgerät Fußnote ① Ratenzahlung mit Openbank Pay By Santander Fußnote ② Vorheriges Galeriebild Nächstes Galeriebild Modell. Welches ist das richtige Modell für dich? iPhone 18 Pro 6,3\" Display Fußnote 2 Ab 1.449 € oder 60,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② iPhone 18 Pro Max 6,9\" Display Fußnote 2 Ab 1.599 € oder 66,62 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Brauchst du Hilfe beim Auswählen eines Modells? Sieh dir die Unterschiede bei Displaygröße und Batterielaufzeit an. Mehr anzeigen Farben. Wähle die, die dir am besten gefällt. Farbe Burgunder Polar Silber Schwarz Speicherplatz. Wie viel Speicherplatz brauchst du? 256 GB Fußnote 1 Ab 1.449 € oder 60,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② 512 GB Fußnote 1 Ab 1.699 € oder 70,79 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② 1TB Fußnote 1 Ab 2."
   },
   {
    "url": "https://www.apple.com/de/shop/buy-iphone/iphone-air",
@@ -292,12 +342,12 @@
    "title": "iPhone Air kaufen - Apple (DE)",
    "json_urls": [
     "https://www.apple.com/de/shop/experience-meta",
-    "https://securemvt.apple.com/rest/v1/delivery?client=apple&sessionId=82ddb89af27f4cb59ce24df6e368cdae&version=2.11.8",
+    "https://securemvt.apple.com/rest/v1/delivery?client=apple&sessionId=d8f59f74e2364759aed1d033cd2ae8e6&version=2.11.8",
     "https://www.apple.com/de/shop/favoritesx/fetch",
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
-    "https://www.apple.com/de/shop/sba/d/init?fnode=8a0912239440855c87e314bb72460a2be2c9b81cf47070014d593943cf550bf9e5b0ac44e0da10243980b3d0cc26dace03092163a3624ac8a",
-    "https://www.apple.com/de/shop/experience-meta?activityId=683166&experienceId=0&endDate=null"
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=e075f2e905336dcf94b68f336b0966aa629c4805f319d117204195d977cbd0702a561125fd279afeb22260e4c86115f4c05b2c3bb995841cd",
+    "https://www.apple.com/de/shop/experience-meta?activityId=683166&experienceId=2&endDate=1797659940"
    ],
    "links": [
     "https://www.apple.com/de/shop/buy-iphone/iphone-air",
@@ -340,7 +390,7 @@
     "jsonld": 1,
     "dom-tile": 12
    },
-   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + Bezahle dein neues iPhone in 24 Raten. Fußnote ② Nach 11 Raten kannst du ohne weitere Kosten ein Upgrade in Anspruch nehmen. Fußnote ◊ 0 Euro Anzahlung. Weitere Infos iPhone Air Ab 1.299 € oder 54,12 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Kostenloser Versand Beim Store abholen iPhone Air kaufen Ab 1.299 € oder 54,12 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Apple Intelligence Fußnote 4 Weitere Infos, iPhone Air Erhalte von 30 € – 1.050 € für dein Eintauschgerät Fußnote ① Ratenzahlung mit Openbank Pay By Santander Fußnote ② Vorheriges Galeriebild Nächstes Galeriebild Farben. Wähle die, die dir am besten gefällt. Farbe Himmelblau Wolkenweiß Space Schwarz Lichtgold Speicherplatz. Wie viel Speicherplatz brauchst du? 256 GB Fußnote 1 Ab 1.299 € oder 54,12 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② 512 GB Fußnote 1 Ab 1.549 € oder 64,54 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② 1TB Fußnote 1 Ab 2.049 € oder 85,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Du bist dir nicht sicher, wie viel Speicherplatz du wählen sollst? Mach dir ein besseres Bild davon, wie viel Speicher­platz du brauchen wirst. Mehr anzeigen Apple Trade In.Erhalte eine Gutschrift in Höh"
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + iPhone Air Ab 1.299 € oder 54,12 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Kostenloser Versand Beim Store abholen iPhone Air kaufen Ab 1.299 € oder 54,12 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Apple Intelligence Fußnote 4 Weitere Infos, iPhone Air Erhalte von 30 € – 1.050 € für dein Eintauschgerät Fußnote ① Ratenzahlung mit Openbank Pay By Santander Fußnote ② Vorheriges Galeriebild Nächstes Galeriebild Farben. Wähle die, die dir am besten gefällt. Farbe Himmelblau Wolkenweiß Space Schwarz Lichtgold Speicherplatz. Wie viel Speicherplatz brauchst du? 256 GB Fußnote 1 Ab 1.299 € oder 54,12 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② 512 GB Fußnote 1 Ab 1.549 € oder 64,54 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② 1TB Fußnote 1 Ab 2.049 € oder 85,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Du bist dir nicht sicher, wie viel Speicherplatz du wählen sollst? Mach dir ein besseres Bild davon, wie viel Speicher­platz du brauchen wirst. Mehr anzeigen Apple Trade In.Erhalte eine Gutschrift in Höhe von 30 € – 1.050 € für dein neues iPhone. Fußnote ① Eintauschgerät hinzufügen Beantworte ein paar Fragen, um den geschätzten Eintauschwert zu erfahren. Kein Eintausch "
   },
   {
    "url": "https://www.apple.com/de/shop/buy-iphone/iphone-17",
@@ -348,12 +398,13 @@
    "final_url": "https://www.apple.com/de/shop/buy-iphone/iphone-17",
    "title": "iPhone 17 kaufen - Apple (DE)",
    "json_urls": [
-    "https://securemvt.apple.com/rest/v1/delivery?client=apple&sessionId=82ddb89af27f4cb59ce24df6e368cdae&version=2.11.8",
-    "https://www.apple.com/de/shop/experience-meta?activityId=683166&experienceId=0&endDate=null",
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+    "https://www.apple.com/de/shop/experience-meta",
+    "https://securemvt.apple.com/rest/v1/delivery?client=apple&sessionId=d8f59f74e2364759aed1d033cd2ae8e6&version=2.11.8",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=528fc862aacef6afae591ba44021a7bcfba3e0575d19c672145b203c36923df1ddf9dc2928f4b832a2b26fdf059c9d46c81f516068fc33f85",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
     "https://www.apple.com/de/shop/favoritesx/fetch",
-    "https://www.apple.com/de/shop/sba/d/init?fnode=9904cde1d94724ccc960f7aa98d8457e7c479a872ddb742ce4ced7b0a2b4ff477c03c245be705e32f2cdc1651bf03af2551e406de37fa9acc"
+    "https://www.apple.com/de/shop/experience-meta?activityId=683166&experienceId=2&endDate=1797659940"
    ],
    "links": [
     "https://www.apple.com/de/shop/buy-iphone/iphone-17",
@@ -393,7 +444,7 @@
     "jsonld": 1,
     "dom-tile": 10
    },
-   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + Bezahle dein neues iPhone in 24 Raten. Fußnote ② Nach 11 Raten kannst du ohne weitere Kosten ein Upgrade in Anspruch nehmen. Fußnote ◊ 0 Euro Anzahlung. Weitere Infos iPhone 17 Ab 1.099 € oder 45,79 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Kostenloser Versand Beim Store abholen iPhone 17 kaufen Ab 1.099 € oder 45,79 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Apple Intelligence Fußnote 4 Weitere Infos, iPhone 17 Erhalte von 30 € – 1.050 € für dein Eintauschgerät Fußnote ① Ratenzahlung mit Openbank Pay By Santander Fußnote ② Vorheriges Galeriebild Nächstes Galeriebild Farben. Wähle die, die dir am besten gefällt. Farbe Lavendel Nebelblau Weiß Salbei Schwarz Speicherplatz. Wie viel Speicherplatz brauchst du? 256 GB Fußnote 1 Ab 1.099 € oder 45,79 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② 512 GB Fußnote 1 Ab 1.349 € oder 56,21 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Du bist dir nicht sicher, wie viel Speicherplatz du wählen sollst? Mach dir ein besseres Bild davon, wie viel Speicher­platz du brauchen wirst. Mehr anzeigen Apple Trade In.Erhalte eine Gutschrift in Höhe von 30 € – 1.050 € für dein neues iPhone. Fußnote ① Eintauschgerät hinzufügen Beantworte ein paar Fragen, um den geschätzten Eintau"
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + iPhone 17 Ab 1.099 € oder 45,79 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Kostenloser Versand Beim Store abholen iPhone 17 kaufen Ab 1.099 € oder 45,79 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Apple Intelligence Fußnote 4 Weitere Infos, iPhone 17 Erhalte von 30 € – 1.050 € für dein Eintauschgerät Fußnote ① Ratenzahlung mit Openbank Pay By Santander Fußnote ② Vorheriges Galeriebild Nächstes Galeriebild Farben. Wähle die, die dir am besten gefällt. Farbe Lavendel Nebelblau Weiß Salbei Schwarz Speicherplatz. Wie viel Speicherplatz brauchst du? 256 GB Fußnote 1 Ab 1.099 € oder 45,79 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② 512 GB Fußnote 1 Ab 1.349 € oder 56,21 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Du bist dir nicht sicher, wie viel Speicherplatz du wählen sollst? Mach dir ein besseres Bild davon, wie viel Speicher­platz du brauchen wirst. Mehr anzeigen Apple Trade In.Erhalte eine Gutschrift in Höhe von 30 € – 1.050 € für dein neues iPhone. Fußnote ① Eintauschgerät hinzufügen Beantworte ein paar Fragen, um den geschätzten Eintauschwert zu erfahren. Kein Eintausch Wie funktioniert die Inzahlungnahme? Erfahre, wie du bei diesem Kauf mit einer Inzahlungnahme sparen kannst. Oder lass dein Gerät koste"
   },
   {
    "url": "https://www.apple.com/de/shop/buy-iphone/iphone-17e",
@@ -401,12 +452,12 @@
    "final_url": "https://www.apple.com/de/shop/buy-iphone/iphone-17e",
    "title": "iPhone 17e kaufen - Apple (DE)",
    "json_urls": [
-    "https://securemvt.apple.com/rest/v1/delivery?client=apple&sessionId=82ddb89af27f4cb59ce24df6e368cdae&version=2.11.8",
-    "https://www.apple.com/de/shop/experience-meta?activityId=683166&experienceId=0&endDate=null",
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+    "https://securemvt.apple.com/rest/v1/delivery?client=apple&sessionId=d8f59f74e2364759aed1d033cd2ae8e6&version=2.11.8",
+    "https://www.apple.com/de/shop/experience-meta?activityId=683166&experienceId=2&endDate=null",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=8d3f63cec04552322ad5d2e6c2e1e2e045427398acf904af805819b9ebafbc4f2167b8c6d46b85ccbc5d514bf07d05437eb160aa5cc0353a4",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
     "https://www.apple.com/de/shop/favoritesx/fetch",
-    "https://www.apple.com/de/shop/sba/d/init?fnode=c28d742b249d8c46376a639d42648cb7cafddb94b93ea36b0bce16a2c8c60566ab9de5776e217a050b37686468573eab3ca6e4f71c0022c6b"
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE"
    ],
    "links": [
     "https://www.apple.com/de/shop/buy-iphone/iphone-17e",
@@ -442,7 +493,7 @@
     "jsonld": 1,
     "dom-tile": 6
    },
-   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + Zahle für dein neues iPhone mit 0 % eff. Zins p.a. in 24 Raten. Fußnote ② Weitere Infos iPhone 17e Ab 849 € oder 35,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Kostenloser Versand Beim Store abholen iPhone 17e kaufen Ab 849 € oder 35,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Apple Intelligence Fußnote 4 Weitere Infos, iPhone 17e Erhalte von 30 € – 1.050 € für dein Eintauschgerät Fußnote ① Ratenzahlung mit Openbank Pay By Santander Fußnote ② Vorheriges Galeriebild Nächstes Galeriebild Farben. Wähle die, die dir am besten gefällt. Farbe Hellrosa Weiß Schwarz Speicherplatz. Wie viel Speicherplatz brauchst du? 256 GB Fußnote 1 Ab 849 € oder 35,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② 512 GB Fußnote 1 Ab 1.099 € oder 45,79 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Du bist dir nicht sicher, wie viel Speicherplatz du wählen sollst? Mach dir ein besseres Bild davon, wie viel Speicher­platz du brauchen wirst. Mehr anzeigen Apple Trade In.Erhalte eine Gutschrift in Höhe von 30 € – 1.050 € für dein neues iPhone. Fußnote ① Eintauschgerät hinzufügen Beantworte ein paar Fragen, um den geschätzten Eintauschwert zu erfahren. Kein Eintausch Wie funktioniert die Inzahlungnahme? Erfahre, wie du bei diesem K"
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + iPhone 17e Ab 849 € oder 35,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Kostenloser Versand Beim Store abholen iPhone 17e kaufen Ab 849 € oder 35,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Apple Intelligence Fußnote 4 Weitere Infos, iPhone 17e Erhalte von 30 € – 1.050 € für dein Eintauschgerät Fußnote ① Ratenzahlung mit Openbank Pay By Santander Fußnote ② Vorheriges Galeriebild Nächstes Galeriebild Farben. Wähle die, die dir am besten gefällt. Farbe Hellrosa Weiß Schwarz Speicherplatz. Wie viel Speicherplatz brauchst du? 256 GB Fußnote 1 Ab 849 € oder 35,38 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② 512 GB Fußnote 1 Ab 1.099 € oder 45,79 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Du bist dir nicht sicher, wie viel Speicherplatz du wählen sollst? Mach dir ein besseres Bild davon, wie viel Speicher­platz du brauchen wirst. Mehr anzeigen Apple Trade In.Erhalte eine Gutschrift in Höhe von 30 € – 1.050 € für dein neues iPhone. Fußnote ① Eintauschgerät hinzufügen Beantworte ein paar Fragen, um den geschätzten Eintauschwert zu erfahren. Kein Eintausch Wie funktioniert die Inzahlungnahme? Erfahre, wie du bei diesem Kauf mit einer Inzahlungnahme sparen kannst. Oder lass dein Gerät kostenlos recyceln. Mehr "
   },
   {
    "url": "https://www.apple.com/de/shop/buy-iphone/iphone-16",
@@ -450,13 +501,12 @@
    "final_url": "https://www.apple.com/de/shop/buy-iphone/iphone-16",
    "title": "iPhone 16 kaufen - Apple (DE)",
    "json_urls": [
-    "https://securemvt.apple.com/rest/v1/delivery?client=apple&sessionId=82ddb89af27f4cb59ce24df6e368cdae&version=2.11.8",
-    "https://www.apple.com/de/shop/experience-meta?activityId=683166&experienceId=0&endDate=null",
+    "https://securemvt.apple.com/rest/v1/delivery?client=apple&sessionId=d8f59f74e2364759aed1d033cd2ae8e6&version=2.11.8",
+    "https://www.apple.com/de/shop/experience-meta?activityId=683166&experienceId=2&endDate=null",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=e0e3dbd5b538fa230cea29e09def40656436f5e0b3d30437fa95d3806ea2ea67e13face3e5f78f79bd8ea5f62feb53bbac17dee8cc11645c1",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
     "https://www.apple.com/de/shop/favoritesx/fetch",
     "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
-    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
-    "https://www.apple.com/de/shop/sba/d/init?fnode=04f887cde04dc5e5a83ca5516b1698eb9ddc3aa91d310ad91131d7f9eee8da2e052712bab79c642738aaff3635cd3a1b2ad564bada25e6ccd",
-    "https://www.apple.com/de/shop/api/product-gallery?fae=true&node=home%2Fshop_iphone%2Ffamily%2Fiphone_16%2Fselect&dm.dimensionScreensize=6_1inch",
     "https://www.apple.com/de/shop/api/product-gallery?fae=true&node=home%2Fshop_iphone%2Ffamily%2Fiphone_16%2Fselect&dm.dimensionScreensize=6_1inch"
    ],
    "links": [
@@ -487,7 +537,7 @@
     "jsonld": 1,
     "dom-price": 1
    },
-   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + Zahle für dein neues iPhone mit 0 % eff. Zins p.a. in 24 Raten. Fußnote ② Weitere Infos iPhone 16 Ab 999 € oder 41,62 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Kostenloser Versand Beim Store abholen iPhone 16 kaufen Ab 999 € oder 41,62 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Apple Intelligence Fußnote 3 Weitere Infos, iPhone 16 Erhalte von 30 € – 1.050 € für dein Eintauschgerät Fußnote ① Ratenzahlung mit Openbank Pay By Santander Fußnote ② Vorheriges Galeriebild Nächstes Galeriebild Farben. Wähle die, die dir am besten gefällt. Farbe Ultramarin Blaugrün Weiß Pink Schwarz Kommt mit 128 GB Speicher Apple Trade In.Erhalte eine Gutschrift in Höhe von 30 € – 1.050 € für dein neues iPhone. Fußnote ① Eintauschgerät hinzufügen Beantworte ein paar Fragen, um den geschätzten Eintauschwert zu erfahren. Kein Eintausch Wie funktioniert die Inzahlungnahme? Erfahre, wie du bei diesem Kauf mit einer Inzahlungnahme sparen kannst. Oder lass dein Gerät kostenlos recyceln. Mehr anzeigen AppleCare Schutz. Ganz entspannt bleiben. Mit jedem Schutz. Fußnote ∆ AppleCare+ mit Diebstahl und Verlust Nur dieses Produkt absichern Unbegrenzte Anzahl von Reparaturen bei Missgeschicken wie Stürzen und verschütteten Flüssigkeiten Abdeckung bei Diebstahl und Verlust mit bis zu zwei Ansprüchen alle 12 Monate Vorrangiger"
+   "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + iPhone 16 Ab 999 € oder 41,62 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Kostenloser Versand Beim Store abholen iPhone 16 kaufen Ab 999 € oder 41,62 €/Rate pro Rate bei 24 Raten Raten mit 0 % eff. Zins p.a. eff. Zins p.a. Fußnote ② Apple Intelligence Fußnote 3 Weitere Infos, iPhone 16 Erhalte von 30 € – 1.050 € für dein Eintauschgerät Fußnote ① Ratenzahlung mit Openbank Pay By Santander Fußnote ② Vorheriges Galeriebild Nächstes Galeriebild Farben. Wähle die, die dir am besten gefällt. Farbe Ultramarin Blaugrün Weiß Pink Schwarz Kommt mit 128 GB Speicher Apple Trade In.Erhalte eine Gutschrift in Höhe von 30 € – 1.050 € für dein neues iPhone. Fußnote ① Eintauschgerät hinzufügen Beantworte ein paar Fragen, um den geschätzten Eintauschwert zu erfahren. Kein Eintausch Wie funktioniert die Inzahlungnahme? Erfahre, wie du bei diesem Kauf mit einer Inzahlungnahme sparen kannst. Oder lass dein Gerät kostenlos recyceln. Mehr anzeigen AppleCare Schutz. Ganz entspannt bleiben. Mit jedem Schutz. Fußnote ∆ AppleCare+ mit Diebstahl und Verlust Nur dieses Produkt absichern Unbegrenzte Anzahl von Reparaturen bei Missgeschicken wie Stürzen und verschütteten Flüssigkeiten Abdeckung bei Diebstahl und Verlust mit bis zu zwei Ansprüchen alle 12 Monate Vorrangiger Support durch Apple Expert:innen Express-Austauschservice – wir liefern dir ein Ersatzger"
   },
   {
    "url": "https://www.apple.com/de/shop/buy-ipad/ipad-pro",
@@ -496,9 +546,9 @@
    "title": "iPad Pro kaufen - Apple (DE)",
    "json_urls": [
     "https://www.apple.com/de/shop/favoritesx/fetch",
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
-    "https://www.apple.com/de/shop/sba/d/init?fnode=842af607bc9375a67eef27416e11b480c50b3a53bcc5b26ba8707f847b5eff5d6f9611a352a162110681c14c35c243a850d7bec2bcc843e8b",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=b7791ca174da8de5579c262a029d936219911032422c166e4dd2335226e6d415ee2e25e81b7780001f2be595e1e834f591bbf2068f49944f3",
     "https://www.apple.com/de/shop/engrave/json?fae=true&product=MX2D3ZM%2FA"
    ],
    "links": [
@@ -533,10 +583,10 @@
    "final_url": "https://www.apple.com/de/shop/buy-ipad/ipad-air",
    "title": "iPad Air kaufen - Apple (DE)",
    "json_urls": [
-    "https://www.apple.com/de/shop/favoritesx/fetch",
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
-    "https://www.apple.com/de/shop/sba/d/init?fnode=34979001cd5f6d6f01d0b317251002cdaa702d551004f696b8831ba34d1caa0adeb5ac077ea8c1fb22d32fe4777ce5cfaa46cb49ee1ec7003",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+    "https://www.apple.com/de/shop/favoritesx/fetch",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=714b8375b42c09ebddfcf92e7c9f3055bac771759db056c51f19364e12aebcf8eee53b7b94cefbae51596bd8a6cbe5e25e74a88be9568dff2",
     "https://www.apple.com/de/shop/engrave/json?fae=true&product=MX2D3ZM%2FA"
    ],
    "links": [
@@ -587,10 +637,10 @@
    "final_url": "https://www.apple.com/de/shop/buy-ipad/ipad",
    "title": "iPad kaufen - Apple (DE)",
    "json_urls": [
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
-    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
     "https://www.apple.com/de/shop/favoritesx/fetch",
-    "https://www.apple.com/de/shop/sba/d/init?fnode=813c35d40529a3b5388fb0f144637949258df3a79b41ea425c1f2e5d9c7b2aa9056973334e2699a1e088ee2ff5e654716e5edba5dd308b29f"
+    "https://www.apple.com/de/shop/sba/d/init?fnode=52ecf6f256e8edf2adc4e1e83b3a68e88f06fa69775abe2718b3cbd82c9302edccd74b3b75ae25987d5f7184a1996e03caad390a4ba266e0c",
+    "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE"
    ],
    "links": [
     "https://www.apple.com/de/shop/buy-ipad/ipad",
@@ -640,10 +690,10 @@
    "final_url": "https://www.apple.com/de/shop/buy-ipad/ipad-mini",
    "title": "iPad mini kaufen - Apple (DE)",
    "json_urls": [
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
     "https://www.apple.com/de/shop/favoritesx/fetch",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
-    "https://www.apple.com/de/shop/sba/d/init?fnode=629add46f0f2994401c02fc53a226c4548f31dc808f4fc3908e86c5c7420125ba6b98ad88b3e95397b99cdc11a12d5a2816527a912589f1f9",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=6149cf0549d449048c89bdfac502484acd66e73c94f76cbe9bca36805f32d2bcffc73d0146b2b421f4fdb06dd8489e3650a10de92b9fc3c4a",
     "https://www.apple.com/de/shop/engrave/json?fae=true&product=MX2D3ZM%2FA"
    ],
    "links": [
@@ -678,9 +728,9 @@
    "final_url": "https://www.apple.com/de/shop/buy-watch/apple-watch",
    "title": "Apple Watch Series 12 kaufen - Apple (DE)",
    "json_urls": [
-    "https://www.apple.com/de/shop/sba/d/init?fnode=fb83e00469c380f7fa7189eb6288c0c6a511c2cc8313e618a329e5fdb33e996e47ba6fba00b1e0d44b1f8a2e2e607ce3f97f98c1c082abf7d",
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=6ff99d94bf2e1c0aa456b5f0cb03c7dcd9cf400a22d7cde6f117e18f9da0d891727af5141b4221d654666bc7d6b9430069bff303b0b2b8084",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
     "https://www.apple.com/de/shop/favoritesx/fetch"
    ],
    "links": [
@@ -711,9 +761,9 @@
    "final_url": "https://www.apple.com/de/shop/buy-watch/apple-watch-se",
    "title": "Apple Watch SE 3 kaufen - Apple (DE)",
    "json_urls": [
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
-    "https://www.apple.com/de/shop/sba/d/init?fnode=86c97afe46c769309ddd1d66fdb46fe787eb994e9528c03a2a5cacd7bb7c18c0a9810d9af01523734507d62cc9d567610ff6b1d14a0147318",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=d3f4a4e1c9dfe24d5b4c10cd5842e459e26de958f2b9a25f8b9122a14f6c7ec8ef33146a43f592ee76e30a54629233c31b9af17d972c1701e",
     "https://www.apple.com/de/shop/favoritesx/fetch"
    ],
    "links": [
@@ -744,9 +794,9 @@
    "final_url": "https://www.apple.com/de/shop/buy-watch/apple-watch-hermes",
    "title": "Apple Watch Hermès Series 12 kaufen - Apple (DE)",
    "json_urls": [
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
-    "https://www.apple.com/de/shop/sba/d/init?fnode=11d5b9936cffc864b8b952557c1c78c2590355974021280ee2d48c1cb2fb531b8b959d425022d3e100f28be37a9fc20782c77ce20f98aa055",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
+    "https://www.apple.com/de/shop/sba/d/init?fnode=e9f6efb6b4d4fb3da65c35c3901d512808b24976050815bc27e66e093b5c98706ba104072191d955bea462553bf455576ded79fca2845d2c8",
     "https://www.apple.com/de/shop/favoritesx/fetch"
    ],
    "links": [
@@ -777,10 +827,10 @@
    "final_url": "https://www.apple.com/de/shop/buy-airpods/airpods-pro-3",
    "title": "AirPods Pro 3 kaufen - Apple (DE)",
    "json_urls": [
-    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
-    "https://www.apple.com/de/shop/updateSummary?node=home%2Fshop_airpods%2Ffamily%2Fairpods_pro_3&step=select&product=MFHP4ZM%2FA",
     "https://www.apple.com/api-www/global-elements/global-header/v1/flyouts?locale=de_DE",
+    "https://www.apple.com/search-services/suggestions/defaultlinks/?src=globalnav&locale=de_DE",
     "https://www.apple.com/de/shop/favoritesx/fetch",
+    "https://www.apple.com/de/shop/updateSummary?node=home%2Fshop_airpods%2Ffamily%2Fairpods_pro_3&step=select&product=MFHP4ZM%2FA",
     "https://www.apple.com/de/shop/engrave/json?product=MFHP4ZM%2FA"
    ],
    "links": [
@@ -805,5 +855,355 @@
    },
    "text_sample": "Apple Store Mac iPad iPhone Watch Vision AirPods Home Entertainment Zubehör Support 0 + AirPods Pro 3 Überblick Technische Daten AirPods Pro 3 kaufen Kostenlose Lieferung am nächsten Tag Erhalte 3 Monate kostenlos Apple Fitness+ und Apple Music mit deinen AirPods Pro 3 Fußnote ∆, + Verlängerte kostenlose Rückgabe bis 8.1. Hilfe beim Einkauf. Chatte online (Öffnet ein neues Fenster) oder ruf 0800 2000 136 an. Kostenlose Gravur AirPods Pro 3 kaufen Jetzt mit der weltbesten Aktiven Geräusch­unterdrückung bei In-Ear Kopfhörern, Fußnote ¹ der ganz neuen Herzfrequenzmessung Fußnote ² und bis zu 8 Stunden Batterielaufzeit. Fußnote ¹³ Kostenlos personalisieren Gravur hinzufügen Lass eine Kombination aus Emojis, Namen, Initialen und Zahlen gravieren und mach deine AirPods Pro 3 ganz zu deinen. Es ist kostenlos und die Lieferung geht schnell. Kostenlos Keine Gravur AppleCare Schutz. Ganz entspannt bleiben. Mit jedem Schutz.‡ AppleCare+ Nur dieses Produkt absichern 1,99 €/Monat pro Monat oder 19,99 €/Jahr Pro Jahr bis zur Kündigung Unbegrenzte Anzahl von Reparaturen bei Missgeschicken wie Stürzen und verschütteten Flüssigkeiten Vorrangiger Support durch Apple Expert:innen Express-Austauschservice – wir liefern dir ein Ersatzgerät, damit du nicht auf eine Reparatur warten musst Der Preis beinhaltet 19 % Versicherungssteuer Neu AppleCare One Sichere mit AppleCare One für Einzelpersonen mehrere Produkte ab, darunter auch dieses 20,99 €/Monat pro Monat bis zur Kündigung Alle Vorte"
   }
+ ],
+ "watchlist": {
+  "missing_before": [
+   "AirPods 4",
+   "AirPods 4 ANC"
+  ],
+  "sitemaps": [
+   "https://www.apple.com.cn/shop/sitemap-index.xml",
+   "https://www.apple.com.cn/shop/sitemaps/browse.xml",
+   "https://www.apple.com.cn/shop/sitemaps/buy.xml",
+   "https://www.apple.com.cn/shop/sitemaps/campaign.xml",
+   "https://www.apple.com.cn/shop/sitemaps/category.xml",
+   "https://www.apple.com.cn/shop/sitemaps/filtercategory.xml",
+   "https://www.apple.com.cn/shop/sitemaps/grid.xml",
+   "https://www.apple.com.cn/shop/sitemaps/help.xml",
+   "https://www.apple.com.cn/shop/sitemaps/home.xml",
+   "https://www.apple.com.cn/shop/sitemaps/product.xml",
+   "https://www.apple.com.cn/shop/sitemaps/refurbished.xml",
+   "https://www.apple.com.cn/shop/sitemaps/segment.xml",
+   "https://www.apple.com.cn/shop/sitemaps/splitter.xml",
+   "https://www.apple.com.cn/shop/sitemaps/watchpdp.xml",
+   "https://www.apple.com/ae/shop/sitemap-index.xml",
+   "https://www.apple.com/ae/shop/sitemaps/browse.xml",
+   "https://www.apple.com/ae/shop/sitemaps/buy.xml",
+   "https://www.apple.com/ae/shop/sitemaps/campaign.xml",
+   "https://www.apple.com/ae/shop/sitemaps/category.xml",
+   "https://www.apple.com/ae/shop/sitemaps/filtercategory.xml",
+   "https://www.apple.com/ae/shop/sitemaps/grid.xml",
+   "https://www.apple.com/ae/shop/sitemaps/help.xml",
+   "https://www.apple.com/ae/shop/sitemaps/home.xml",
+   "https://www.apple.com/ae/shop/sitemaps/product.xml",
+   "https://www.apple.com/ae/shop/sitemaps/segment.xml",
+   "https://www.apple.com/ae/shop/sitemaps/splitter.xml",
+   "https://www.apple.com/ae/shop/sitemaps/watchpdp.xml",
+   "https://www.apple.com/at/shop/sitemap-index.xml",
+   "https://www.apple.com/at/shop/sitemaps/browse.xml",
+   "https://www.apple.com/at/shop/sitemaps/buy.xml",
+   "https://www.apple.com/at/shop/sitemaps/category.xml",
+   "https://www.apple.com/at/shop/sitemaps/filtercategory.xml",
+   "https://www.apple.com/at/shop/sitemaps/grid.xml",
+   "https://www.apple.com/at/shop/sitemaps/help.xml",
+   "https://www.apple.com/at/shop/sitemaps/home.xml",
+   "https://www.apple.com/at/shop/sitemaps/product.xml",
+   "https://www.apple.com/at/shop/sitemaps/refurbished.xml",
+   "https://www.apple.com/at/shop/sitemaps/segment.xml",
+   "https://www.apple.com/at/shop/sitemaps/splitter.xml",
+   "https://www.apple.com/shop/sitemap.xml"
+  ],
+  "sitemap_urls": 0,
+  "visit": []
+ },
+ "raw_names": [
+  "11\" iPad Air Wi‑Fi + Cellular 128 GB - Blau | 969.0 | jsonld",
+  "11\" iPad Air Wi‑Fi + Cellular 128 GB - Polarstern | 969.0 | jsonld",
+  "11\" iPad Air Wi‑Fi + Cellular 128 GB - Space Grau | 969.0 | jsonld",
+  "11\" iPad Air Wi‑Fi + Cellular 128 GB - Violett | 969.0 | jsonld",
+  "11\" iPad Air Wi‑Fi + Cellular 1 TB - Blau | 1729.0 | jsonld",
+  "11\" iPad Air Wi‑Fi + Cellular 1 TB - Polarstern | 1729.0 | jsonld",
+  "11\" iPad Air Wi‑Fi + Cellular 1 TB - Space Grau | 1729.0 | jsonld",
+  "11\" iPad Air Wi‑Fi + Cellular 1 TB - Violett | 1729.0 | jsonld",
+  "11\" iPad Air Wi‑Fi + Cellular 256 GB - Blau | 1099.0 | jsonld",
+  "11\" iPad Air Wi‑Fi + Cellular 256 GB - Polarstern | 1099.0 | jsonld",
+  "11\" iPad Air Wi‑Fi + Cellular 256 GB - Space Grau | 1099.0 | jsonld",
+  "11\" iPad Air Wi‑Fi + Cellular 256 GB - Violett | 1099.0 | jsonld",
+  "11\" iPad Air Wi‑Fi + Cellular 512 GB - Blau | 1349.0 | jsonld",
+  "11\" iPad Air Wi‑Fi + Cellular 512 GB - Polarstern | 1349.0 | jsonld",
+  "11\" iPad Air Wi‑Fi + Cellular 512 GB - Space Grau | 1349.0 | jsonld",
+  "11\" iPad Air Wi‑Fi + Cellular 512 GB - Violett | 1349.0 | jsonld",
+  "11\" iPad Air Wi‑Fi 128 GB - Blau | 799.0 | jsonld",
+  "11\" iPad Air Wi‑Fi 128 GB - Polarstern | 799.0 | jsonld",
+  "11\" iPad Air Wi‑Fi 128 GB - Space Grau | 799.0 | jsonld",
+  "11\" iPad Air Wi‑Fi 128 GB - Violett | 799.0 | jsonld",
+  "11\" iPad Air Wi‑Fi 1 TB - Blau | 1559.0 | jsonld",
+  "11\" iPad Air Wi‑Fi 1 TB - Polarstern | 1559.0 | jsonld",
+  "11\" iPad Air Wi‑Fi 1 TB - Space Grau | 1559.0 | jsonld",
+  "11\" iPad Air Wi‑Fi 1 TB - Violett | 1559.0 | jsonld",
+  "11\" iPad Air Wi‑Fi 256 GB - Blau | 929.0 | jsonld",
+  "11\" iPad Air Wi‑Fi 256 GB - Polarstern | 929.0 | jsonld",
+  "11\" iPad Air Wi‑Fi 256 GB - Space Grau | 929.0 | jsonld",
+  "11\" iPad Air Wi‑Fi 256 GB - Violett | 929.0 | jsonld",
+  "11\" iPad Air Wi‑Fi 512 GB - Blau | 1179.0 | jsonld",
+  "11\" iPad Air Wi‑Fi 512 GB - Polarstern | 1179.0 | jsonld",
+  "11\" iPad Air Wi‑Fi 512 GB - Space Grau | 1179.0 | jsonld",
+  "11\" iPad Air Wi‑Fi 512 GB - Violett | 1179.0 | jsonld",
+  "11\" iPad Pro Wi‑Fi 1 TB mit Nanotexturglas – Silber | 2159.0 | jsonld",
+  "11\" iPad Pro Wi‑Fi 1 TB mit Nanotexturglas – Space Schwarz | 2159.0 | jsonld",
+  "11\" iPad Pro Wi‑Fi 1 TB mit Standardglas – Silber | 2029.0 | jsonld",
+  "11\" iPad Pro Wi‑Fi 1 TB mit Standardglas – Space Schwarz | 2029.0 | jsonld",
+  "11\" iPad Pro Wi‑Fi 256 GB mit Standardglas – Silber | 1299.0 | jsonld",
+  "11\" iPad Pro Wi‑Fi 256 GB mit Standardglas – Space Schwarz | 1299.0 | jsonld",
+  "11\" iPad Pro Wi‑Fi 2 TB mit Nanotexturglas – Silber | 2779.0 | jsonld",
+  "11\" iPad Pro Wi‑Fi 2 TB mit Nanotexturglas – Space Schwarz | 2779.0 | jsonld",
+  "11\" iPad Pro Wi‑Fi 2 TB mit Standardglas – Silber | 2649.0 | jsonld",
+  "11\" iPad Pro Wi‑Fi 2 TB mit Standardglas – Space Schwarz | 2649.0 | jsonld",
+  "11\" iPad Pro Wi‑Fi 512 GB mit Standardglas – Silber | 1549.0 | jsonld",
+  "11\" iPad Pro Wi‑Fi 512 GB mit Standardglas – Space Schwarz | 1549.0 | jsonld",
+  "11\" iPad Pro Wi‑Fi + Cellular 1 TB mit Nanotexturglas – Silber | 2409.0 | jsonld",
+  "11\" iPad Pro Wi‑Fi + Cellular 1 TB mit Nanotexturglas – Space Schwarz | 2409.0 | jsonld",
+  "11\" iPad Pro Wi‑Fi + Cellular 1 TB mit Standardglas – Silber | 2279.0 | jsonld",
+  "11\" iPad Pro Wi‑Fi + Cellular 1 TB mit Standardglas – Space Schwarz | 2279.0 | jsonld",
+  "11\" iPad Pro Wi‑Fi + Cellular 256 GB mit Standardglas – Silber | 1549.0 | jsonld",
+  "11\" iPad Pro Wi‑Fi + Cellular 256 GB mit Standardglas – Space Schwarz | 1549.0 | jsonld",
+  "11\" iPad Pro Wi‑Fi + Cellular 2 TB mit Nanotexturglas – Silber | 3029.0 | jsonld",
+  "11\" iPad Pro Wi‑Fi + Cellular 2 TB mit Nanotexturglas – Space Schwarz | 3029.0 | jsonld",
+  "11\" iPad Pro Wi‑Fi + Cellular 2 TB mit Standardglas – Silber | 2899.0 | jsonld",
+  "11\" iPad Pro Wi‑Fi + Cellular 2 TB mit Standardglas – Space Schwarz | 2899.0 | jsonld",
+  "11\" iPad Pro Wi‑Fi + Cellular 512 GB mit Standardglas – Silber | 1799.0 | jsonld",
+  "11\" iPad Pro Wi‑Fi + Cellular 512 GB mit Standardglas – Space Schwarz | 1799.0 | jsonld",
+  "13\" iPad Air Wi‑Fi + Cellular 128 GB - Blau | 1169.0 | jsonld",
+  "13\" iPad Air Wi‑Fi + Cellular 128 GB - Polarstern | 1169.0 | jsonld",
+  "13\" iPad Air Wi‑Fi + Cellular 128 GB - Space Grau | 1169.0 | jsonld",
+  "13\" iPad Air Wi‑Fi + Cellular 128 GB - Violett | 1169.0 | jsonld",
+  "13\" iPad Air Wi‑Fi + Cellular 1 TB - Blau | 1929.0 | jsonld",
+  "13\" iPad Air Wi‑Fi + Cellular 1 TB - Polarstern | 1929.0 | jsonld",
+  "13\" iPad Air Wi‑Fi + Cellular 1 TB - Space Grau | 1929.0 | jsonld",
+  "13\" iPad Air Wi‑Fi + Cellular 1 TB - Violett | 1929.0 | jsonld",
+  "13\" iPad Air Wi‑Fi + Cellular 256 GB - Blau | 1299.0 | jsonld",
+  "13\" iPad Air Wi‑Fi + Cellular 256 GB - Polarstern | 1299.0 | jsonld",
+  "13\" iPad Air Wi‑Fi + Cellular 256 GB - Space Grau | 1299.0 | jsonld",
+  "13\" iPad Air Wi‑Fi + Cellular 256 GB - Violett | 1299.0 | jsonld",
+  "13\" iPad Air Wi‑Fi + Cellular 512 GB - Blau | 1549.0 | jsonld",
+  "13\" iPad Air Wi‑Fi + Cellular 512 GB - Polarstern | 1549.0 | jsonld",
+  "13\" iPad Air Wi‑Fi + Cellular 512 GB - Space Grau | 1549.0 | jsonld",
+  "13\" iPad Air Wi‑Fi + Cellular 512 GB - Violett | 1549.0 | jsonld",
+  "13\" iPad Air Wi‑Fi 128 GB - Blau | 999.0 | jsonld",
+  "13\" iPad Air Wi‑Fi 128 GB - Polarstern | 999.0 | jsonld",
+  "13\" iPad Air Wi‑Fi 128 GB - Space Grau | 999.0 | jsonld",
+  "13\" iPad Air Wi‑Fi 128 GB - Violett | 999.0 | jsonld",
+  "13\" iPad Air Wi‑Fi 1 TB - Blau | 1759.0 | jsonld",
+  "13\" iPad Air Wi‑Fi 1 TB - Polarstern | 1759.0 | jsonld",
+  "13\" iPad Air Wi‑Fi 1 TB - Space Grau | 1759.0 | jsonld",
+  "13\" iPad Air Wi‑Fi 1 TB - Violett | 1759.0 | jsonld",
+  "13\" iPad Air Wi‑Fi 256 GB - Blau | 1129.0 | jsonld",
+  "13\" iPad Air Wi‑Fi 256 GB - Polarstern | 1129.0 | jsonld",
+  "13\" iPad Air Wi‑Fi 256 GB - Space Grau | 1129.0 | jsonld",
+  "13\" iPad Air Wi‑Fi 256 GB - Violett | 1129.0 | jsonld",
+  "13\" iPad Air Wi‑Fi 512 GB - Blau | 1379.0 | jsonld",
+  "13\" iPad Air Wi‑Fi 512 GB - Polarstern | 1379.0 | jsonld",
+  "13\" iPad Air Wi‑Fi 512 GB - Space Grau | 1379.0 | jsonld",
+  "13\" iPad Air Wi‑Fi 512 GB - Violett | 1379.0 | jsonld",
+  "13\" iPad Pro Wi‑Fi 1 TB mit Nanotexturglas – Silber | 2509.0 | jsonld",
+  "13\" iPad Pro Wi‑Fi 1 TB mit Nanotexturglas – Space Schwarz | 2509.0 | jsonld",
+  "13\" iPad Pro Wi‑Fi 1 TB mit Standardglas – Silber | 2379.0 | jsonld",
+  "13\" iPad Pro Wi‑Fi 1 TB mit Standardglas – Space Schwarz | 2379.0 | jsonld",
+  "13\" iPad Pro Wi‑Fi 256 GB mit Standardglas – Silber | 1649.0 | jsonld",
+  "13\" iPad Pro Wi‑Fi 256 GB mit Standardglas – Space Schwarz | 1649.0 | jsonld",
+  "13\" iPad Pro Wi‑Fi 2 TB mit Nanotexturglas – Silber | 3129.0 | jsonld",
+  "13\" iPad Pro Wi‑Fi 2 TB mit Nanotexturglas – Space Schwarz | 3129.0 | jsonld",
+  "13\" iPad Pro Wi‑Fi 2 TB mit Standardglas – Silber | 2999.0 | jsonld",
+  "13\" iPad Pro Wi‑Fi 2 TB mit Standardglas – Space Schwarz | 2999.0 | jsonld",
+  "13\" iPad Pro Wi‑Fi 512 GB mit Standardglas – Silber | 1899.0 | jsonld",
+  "13\" iPad Pro Wi‑Fi 512 GB mit Standardglas – Space Schwarz | 1899.0 | jsonld",
+  "13\" iPad Pro Wi‑Fi + Cellular 1 TB mit Nanotexturglas – Silber | 2759.0 | jsonld",
+  "13\" iPad Pro Wi‑Fi + Cellular 1 TB mit Nanotexturglas – Space Schwarz | 2759.0 | jsonld",
+  "13\" iPad Pro Wi‑Fi + Cellular 1 TB mit Standardglas – Silber | 2629.0 | jsonld",
+  "13\" iPad Pro Wi‑Fi + Cellular 1 TB mit Standardglas – Space Schwarz | 2629.0 | jsonld",
+  "13\" iPad Pro Wi‑Fi + Cellular 256 GB mit Standardglas – Silber | 1899.0 | jsonld",
+  "13\" iPad Pro Wi‑Fi + Cellular 256 GB mit Standardglas – Space Schwarz | 1899.0 | jsonld",
+  "13\" iPad Pro Wi‑Fi + Cellular 2 TB mit Nanotexturglas – Silber | 3379.0 | jsonld",
+  "13\" iPad Pro Wi‑Fi + Cellular 2 TB mit Nanotexturglas – Space Schwarz | 3379.0 | jsonld",
+  "13\" iPad Pro Wi‑Fi + Cellular 2 TB mit Standardglas – Silber | 3249.0 | jsonld",
+  "13\" iPad Pro Wi‑Fi + Cellular 2 TB mit Standardglas – Space Schwarz | 3249.0 | jsonld",
+  "13\" iPad Pro Wi‑Fi + Cellular 512 GB mit Standardglas – Silber | 2149.0 | jsonld",
+  "13\" iPad Pro Wi‑Fi + Cellular 512 GB mit Standardglas – Space Schwarz | 2149.0 | jsonld",
+  "AirPods Max Ohrpolster – Mitternacht | 79.0 | jsonld",
+  "AirPods Pro 3 kaufen | 249.0 | dom-price",
+  "AirPods Pro 3 | 249.0 | jsonld",
+  "AirPods Pro 2 Ohreinsätze − 4 Paar | 14.0 | jsonld",
+  "AirPods 5 mit kabellosem Ladecase | 169.0 | jsonld",
+  "AirPods 5 | 149.0 | jsonld",
+  "AirPods Max 2 - Mitternacht | 579.0 | jsonld",
+  "AirPods Pro 3 Ohreinsätze - 2 Sets (XXS) | 10.0 | jsonld",
+  "AirPods Pro 3 Ohreinsätze − 5 Paar | 15.0 | jsonld",
+  "Apple Watch Hermès Series 12 kaufen | 1599.0 | dom-price",
+  "Apple Watch SE 3 kaufen | 269.0 | dom-price",
+  "Apple Watch SE 3 | 269.0 | jsonld",
+  "Apple Watch Series 12 kaufen | 449.0 | dom-price",
+  "Apple Watch Series 12 | 449.0 | jsonld",
+  "Apple Watch Hermès‏ | 1599.0 | jsonld",
+  "Beats 360 Cushion Kit – Performance Ohrpolster und Kopfbügel aus Stric | 59.95 | jsonld",
+  "Beats 360 Cushion Kit – UltraPlush Ohrpolster und Kopfbügel in Schwarz | 59.95 | jsonld",
+  "Beats 360 Over-Ear Kopfhörer – Wolke mit Performance Polstern aus Stri | 349.95 | jsonld",
+  "Beats Flex – Kabellose In-Ear Kopfhörer für den ganzen Tag – Flammenbl | 89.95 | jsonld",
+  "Beats Pill – Kabelloser Bluetooth® Lautsprecher – Champagner | 169.95 | jsonld",
+  "Beats Solo 4 – Kabellose On‑Ear Kopfhörer – Schieferblau | 229.95 | jsonld",
+  "Beats Solo Buds – Komplett kabellose In-Ear Kopfhörer – Transparent-Ro | 89.95 | jsonld",
+  "Beats Studio Buds + Komplett kabellose Noise Cancelling In-Ear Kopfhör | 199.95 | jsonld",
+  "Beats Studio Pro kabellose Kopfhörer – Espresso | 299.95 | jsonld",
+  "Belkin AirPods Reinigungsset | 14.95 | jsonld",
+  "Belkin Connect USB-C Daten- und Ladeadapter | 49.95 | jsonld",
+  "EarPods (Lightning Anschluss) | 19.0 | jsonld",
+  "EarPods (USB-C) | 19.0 | jsonld",
+  "HomePod – Mitternacht | 399.0 | jsonld",
+  "HomePod mini 2 - Grün | 169.0 | jsonld",
+  "Powerbeats Fit - Kabellose Fitness In-Ear Kopfhörer mit sicherem Sitz  | 229.95 | jsonld",
+  "Powerbeats Pro 2 – Leistungsstarke In-Ear Kopfhörer – Leuchtorange | 299.95 | jsonld",
+  "Tech21 EvoClear Case für AirPods 5 – Transparent | 34.95 | jsonld",
+  "Tech21 EvoClear für AirPods Max | 49.95 | jsonld",
+  "Tech21 Tragebandschlaufen 2er-Pack | 19.95 | jsonld",
+  "Twelve South AirFly Pro 2 Bluetooth Sender | 69.95 | jsonld",
+  "Twelve South AirFly Pro 2 Deluxe Bluetooth Sender | 79.95 | jsonld",
+  "iPad Air kaufen | 799.0 | dom-price",
+  "iPad Pro kaufen | 1299.0 | dom-price",
+  "iPad Pro | 1299.0 | apple-bootstrap",
+  "iPad Pro | 1549.0 | apple-bootstrap",
+  "iPad Pro | 1649.0 | apple-bootstrap",
+  "iPad Pro | 1799.0 | apple-bootstrap",
+  "iPad Pro | 1899.0 | apple-bootstrap",
+  "iPad Pro | 2029.0 | apple-bootstrap",
+  "iPad Pro | 2149.0 | apple-bootstrap",
+  "iPad Pro | 2159.0 | apple-bootstrap",
+  "iPad Pro | 2279.0 | apple-bootstrap",
+  "iPad Pro | 2379.0 | apple-bootstrap",
+  "iPad Pro | 2409.0 | apple-bootstrap",
+  "iPad Pro | 2509.0 | apple-bootstrap",
+  "iPad Pro | 2629.0 | apple-bootstrap",
+  "iPad Pro | 2649.0 | apple-bootstrap",
+  "iPad Pro | 2759.0 | apple-bootstrap",
+  "iPad Pro | 2779.0 | apple-bootstrap",
+  "iPad Pro | 2899.0 | apple-bootstrap",
+  "iPad Pro | 2999.0 | apple-bootstrap",
+  "iPad Pro | 3029.0 | apple-bootstrap",
+  "iPad Pro | 3129.0 | apple-bootstrap",
+  "iPad Pro | 3249.0 | apple-bootstrap",
+  "iPad Pro | 3379.0 | apple-bootstrap",
+  "iPad Wi‑Fi 128 GB – Blau | 499.0 | jsonld",
+  "iPad Wi‑Fi 128 GB – Gelb | 499.0 | jsonld",
+  "iPad Wi‑Fi 128 GB – Pink | 499.0 | jsonld",
+  "iPad Wi‑Fi 128 GB – Silber | 499.0 | jsonld",
+  "iPad Wi‑Fi 256 GB – Blau | 629.0 | jsonld",
+  "iPad Wi‑Fi 256 GB – Gelb | 629.0 | jsonld",
+  "iPad Wi‑Fi 256 GB – Pink | 629.0 | jsonld",
+  "iPad Wi‑Fi 256 GB – Silber | 629.0 | jsonld",
+  "iPad Wi‑Fi 512 GB – Blau | 879.0 | jsonld",
+  "iPad Wi‑Fi 512 GB – Gelb | 879.0 | jsonld",
+  "iPad Wi‑Fi 512 GB – Pink | 879.0 | jsonld",
+  "iPad Wi‑Fi 512 GB – Silber | 879.0 | jsonld",
+  "iPad Wi‑Fi + Cellular 128 GB – Blau | 669.0 | jsonld",
+  "iPad Wi‑Fi + Cellular 128 GB – Gelb | 669.0 | jsonld",
+  "iPad Wi‑Fi + Cellular 128 GB – Pink | 669.0 | jsonld",
+  "iPad Wi‑Fi + Cellular 128 GB – Silber | 669.0 | jsonld",
+  "iPad Wi‑Fi + Cellular 256 GB – Blau | 799.0 | jsonld",
+  "iPad Wi‑Fi + Cellular 256 GB – Gelb | 799.0 | jsonld",
+  "iPad Wi‑Fi + Cellular 256 GB – Pink | 799.0 | jsonld",
+  "iPad Wi‑Fi + Cellular 256 GB – Silber | 799.0 | jsonld",
+  "iPad Wi‑Fi + Cellular 512 GB – Blau | 1049.0 | jsonld",
+  "iPad Wi‑Fi + Cellular 512 GB – Gelb | 1049.0 | jsonld",
+  "iPad Wi‑Fi + Cellular 512 GB – Pink | 1049.0 | jsonld",
+  "iPad Wi‑Fi + Cellular 512 GB – Silber | 1049.0 | jsonld",
+  "iPad kaufen | 499.0 | dom-price",
+  "iPad mini kaufen | 749.0 | dom-price",
+  "iPad | 1049.0 | apple-bootstrap",
+  "iPad | 499.0 | apple-bootstrap",
+  "iPad | 629.0 | apple-bootstrap",
+  "iPad | 669.0 | apple-bootstrap",
+  "iPad | 799.0 | apple-bootstrap",
+  "iPad | 879.0 | apple-bootstrap",
+  "iPad Air | 1099.0 | apple-bootstrap",
+  "iPad Air | 1129.0 | apple-bootstrap",
+  "iPad Air | 1169.0 | apple-bootstrap",
+  "iPad Air | 1179.0 | apple-bootstrap",
+  "iPad Air | 1299.0 | apple-bootstrap",
+  "iPad Air | 1349.0 | apple-bootstrap",
+  "iPad Air | 1379.0 | apple-bootstrap",
+  "iPad Air | 1549.0 | apple-bootstrap",
+  "iPad Air | 1559.0 | apple-bootstrap",
+  "iPad Air | 1729.0 | apple-bootstrap",
+  "iPad Air | 1759.0 | apple-bootstrap",
+  "iPad Air | 1929.0 | apple-bootstrap",
+  "iPad Air | 799.0 | apple-bootstrap",
+  "iPad Air | 929.0 | apple-bootstrap",
+  "iPad Air | 969.0 | apple-bootstrap",
+  "iPad Air | 999.0 | apple-bootstrap",
+  "iPad mini Wi‑Fi 128 GB mit Standardglas – Mitternacht | 749.0 | jsonld",
+  "iPad mini Wi‑Fi 128 GB mit Standardglas – Polarstern | 749.0 | jsonld",
+  "iPad mini Wi‑Fi 256 GB mit Nanotexturglas – Mitternacht | 1009.0 | jsonld",
+  "iPad mini Wi‑Fi 256 GB mit Nanotexturglas – Polarstern | 1009.0 | jsonld",
+  "iPad mini Wi‑Fi 256 GB mit Standardglas – Mitternacht | 879.0 | jsonld",
+  "iPad mini Wi‑Fi 256 GB mit Standardglas – Polarstern | 879.0 | jsonld",
+  "iPad mini Wi‑Fi 512 GB mit Nanotexturglas – Mitternacht | 1259.0 | jsonld",
+  "iPad mini Wi‑Fi 512 GB mit Nanotexturglas – Polarstern | 1259.0 | jsonld",
+  "iPad mini Wi‑Fi 512 GB mit Standardglas – Mitternacht | 1129.0 | jsonld",
+  "iPad mini Wi‑Fi 512 GB mit Standardglas – Polarstern | 1129.0 | jsonld",
+  "iPad mini Wi‑Fi + Cellular 128 GB mit Standardglas – Mitternacht | 919.0 | jsonld",
+  "iPad mini Wi‑Fi + Cellular 128 GB mit Standardglas – Polarstern | 919.0 | jsonld",
+  "iPad mini Wi‑Fi + Cellular 256 GB mit Nanotexturglas – Mitternacht | 1179.0 | jsonld",
+  "iPad mini Wi‑Fi + Cellular 256 GB mit Nanotexturglas – Polarstern | 1179.0 | jsonld",
+  "iPad mini Wi‑Fi + Cellular 256 GB mit Standardglas – Mitternacht | 1049.0 | jsonld",
+  "iPad mini Wi‑Fi + Cellular 256 GB mit Standardglas – Polarstern | 1049.0 | jsonld",
+  "iPad mini Wi‑Fi + Cellular 512 GB mit Nanotexturglas – Mitternacht | 1429.0 | jsonld",
+  "iPad mini Wi‑Fi + Cellular 512 GB mit Nanotexturglas – Polarstern | 1429.0 | jsonld",
+  "iPad mini Wi‑Fi + Cellular 512 GB mit Standardglas – Mitternacht | 1299.0 | jsonld",
+  "iPad mini Wi‑Fi + Cellular 512 GB mit Standardglas – Polarstern | 1299.0 | jsonld",
+  "iPad mini | 1009.0 | apple-bootstrap",
+  "iPad mini | 1049.0 | apple-bootstrap",
+  "iPad mini | 1129.0 | apple-bootstrap",
+  "iPad mini | 1179.0 | apple-bootstrap",
+  "iPad mini | 1259.0 | apple-bootstrap",
+  "iPad mini | 1299.0 | apple-bootstrap",
+  "iPad mini | 1429.0 | apple-bootstrap",
+  "iPad mini | 749.0 | apple-bootstrap",
+  "iPad mini | 879.0 | apple-bootstrap",
+  "iPad mini | 919.0 | apple-bootstrap",
+  "iPhone 16 kaufen | 999.0 | dom-price",
+  "iPhone 16 | 999.0 | jsonld",
+  "iPhone 17 kaufen | 1099.0 | dom-tile",
+  "iPhone 17 kaufen | 1349.0 | dom-tile",
+  "iPhone 17 | 1099.0 | apple-bootstrap",
+  "iPhone 17 | 1099.0 | jsonld",
+  "iPhone 17 | 1349.0 | apple-bootstrap",
+  "iPhone 17e kaufen | 1099.0 | dom-tile",
+  "iPhone 17e kaufen | 849.0 | dom-tile",
+  "iPhone 17e | 1099.0 | apple-bootstrap",
+  "iPhone 17e | 849.0 | apple-bootstrap",
+  "iPhone 17e | 849.0 | jsonld",
+  "iPhone 18 Pro Max | 1599.0 | jsonld",
+  "iPhone 18 Pro kaufen | 1449.0 | dom-tile",
+  "iPhone 18 Pro kaufen | 1599.0 | dom-tile",
+  "iPhone 18 Pro kaufen | 1699.0 | dom-tile",
+  "iPhone 18 Pro kaufen | 1849.0 | dom-tile",
+  "iPhone 18 Pro kaufen | 2199.0 | dom-tile",
+  "iPhone 18 Pro kaufen | 2349.0 | dom-tile",
+  "iPhone 18 Pro kaufen | 2949.0 | dom-tile",
+  "iPhone 18 Pro kaufen | 3099.0 | dom-tile",
+  "iPhone 18 Pro | 1449.0 | jsonld",
+  "iPhone Air kaufen | 1299.0 | dom-tile",
+  "iPhone Air kaufen | 1549.0 | dom-tile",
+  "iPhone Air kaufen | 2049.0 | dom-tile",
+  "iPhone Air | 1299.0 | jsonld",
+  "iPhone Duo kaufen | 2299.0 | dom-tile",
+  "iPhone Duo kaufen | 2549.0 | dom-tile",
+  "iPhone Duo kaufen | 3049.0 | dom-tile",
+  "iPhone Duo kaufen | 3799.0 | dom-tile",
+  "iPhone Duo | 2299.0 | jsonld",
+  "iPhone 16 | 999.0 | apple-bootstrap",
+  "iPhone 18 Pro Max | 1599.0 | apple-bootstrap",
+  "iPhone 18 Pro Max | 1849.0 | apple-bootstrap",
+  "iPhone 18 Pro Max | 2349.0 | apple-bootstrap",
+  "iPhone 18 Pro Max | 3099.0 | apple-bootstrap",
+  "iPhone 18 Pro | 1449.0 | apple-bootstrap",
+  "iPhone 18 Pro | 1699.0 | apple-bootstrap",
+  "iPhone 18 Pro | 2199.0 | apple-bootstrap",
+  "iPhone 18 Pro | 2949.0 | apple-bootstrap",
+  "iPhone Air | 1299.0 | apple-bootstrap",
+  "iPhone Air | 1549.0 | apple-bootstrap",
+  "iPhone Air | 2049.0 | apple-bootstrap",
+  "iPhone Duo | 2299.0 | apple-bootstrap",
+  "iPhone Duo | 2549.0 | apple-bootstrap",
+  "iPhone Duo | 3049.0 | apple-bootstrap",
+  "iPhone Duo | 3799.0 | apple-bootstrap"
  ]
 }

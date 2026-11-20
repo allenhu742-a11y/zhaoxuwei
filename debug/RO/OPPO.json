@@ -1,0 +1,614 @@
+{
+ "brand": "OPPO",
+ "country": "RO",
+ "pages": [
+  {
+   "url": "https://www.oppo.com/ro/accessories/",
+   "status": 200,
+   "final_url": "https://www.oppo.com/ro/accessories/",
+   "title": "Accesorii pentru telefoane mobile OPPO | OPPO România",
+   "json_urls": [
+    "https://www.oppo.com/api/country?",
+    "https://www.oppo.com/content/dam/oppo_com/content-fragment/common/site-language-tip.json?v=1795185896214?",
+    "https://cm.teads.tv/v2/advertiser?referer=https%3A%2F%2Fwww.oppo.com%2Fro%2Faccessories%2F&tag_version=8.17.1_30c114a&buyer_pixel_id=2534&gtm_consent=true&has_c",
+    "https://insight.adsrvr.org/track/realtimeconversion",
+    "https://insight.adsrvr.org/track/realtimeconversion"
+   ],
+   "links": [
+    "https://www.oppo.com/ro/accessories/enco-x4/",
+    "https://www.oppo.com/ro/accessories/enco-clip2-open-earbuds/",
+    "https://www.oppo.com/ro/accessories/enco-air5-pro/",
+    "https://www.oppo.com/ro/accessories/enco-air5s/",
+    "https://www.oppo.com/ro/accessories/enco-x3s/",
+    "https://www.oppo.com/ro/accessories/enco-air4-pro/",
+    "https://www.oppo.com/ro/accessories/enco-buds3/"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Accesorii pentru telefoane mobile OPPO | OPPO România Skip to main content Select your country or region Global Smartphone-uri Tablete Audio Wearables Accesorii Despre OPPO Magazin Online Comunitate ColorOS Suport Accesorii Cele mai noi accesorii pentru telefoane mobile Descoperă cea mai nouă gamă de dispozitive inteligente OPPO. OPPO Bubble Vizualizare ultra-clară selfie cu camera din spate Află mai Multe OPPO Bubble Vizualizare ultra-clară selfie cu camera din spate, Vibe personalizabil Află mai Multe Smartphone-uri OPPO Find X10 Pro Max OPPO Find X10 OPPO Find X9 Ultra OPPO Reno16 Pro 5G OPPO Reno16 5G OPPO Reno16 F 5G OPPO Reno16 FS 5G OPPO A7 Pro Max 5G OPPO A7 Pro 5G OPPO A6 Pro 5G OPPO A6 OPPO A6x 5G OPPO A6k Vezi Toate Telefoanele Produse IoT OPPO Pad 5 Pro OPPO Watch 5 OPPO Watch X3 OPPO Watch X2 OPPO Watch X2 Mini OPPO Enco X4 OPPO Enco Clip2 Open Earbuds OPPO Enco Air5 Pro OPPO Enco Air5s OPPO Enco Air4 Pro OPPO Enco Buds3 Despre OPPO Povestea Noastră Descoperă OPPO Apex Guard Suport Contactează-ne Starea garanției FAQ Security Response Center Regulamente Politica garanție Legea UE privind protecția datelor Comunitate OPPO Comunitate OPPO Confidențialitate Termeni de Utilizare Cookies Conformitatea Legală Cookie Settings Copyright © 2004-2026 OPPO. All rights reserved. Romania (Română)",
+   "json_samples": [
+    {
+     "url": "https://www.oppo.com/api/country?",
+     "body": "{\"countryCode\": \"US\"}"
+    },
+    {
+     "url": "https://www.oppo.com/content/dam/oppo_com/content-fragment/common/site-language-tip.json?v=1795185896214?",
+     "body": "{\"OTHER\": {\"tip\": \"Select your country or region\", \"goto\": \"goto\", \"another\": \"Select another site\", \"isArabic\": \"0\", \"language\": {\"en\": \"Global\"}}, \"CN\": {\"tip\": \"根据您的位置信息，选择合适的语言:\", \"goto\": \"前往\", \"another\": \"更多其他地区语言\", \"isArabic\": \"0\", \"language\": {\"cn\": \"简体中文\"}}, \"HK\": {\"tip\": \"根據您的位置信息，選擇合適的語言:\", \"goto\": \"前往\", \"another\": \"其他語言\", \"isArabic\": \"0\", \"language\": {\"hk\": \"繁體中文\"}}, \"MY\": {\"tip\": \"You can visit a site that is same from your current location\", \"goto\": \"go\", \"another\": \"Select another site\", \"isArabic\": \"0\", \"language\": {\"my\": \"Malaysia\"}}, \"TW\": {\"tip\": \"根據您的位置信息，選擇合適的語言:\", \"goto\": \"前往\", \"another\": \"其他語言\", \"isArabic\": \"0\", \"language\": {\"tw\": \"繁體中文\"}}, \"AE\": {\"tip\": \"You can visit a site that is same from your current location\", \"goto\": \"go\", \"another\": \"Select another site\", \"isArabic\": \"0\", \"language\": {\"ae\": \"UAE\"}}, \"AU\": {\"tip\": \"You can visit a site that is same from your current location\", \"goto\": \"go\", \"another\": \"Select another site\", \"isArabic\": \"0\", \"language\": {\"au\": \"Australia\"}}, \"BD\": {\"tip\": \"You can visit a site that is same from your current location\", \"goto\": \"go\", \"another\": \"Select another site\", \"isArabic\": \"0\", \"language\": {\"bd\": \"Bangladesh\"}}, \"BE\": {\"tip\": \"Vous pouvez visiter un site qui est le même que celui où vous vous trouvez actuellement\", \"goto\": \"Acceder\", \"another\": \"Sélectionnez un autre site\", \"isArabic\": \"0\", \"language\": {\"befr\": \"Belgique\", \"benl\": \"België\"}}, \"CH\": {\"tip\": \"Besuche eine Website, die deinem aktuellen Standort entspricht\", \"goto\": \"Los\", \"another\": \"Eine andere Seite wählen\", \"isArabic\": \"0\", \"language\": {\"chde\": \"Schweiz\", \"chfr\": \"Suisse\"}}, \"CZ\": {\"tip\": \"Chcete navštívit stránky přizpůsobené vaší aktuální poloze?\", \"goto\": \"Pokračovat\", \"another\": \"Vyberte jinou lokalitu\", \"isArabic\": \"0\", \"language\": {\"cz\": \"Česko\"}}, \"DE\": {\"tip\": \"Besuche eine Website, die deinem aktuellen Standort entspricht\", \"goto\": \"Los\", \"another\": \"Eine andere Seite wählen\", \"isArabic\": \"0\", \"language\": {\"de\": \"Deutsch\"}}, \"DZ\": {\"tip\": \"Vous pouvez visiter un site identique à partir de votre position actuelle\", \"goto\": \"Aller\", \"another\": \"Sélectionner un autre site\", \"isArabic\": \"0\", \"language\": {\"dz\": \"Algérie\"}}, \"EG\": {\"tip\": \" يمكنك زيارة الموقع من نفس  موقعك الحالي\", \"goto\": \" اذهب\", \"another\": \" اختر موقع آخر\", \"isArabic\": \"1\", \"language\": {\"eg\": \"مصر \", \"eg-en\": \"Egypt\"}}, \"ES\": {\"tip\": \"Puedes visitar un sitio que es el mismo de tu ubicación actual\", \"goto\": \"ir a\", \"another\": \"Seleccione otro sitio\", \""
+    }
+   ]
+  },
+  {
+   "url": "https://www.oppo.com/ro/store/",
+   "status": 200,
+   "final_url": "https://www.oppo.com/ro/store/",
+   "title": "OPPO - OPPO Store (Global)",
+   "json_urls": [
+    "https://opsg-gateway-sg.oppo.com/v2/api/rest/mall/basicdata/web/store/list",
+    "https://opsg-gateway-sg.oppo.com/v2/api/rest/mall/basicdata/web/store/list?storeViewCode=id",
+    "https://obus-jssdk-sg.heytapmobile.com/api/checkUpdate?body=%7B%22itemList%22%3A%5B%7B%22configCode%22%3A%22BUSINESS_WEB_106002_CONFIG%22%2C%22version%22%3A0%7D",
+    "https://obus-jssdk-sg.heytapmobile.com/api/fetchCdnFile?url=https%3A%2F%2Fappconf-ocs-sgp.heytapdl.com%2Fcloud-config%2Fcompass_106002%2FBUSINESS_WEB_106002_CON",
+    "https://opsg-statics-sg.heytapimg.com/oppo-json/thor-pc/id/base-maps.json?t=29919765",
+    "https://opsg-statics-sg.heytapimg.com/oppo-json/thor-pc/id/p-a11y-messages-d0cc473fd74e4c167a1d423e4cebdcdd.json",
+    "https://opsg-statics-sg.heytapimg.com/oppo-json/thor-pc/id/p-404-v2-f2584552563bca49060463f9a4b07328.json",
+    "https://opsg-statics-sg.heytapimg.com/oppo-json/thor-pc/id/c-cookie-tips-v2-70599a0a0900080f22b3ca786a00cfe8.json",
+    "https://opsg-gateway-sg.oppo.com/v2/api/rest/media/file/public/fetchImageAltBySource",
+    "https://obus-sg.dc.heytapmobile.com/v3/track/js/106002?app_key=1360&timestamp=1795185916511",
+    "https://opsg-gateway-sg.oppo.com/v2/api/rest/media/file/public/fetchImageAlt",
+    "https://obus-sg.dc.heytapmobile.com/v3/track/js/106002?app_key=1360&timestamp=1795185919412"
+   ],
+   "links": [
+    "https://www.oppo.com/ro/accessories/enco-x4/",
+    "https://www.oppo.com/ro/accessories/enco-clip2-open-earbuds/",
+    "https://www.oppo.com/ro/accessories/enco-air5-pro/",
+    "https://www.oppo.com/ro/accessories/enco-air5s/",
+    "https://www.oppo.com/ro/accessories/enco-x3s/",
+    "https://www.oppo.com/ro/accessories/enco-air4-pro/",
+    "https://www.oppo.com/ro/accessories/enco-buds3/"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Skip to main content Select your country or region Global Smartphone-uri Tablete Audio Wearables Accesorii Despre OPPO Magazin Online Comunitate ColorOS Suport Kesalahan 404 Produk telah dikeluarkan dari keranjang Kembali Berbelanja Smartphone-uri OPPO Find X10 Pro Max OPPO Find X10 OPPO Find X9 Ultra OPPO Reno16 Pro 5G OPPO Reno16 5G OPPO Reno16 F 5G OPPO Reno16 FS 5G OPPO A7 Pro Max 5G OPPO A7 Pro 5G OPPO A6 Pro 5G OPPO A6 OPPO A6x 5G OPPO A6k Vezi Toate Telefoanele Produse IoT OPPO Pad 5 Pro OPPO Watch 5 OPPO Watch X3 OPPO Watch X2 OPPO Watch X2 Mini OPPO Enco X4 OPPO Enco Clip2 Open Earbuds OPPO Enco Air5 Pro OPPO Enco Air5s OPPO Enco Air4 Pro OPPO Enco Buds3 Despre OPPO Povestea Noastră Descoperă OPPO Apex Guard Suport Contactează-ne Starea garanției FAQ Security Response Center Regulamente Politica garanție Legea UE privind protecția datelor Comunitate OPPO Comunitate OPPO Confidențialitate Termeni de Utilizare Cookies Conformitatea Legală Cookie Settings Romania (Română)",
+   "json_samples": [
+    {
+     "url": "https://opsg-gateway-sg.oppo.com/v2/api/rest/mall/basicdata/web/store/list",
+     "body": "{\"code\": \"310000\", \"errCode\": \"cant find merchantCode by StoreViewCode\", \"errMsg\": \"cant find merchantCode by StoreViewCode\", \"message\": \"cant find merchantCode by StoreViewCode\", \"ret\": \"0\", \"success\": false}"
+    },
+    {
+     "url": "https://opsg-gateway-sg.oppo.com/v2/api/rest/mall/basicdata/web/store/list?storeViewCode=id",
+     "body": "{\"success\": true, \"data\": [{\"storeViewCode\": \"id\", \"countryCode\": \"ID\", \"symbol\": \"Rp\", \"format\": \"%s%v\", \"decimal\": \".\", \"thousand\": \".\", \"precision\": \"0\", \"zero\": \"Free\", \"symbolInFront\": 1, \"hasSpace\": 0, \"cur\": \"ID\", \"languageCode\": \"id\", \"lang\": \"Indonesian\", \"name\": \"Indonesia\", \"currencyCode\": \"IDR\", \"prefix\": \"+62\", \"reg\": \"^0?8\\\\d{8,11}$\", \"pinCodeReg\": \"^[0-9]{5}$\", \"maxLength\": 13, \"apiDomain\": \"opsg-gateway-sg.oppo.com\", \"storeDomain\": \"https://www.oppo.com\", \"cookieDomain\": [\".wanyol.com\", \".oppo.com\"], \"countryImgUrl\": \"https://oasis.opstatics.com/content/dam/oasis/heytap-indonesia/id.png\", \"address\": {\"addressList\": [{\"key\": \"firstName\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"regionId\", \"nameKey\": \"region\", \"type\": \"select\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": true}, {\"key\": \"cityId\", \"nameKey\": \"city\", \"type\": \"select\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": true}, {\"key\": \"areaId\", \"nameKey\": \"areaName\", \"type\": \"select\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": true}, {\"key\": \"streetId\", \"nameKey\": \"street1\", \"type\": \"select\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": true, \"select\": true}, {\"key\": \"postCode\", \"nameKey\": \"postcode\", \"type\": \"input\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"street2\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"telephone\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}], \"addressSort\": [\"street2\", \"postCode\", \"streetId\", \"areaName\", \"city\", \"region\", \"countryCode\"]}, \"pickupEnable\": true, \"visitorBuyDisable\": false, \"tradeInDisable\": false, \"memberBuyDisable\": false, \"showCoins\": true, \"homeUrl\": \"https://www.oppo.com/id/store/\", \"cartUrl\": \"https://www.oppo.com/id/store/cart\", \"officialWebsite\": \"https://www.oppo.com/id\", \"appStoreFlag\": "
+    },
+    {
+     "url": "https://opsg-gateway-sg.oppo.com/v2/api/rest/media/file/public/fetchImageAltBySource",
+     "body": "{\"success\": true, \"code\": \"000000\", \"message\": \"success\", \"responseId\": \"0d4dd03d62584cc68a5fea04752ab988-74\"}"
+    },
+    {
+     "url": "https://opsg-gateway-sg.oppo.com/v2/api/rest/media/file/public/fetchImageAlt",
+     "body": "{\"success\": true, \"data\": [{\"imageUrl\": \"https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/find-x10-series-en/navigation/find-x10-pro-max/440-440-white.png\", \"imageAlt\": \"\", \"decorative\": 0}, {\"imageUrl\": \"https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/find-x10-series-en/navigation/find-x10/440-440-gray.png\", \"imageAlt\": \"\", \"decorative\": 0}, {\"imageUrl\": \"https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-reno16-series-en/navigation/reno16-pro/440-440-white.png\", \"imageAlt\": \"\", \"decorative\": 0}, {\"imageUrl\": \"https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-reno16-series-en/navigation/reno16/440-440-white.png\", \"imageAlt\": \"\", \"decorative\": 0}, {\"imageUrl\": \"https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a7-pro-serice-en/navigation/a7-pro-max/440-440-blue.png\", \"imageAlt\": \"\", \"decorative\": 0}, {\"imageUrl\": \"https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-a7-pro-serice-en/navigation/a7-pro/440-440-blue.png\", \"imageAlt\": \"\", \"decorative\": 0}, {\"imageUrl\": \"https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-pad-5-pro-en/navigation/440-440-brown.png\", \"imageAlt\": \"\", \"decorative\": 0}, {\"imageUrl\": \"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/oppo-pad-se-en/navigation/440-440-v1.png\", \"imageAlt\": \"\", \"decorative\": 0}, {\"imageUrl\": \"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/pad-neo-en/navigation/pad-neo-440_440.png\", \"imageAlt\": \"\", \"decorative\": 0}, {\"imageUrl\": \"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/new-navi/pad.png\", \"imageAlt\": \"\", \"decorative\": 0}, {\"imageUrl\": \"https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-enco-x4-en/navigation/440-440-white.png\", \"imageAlt\": \"\", \"decorative\": 0}, {\"imageUrl\": \"https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-enco-clip2-open-earbuds-en/navigation/440-440-gold.png\", \"imageAlt\": \"\", \"decorative\": 0}, {\"imageUrl\": \"https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-enco-air5-pro-en/navigation/440-440-white.png\", \"imageAlt\": \"\", \"decorative\": 0}, {\"imageUrl\": \"https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-enco-air5s-en/navigation/440-440-white.png\", \"imageAlt\": \"\", \"decorative\": 0}, {\"imageUrl\": \"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/enco-x3s/navigation/440-440-white.png\", \"imageAlt\": \"\", \"decorative\": 0}, {\"imageUrl\": \"https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/oppo-enco-air4-pro-en/navigation/440-440-black-v1.png"
+    }
+   ]
+  },
+  {
+   "url": "https://www.oppo.com/ro/accessories/enco-x4/",
+   "status": 200,
+   "final_url": "https://www.oppo.com/ro/accessories/enco-x4/",
+   "title": "OPPO Enco X4 - Căști True Wireless cu anulare a zgomotului | OPPO România",
+   "json_urls": [
+    "https://insight.adsrvr.org/track/realtimeconversion",
+    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000"
+   ],
+   "links": [
+    "https://www.oppo.com/ro/accessories/enco-x4/",
+    "https://www.oppo.com/ro/accessories/enco-clip2-open-earbuds/",
+    "https://www.oppo.com/ro/accessories/enco-air5-pro/",
+    "https://www.oppo.com/ro/accessories/enco-air5s/",
+    "https://www.oppo.com/ro/accessories/enco-x3s/",
+    "https://www.oppo.com/ro/accessories/enco-air4-pro/",
+    "https://www.oppo.com/ro/accessories/enco-x4/specs/",
+    "https://www.oppo.com/ro/accessories/enco-buds3/"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Skip to main content Select your country or region Global Smartphone-uri Tablete Audio Wearables Accesorii Despre OPPO Magazin Online Comunitate ColorOS Suport Enco X4 Prezentare generală Specificații Cumpără acum OPPO Enco X4 Căști True Wireless cu anulare a zgomotului Reglaj audio realizat de Sistem acustic co-dezvoltat cu Dynaudio ANC adaptiv în timp real cu AI Înregistrare audio clară Sistem acustic co-dezvoltat cu Dynaudio ANC adaptiv în timp real cu AI Înregistrare audio clară Sunet clar - 2,3 Mbps Apeluri clare cu AI Traducere live cu AI Sunet construit în jurul muzicii Sistem acustic co-dezvoltat cu Dynaudio Fiecare gen muzical, o singură semnătură acustică. Pentru al șaptelea an consecutiv, OPPO și Dynaudio își unesc forțele pentru a oferi o calitate a sunetului de nivel flagship, redând fiecare nuanță — de la energia rockului și subtilitățile vocilor din muzica pop, până la ritmurile vibrante ale muzicii electronice și basul profund al hip-hopului. Reglaj audio realizat de Dynaudio 300 de ore, pentru a te apropia mai mult de limbajul original al muzicii. OPPO și Dynaudio au petrecut peste 300 de ore ajustând fiecare bandă de frecvență. Activează semnătura acustică Dynaudio pentru voci calde, detalii bogate și un bas profund și controlat. Două drivere dinamice cu două DAC-uri puternice Woofer și tweeter îmbunătățite, notă cu notă. Cele două drivere dinamice cu două DAC-uri puternice includ un woofer și un tweeter îmbunătățite**,** oferind o reprodu",
+   "json_samples": [
+    {
+     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000",
+     "body": "{\"columnOrder\": [\"cookie\", \"name\", \"domain\", \"purpose\", \"validity\"], \"columns\": {\"cookie\": \"Cookie type\", \"name\": \"Name\", \"domain\": \"Domain\", \"purpose\": \"Purpose\", \"validity\": \"Validity Period\"}, \"rows\": [{\"cookie\": \"Essential\", \"name\": \"frontend\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"heytap_authorized\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"HEYTAPID\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"ssoid\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"username\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"avatar\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"createtime\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberLevel\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberInfo\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"encryptId\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"acIdAuthSession\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"codeVerifier\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"Session\"}, {\"cookie\": \"Essential\", \"name\": \"cookiesaccepted\", \"domain\": \"www.oppo.com\", \"purpose\": \"Used to remember the choice of the user\", \"validity\": \"90 days\"}, {\"cookie\": \"Essential\", \"name\": \"g8vtl5_cmapi_cookie_privacy\", \"domain\": \".oppo.com\", \"purpose\": \"Used to remember how the user accepte cookies\", \"validity\": \"395 days\"}, {\"cookie\": \"Essential\", \"nam"
+    }
+   ]
+  },
+  {
+   "url": "https://www.oppo.com/ro/accessories/enco-clip2-open-earbuds/",
+   "status": 200,
+   "final_url": "https://www.oppo.com/ro/accessories/enco-clip2-open-earbuds/",
+   "title": "OPPO Enco Clip2 Open Earbuds - Fixare confortabilă EarHug | OPPO România",
+   "json_urls": [
+    "https://insight.adsrvr.org/track/realtimeconversion",
+    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000"
+   ],
+   "links": [
+    "https://www.oppo.com/ro/accessories/enco-clip2-open-earbuds/",
+    "https://www.oppo.com/ro/accessories/enco-x4/",
+    "https://www.oppo.com/ro/accessories/enco-air5-pro/",
+    "https://www.oppo.com/ro/accessories/enco-air5s/",
+    "https://www.oppo.com/ro/accessories/enco-x3s/",
+    "https://www.oppo.com/ro/accessories/enco-air4-pro/",
+    "https://www.oppo.com/ro/accessories/enco-clip2-open-earbuds/specs/",
+    "https://www.oppo.com/ro/accessories/enco-buds3/"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Skip to main content Select your country or region Global Smartphone-uri Tablete Audio Wearables Accesorii Despre OPPO Magazin Online Comunitate ColorOS Suport Enco Clip2 Open Earbuds Prezentare generală Specificații OPPO Enco Clip2 Open Earbuds Tuning audio realizat de Fixare confortabilă EarHug™｜Apeluri clare prin conducție osoasă Motor acustic dual-drive de top Design unibody tip ear cuff Arc Ni-Ti cu memorie a formei Tuning audio realizat de Dynaudio Chip AI quad-core de top, 6 nm Apeluri clare prin conducție osoasă Traducere AI Conexiune duală între sisteme Design futurist din metal lichid Design unibody tip ear cuff Fiecare purtare îți completează stilul Inspirat de fluiditatea picăturilor de apă, designul are un finisaj integral lucios, fără îmbinări, și o suprafață nouă cu tăietură în formă de picătură. Finisaj metalic NCVM premium Fiecare detaliu este creat pentru confortul purtării Tehnologia avansată NCVM (Non-Conductive Vacuum Metallization) oferă o strălucire asemănătoare bijuteriilor și un aspect radiant de durată. Indiferent cum le porți, frumusețea se dezvăluie Blush Pink Slate Grey Luminous Gold Există întotdeauna o nuanță care se potrivește perfect cu orice ai în garderobă și devine piesa ta de siguranță, pentru orice ocazie. Blush Pink Slate Grey Luminous Gold Indiferent cum le porți, perfecțiunea rămâne Simetrice la oricare ureche Fără să mai ghicești care este stânga și care este dreapta. Datorită tehnologiei adaptive a canale",
+   "json_samples": [
+    {
+     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000",
+     "body": "{\"columnOrder\": [\"cookie\", \"name\", \"domain\", \"purpose\", \"validity\"], \"columns\": {\"cookie\": \"Cookie type\", \"name\": \"Name\", \"domain\": \"Domain\", \"purpose\": \"Purpose\", \"validity\": \"Validity Period\"}, \"rows\": [{\"cookie\": \"Essential\", \"name\": \"frontend\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"heytap_authorized\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"HEYTAPID\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"ssoid\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"username\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"avatar\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"createtime\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberLevel\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberInfo\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"encryptId\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"acIdAuthSession\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"codeVerifier\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"Session\"}, {\"cookie\": \"Essential\", \"name\": \"cookiesaccepted\", \"domain\": \"www.oppo.com\", \"purpose\": \"Used to remember the choice of the user\", \"validity\": \"90 days\"}, {\"cookie\": \"Essential\", \"name\": \"g8vtl5_cmapi_cookie_privacy\", \"domain\": \".oppo.com\", \"purpose\": \"Used to remember how the user accepte cookies\", \"validity\": \"395 days\"}, {\"cookie\": \"Essential\", \"nam"
+    }
+   ]
+  },
+  {
+   "url": "https://www.oppo.com/ro/accessories/enco-air5-pro/",
+   "status": 200,
+   "final_url": "https://www.oppo.com/ro/accessories/enco-air5-pro/",
+   "title": "OPPO Enco Air5 Pro - Căști nivel-pro cu anulare a zgomotului | OPPO România",
+   "json_urls": [
+    "https://insight.adsrvr.org/track/realtimeconversion",
+    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000"
+   ],
+   "links": [
+    "https://www.oppo.com/ro/accessories/enco-air5-pro/",
+    "https://www.oppo.com/ro/accessories/enco-x4/",
+    "https://www.oppo.com/ro/accessories/enco-clip2-open-earbuds/",
+    "https://www.oppo.com/ro/accessories/enco-air5s/",
+    "https://www.oppo.com/ro/accessories/enco-x3s/",
+    "https://www.oppo.com/ro/accessories/enco-air4-pro/",
+    "https://www.oppo.com/ro/accessories/enco-air5-pro/specs/",
+    "https://www.oppo.com/ro/accessories/enco-buds3/"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Skip to main content Select your country or region Global Smartphone-uri Tablete Audio Wearables Accesorii Despre OPPO Magazin Online Comunitate ColorOS Suport Enco Air5 Pro Prezentare generală Specificații Cumpără acum OPPO Enco Air5 Pro Căști true wireless cu anulare a zgomotului Anulare a zgomotului pro Drive 12mm titan pentru bas puternic Până la 54 de ore redare Drive 12mm titan pentru bas puternic Apeluri clare AI cu trei microfoane Anulare a zgomotului vocal la nivel pro Control al volumului prin glisare Până la 54 de ore de redare Conectare duală între sisteme Spotify Tap Shh! Sunt pe silent. Liniște completă Cu o anulare activă profundă a zgomotului de 55 dB și o gamă de frecvență ultra-largă de 5000 Hz1, OPPO Enco Air5 Pro este proiectat pentru a elimina o gamă largă de distrageri. De la mulțimea aglomerată până la un birou ocupat, permite ca zgomotul lumii să dispară treptat. Ești învăluit în propriul tău sanctuar audio — liber să te concentrezi, să te relaxezi și să-ți găsești liniștea oriunde te-ai afla. 55 dB anulare activă a zgomotului 5000 Hz gamă de frecvență ultra-largă Fiecare secundă de anulare a zgomotului este susținută de o curbă optim adaptată.​ 2× îmbunătățit la nivel de anulare zgomot2 Algoritmul ANC dinamic în timp real al OPPO Enco Air5 Pro abordează cel mai dificil tip de zgomot de blocat — vocile umane. De asemenea, analizează anatomia unică a canalului auditiv, modul de fixare și mediul fiecărui utilizator pentru a crea o c",
+   "json_samples": [
+    {
+     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000",
+     "body": "{\"columnOrder\": [\"cookie\", \"name\", \"domain\", \"purpose\", \"validity\"], \"columns\": {\"cookie\": \"Cookie type\", \"name\": \"Name\", \"domain\": \"Domain\", \"purpose\": \"Purpose\", \"validity\": \"Validity Period\"}, \"rows\": [{\"cookie\": \"Essential\", \"name\": \"frontend\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"heytap_authorized\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"HEYTAPID\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"ssoid\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"username\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"avatar\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"createtime\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberLevel\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberInfo\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"encryptId\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"acIdAuthSession\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"codeVerifier\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"Session\"}, {\"cookie\": \"Essential\", \"name\": \"cookiesaccepted\", \"domain\": \"www.oppo.com\", \"purpose\": \"Used to remember the choice of the user\", \"validity\": \"90 days\"}, {\"cookie\": \"Essential\", \"name\": \"g8vtl5_cmapi_cookie_privacy\", \"domain\": \".oppo.com\", \"purpose\": \"Used to remember how the user accepte cookies\", \"validity\": \"395 days\"}, {\"cookie\": \"Essential\", \"nam"
+    }
+   ]
+  },
+  {
+   "url": "https://www.oppo.com/ro/accessories/enco-air5s/",
+   "status": 200,
+   "final_url": "https://www.oppo.com/ro/accessories/enco-air5s/",
+   "title": "OPPO Enco Air5s - Lumea redusă la tăcere, imersiune fără limite | OPPO România",
+   "json_urls": [
+    "https://insight.adsrvr.org/track/realtimeconversion",
+    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000"
+   ],
+   "links": [
+    "https://www.oppo.com/ro/accessories/enco-air5s/",
+    "https://www.oppo.com/ro/accessories/enco-x4/",
+    "https://www.oppo.com/ro/accessories/enco-clip2-open-earbuds/",
+    "https://www.oppo.com/ro/accessories/enco-air5-pro/",
+    "https://www.oppo.com/ro/accessories/enco-x3s/",
+    "https://www.oppo.com/ro/accessories/enco-air4-pro/",
+    "https://www.oppo.com/ro/accessories/enco-air5s/specs/",
+    "https://www.oppo.com/ro/accessories/enco-buds3/"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Skip to main content Select your country or region Global Smartphone-uri Tablete Audio Wearables Accesorii Despre OPPO Magazin Online Comunitate ColorOS Suport Enco Air5s Prezentare generală Specificații Cumpără acum OPPO Enco Air5s Căști True Wireless cu anulare a zgomotului Anulare adaptivă a zgomotului în timp real Design ergonomic semi-in-ear Confort la doar 3,9 g Sistem personalizat de anulare a zgomotului în timpul apelurilor Anulare adaptivă a zgomotului în timp real Difuzoare dinamice puternice de 12 mm Design ergonomic semi-in-ear Până la 48 de ore de redare Confort la doar 3,9 g Lumea redusă la tăcere, imersiune fără limite Anulare adaptivă a zgomotului în timp real Liniște, în fiecare moment. OPPO Enco Air5s detectează activ în timp real modul în care porți căștile, forma canalului auditiv și nivelul zgomotului ambiental. Acestea personalizează efectul de anulare a zgomotului, filtrând instant agitația din jur și lăsând doar ritmul tău să domine spațiul. Anulare inteligentă a zgomotului în funcție de mediu În interior sau afară – mereu setarea potrivită. Nu este necesară schimbarea manuală a modurilor. Căștile identifică automat mediul înconjurător și comută fără efort între niveluri ridicate și reduse de anulare a zgomotului. Tot ce trebuie să faci este să te simți cât mai relaxat, oriunde te-ai afla. Anulare a zgomotului pro pentru căști semi-in-ear Sistem personalizat de anulare a zgomotului în timpul apelurilor Pentru acest design special, OP",
+   "json_samples": [
+    {
+     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000",
+     "body": "{\"columnOrder\": [\"cookie\", \"name\", \"domain\", \"purpose\", \"validity\"], \"columns\": {\"cookie\": \"Cookie type\", \"name\": \"Name\", \"domain\": \"Domain\", \"purpose\": \"Purpose\", \"validity\": \"Validity Period\"}, \"rows\": [{\"cookie\": \"Essential\", \"name\": \"frontend\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"heytap_authorized\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"HEYTAPID\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"ssoid\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"username\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"avatar\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"createtime\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberLevel\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberInfo\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"encryptId\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"acIdAuthSession\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"codeVerifier\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"Session\"}, {\"cookie\": \"Essential\", \"name\": \"cookiesaccepted\", \"domain\": \"www.oppo.com\", \"purpose\": \"Used to remember the choice of the user\", \"validity\": \"90 days\"}, {\"cookie\": \"Essential\", \"name\": \"g8vtl5_cmapi_cookie_privacy\", \"domain\": \".oppo.com\", \"purpose\": \"Used to remember how the user accepte cookies\", \"validity\": \"395 days\"}, {\"cookie\": \"Essential\", \"nam"
+    }
+   ]
+  },
+  {
+   "url": "https://www.oppo.com/ro/accessories/enco-x3s/",
+   "status": 200,
+   "final_url": "https://www.oppo.com/ro/accessories/enco-x3s/",
+   "title": "OPPO Enco X3s – Căști cu anulare a zgomotului și traducere prin AI | OPPO România",
+   "json_urls": [
+    "https://insight.adsrvr.org/track/realtimeconversion",
+    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000"
+   ],
+   "links": [
+    "https://www.oppo.com/ro/accessories/enco-x3s/",
+    "https://www.oppo.com/ro/accessories/enco-x4/",
+    "https://www.oppo.com/ro/accessories/enco-clip2-open-earbuds/",
+    "https://www.oppo.com/ro/accessories/enco-air5-pro/",
+    "https://www.oppo.com/ro/accessories/enco-air5s/",
+    "https://www.oppo.com/ro/accessories/enco-air4-pro/",
+    "https://www.oppo.com/ro/accessories/enco-x3s/specs/",
+    "https://www.oppo.com/ro/accessories/enco-buds3/"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Skip to main content Select your country or region Global Smartphone-uri Tablete Audio Wearables Accesorii Despre OPPO Magazin Online Comunitate ColorOS Suport Enco X3s Prezentare generală Specificații Cumpără acum OPPO Enco X3s Căști wireless true cu anulare a zgomotului Cufundă-te în muzică Reglaj audio realizat de Reglaj audio realizat de Dynaudio Până la 45 de ore de redare Drivere dinamice duble cu DAC-uri Duale puternice Traducere prin AI 55 dB anulare activă a zgomotului 5500 Hz interval de frecvență ultra-larg Rezistență la praf și apă IP55 Hi-Res Audio cu LHDC 5.0 Sunet Dynaudio master Reglaj audio realizat de Dynaudio Te bucuri de concert privat Această colaborare între OPPO și Dynaudio — pionierul nordic al audio-ului, renumit pentru măiestria acustică — a stârnit o scânteie creativă în filosofia muzicală. Împreună, am creat profilul de sunet exclusiv „Dynaudio Featured”, care surprinde puritatea sonoră impecabilă a moștenirii audio daneze, pentru a oferi cea mai autentică și naturală calitate a sunetului. Când le porți, aceste căști se transformă în sala ta de concerte privată, oferindu-ți o experiență auditivă imersivă. Basi puternici, note înalte rafinate Drivere dinamice duble cu DAC-uri Duale puternice Inspirat de sistemele de difuzoare premium, designul cu crossover pe două drivere dinamice pentru frecvențe înalte și joase utilizează două drivere independente care procesează separat intervale distincte de frecvență. Sistemu",
+   "json_samples": [
+    {
+     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000",
+     "body": "{\"columnOrder\": [\"cookie\", \"name\", \"domain\", \"purpose\", \"validity\"], \"columns\": {\"cookie\": \"Cookie type\", \"name\": \"Name\", \"domain\": \"Domain\", \"purpose\": \"Purpose\", \"validity\": \"Validity Period\"}, \"rows\": [{\"cookie\": \"Essential\", \"name\": \"frontend\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"heytap_authorized\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"HEYTAPID\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"ssoid\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"username\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"avatar\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"createtime\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberLevel\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberInfo\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"encryptId\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"acIdAuthSession\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"codeVerifier\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"Session\"}, {\"cookie\": \"Essential\", \"name\": \"cookiesaccepted\", \"domain\": \"www.oppo.com\", \"purpose\": \"Used to remember the choice of the user\", \"validity\": \"90 days\"}, {\"cookie\": \"Essential\", \"name\": \"g8vtl5_cmapi_cookie_privacy\", \"domain\": \".oppo.com\", \"purpose\": \"Used to remember how the user accepte cookies\", \"validity\": \"395 days\"}, {\"cookie\": \"Essential\", \"nam"
+    }
+   ]
+  },
+  {
+   "url": "https://www.oppo.com/ro/accessories/enco-air4-pro/",
+   "status": 200,
+   "final_url": "https://www.oppo.com/ro/accessories/enco-air4-pro/",
+   "title": "OPPO Enco Air4 Pro | OPPO România",
+   "json_urls": [
+    "https://insight.adsrvr.org/track/realtimeconversion",
+    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000"
+   ],
+   "links": [
+    "https://www.oppo.com/ro/accessories/enco-air4-pro/",
+    "https://www.oppo.com/ro/accessories/enco-x4/",
+    "https://www.oppo.com/ro/accessories/enco-clip2-open-earbuds/",
+    "https://www.oppo.com/ro/accessories/enco-air5-pro/",
+    "https://www.oppo.com/ro/accessories/enco-air5s/",
+    "https://www.oppo.com/ro/accessories/enco-x3s/",
+    "https://www.oppo.com/ro/accessories/enco-air4-pro/specs/",
+    "https://www.oppo.com/ro/accessories/enco-buds3/"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Skip to main content Select your country or region Global Smartphone-uri Tablete Audio Wearables Accesorii Despre OPPO Magazin Online Comunitate ColorOS Suport Enco Air4 Pro Prezentare generală Specificații OPPO Enco Air4 Pro Căști True Wireless cu anulare a zgomotului Bucură-te de ritm Driver extra mare de 12,4 mm Anularea activă a zgomotului cu frecvență ultra-largă Audio de înaltă rezoluție cu LHDC 5.0 Apel foarte clar cu sistem triplu-microfon Rezistență la praf și apă IP55 Google Fast Pair Până la 44 de ore de redare Transmisie Bluetooth 5.4 cu latență scăzută Blocați zgomotul, Scufundați-vă în muzică Anularea activă a zgomotului cu frecvență ultra-largă Momente mai liniștite pentru o imersiune mai profundă Certificat de TÜV Rhineland pentru anularea zgomotului de înaltă performanță, OPPO Enco Air4 Pro oferă o experiență de calitate profesională, cu o anulare a zgomotului ultra-profundă, de până la 49 dB¹ și un interval de frecvență ultra-larg, de 4000 Hz². Ignoră lumea și experimentează muzica ta preferată, ca niciodată. 49 dB Adâncimea de anulare a zgomotului 4000 Hz Interval de frecvență de anulare a zgomotului Anularea zgomotului de înaltă performanță Anularea inteligentă a zgomotului de scenă Adaptare inteligentă pentru confortul dvs Selectați automat schema de anulare a zgomotului potrivită în funcție de împrejurimi. Tehnologia inteligentă de anulare a zgomotului comută fără probleme între modurile de anulare a zgomotului Max, Moderat și Ușor pentru a crea o experi",
+   "json_samples": [
+    {
+     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000",
+     "body": "{\"columnOrder\": [\"cookie\", \"name\", \"domain\", \"purpose\", \"validity\"], \"columns\": {\"cookie\": \"Cookie type\", \"name\": \"Name\", \"domain\": \"Domain\", \"purpose\": \"Purpose\", \"validity\": \"Validity Period\"}, \"rows\": [{\"cookie\": \"Essential\", \"name\": \"frontend\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"heytap_authorized\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"HEYTAPID\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"ssoid\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"username\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"avatar\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"createtime\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberLevel\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberInfo\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"encryptId\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"acIdAuthSession\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"codeVerifier\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"Session\"}, {\"cookie\": \"Essential\", \"name\": \"cookiesaccepted\", \"domain\": \"www.oppo.com\", \"purpose\": \"Used to remember the choice of the user\", \"validity\": \"90 days\"}, {\"cookie\": \"Essential\", \"name\": \"g8vtl5_cmapi_cookie_privacy\", \"domain\": \".oppo.com\", \"purpose\": \"Used to remember how the user accepte cookies\", \"validity\": \"395 days\"}, {\"cookie\": \"Essential\", \"nam"
+    }
+   ]
+  },
+  {
+   "url": "https://www.oppo.com/ro/accessories/enco-buds3/",
+   "status": 200,
+   "final_url": "https://www.oppo.com/ro/accessories/enco-buds3/",
+   "title": "OPPO Enco Buds3 - Căști TWS cu Bluetooth 5.4 și Traducere AI | OPPO România",
+   "json_urls": [
+    "https://insight.adsrvr.org/track/realtimeconversion",
+    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000"
+   ],
+   "links": [
+    "https://www.oppo.com/ro/accessories/enco-buds3/",
+    "https://www.oppo.com/ro/accessories/enco-x4/",
+    "https://www.oppo.com/ro/accessories/enco-clip2-open-earbuds/",
+    "https://www.oppo.com/ro/accessories/enco-air5-pro/",
+    "https://www.oppo.com/ro/accessories/enco-air5s/",
+    "https://www.oppo.com/ro/accessories/enco-x3s/",
+    "https://www.oppo.com/ro/accessories/enco-air4-pro/",
+    "https://www.oppo.com/ro/accessories/enco-buds3/specs/"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Skip to main content Select your country or region Global Smartphone-uri Tablete Audio Wearables Accesorii Despre OPPO Magazin Online Comunitate ColorOS Suport Enco Buds3 Prezentare generală Specificații OPPO Enco Buds3 True Wireless Earbuds Design ergonomic OPPO Alive Audio Baterie de lungă durată Driver mare din titanium compozit de 12.4 mm Bluetooth® 5.4 Traducere AI Super ușor Confort întreaga zi Design ergonomic Confort care prinde conturul urechii tale Inspirate dintr-o bază de date exclusivă OPPO, ce include peste 3500 de modele unice de urechi, aceste căști semi-in-ear sunt create pentru o potrivire perfectă. Testate riguros pe mai mult de 100 de persoane, oferă un confort sigur, delicat și de durată – chiar și după o zi întreagă de purtare.1 Snow White Super ușor Ușurință uimitoare, libertate absolută Cântărind doar 3,8 grame fiecare, vei uita că le ai în urechi până în momentul magic în care muzica începe să te captiveze. Am regândit complet și carcasa de încărcare, făcând-o cu 12% mai compactă decât generația anterioară. Acum pot fi strecutate fără efort în orice buzunar, oricât de strâmt ar fi.2 Fiecare cască are o greutate de 3.8g Rezistență la apă și praf IP553 Pregătit pentru antrenament, rezistent indiferent de vreme Cu un grad de protecție IP55 împotriva apei și a prafului, OPPO Enco Buds3 sunt partenerul tău ideal de antrenament — suficient de rezistente pentru ploaie, transpirație sau zăpadă. Rămâi încrezător, indiferent dacă te prinde ploaia sau ești in mi",
+   "json_samples": [
+    {
+     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000",
+     "body": "{\"columnOrder\": [\"cookie\", \"name\", \"domain\", \"purpose\", \"validity\"], \"columns\": {\"cookie\": \"Cookie type\", \"name\": \"Name\", \"domain\": \"Domain\", \"purpose\": \"Purpose\", \"validity\": \"Validity Period\"}, \"rows\": [{\"cookie\": \"Essential\", \"name\": \"frontend\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"heytap_authorized\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"HEYTAPID\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"ssoid\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"username\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"avatar\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"createtime\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberLevel\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberInfo\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"encryptId\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"acIdAuthSession\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"codeVerifier\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"Session\"}, {\"cookie\": \"Essential\", \"name\": \"cookiesaccepted\", \"domain\": \"www.oppo.com\", \"purpose\": \"Used to remember the choice of the user\", \"validity\": \"90 days\"}, {\"cookie\": \"Essential\", \"name\": \"g8vtl5_cmapi_cookie_privacy\", \"domain\": \".oppo.com\", \"purpose\": \"Used to remember how the user accepte cookies\", \"validity\": \"395 days\"}, {\"cookie\": \"Essential\", \"nam"
+    }
+   ]
+  },
+  {
+   "url": "https://www.oppo.com/ro/accessories/enco-air4/",
+   "status": 200,
+   "final_url": "https://www.oppo.com/ro/accessories/enco-air4/",
+   "title": "OPPO Enco Air4 - Căști True Wireless | OPPO România",
+   "json_urls": [
+    "https://insight.adsrvr.org/track/realtimeconversion",
+    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000"
+   ],
+   "links": [
+    "https://www.oppo.com/ro/accessories/enco-air4/",
+    "https://www.oppo.com/ro/accessories/enco-x4/",
+    "https://www.oppo.com/ro/accessories/enco-clip2-open-earbuds/",
+    "https://www.oppo.com/ro/accessories/enco-air5-pro/",
+    "https://www.oppo.com/ro/accessories/enco-air5s/",
+    "https://www.oppo.com/ro/accessories/enco-x3s/",
+    "https://www.oppo.com/ro/accessories/enco-air4-pro/",
+    "https://www.oppo.com/ro/accessories/enco-air4/specs/",
+    "https://www.oppo.com/ro/accessories/enco-buds3/"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Skip to main content Select your country or region Global Smartphone-uri Tablete Audio Wearables Accesorii Despre OPPO Magazin Online Comunitate ColorOS Suport Enco Air4 Prezentare generală Specificații OPPO Enco Air4 Căști True Wireless cu anulare a zgomotului Certificare a sănătății bateriei Baterie super durabilă Apel AI cu microfon dublu Anulare activă a zgomotului de 32 dB Până la 43 de ore de redare Transmisie Bluetooth® 5.4 cu latență scăzută Driver cu diafragmă titanizată de 12,4 mm Redefinește Sunetul Anulare activă a zgomotului de 32 dB Anularea activă a zgomotului reduce cu până la 32 dB1 conversațiile, traficul stradal și muzica de fundal din viața de zi cu zi. Indiferent dacă ascultați un podcast sau încercați să vă concentrați pe un proiect important, reduceți zgomotul și scăpați de agitație. Apel AI cu microfon dublu. De două ori mai clar Nu e nevoie să strigi. Algoritmi dual-mics + AI captează vocea cu mai multă acuratețe. Vorbește pe un ton obișnuit al vocii, chiar și în medii zgomotoase, și te vei auzi tare și clar. Modul de transparență Auzi mai multe în jur Nu este nevoie să-ți scoți căștile. Activați modul de transparență pentru a conversa față în față sau pentru a fi la curent cu împrejurimile dvs. Driver cu diafragmă titanizată de 12,4 mm Bas care mișcă sufletul OPPO Enco Air4 dispune de drivere dinamice foarte mari de 12,4 mm acoperite cu titan care oferă note de bas mai bogate și vă permit să simțiți ritmul. Master Tuning Sound Reg",
+   "json_samples": [
+    {
+     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000",
+     "body": "{\"columnOrder\": [\"cookie\", \"name\", \"domain\", \"purpose\", \"validity\"], \"columns\": {\"cookie\": \"Cookie type\", \"name\": \"Name\", \"domain\": \"Domain\", \"purpose\": \"Purpose\", \"validity\": \"Validity Period\"}, \"rows\": [{\"cookie\": \"Essential\", \"name\": \"frontend\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"heytap_authorized\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"HEYTAPID\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"ssoid\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"username\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"avatar\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"createtime\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberLevel\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberInfo\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"encryptId\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"acIdAuthSession\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"codeVerifier\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"Session\"}, {\"cookie\": \"Essential\", \"name\": \"cookiesaccepted\", \"domain\": \"www.oppo.com\", \"purpose\": \"Used to remember the choice of the user\", \"validity\": \"90 days\"}, {\"cookie\": \"Essential\", \"name\": \"g8vtl5_cmapi_cookie_privacy\", \"domain\": \".oppo.com\", \"purpose\": \"Used to remember how the user accepte cookies\", \"validity\": \"395 days\"}, {\"cookie\": \"Essential\", \"nam"
+    }
+   ]
+  },
+  {
+   "url": "https://www.oppo.com/ro/accessories/enco-air5-pro/specs/",
+   "status": 200,
+   "final_url": "https://www.oppo.com/ro/accessories/enco-air5-pro/specs/",
+   "title": "OPPO Enco Air5 Pro - Specificații | OPPO România",
+   "json_urls": [
+    "https://insight.adsrvr.org/track/realtimeconversion",
+    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000"
+   ],
+   "links": [
+    "https://www.oppo.com/ro/accessories/enco-air5-pro/specs/",
+    "https://www.oppo.com/ro/accessories/enco-x4/",
+    "https://www.oppo.com/ro/accessories/enco-clip2-open-earbuds/",
+    "https://www.oppo.com/ro/accessories/enco-air5-pro/",
+    "https://www.oppo.com/ro/accessories/enco-air5s/",
+    "https://www.oppo.com/ro/accessories/enco-x3s/",
+    "https://www.oppo.com/ro/accessories/enco-air4-pro/",
+    "https://www.oppo.com/ro/accessories/enco-buds3/"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Skip to main content Select your country or region Global Smartphone-uri Tablete Audio Wearables Accesorii Despre OPPO Magazin Online Comunitate ColorOS Suport Enco Air5 Pro Prezentare generală Specificații Cumpără acum OPPO Enco Air5 Pro Matte Black | Pearl White * Imaginea de mai sus este doar pentru referință. Te rugăm să te bazezi pe produsul real pentru toate criteriile. Cască Model ETEL1 Model de carcasă de încărcare ETEL1 Calitate audio Driver 12mm drivers Sensibilitatea driverului 122dB@1kHz Interval de răspuns în frecvență 20 Hz~40 KHz Sensibilitatea microfonului -38 dBV/Pa Bluetooth® Codec Bluetooth® LHDC 5.0/AAC/SBC Versiune Bluetooth® Bluetooth® 6.0 Gama Bluetooth® 10m Durata de viață a bateriei Tip baterie Baterie litiu-ion reîncărcabilă Capacitatea bateriei 62 mAh (căști) / 530 mAh (carcasă de încărcare) Playback Redare (AAC, setări implicite, volum 50%, ANC PORNIT): 7h (căști) / 29h (căști + carcasă) Redare (AAC, setări implicite, volum 50%, ANC OPRIT): 13h (căști) / 54h (căști + carcasă) Redare (LHDC, setări implicite, volum 50%, ANC PORNIT): 6h (căști) / 26h (căști + carcasă) Redare (LHDC, setări implicite, volum 50%, ANC OPRIT): 10,5h (căști) / 39h (căști + carcasă) Redare (AAC, setări implicite, volum 50%, mod transparență): 8h (căști) / 31h (căști + carcasă) Redare (LHDC, setări implicite, volum 50%, mod transparență): 6h (căști) / 26h (căști + carcasă) Timp vorbire Timp de convorbire (ANC PORNIT): 5,5h (căști încărcare unică",
+   "json_samples": [
+    {
+     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000",
+     "body": "{\"columnOrder\": [\"cookie\", \"name\", \"domain\", \"purpose\", \"validity\"], \"columns\": {\"cookie\": \"Cookie type\", \"name\": \"Name\", \"domain\": \"Domain\", \"purpose\": \"Purpose\", \"validity\": \"Validity Period\"}, \"rows\": [{\"cookie\": \"Essential\", \"name\": \"frontend\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"heytap_authorized\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"HEYTAPID\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"ssoid\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"username\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"avatar\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"createtime\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberLevel\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberInfo\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"encryptId\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"acIdAuthSession\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"codeVerifier\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"Session\"}, {\"cookie\": \"Essential\", \"name\": \"cookiesaccepted\", \"domain\": \"www.oppo.com\", \"purpose\": \"Used to remember the choice of the user\", \"validity\": \"90 days\"}, {\"cookie\": \"Essential\", \"name\": \"g8vtl5_cmapi_cookie_privacy\", \"domain\": \".oppo.com\", \"purpose\": \"Used to remember how the user accepte cookies\", \"validity\": \"395 days\"}, {\"cookie\": \"Essential\", \"nam"
+    }
+   ]
+  },
+  {
+   "url": "https://www.oppo.com/ro/accessories/enco-air5s/specs/",
+   "status": 200,
+   "final_url": "https://www.oppo.com/ro/accessories/enco-air5s/specs/",
+   "title": "OPPO Enco Air5s - Specificații | OPPO România",
+   "json_urls": [
+    "https://insight.adsrvr.org/track/realtimeconversion",
+    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000"
+   ],
+   "links": [
+    "https://www.oppo.com/ro/accessories/enco-air5s/specs/",
+    "https://www.oppo.com/ro/accessories/enco-x4/",
+    "https://www.oppo.com/ro/accessories/enco-clip2-open-earbuds/",
+    "https://www.oppo.com/ro/accessories/enco-air5-pro/",
+    "https://www.oppo.com/ro/accessories/enco-air5s/",
+    "https://www.oppo.com/ro/accessories/enco-x3s/",
+    "https://www.oppo.com/ro/accessories/enco-air4-pro/",
+    "https://www.oppo.com/ro/accessories/enco-buds3/"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Skip to main content Select your country or region Global Smartphone-uri Tablete Audio Wearables Accesorii Despre OPPO Magazin Online Comunitate ColorOS Suport Enco Air5s Prezentare generală Specificații Cumpără acum OPPO Enco Air5s Lunar White *Imaginea de mai sus este doar pentru referință. Pentru toate caracteristicile și specificațiile, te rugăm să consulți produsul real. Cască Model ETEF1 Calitate audio Driver 12 mm dynamic driver Sensibilitatea driverului 122 dB@1kHz Interval de răspuns în frecvență 20 Hz~20 KHz Sensibilitatea microfonului -38 dBV/Pa Bluetooth® Codec Bluetooth® AAC, SBC Versiune Bluetooth® Bluetooth® 6.0 Gama Bluetooth® 10m Durata de viață a bateriei Tip baterie Baterie Li-ion reîncărcabilă Capacitatea bateriei 40,5 mAh (căști) / 530 mAh (carcasă de încărcare) Playback Redare (AAC, setări implicite, volum 50%, ANC activat): 4,5 h (doar căștile) / 25 h (căști + carcasă de încărcare) Redare (AAC, setări implicite, volum 50%, ANC dezactivat): 9 h (doar căștile) / 48 h (căști + carcasă de încărcare) Redare (AAC, setări implicite, volum 50%, mod Transparență): 4,5 h (căștile) / 25 h (căști + carcasă de încărcare) Talk Time Timp de convorbire (ANC activat): 3,5 h (căști la o singură încărcare) / 18 h (cu carcasa de încărcare) Timp de convorbire (ANC dezactivat): 4,5 h (căști la o singură încărcare) / 22 h (cu carcasa de încărcare) Timp de convorbire (mod Transparență): 3,5 h (căști la o singură încărcare) / 18 h (cu carcasa de în",
+   "json_samples": [
+    {
+     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000",
+     "body": "{\"columnOrder\": [\"cookie\", \"name\", \"domain\", \"purpose\", \"validity\"], \"columns\": {\"cookie\": \"Cookie type\", \"name\": \"Name\", \"domain\": \"Domain\", \"purpose\": \"Purpose\", \"validity\": \"Validity Period\"}, \"rows\": [{\"cookie\": \"Essential\", \"name\": \"frontend\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"heytap_authorized\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"HEYTAPID\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"ssoid\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"username\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"avatar\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"createtime\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberLevel\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberInfo\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"encryptId\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"acIdAuthSession\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"codeVerifier\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"Session\"}, {\"cookie\": \"Essential\", \"name\": \"cookiesaccepted\", \"domain\": \"www.oppo.com\", \"purpose\": \"Used to remember the choice of the user\", \"validity\": \"90 days\"}, {\"cookie\": \"Essential\", \"name\": \"g8vtl5_cmapi_cookie_privacy\", \"domain\": \".oppo.com\", \"purpose\": \"Used to remember how the user accepte cookies\", \"validity\": \"395 days\"}, {\"cookie\": \"Essential\", \"nam"
+    }
+   ]
+  },
+  {
+   "url": "https://www.oppo.com/ro/accessories/enco-buds3-pro/",
+   "status": 200,
+   "final_url": "https://www.oppo.com/ro/accessories/enco-buds3-pro/",
+   "title": "OPPO Enco Buds3 Pro - Wireless Earbuds | OPPO România",
+   "json_urls": [
+    "https://insight.adsrvr.org/track/realtimeconversion",
+    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000"
+   ],
+   "links": [
+    "https://www.oppo.com/ro/accessories/enco-buds3-pro/",
+    "https://www.oppo.com/ro/accessories/enco-x4/",
+    "https://www.oppo.com/ro/accessories/enco-clip2-open-earbuds/",
+    "https://www.oppo.com/ro/accessories/enco-air5-pro/",
+    "https://www.oppo.com/ro/accessories/enco-air5s/",
+    "https://www.oppo.com/ro/accessories/enco-x3s/",
+    "https://www.oppo.com/ro/accessories/enco-air4-pro/",
+    "https://www.oppo.com/ro/accessories/enco-buds3-pro/specs/",
+    "https://www.oppo.com/ro/accessories/enco-buds3/"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Skip to main content Select your country or region Global Smartphone-uri Tablete Audio Wearables Accesorii Despre OPPO Magazin Online Comunitate ColorOS Suport Enco Buds3 Pro Prezentare generală Specificații OPPO Enco Buds3 Pro True Wireless Earbuds Muzica nu se oprește niciodată Până la 54 de ore de redare Enco Master cu egalizator personalizat Difuzor extra-large de 12,4 mm Rezistență la praf și apă IP55 Transmisie Bluetooth 5.4 cu latență redusă Baterie ultra-rezistentă Ține încărcat mai mult timp, rezistență sporită Muzica nu se oprește niciodată: autonomie a bateriei de 54 de ore1 O încărcare mai durabilă îți oferă mai mult timp pentru distracție și relaxare. Autonomia ajunge acum până la 54 de ore, astfel încât trebuie să încarci căștile doar o dată pe săptămână. 12 ore redare continuă (doar căștile) 54 ore redare continuă (căști + carcasă) Reîncarcare într-o clipă Ai rămas fără baterie? Nicio grijă. Încarcă-ți căștile în doar 10 minute și bucură-te de 4 ore de redare continuă2. 10 minute încărcare = 4 ore redare continuă Baterie hiper-rezistentă,3 cu încărcare de mii de ori Tehnologia de încărcare de ultimă generație reduce eficient uzura căștilor, asigurând o durată de viață sănătoasă a bateriilor chiar și după mii de reîncărcări. Battery Health Certification Protecție completă pe tot parcursul zilei Ploaie? Praf? Transpirație? Nicio problemă! Căștile au certificare IP554, fiind rezistente chiar și în medii complexe și solicitante. 20.000 Bal",
+   "json_samples": [
+    {
+     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000",
+     "body": "{\"columnOrder\": [\"cookie\", \"name\", \"domain\", \"purpose\", \"validity\"], \"columns\": {\"cookie\": \"Cookie type\", \"name\": \"Name\", \"domain\": \"Domain\", \"purpose\": \"Purpose\", \"validity\": \"Validity Period\"}, \"rows\": [{\"cookie\": \"Essential\", \"name\": \"frontend\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"heytap_authorized\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"HEYTAPID\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"ssoid\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"username\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"avatar\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"createtime\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberLevel\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberInfo\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"encryptId\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"acIdAuthSession\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"codeVerifier\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"Session\"}, {\"cookie\": \"Essential\", \"name\": \"cookiesaccepted\", \"domain\": \"www.oppo.com\", \"purpose\": \"Used to remember the choice of the user\", \"validity\": \"90 days\"}, {\"cookie\": \"Essential\", \"name\": \"g8vtl5_cmapi_cookie_privacy\", \"domain\": \".oppo.com\", \"purpose\": \"Used to remember how the user accepte cookies\", \"validity\": \"395 days\"}, {\"cookie\": \"Essential\", \"nam"
+    }
+   ]
+  },
+  {
+   "url": "https://www.oppo.com/ro/accessories/enco-buds3-pro/specs/",
+   "status": 200,
+   "final_url": "https://www.oppo.com/ro/accessories/enco-buds3-pro/specs/",
+   "title": "Specificații OPPO Enco Buds3 Pro | OPPO România",
+   "json_urls": [
+    "https://insight.adsrvr.org/track/realtimeconversion",
+    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000"
+   ],
+   "links": [
+    "https://www.oppo.com/ro/accessories/enco-buds3-pro/specs/",
+    "https://www.oppo.com/ro/accessories/enco-x4/",
+    "https://www.oppo.com/ro/accessories/enco-clip2-open-earbuds/",
+    "https://www.oppo.com/ro/accessories/enco-air5-pro/",
+    "https://www.oppo.com/ro/accessories/enco-air5s/",
+    "https://www.oppo.com/ro/accessories/enco-x3s/",
+    "https://www.oppo.com/ro/accessories/enco-air4-pro/",
+    "https://www.oppo.com/ro/accessories/enco-buds3-pro/",
+    "https://www.oppo.com/ro/accessories/enco-buds3/"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Skip to main content Select your country or region Global Smartphone-uri Tablete Audio Wearables Accesorii Despre OPPO Magazin Online Comunitate ColorOS Suport Enco Buds3 Pro Prezentare generală Specificații OPPO Enco Buds3 Pro Graphite Grey | Glaze White * Imaginea de mai sus este doar ca referință. Vă rugăm să vă bazați pe produsul real pentru toate criteriile. Cască Model ETEK1 Model de carcasă de încărcare ETEK1 Calitate audio Driver φ12.4mm Difuzor Dinamic Sensibilitatea driverului 114 ± 3dB@1KHz Interval de răspuns în frecvență 20~20KHz Sensibilitatea microfonului -38dBV/Pa Bluetooth® Codec Bluetooth® AAC/SBC Versiune Bluetooth® Bluetooth® 5.4 Gama Bluetooth® 10m Durata de viață a bateriei Tip baterie Reîncărcabilă Li-ion Capacitatea bateriei 58mAh (căști) / 560mAh (carcasă) Timp de redare a muzicii Redare muzică (AAC, setări implicite, volum 50%): 12h / 54h * Specificațiile de mai sus au fost obținute pe baza testelor efectuate în laboratoarele OPPO. Timpii de încărcare au fost testați la o temperatură de 25°C, folosind un încărcător standard OPPO. Rezultatele reale pot varia ușor în funcție de factorii de mediu și de încărcătorul utilizat. Încărcare Timp de încărcare Timp încărcare rapidă: 10 minute → 4h (încărcare unică) / 8h (cu carcasa de încărcare) Timp Încărcare: aproximativ 60 minute (căști) / 120 minute (căști + carcasa de încărcare) Intrare de încărcare Intrare Încărcare (carcasă): 5V⎓0.9A Intrare Încărcare (căști): 5V⎓0.17A ",
+   "json_samples": [
+    {
+     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000",
+     "body": "{\"columnOrder\": [\"cookie\", \"name\", \"domain\", \"purpose\", \"validity\"], \"columns\": {\"cookie\": \"Cookie type\", \"name\": \"Name\", \"domain\": \"Domain\", \"purpose\": \"Purpose\", \"validity\": \"Validity Period\"}, \"rows\": [{\"cookie\": \"Essential\", \"name\": \"frontend\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"heytap_authorized\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"HEYTAPID\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"ssoid\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"username\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"avatar\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"createtime\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberLevel\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberInfo\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"encryptId\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"acIdAuthSession\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"codeVerifier\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"Session\"}, {\"cookie\": \"Essential\", \"name\": \"cookiesaccepted\", \"domain\": \"www.oppo.com\", \"purpose\": \"Used to remember the choice of the user\", \"validity\": \"90 days\"}, {\"cookie\": \"Essential\", \"name\": \"g8vtl5_cmapi_cookie_privacy\", \"domain\": \".oppo.com\", \"purpose\": \"Used to remember how the user accepte cookies\", \"validity\": \"395 days\"}, {\"cookie\": \"Essential\", \"nam"
+    }
+   ]
+  },
+  {
+   "url": "https://www.oppo.com/ro/accessories/enco-clip2-open-earbuds/specs/",
+   "status": 200,
+   "final_url": "https://www.oppo.com/ro/accessories/enco-clip2-open-earbuds/specs/",
+   "title": "OPPO Enco Clip2 Open Earbuds - Specificații | OPPO România",
+   "json_urls": [
+    "https://insight.adsrvr.org/track/realtimeconversion",
+    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000"
+   ],
+   "links": [
+    "https://www.oppo.com/ro/accessories/enco-clip2-open-earbuds/specs/",
+    "https://www.oppo.com/ro/accessories/enco-x4/",
+    "https://www.oppo.com/ro/accessories/enco-clip2-open-earbuds/",
+    "https://www.oppo.com/ro/accessories/enco-air5-pro/",
+    "https://www.oppo.com/ro/accessories/enco-air5s/",
+    "https://www.oppo.com/ro/accessories/enco-x3s/",
+    "https://www.oppo.com/ro/accessories/enco-air4-pro/",
+    "https://www.oppo.com/ro/accessories/enco-buds3/"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Skip to main content Select your country or region Global Smartphone-uri Tablete Audio Wearables Accesorii Despre OPPO Magazin Online Comunitate ColorOS Suport Enco Clip2 Open Earbuds Prezentare generală Specificații OPPO Enco Clip2 Open Earbuds Blush Pink | Slate Grey | Luminous Gold * Imaginea de mai sus este doar pentru referință. Vă rugăm să consultați produsul real pentru toate specificațiile. Cască Model ETEN1 Calitate audio Driver Driver dinamic Φ11 mm + driver dinamic Φ9 mm Sensibilitatea driverului 115 ± 2 dB @ 1 kHz Interval de răspuns în frecvență 20 ~ 40 kHz Sensibilitatea microfonului -38 dB Bluetooth® Codec Bluetooth® LHDC 5.0/AAC/SBC Versiune Bluetooth® Bluetooth® 6.1 Gama Bluetooth® 10m Durata de viață a bateriei Tip baterie Acumulator Li-ion reîncărcabil Capacitatea bateriei 58 mAh (căști) / 530 mAh (carcasă de încărcare) Redare Redare (AAC, setări implicite, volum 50%): 9,5 h (căști) / 40 h (căști + carcasă de încărcare) Redare (LHDC, setări implicite, volum 50%): 8 h (căști) / 36 h (căști + carcasă de încărcare) Timp de convorbire Timp de convorbire (HFP, setări implicite, volum 50%): 5,5 h (căști) / 23 h (căști + carcasă de încărcare) * Specificațiile de mai sus au fost obținute pe baza testelor efectuate în laboratoarele OPPO. Timpul de încărcare a fost testat în laboratoarele OPPO la o temperatură de 25°C, folosind un încărcător standard OPPO. Rezultatele reale pot varia ușor în funcție de factorii de mediu și de încărcător",
+   "json_samples": [
+    {
+     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000",
+     "body": "{\"columnOrder\": [\"cookie\", \"name\", \"domain\", \"purpose\", \"validity\"], \"columns\": {\"cookie\": \"Cookie type\", \"name\": \"Name\", \"domain\": \"Domain\", \"purpose\": \"Purpose\", \"validity\": \"Validity Period\"}, \"rows\": [{\"cookie\": \"Essential\", \"name\": \"frontend\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"heytap_authorized\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"HEYTAPID\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"ssoid\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"username\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"avatar\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"createtime\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberLevel\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberInfo\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"encryptId\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"acIdAuthSession\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"codeVerifier\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"Session\"}, {\"cookie\": \"Essential\", \"name\": \"cookiesaccepted\", \"domain\": \"www.oppo.com\", \"purpose\": \"Used to remember the choice of the user\", \"validity\": \"90 days\"}, {\"cookie\": \"Essential\", \"name\": \"g8vtl5_cmapi_cookie_privacy\", \"domain\": \".oppo.com\", \"purpose\": \"Used to remember how the user accepte cookies\", \"validity\": \"395 days\"}, {\"cookie\": \"Essential\", \"nam"
+    }
+   ]
+  },
+  {
+   "url": "https://www.oppo.com/ro/accessories/enco-x3s/specs/",
+   "status": 200,
+   "final_url": "https://www.oppo.com/ro/accessories/enco-x3s/specs/",
+   "title": "OPPO Enco X3s – Specificații | OPPO România",
+   "json_urls": [
+    "https://insight.adsrvr.org/track/realtimeconversion",
+    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000"
+   ],
+   "links": [
+    "https://www.oppo.com/ro/accessories/enco-x3s/specs/",
+    "https://www.oppo.com/ro/accessories/enco-x4/",
+    "https://www.oppo.com/ro/accessories/enco-clip2-open-earbuds/",
+    "https://www.oppo.com/ro/accessories/enco-air5-pro/",
+    "https://www.oppo.com/ro/accessories/enco-air5s/",
+    "https://www.oppo.com/ro/accessories/enco-x3s/",
+    "https://www.oppo.com/ro/accessories/enco-air4-pro/",
+    "https://www.oppo.com/ro/accessories/enco-buds3/"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Skip to main content Select your country or region Global Smartphone-uri Tablete Audio Wearables Accesorii Despre OPPO Magazin Online Comunitate ColorOS Suport Enco X3s Prezentare generală Specificații Cumpără acum OPPO Enco X3s Nebula Silver *Imaginea de mai sus este doar pentru referință. Vă rugăm să consultați produsul real pentru toate detaliile. Cască Model ETED1 Model de carcasă de încărcare ETED1 Calitate audio Driver 11 mm + 6 mm drivere dinamice duble Sensibilitatea driverului 118 ± 1,3 dB @ 1 mW Interval de răspuns în frecvență 15~40 kHz Sensibilitatea microfonului -38 ± 1 dB Bluetooth® Codec Bluetooth® LHDC 5.0/AAC/SBC Versiune Bluetooth® Bluetooth® 5.4 Gama Bluetooth® 10m Durata de viață a bateriei Tip baterie Celulă Li-ion reîncărcabilă Capacitatea bateriei 62 mAh (căști) / 530 mAh (carcasă de încărcare) Redare Redare (ANC oprit, volum 50%, AAC): 11 h (căști) / 45 h (căști + carcasă) Redare (ANC activat, volum 50%, AAC): 6 h (căști) / 24 h (căști + carcasă) Redare (ANC oprit, volum 50%, LHDC): 9 h (căști) / 37 h (căști + carcasă) Redare (ANC activat, volum 50%, LHDC): 5,5 h (căști) / 22 h (căști + carcasă) Timp de convorbire Timp convorbire (ANC oprit, volum 50%, HFP): 6 h (căști) / 24 h (căști + carcasă) Timp convorbire (ANC activat, volum 50%, HFP): 4 h (căști) / 17 h (căști + carcasă) * Specificațiile de mai sus au fost obținute pe baza testelor efectuate în laboratoarele OPPO. Timpul de încărcare a fost testat în laboratoarele ",
+   "json_samples": [
+    {
+     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000",
+     "body": "{\"columnOrder\": [\"cookie\", \"name\", \"domain\", \"purpose\", \"validity\"], \"columns\": {\"cookie\": \"Cookie type\", \"name\": \"Name\", \"domain\": \"Domain\", \"purpose\": \"Purpose\", \"validity\": \"Validity Period\"}, \"rows\": [{\"cookie\": \"Essential\", \"name\": \"frontend\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"heytap_authorized\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"HEYTAPID\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"ssoid\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"username\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"avatar\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"createtime\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberLevel\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberInfo\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"encryptId\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"acIdAuthSession\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"codeVerifier\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"Session\"}, {\"cookie\": \"Essential\", \"name\": \"cookiesaccepted\", \"domain\": \"www.oppo.com\", \"purpose\": \"Used to remember the choice of the user\", \"validity\": \"90 days\"}, {\"cookie\": \"Essential\", \"name\": \"g8vtl5_cmapi_cookie_privacy\", \"domain\": \".oppo.com\", \"purpose\": \"Used to remember how the user accepte cookies\", \"validity\": \"395 days\"}, {\"cookie\": \"Essential\", \"nam"
+    }
+   ]
+  },
+  {
+   "url": "https://www.oppo.com/ro/accessories/enco-x4/specs/",
+   "status": 200,
+   "final_url": "https://www.oppo.com/ro/accessories/enco-x4/specs/",
+   "title": "OPPO Enco X4 - Specificații | OPPO România",
+   "json_urls": [
+    "https://insight.adsrvr.org/track/realtimeconversion",
+    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000"
+   ],
+   "links": [
+    "https://www.oppo.com/ro/accessories/enco-x4/specs/",
+    "https://www.oppo.com/ro/accessories/enco-x4/",
+    "https://www.oppo.com/ro/accessories/enco-clip2-open-earbuds/",
+    "https://www.oppo.com/ro/accessories/enco-air5-pro/",
+    "https://www.oppo.com/ro/accessories/enco-air5s/",
+    "https://www.oppo.com/ro/accessories/enco-x3s/",
+    "https://www.oppo.com/ro/accessories/enco-air4-pro/",
+    "https://www.oppo.com/ro/accessories/enco-buds3/"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Skip to main content Select your country or region Global Smartphone-uri Tablete Audio Wearables Accesorii Despre OPPO Magazin Online Comunitate ColorOS Suport Enco X4 Prezentare generală Specificații Cumpără acum Căști True Wireless cu anulare a zgomotului OPPO Enco X4 Aurora Violet | Glacier White * Imaginea de mai sus este doar cu titlu de referință. Pentru toate specificațiile, consultați produsul real. Cască Model ETEM2 Calitate audio Driver Design cu două drivere: Woofer de 11 mm + Tweeter de 6 mm Sensibilitatea driverului Woofer: 122±2 dB, 0,3 V 711 @1 kHz Tweeter: 108 dB±8 dB, 0,3 V 711 @10 kHz Interval de răspuns în frecvență 10 Hz~40 kHz Sensibilitatea microfonului -37 dBFS Bluetooth® Codec Bluetooth® AAC, SBC, LHDC, LC3 Versiune Bluetooth® Bluetooth® 6.1 Gama Bluetooth® 10 m Durata de viață a bateriei Tip baterie Baterie Li-ion reîncărcabilă Capacitatea bateriei 65 mAh (căști)/576 mAh (husă de încărcare) Redare Redare (AAC, setări implicite, volum 50%, ANC activat): 6 h (căști)/26 h (căști + husă de încărcare) Redare (AAC, setări implicite, volum 50%, ANC dezactivat): 13 h (căști)/53 h (căști + husă de încărcare) Redare (LHDC, setări implicite, volum 50%, ANC activat): 5,5 h (căști)/22 h (căști + husă de încărcare) Redare (LHDC, setări implicite, volum 50%, ANC dezactivat): 10 h (căști)/42 h (căști + husă de încărcare) Redare (AAC, setări implicite, volum 50%, modul Transparență): 5,5 h (căști)/22 h (căști + husă de încărcare) Redare (LHD",
+   "json_samples": [
+    {
+     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000",
+     "body": "{\"columnOrder\": [\"cookie\", \"name\", \"domain\", \"purpose\", \"validity\"], \"columns\": {\"cookie\": \"Cookie type\", \"name\": \"Name\", \"domain\": \"Domain\", \"purpose\": \"Purpose\", \"validity\": \"Validity Period\"}, \"rows\": [{\"cookie\": \"Essential\", \"name\": \"frontend\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"heytap_authorized\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"HEYTAPID\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"ssoid\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"username\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"avatar\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"createtime\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberLevel\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberInfo\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"encryptId\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"acIdAuthSession\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"codeVerifier\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"Session\"}, {\"cookie\": \"Essential\", \"name\": \"cookiesaccepted\", \"domain\": \"www.oppo.com\", \"purpose\": \"Used to remember the choice of the user\", \"validity\": \"90 days\"}, {\"cookie\": \"Essential\", \"name\": \"g8vtl5_cmapi_cookie_privacy\", \"domain\": \".oppo.com\", \"purpose\": \"Used to remember how the user accepte cookies\", \"validity\": \"395 days\"}, {\"cookie\": \"Essential\", \"nam"
+    }
+   ]
+  }
+ ],
+ "watchlist": {
+  "missing_before": [
+   "OPPO Enco Air4",
+   "OPPO Enco Air5",
+   "OPPO Enco Air5 Pro",
+   "OPPO Enco Air5s",
+   "OPPO Enco Buds3 Pro",
+   "OPPO Enco Buds3s",
+   "OPPO Enco Clip2",
+   "OPPO Enco X3s",
+   "OPPO Enco X4",
+   "OPPO Portable Wireless Speaker"
+  ],
+  "sitemaps": [
+   "https://www.oppo.com/ar/sitemap.xml",
+   "https://www.oppo.com/au/sitemap.xml",
+   "https://www.oppo.com/bd/sitemap.xml",
+   "https://www.oppo.com/befr/sitemap.xml",
+   "https://www.oppo.com/benl/sitemap.xml",
+   "https://www.oppo.com/cl/sitemap.xml",
+   "https://www.oppo.com/co/sitemap.xml",
+   "https://www.oppo.com/cz/sitemap.xml",
+   "https://www.oppo.com/de/sitemap.xml",
+   "https://www.oppo.com/dz/sitemap.xml",
+   "https://www.oppo.com/es/sitemap.xml",
+   "https://www.oppo.com/fr/sitemap.xml",
+   "https://www.oppo.com/hu/sitemap.xml",
+   "https://www.oppo.com/id/sitemap.xml",
+   "https://www.oppo.com/il/sitemap.xml",
+   "https://www.oppo.com/iq/sitemap.xml",
+   "https://www.oppo.com/jp/sitemap.xml",
+   "https://www.oppo.com/kh/sitemap.xml",
+   "https://www.oppo.com/kzkk/sitemap.xml",
+   "https://www.oppo.com/lb-ar/sitemap.xml",
+   "https://www.oppo.com/lb-en/sitemap.xml",
+   "https://www.oppo.com/lk/sitemap.xml",
+   "https://www.oppo.com/ma/sitemap.xml",
+   "https://www.oppo.com/md/sitemap.xml",
+   "https://www.oppo.com/mm/sitemap.xml",
+   "https://www.oppo.com/mx/sitemap.xml",
+   "https://www.oppo.com/ng/sitemap.xml",
+   "https://www.oppo.com/np/sitemap.xml",
+   "https://www.oppo.com/nz/sitemap.xml",
+   "https://www.oppo.com/pk/sitemap.xml",
+   "https://www.oppo.com/pl/sitemap.xml",
+   "https://www.oppo.com/ps/sitemap.xml",
+   "https://www.oppo.com/pt/sitemap.xml",
+   "https://www.oppo.com/ro/sitemap.xml",
+   "https://www.oppo.com/ru/sitemap.xml",
+   "https://www.oppo.com/sg/sitemap.xml",
+   "https://www.oppo.com/sitemap.xml",
+   "https://www.oppo.com/th/sitemap.xml",
+   "https://www.oppo.com/ua/sitemap.xml",
+   "https://www.oppo.com/za/sitemap.xml"
+  ],
+  "sitemap_urls": 205,
+  "visit": [
+   "https://www.oppo.com/ro/accessories/enco-air4/",
+   "https://www.oppo.com/ro/accessories/enco-air5-pro/specs/",
+   "https://www.oppo.com/ro/accessories/enco-air5s/specs/",
+   "https://www.oppo.com/ro/accessories/enco-buds3-pro/",
+   "https://www.oppo.com/ro/accessories/enco-buds3-pro/specs/",
+   "https://www.oppo.com/ro/accessories/enco-clip2-open-earbuds/specs/",
+   "https://www.oppo.com/ro/accessories/enco-x3s/specs/",
+   "https://www.oppo.com/ro/accessories/enco-x4/specs/"
+  ]
+ },
+ "raw_names": []
+}

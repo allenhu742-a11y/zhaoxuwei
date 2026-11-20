@@ -29,6 +29,11 @@ h2{font-size:17px;margin:26px 0 2px}
 .seg button:disabled{opacity:.4;cursor:not-allowed}
 input[type=search],select{background:var(--bg);color:var(--fg);border:1px solid var(--line);border-radius:4px;padding:5px 8px;font:inherit}
 #modelQ,#skuQ{min-width:280px}
+#cov{width:100%;min-width:0;table-layout:fixed}
+#cov td{white-space:normal;text-align:left;vertical-align:top}
+#cov .bar{display:inline-block;height:8px;border-radius:4px;background:var(--acc);vertical-align:middle}
+#cov .miss{display:inline-block;margin:1px 4px 1px 0;padding:0 6px;border:1px dashed var(--line);border-radius:10px;color:var(--muted);font-size:12px}
+#cov .ok{display:inline-block;margin:1px 4px 1px 0;padding:0 6px;border-radius:10px;background:var(--down);color:var(--downfg);font-size:12px}
 table.ladder{border-collapse:separate;border-spacing:0;table-layout:fixed}
 table.ladder th{color:#fff;font-size:15px;text-align:center;padding:6px 10px;width:200px;min-width:200px;max-width:200px}
 table.ladder td{width:200px;max-width:200px}
@@ -102,6 +107,9 @@ a{color:inherit}
     </div>
     <div class="scroll" style="border:0"><table id="ladder" class="ladder"></table></div>
   </div>
+
+  <h2>目标型号覆盖 / Watchlist coverage</h2>
+  <div class="panel"><p class="meta" id="covInfo"></p><div class="scroll" style="border:0"><table id="cov"></table></div></div>
 
   <h2>型号走势 / Model trend</h2>
   <div class="panel">
@@ -315,13 +323,15 @@ function render() {
   }
   $('#sections').innerHTML = html;
   renderLadder();
+  renderCoverage();
 }
 
 
 // ---------------------------------------------------------------- price ladder (brand x price band, like an RRP positioning chart)
 const BANDS_EUR = {phone: [2000, 1600, 1300, 1000, 800, 600, 400, 250, 0], tablet: [1500, 1000, 700, 500, 300, 200, 0],
                    wear: [800, 500, 350, 250, 150, 80, 0], audio: [400, 250, 180, 120, 70, 40, 0]};
-const BRAND_HEAD = {Apple: '#6b7280', Samsung: '#1f6fc5', Xiaomi: '#ea6a24', Honor: '#1aa0d8', 'Google': '#a0309e', Huawei: '#c8102e', Motorola: '#2b4a8b', OnePlus: '#3f3f46'};
+const BRAND_HEAD = {Apple: '#6b7280', Samsung: '#1f6fc5', Xiaomi: '#ea6a24', Honor: '#1aa0d8', 'Google': '#a0309e', Huawei: '#c8102e', Motorola: '#2b4a8b', OnePlus: '#3f3f46',
+                    vivo: '#415fff', OPPO: '#0b8a63', Sony: '#1f2328', JBL: '#f26a1b', Soundcore: '#0b9bd7', Shokz: '#5b7d1f'};
 let ladCat = 'phone', ladMode = 'now';
 const nice = x => { if (x < 100) return Math.round(x); const p = Math.pow(10, Math.floor(Math.log10(x)) - 1); return Math.round(x / p) * p; };
 const shortName = (m, b) => { const s2 = m.replace(new RegExp('^(' + b + '|HUAWEI|HONOR|Samsung|Xiaomi|Google|Motorola|OnePlus)\\s+', 'i'), ''); return /^\d/.test(s2) ? m : s2; };
@@ -340,6 +350,25 @@ function ladderModels(cat) {
   }
   return Object.values(by);
 }
+function renderCoverage() {
+  const cov = D.coverage || {};
+  const cats = Object.keys(cov).filter(c => !offCat.has(c));
+  if (!cats.length) { $('#cov').innerHTML = '<tr><td class="empty">未配置目标型号清单 / no watchlist</td></tr>'; $('#covInfo').textContent = ''; return; }
+  let html = '', tf = 0, tt = 0;
+  for (const c of cats) {
+    html += `<tr><th class="l" colspan="3">${esc(IDX.categories[c] || c)}</th></tr>`;
+    for (const [b, x] of Object.entries(cov[c])) {
+      if (off.has(b)) continue;
+      const n = x.found.length + x.missing.length; tf += x.found.length; tt += n;
+      const why = !x.tracked ? '（该品牌在此国家未抓取 / not tracked here）' : D.status[b] && !D.status[b].count ? '（官网本次 0 个 SKU / store returned 0）' : '';
+      html += `<tr><td class="l" style="width:130px"><b>${esc(b)}</b></td><td style="width:170px"><span class="bar" style="width:${Math.round(100 * x.found.length / n)}px"></span> ${x.found.length}/${n}</td>` +
+        `<td>${x.found.map(m => `<span class="ok">${esc(m)}</span>`).join('')}${x.missing.map(m => `<span class="miss">${esc(m)}</span>`).join('')} <span class="meta">${why}</span></td></tr>`;
+    }
+  }
+  $('#cov').innerHTML = '<colgroup><col style="width:120px"><col style="width:150px"><col></colgroup>' + html;
+  $('#covInfo').textContent = `${D.name} 最新一天官网可抓到 ${tf}/${tt} 个目标型号。绿色 = 已抓到价格，虚线 = 未找到（该国官网未售、页面无价格，或尚未匹配上）。清单在 data/watchlist_*.csv 中维护。`;
+}
+
 function renderLadder() {
   if (offCat.size && offCat.has(ladCat)) ladCat = Object.keys(IDX.categories).find(c => !offCat.has(c)) || 'phone';
   $('#ladCat').innerHTML = Object.entries(IDX.categories).filter(([c]) => !offCat.has(c)).map(([c, l]) => `<button data-v="${c}" class="${c === ladCat ? 'on' : ''}">${esc(l)}</button>`).join('');

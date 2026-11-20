@@ -1,0 +1,64 @@
+{
+ "brand": "vivo",
+ "country": "PL",
+ "pages": [
+  {
+   "url": "https://www.vivo.com/pl/products/accessories",
+   "status": 200,
+   "final_url": "https://www.vivo.com/pl/products/accessories",
+   "title": "vivo Polska",
+   "json_urls": [
+    "https://www.vivo.com/pl/vpg/api/headfooter?loginUrl=https:%2F%2Fpl-passport.vivo.com%2Fv3%2Fweb%2Flogin%2Fauthorize?client_id=99%26redirect_uri=%26lang=pl_PL&ta",
+    "https://www.vivo.com/pl/vpg/api/queryContactUsInfo",
+    "https://www.vivo.com/pl/vpg/api/fontPack/info"
+   ],
+   "links": [],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Home Produkty OriginOS Wsparcie Poznaj vivo X500 Pro Max Nowe: X500 Pro Nowe: X300 Ultra Nowe: X300 FE Nowe: V70 Lite 5G Nowe: V70 Nowe: V70 FE Wszystkie Modele Porównaj Modele Popularne linki X500 Pro Max X500 Pro X Fold 6 X300 Ultra X300 FE V70 V70 FE V70 Lite Wsparcie FAQs Centrum Serwisowe Funtouch OS Weryfikacja IMEI Instrukcja obsługi Aktualizacja oprogramowania Dziennik aktualizacji Sprawdź koszt naprawy Wyślij Do Naprawy Sprawdź status naprawy Polityka gwarancyjna Pobierz LUTy do przywracania logów Google One O vivo O vivo Życie w vivo Netykieta vivo Informacje prawne O nas Zrównoważony rozwój Centrum prywatności vivo Chat Support (Pon-Pt 9:00-17:00. Oprócz świąt i dni wolnych.) Kontakt (Pon-Pt 9:00-17:00. Oprócz świąt i dni wolnych.) 222630098 Kontakt (Pon-Pt 9:00-17:00. Oprócz świąt i dni wolnych.) (Numer bezpłatny) 800909608 service@pl.vivo.com Obserwuj nas © 2026 vivo Mobile Communication Co., Ltd. Wszelkie prawa zastrzeżone. | Polityka prywatności | Polityka Cookies | Wsparcie prywatności | Polityka vivo w sprawie danych Polska | Wybierz kraj/region",
+   "json_samples": [
+    {
+     "url": "https://www.vivo.com/pl/vpg/api/headfooter?loginUrl=https:%2F%2Fpl-passport.vivo.com%2Fv3%2Fweb%2Flogin%2Fauthorize?client_id=99%26redirect_uri=%26lang=pl_PL&target=exvivoportal&pageType=responsive",
+     "body": "{\"code\": 200, \"data\": {\"footerHtml\": \"<div class=\\\"vep-public vep-new-footer vep-footer-white vep-responsive\\\" data-email-flag=\\\"true\\\">\\n    <div class=\\\"vep-footer-content-box\\\">\\n        <div class=\\\"vep-footer-content\\\">\\n                <div class=\\\"vep-footer-category-list\\\">\\n                                <div class=\\\"vep-footer-category-item no-flip-over\\\" data-include-view-stat=\\\"cfrom=01|02|002|092&module=Popularne linki\\\">\\n                                    <h2 class=\\\"vep-footer-category-dt\\\" role=\\\"heading\\\" level=\\\"3\\\">Popularne linki<i class=\\\"vep-footer-category-icon vicon-unfold\\\"></i></h2>\\n                                    <ul>\\n                                                <li class=\\\"vep-footer-category-dd\\\">\\n                                                    <a class=\\\"vep-footer-category-link\\\" href=\\\"https://www.vivo.com/pl/products/x300-pro-max\\\"\\n                                                    data-include-click-stat=\\\"cfrom=01|01|011&module=Popularne linki&name=X500 Pro Max&position=1\\\"\\n                                                    >X500 Pro Max</a>\\n                                                </li>\\n                                                <li class=\\\"vep-footer-category-dd\\\">\\n                                                    <a class=\\\"vep-footer-category-link\\\" href=\\\"https://www.vivo.com/pl/products/x500-pro\\\"\\n                                                    data-include-click-stat=\\\"cfrom=01|01|011&module=Popularne linki&name=X500 Pro&position=2\\\"\\n                                                    >X500 Pro</a>\\n                                                </li>\\n                                                <li class=\\\"vep-footer-category-dd\\\">\\n                                                    <a class=\\\"vep-footer-category-link\\\" href=\\\"https://www.vivo.com/pl/products/x-fold6\\\"\\n                                                    data-include-click-stat=\\\"cfrom=01|01|011&module=Popularne linki&name=X Fold 6&position=3\\\"\\n                                                    >X Fold 6</a>\\n                                                </li>\\n                                                <li class=\\\"vep-footer-category-dd\\\">\\n                                                    <a class=\\\"vep-footer-category-link\\\" href=\\\"https://www.vivo.com/pl/products/x300-ultra\\\"\\n                                                    data-include-click-stat=\\\"cfrom=01|01|011&module=Popular"
+    },
+    {
+     "url": "https://www.vivo.com/pl/vpg/api/queryContactUsInfo",
+     "body": "{\"code\": 200, \"data\": {\"contactInfoList\": [{\"id\": 50, \"jumpUrl\": \"https://chat.vivo.com/?code=PL&source=exvivoportal&lang=pl_PL\", \"name\": \"Chat Support\", \"service_desc\": \"Pon-Pt 9:00-17:00. Oprócz świąt i dni wolnych.\", \"storeFolder\": \"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1634802399904/71ad3a423f392550fe9ae856e07d963d.png\", \"storeFolderDark\": \"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1680160776587/a373062695e131e9d6474de1fc6c4f24.svg\", \"storeFolderHover\": \"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1634802405774/fa03c6d8c2114a29d623252d3b164893.png\"}, {\"id\": 107, \"jumpUrl\": \"tel:222630098\", \"name\": \"222630098 (Opłata według stawki operatora)\", \"service_desc\": \"Pon-Pt 9:00-17:00. Oprócz świąt i dni wolnych.\", \"storeFolder\": \"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1660038874481/94188dcd5ad271d83e13d6c0352d1a1d.png\", \"storeFolderDark\": \"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1680161089891/2ce83bff756294bd655ca57852e86088.svg\", \"storeFolderHover\": \"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1660038881135/33b571a09519a16d20fce8a70a96877a.png\"}, {\"id\": 9, \"jumpUrl\": \"tel:800909608\", \"name\": \"800909608 (Numer bezpłatny)\", \"service_desc\": \"Pon-Pt 9:00-17:00. Oprócz świąt i dni wolnych.\", \"storeFolder\": \"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1634802417730/a60cf161d7874db227ea22398bc1fd3d.png\", \"storeFolderDark\": \"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1680161052249/9735c7836ef4db590587ff5a3ca51cf2.svg\", \"storeFolderHover\": \"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1634802411840/c3caebe4fec8660f8eada4cb3abffe60.png\"}, {\"id\": 4, \"jumpUrl\": \"email\", \"name\": \"service@pl.vivo.com\", \"service_desc\": \"\", \"storeFolder\": \"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1634802428159/adc52fd1fecd2cd51c9998e6d14b0570.png\", \"storeFolderDark\": \"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1680160969027/eec595b7e37792c6da906806c2007ddb.svg\", \"storeFolderHover\": \"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1634802432589/877cca3106726d95b7868ae1b8990429.png\"}]}, \"msg\": \"OK\", \"success\": true}"
+    },
+    {
+     "url": "https://www.vivo.com/pl/vpg/api/fontPack/info",
+     "body": "{\"success\": \"1\", \"code\": \"200\", \"msg\": \"success\", \"data\": \"    <script>\\n        var vivoBoldFont = `@font-face {\\n                            font-family: 'vivoSansSC';\\n                            src: url(\\\"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1760190520505/ac5b283c7911155b86b937dffdd70aeb.eot\\\") format('embedded-opentype'),url(\\\"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1760190525185/d2ad4f205129925ff14c264b4a0339ad.woff2\\\") format('woff2'),url(\\\"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1760190529366/fc885c0f4c89c1682cc5ae99f119e896.woff\\\") format('woff'),url(\\\"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1760190533859/28bdb109fd4df79e362d518b4be19646.ttf\\\") format('truetype'),url(\\\"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1760190538639/8a17b39e8cf27e990ca5e41f2c8fc81b.svg\\\") format('svg');\\n                            font-display: swap;\\n                            font-weight: 600;\\n                            }`;\\n        var vivoMidFont = `@font-face {\\n                            font-family: 'vivoSansSC';\\n                            src: url(\\\"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1760190484482/0de5b5603f4d9323b5e0dfbbdbc3ca89.eot\\\") format('embedded-opentype'),url(\\\"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1760190489536/5f9f0bd36f9ab0f5d74462e0e1da4e5b.woff2\\\") format('woff2'),url(\\\"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1760190494441/bfef0d790d451d26901c66b7e5de2208.woff\\\") format('woff'),url(\\\"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1760190499071/1a23b2933cf5dd5e2375e826c142de7f.ttf\\\") format('truetype'),url(\\\"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1760190503330/a35281e2d431557254f2f6482f64c738.svg\\\") format('svg');\\n                            font-display: swap;\\n                            font-weight: 500;\\n                            }`;\\n        var vivoNorFont = `@font-face {\\n                            font-family: 'vivoSansSC';\\n                            src:  url(\\\"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1760190445061/2ae443909ad9abaa83d1ee271e772e8d.eot\\\") format('embedded-opentype'),url(\\\"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1760190450925/1b15f3ca3073049427833941d363019b.woff2\\\") format('woff2'),url(\\\"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1760190455605/ffe8da5fa08d7b8b9bff120547622278.woff\\\") format('woff'),url(\\\"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85"
+    }
+   ]
+  },
+  {
+   "url": "https://www.vivo.com/pl/store",
+   "status": 404,
+   "final_url": "https://www.vivo.com/pl/store",
+   "title": "404",
+   "json_urls": [],
+   "links": [],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Home Produkty OriginOS Wsparcie Poznaj vivo X500 Pro Max Nowe: X500 Pro Nowe: X300 Ultra Nowe: X300 FE Nowe: V70 Lite 5G Nowe: V70 Nowe: V70 FE Wszystkie Modele Porównaj Modele Popularne linki X500 Pro Max X500 Pro X Fold 6 X300 Ultra X300 FE V70 V70 FE V70 Lite Wsparcie FAQs Centrum Serwisowe Funtouch OS Weryfikacja IMEI Instrukcja obsługi Aktualizacja oprogramowania Dziennik aktualizacji Sprawdź koszt naprawy Wyślij Do Naprawy Sprawdź status naprawy Polityka gwarancyjna Pobierz LUTy do przywracania logów Google One O vivo O vivo Życie w vivo Netykieta vivo Informacje prawne O nas Zrównoważony rozwój Centrum prywatności vivo Chat Support (Pon-Pt 9:00-17:00. Oprócz świąt i dni wolnych.) Kontakt (Pon-Pt 9:00-17:00. Oprócz świąt i dni wolnych.) 222630098 Kontakt (Pon-Pt 9:00-17:00. Oprócz świąt i dni wolnych.) (Numer bezpłatny) 800909608 service@pl.vivo.com Obserwuj nas © 2026 vivo Mobile Communication Co., Ltd. Wszelkie prawa zastrzeżone. | Polityka prywatności | Polityka Cookies | Wsparcie prywatności | Polityka vivo w sprawie danych | Ustawienia plików cookie Polska | Wybierz kraj/region",
+   "json_samples": []
+  }
+ ],
+ "watchlist": {
+  "missing_before": [
+   "vivo Buds Clip",
+   "vivo Buds Ultra",
+   "vivo Headphones Studio"
+  ],
+  "sitemaps": [
+   "https://www.vivo.com/pl/sitemap.xml",
+   "https://www.vivo.com/sitemap.xml",
+   "https://www.vivo.com/sitemap_index.xml"
+  ],
+  "sitemap_urls": 100,
+  "visit": []
+ },
+ "raw_names": []
+}

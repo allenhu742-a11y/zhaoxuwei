@@ -1,0 +1,113 @@
+{
+ "brand": "vivo",
+ "country": "IT",
+ "pages": [
+  {
+   "url": "https://www.vivo.com/it/products/accessories",
+   "status": 200,
+   "final_url": "https://www.vivo.com/it/products/accessories",
+   "title": "vivo Italia",
+   "json_urls": [
+    "https://www.vivo.com/it/vpg/api/queryContactUsInfo",
+    "https://www.vivo.com/it/vpg/api/headfooter?loginUrl=https:%2F%2Fit-passport.vivo.com%2Fv3%2Fweb%2Flogin%2Fauthorize?client_id=99%26redirect_uri=%26lang=it_IT&ta",
+    "https://shop.vivo.com/it/api/cart/count",
+    "https://www.vivo.com/it/vpg/api/fontPack/info"
+   ],
+   "links": [],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Home Prodotti OriginOS Acquista Online Supporto Esplora vivo X500 Pro Max nuovo X500 Pro nuovo X Fold 6 X300 Ultra nuovo X300 Pro nuovo V70 5G V70 FE V70 Lite 5G Tutti i modelli Confronta modelli Prodotti X500 Pro Max X500 Pro X Fold 6 X300 Ultra X300 FE V70 V70 FE V70 Lite Supporto FAQs Centro Assistenza Funtouch OS Autenticazione IMEI Aggiornamento del sistema Manuale utente Informazioni sulla Garanzia Scarica le LUT per il ripristino di Log Google One Informazioni su vivo Newsroom Lavori con noi Netiquette vivo Note legali Chi siamo Sostenibilità Centro per la privacy di vivo Live chat:Numero verde: Lun-Ven 9:00-18:00 esclusi i giorni festivi Numero verde: Lun-Ven 9:00-18:00 esclusi i giorni festivi 800721455 service@it.vivo.com Seguici © 2026 vivo Mobile Communication Co., Ltd. Tutti i diritti riservati. | Politica sulla riservatezza | Gestione dei Cookie | Supporto per la privacy | Politica sui dati Italia | Seleziona paese/regione",
+   "json_samples": [
+    {
+     "url": "https://www.vivo.com/it/vpg/api/queryContactUsInfo",
+     "body": "{\"code\": 200, \"data\": {\"contactInfoList\": [{\"id\": 77, \"jumpUrl\": \"https://chat.vivo.com/?code=IT&source=exvivoportal&lang=it_IT\", \"name\": \"Live chat\", \"service_desc\": \"Numero verde: Lun-Ven 9:00-17:00 esclusi i giorni festivi\", \"storeFolder\": \"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1641797177854/a829732b28521498f4a31bc5d359cfd0.png\", \"storeFolderDark\": \"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1680160601758/79f9e836f2b9436fd3e979709c299ca4.svg\", \"storeFolderHover\": \"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1641797184639/5090e020ef41a16c90bdb7799ecad252.png\"}, {\"id\": 8, \"jumpUrl\": \"tel:800721455\", \"name\": \"800721455\", \"service_desc\": \"Numero verde: Lun-Ven 9:00-17:00 esclusi i giorni festivi\", \"storeFolder\": \"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1634802295730/9a3f71adbca6fb84839d88d2f821cc54.png\", \"storeFolderDark\": \"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1680160624689/b0806e45ade95b676c45050bc41f474c.svg\", \"storeFolderHover\": \"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1634802300830/0a5693ac28449aaae8f6fb1eab3b21e8.png\"}, {\"id\": 3, \"jumpUrl\": \"email\", \"name\": \"service@it.vivo.com\", \"service_desc\": \"\", \"storeFolder\": \"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1634802327190/4ce425613b4fcd5add457cc32faa3892.png\", \"storeFolderDark\": \"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1680160646459/dbf65bc60b74c7d33e65cf43d1b9aed7.svg\", \"storeFolderHover\": \"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1634802308392/4dcdb0428ec45f553c6421eec7b69270.png\"}]}, \"msg\": \"OK\", \"success\": true}"
+    },
+    {
+     "url": "https://www.vivo.com/it/vpg/api/headfooter?loginUrl=https:%2F%2Fit-passport.vivo.com%2Fv3%2Fweb%2Flogin%2Fauthorize?client_id=99%26redirect_uri=%26lang=it_IT&target=exvivoportal&pageType=responsive",
+     "body": "{\"code\": 200, \"data\": {\"footerHtml\": \"<div class=\\\"vep-public vep-new-footer vep-footer-white vep-responsive\\\" data-email-flag=\\\"true\\\">\\n    <div class=\\\"vep-footer-content-box\\\">\\n        <div class=\\\"vep-footer-content\\\">\\n                <div class=\\\"vep-footer-category-list\\\">\\n                                <div class=\\\"vep-footer-category-item no-flip-over\\\" data-include-view-stat=\\\"cfrom=01|02|002|092&module=Prodotti\\\">\\n                                    <h2 class=\\\"vep-footer-category-dt\\\" role=\\\"heading\\\" level=\\\"3\\\">Prodotti<i class=\\\"vep-footer-category-icon vicon-unfold\\\"></i></h2>\\n                                    <ul>\\n                                                <li class=\\\"vep-footer-category-dd\\\">\\n                                                    <a class=\\\"vep-footer-category-link\\\" href=\\\"https://www.vivo.com/it/products/x500-pro-max\\\"\\n                                                    data-include-click-stat=\\\"cfrom=01|01|011&module=Prodotti&name=X500 Pro Max&position=1\\\"\\n                                                    >X500 Pro Max</a>\\n                                                </li>\\n                                                <li class=\\\"vep-footer-category-dd\\\">\\n                                                    <a class=\\\"vep-footer-category-link\\\" href=\\\"https://www.vivo.com/hu/products/x500-pro\\\"\\n                                                    data-include-click-stat=\\\"cfrom=01|01|011&module=Prodotti&name=X500 Pro&position=2\\\"\\n                                                    >X500 Pro</a>\\n                                                </li>\\n                                                <li class=\\\"vep-footer-category-dd\\\">\\n                                                    <a class=\\\"vep-footer-category-link\\\" href=\\\"https://www.vivo.com/it/products/x-fold6\\\"\\n                                                    data-include-click-stat=\\\"cfrom=01|01|011&module=Prodotti&name=X Fold 6&position=3\\\"\\n                                                    >X Fold 6</a>\\n                                                </li>\\n                                                <li class=\\\"vep-footer-category-dd\\\">\\n                                                    <a class=\\\"vep-footer-category-link\\\" href=\\\"https://www.vivo.com/it/products/x300-ultra\\\"\\n                                                    data-include-click-stat=\\\"cfrom=01|01|011&module=Prodotti&name=X300 Ultra&position=4\\\"\\n   "
+    },
+    {
+     "url": "https://shop.vivo.com/it/api/cart/count",
+     "body": "{\"success\": \"1\", \"code\": \"200\", \"codeDesc\": \"common.success\", \"msg\": \"Operazione riuscita\", \"msgParams\": null, \"data\": 0}"
+    },
+    {
+     "url": "https://www.vivo.com/it/vpg/api/fontPack/info",
+     "body": "{\"success\": \"1\", \"code\": \"200\", \"msg\": \"success\", \"data\": \"    <script>\\n        var vivoBoldFont = `@font-face {\\n                            font-family: 'vivoSansSC';\\n                            src: url(\\\"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1760190335232/36ca053fefbd6de0e1f75302d061981d.eot\\\") format('embedded-opentype'),url(\\\"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1760190340072/b9dcecff53019126ca41520f67d3e0d8.woff2\\\") format('woff2'),url(\\\"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1760190344031/aa4ed31234f896471abe0abda85c9bc7.woff\\\") format('woff'),url(\\\"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1760190348058/e20c6fc4802558aec787521941af06c7.ttf\\\") format('truetype'),url(\\\"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1760190352900/efc1c2f0f5254cb730569cfefdf8433e.svg\\\") format('svg');\\n                            font-display: swap;\\n                            font-weight: 600;\\n                            }`;\\n        var vivoMidFont = `@font-face {\\n                            font-family: 'vivoSansSC';\\n                            src: url(\\\"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1760190296269/e2c6b1f19003e85d504a593a56e1e20c.eot\\\") format('embedded-opentype'),url(\\\"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1760190301252/8d190dd08b831a237bcdab355d5a8450.woff2\\\") format('woff2'),url(\\\"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1760190305839/a798efa9f07afa3efa1d19e828a86e68.woff\\\") format('woff'),url(\\\"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1760190310657/210aa18e28dccae1ffe5d3fa942c5d6a.ttf\\\") format('truetype'),url(\\\"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1760190316184/d799a0878c1ad77fd6c12be05ccd5cb9.svg\\\") format('svg');\\n                            font-display: swap;\\n                            font-weight: 500;\\n                            }`;\\n        var vivoNorFont = `@font-face {\\n                            font-family: 'vivoSansSC';\\n                            src:  url(\\\"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1760190249638/e6c6b64683bd21ab127e8f02c61a01fe.eot\\\") format('embedded-opentype'),url(\\\"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1760190255670/f2cbaa56b2430523a281011fd1ab2bed.woff2\\\") format('woff2'),url(\\\"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85lu15Pb/1760190260226/1e9b6dd0901905841677714da28b89d1.woff\\\") format('woff'),url(\\\"https://eu-exstatic-vivofs.vivo.com/8Xa6evfY85"
+    }
+   ]
+  },
+  {
+   "url": "https://www.vivo.com/it/store",
+   "status": 404,
+   "final_url": "https://www.vivo.com/it/store",
+   "title": "404",
+   "json_urls": [
+    "https://shop.vivo.com/it/api/cart/count"
+   ],
+   "links": [],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Home Prodotti OriginOS Acquista Online Supporto Esplora vivo X500 Pro Max nuovo X500 Pro nuovo X Fold 6 X300 Ultra nuovo X300 Pro nuovo V70 5G V70 FE V70 Lite 5G Tutti i modelli Confronta modelli Prodotti X500 Pro Max X500 Pro X Fold 6 X300 Ultra X300 FE V70 V70 FE V70 Lite Supporto FAQs Centro Assistenza Funtouch OS Autenticazione IMEI Aggiornamento del sistema Manuale utente Informazioni sulla Garanzia Scarica le LUT per il ripristino di Log Google One Informazioni su vivo Newsroom Lavori con noi Netiquette vivo Note legali Chi siamo Sostenibilità Centro per la privacy di vivo Live chat:Numero verde: Lun-Ven 9:00-18:00 esclusi i giorni festivi Numero verde: Lun-Ven 9:00-18:00 esclusi i giorni festivi 800721455 service@it.vivo.com Seguici © 2026 vivo Mobile Communication Co., Ltd. Tutti i diritti riservati. | Politica sulla riservatezza | Gestione dei Cookie | Supporto per la privacy | Politica sui dati | Impostazione cookie Italia | Seleziona paese/regione",
+   "json_samples": [
+    {
+     "url": "https://shop.vivo.com/it/api/cart/count",
+     "body": "{\"success\": \"1\", \"code\": \"200\", \"codeDesc\": \"common.success\", \"msg\": \"Operazione riuscita\", \"msgParams\": null, \"data\": 0}"
+    }
+   ]
+  }
+ ],
+ "watchlist": {
+  "missing_before": [
+   "vivo Buds Clip",
+   "vivo Buds Ultra",
+   "vivo Headphones Studio"
+  ],
+  "sitemaps": [
+   "https://www.vivo.com/ae/ar/sitemap.xml",
+   "https://www.vivo.com/ae/en/sitemap.xml",
+   "https://www.vivo.com/at/sitemap.xml",
+   "https://www.vivo.com/au/sitemap.xml",
+   "https://www.vivo.com/az/az/sitemap.xml",
+   "https://www.vivo.com/bd/sitemap.xml",
+   "https://www.vivo.com/bh/en/sitemap.xml",
+   "https://www.vivo.com/bt/sitemap.xml",
+   "https://www.vivo.com/cl/sitemap.xml",
+   "https://www.vivo.com/co/sitemap.xml",
+   "https://www.vivo.com/eg/ar/sitemap.xml",
+   "https://www.vivo.com/en/sitemap.xml",
+   "https://www.vivo.com/es/sitemap.xml",
+   "https://www.vivo.com/eu/sitemap.xml",
+   "https://www.vivo.com/gr/sitemap.xml",
+   "https://www.vivo.com/hk/en/sitemap.xml",
+   "https://www.vivo.com/in/sitemap.xml",
+   "https://www.vivo.com/iq/ar/sitemap.xml",
+   "https://www.vivo.com/jo/ar/sitemap.xml",
+   "https://www.vivo.com/ke/en/sitemap.xml",
+   "https://www.vivo.com/kw/en/sitemap.xml",
+   "https://www.vivo.com/lb/ar/sitemap.xml",
+   "https://www.vivo.com/lk/sitemap.xml",
+   "https://www.vivo.com/ma/ar/sitemap.xml",
+   "https://www.vivo.com/my/sitemap.xml",
+   "https://www.vivo.com/ng/en/sitemap.xml",
+   "https://www.vivo.com/np/sitemap.xml",
+   "https://www.vivo.com/om/en/sitemap.xml",
+   "https://www.vivo.com/pg/sitemap.xml",
+   "https://www.vivo.com/ph/sitemap.xml",
+   "https://www.vivo.com/pk/sitemap.xml",
+   "https://www.vivo.com/qa/en/sitemap.xml",
+   "https://www.vivo.com/sa/ar/sitemap.xml",
+   "https://www.vivo.com/sa/en/sitemap.xml",
+   "https://www.vivo.com/sg/sitemap.xml",
+   "https://www.vivo.com/sitemap.xml",
+   "https://www.vivo.com/tz/en/sitemap.xml",
+   "https://www.vivo.com/ye/ar/sitemap.xml",
+   "https://www.vivo.com/ye/en/sitemap.xml",
+   "https://www.vivo.com/za/en/sitemap.xml"
+  ],
+  "sitemap_urls": 0,
+  "visit": []
+ },
+ "raw_names": []
+}

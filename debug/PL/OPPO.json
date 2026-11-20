@@ -1,0 +1,495 @@
+{
+ "brand": "OPPO",
+ "country": "PL",
+ "pages": [
+  {
+   "url": "https://www.oppo.com/pl/accessories/",
+   "status": 200,
+   "final_url": "https://www.oppo.com/pl/accessories/",
+   "title": "Mobilne akcesoria OPPO | OPPO Polska",
+   "json_urls": [
+    "https://www.oppo.com/api/country?",
+    "https://www.oppo.com/content/dam/oppo_com/content-fragment/common/site-language-tip.json?v=1795186495244?",
+    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/basicdata/web/store/list?storeViewCode=pl",
+    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/trade/cart/fetch",
+    "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
+    "https://cm.teads.tv/v2/advertiser?referer=https%3A%2F%2Fwww.oppo.com%2Fpl%2Faccessories%2F&tag_version=8.17.1_30c114a&buyer_pixel_id=2534&gtm_consent=true&has_c",
+    "https://insight.adsrvr.org/track/realtimeconversion",
+    "https://insight.adsrvr.org/track/realtimeconversion"
+   ],
+   "links": [
+    "https://www.oppo.com/pl/accessories/enco-x4/"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Mobilne akcesoria OPPO | OPPO Polska Skip to main content Select your country or region Global Smartfony Tablety Słuchawki i głośniki Urządzenia do noszenia Akcesoria O OPPO e-sklep Promocja ColorOS Wsparcie Najnowsze akcesoria Poznaj najnowszą gamę inteligentnych urządzeń OPPO. OPPO Bubble Podgląd selfie z głównego aparatu Kup teraz Szczegóły OPPO Bubble Podgląd selfie z głównego aparatu, Spersonalizowany Vibe Kup teraz Szczegóły Smartfony OPPO Find X10 Pro Max OPPO Find X10 OPPO Find X9 Ultra OPPO Reno16 Pro 5G OPPO Reno16 5G OPPO Reno16 F 5G OPPO Reno16 FS 5G OPPO A6 Pro 5G OPPO A6 OPPO A6x OPPO A6k Produkty IoT OPPO Bubble OPPO Watch X3 OPPO Enco X4 OPPO Enco Air5 OPPO Enco Air5s OPPO Enco Air5 Pro OPPO Enco Clip2 Open Earbuds OPPO Pad 5 OPPO Pad Neo OPPO Pad 2 OPPO Pad Air Wsparcie Kontakt Centrum Serwisowe Ceny Części Zamiennych Status Gwarancji FAQ Security Response Center Warunki Gwarancji Program Recyklingu E-odpadów Deklaracje CE Rozporządzenie UE w sprawie danych O OPPO O OPPO OPPO Apex Guard Aktualności Prasowe Strategia Podatkowa Globalna Społeczność OPPO Globalna Społeczność OPPO Polityka Prywatności Warunki Cookies Nota Prawna Cookie Settings Copyright © 2004-2026 OPPO. Wszelkie prawa zastrzeżone. Poland (Polski)",
+   "json_samples": [
+    {
+     "url": "https://www.oppo.com/api/country?",
+     "body": "{\"countryCode\": \"US\"}"
+    },
+    {
+     "url": "https://www.oppo.com/content/dam/oppo_com/content-fragment/common/site-language-tip.json?v=1795186495244?",
+     "body": "{\"OTHER\": {\"tip\": \"Select your country or region\", \"goto\": \"goto\", \"another\": \"Select another site\", \"isArabic\": \"0\", \"language\": {\"en\": \"Global\"}}, \"CN\": {\"tip\": \"根据您的位置信息，选择合适的语言:\", \"goto\": \"前往\", \"another\": \"更多其他地区语言\", \"isArabic\": \"0\", \"language\": {\"cn\": \"简体中文\"}}, \"HK\": {\"tip\": \"根據您的位置信息，選擇合適的語言:\", \"goto\": \"前往\", \"another\": \"其他語言\", \"isArabic\": \"0\", \"language\": {\"hk\": \"繁體中文\"}}, \"MY\": {\"tip\": \"You can visit a site that is same from your current location\", \"goto\": \"go\", \"another\": \"Select another site\", \"isArabic\": \"0\", \"language\": {\"my\": \"Malaysia\"}}, \"TW\": {\"tip\": \"根據您的位置信息，選擇合適的語言:\", \"goto\": \"前往\", \"another\": \"其他語言\", \"isArabic\": \"0\", \"language\": {\"tw\": \"繁體中文\"}}, \"AE\": {\"tip\": \"You can visit a site that is same from your current location\", \"goto\": \"go\", \"another\": \"Select another site\", \"isArabic\": \"0\", \"language\": {\"ae\": \"UAE\"}}, \"AU\": {\"tip\": \"You can visit a site that is same from your current location\", \"goto\": \"go\", \"another\": \"Select another site\", \"isArabic\": \"0\", \"language\": {\"au\": \"Australia\"}}, \"BD\": {\"tip\": \"You can visit a site that is same from your current location\", \"goto\": \"go\", \"another\": \"Select another site\", \"isArabic\": \"0\", \"language\": {\"bd\": \"Bangladesh\"}}, \"BE\": {\"tip\": \"Vous pouvez visiter un site qui est le même que celui où vous vous trouvez actuellement\", \"goto\": \"Acceder\", \"another\": \"Sélectionnez un autre site\", \"isArabic\": \"0\", \"language\": {\"befr\": \"Belgique\", \"benl\": \"België\"}}, \"CH\": {\"tip\": \"Besuche eine Website, die deinem aktuellen Standort entspricht\", \"goto\": \"Los\", \"another\": \"Eine andere Seite wählen\", \"isArabic\": \"0\", \"language\": {\"chde\": \"Schweiz\", \"chfr\": \"Suisse\"}}, \"CZ\": {\"tip\": \"Chcete navštívit stránky přizpůsobené vaší aktuální poloze?\", \"goto\": \"Pokračovat\", \"another\": \"Vyberte jinou lokalitu\", \"isArabic\": \"0\", \"language\": {\"cz\": \"Česko\"}}, \"DE\": {\"tip\": \"Besuche eine Website, die deinem aktuellen Standort entspricht\", \"goto\": \"Los\", \"another\": \"Eine andere Seite wählen\", \"isArabic\": \"0\", \"language\": {\"de\": \"Deutsch\"}}, \"DZ\": {\"tip\": \"Vous pouvez visiter un site identique à partir de votre position actuelle\", \"goto\": \"Aller\", \"another\": \"Sélectionner un autre site\", \"isArabic\": \"0\", \"language\": {\"dz\": \"Algérie\"}}, \"EG\": {\"tip\": \" يمكنك زيارة الموقع من نفس  موقعك الحالي\", \"goto\": \" اذهب\", \"another\": \" اختر موقع آخر\", \"isArabic\": \"1\", \"language\": {\"eg\": \"مصر \", \"eg-en\": \"Egypt\"}}, \"ES\": {\"tip\": \"Puedes visitar un sitio que es el mismo de tu ubicación actual\", \"goto\": \"ir a\", \"another\": \"Seleccione otro sitio\", \""
+    },
+    {
+     "url": "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/basicdata/web/store/list?storeViewCode=pl",
+     "body": "{\"success\": true, \"data\": [{\"storeViewCode\": \"pl\", \"countryCode\": \"PL\", \"symbol\": \"zł\", \"format\": \"%v %s\", \"decimal\": \",\", \"thousand\": \".\", \"precision\": \"2\", \"zero\": \"Free\", \"symbolInFront\": 2, \"hasSpace\": 1, \"cur\": \"PL\", \"languageCode\": \"pl\", \"lang\": \"pl_PL\", \"name\": \"Poland\", \"currencyCode\": \"PLN\", \"prefix\": \"+48\", \"reg\": \"^\\\\d{6,11}$\", \"pinCodeReg\": \"^[0-9]{5}$\", \"maxLength\": 11, \"apiDomain\": \"opsg-gateway-eu.oppo.com\", \"storeDomain\": \"https://www.oppo.com\", \"cookieDomain\": [\".wanyol.com\", \".oppo.com\"], \"countryImgUrl\": \"https://opsg-imgcdn-sg.heytapimg.com/epb/202504/01/8lvJKMooC11zkmIB.png\", \"address\": {\"addressList\": [{\"key\": \"firstName\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": 12, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"lastName\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": 12, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"regionId\", \"nameKey\": \"region\", \"type\": \"select\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": true}, {\"key\": \"cityId\", \"nameKey\": \"city\", \"type\": \"select\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": true, \"select\": true}, {\"key\": \"postCode\", \"nameKey\": \"postcode\", \"type\": \"input\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": \"^[A-Za-z0-9 -]{1,12}$\", \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"street1\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": 35, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"street2\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": 35, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"telephone\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}], \"addressSort\": [\"street2\", \"postCode\", \"city\", \"region\", \"countryCode\"]}, \"pickupEnable\": false, \"visitorBuyDisable\": false, \"tradeInDisable\": true, \"memberBuyDisable\": false, \"showCoins\": false, \"homeUrl\": \"https://www.oppo.com/pl/store/\", \"cartUrl\": \"https://www.oppo.com/pl/store/cart\", \"officialWebsite\": \"https://www.oppo.com/pl\", \"appStoreFlag\": 1, \"commentDisable\": false, \"l"
+    },
+    {
+     "url": "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/trade/cart/fetch",
+     "body": "{\"success\": true, \"data\": null, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"b6230ca30239862023af6a405b718620-46\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
+    }
+   ]
+  },
+  {
+   "url": "https://www.oppo.com/pl/store/",
+   "status": 200,
+   "final_url": "https://www.oppo.com/pl/store/",
+   "title": "Sklep OPPO",
+   "json_urls": [
+    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/basicdata/web/store/list?storeViewCode=pl",
+    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/trade/cart/fetch",
+    "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
+    "https://opsg-gateway-eu.oppo.com/v2/api/rest/media/file/public/fetchImageAltBySource",
+    "https://opsg-gateway-eu.oppo.com/v2/api/rest/amp/query/activity/engine/notifyme",
+    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/product/page/list/price",
+    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/product/page/list/price",
+    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/product/page/list/price",
+    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/product/page/list/price",
+    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/product/page/list/price",
+    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/product/page/list/price",
+    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/product/page/list/price",
+    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/product/page/list/price",
+    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/product/page/list/price",
+    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/product/page/list/price",
+    "https://opsg-statics-eu.heytapimg.com/static-data/store-config/pl/config.json?t=1795186514731",
+    "https://opsg-gateway-eu.oppo.com/v2/api/rest/media/file/public/fetchImageAlt",
+    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/user/guide/action/upload",
+    "https://opsg-gateway-eu.oppo.com/v2/api/rest/media/file/public/createImageAlt"
+   ],
+   "links": [
+    "https://www.oppo.com/pl/accessories/enco-x4/"
+   ],
+   "tiles": [
+    "Do OPPO Reno16 5G 8GB + 512GB dobierz OPPO Watch S za 1 zł!"
+   ],
+   "price_texts": [
+    "Od 2.379,15 zł 2.799,00 zł",
+    "Od 2.379,15 zł",
+    "2.799,00 zł",
+    "Od 999,00 zł",
+    "Od 999,00 zł",
+    "Od 349,00 zł 899,00 zł",
+    "Od 349,00 zł",
+    "899,00 zł",
+    "Od 999,00 zł 1.599,00 zł",
+    "Od 999,00 zł"
+   ],
+   "items_by_source": {
+    "json": 127
+   },
+   "text_sample": "Skip to main content Select your country or region Global Smartfony Tablety Słuchawki i głośniki Urządzenia do noszenia Akcesoria O OPPO e-sklep Promocja ColorOS Wsparcie Sklep OPPO OPPO Find X10 Pro Max Zamów Teraz MEGA OKAZJE Największe rabaty w roku RATY 0% Smartfony Słuchawki Smartwatche Tablety Akcesoria OPPO Reno16 FS Od 2.379,15 zł 2.799,00 zł Zamów Teraz OPPO Enco X4 Od 999,00 zł Zamów Teraz OnePlus Watch Lite Od 349,00 zł 899,00 zł Zamów Teraz OnePlus Pad Go 2 Wi-Fi Od 999,00 zł 1.599,00 zł Zamów Teraz OPPO Find X10 Pro Max Od 6.999,00 zł Zamów Teraz OPPO Find X10 Od 5.499,00 zł Zamów Teraz OPPO Reno16 5G Od 2.999,00 zł Do OPPO Reno16 5G 8GB + 512GB dobierz OPPO Watch S za 1 zł! Zamów Teraz OPPO Reno15 5G Od 2.799,00 zł Zamów Teraz Smartfony View all Odbierz prezent OPPO Reno16 Pro Od 3.229,15 zł 3.999,00 zł Zaoszczędź nawet 769,85 zł Zamów Teraz Odbierz prezent OPPO Reno16 FS Od 2.379,15 zł 2.799,00 zł Zaoszczędź nawet 419,85 zł Zamów Teraz OPPO Find X10 Pro Max + Hasselblad Teleconverter Kit Od 7.699,00 zł Zyskaj w programie odkupu urządzeń Trade-In Zamów Teraz OPPO Find X10 Pro Max Od 6.999,00 zł Zyskaj w programie odkupu urządzeń Trade-In Zamów Teraz OPPO Find X10 Od 5.499,00 zł Zyskaj w programie odkupu urządzeń Trade-In Zamów Teraz Odbierz prezent OPPO Reno16 5G Od 2.999,00 zł Zamów Teraz Odbierz prezent OPPO Reno16 F Od 2.499,00 zł Zamów Teraz OPPO Find X9 Ultra Od 7.399,00 zł Zamów Teraz OPPO Find X9 Od 4.599,00 zł Zamów Teraz OPPO Find X9 Pro Od 5.999,00 zł "
+  },
+  {
+   "url": "https://www.oppo.com/pl/accessories/enco-x4/",
+   "status": 200,
+   "final_url": "https://www.oppo.com/pl/accessories/enco-x4/",
+   "title": "OPPO Enco X4 – bezprzewodowe słuchawki douszne z aktywną redukcją hałasu | OPPO Polska",
+   "json_urls": [
+    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/basicdata/web/store/list?storeViewCode=pl",
+    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/trade/cart/fetch",
+    "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
+    "https://insight.adsrvr.org/track/realtimeconversion",
+    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000"
+   ],
+   "links": [
+    "https://www.oppo.com/pl/accessories/enco-x4/",
+    "https://www.oppo.com/pl/accessories/enco-x4/specs/"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Skip to main content Select your country or region Global Smartfony Tablety Słuchawki i głośniki Urządzenia do noszenia Akcesoria O OPPO e-sklep Promocja ColorOS Wsparcie Enco X4 Przegląd Specyfikacja Kup teraz OPPO Enco X4 Bezprzewodowe słuchawki z aktywną redukcją hałasu Dźwięk dostrojony przez System akustyczny dostrojony we współpracy z Dynaudio Inteligentna, adaptacyjna redukcja hałasu ANC wspierana przez AI w czasie rzeczywistym Nagrywanie dźwięku o wysokiej czystości System akustyczny dostrojony we współpracy z Dynaudio Inteligentna, adaptacyjna redukcja hałasu ANC wspierana przez AI w czasie rzeczywistym Nagrywanie dźwięku o wysokiej czystości Bezstratny dźwięk 2,3 Mb/s Wyraźne rozmowy telefoniczne dzięki AI Tłumaczenie na żywo AI Dźwięk stworzony z myślą o samej muzyce. System akustyczny dostrojony we współpracy z Dynaudio Każdy gatunek muzyczny. Jedno autentyczne brzmienie. Już siódmy rok z rzędu OPPO i Dynaudio łączą siły, aby zapewnić najwyższą jakość dźwięku, wiernie oddając każdy muzyczny niuans – od energii rocka i subtelności wokali w muzyce pop, po pulsujący rytm muzyki elektronicznej i głęboki bas hip-hopu. Dźwięk dostrojony przez Dynaudio Ponad 300 godzin pracy, by jeszcze wierniej oddać oryginalne brzmienie muzyki. OPPO i Dynaudio poświęciły ponad 300 godzin na precyzyjne dostrojenie każdego pasma częstotliwości. Włącz charakterystyczny profil dźwiękowy Dynaudio i ciesz się ciepłym brzmieniem wokali, bogactwem detali oraz głębokim, doskonal",
+   "json_samples": [
+    {
+     "url": "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/basicdata/web/store/list?storeViewCode=pl",
+     "body": "{\"success\": true, \"data\": [{\"storeViewCode\": \"pl\", \"countryCode\": \"PL\", \"symbol\": \"zł\", \"format\": \"%v %s\", \"decimal\": \",\", \"thousand\": \".\", \"precision\": \"2\", \"zero\": \"Free\", \"symbolInFront\": 2, \"hasSpace\": 1, \"cur\": \"PL\", \"languageCode\": \"pl\", \"lang\": \"pl_PL\", \"name\": \"Poland\", \"currencyCode\": \"PLN\", \"prefix\": \"+48\", \"reg\": \"^\\\\d{6,11}$\", \"pinCodeReg\": \"^[0-9]{5}$\", \"maxLength\": 11, \"apiDomain\": \"opsg-gateway-eu.oppo.com\", \"storeDomain\": \"https://www.oppo.com\", \"cookieDomain\": [\".wanyol.com\", \".oppo.com\"], \"countryImgUrl\": \"https://opsg-imgcdn-sg.heytapimg.com/epb/202504/01/8lvJKMooC11zkmIB.png\", \"address\": {\"addressList\": [{\"key\": \"firstName\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": 12, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"lastName\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": 12, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"regionId\", \"nameKey\": \"region\", \"type\": \"select\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": true}, {\"key\": \"cityId\", \"nameKey\": \"city\", \"type\": \"select\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": true, \"select\": true}, {\"key\": \"postCode\", \"nameKey\": \"postcode\", \"type\": \"input\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": \"^[A-Za-z0-9 -]{1,12}$\", \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"street1\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": 35, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"street2\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": 35, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"telephone\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}], \"addressSort\": [\"street2\", \"postCode\", \"city\", \"region\", \"countryCode\"]}, \"pickupEnable\": false, \"visitorBuyDisable\": false, \"tradeInDisable\": true, \"memberBuyDisable\": false, \"showCoins\": false, \"homeUrl\": \"https://www.oppo.com/pl/store/\", \"cartUrl\": \"https://www.oppo.com/pl/store/cart\", \"officialWebsite\": \"https://www.oppo.com/pl\", \"appStoreFlag\": 1, \"commentDisable\": false, \"l"
+    },
+    {
+     "url": "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/trade/cart/fetch",
+     "body": "{\"success\": true, \"data\": null, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"3d346f546a7b10974bcd9e5b2179d3e3-58\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
+    },
+    {
+     "url": "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
+     "body": "{\"msg\": \"Login fail\", \"code\": \"40302\", \"data\": {\"codeChallenge\": \"1417462dce802223add405d815c2a04e83edcd24d440163fd18189e7e11805cf\"}}"
+    },
+    {
+     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000",
+     "body": "{\"columnOrder\": [\"cookie\", \"name\", \"domain\", \"purpose\", \"validity\"], \"columns\": {\"cookie\": \"Cookie type\", \"name\": \"Name\", \"domain\": \"Domain\", \"purpose\": \"Purpose\", \"validity\": \"Validity Period\"}, \"rows\": [{\"cookie\": \"Essential\", \"name\": \"frontend\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"heytap_authorized\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"HEYTAPID\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"ssoid\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"username\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"avatar\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"createtime\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberLevel\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberInfo\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"encryptId\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"acIdAuthSession\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"codeVerifier\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"Session\"}, {\"cookie\": \"Essential\", \"name\": \"cookiesaccepted\", \"domain\": \"www.oppo.com\", \"purpose\": \"Used to remember the choice of the user\", \"validity\": \"90 days\"}, {\"cookie\": \"Essential\", \"name\": \"g8vtl5_cmapi_cookie_privacy\", \"domain\": \".oppo.com\", \"purpose\": \"Used to remember how the user accepte cookies\", \"validity\": \"395 days\"}, {\"cookie\": \"Essential\", \"nam"
+    }
+   ]
+  },
+  {
+   "url": "https://www.oppo.com/pl/accessories/enco-air5/",
+   "status": 200,
+   "final_url": "https://www.oppo.com/pl/accessories/enco-air5/",
+   "title": "OPPO Enco Air5 – Adaptacyjna redukcja hałasu 52 dB | OPPO Polska",
+   "json_urls": [
+    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/basicdata/web/store/list?storeViewCode=pl",
+    "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
+    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/trade/cart/fetch",
+    "https://insight.adsrvr.org/track/realtimeconversion",
+    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000"
+   ],
+   "links": [
+    "https://www.oppo.com/pl/accessories/enco-air5/",
+    "https://www.oppo.com/pl/accessories/enco-x4/",
+    "https://www.oppo.com/pl/accessories/enco-air5/specs/"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Skip to main content Select your country or region Global Smartfony Tablety Słuchawki i głośniki Urządzenia do noszenia Akcesoria O OPPO e-sklep Promocja ColorOS Wsparcie Enco Air5 Przegląd Specyfikacja Kup teraz OPPO Enco Air5 Bezprzewodowe słuchawki z redukcją szumów Adaptacyjna aktywna redukcja hałasu do 52 dB 12-milimetrowy dynamiczny przetwornik basowy Do 54 godzin pracy na baterii Aktywna redukcja hałasu do 52 dB 12-milimetrowy dynamiczny przetwornik basowy Do 54 godzin pracy na baterii OPPO Alive Audio Potrójny mikrofon z technologią AI Clear Call Uruchamiaj funkcje jednym dotknięciem Jednoczesne połączenie z dwoma urządzeniami w różnych systemach Wycisz świat. To Twój czas. Aktywna redukcja hałasu do 52 dB Zanurz się w swojej prywatnej strefie ciszy Miejski zgiełk? Pozwól mu zniknąć! Dzięki aktywnej redukcji hałasu do 52 dB1 oraz pokryciu pasma do 5000 Hz możesz odciąć się od otoczenia jednym dotknięciem. Od hałasu w akademiku po gwar kawiarni – niech nic Cię nie rozprasza. Redukcja hałasu klasy premium z tej samej serii Pasmo redukcji hałasu do 5000 Hz.2 Inteligentna aktywna redukcja hałasu w czasie rzeczywistym Automatyczne dopasowanie. Cisza w każdej chwili. Najnowszy inteligentny algorytm redukcji hałasu IIR automatycznie dostosowuje sposób działania słuchawek do otoczenia. Płynnie przełącza się między różnymi trybami, zapewniając optymalny poziom wyciszenia i komfortu – niezależnie od tego, gdzie jesteś. Inteligentna adaptacyjna redukcja hałas",
+   "json_samples": [
+    {
+     "url": "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/basicdata/web/store/list?storeViewCode=pl",
+     "body": "{\"success\": true, \"data\": [{\"storeViewCode\": \"pl\", \"countryCode\": \"PL\", \"symbol\": \"zł\", \"format\": \"%v %s\", \"decimal\": \",\", \"thousand\": \".\", \"precision\": \"2\", \"zero\": \"Free\", \"symbolInFront\": 2, \"hasSpace\": 1, \"cur\": \"PL\", \"languageCode\": \"pl\", \"lang\": \"pl_PL\", \"name\": \"Poland\", \"currencyCode\": \"PLN\", \"prefix\": \"+48\", \"reg\": \"^\\\\d{6,11}$\", \"pinCodeReg\": \"^[0-9]{5}$\", \"maxLength\": 11, \"apiDomain\": \"opsg-gateway-eu.oppo.com\", \"storeDomain\": \"https://www.oppo.com\", \"cookieDomain\": [\".wanyol.com\", \".oppo.com\"], \"countryImgUrl\": \"https://opsg-imgcdn-sg.heytapimg.com/epb/202504/01/8lvJKMooC11zkmIB.png\", \"address\": {\"addressList\": [{\"key\": \"firstName\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": 12, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"lastName\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": 12, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"regionId\", \"nameKey\": \"region\", \"type\": \"select\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": true}, {\"key\": \"cityId\", \"nameKey\": \"city\", \"type\": \"select\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": true, \"select\": true}, {\"key\": \"postCode\", \"nameKey\": \"postcode\", \"type\": \"input\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": \"^[A-Za-z0-9 -]{1,12}$\", \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"street1\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": 35, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"street2\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": 35, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"telephone\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}], \"addressSort\": [\"street2\", \"postCode\", \"city\", \"region\", \"countryCode\"]}, \"pickupEnable\": false, \"visitorBuyDisable\": false, \"tradeInDisable\": true, \"memberBuyDisable\": false, \"showCoins\": false, \"homeUrl\": \"https://www.oppo.com/pl/store/\", \"cartUrl\": \"https://www.oppo.com/pl/store/cart\", \"officialWebsite\": \"https://www.oppo.com/pl\", \"appStoreFlag\": 1, \"commentDisable\": false, \"l"
+    },
+    {
+     "url": "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
+     "body": "{\"msg\": \"Login fail\", \"code\": \"40302\", \"data\": {\"codeChallenge\": \"1417462dce802223add405d815c2a04e83edcd24d440163fd18189e7e11805cf\"}}"
+    },
+    {
+     "url": "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/trade/cart/fetch",
+     "body": "{\"success\": true, \"data\": null, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"e0f9f532d4fff58b590d40c7dc3e3a3a-46\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
+    },
+    {
+     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000",
+     "body": "{\"columnOrder\": [\"cookie\", \"name\", \"domain\", \"purpose\", \"validity\"], \"columns\": {\"cookie\": \"Cookie type\", \"name\": \"Name\", \"domain\": \"Domain\", \"purpose\": \"Purpose\", \"validity\": \"Validity Period\"}, \"rows\": [{\"cookie\": \"Essential\", \"name\": \"frontend\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"heytap_authorized\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"HEYTAPID\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"ssoid\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"username\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"avatar\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"createtime\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberLevel\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberInfo\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"encryptId\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"acIdAuthSession\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"codeVerifier\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"Session\"}, {\"cookie\": \"Essential\", \"name\": \"cookiesaccepted\", \"domain\": \"www.oppo.com\", \"purpose\": \"Used to remember the choice of the user\", \"validity\": \"90 days\"}, {\"cookie\": \"Essential\", \"name\": \"g8vtl5_cmapi_cookie_privacy\", \"domain\": \".oppo.com\", \"purpose\": \"Used to remember how the user accepte cookies\", \"validity\": \"395 days\"}, {\"cookie\": \"Essential\", \"nam"
+    }
+   ]
+  },
+  {
+   "url": "https://www.oppo.com/pl/accessories/enco-air5-pro/",
+   "status": 200,
+   "final_url": "https://www.oppo.com/pl/accessories/enco-air5-pro/",
+   "title": "OPPO Enco Air5 Pro – słuchawki douszne z profesjonalnym tłumieniem szumów podczas rozmów | OPPO Polska",
+   "json_urls": [
+    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/basicdata/web/store/list?storeViewCode=pl",
+    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/trade/cart/fetch",
+    "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
+    "https://insight.adsrvr.org/track/realtimeconversion",
+    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000"
+   ],
+   "links": [
+    "https://www.oppo.com/pl/accessories/enco-air5-pro/",
+    "https://www.oppo.com/pl/accessories/enco-x4/",
+    "https://www.oppo.com/pl/accessories/enco-air5-pro/specs/"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Skip to main content Select your country or region Global Smartfony Tablety Słuchawki i głośniki Urządzenia do noszenia Akcesoria O OPPO e-sklep Promocja ColorOS Wsparcie Enco Air5 Pro Przegląd Specyfikacja Kup teraz OPPO Enco Air5 Pro Prawdziwie bezprzewodowe słuchawki douszne z redukcją szumów. Tłumaczenie rozmów AI 12-mm przetwornik pokryty tytanem Do 54 godzin odtwarzania 12-mm przetwornik pokryty tytanem zapewniający mocny bas Potrójny mikrofon z AI Clear Call Profesjonalne tłumienie szumów podczas rozmów Przesuwne sterowanie głośnością Do 54 godzin odtwarzania Podwójne połączenie między systemami Spotify Tap Ciii! Zapadła cisza. Wszechstronna redukcja hałasu Dzięki głębokiej aktywnej redukcji szumów do 55 dB oraz ultraszerokiemu zakresowi częstotliwości 5000 Hz1, OPPO Enco Air5 Pro skutecznie eliminują szerokie spektrum rozpraszających dźwięków. Od gwarnego dojazdu po zatłoczone biuro, pozwalają, by hałas otoczenia stopniowo zniknął. Zanurz się w swojej osobistej strefie dźwięku, aby skupić się, odprężyć i odnaleźć spokój, gdziekolwiek jesteś. 55 dB Aktywna redukcja szumów 5000 Hz Ultraszeroki zakres częstotliwości Każda sekunda redukcji szumów opiera się na optymalnie dopasowanej charakterystyce.​ 2× skuteczniejsze tłumienie szumów głosu2 Algorytm dynamicznej aktywnej redukcji szumów ANC w OPPO Enco Air5 Pro w czasie rzeczywistym radzi sobie z najtrudniejszym do wyeliminowania hałasem, ludzkim głosem. Analizuje również unikalną budowę kanału słuch",
+   "json_samples": [
+    {
+     "url": "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/basicdata/web/store/list?storeViewCode=pl",
+     "body": "{\"success\": true, \"data\": [{\"storeViewCode\": \"pl\", \"countryCode\": \"PL\", \"symbol\": \"zł\", \"format\": \"%v %s\", \"decimal\": \",\", \"thousand\": \".\", \"precision\": \"2\", \"zero\": \"Free\", \"symbolInFront\": 2, \"hasSpace\": 1, \"cur\": \"PL\", \"languageCode\": \"pl\", \"lang\": \"pl_PL\", \"name\": \"Poland\", \"currencyCode\": \"PLN\", \"prefix\": \"+48\", \"reg\": \"^\\\\d{6,11}$\", \"pinCodeReg\": \"^[0-9]{5}$\", \"maxLength\": 11, \"apiDomain\": \"opsg-gateway-eu.oppo.com\", \"storeDomain\": \"https://www.oppo.com\", \"cookieDomain\": [\".wanyol.com\", \".oppo.com\"], \"countryImgUrl\": \"https://opsg-imgcdn-sg.heytapimg.com/epb/202504/01/8lvJKMooC11zkmIB.png\", \"address\": {\"addressList\": [{\"key\": \"firstName\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": 12, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"lastName\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": 12, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"regionId\", \"nameKey\": \"region\", \"type\": \"select\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": true}, {\"key\": \"cityId\", \"nameKey\": \"city\", \"type\": \"select\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": true, \"select\": true}, {\"key\": \"postCode\", \"nameKey\": \"postcode\", \"type\": \"input\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": \"^[A-Za-z0-9 -]{1,12}$\", \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"street1\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": 35, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"street2\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": 35, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"telephone\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}], \"addressSort\": [\"street2\", \"postCode\", \"city\", \"region\", \"countryCode\"]}, \"pickupEnable\": false, \"visitorBuyDisable\": false, \"tradeInDisable\": true, \"memberBuyDisable\": false, \"showCoins\": false, \"homeUrl\": \"https://www.oppo.com/pl/store/\", \"cartUrl\": \"https://www.oppo.com/pl/store/cart\", \"officialWebsite\": \"https://www.oppo.com/pl\", \"appStoreFlag\": 1, \"commentDisable\": false, \"l"
+    },
+    {
+     "url": "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/trade/cart/fetch",
+     "body": "{\"success\": true, \"data\": null, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"f860d22898e25413dfe5ccc573ff9daf-133\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
+    },
+    {
+     "url": "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
+     "body": "{\"msg\": \"Login fail\", \"code\": \"40302\", \"data\": {\"codeChallenge\": \"1417462dce802223add405d815c2a04e83edcd24d440163fd18189e7e11805cf\"}}"
+    },
+    {
+     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000",
+     "body": "{\"columnOrder\": [\"cookie\", \"name\", \"domain\", \"purpose\", \"validity\"], \"columns\": {\"cookie\": \"Cookie type\", \"name\": \"Name\", \"domain\": \"Domain\", \"purpose\": \"Purpose\", \"validity\": \"Validity Period\"}, \"rows\": [{\"cookie\": \"Essential\", \"name\": \"frontend\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"heytap_authorized\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"HEYTAPID\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"ssoid\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"username\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"avatar\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"createtime\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberLevel\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberInfo\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"encryptId\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"acIdAuthSession\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"codeVerifier\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"Session\"}, {\"cookie\": \"Essential\", \"name\": \"cookiesaccepted\", \"domain\": \"www.oppo.com\", \"purpose\": \"Used to remember the choice of the user\", \"validity\": \"90 days\"}, {\"cookie\": \"Essential\", \"name\": \"g8vtl5_cmapi_cookie_privacy\", \"domain\": \".oppo.com\", \"purpose\": \"Used to remember how the user accepte cookies\", \"validity\": \"395 days\"}, {\"cookie\": \"Essential\", \"nam"
+    }
+   ]
+  },
+  {
+   "url": "https://www.oppo.com/pl/accessories/enco-air5-pro/specs/",
+   "status": 200,
+   "final_url": "https://www.oppo.com/pl/accessories/enco-air5-pro/specs/",
+   "title": "OPPO Enco Air5 Pro - Specyfikacja | OPPO Polska",
+   "json_urls": [
+    "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
+    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/basicdata/web/store/list?storeViewCode=pl",
+    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/trade/cart/fetch",
+    "https://insight.adsrvr.org/track/realtimeconversion",
+    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000"
+   ],
+   "links": [
+    "https://www.oppo.com/pl/accessories/enco-air5-pro/specs/",
+    "https://www.oppo.com/pl/accessories/enco-x4/",
+    "https://www.oppo.com/pl/accessories/enco-air5-pro/"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Skip to main content Select your country or region Global Smartfony Tablety Słuchawki i głośniki Urządzenia do noszenia Akcesoria O OPPO e-sklep Promocja ColorOS Wsparcie Enco Air5 Pro Przegląd Specyfikacja Kup teraz OPPO Enco Air5 Pro Biały | Czarny * Powyższy obraz ma charakter poglądowy. We wszystkich kwestiach należy odnosić się do rzeczywistego produktu. Słuchawki Model ETEL1 Model etui ładującego ETEL1 Jakość audio Przetwornik Przetworniki 12 mm czułość przetwornika 122 dB przy 1 kHz Zakres odpowiedzi częstotliwościowej 20 Hz ~ 40 kHz Czułość mikrofonu -38 dBV/Pa Bluetooth® Codec Bluetooth® LHDC 5.0/AAC/SBC Wersja Bluetooth® Bluetooth® 6.0 Zasięg Bluetooth® 10 m Żywotność baterii Typ baterii Akumulator litowo-jonowy wielokrotnego ładowania Pojemność baterii 62 mAh (słuchawki) / 530 mAh (etui ładujące) Odtwarzanie Odtwarzanie (AAC, ustawienia domyślne, 50% głośności, ANC włączone): 7 h (słuchawki) / 29 h (słuchawki + etui ładujące) Odtwarzanie (AAC, ustawienia domyślne, 50% głośności, ANC wyłączone): 13 h (słuchawki) / 54 h (słuchawki + etui ładujące) Odtwarzanie (LHDC, ustawienia domyślne, 50% głośności, ANC włączone): 6 h (słuchawki) / 26 h (słuchawki + etui ładujące) Odtwarzanie (LHDC, ustawienia domyślne, 50% głośności, ANC wyłączone): 10,5 h (słuchawki) / 39 h (słuchawki + etui ładujące) Odtwarzanie (AAC, ustawienia domyślne, 50% głośności, tryb transparentny): 8 h (słuchawki) / 31 h (słuchawki + etui ładujące) Odtwarzanie (LHDC, ustawie",
+   "json_samples": [
+    {
+     "url": "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
+     "body": "{\"msg\": \"Login fail\", \"code\": \"40302\", \"data\": {\"codeChallenge\": \"1417462dce802223add405d815c2a04e83edcd24d440163fd18189e7e11805cf\"}}"
+    },
+    {
+     "url": "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/basicdata/web/store/list?storeViewCode=pl",
+     "body": "{\"success\": true, \"data\": [{\"storeViewCode\": \"pl\", \"countryCode\": \"PL\", \"symbol\": \"zł\", \"format\": \"%v %s\", \"decimal\": \",\", \"thousand\": \".\", \"precision\": \"2\", \"zero\": \"Free\", \"symbolInFront\": 2, \"hasSpace\": 1, \"cur\": \"PL\", \"languageCode\": \"pl\", \"lang\": \"pl_PL\", \"name\": \"Poland\", \"currencyCode\": \"PLN\", \"prefix\": \"+48\", \"reg\": \"^\\\\d{6,11}$\", \"pinCodeReg\": \"^[0-9]{5}$\", \"maxLength\": 11, \"apiDomain\": \"opsg-gateway-eu.oppo.com\", \"storeDomain\": \"https://www.oppo.com\", \"cookieDomain\": [\".wanyol.com\", \".oppo.com\"], \"countryImgUrl\": \"https://opsg-imgcdn-sg.heytapimg.com/epb/202504/01/8lvJKMooC11zkmIB.png\", \"address\": {\"addressList\": [{\"key\": \"firstName\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": 12, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"lastName\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": 12, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"regionId\", \"nameKey\": \"region\", \"type\": \"select\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": true}, {\"key\": \"cityId\", \"nameKey\": \"city\", \"type\": \"select\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": true, \"select\": true}, {\"key\": \"postCode\", \"nameKey\": \"postcode\", \"type\": \"input\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": \"^[A-Za-z0-9 -]{1,12}$\", \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"street1\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": 35, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"street2\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": 35, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"telephone\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}], \"addressSort\": [\"street2\", \"postCode\", \"city\", \"region\", \"countryCode\"]}, \"pickupEnable\": false, \"visitorBuyDisable\": false, \"tradeInDisable\": true, \"memberBuyDisable\": false, \"showCoins\": false, \"homeUrl\": \"https://www.oppo.com/pl/store/\", \"cartUrl\": \"https://www.oppo.com/pl/store/cart\", \"officialWebsite\": \"https://www.oppo.com/pl\", \"appStoreFlag\": 1, \"commentDisable\": false, \"l"
+    },
+    {
+     "url": "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/trade/cart/fetch",
+     "body": "{\"success\": true, \"data\": null, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"4b347f488cda3e365ac156c6bd5ab979-175\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
+    },
+    {
+     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000",
+     "body": "{\"columnOrder\": [\"cookie\", \"name\", \"domain\", \"purpose\", \"validity\"], \"columns\": {\"cookie\": \"Cookie type\", \"name\": \"Name\", \"domain\": \"Domain\", \"purpose\": \"Purpose\", \"validity\": \"Validity Period\"}, \"rows\": [{\"cookie\": \"Essential\", \"name\": \"frontend\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"heytap_authorized\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"HEYTAPID\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"ssoid\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"username\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"avatar\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"createtime\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberLevel\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberInfo\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"encryptId\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"acIdAuthSession\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"codeVerifier\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"Session\"}, {\"cookie\": \"Essential\", \"name\": \"cookiesaccepted\", \"domain\": \"www.oppo.com\", \"purpose\": \"Used to remember the choice of the user\", \"validity\": \"90 days\"}, {\"cookie\": \"Essential\", \"name\": \"g8vtl5_cmapi_cookie_privacy\", \"domain\": \".oppo.com\", \"purpose\": \"Used to remember how the user accepte cookies\", \"validity\": \"395 days\"}, {\"cookie\": \"Essential\", \"nam"
+    }
+   ]
+  },
+  {
+   "url": "https://www.oppo.com/pl/accessories/enco-air5s/",
+   "status": 200,
+   "final_url": "https://www.oppo.com/pl/accessories/enco-air5s/",
+   "title": "OPPO Enco Air5s – Wycisz świat, zanurz się w dźwięku | OPPO Polska",
+   "json_urls": [
+    "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
+    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/basicdata/web/store/list?storeViewCode=pl",
+    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/trade/cart/fetch",
+    "https://insight.adsrvr.org/track/realtimeconversion",
+    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000"
+   ],
+   "links": [
+    "https://www.oppo.com/pl/accessories/enco-air5s/",
+    "https://www.oppo.com/pl/accessories/enco-x4/",
+    "https://www.oppo.com/pl/accessories/enco-air5s/specs/"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Skip to main content Select your country or region Global Smartfony Tablety Słuchawki i głośniki Urządzenia do noszenia Akcesoria O OPPO e-sklep Promocja ColorOS Wsparcie Enco Air5s Przegląd Specyfikacja Kup teraz OPPO Enco Air5s Bezprzewodowe słuchawki z redukcją szumów Adaptacyjna redukcja hałasu w czasie rzeczywistym Ergonomiczna, półdouszna konstrukcja Ultralekkie – zaledwie 3,9 g System redukcji szumów zoptymalizowany pod kątem głosu Adaptacyjna redukcja hałasu w czasie rzeczywistym Mocne 12-milimetrowe przetworniki dynamiczne Ergonomiczna, półdouszna konstrukcja Do 48 godzin odtwarzania Ultralekkie – zaledwie 3,9 g Wycisz świat. Otwórz się na pełnię dźwięku. Adaptacyjna redukcja hałasu w czasie rzeczywistym Cisza, której możesz doświadczać w każdej chwili. Słuchawki OPPO Enco Air5s aktywnie wykrywają sposób ich noszenia, kształt kanału słuchowego oraz poziom hałasu otoczenia w czasie rzeczywistym. Na tej podstawie dostosowują działanie redukcji hałasu do Twoich uszu, skutecznie eliminując zgiełk otoczenia i pozwalając Ci skupić się wyłącznie na muzyce. Inteligentna redukcja hałasu dostosowana do otoczenia Idealne ustawienia – w pomieszczeniach i na zewnątrz. Bez potrzeby ręcznego przełączania. Słuchawki automatycznie rozpoznają otoczenie i płynnie przełączają się między wysokim a niskim poziomem redukcji hałasu. Ty możesz po prostu cieszyć się spokojem, niezależnie od miejsca. Wiodąca w swojej klasie redukcja hałasu w słuchawkach półdousznych Zaawansow",
+   "json_samples": [
+    {
+     "url": "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
+     "body": "{\"msg\": \"Login fail\", \"code\": \"40302\", \"data\": {\"codeChallenge\": \"1417462dce802223add405d815c2a04e83edcd24d440163fd18189e7e11805cf\"}}"
+    },
+    {
+     "url": "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/basicdata/web/store/list?storeViewCode=pl",
+     "body": "{\"success\": true, \"data\": [{\"storeViewCode\": \"pl\", \"countryCode\": \"PL\", \"symbol\": \"zł\", \"format\": \"%v %s\", \"decimal\": \",\", \"thousand\": \".\", \"precision\": \"2\", \"zero\": \"Free\", \"symbolInFront\": 2, \"hasSpace\": 1, \"cur\": \"PL\", \"languageCode\": \"pl\", \"lang\": \"pl_PL\", \"name\": \"Poland\", \"currencyCode\": \"PLN\", \"prefix\": \"+48\", \"reg\": \"^\\\\d{6,11}$\", \"pinCodeReg\": \"^[0-9]{5}$\", \"maxLength\": 11, \"apiDomain\": \"opsg-gateway-eu.oppo.com\", \"storeDomain\": \"https://www.oppo.com\", \"cookieDomain\": [\".wanyol.com\", \".oppo.com\"], \"countryImgUrl\": \"https://opsg-imgcdn-sg.heytapimg.com/epb/202504/01/8lvJKMooC11zkmIB.png\", \"address\": {\"addressList\": [{\"key\": \"firstName\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": 12, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"lastName\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": 12, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"regionId\", \"nameKey\": \"region\", \"type\": \"select\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": true}, {\"key\": \"cityId\", \"nameKey\": \"city\", \"type\": \"select\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": true, \"select\": true}, {\"key\": \"postCode\", \"nameKey\": \"postcode\", \"type\": \"input\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": \"^[A-Za-z0-9 -]{1,12}$\", \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"street1\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": 35, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"street2\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": 35, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"telephone\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}], \"addressSort\": [\"street2\", \"postCode\", \"city\", \"region\", \"countryCode\"]}, \"pickupEnable\": false, \"visitorBuyDisable\": false, \"tradeInDisable\": true, \"memberBuyDisable\": false, \"showCoins\": false, \"homeUrl\": \"https://www.oppo.com/pl/store/\", \"cartUrl\": \"https://www.oppo.com/pl/store/cart\", \"officialWebsite\": \"https://www.oppo.com/pl\", \"appStoreFlag\": 1, \"commentDisable\": false, \"l"
+    },
+    {
+     "url": "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/trade/cart/fetch",
+     "body": "{\"success\": true, \"data\": null, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"545fca82901d76488f53530884008d04-229\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
+    },
+    {
+     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000",
+     "body": "{\"columnOrder\": [\"cookie\", \"name\", \"domain\", \"purpose\", \"validity\"], \"columns\": {\"cookie\": \"Cookie type\", \"name\": \"Name\", \"domain\": \"Domain\", \"purpose\": \"Purpose\", \"validity\": \"Validity Period\"}, \"rows\": [{\"cookie\": \"Essential\", \"name\": \"frontend\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"heytap_authorized\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"HEYTAPID\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"ssoid\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"username\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"avatar\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"createtime\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberLevel\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberInfo\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"encryptId\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"acIdAuthSession\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"codeVerifier\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"Session\"}, {\"cookie\": \"Essential\", \"name\": \"cookiesaccepted\", \"domain\": \"www.oppo.com\", \"purpose\": \"Used to remember the choice of the user\", \"validity\": \"90 days\"}, {\"cookie\": \"Essential\", \"name\": \"g8vtl5_cmapi_cookie_privacy\", \"domain\": \".oppo.com\", \"purpose\": \"Used to remember how the user accepte cookies\", \"validity\": \"395 days\"}, {\"cookie\": \"Essential\", \"nam"
+    }
+   ]
+  },
+  {
+   "url": "https://www.oppo.com/pl/accessories/enco-air5s/specs/",
+   "status": 200,
+   "final_url": "https://www.oppo.com/pl/accessories/enco-air5s/specs/",
+   "title": "OPPO Enco Air5s - Specyfikacja | OPPO Polska",
+   "json_urls": [
+    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/basicdata/web/store/list?storeViewCode=pl",
+    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/trade/cart/fetch",
+    "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
+    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000",
+    "https://insight.adsrvr.org/track/realtimeconversion"
+   ],
+   "links": [
+    "https://www.oppo.com/pl/accessories/enco-air5s/specs/",
+    "https://www.oppo.com/pl/accessories/enco-x4/",
+    "https://www.oppo.com/pl/accessories/enco-air5s/"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Skip to main content Select your country or region Global Smartfony Tablety Słuchawki i głośniki Urządzenia do noszenia Akcesoria O OPPO e-sklep Promocja ColorOS Wsparcie Enco Air5s Przegląd Specyfikacja Kup teraz OPPO Enco Air5s Biały | Czarny * Powyższa ilustracja ma charakter poglądowy. We wszystkich przypadkach należy kierować się rzeczywistym wyglądem produktu. Słuchawki Model ETEF1 Jakość audio Przetwornik 12-milimetrowy przetwornik dynamiczny czułość przetwornika 122 dB przy 1 kHz Zakres odpowiedzi częstotliwościowej 20 Hz–20 kHz Czułość mikrofonu −38 dBV/Pa Bluetooth® Codec Bluetooth® AAC, SBC Wersja Bluetooth® Bluetooth® 6.0 Zasięg Bluetooth® 10 m Żywotność baterii Typ baterii Bateria litowo-jonowa (Li-ion) Pojemność baterii 40.5 mAh (earbuds) / 530 mAh (charging case) 40,5 mAh (każda słuchawka) / 530 mAh (etui ładujące) Czas odtwarzania Czas odtwarzania (AAC, ustawienia domyślne, głośność 50%, ANC włączone): 4,5 godz. (same słuchawki) / 25 godz. (słuchawki + etui ładujące) Czas odtwarzania (AAC, ustawienia domyślne, głośność 50%, ANC wyłączone): 9 godz. (same słuchawki) / 48 godz. (słuchawki + etui ładujące) Czas odtwarzania (AAC, ustawienia domyślne, głośność 50%, tryb transparentny): 4,5 godz. (same słuchawki) / 25 godz. (słuchawki + etui ładujące) Czas rozmowy Czas rozmów (ANC włączone): 3,5 godz. (na jednym ładowaniu słuchawek) / 18 godz. (z etui ładującym) Czas rozmów (ANC wyłączone): 4,5 godz. (na jednym ładowaniu słuchawek) / 22 g",
+   "json_samples": [
+    {
+     "url": "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/basicdata/web/store/list?storeViewCode=pl",
+     "body": "{\"success\": true, \"data\": [{\"storeViewCode\": \"pl\", \"countryCode\": \"PL\", \"symbol\": \"zł\", \"format\": \"%v %s\", \"decimal\": \",\", \"thousand\": \".\", \"precision\": \"2\", \"zero\": \"Free\", \"symbolInFront\": 2, \"hasSpace\": 1, \"cur\": \"PL\", \"languageCode\": \"pl\", \"lang\": \"pl_PL\", \"name\": \"Poland\", \"currencyCode\": \"PLN\", \"prefix\": \"+48\", \"reg\": \"^\\\\d{6,11}$\", \"pinCodeReg\": \"^[0-9]{5}$\", \"maxLength\": 11, \"apiDomain\": \"opsg-gateway-eu.oppo.com\", \"storeDomain\": \"https://www.oppo.com\", \"cookieDomain\": [\".wanyol.com\", \".oppo.com\"], \"countryImgUrl\": \"https://opsg-imgcdn-sg.heytapimg.com/epb/202504/01/8lvJKMooC11zkmIB.png\", \"address\": {\"addressList\": [{\"key\": \"firstName\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": 12, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"lastName\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": 12, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"regionId\", \"nameKey\": \"region\", \"type\": \"select\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": true}, {\"key\": \"cityId\", \"nameKey\": \"city\", \"type\": \"select\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": true, \"select\": true}, {\"key\": \"postCode\", \"nameKey\": \"postcode\", \"type\": \"input\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": \"^[A-Za-z0-9 -]{1,12}$\", \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"street1\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": 35, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"street2\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": 35, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"telephone\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}], \"addressSort\": [\"street2\", \"postCode\", \"city\", \"region\", \"countryCode\"]}, \"pickupEnable\": false, \"visitorBuyDisable\": false, \"tradeInDisable\": true, \"memberBuyDisable\": false, \"showCoins\": false, \"homeUrl\": \"https://www.oppo.com/pl/store/\", \"cartUrl\": \"https://www.oppo.com/pl/store/cart\", \"officialWebsite\": \"https://www.oppo.com/pl\", \"appStoreFlag\": 1, \"commentDisable\": false, \"l"
+    },
+    {
+     "url": "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/trade/cart/fetch",
+     "body": "{\"success\": true, \"data\": null, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"e9a74d383c5b7a27a5bce8b3ecffd214-229\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
+    },
+    {
+     "url": "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
+     "body": "{\"msg\": \"Login fail\", \"code\": \"40302\", \"data\": {\"codeChallenge\": \"1417462dce802223add405d815c2a04e83edcd24d440163fd18189e7e11805cf\"}}"
+    },
+    {
+     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795183200000",
+     "body": "{\"columnOrder\": [\"cookie\", \"name\", \"domain\", \"purpose\", \"validity\"], \"columns\": {\"cookie\": \"Cookie type\", \"name\": \"Name\", \"domain\": \"Domain\", \"purpose\": \"Purpose\", \"validity\": \"Validity Period\"}, \"rows\": [{\"cookie\": \"Essential\", \"name\": \"frontend\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"heytap_authorized\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"HEYTAPID\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"ssoid\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"username\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"avatar\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"createtime\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberLevel\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberInfo\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"encryptId\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"acIdAuthSession\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"codeVerifier\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"Session\"}, {\"cookie\": \"Essential\", \"name\": \"cookiesaccepted\", \"domain\": \"www.oppo.com\", \"purpose\": \"Used to remember the choice of the user\", \"validity\": \"90 days\"}, {\"cookie\": \"Essential\", \"name\": \"g8vtl5_cmapi_cookie_privacy\", \"domain\": \".oppo.com\", \"purpose\": \"Used to remember how the user accepte cookies\", \"validity\": \"395 days\"}, {\"cookie\": \"Essential\", \"nam"
+    }
+   ]
+  }
+ ],
+ "watchlist": {
+  "missing_before": [
+   "OPPO Enco Air5",
+   "OPPO Enco Air5 Pro",
+   "OPPO Enco Air5s",
+   "OPPO Enco Buds3s",
+   "OPPO Portable Wireless Speaker"
+  ],
+  "sitemaps": [
+   "https://www.oppo.com/ar/sitemap.xml",
+   "https://www.oppo.com/au/sitemap.xml",
+   "https://www.oppo.com/bd/sitemap.xml",
+   "https://www.oppo.com/befr/sitemap.xml",
+   "https://www.oppo.com/benl/sitemap.xml",
+   "https://www.oppo.com/cl/sitemap.xml",
+   "https://www.oppo.com/co/sitemap.xml",
+   "https://www.oppo.com/cz/sitemap.xml",
+   "https://www.oppo.com/de/sitemap.xml",
+   "https://www.oppo.com/dz/sitemap.xml",
+   "https://www.oppo.com/es/sitemap.xml",
+   "https://www.oppo.com/fr/sitemap.xml",
+   "https://www.oppo.com/hu/sitemap.xml",
+   "https://www.oppo.com/id/sitemap.xml",
+   "https://www.oppo.com/il/sitemap.xml",
+   "https://www.oppo.com/iq/sitemap.xml",
+   "https://www.oppo.com/jp/sitemap.xml",
+   "https://www.oppo.com/kh/sitemap.xml",
+   "https://www.oppo.com/kzkk/sitemap.xml",
+   "https://www.oppo.com/lb-ar/sitemap.xml",
+   "https://www.oppo.com/lb-en/sitemap.xml",
+   "https://www.oppo.com/lk/sitemap.xml",
+   "https://www.oppo.com/ma/sitemap.xml",
+   "https://www.oppo.com/md/sitemap.xml",
+   "https://www.oppo.com/mm/sitemap.xml",
+   "https://www.oppo.com/mx/sitemap.xml",
+   "https://www.oppo.com/ng/sitemap.xml",
+   "https://www.oppo.com/np/sitemap.xml",
+   "https://www.oppo.com/nz/sitemap.xml",
+   "https://www.oppo.com/pk/sitemap.xml",
+   "https://www.oppo.com/pl/cms_sitemap.xml",
+   "https://www.oppo.com/pl/eu_jimu_sitemap.xml",
+   "https://www.oppo.com/pl/sitemap.xml",
+   "https://www.oppo.com/ps/sitemap.xml",
+   "https://www.oppo.com/pt/sitemap.xml",
+   "https://www.oppo.com/ru/sitemap.xml",
+   "https://www.oppo.com/sg/sitemap.xml",
+   "https://www.oppo.com/sitemap.xml",
+   "https://www.oppo.com/th/sitemap.xml",
+   "https://www.oppo.com/ua/sitemap.xml"
+  ],
+  "sitemap_urls": 287,
+  "visit": [
+   "https://www.oppo.com/pl/accessories/enco-air5/",
+   "https://www.oppo.com/pl/accessories/enco-air5-pro/",
+   "https://www.oppo.com/pl/accessories/enco-air5-pro/specs/",
+   "https://www.oppo.com/pl/accessories/enco-air5s/",
+   "https://www.oppo.com/pl/accessories/enco-air5s/specs/"
+  ]
+ },
+ "raw_names": [
+  "Etui do OPPO A5x Czarny | 49.0 | json",
+  "Etui do OPPO A5x | 49.0 | json",
+  "OPPO Enco Air4 Biały | 249.0 | json",
+  "OPPO Enco Air4 Pro Biały | 299.0 | json",
+  "OPPO Enco Air4 Pro Czarny | 299.0 | json",
+  "OPPO Enco Air4 Pro | 299.0 | json",
+  "OPPO Enco Air4 Zielony | 249.0 | json",
+  "OPPO Enco Air4 | 249.0 | json",
+  "OPPO Enco Buds3 Biały | 139.0 | json",
+  "OPPO Enco Buds3 Czarny | 139.0 | json",
+  "OPPO Enco Buds3 Pro Biały | 199.0 | json",
+  "OPPO Enco Buds3 Pro Czarny | 199.0 | json",
+  "OPPO Enco Buds3 Pro | 199.0 | json",
+  "OPPO Enco Buds3 | 139.0 | json",
+  "OPPO Enco Clip2 Szary | 799.0 | json",
+  "OPPO Enco Clip2 Złoty | 799.0 | json",
+  "OPPO Enco Clip2 | 799.0 | json",
+  "OPPO Enco X3s Srebrny | 549.0 | json",
+  "OPPO Enco X3s | 549.0 | json",
+  "OPPO Enco X4 Biały | 999.0 | json",
+  "OPPO Enco X4 Tytanowy | 999.0 | json",
+  "OPPO Enco X4 | 999.0 | json",
+  "OPPO Find X10 12GB + 256GB Błękitny | 5499.0 | json",
+  "OPPO Find X10 12GB + 256GB Szary | 5499.0 | json",
+  "OPPO Find X10 12GB + 512GB Błękitny | 6399.0 | json",
+  "OPPO Find X10 12GB + 512GB Koralowy | 6399.0 | json",
+  "OPPO Find X10 12GB + 512GB Szary | 6399.0 | json",
+  "OPPO Find X10 Pro Max + Hasselblad Teleconverter Kit 12GB + 512GB Biał | 7699.0 | json",
+  "OPPO Find X10 Pro Max + Hasselblad Teleconverter Kit 12GB + 512GB Tyta | 7699.0 | json",
+  "OPPO Find X10 Pro Max + Hasselblad Teleconverter Kit | 7699.0 | json",
+  "OPPO Find X10 Pro Max 12GB + 512GB Biały | 6999.0 | json",
+  "OPPO Find X10 Pro Max 12GB + 512GB Tytanowy | 6999.0 | json",
+  "OPPO Find X10 Pro Max | 6999.0 | json",
+  "OPPO Find X10 | 5499.0 | json",
+  "OPPO Find X9 12GB + 512GB Czarny | 4599.0 | json",
+  "OPPO Find X9 12GB + 512GB Tytanowy | 4599.0 | json",
+  "OPPO Find X9 Aramid Fiber Magnetic Case Czarny | 129.0 | json",
+  "OPPO Find X9 Aramid Fiber Magnetic Case | 129.0 | json",
+  "OPPO Find X9 Pro 16GB + 512GB Biały | 5999.0 | json",
+  "OPPO Find X9 Pro 16GB + 512GB Brązowy | 5999.0 | json",
+  "OPPO Find X9 Pro Light Luxury Magnetic Case Czarny | 129.0 | json",
+  "OPPO Find X9 Pro Light Luxury Magnetic Case | 129.0 | json",
+  "OPPO Find X9 Pro | 5999.0 | json",
+  "OPPO Find X9 Ultra 12GB + 512GB Czarny | 7399.0 | json",
+  "OPPO Find X9 Ultra 12GB + 512GB Pomarańczowy | 7399.0 | json",
+  "OPPO Find X9 Ultra Aramid Fiber Magnetic Case Czarny | 199.0 | json",
+  "OPPO Find X9 Ultra Aramid Fiber Magnetic Case | 199.0 | json",
+  "OPPO Find X9 Ultra Hasselblad Earth Explorer Kit Czarny | 1999.0 | json",
+  "OPPO Find X9 Ultra Hasselblad Earth Explorer Kit | 1999.0 | json",
+  "OPPO Find X9 Ultra | 7399.0 | json",
+  "OPPO Find X9 | 4599.0 | json",
+  "OPPO Pad 5 5G 8GB + 128GB | 1999.0 | json",
+  "OPPO Pad 5 5G | 1999.0 | json",
+  "OPPO Pad 5 Wi-Fi 8GB + 128GB | 1699.0 | json",
+  "OPPO Pad 5 Wi-Fi | 1699.0 | json",
+  "OPPO Pencil 2R Biały | 149.0 | json",
+  "OPPO Pencil 2R | 149.0 | json",
+  "OPPO Reno15 5G 8GB + 512GB Biały | 2799.0 | json",
+  "OPPO Reno15 5G 8GB + 512GB Granatowy | 2799.0 | json",
+  "OPPO Reno15 5G | 2799.0 | json",
+  "OPPO Reno16 5G 8GB + 256GB Biały | 2999.0 | json",
+  "OPPO Reno16 5G 8GB + 256GB Ciemnofioletowy | 2999.0 | json",
+  "OPPO Reno16 5G 8GB + 512GB Biały | 3299.0 | json",
+  "OPPO Reno16 5G 8GB + 512GB Ciemnofioletowy | 3299.0 | json",
+  "OPPO Reno16 5G | 2999.0 | json",
+  "OPPO Reno16 F 8GB + 256GB Biały | 2499.0 | json",
+  "OPPO Reno16 F 8GB + 256GB Ciemnofioletowy | 2499.0 | json",
+  "OPPO Reno16 F | 2499.0 | json",
+  "OPPO Reno16 FS 8GB + 512GB Biały | 2799.0 | json",
+  "OPPO Reno16 FS 8GB + 512GB Ciemnofioletowy | 2799.0 | json",
+  "OPPO Reno16 FS | 2799.0 | json",
+  "OPPO Reno16 Pro 12GB + 512GB Biały | 3999.0 | json",
+  "OPPO Reno16 Pro 12GB + 512GB Czarny | 3999.0 | json",
+  "OPPO Reno16 Pro | 3999.0 | json",
+  "OPPO SUPERVOOC Single-port 100W Biały | 299.0 | json",
+  "OPPO SUPERVOOC Single-port 100W | 299.0 | json",
+  "OPPO SUPERVOOC Single-port 80W Biały | 129.0 | json",
+  "OPPO SUPERVOOC Single-port 80W | 129.0 | json",
+  "OPPO Watch S Czarny | 899.0 | json",
+  "OPPO Watch S Srebrny | 899.0 | json",
+  "OPPO Watch S | 899.0 | json",
+  "OPPO Watch X2 Czarny | 1599.0 | json",
+  "OPPO Watch X2 Mini Biały | 1299.0 | json",
+  "OPPO Watch X2 Mini Czarny | 1299.0 | json",
+  "OPPO Watch X2 Mini | 1299.0 | json",
+  "OPPO Watch X2 Niebieski | 1599.0 | json",
+  "OPPO Watch X2 | 1599.0 | json",
+  "OPPO Watch X3 Czarny | 1699.0 | json",
+  "OPPO Watch X3 Tytanowy | 1999.0 | json",
+  "OPPO Watch X3 | 1699.0 | json",
+  "OnePlus Pad Go 2 5G 8GB + 256GB | 1799.0 | json",
+  "OnePlus Pad Go 2 5G | 1799.0 | json",
+  "OnePlus Pad Go 2 Wi-Fi 8GB + 128GB | 1599.0 | json",
+  "OnePlus Pad Go 2 Wi-Fi | 1599.0 | json",
+  "OnePlus Pencil Pad Go 2 Biały | 399.0 | json",
+  "OnePlus Pencil Pad Go 2 | 399.0 | json",
+  "OnePlus Watch Lite Czarny | 899.0 | json",
+  "OnePlus Watch Lite Srebrny | 899.0 | json",
+  "OnePlus Watch Lite | 899.0 | json"
+ ]
+}

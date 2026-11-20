@@ -32,6 +32,9 @@
     "https://store.google.com/fr/product/google_tv_streamer",
     "https://store.google.com/fr/product/nest_hub_2nd_gen",
     "https://store.google.com/fr/product/nest_wifi_pro",
+    "https://store.google.com/fr/product/pixel_10_pro",
+    "https://store.google.com/fr/product/pixel_10_pro_fold",
+    "https://store.google.com/fr/product/pixel_10",
     "https://store.google.com/fr/config/pixel_11_pro",
     "https://store.google.com/fr/config/pixel_11_pro_fold",
     "https://store.google.com/fr/config/pixel_11",
@@ -43,7 +46,7 @@
    "tiles": [],
    "price_texts": [],
    "items_by_source": {},
-   "text_sample": "Ignorer la navigation L'attente est terminée. Les offres Black Friday sont là.Acheter Smartphone Montres et bracelets d'activité Écouteurs Maison connectée Accessoires Offres Assistance Connexion Découvrez la famille de téléphones Google Pixel 11 Google Pixel Osez demander plus à votre smartphone. Le Google Pixel redéfinit le champ des possibles. Découvrir toute la gamme. Comparaison de tous les smartphones Nouveau Google Pixel 11 Pro À partir de 899 € 1 099 € Économisez 200 € Prix de vente habituel : 1 199 € Acheter Nouveau Google Pixel 11 Pro Fold À partir de 1 999 € Acheter Nouveau Google Pixel 11 À partir de 699 € 899 € Économisez 200 € Prix de vente habituel : 999 € Acheter Offre spéciale Google Pixel 10a À partir de 429 € 649 € Économisez 220 € Prix de vente habituel : 649 € Acheter Google Pixel 10 Pro À partir de 749 € Prix de vente habituel : 999 € Acheter Google Pixel 10 Pro Fold À partir de 1 899 € Acheter Offre spéciale Google Pixel 10 À partir de 599 € 629 € Économisez 30 € Prix de vente habituel : 799 € Acheter Comparer Comparer les smartphones Coques de smartphone Parcourir les coques Accessoires Parcourir les accessoires Enjoy brilliant savings on the latest Google Pixel phones. Découvrir les offres Black Friday Module photo Google Pixel Conçu pour vous aider à vous concentrer sur l'instant présent. Le module photo Google Pixel s'occupe de tout pour que vous puissiez prendre d'incroyables photos et vidéos sans effort, en profitant pleinement du moment présent. ",
+   "text_sample": "Ignorer la navigation L'attente est terminée. Les offres Black Friday sont là.Acheter Smartphone Montres et bracelets d'activité Écouteurs Maison connectée Accessoires Offres Assistance Connexion Découvrez la famille de téléphones Google Pixel 11 Nouveau Google Pixel 11 Pro Nouveau Google Pixel 11 Pro Fold Nouveau Google Pixel 11 Google Pixel 10a Google Pixel 10 Pro Google Pixel 10 Pro Fold Google Pixel 10 Comparer Coques de smartphone Accessoires Google Pixel Osez demander plus à votre smartphone. Le Google Pixel redéfinit le champ des possibles. Découvrir toute la gamme. Comparaison de tous les smartphones Nouveau Google Pixel 11 Pro À partir de 899 € 1 099 € Économisez 200 € Prix de vente habituel : 1 199 € Acheter Nouveau Google Pixel 11 Pro Fold À partir de 1 999 € Acheter Nouveau Google Pixel 11 À partir de 699 € 899 € Économisez 200 € Prix de vente habituel : 999 € Acheter Offre spéciale Google Pixel 10a À partir de 429 € 649 € Économisez 220 € Prix de vente habituel : 649 € Acheter Google Pixel 10 Pro À partir de 749 € Prix de vente habituel : 999 € Acheter Google Pixel 10 Pro Fold À partir de 1 899 € Acheter Offre spéciale Google Pixel 10 À partir de 599 € 629 € Économisez 30 € Prix de vente habituel : 799 € Acheter Comparer Comparer les smartphones Coques de smartphone Parcourir les coques Accessoires Parcourir les accessoires Enjoy brilliant savings on the latest Google Pixel phones. Découvrir les offres Black Friday Module photo Google Pixel Conçu pour vous aider ",
    "json_samples": [
     {
      "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
@@ -1643,6 +1646,1525 @@
      "body": "[null, null, null, null, null, null, null, null, null, null, 0]"
     }
    ]
+  },
+  {
+   "url": "https://store.google.com/fr/product/nest_wifi_pro",
+   "status": 200,
+   "final_url": "https://store.google.com/fr/product/nest_wifi_pro?hl=fr",
+   "title": "Nest Wifi Pro – Google Store",
+   "json_urls": [
+    "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData"
+   ],
+   "links": [
+    "https://store.google.com/fr/product/pixel_11_pro",
+    "https://store.google.com/fr/product/pixel_11_pro_fold",
+    "https://store.google.com/fr/product/pixel_11",
+    "https://store.google.com/fr/product/pixel_10a",
+    "https://store.google.com/fr/product/pixel_watch_5",
+    "https://store.google.com/fr/product/google_fitbit_edge",
+    "https://store.google.com/fr/product/google_fitbit_air",
+    "https://store.google.com/fr/product/fitbit_versa_4",
+    "https://store.google.com/fr/product/google_health_premium",
+    "https://store.google.com/fr/product/pixel_buds_pro_2",
+    "https://store.google.com/fr/product/pixel_buds_2a",
+    "https://store.google.com/fr/product/nest_cam_battery",
+    "https://store.google.com/fr/product/nest_cam_outdoor_wired_2nd_gen",
+    "https://store.google.com/fr/product/nest_cam_floodlight",
+    "https://store.google.com/fr/product/nest_cam_indoor",
+    "https://store.google.com/fr/product/nest_aware",
+    "https://store.google.com/fr/product/nest_doorbell_battery",
+    "https://store.google.com/fr/product/google_home_speaker",
+    "https://store.google.com/fr/product/google_tv_streamer",
+    "https://store.google.com/fr/product/nest_hub_2nd_gen",
+    "https://store.google.com/fr/product/nest_wifi_pro",
+    "https://store.google.com/fr/product/nest_wifi_pro_specs",
+    "https://store.google.com/fr/product/nest_wifi_pro_learn",
+    "https://store.google.com/fr/config/nest_wifi_pro"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Ignorer la navigation L'attente est terminée. Les offres Black Friday sont là.Acheter Smartphone Montres et bracelets d'activité Écouteurs Maison connectée Accessoires Offres Assistance Connexion Nest Wifi Pro – Google Store Nest Wifi Pro Présentation Caractéristiques techniques Fonctionnement À partir de 179,99 €219,99 € ou 60,00 €/mois en 3 mensualités Prix de vente habituel : 219,99 € Acheter Nest Wifi Pro avec Wi-Fi 6E Le Wi-fi en mieux Faites plus d'économies avec le pack de 2 points d'accès à 269,99 €. À partir de 179,99 € 219,99 € Économisez 40 € ou 60,00 €/mois en 3 mensualités Prix de vente habituel : 219,99 € Acheter Diapositive 1 sur 4 1 / 4 Nest Wifi Pro Neige posé sur une pile de livres dans un bureau à domicile. Image 1 sur 4. Économisez 40 € à l'achat d'un Nest Wifi Pro. Offre valable jusqu'au 01/12^. Acheter Nest Wifi Pro. Une connexion Wi-Fi 6E rapide et fiable pour la maison Un débit ultrarapide dans tout votre logement1,2,3. Un réseau plus intelligent et des connexions plus fluides1,2,3. Conçu pour garantir votre sécurité Un design qui s'intègre à tous les intérieurs Le cœur de votre maison connectée Fiabilité Un débit ultrarapide dans tout votre logement Wi-Fi 6E triple bande, le débit de demain Étendez votre réseau dans toute la maison Grâce à la nouvelle technologie Wi-Fi 6E, Nest Wifi Pro vous offre jusqu'à 4,2 Gbit/s de vitesses combinées, soit un débit deux fois plus rapide que le Wi-Fi 61. Les trois bandes séparées, dont la toute nouvelle bande 6 GHz",
+   "json_samples": [
+    {
+     "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
+     "body": "[null, null, null, null, null, null, null, null, null, null, 0]"
+    }
+   ]
+  },
+  {
+   "url": "https://store.google.com/fr/config/nest_wifi_pro",
+   "status": 200,
+   "final_url": "https://store.google.com/fr/config/nest_wifi_pro?hl=fr",
+   "title": "Buy Nest Wifi Pro - Google Store",
+   "json_urls": [
+    "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData"
+   ],
+   "links": [
+    "https://store.google.com/fr/product/pixel_11_pro",
+    "https://store.google.com/fr/product/pixel_11_pro_fold",
+    "https://store.google.com/fr/product/pixel_11",
+    "https://store.google.com/fr/product/pixel_10a",
+    "https://store.google.com/fr/product/pixel_watch_5",
+    "https://store.google.com/fr/product/google_fitbit_edge",
+    "https://store.google.com/fr/product/google_fitbit_air",
+    "https://store.google.com/fr/product/fitbit_versa_4",
+    "https://store.google.com/fr/product/google_health_premium",
+    "https://store.google.com/fr/product/pixel_buds_pro_2",
+    "https://store.google.com/fr/product/pixel_buds_2a",
+    "https://store.google.com/fr/product/nest_cam_battery",
+    "https://store.google.com/fr/product/nest_cam_outdoor_wired_2nd_gen",
+    "https://store.google.com/fr/product/nest_cam_floodlight",
+    "https://store.google.com/fr/product/nest_cam_indoor",
+    "https://store.google.com/fr/product/nest_aware",
+    "https://store.google.com/fr/product/nest_doorbell_battery",
+    "https://store.google.com/fr/product/google_home_speaker",
+    "https://store.google.com/fr/product/google_tv_streamer",
+    "https://store.google.com/fr/product/nest_hub_2nd_gen",
+    "https://store.google.com/fr/product/nest_wifi_pro"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Ignorer la navigation L'attente est terminée. Les offres Black Friday sont là.Acheter Smartphone Montres et bracelets d'activité Écouteurs Maison connectée Accessoires Offres Assistance Connexion Consulter les détails du produit Nest Wifi Pro1 179,99 € ou 60,00 €/mois en 3 mensualités Ajouter au panier Nest Wifi Pro1 179,99 € ou 60,00 €/mois en 3 mensualités 219,99 €Économisez 40 € Nest Wifi Pro Couvre jusqu'à 120 m² 179,99 € 219,99 € Nest Wifi Pro, pack de 2 Couvre jusqu'à 240 m² 269,99 € 329,99 € Choisissez une couleur Neige 1 Ajouter au panier Saisissez votre code postal pour savoir quand cet article arrivera 1 Nest Wifi Pro n'est pas compatible avec les générations précédentes d'appareils Nest Wifi ou Google Wifi. À propos À propos de Google Store Programme de parrainage Commandes Disponibilité par pays et restrictions de livraison Gérer une commande Livraison standard gratuite Programme d'échange Financement Politique de retour Annulations d'abonnement renoncer au contrat Assistance Assistance Fitbit Nous contacter Centre d’aide Assistance dédiée au handicap Réparations Envoyer des commentaires Développement durable Recyclage de l'appareil Développement durable France Confidentialité Engagement de Google Nest pour la protection de la vie privée Conditions de vente Conditions d'utilisation Caractéristiques environnementales des produits",
+   "json_samples": [
+    {
+     "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
+     "body": "[null, null, null, null, null, null, null, null, null, null, 0]"
+    }
+   ]
+  },
+  {
+   "url": "https://store.google.com/fr/product/pixel_10_pro",
+   "status": 200,
+   "final_url": "https://store.google.com/fr/product/pixel_10_pro?hl=fr",
+   "title": "Google Pixel 10 Pro et 10 Pro XL avec IA avancée",
+   "json_urls": [
+    "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData"
+   ],
+   "links": [
+    "https://store.google.com/fr/product/pixel_11_pro",
+    "https://store.google.com/fr/product/pixel_11_pro_fold",
+    "https://store.google.com/fr/product/pixel_11",
+    "https://store.google.com/fr/product/pixel_10a",
+    "https://store.google.com/fr/product/pixel_watch_5",
+    "https://store.google.com/fr/product/google_fitbit_edge",
+    "https://store.google.com/fr/product/google_fitbit_air",
+    "https://store.google.com/fr/product/fitbit_versa_4",
+    "https://store.google.com/fr/product/google_health_premium",
+    "https://store.google.com/fr/product/pixel_buds_pro_2",
+    "https://store.google.com/fr/product/pixel_buds_2a",
+    "https://store.google.com/fr/product/nest_cam_battery",
+    "https://store.google.com/fr/product/nest_cam_outdoor_wired_2nd_gen",
+    "https://store.google.com/fr/product/nest_cam_floodlight",
+    "https://store.google.com/fr/product/nest_cam_indoor",
+    "https://store.google.com/fr/product/nest_aware",
+    "https://store.google.com/fr/product/nest_doorbell_battery",
+    "https://store.google.com/fr/product/google_home_speaker",
+    "https://store.google.com/fr/product/google_tv_streamer",
+    "https://store.google.com/fr/product/nest_hub_2nd_gen",
+    "https://store.google.com/fr/product/nest_wifi_pro",
+    "https://store.google.com/fr/product/pixel_10_pro",
+    "https://store.google.com/fr/product/pixel_10_pro_specs",
+    "https://store.google.com/fr/config/pixel_10_pro",
+    "https://store.google.com/fr/config/pixel_10",
+    "https://store.google.com/fr/product/pixel_10",
+    "https://store.google.com/fr/config/pixel_10_pro_fold",
+    "https://store.google.com/fr/product/pixel_10_pro_fold",
+    "https://store.google.com/fr/product/pixel_watch_4",
+    "https://store.google.com/fr/product/pixel_10_pro_phone_case",
+    "https://store.google.com/fr/product/pixelsnap_charger",
+    "https://store.google.com/fr/product/pixelsnap_ring_stand",
+    "https://store.google.com/fr/product/pixelsnap_charger_stand",
+    "https://store.google.com/fr/product/google_usb_c_45w_charger"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Ignorer la navigation L'attente est terminée. Les offres Black Friday sont là.Acheter Smartphone Montres et bracelets d'activité Écouteurs Maison connectée Accessoires Offres Assistance Connexion Google Pixel 10 Pro et 10 Pro XL avec IA avancée Google Pixel 10 Pro Présentation Caractéristiques techniques Comparer Passer à Pixel À partir de 749 € ou 249,67 €/mois en 3 mensualités Prix de vente habituel : 999 € Acheter Dépassez le statu quo. Passez au Pro. À partir de 749 € ou 249,67 €/mois en 3 mensualités Prix de vente habituel : 999 € Acheter Pro 6,3 pouces Pro XL 6,8 pouces Économisez entre 50 et 695 € en échangeant un appareil éligibleΔ. En savoir plus sur le programme d'échange. Obtenir une estimation d'échange Un appareil photo d'exception. Une IA de pointe. Notre IA la plus avancée sur votre Pixel. Nos photos et vidéos de la plus haute qualité. Une puce nouvelle génération pour des performances IA optimales. Une conception irréprochable, disponible en deux tailles. Sept ans de nouvelles fonctionnalités et de mises à jour.1 Comparer les smartphones Comparer les smartphones Découvrir en 3D Découvrir en 3D Nouveautés du Google Pixel 10 Pro Allez encore plus loin avec vos photos grâce à Nano Banana dans Gemini. Imaginez-vous dans différentes scènes, fusionnez des éléments créatifs, effectuez des retouches spécifiques, et plus encore33. Décrivez simplement votre idée, et Pixel créera pour vous une courte vidéo de haute qualité avec du son.32 Regardez les scènes très mouvemen",
+   "json_samples": [
+    {
+     "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
+     "body": "[null, null, null, null, null, null, null, null, null, null, 0]"
+    }
+   ]
+  },
+  {
+   "url": "https://store.google.com/fr/product/pixel_10_pro_fold",
+   "status": 200,
+   "final_url": "https://store.google.com/fr/product/pixel_10_pro_fold?hl=fr",
+   "title": "Google Pixel 10 Pro Fold : l'avenir propulsé par Gemini",
+   "json_urls": [
+    "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
+    "https://store.google.com/intl/fr/ideas/feed/fr-fold-25-pdp.json?c=1795184793329"
+   ],
+   "links": [
+    "https://store.google.com/fr/product/pixel_11_pro",
+    "https://store.google.com/fr/product/pixel_11_pro_fold",
+    "https://store.google.com/fr/product/pixel_11",
+    "https://store.google.com/fr/product/pixel_10a",
+    "https://store.google.com/fr/product/pixel_watch_5",
+    "https://store.google.com/fr/product/google_fitbit_edge",
+    "https://store.google.com/fr/product/google_fitbit_air",
+    "https://store.google.com/fr/product/fitbit_versa_4",
+    "https://store.google.com/fr/product/google_health_premium",
+    "https://store.google.com/fr/product/pixel_buds_pro_2",
+    "https://store.google.com/fr/product/pixel_buds_2a",
+    "https://store.google.com/fr/product/nest_cam_battery",
+    "https://store.google.com/fr/product/nest_cam_outdoor_wired_2nd_gen",
+    "https://store.google.com/fr/product/nest_cam_floodlight",
+    "https://store.google.com/fr/product/nest_cam_indoor",
+    "https://store.google.com/fr/product/nest_aware",
+    "https://store.google.com/fr/product/nest_doorbell_battery",
+    "https://store.google.com/fr/product/google_home_speaker",
+    "https://store.google.com/fr/product/google_tv_streamer",
+    "https://store.google.com/fr/product/nest_hub_2nd_gen",
+    "https://store.google.com/fr/product/nest_wifi_pro",
+    "https://store.google.com/fr/product/pixel_10_pro_fold",
+    "https://store.google.com/fr/product/pixel_10_pro_fold_specs",
+    "https://store.google.com/fr/config/pixel_10_pro_fold",
+    "https://store.google.com/fr/config/pixel_10_pro",
+    "https://store.google.com/fr/product/pixel_10_pro",
+    "https://store.google.com/fr/config/pixel_10",
+    "https://store.google.com/fr/product/pixel_10",
+    "https://store.google.com/fr/product/pixel_watch_4",
+    "https://store.google.com/fr/product/pixel_10_pro_fold_phone_case",
+    "https://store.google.com/fr/product/pixelsnap_charger",
+    "https://store.google.com/fr/product/pixelsnap_ring_stand",
+    "https://store.google.com/fr/product/pixelsnap_charger_stand"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Ignorer la navigation L'attente est terminée. Les offres Black Friday sont là.Acheter Smartphone Montres et bracelets d'activité Écouteurs Maison connectée Accessoires Offres Assistance Connexion Google Pixel 10 Pro Fold : l'avenir propulsé par Gemini Google Pixel 10 Pro Fold Présentation Caractéristiques techniques Comparer Passer à Pixel À partir de 1 899 € ou 633 €/mois en 3 mensualités Acheter Ouvrez le champ des possibles. À partir de 1 899 € ou 633 €/mois en 3 mensualités Acheter Couleur : Quartz Gris Diapositive 1 sur 4 1 / 4 Image 1 sur 4. Économisez entre 50 et 695 € en échangeant un appareil éligibleΔ. En savoir plus sur le programme d'échange. Obtenir une estimation d'échange Notre meilleur smartphone pour le multitâche et le divertissement. Écran Super Actua Flex de 8 pouces. Notre plus grand écran à ce jour.1 Notre IA la plus avancée sur votre Pixel. L'incroyable module photo Pixel. Peut supporter plus de 10 ans de pliages et dépliages à répétition.2 Une puce nouvelle génération pour des performances IA optimales. Comparer les smartphones Comparer les smartphones Découvrir en 3D Découvrir en 3D Nouveautés du Google Pixel 10 Pro Fold Allez encore plus loin avec vos photos grâce à Nano Banana dans Gemini. Imaginez-vous dans différentes scènes, fusionnez des éléments créatifs, effectuez des retouches spécifiques, et plus encore3. Utilisez deux applications en même temps grâce à la fonctionnalité Diviser l'écran.4 Avec Aperçu instantané, les photos que vous prenez s'",
+   "json_samples": [
+    {
+     "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
+     "body": "[null, null, null, null, null, null, null, null, null, null, 0]"
+    },
+    {
+     "url": "https://store.google.com/intl/fr/ideas/feed/fr-fold-25-pdp.json?c=1795184793329",
+     "body": "{\"articles\": [{\"title\": \"Rechargez votre appareil en un clin d’œil avec notre sélection d’accessoires\", \"url\": \"https://store.google.com/intl/fr/ideas/articles/cases-and-chargers/\", \"category\": \"Phones\", \"imageURL\": \"https://storage.googleapis.com/googwebreview.appspot.com/grow-ext-cloud-images-uploads/ooy91k348kl0-3kgy4rshf2rvtq4e6f3wog-eeba83bc368743479f10c544659d3473-snap_592webp\", \"imageAltText\": \"Gros plan en contre-plongée d'une main tenant un smartphone bleu ardoise dans une coque assortie. La mise au point est faite sur l'arrière du téléphone, mettant en évidence le bloc photo et la découpe circulaire du logo « G » de Google. Le fond est gris foncé uni. \"}, {\"title\": \"Pixel met l'IA entre vos mains.\", \"url\": \"https://store.google.com/intl/fr/ideas/categories/ai/\", \"imageURL\": \"https://lh3.googleusercontent.com/yu1jQEX8Q71HlIC-0Iq4HAVLz7z-5uzBJ9h3-LlW0OH5aNXHhUszt4F6EJjHatpeVYxEv4BHhbhsFYchComUc-C20tUK14qONQZ4DRI\", \"imageAltText\": \"\"}, {\"title\": \"Passer de l’iPhone® au Google Pixel est plus facile que vous croyez\", \"url\": \"https://store.google.com/intl/fr/ideas/articles/imessage-on-pixel/\", \"category\": \"Tout sur Pixel\", \"imageURL\": \"https://lh3.googleusercontent.com/PsFG5VtMibug40sRdMAulaJqCAfs_JWpEzmKbLFAQ6HVnymhRHlV6R8ge6XoWnEFDoVf732NeR6mMnIEg-eP0X-YCEo59MMOHP_T-Fs\", \"imageAltText\": \"Une personne utilise son téléphone Pixel pour passer un appel\"}, {\"title\": \"Coach Photo booste vos compétences en photo.\", \"url\": \"https://store.google.com/intl/fr/ideas/articles/camera-coach/\", \"imageURL\": \"https://lh3.googleusercontent.com/WCWAvZd_bst0NfR8Q7RFIQ0hu4hRkfilN2m1_4mktpW8y9XmuCPU_QiV5A9k8a4jRdtGZKV1e3qxDncvKyT2vmSzQLhlJXxklnt6D34\", \"imageAltText\": \"Une personne utilise Camera Coach sur son Pixel pour prendre une photo de son ami qui est dans un canoë sur un lac.\"}, {\"title\": \"Intégrez tout le monde dans vos photos avec « M'ajouter »\", \"url\": \"https://store.google.com/intl/fr/ideas/articles/pixel-add-me/\", \"category\": \"Google AI\", \"imageURL\": \"https://lh3.googleusercontent.com/jSRcAzh7NpfJiMfGNLt13UhKN0vMUmsW9sw1dVHC6sQCSz_uZ-UtnUcBKNoDTXVYAf6b9UNXS9J9DgQx6_HtwAFu-9n1WBh70qJx5Aw\", \"imageAltText\": \"Vue aérienne d'un homme et d'une femme souriants, allongés sur le dos dans un champ d'herbe verte et de pissenlits jaunes. Ils portent tous deux des lunettes de soleil.\"}, {\"title\": \"Avec le dernier Pixel Drop, partager des fichiers avec un iPhone® est plus facile que jamais.\", \"url\": \"https://store.google.com/intl/fr/ideas/articles/pixel-quick-share-iphone/\", "
+    }
+   ]
+  },
+  {
+   "url": "https://store.google.com/fr/product/pixel_10",
+   "status": 200,
+   "final_url": "https://store.google.com/fr/product/pixel_10?hl=fr",
+   "title": "Pixel 10 avec Gemini et la retouche photo par IA",
+   "json_urls": [
+    "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData"
+   ],
+   "links": [
+    "https://store.google.com/fr/product/pixel_11_pro",
+    "https://store.google.com/fr/product/pixel_11_pro_fold",
+    "https://store.google.com/fr/product/pixel_11",
+    "https://store.google.com/fr/product/pixel_10a",
+    "https://store.google.com/fr/product/pixel_watch_5",
+    "https://store.google.com/fr/product/google_fitbit_edge",
+    "https://store.google.com/fr/product/google_fitbit_air",
+    "https://store.google.com/fr/product/fitbit_versa_4",
+    "https://store.google.com/fr/product/google_health_premium",
+    "https://store.google.com/fr/product/pixel_buds_pro_2",
+    "https://store.google.com/fr/product/pixel_buds_2a",
+    "https://store.google.com/fr/product/nest_cam_battery",
+    "https://store.google.com/fr/product/nest_cam_outdoor_wired_2nd_gen",
+    "https://store.google.com/fr/product/nest_cam_floodlight",
+    "https://store.google.com/fr/product/nest_cam_indoor",
+    "https://store.google.com/fr/product/nest_aware",
+    "https://store.google.com/fr/product/nest_doorbell_battery",
+    "https://store.google.com/fr/product/google_home_speaker",
+    "https://store.google.com/fr/product/google_tv_streamer",
+    "https://store.google.com/fr/product/nest_hub_2nd_gen",
+    "https://store.google.com/fr/product/nest_wifi_pro",
+    "https://store.google.com/fr/product/pixel_10",
+    "https://store.google.com/fr/product/pixel_10_specs",
+    "https://store.google.com/fr/config/pixel_10",
+    "https://store.google.com/fr/config/pixel_10_pro",
+    "https://store.google.com/fr/product/pixel_10_pro",
+    "https://store.google.com/fr/config/pixel_9a",
+    "https://store.google.com/fr/product/pixel_9a",
+    "https://store.google.com/fr/product/pixel_watch_4",
+    "https://store.google.com/fr/product/pixel_10_pro_phone_case",
+    "https://store.google.com/fr/product/pixelsnap_charger",
+    "https://store.google.com/fr/product/pixelsnap_ring_stand",
+    "https://store.google.com/fr/product/pixelsnap_charger_stand",
+    "https://store.google.com/fr/product/google_usb_c_45w_charger"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Ignorer la navigation L'attente est terminée. Les offres Black Friday sont là.Acheter Smartphone Montres et bracelets d'activité Écouteurs Maison connectée Accessoires Offres Assistance Connexion Pixel 10 avec Gemini et la retouche photo par IA Google Pixel 10 Présentation Caractéristiques techniques Comparer Passer à Google Pixel À partir de 599 €629 € ou 199,67 €/mois en 3 mensualités Prix de vente habituel : 799 € Acheter Économisez 209,99 € à l'achat d'un Google Pixel 10 et d’une Coque Pixelsnap pour Google Pixel 10. Offre valable jusqu'au 15/11. Acheter Spectaculaire à chaque instant. À partir de 599 € 629 € Économisez 30 € ou 199,67 €/mois en 3 mensualités Prix de vente habituel : 799 € Acheter Couleur : Indigo Diapositive 1 sur 4 1 / 4 Image 1 sur 4. Économisez 30 € à l'achat d'un Google Pixel 10. Offre valable jusqu'au 01/12^. Acheter Économisez entre 50 et 560 € en échangeant un appareil éligibleΔ. En savoir plus sur le programme d'échange Obtenir une estimation d'échange Tous les essentiels. Et bien plus encore. Nouveau téléobjectif. Deux fois plus durable dans le temps que le Pixel 8. Gemini, votre assistant IA intégré.1 Il vous protège et sécurise vos données. Sept ans de nouvelles fonctionnalités et de mises à jour.2 Comparer les smartphones Comparer les smartphones Découvrir en 3D Découvrir en 3D Nouveautés du Google Pixel 10 Capturez des détails époustouflants de très loin avec le nouveau téléobjectif x5. Le nouveau Coach photo utilise des modèles Gemini pour v",
+   "json_samples": [
+    {
+     "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
+     "body": "[null, null, null, null, null, null, null, null, null, null, 0]"
+    }
+   ]
+  },
+  {
+   "url": "https://store.google.com/fr/config/pixel_11_pro",
+   "status": 200,
+   "final_url": "https://store.google.com/fr/config/pixel_11_pro?hl=fr",
+   "title": "Achetez le Google Pixel 11 Pro",
+   "json_urls": [
+    "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData"
+   ],
+   "links": [
+    "https://store.google.com/fr/product/pixel_11_pro",
+    "https://store.google.com/fr/product/pixel_11_pro_fold",
+    "https://store.google.com/fr/product/pixel_11",
+    "https://store.google.com/fr/product/pixel_10a",
+    "https://store.google.com/fr/product/pixel_watch_5",
+    "https://store.google.com/fr/product/google_fitbit_edge",
+    "https://store.google.com/fr/product/google_fitbit_air",
+    "https://store.google.com/fr/product/fitbit_versa_4",
+    "https://store.google.com/fr/product/google_health_premium",
+    "https://store.google.com/fr/product/pixel_buds_pro_2",
+    "https://store.google.com/fr/product/pixel_buds_2a",
+    "https://store.google.com/fr/product/nest_cam_battery",
+    "https://store.google.com/fr/product/nest_cam_outdoor_wired_2nd_gen",
+    "https://store.google.com/fr/product/nest_cam_floodlight",
+    "https://store.google.com/fr/product/nest_cam_indoor",
+    "https://store.google.com/fr/product/nest_aware",
+    "https://store.google.com/fr/product/nest_doorbell_battery",
+    "https://store.google.com/fr/product/google_home_speaker",
+    "https://store.google.com/fr/product/google_tv_streamer",
+    "https://store.google.com/fr/product/nest_hub_2nd_gen",
+    "https://store.google.com/fr/product/nest_wifi_pro"
+   ],
+   "tiles": [
+    "256 Go | 12 Go de RAM 899 €",
+    "512 Go | 16 Go de RAM 1 029 €",
+    "1 To | 16 Go de RAM 1 289 €"
+   ],
+   "price_texts": [],
+   "items_by_source": {
+    "dom-tile": 3
+   },
+   "text_sample": "Ignorer la navigation L'attente est terminée. Les offres Black Friday sont là.Acheter Smartphone Montres et bracelets d'activité Écouteurs Maison connectée Accessoires Offres Assistance Connexion Google Pixel 11 Pro À partir de 899 € 1 099 € ou 299,67 €/mois en 3 mensualités Prix de vente habituel : 1 199 € Google Pixel 11 Pro À partir de 899 € 1 099 € ou 299,67 €/mois en 3 mensualités Prix de vente habituel : 1 199 € Choisissez une tailleΔ Google Pixel 11 Pro Écran de 6,3 pouces (161 mm) À partir de 899 € Google Pixel 11 Pro XL Écran de 6,8 pouces (171 mm) À partir de 1 199 € Choisissez votre couleur Rose Pêche Olive Brume Noir Volcanique (mat) Choisissez votre espace de stockage1 Les options avec plus de stockage et de mémoire RAM offrent un meilleur multitâche, des performances plus rapides et plus fluides, ainsi que plus d'espace pour les photos, les vidéos, les applications et plus encore.3 256 Go | 12 Go de RAM 899 € 512 Go | 16 Go de RAM 1 029 € 1 To | 16 Go de RAM 1 289 € Échangez votre téléphone Obtenez un remboursement lorsque vous échangez votre ancien téléphone En savoir plus Obtenir une estimation Passer À partir de 899 € 1 099 € ou 299,67 €/mois en 3 mensualités Prix de vente habituel : 1 199 € Ajouter au panier Saisissez votre code postal pour savoir quand cet article arrivera Informations sur le produit Valeur DAS maximale pour le Google Pixel 11 Pro : 0,99 W/kg (tête), 1,39 W/kg (tronc), 1,39 W/kg (membres) Valeur DAS maximale pour le Google Pixel 11 Pro XL"
+  },
+  {
+   "url": "https://store.google.com/fr/config/pixel_11_pro_fold",
+   "status": 200,
+   "final_url": "https://store.google.com/fr/config/pixel_11_pro_fold?hl=fr",
+   "title": "Acheter le Google Pixel 11 Pro Fold",
+   "json_urls": [
+    "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData"
+   ],
+   "links": [
+    "https://store.google.com/fr/product/pixel_11_pro",
+    "https://store.google.com/fr/product/pixel_11_pro_fold",
+    "https://store.google.com/fr/product/pixel_11",
+    "https://store.google.com/fr/product/pixel_10a",
+    "https://store.google.com/fr/product/pixel_watch_5",
+    "https://store.google.com/fr/product/google_fitbit_edge",
+    "https://store.google.com/fr/product/google_fitbit_air",
+    "https://store.google.com/fr/product/fitbit_versa_4",
+    "https://store.google.com/fr/product/google_health_premium",
+    "https://store.google.com/fr/product/pixel_buds_pro_2",
+    "https://store.google.com/fr/product/pixel_buds_2a",
+    "https://store.google.com/fr/product/nest_cam_battery",
+    "https://store.google.com/fr/product/nest_cam_outdoor_wired_2nd_gen",
+    "https://store.google.com/fr/product/nest_cam_floodlight",
+    "https://store.google.com/fr/product/nest_cam_indoor",
+    "https://store.google.com/fr/product/nest_aware",
+    "https://store.google.com/fr/product/nest_doorbell_battery",
+    "https://store.google.com/fr/product/google_home_speaker",
+    "https://store.google.com/fr/product/google_tv_streamer",
+    "https://store.google.com/fr/product/nest_hub_2nd_gen",
+    "https://store.google.com/fr/product/nest_wifi_pro"
+   ],
+   "tiles": [
+    "256 Go | 16 Go de RAM 1 999 €",
+    "512 Go | 16 Go de RAM 2 129 €",
+    "1 To | 16 Go de RAM 2 389 € En rupture de stock — Recevez une notification"
+   ],
+   "price_texts": [],
+   "items_by_source": {
+    "dom-tile": 2
+   },
+   "text_sample": "Ignorer la navigation L'attente est terminée. Les offres Black Friday sont là.Acheter Smartphone Montres et bracelets d'activité Écouteurs Maison connectée Accessoires Offres Assistance Connexion Google Pixel 11 Pro Fold À partir de 1 999 € ou 666,33 €/mois en 3 mensualités 1 / 5 Google Pixel 11 Pro Fold À partir de 1 999 € ou 666,33 €/mois en 3 mensualités Choisissez votre couleur Olive En rupture de stock — Recevez une notification Noir Volcanique Choisissez votre espace de stockage1 256 Go | 16 Go de RAM 1 999 € 512 Go | 16 Go de RAM 2 129 € 1 To | 16 Go de RAM 2 389 € En rupture de stock — Recevez une notification Échangez votre téléphone Obtenez un remboursement lorsque vous échangez votre ancien téléphone En savoir plus Obtenir une estimation Obtenez jusqu'à 820 € de remise avec un échange éligible (prime promotionnelle de 175 € incluse). Offre valable jusqu'au 01/12§. Passer À partir de 1 999 € ou 666,33 €/mois en 3 mensualités Ajouter au panier Saisissez votre code postal pour savoir quand cet article arrivera Informations sur le produit ◊ Inclus : le Google Pixel 11 Pro Fold, un câble de recharge. L'adaptateur secteur USB-C 45 W est vendu séparément. Nécessite : un compte Google, un accès Internet et/ou un abonnement payant pour certaines fonctionnalités. Certaines fonctionnalités ne sont pas disponibles dans toutes les régions. Consultez g.co/pixel/specs pour en savoir plus. 1 Les caractéristiques liées à l'espace de stockage font référence à la capacité avant for"
+  },
+  {
+   "url": "https://store.google.com/fr/config/pixel_11",
+   "status": 200,
+   "final_url": "https://store.google.com/fr/config/pixel_11?hl=fr",
+   "title": "Acheter le Google Pixel 11",
+   "json_urls": [
+    "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData"
+   ],
+   "links": [
+    "https://store.google.com/fr/product/pixel_11_pro",
+    "https://store.google.com/fr/product/pixel_11_pro_fold",
+    "https://store.google.com/fr/product/pixel_11",
+    "https://store.google.com/fr/product/pixel_10a",
+    "https://store.google.com/fr/product/pixel_watch_5",
+    "https://store.google.com/fr/product/google_fitbit_edge",
+    "https://store.google.com/fr/product/google_fitbit_air",
+    "https://store.google.com/fr/product/fitbit_versa_4",
+    "https://store.google.com/fr/product/google_health_premium",
+    "https://store.google.com/fr/product/pixel_buds_pro_2",
+    "https://store.google.com/fr/product/pixel_buds_2a",
+    "https://store.google.com/fr/product/nest_cam_battery",
+    "https://store.google.com/fr/product/nest_cam_outdoor_wired_2nd_gen",
+    "https://store.google.com/fr/product/nest_cam_floodlight",
+    "https://store.google.com/fr/product/nest_cam_indoor",
+    "https://store.google.com/fr/product/nest_aware",
+    "https://store.google.com/fr/product/nest_doorbell_battery",
+    "https://store.google.com/fr/product/google_home_speaker",
+    "https://store.google.com/fr/product/google_tv_streamer",
+    "https://store.google.com/fr/product/nest_hub_2nd_gen",
+    "https://store.google.com/fr/product/nest_wifi_pro"
+   ],
+   "tiles": [
+    "256 Go | 12 Go de RAM 699 €",
+    "512 Go | 12 Go de RAM 829 €"
+   ],
+   "price_texts": [],
+   "items_by_source": {
+    "dom-tile": 2
+   },
+   "text_sample": "Ignorer la navigation L'attente est terminée. Les offres Black Friday sont là.Acheter Smartphone Montres et bracelets d'activité Écouteurs Maison connectée Accessoires Offres Assistance Connexion Google Pixel 11 À partir de 699 € 899 € ou 233,00 €/mois en 3 mensualités Prix de vente habituel : 999 € 1 / 4 Google Pixel 11 À partir de 699 € 899 € ou 233,00 €/mois en 3 mensualités Prix de vente habituel : 999 € Choisissez votre couleur Givre Fuchsia Pistache Noir Volcanique Choisissez votre espace de stockage1 256 Go | 12 Go de RAM 699 € 512 Go | 12 Go de RAM 829 € Échangez votre téléphone Obtenez un remboursement lorsque vous échangez votre ancien téléphone En savoir plus Obtenir une estimation Passer À partir de 699 € 899 € ou 233,00 €/mois en 3 mensualités Prix de vente habituel : 999 € Ajouter au panier Saisissez votre code postal pour savoir quand cet article arrivera Informations sur le produit ◊ Comprend : le Google Pixel 11 Pro et un câble de recharge. L'adaptateur secteur USB-C 45 W est vendu séparément. Requiert : un compte Google, un accès Internet et/ou un abonnement payant pour certaines fonctionnalités. Certaines fonctionnalités ne sont pas disponibles dans toutes les régions. Consultez g.co/pixel/specs pour en savoir plus. Δ L'écran possède des coins arrondis. Il correspond à un rectangle dont la diagonale mesure 6,3 pouces (pour le Google Pixel 11 et le Google Pixel 11 Pro) et 6,8 pouces (pour le Google Pixel 11 Pro XL). La taille réelle de la zone d'affichage "
+  },
+  {
+   "url": "https://store.google.com/fr/config/pixel_10a",
+   "status": 200,
+   "final_url": "https://store.google.com/fr/config/pixel_10a?hl=fr",
+   "title": "Achetez le Google Pixel 10a, pensé pour la vraie vie",
+   "json_urls": [
+    "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData"
+   ],
+   "links": [
+    "https://store.google.com/fr/product/pixel_11_pro",
+    "https://store.google.com/fr/product/pixel_11_pro_fold",
+    "https://store.google.com/fr/product/pixel_11",
+    "https://store.google.com/fr/product/pixel_10a",
+    "https://store.google.com/fr/product/pixel_watch_5",
+    "https://store.google.com/fr/product/google_fitbit_edge",
+    "https://store.google.com/fr/product/google_fitbit_air",
+    "https://store.google.com/fr/product/fitbit_versa_4",
+    "https://store.google.com/fr/product/google_health_premium",
+    "https://store.google.com/fr/product/pixel_buds_pro_2",
+    "https://store.google.com/fr/product/pixel_buds_2a",
+    "https://store.google.com/fr/product/nest_cam_battery",
+    "https://store.google.com/fr/product/nest_cam_outdoor_wired_2nd_gen",
+    "https://store.google.com/fr/product/nest_cam_floodlight",
+    "https://store.google.com/fr/product/nest_cam_indoor",
+    "https://store.google.com/fr/product/nest_aware",
+    "https://store.google.com/fr/product/nest_doorbell_battery",
+    "https://store.google.com/fr/product/google_home_speaker",
+    "https://store.google.com/fr/product/google_tv_streamer",
+    "https://store.google.com/fr/product/nest_hub_2nd_gen",
+    "https://store.google.com/fr/product/nest_wifi_pro"
+   ],
+   "tiles": [
+    "128 Go 429 €",
+    "256 Go 529 €"
+   ],
+   "price_texts": [],
+   "items_by_source": {
+    "dom-tile": 2
+   },
+   "text_sample": "Ignorer la navigation L'attente est terminée. Les offres Black Friday sont là.Acheter Smartphone Montres et bracelets d'activité Écouteurs Maison connectée Accessoires Offres Assistance Connexion Google Pixel 10a À partir de 429 € 649 € ou 143,00 €/mois en 3 mensualités Prix de vente habituel : 649 € 1 / 4 Google Pixel 10a À partir de 429 € 649 € ou 143,00 €/mois en 3 mensualités Prix de vente habituel : 649 € Choisissez votre couleur Lavande Rouge Framboise Brume Noir Volcanique Choisissez votre espace de stockage1 128 Go 429 € 256 Go 529 € Échangez votre téléphone Obtenez un remboursement lorsque vous échangez votre ancien téléphone En savoir plus Obtenir une estimation Passer À partir de 429 € 649 € ou 143,00 €/mois en 3 mensualités Prix de vente habituel : 649 € Ajouter au panier Saisissez votre code postal pour savoir quand cet article arrivera Informations sur le produit DAS Google Pixel 10a : 0,99 W/kg (tête), 1,39 W/kg (tronc), 1,39 W/kg (membres) ◊ Contenu de la boîte : Pixel 10a, câble de recharge. L'adaptateur secteur 45 W USB-C est vendu séparément. L'utilisation de certaines fonctionnalités nécessite un compte Google, un accès à Internet et/ou un abonnement payant. Certaines fonctionnalités ne sont pas disponibles dans toutes les régions. Pour en savoir plus, consultez g.co/pixel/specs. 1 Les caractéristiques liées à l'espace de stockage font référence à la capacité avant formatage. La capacité réelle est inférieure. 2 La valeur d'échange ne peut être appliquée"
+  },
+  {
+   "url": "https://store.google.com/fr/config/pixel_10_pro",
+   "status": 200,
+   "final_url": "https://store.google.com/fr/config/pixel_10_pro?hl=fr",
+   "title": "Achetez le Pixel 10 Pro ou le Pixel 10 Pro XL avec la nouvelle puce Google Tensor G5",
+   "json_urls": [
+    "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData"
+   ],
+   "links": [
+    "https://store.google.com/fr/product/pixel_11_pro",
+    "https://store.google.com/fr/product/pixel_11_pro_fold",
+    "https://store.google.com/fr/product/pixel_11",
+    "https://store.google.com/fr/product/pixel_10a",
+    "https://store.google.com/fr/product/pixel_watch_5",
+    "https://store.google.com/fr/product/google_fitbit_edge",
+    "https://store.google.com/fr/product/google_fitbit_air",
+    "https://store.google.com/fr/product/fitbit_versa_4",
+    "https://store.google.com/fr/product/google_health_premium",
+    "https://store.google.com/fr/product/pixel_buds_pro_2",
+    "https://store.google.com/fr/product/pixel_buds_2a",
+    "https://store.google.com/fr/product/nest_cam_battery",
+    "https://store.google.com/fr/product/nest_cam_outdoor_wired_2nd_gen",
+    "https://store.google.com/fr/product/nest_cam_floodlight",
+    "https://store.google.com/fr/product/nest_cam_indoor",
+    "https://store.google.com/fr/product/nest_aware",
+    "https://store.google.com/fr/product/nest_doorbell_battery",
+    "https://store.google.com/fr/product/google_home_speaker",
+    "https://store.google.com/fr/product/google_tv_streamer",
+    "https://store.google.com/fr/product/nest_hub_2nd_gen",
+    "https://store.google.com/fr/product/nest_wifi_pro",
+    "https://store.google.com/fr/product/pixel_10_pro"
+   ],
+   "tiles": [
+    "128 Go 749 €",
+    "256 Go 1 299 €",
+    "512 Go 979 € En rupture de stock — Recevez une notification",
+    "1 To 1 239 €"
+   ],
+   "price_texts": [],
+   "items_by_source": {
+    "dom-tile": 3
+   },
+   "text_sample": "Ignorer la navigation L'attente est terminée. Les offres Black Friday sont là.Acheter Smartphone Montres et bracelets d'activité Écouteurs Maison connectée Accessoires Offres Assistance Connexion Google Pixel 10 Pro À partir de 749 € ou 249,67 €/mois en 3 mensualités Prix de vente habituel : 999 € Google Pixel 10 Pro À partir de 749 € ou 249,67 €/mois en 3 mensualités Prix de vente habituel : 999 € Choisissez une tailleΔ Google Pixel 10 Pro Écran de 6,3 pouces (161 mm) À partir de 749 € Pixel 10 Pro XL Écran de 6,8 pouces (171 mm) À partir de 1 299 € Choisissez votre couleur Quartz Gris En rupture de stock — Recevez une notification Jade En rupture de stock — Recevez une notification Porcelaine En rupture de stock — Recevez une notification Noir Volcanique Choisissez votre espace de stockage1 128 Go 749 € 256 Go 1 299 € 512 Go 979 € En rupture de stock — Recevez une notification 1 To 1 239 € Échangez votre téléphone Obtenez un remboursement lorsque vous échangez votre ancien téléphone En savoir plus Obtenir une estimation Passer À partir de 749 € ou 249,67 €/mois en 3 mensualités Prix de vente habituel : 999 € Ajouter au panier Saisissez votre code postal pour savoir quand cet article arrivera Informations sur le produit DAS Pixel 10 Pro : 0,99 W/kg (tête), 1,39 W/kg (tronc), 2,77 W/kg (membres) DAS Pixel 10 Pro XL : 0,99 W/kg (tête), 1,39 W/kg (tronc), 2,79 W/kg (membres) ◊ Contenu de la boîte : Pixel 10 Pro et câble de recharge. L'adaptateur secteur 45 W USB-C est vendu s"
+  },
+  {
+   "url": "https://store.google.com/fr/config/pixel_10_pro_fold",
+   "status": 200,
+   "final_url": "https://store.google.com/fr/config/pixel_10_pro_fold?hl=fr",
+   "title": "Achetez le Google Pixel 10 Pro Fold en Quartz Gris ou Jade",
+   "json_urls": [
+    "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData"
+   ],
+   "links": [
+    "https://store.google.com/fr/product/pixel_11_pro",
+    "https://store.google.com/fr/product/pixel_11_pro_fold",
+    "https://store.google.com/fr/product/pixel_11",
+    "https://store.google.com/fr/product/pixel_10a",
+    "https://store.google.com/fr/product/pixel_watch_5",
+    "https://store.google.com/fr/product/google_fitbit_edge",
+    "https://store.google.com/fr/product/google_fitbit_air",
+    "https://store.google.com/fr/product/fitbit_versa_4",
+    "https://store.google.com/fr/product/google_health_premium",
+    "https://store.google.com/fr/product/pixel_buds_pro_2",
+    "https://store.google.com/fr/product/pixel_buds_2a",
+    "https://store.google.com/fr/product/nest_cam_battery",
+    "https://store.google.com/fr/product/nest_cam_outdoor_wired_2nd_gen",
+    "https://store.google.com/fr/product/nest_cam_floodlight",
+    "https://store.google.com/fr/product/nest_cam_indoor",
+    "https://store.google.com/fr/product/nest_aware",
+    "https://store.google.com/fr/product/nest_doorbell_battery",
+    "https://store.google.com/fr/product/google_home_speaker",
+    "https://store.google.com/fr/product/google_tv_streamer",
+    "https://store.google.com/fr/product/nest_hub_2nd_gen",
+    "https://store.google.com/fr/product/nest_wifi_pro",
+    "https://store.google.com/fr/product/pixel_10_pro_fold"
+   ],
+   "tiles": [
+    "256 Go 1 899 €",
+    "512 Go 2 029 € En rupture de stock — Recevez une notification",
+    "1 To 2 289 € En rupture de stock — Recevez une notification"
+   ],
+   "price_texts": [],
+   "items_by_source": {
+    "dom-tile": 1
+   },
+   "text_sample": "Ignorer la navigation L'attente est terminée. Les offres Black Friday sont là.Acheter Smartphone Montres et bracelets d'activité Écouteurs Maison connectée Accessoires Offres Assistance Connexion Google Pixel 10 Pro Fold À partir de 1 899 € ou 633,00 €/mois en 3 mensualités 1 / 5 Google Pixel 10 Pro Fold À partir de 1 899 € ou 633,00 €/mois en 3 mensualités Choisissez votre couleur Quartz Gris Jade En rupture de stock — Recevez une notification Choisissez votre espace de stockage1 256 Go 1 899 € 512 Go 2 029 € En rupture de stock — Recevez une notification 1 To 2 289 € En rupture de stock — Recevez une notification Échangez votre téléphone Obtenez un remboursement lorsque vous échangez votre ancien téléphone En savoir plus Obtenir une estimation Passer À partir de 1 899 € ou 633,00 €/mois en 3 mensualités Ajouter au panier Saisissez votre code postal pour savoir quand cet article arrivera Informations sur le produit DAS Pixel 10 Pro Fold : 0,99 W/kg (tête), 1,39 W/kg (tronc), 2,79 W/Kg (membres) ◊ Contenu de la boîte : Pixel 10 Pro Fold et câble de recharge. L'adaptateur secteur 45 W USB-C est vendu séparément. L'utilisation de certaines fonctionnalités nécessite un compte Google, un accès à Internet et/ou un abonnement payant. Certaines fonctionnalités ne sont pas disponibles dans tous les pays. Pour en savoir plus, consultez g.co/pixel/specs. Pour savoir quelles données les appareils Pixel collectent, consultez g.co/pixel/data-collection. 1 Les spécifications de stockage "
+  },
+  {
+   "url": "https://store.google.com/fr/config/pixel_10",
+   "status": 200,
+   "final_url": "https://store.google.com/fr/config/pixel_10?hl=fr",
+   "title": "Découvrez le nouveau Google Pixel 10",
+   "json_urls": [
+    "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData"
+   ],
+   "links": [
+    "https://store.google.com/fr/product/pixel_11_pro",
+    "https://store.google.com/fr/product/pixel_11_pro_fold",
+    "https://store.google.com/fr/product/pixel_11",
+    "https://store.google.com/fr/product/pixel_10a",
+    "https://store.google.com/fr/product/pixel_watch_5",
+    "https://store.google.com/fr/product/google_fitbit_edge",
+    "https://store.google.com/fr/product/google_fitbit_air",
+    "https://store.google.com/fr/product/fitbit_versa_4",
+    "https://store.google.com/fr/product/google_health_premium",
+    "https://store.google.com/fr/product/pixel_buds_pro_2",
+    "https://store.google.com/fr/product/pixel_buds_2a",
+    "https://store.google.com/fr/product/nest_cam_battery",
+    "https://store.google.com/fr/product/nest_cam_outdoor_wired_2nd_gen",
+    "https://store.google.com/fr/product/nest_cam_floodlight",
+    "https://store.google.com/fr/product/nest_cam_indoor",
+    "https://store.google.com/fr/product/nest_aware",
+    "https://store.google.com/fr/product/nest_doorbell_battery",
+    "https://store.google.com/fr/product/google_home_speaker",
+    "https://store.google.com/fr/product/google_tv_streamer",
+    "https://store.google.com/fr/product/nest_hub_2nd_gen",
+    "https://store.google.com/fr/product/nest_wifi_pro",
+    "https://store.google.com/fr/product/pixel_10"
+   ],
+   "tiles": [
+    "128 Go 599 €",
+    "256 Go 699 €"
+   ],
+   "price_texts": [],
+   "items_by_source": {
+    "dom-tile": 2
+   },
+   "text_sample": "Ignorer la navigation L'attente est terminée. Les offres Black Friday sont là.Acheter Smartphone Montres et bracelets d'activité Écouteurs Maison connectée Accessoires Offres Assistance Connexion Google Pixel 10 À partir de 599 € 629 € ou 199,67 €/mois en 3 mensualités Prix de vente habituel : 799 € 1 / 4 Google Pixel 10 À partir de 599 € 629 € ou 199,67 €/mois en 3 mensualités Prix de vente habituel : 799 € Choisissez votre couleur Indigo En rupture de stock — Recevez une notification Givre En rupture de stock — Recevez une notification Vert Citron En rupture de stock — Recevez une notification Noir Volcanique Choisissez votre espace de stockage1 128 Go 599 € 256 Go 699 € Échangez votre téléphone Obtenez un remboursement lorsque vous échangez votre ancien téléphone En savoir plus Obtenir une estimation Passer À partir de 599 € 629 € ou 199,67 €/mois en 3 mensualités Prix de vente habituel : 799 € Ajouter au panier Saisissez votre code postal pour savoir quand cet article arrivera Informations sur le produit DAS Pixel 10 : 0,99 W/kg (tête), 1,39 W/kg (tronc), 2,79 W/kg (membres) ◊ Contenu de la boîte : Google Pixel 10 et câble de recharge. L'adaptateur secteur 45 W USB-C est vendu séparément. L'utilisation de certaines fonctionnalités nécessite un compte Google, un accès à Internet et/ou un abonnement payant. Certaines fonctionnalités ne sont pas disponibles dans tous les pays. Pour en savoir plus, consultez g.co/pixel/specs. Pour savoir quelles données les appareils Pixel "
+  },
+  {
+   "url": "https://store.google.com/fr/config/pixel_watch_5",
+   "status": 200,
+   "final_url": "https://store.google.com/fr/config/pixel_watch_5?hl=fr",
+   "title": "Google Pixel Watch 5",
+   "json_urls": [
+    "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData"
+   ],
+   "links": [
+    "https://store.google.com/fr/product/pixel_11_pro",
+    "https://store.google.com/fr/product/pixel_11_pro_fold",
+    "https://store.google.com/fr/product/pixel_11",
+    "https://store.google.com/fr/product/pixel_10a",
+    "https://store.google.com/fr/product/pixel_watch_5",
+    "https://store.google.com/fr/product/google_fitbit_edge",
+    "https://store.google.com/fr/product/google_fitbit_air",
+    "https://store.google.com/fr/product/fitbit_versa_4",
+    "https://store.google.com/fr/product/google_health_premium",
+    "https://store.google.com/fr/product/pixel_buds_pro_2",
+    "https://store.google.com/fr/product/pixel_buds_2a",
+    "https://store.google.com/fr/product/nest_cam_battery",
+    "https://store.google.com/fr/product/nest_cam_outdoor_wired_2nd_gen",
+    "https://store.google.com/fr/product/nest_cam_floodlight",
+    "https://store.google.com/fr/product/nest_cam_indoor",
+    "https://store.google.com/fr/product/nest_aware",
+    "https://store.google.com/fr/product/nest_doorbell_battery",
+    "https://store.google.com/fr/product/google_home_speaker",
+    "https://store.google.com/fr/product/google_tv_streamer",
+    "https://store.google.com/fr/product/nest_hub_2nd_gen",
+    "https://store.google.com/fr/product/nest_wifi_pro"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {
+    "dom-from": 1
+   },
+   "text_sample": "Ignorer la navigation L'attente est terminée. Les offres Black Friday sont là.Acheter Smartphone Montres et bracelets d'activité Écouteurs Maison connectée Accessoires Offres Assistance Connexion Google Pixel Watch 5 À partir de 349 € 419 € ou 116,33 €/mois en 3 mensualités Prix de vente habituel : 419 € Google Pixel Watch 5 À partir de 349 € 419 € ou 116,33 €/mois en 3 mensualités Prix de vente habituel : 419 € Taille Vous n’arrivez pas à vous décider ? Mesurez votre poignet. 41 mm Convient aux poignets de 130 à 210 mm À partir de 349 € 45 mm Écran plus grand, convient aux poignets de 150 à 215 mm À partir de 379 € Choisissez votre couleur Boîtier en aluminium Argent Poli / Bracelet sport Brume Boîtier en aluminium Champagne Doré / Bracelet sport Rose Pêche Boîtier en aluminium Pyrite Satinée / Bracelet sport Olive Boîtier en aluminium Noir Mat / Bracelet sport Noir Volcanique Choisissez un niveau de connectivité Opérateurs proposant la 4G LTE 4G LTE + Bluetooth®/Wi-Fi Restez toujours connecté, même sans votre téléphone 449 € Bluetooth®/Wi-Fi Gardez votre téléphone à proximité pour les SMS et les appels 349 € Échangez votre appareil Recevez de l'argent en échange de votre ancienne montre ou de votre ancien bracelet d'activité sport En savoir plus Obtenir une estimation Passer À partir de 349 € 419 € ou 116,33 €/mois en 3 mensualités Prix de vente habituel : 419 € Ajouter au panier Saisissez votre code postal pour savoir quand cet article arrivera 2 La valeur d'échange ne p"
+  },
+  {
+   "url": "https://store.google.com/fr/config/pixel_buds_pro_2",
+   "status": 200,
+   "final_url": "https://store.google.com/fr/config/pixel_buds_pro_2?hl=fr",
+   "title": "Acheter les Google Pixel Buds Pro 2",
+   "json_urls": [
+    "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData"
+   ],
+   "links": [
+    "https://store.google.com/fr/product/pixel_11_pro",
+    "https://store.google.com/fr/product/pixel_11_pro_fold",
+    "https://store.google.com/fr/product/pixel_11",
+    "https://store.google.com/fr/product/pixel_10a",
+    "https://store.google.com/fr/product/pixel_watch_5",
+    "https://store.google.com/fr/product/google_fitbit_edge",
+    "https://store.google.com/fr/product/google_fitbit_air",
+    "https://store.google.com/fr/product/fitbit_versa_4",
+    "https://store.google.com/fr/product/google_health_premium",
+    "https://store.google.com/fr/product/pixel_buds_pro_2",
+    "https://store.google.com/fr/product/pixel_buds_2a",
+    "https://store.google.com/fr/product/nest_cam_battery",
+    "https://store.google.com/fr/product/nest_cam_outdoor_wired_2nd_gen",
+    "https://store.google.com/fr/product/nest_cam_floodlight",
+    "https://store.google.com/fr/product/nest_cam_indoor",
+    "https://store.google.com/fr/product/nest_aware",
+    "https://store.google.com/fr/product/nest_doorbell_battery",
+    "https://store.google.com/fr/product/google_home_speaker",
+    "https://store.google.com/fr/product/google_tv_streamer",
+    "https://store.google.com/fr/product/nest_hub_2nd_gen",
+    "https://store.google.com/fr/product/nest_wifi_pro"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Ignorer la navigation L'attente est terminée. Les offres Black Friday sont là.Acheter Smartphone Montres et bracelets d'activité Écouteurs Maison connectée Accessoires Offres Assistance Connexion Google Pixel Buds Pro 2 169 € 249 € ou 56,33 €/mois en 3 mensualités Prix de vente habituel : 249 € 1 / 4 Google Pixel Buds Pro 2 169 € 249 € ou 56,33 €/mois en 3 mensualités Prix de vente habituel : 249 € Choisissez votre couleur Porcelaine Olive Rose Pivoine Vert Sauge 169 € 249 € ou 56,33 €/mois en 3 mensualités Prix de vente habituel : 249 € Ajouter au panier Saisissez votre code postal pour savoir quand cet article arrivera À propos À propos de Google Store Programme de parrainage Commandes Disponibilité par pays et restrictions de livraison Gérer une commande Livraison standard gratuite Programme d'échange Financement Politique de retour Annulations d'abonnement renoncer au contrat Assistance Assistance Fitbit Nous contacter Centre d’aide Assistance dédiée au handicap Réparations Envoyer des commentaires Développement durable Recyclage de l'appareil Développement durable France Confidentialité Engagement de Google Nest pour la protection de la vie privée Conditions de vente Conditions d'utilisation Caractéristiques environnementales des produits",
+   "json_samples": [
+    {
+     "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
+     "body": "[null, null, null, null, null, null, null, null, null, null, 0]"
+    }
+   ]
+  },
+  {
+   "url": "https://store.google.com/fr/config/google_fitbit_edge",
+   "status": 200,
+   "final_url": "https://store.google.com/fr/config/google_fitbit_edge?hl=fr",
+   "title": "Google Fitbit Edge",
+   "json_urls": [
+    "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData"
+   ],
+   "links": [
+    "https://store.google.com/fr/product/pixel_11_pro",
+    "https://store.google.com/fr/product/pixel_11_pro_fold",
+    "https://store.google.com/fr/product/pixel_11",
+    "https://store.google.com/fr/product/pixel_10a",
+    "https://store.google.com/fr/product/pixel_watch_5",
+    "https://store.google.com/fr/product/google_fitbit_edge",
+    "https://store.google.com/fr/product/google_fitbit_air",
+    "https://store.google.com/fr/product/fitbit_versa_4",
+    "https://store.google.com/fr/product/google_health_premium",
+    "https://store.google.com/fr/product/pixel_buds_pro_2",
+    "https://store.google.com/fr/product/pixel_buds_2a",
+    "https://store.google.com/fr/product/nest_cam_battery",
+    "https://store.google.com/fr/product/nest_cam_outdoor_wired_2nd_gen",
+    "https://store.google.com/fr/product/nest_cam_floodlight",
+    "https://store.google.com/fr/product/nest_cam_indoor",
+    "https://store.google.com/fr/product/nest_aware",
+    "https://store.google.com/fr/product/nest_doorbell_battery",
+    "https://store.google.com/fr/product/google_home_speaker",
+    "https://store.google.com/fr/product/google_tv_streamer",
+    "https://store.google.com/fr/product/nest_hub_2nd_gen",
+    "https://store.google.com/fr/product/nest_wifi_pro"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {
+    "dom-from": 1
+   },
+   "text_sample": "Ignorer la navigation L'attente est terminée. Les offres Black Friday sont là.Acheter Smartphone Montres et bracelets d'activité Écouteurs Maison connectée Accessoires Offres Assistance Connexion Google Fitbit Edge À partir de 179,99 € ou 60,00 €/mois en 3 mensualités 1 / 3 Google Fitbit Edge À partir de 179,99 € ou 60,00 €/mois en 3 mensualités Choisissez un style Classique 179,99 € Bracelet Stephen Curry en édition spéciale 219,99 € Choisissez une combinaison de coloris Boîtier en aluminium Pyrite Satinée / Bracelet sport Olive Boîtier en aluminium Noir Mat / Bracelet sport Noir Volcanique Boîtier en aluminium argent satiné / Bracelet sport Brume Boîtier en aluminium Champagne Doré / bracelet sport Rose Pêche Boîtier en aluminium Pyrite satiné / Bracelet édition spéciale Stephen Curry Seigle À partir de 179,99 € ou 60,00 €/mois en 3 mensualités Ajouter au panier Saisissez votre code postal pour savoir quand cet article arrivera À propos À propos de Google Store Programme de parrainage Commandes Disponibilité par pays et restrictions de livraison Gérer une commande Livraison standard gratuite Programme d'échange Financement Politique de retour Annulations d'abonnement renoncer au contrat Assistance Assistance Fitbit Nous contacter Centre d’aide Assistance dédiée au handicap Réparations Envoyer des commentaires Développement durable Recyclage de l'appareil Développement durable France Confidentialité Engagement de Google Nest pour la protection de la vie privée Conditions "
+  },
+  {
+   "url": "https://store.google.com/fr/config/google_fitbit_air",
+   "status": 200,
+   "final_url": "https://store.google.com/fr/config/google_fitbit_air?hl=fr",
+   "title": "Google Fitbit Air",
+   "json_urls": [
+    "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData"
+   ],
+   "links": [
+    "https://store.google.com/fr/product/pixel_11_pro",
+    "https://store.google.com/fr/product/pixel_11_pro_fold",
+    "https://store.google.com/fr/product/pixel_11",
+    "https://store.google.com/fr/product/pixel_10a",
+    "https://store.google.com/fr/product/pixel_watch_5",
+    "https://store.google.com/fr/product/google_fitbit_edge",
+    "https://store.google.com/fr/product/google_fitbit_air",
+    "https://store.google.com/fr/product/fitbit_versa_4",
+    "https://store.google.com/fr/product/google_health_premium",
+    "https://store.google.com/fr/product/pixel_buds_pro_2",
+    "https://store.google.com/fr/product/pixel_buds_2a",
+    "https://store.google.com/fr/product/nest_cam_battery",
+    "https://store.google.com/fr/product/nest_cam_outdoor_wired_2nd_gen",
+    "https://store.google.com/fr/product/nest_cam_floodlight",
+    "https://store.google.com/fr/product/nest_cam_indoor",
+    "https://store.google.com/fr/product/nest_aware",
+    "https://store.google.com/fr/product/nest_doorbell_battery",
+    "https://store.google.com/fr/product/google_home_speaker",
+    "https://store.google.com/fr/product/google_tv_streamer",
+    "https://store.google.com/fr/product/nest_hub_2nd_gen",
+    "https://store.google.com/fr/product/nest_wifi_pro"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Ignorer la navigation L'attente est terminée. Les offres Black Friday sont là.Acheter Smartphone Montres et bracelets d'activité Écouteurs Maison connectée Accessoires Offres Assistance Connexion Google Fitbit Air 99,99 € ou 33,33 €/mois en 3 mensualités 1 / 3 Google Fitbit Air 99,99 € ou 33,33 €/mois en 3 mensualités Choisissez votre couleur Noir Volcanique Lavande Rouge Framboise Brume 99,99 € ou 33,33 €/mois en 3 mensualités Ajouter au panier Saisissez votre code postal pour savoir quand cet article arrivera À propos À propos de Google Store Programme de parrainage Commandes Disponibilité par pays et restrictions de livraison Gérer une commande Livraison standard gratuite Programme d'échange Financement Politique de retour Annulations d'abonnement renoncer au contrat Assistance Assistance Fitbit Nous contacter Centre d’aide Assistance dédiée au handicap Réparations Envoyer des commentaires Développement durable Recyclage de l'appareil Développement durable France Confidentialité Engagement de Google Nest pour la protection de la vie privée Conditions de vente Conditions d'utilisation Caractéristiques environnementales des produits",
+   "json_samples": [
+    {
+     "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
+     "body": "[null, null, null, null, null, null, null, null, null, null, 0]"
+    }
+   ]
+  },
+  {
+   "url": "https://store.google.com/fr/config/google_home_speaker",
+   "status": 200,
+   "final_url": "https://store.google.com/fr/config/google_home_speaker?hl=fr",
+   "title": "Achetez l&#39;enceinte Google Home",
+   "json_urls": [
+    "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData"
+   ],
+   "links": [
+    "https://store.google.com/fr/product/pixel_11_pro",
+    "https://store.google.com/fr/product/pixel_11_pro_fold",
+    "https://store.google.com/fr/product/pixel_11",
+    "https://store.google.com/fr/product/pixel_10a",
+    "https://store.google.com/fr/product/pixel_watch_5",
+    "https://store.google.com/fr/product/google_fitbit_edge",
+    "https://store.google.com/fr/product/google_fitbit_air",
+    "https://store.google.com/fr/product/fitbit_versa_4",
+    "https://store.google.com/fr/product/google_health_premium",
+    "https://store.google.com/fr/product/pixel_buds_pro_2",
+    "https://store.google.com/fr/product/pixel_buds_2a",
+    "https://store.google.com/fr/product/nest_cam_battery",
+    "https://store.google.com/fr/product/nest_cam_outdoor_wired_2nd_gen",
+    "https://store.google.com/fr/product/nest_cam_floodlight",
+    "https://store.google.com/fr/product/nest_cam_indoor",
+    "https://store.google.com/fr/product/nest_aware",
+    "https://store.google.com/fr/product/nest_doorbell_battery",
+    "https://store.google.com/fr/product/google_home_speaker",
+    "https://store.google.com/fr/product/google_tv_streamer",
+    "https://store.google.com/fr/product/nest_hub_2nd_gen",
+    "https://store.google.com/fr/product/nest_wifi_pro"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Ignorer la navigation L'attente est terminée. Les offres Black Friday sont là.Acheter Smartphone Montres et bracelets d'activité Écouteurs Maison connectée Accessoires Offres Assistance Connexion Économisez 40 € à l'achat de deux Google Home Speakers. Offre valable jusqu'au 01/12^. Google Home Speaker 119,99 € ou 40,00 €/mois en 3 mensualités 1 / 3 Google Home Speaker 119,99 € ou 40,00 €/mois en 3 mensualités Choisissez votre couleur Porcelaine Vert Sauge 119,99 € ou 40,00 €/mois en 3 mensualités Ajouter au panier Saisissez votre code postal pour savoir quand cet article arrivera ^ Économisez 40 € à l'achat de deux Google Home Speakers. Ajoutez simplement les deux articles à votre panier pour profiter de l’offre, entre le 16/11/2026 à 00:00 CET et le 01/12/2026 à 23:59 CET, jusqu'à épuisement des stocks. Offre réservée aux personnes d'au moins 18 ans disposant d'une adresse de livraison en France. Si l'un des deux produits de l'offre est renvoyé, vous serez remboursé de la valeur du produit renvoyé moins la valeur de l'offre spéciale. Cette offre ne peut pas être cumulée avec d'autres offres groupées en cours, mais elle peut être cumulée avec les codes promotionnels éligibles. Elle n'est pas transférable et ne peut être échangée contre des espèces ni des équivalents d'espèces. L'achat doit être effectué sur le site Google Store France. Des frais de livraison peuvent être appliqués au moment du paiement. Offre nulle et non avenue dans les pays où elle est interdite par la l",
+   "json_samples": [
+    {
+     "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
+     "body": "[null, null, null, null, null, null, null, null, null, null, 0]"
+    }
+   ]
+  },
+  {
+   "url": "https://store.google.com/fr/config/pixel_buds_2a",
+   "status": 200,
+   "final_url": "https://store.google.com/fr/config/pixel_buds_2a?hl=fr",
+   "title": "Acheter les Google Pixel Buds 2a",
+   "json_urls": [
+    "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData"
+   ],
+   "links": [
+    "https://store.google.com/fr/product/pixel_11_pro",
+    "https://store.google.com/fr/product/pixel_11_pro_fold",
+    "https://store.google.com/fr/product/pixel_11",
+    "https://store.google.com/fr/product/pixel_10a",
+    "https://store.google.com/fr/product/pixel_watch_5",
+    "https://store.google.com/fr/product/google_fitbit_edge",
+    "https://store.google.com/fr/product/google_fitbit_air",
+    "https://store.google.com/fr/product/fitbit_versa_4",
+    "https://store.google.com/fr/product/google_health_premium",
+    "https://store.google.com/fr/product/pixel_buds_pro_2",
+    "https://store.google.com/fr/product/pixel_buds_2a",
+    "https://store.google.com/fr/product/nest_cam_battery",
+    "https://store.google.com/fr/product/nest_cam_outdoor_wired_2nd_gen",
+    "https://store.google.com/fr/product/nest_cam_floodlight",
+    "https://store.google.com/fr/product/nest_cam_indoor",
+    "https://store.google.com/fr/product/nest_aware",
+    "https://store.google.com/fr/product/nest_doorbell_battery",
+    "https://store.google.com/fr/product/google_home_speaker",
+    "https://store.google.com/fr/product/google_tv_streamer",
+    "https://store.google.com/fr/product/nest_hub_2nd_gen",
+    "https://store.google.com/fr/product/nest_wifi_pro"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Ignorer la navigation L'attente est terminée. Les offres Black Friday sont là.Acheter Smartphone Montres et bracelets d'activité Écouteurs Maison connectée Accessoires Offres Assistance Connexion Google Pixel Buds 2a 119 € 149 € ou 39,67 €/mois en 3 mensualités Prix de vente habituel : 149 € 1 / 4 Google Pixel Buds 2a 119 € 149 € ou 39,67 €/mois en 3 mensualités Prix de vente habituel : 149 € Choisissez votre couleur Brume Rouge Framboise Iris Vert Sauge 119 € 149 € ou 39,67 €/mois en 3 mensualités Prix de vente habituel : 149 € Ajouter au panier Saisissez votre code postal pour savoir quand cet article arrivera À propos À propos de Google Store Programme de parrainage Commandes Disponibilité par pays et restrictions de livraison Gérer une commande Livraison standard gratuite Programme d'échange Financement Politique de retour Annulations d'abonnement renoncer au contrat Assistance Assistance Fitbit Nous contacter Centre d’aide Assistance dédiée au handicap Réparations Envoyer des commentaires Développement durable Recyclage de l'appareil Développement durable France Confidentialité Engagement de Google Nest pour la protection de la vie privée Conditions de vente Conditions d'utilisation Caractéristiques environnementales des produits",
+   "json_samples": [
+    {
+     "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
+     "body": "[null, null, null, null, null, null, null, null, null, null, 0]"
+    }
+   ]
+  },
+  {
+   "url": "https://store.google.com/fr/config/fitbit_charge_6",
+   "status": 200,
+   "final_url": "https://store.google.com/fr/config/fitbit_charge_6?hl=fr",
+   "title": "Achetez le bracelet d'activité sport premium Fitbit Charge 6",
+   "json_urls": [
+    "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData"
+   ],
+   "links": [
+    "https://store.google.com/fr/product/pixel_11_pro",
+    "https://store.google.com/fr/product/pixel_11_pro_fold",
+    "https://store.google.com/fr/product/pixel_11",
+    "https://store.google.com/fr/product/pixel_10a",
+    "https://store.google.com/fr/product/pixel_watch_5",
+    "https://store.google.com/fr/product/google_fitbit_edge",
+    "https://store.google.com/fr/product/google_fitbit_air",
+    "https://store.google.com/fr/product/fitbit_versa_4",
+    "https://store.google.com/fr/product/google_health_premium",
+    "https://store.google.com/fr/product/pixel_buds_pro_2",
+    "https://store.google.com/fr/product/pixel_buds_2a",
+    "https://store.google.com/fr/product/nest_cam_battery",
+    "https://store.google.com/fr/product/nest_cam_outdoor_wired_2nd_gen",
+    "https://store.google.com/fr/product/nest_cam_floodlight",
+    "https://store.google.com/fr/product/nest_cam_indoor",
+    "https://store.google.com/fr/product/nest_aware",
+    "https://store.google.com/fr/product/nest_doorbell_battery",
+    "https://store.google.com/fr/product/google_home_speaker",
+    "https://store.google.com/fr/product/google_tv_streamer",
+    "https://store.google.com/fr/product/nest_hub_2nd_gen",
+    "https://store.google.com/fr/product/nest_wifi_pro",
+    "https://store.google.com/fr/product/fitbit_charge_6"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Ignorer la navigation L'attente est terminée. Les offres Black Friday sont là.Acheter Smartphone Montres et bracelets d'activité Écouteurs Maison connectée Accessoires Offres Assistance Connexion Coach électronique Fitbit Charge 6 84,95 € 129,95 € ou 28,32 €/mois en 3 mensualités Prix de vente habituel : 129,95 € 1 / 3 Coach électronique Fitbit Charge 6 84,95 € 129,95 € ou 28,32 €/mois en 3 mensualités Prix de vente habituel : 129,95 € Choisissez votre couleur Corail / aluminium champagne doré Porcelaine / aluminium argent En rupture de stock — Recevez une notification Noir volcanique / aluminium noir En rupture de stock — Recevez une notification 84,95 € 129,95 € ou 28,32 €/mois en 3 mensualités Prix de vente habituel : 129,95 € Ajouter au panier Saisissez votre code postal pour savoir quand cet article arrivera À propos À propos de Google Store Programme de parrainage Commandes Disponibilité par pays et restrictions de livraison Gérer une commande Livraison standard gratuite Programme d'échange Financement Politique de retour Annulations d'abonnement renoncer au contrat Assistance Assistance Fitbit Nous contacter Centre d’aide Assistance dédiée au handicap Réparations Envoyer des commentaires Développement durable Recyclage de l'appareil Développement durable France Confidentialité Engagement de Google Nest pour la protection de la vie privée Conditions de vente Conditions d'utilisation Caractéristiques environnementales des produits",
+   "json_samples": [
+    {
+     "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
+     "body": "[null, null, null, null, null, null, null, null, null, null, 0]"
+    }
+   ]
+  },
+  {
+   "url": "https://store.google.com/fr/product/fitbit_charge_6",
+   "status": 200,
+   "final_url": "https://store.google.com/fr/product/fitbit_charge_6?hl=fr",
+   "title": "Coach électronique Fitbit Charge 6",
+   "json_urls": [
+    "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData"
+   ],
+   "links": [
+    "https://store.google.com/fr/product/pixel_11_pro",
+    "https://store.google.com/fr/product/pixel_11_pro_fold",
+    "https://store.google.com/fr/product/pixel_11",
+    "https://store.google.com/fr/product/pixel_10a",
+    "https://store.google.com/fr/product/pixel_watch_5",
+    "https://store.google.com/fr/product/google_fitbit_edge",
+    "https://store.google.com/fr/product/google_fitbit_air",
+    "https://store.google.com/fr/product/fitbit_versa_4",
+    "https://store.google.com/fr/product/google_health_premium",
+    "https://store.google.com/fr/product/pixel_buds_pro_2",
+    "https://store.google.com/fr/product/pixel_buds_2a",
+    "https://store.google.com/fr/product/nest_cam_battery",
+    "https://store.google.com/fr/product/nest_cam_outdoor_wired_2nd_gen",
+    "https://store.google.com/fr/product/nest_cam_floodlight",
+    "https://store.google.com/fr/product/nest_cam_indoor",
+    "https://store.google.com/fr/product/nest_aware",
+    "https://store.google.com/fr/product/nest_doorbell_battery",
+    "https://store.google.com/fr/product/google_home_speaker",
+    "https://store.google.com/fr/product/google_tv_streamer",
+    "https://store.google.com/fr/product/nest_hub_2nd_gen",
+    "https://store.google.com/fr/product/nest_wifi_pro",
+    "https://store.google.com/fr/product/fitbit_charge_6",
+    "https://store.google.com/fr/product/fitbit_charge_6_specs",
+    "https://store.google.com/fr/config/fitbit_charge_6",
+    "https://store.google.com/fr/product/fitbit_charge_band_infinity",
+    "https://store.google.com/fr/product/fitbit_charge_band_sport",
+    "https://store.google.com/fr/product/fitbit_charge_band_vegan_leather",
+    "https://store.google.com/fr/product/fitbit_charge_band_leather"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Ignorer la navigation L'attente est terminée. Les offres Black Friday sont là.Acheter Smartphone Montres et bracelets d'activité Écouteurs Maison connectée Accessoires Offres Assistance Connexion Coach électronique Fitbit Charge 6 Coach électronique Fitbit Charge 6 Présentation Caractéristiques techniques 84,95 €129,95 € ou 28,32 €/mois en 3 mensualités Prix de vente habituel : 129,95 € Acheter Google Fitbit Charge 6 Gardez la forme au quotidien. 84,95 € 129,95 € Économisez 45 € ou 28,32 €/mois en 3 mensualités Prix de vente habituel : 129,95 € Acheter Couleur : Corail/Aluminium Champagne Doré Diapositive 1 sur 3 1 / 3 Fitbit Charge 6, couleur Corail/Aluminium Champagne Doré. Son écran affiche l'heure, la fréquence cardiaque et le nombre de pas. Image 1 sur 3. Économisez 45 € à l'achat d'un Fitbit Charge 6. Offre valable jusqu'au 01/12^. Acheter Partez du bon pied avec trois mois d'abonnement à Google Health Premium, sans frais1. Profitez d'un entraînement personnalisé et adaptatif, conçu avec Gemini. Profiter de l’offre dans l’appli Google Health1. Optimisez vos entraînements Consultez votre fréquence cardiaque sur les appareils de fitness Boostez vos entraînements avec des outils de remise en forme. Suivi de la fréquence cardiaque jusqu'à 60 % plus précis lors d'activités intenses telles que le spinning.3 Utilisez les fonctionnalités essentielles de Google au quotidien. Suivez votre corps, pas un programme. Conçue pour Google Health. Avec Google Health Premium, vous bénéfic",
+   "json_samples": [
+    {
+     "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
+     "body": "[null, null, null, null, null, null, null, null, null, null, 0]"
+    }
+   ]
+  },
+  {
+   "url": "https://store.google.com/fr/product/pixel_watch_4",
+   "status": 200,
+   "final_url": "https://store.google.com/fr/product/pixel_watch_4?hl=fr",
+   "title": "Google Pixel Watch 4",
+   "json_urls": [
+    "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData"
+   ],
+   "links": [
+    "https://store.google.com/fr/product/pixel_11_pro",
+    "https://store.google.com/fr/product/pixel_11_pro_fold",
+    "https://store.google.com/fr/product/pixel_11",
+    "https://store.google.com/fr/product/pixel_10a",
+    "https://store.google.com/fr/product/pixel_watch_5",
+    "https://store.google.com/fr/product/google_fitbit_edge",
+    "https://store.google.com/fr/product/google_fitbit_air",
+    "https://store.google.com/fr/product/fitbit_versa_4",
+    "https://store.google.com/fr/product/google_health_premium",
+    "https://store.google.com/fr/product/pixel_buds_pro_2",
+    "https://store.google.com/fr/product/pixel_buds_2a",
+    "https://store.google.com/fr/product/nest_cam_battery",
+    "https://store.google.com/fr/product/nest_cam_outdoor_wired_2nd_gen",
+    "https://store.google.com/fr/product/nest_cam_floodlight",
+    "https://store.google.com/fr/product/nest_cam_indoor",
+    "https://store.google.com/fr/product/nest_aware",
+    "https://store.google.com/fr/product/nest_doorbell_battery",
+    "https://store.google.com/fr/product/google_home_speaker",
+    "https://store.google.com/fr/product/google_tv_streamer",
+    "https://store.google.com/fr/product/nest_hub_2nd_gen",
+    "https://store.google.com/fr/product/nest_wifi_pro",
+    "https://store.google.com/fr/product/pixel_watch_4",
+    "https://store.google.com/fr/product/pixel_watch_4_specs",
+    "https://store.google.com/fr/config/pixel_watch_4",
+    "https://store.google.com/fr/config/pixel_10_pro",
+    "https://store.google.com/fr/config/pixel_buds_pro_2",
+    "https://store.google.com/fr/config/pixel_10_pro_fold"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Ignorer la navigation L'attente est terminée. Les offres Black Friday sont là.Acheter Smartphone Montres et bracelets d'activité Écouteurs Maison connectée Accessoires Offres Assistance Connexion Google Pixel Watch 4 Google Pixel Watch 4 Présentation Caractéristiques techniques Comparer À partir de 399 € ou 133 €/mois en 3 mensualités Acheter L'application Fitbit est désormais l'application Google Health. En savoir plus Conçue avec précision. Prête à l'action. Profitez d'un l'abonnement Google Health Premium conçu avec Gemini.34 À partir de 399 € ou 133 €/mois en 3 mensualités Acheter 41 mm 45 mm Faites des économies en échangeant votre ancienne montre▵. Obtenez un crédit en échangeant une montre éligible. Obtenir une estimation d'échange Partez du bon pied avec 3 mois d'abonnement à Google Health Premium , sans frais.1 Profitez d'un entraînement personnalisé et modulable, conçu avec Gemini. Utilisez vos avantages dans l'application Google Health.9 Des outils de bien-être et de remise en forme avancés sur un écran plus grand et époustouflant. Écran bombé plus lumineux et plus grand.2 Jusqu'à 40 heures d'autonomie.3 Analyses personnalisées de votre forme. Conçue pour les smartphones Pixel et Android. L'aide de Gemini, votre assistant IA.4 Voir en action Voir en action Découvrir en 3D Découvrir en 3D Un écran Actua 360, le premier du genre. L'écran en forme de dôme offre une vitre Corning® Gorilla® Glass d'un bord à l'autre, avec une zone active plus grande et une luminosité de",
+   "json_samples": [
+    {
+     "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
+     "body": "[null, null, null, null, null, null, null, null, null, null, 0]"
+    }
+   ]
+  },
+  {
+   "url": "https://store.google.com/fr/config/pixel_watch_4",
+   "status": 200,
+   "final_url": "https://store.google.com/fr/config/pixel_watch_4?hl=fr",
+   "title": "Achetez la Pixel Watch 4 en 41 mm ou 45 mm",
+   "json_urls": [
+    "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData"
+   ],
+   "links": [
+    "https://store.google.com/fr/product/pixel_11_pro",
+    "https://store.google.com/fr/product/pixel_11_pro_fold",
+    "https://store.google.com/fr/product/pixel_11",
+    "https://store.google.com/fr/product/pixel_10a",
+    "https://store.google.com/fr/product/pixel_watch_5",
+    "https://store.google.com/fr/product/google_fitbit_edge",
+    "https://store.google.com/fr/product/google_fitbit_air",
+    "https://store.google.com/fr/product/fitbit_versa_4",
+    "https://store.google.com/fr/product/google_health_premium",
+    "https://store.google.com/fr/product/pixel_buds_pro_2",
+    "https://store.google.com/fr/product/pixel_buds_2a",
+    "https://store.google.com/fr/product/nest_cam_battery",
+    "https://store.google.com/fr/product/nest_cam_outdoor_wired_2nd_gen",
+    "https://store.google.com/fr/product/nest_cam_floodlight",
+    "https://store.google.com/fr/product/nest_cam_indoor",
+    "https://store.google.com/fr/product/nest_aware",
+    "https://store.google.com/fr/product/nest_doorbell_battery",
+    "https://store.google.com/fr/product/google_home_speaker",
+    "https://store.google.com/fr/product/google_tv_streamer",
+    "https://store.google.com/fr/product/nest_hub_2nd_gen",
+    "https://store.google.com/fr/product/nest_wifi_pro",
+    "https://store.google.com/fr/product/pixel_watch_4"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {
+    "dom-from": 1
+   },
+   "text_sample": "Ignorer la navigation L'attente est terminée. Les offres Black Friday sont là.Acheter Smartphone Montres et bracelets d'activité Écouteurs Maison connectée Accessoires Offres Assistance Connexion Google Pixel Watch 4 À partir de 399 € ou 133,00 €/mois en 3 mensualités Google Pixel Watch 4 À partir de 399 € ou 133,00 €/mois en 3 mensualités Choisissez une taille Vous n’arrivez pas à vous décider ? Mesurez votre poignet. 41 mm Convient aux poignets de 130 à 210 mm À partir de 399 € En rupture de stock — Recevez une notification 45 mm Écran plus grand, convient aux poignets de 150 à 215 mm À partir de 449 € En rupture de stock — Recevez une notification Choisissez votre couleur Boîtier en aluminium Argent Poli/Bracelet sport Iris En rupture de stock — Recevez une notification Boîtier en aluminium Champagne Doré/Bracelet sport Vert Citron En rupture de stock — Recevez une notification Boîtier en aluminium Gris Satiné/Bracelet sport Quartz Gris En rupture de stock — Recevez une notification Boîtier en aluminium Argent Poli/Bracelet sport Porcelaine En rupture de stock — Recevez une notification Boîtier en aluminium Noir Mat/Bracelet sport Noir Volcanique En rupture de stock — Recevez une notification Choisissez un niveau de connectivité Opérateurs proposant la 4G LTE 4G LTE + Bluetooth®/Wi-Fi Restez toujours connecté, même sans votre téléphone 499 € En rupture de stock — Recevez une notification Bluetooth®/Wi-Fi Gardez votre téléphone à proximité pour les SMS et les appels 399 €"
+  },
+  {
+   "url": "https://store.google.com/fr/product/fitbit_inspire_3",
+   "status": 200,
+   "final_url": "https://store.google.com/fr/product/fitbit_inspire_3?hl=fr",
+   "title": "Fitbit Inspire 3 | Bracelet d'activité santé et sport",
+   "json_urls": [
+    "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData"
+   ],
+   "links": [
+    "https://store.google.com/fr/product/pixel_11_pro",
+    "https://store.google.com/fr/product/pixel_11_pro_fold",
+    "https://store.google.com/fr/product/pixel_11",
+    "https://store.google.com/fr/product/pixel_10a",
+    "https://store.google.com/fr/product/pixel_watch_5",
+    "https://store.google.com/fr/product/google_fitbit_edge",
+    "https://store.google.com/fr/product/google_fitbit_air",
+    "https://store.google.com/fr/product/fitbit_versa_4",
+    "https://store.google.com/fr/product/google_health_premium",
+    "https://store.google.com/fr/product/pixel_buds_pro_2",
+    "https://store.google.com/fr/product/pixel_buds_2a",
+    "https://store.google.com/fr/product/nest_cam_battery",
+    "https://store.google.com/fr/product/nest_cam_outdoor_wired_2nd_gen",
+    "https://store.google.com/fr/product/nest_cam_floodlight",
+    "https://store.google.com/fr/product/nest_cam_indoor",
+    "https://store.google.com/fr/product/nest_aware",
+    "https://store.google.com/fr/product/nest_doorbell_battery",
+    "https://store.google.com/fr/product/google_home_speaker",
+    "https://store.google.com/fr/product/google_tv_streamer",
+    "https://store.google.com/fr/product/nest_hub_2nd_gen",
+    "https://store.google.com/fr/product/nest_wifi_pro",
+    "https://store.google.com/fr/product/fitbit_inspire_3",
+    "https://store.google.com/fr/product/fitbit_inspire_3_specs",
+    "https://store.google.com/fr/config/fitbit_inspire_3",
+    "https://store.google.com/fr/product/fitbit_inspire_3_band_translucent",
+    "https://store.google.com/fr/product/fitbit_inspire_3_band_classic",
+    "https://store.google.com/fr/product/fitbit_inspire_3_band_metal_mesh"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Ignorer la navigation L'attente est terminée. Les offres Black Friday sont là.Acheter Smartphone Montres et bracelets d'activité Écouteurs Maison connectée Accessoires Offres Assistance Connexion Fitbit Inspire 3 | Bracelet d'activité santé et sport Coach électronique Fitbit Inspire 3 Présentation Caractéristiques techniques 69,95 €99,95 € ou 23,32 €/mois en 3 mensualités Prix de vente habituel : 99,95 € Acheter Google Fitbit Inspire 3 bracelet d'activité sport et santé 69,95 € 99,95 € Économisez 30 € ou 23,32 €/mois en 3 mensualités Prix de vente habituel : 99,95 € Acheter Noir Intense / Noir Diapositive 1 sur 3 1 / 3 Vue de 3/4 du Fitbit Inspire 3, Noir intense Image 1 sur 3. Économisez 30 € à l'achat d'un Fitbit Inspire 3. Offre valable jusqu'au 01/12^. Acheter Partez du bon pied avec trois mois d'abonnement à Google Health Premium, sans frais11. Profitez d'un entraînement personnalisé et adaptatif, conçu avec Gemini. Profiter de l’offre dans l’appli Google Health11. Faites ce que vous aimez et restez au top de votre forme. Bougez plus. Moins de stress. Profitez d'une meilleure Nuit . Gérez votre emploi du temps. À porter toute la journée. Conçue pour Google Health. Avec Google Health, bénéficiez d’un suivi sans effort, d’un coaching personnalisé et d’une vue d'ensemble de votre bien-être. Bien-être et remise en forme Retrouvez votre énergie. Les Minutes en zone active suivent le temps passé dans les zones de fréquence cardiaque cible. Recevez des scores quotidiens pour vo",
+   "json_samples": [
+    {
+     "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
+     "body": "[null, null, null, null, null, null, null, null, null, null, 0]"
+    }
+   ]
+  },
+  {
+   "url": "https://store.google.com/fr/config/fitbit_inspire_3",
+   "status": 200,
+   "final_url": "https://store.google.com/fr/config/fitbit_inspire_3?hl=fr",
+   "title": "Achetez un bracelet d'activité sport et santé Fitbit Inspire 3",
+   "json_urls": [
+    "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData"
+   ],
+   "links": [
+    "https://store.google.com/fr/product/pixel_11_pro",
+    "https://store.google.com/fr/product/pixel_11_pro_fold",
+    "https://store.google.com/fr/product/pixel_11",
+    "https://store.google.com/fr/product/pixel_10a",
+    "https://store.google.com/fr/product/pixel_watch_5",
+    "https://store.google.com/fr/product/google_fitbit_edge",
+    "https://store.google.com/fr/product/google_fitbit_air",
+    "https://store.google.com/fr/product/fitbit_versa_4",
+    "https://store.google.com/fr/product/google_health_premium",
+    "https://store.google.com/fr/product/pixel_buds_pro_2",
+    "https://store.google.com/fr/product/pixel_buds_2a",
+    "https://store.google.com/fr/product/nest_cam_battery",
+    "https://store.google.com/fr/product/nest_cam_outdoor_wired_2nd_gen",
+    "https://store.google.com/fr/product/nest_cam_floodlight",
+    "https://store.google.com/fr/product/nest_cam_indoor",
+    "https://store.google.com/fr/product/nest_aware",
+    "https://store.google.com/fr/product/nest_doorbell_battery",
+    "https://store.google.com/fr/product/google_home_speaker",
+    "https://store.google.com/fr/product/google_tv_streamer",
+    "https://store.google.com/fr/product/nest_hub_2nd_gen",
+    "https://store.google.com/fr/product/nest_wifi_pro",
+    "https://store.google.com/fr/product/fitbit_inspire_3"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Ignorer la navigation L'attente est terminée. Les offres Black Friday sont là.Acheter Smartphone Montres et bracelets d'activité Écouteurs Maison connectée Accessoires Offres Assistance Connexion Fitbit Inspire 3 69,95 € 99,95 € ou 23,32 €/mois en 3 mensualités Prix de vente habituel : 99,95 € 1 / 2 Fitbit Inspire 3 69,95 € 99,95 € ou 23,32 €/mois en 3 mensualités Prix de vente habituel : 99,95 € Choisissez votre couleur Noir Intense / Noir Parme / Noir Jaune Vénitien / Noir 69,95 € 99,95 € ou 23,32 €/mois en 3 mensualités Prix de vente habituel : 99,95 € Ajouter au panier Saisissez votre code postal pour savoir quand cet article arrivera À propos À propos de Google Store Programme de parrainage Commandes Disponibilité par pays et restrictions de livraison Gérer une commande Livraison standard gratuite Programme d'échange Financement Politique de retour Annulations d'abonnement renoncer au contrat Assistance Assistance Fitbit Nous contacter Centre d’aide Assistance dédiée au handicap Réparations Envoyer des commentaires Développement durable Recyclage de l'appareil Développement durable France Confidentialité Engagement de Google Nest pour la protection de la vie privée Conditions de vente Conditions d'utilisation Caractéristiques environnementales des produits",
+   "json_samples": [
+    {
+     "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
+     "body": "[null, null, null, null, null, null, null, null, null, null, 0]"
+    }
+   ]
+  },
+  {
+   "url": "https://store.google.com/fr/product/fitbit_sense_2",
+   "status": 200,
+   "final_url": "https://store.google.com/fr/product/fitbit_sense_2?hl=fr",
+   "title": "Montre connectée sport et santé avancée Fitbit Sense 2",
+   "json_urls": [
+    "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData"
+   ],
+   "links": [
+    "https://store.google.com/fr/product/pixel_11_pro",
+    "https://store.google.com/fr/product/pixel_11_pro_fold",
+    "https://store.google.com/fr/product/pixel_11",
+    "https://store.google.com/fr/product/pixel_10a",
+    "https://store.google.com/fr/product/pixel_watch_5",
+    "https://store.google.com/fr/product/google_fitbit_edge",
+    "https://store.google.com/fr/product/google_fitbit_air",
+    "https://store.google.com/fr/product/fitbit_versa_4",
+    "https://store.google.com/fr/product/google_health_premium",
+    "https://store.google.com/fr/product/pixel_buds_pro_2",
+    "https://store.google.com/fr/product/pixel_buds_2a",
+    "https://store.google.com/fr/product/nest_cam_battery",
+    "https://store.google.com/fr/product/nest_cam_outdoor_wired_2nd_gen",
+    "https://store.google.com/fr/product/nest_cam_floodlight",
+    "https://store.google.com/fr/product/nest_cam_indoor",
+    "https://store.google.com/fr/product/nest_aware",
+    "https://store.google.com/fr/product/nest_doorbell_battery",
+    "https://store.google.com/fr/product/google_home_speaker",
+    "https://store.google.com/fr/product/google_tv_streamer",
+    "https://store.google.com/fr/product/nest_hub_2nd_gen",
+    "https://store.google.com/fr/product/nest_wifi_pro",
+    "https://store.google.com/fr/product/fitbit_sense_2",
+    "https://store.google.com/fr/product/fitbit_sense_2_specs",
+    "https://store.google.com/fr/config/fitbit_sense_2",
+    "https://store.google.com/fr/product/fitbit_smartwatch_band_sport",
+    "https://store.google.com/fr/product/fitbit_smartwatch_band_infinity",
+    "https://store.google.com/fr/product/fitbit_smartwatch_band_vegan_leather",
+    "https://store.google.com/fr/product/fitbit_smartwatch_band_hook_loop"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Ignorer la navigation L'attente est terminée. Les offres Black Friday sont là.Acheter Smartphone Montres et bracelets d'activité Écouteurs Maison connectée Accessoires Offres Assistance Connexion Montre connectée sport et santé avancée Fitbit Sense 2 Montre connectée Fitbit Sense 2 Présentation Caractéristiques techniques 199,95 €249,95 € ou 66,65 €/mois en 3 mensualités Prix de vente habituel : 249,95 € Acheter Google Fitbit Sense 2 montre connectée sport et santé avancée . 199,95 € 249,95 € Économisez 50 € ou 66,65 €/mois en 3 mensualités Prix de vente habituel : 249,95 € Acheter Gris foncé/aluminium graphite Diapositive 1 sur 3 1 / 3 Vue de 3/4 de la Fitbit Sense 2 , coloris Gris foncé/Aluminium graphite Image 1 sur 3. Économisez 50 € à l'achat d'un Fitbit Sense 2. Offre valable jusqu'au 01/12^. Acheter Partez du bon pied avec trois mois d'abonnement à Google Health Premium, sans frais1. Profitez d'un entraînement personnalisé et adaptatif, conçu avec Gemini. Profiter de l’offre dans l’appli Google Health1. Gérez votre stress et dormez mieux. Gérez votre stress. Améliorez votre sommeil. Privilégiez votre santé cardiaque. Entraînez-vous plus intelligemment. L'aide de Google. Conçue pour Google Health. Avec Google Health, bénéficiez d’un suivi sans effort, d’un coaching personnalisé et d’une vue d'ensemble de votre bien-être. Bien-être et remise en forme Le bien-être à un niveau supérieur. Comprenez le stress grâce au suivi continu des réponses du corps.2 Le score de sommeil",
+   "json_samples": [
+    {
+     "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
+     "body": "[null, null, null, null, null, null, null, null, null, null, 0]"
+    }
+   ]
+  },
+  {
+   "url": "https://store.google.com/fr/config/fitbit_sense_2",
+   "status": 200,
+   "final_url": "https://store.google.com/fr/config/fitbit_sense_2?hl=fr",
+   "title": "Achetez la montre connectée sport et santé Fitbit Sense 2",
+   "json_urls": [
+    "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData"
+   ],
+   "links": [
+    "https://store.google.com/fr/product/pixel_11_pro",
+    "https://store.google.com/fr/product/pixel_11_pro_fold",
+    "https://store.google.com/fr/product/pixel_11",
+    "https://store.google.com/fr/product/pixel_10a",
+    "https://store.google.com/fr/product/pixel_watch_5",
+    "https://store.google.com/fr/product/google_fitbit_edge",
+    "https://store.google.com/fr/product/google_fitbit_air",
+    "https://store.google.com/fr/product/fitbit_versa_4",
+    "https://store.google.com/fr/product/google_health_premium",
+    "https://store.google.com/fr/product/pixel_buds_pro_2",
+    "https://store.google.com/fr/product/pixel_buds_2a",
+    "https://store.google.com/fr/product/nest_cam_battery",
+    "https://store.google.com/fr/product/nest_cam_outdoor_wired_2nd_gen",
+    "https://store.google.com/fr/product/nest_cam_floodlight",
+    "https://store.google.com/fr/product/nest_cam_indoor",
+    "https://store.google.com/fr/product/nest_aware",
+    "https://store.google.com/fr/product/nest_doorbell_battery",
+    "https://store.google.com/fr/product/google_home_speaker",
+    "https://store.google.com/fr/product/google_tv_streamer",
+    "https://store.google.com/fr/product/nest_hub_2nd_gen",
+    "https://store.google.com/fr/product/nest_wifi_pro",
+    "https://store.google.com/fr/product/fitbit_sense_2"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Ignorer la navigation L'attente est terminée. Les offres Black Friday sont là.Acheter Smartphone Montres et bracelets d'activité Écouteurs Maison connectée Accessoires Offres Assistance Connexion Montre connectée Fitbit Sense 2 199,95 € 249,95 € ou 66,65 €/mois en 3 mensualités Prix de vente habituel : 249,95 € 1 / 2 Montre connectée Fitbit Sense 2 199,95 € 249,95 € ou 66,65 €/mois en 3 mensualités Prix de vente habituel : 249,95 € Choisissez votre couleur Gris foncé/aluminium graphite Non disponible Blanc lunaire/aluminium platine Bleu brumeux/aluminium or pâle 199,95 € 249,95 € ou 66,65 €/mois en 3 mensualités Prix de vente habituel : 249,95 € Ajouter au panier Saisissez votre code postal pour savoir quand cet article arrivera À propos À propos de Google Store Programme de parrainage Commandes Disponibilité par pays et restrictions de livraison Gérer une commande Livraison standard gratuite Programme d'échange Financement Politique de retour Annulations d'abonnement renoncer au contrat Assistance Assistance Fitbit Nous contacter Centre d’aide Assistance dédiée au handicap Réparations Envoyer des commentaires Développement durable Recyclage de l'appareil Développement durable France Confidentialité Engagement de Google Nest pour la protection de la vie privée Conditions de vente Conditions d'utilisation Caractéristiques environnementales des produits",
+   "json_samples": [
+    {
+     "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
+     "body": "[null, null, null, null, null, null, null, null, null, null, 0]"
+    }
+   ]
+  },
+  {
+   "url": "https://store.google.com/fr/product/usb_type_c_usb_type_c",
+   "status": 200,
+   "final_url": "https://store.google.com/fr/product/usb_type_c_usb_type_c?hl=fr",
+   "title": "Câble USB Type-C vers USB Type-C – Google Store",
+   "json_urls": [
+    "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData"
+   ],
+   "links": [
+    "https://store.google.com/fr/product/pixel_11_pro",
+    "https://store.google.com/fr/product/pixel_11_pro_fold",
+    "https://store.google.com/fr/product/pixel_11",
+    "https://store.google.com/fr/product/pixel_10a",
+    "https://store.google.com/fr/product/pixel_watch_5",
+    "https://store.google.com/fr/product/google_fitbit_edge",
+    "https://store.google.com/fr/product/google_fitbit_air",
+    "https://store.google.com/fr/product/fitbit_versa_4",
+    "https://store.google.com/fr/product/google_health_premium",
+    "https://store.google.com/fr/product/pixel_buds_pro_2",
+    "https://store.google.com/fr/product/pixel_buds_2a",
+    "https://store.google.com/fr/product/nest_cam_battery",
+    "https://store.google.com/fr/product/nest_cam_outdoor_wired_2nd_gen",
+    "https://store.google.com/fr/product/nest_cam_floodlight",
+    "https://store.google.com/fr/product/nest_cam_indoor",
+    "https://store.google.com/fr/product/nest_aware",
+    "https://store.google.com/fr/product/nest_doorbell_battery",
+    "https://store.google.com/fr/product/google_home_speaker",
+    "https://store.google.com/fr/product/google_tv_streamer",
+    "https://store.google.com/fr/product/nest_hub_2nd_gen",
+    "https://store.google.com/fr/product/nest_wifi_pro"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Ignorer la navigation L'attente est terminée. Les offres Black Friday sont là.Acheter Smartphone Montres et bracelets d'activité Écouteurs Maison connectée Accessoires Offres Assistance Connexion Câble USB Type-C vers USB Type-C – Google Store Câble Google USB Type-C vers USB Type-C À partir de 25 € Livraison gratuite† Ajouter au panier 1 / 3 Rapide et puissant Connectez votre équipement USB Type-C™ pour transférer des données et charger vos appareils¹. Ce câble est disponible en deux longueurs (1 m et 2 m) pour convenir à vos besoins. Choisissez une taille 1,0 m 1,0 m 25 € 2 m 30 € 25 € 1 Ajouter au panier Dimensions 1 m ou 2 m Poids 1 m : 27,4 g 2 m : 52,3 g Couleurs Blanc Matériaux TPE Connecteurs USB Type-C vers USB Type-C Dans la boîte Câble Google USB Type-C vers USB Type-C Configuration requise Appareil ou chargeur équipé d'un port USB Type-C Recevez les actualités, les offres, des rappels concernant votre panier, des e-mails personnalisés et des enquêtes du Google Store. Se connecter et s'inscrire 1 Conçu conformément aux caractéristiques USB 2.0 : vitesse de transfert de données jusqu'à 480 Mbit/s ; puissance de sortie jusqu'à 3 A. Le taux de charge varie en fonction des capacités de la source d'alimentation et de l'appareil. ™ USB Type-C et USB-C sont des marques de USB Implementers Forum. † La livraison offerte (associée au coût le plus bas) peut être interrompue ou modifiée à tout moment. À propos À propos de Google Store Programme de parrainage C",
+   "json_samples": [
+    {
+     "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
+     "body": "[null, null, null, null, null, null, null, null, null, null, 0]"
+    }
+   ]
+  },
+  {
+   "url": "https://store.google.com/fr/config/usb_type_c_usb_type_c",
+   "status": 200,
+   "final_url": "https://store.google.com/fr/product/usb_type_c_usb_type_c?hl=fr",
+   "title": "Câble USB Type-C vers USB Type-C – Google Store",
+   "json_urls": [
+    "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData"
+   ],
+   "links": [
+    "https://store.google.com/fr/product/pixel_11_pro",
+    "https://store.google.com/fr/product/pixel_11_pro_fold",
+    "https://store.google.com/fr/product/pixel_11",
+    "https://store.google.com/fr/product/pixel_10a",
+    "https://store.google.com/fr/product/pixel_watch_5",
+    "https://store.google.com/fr/product/google_fitbit_edge",
+    "https://store.google.com/fr/product/google_fitbit_air",
+    "https://store.google.com/fr/product/fitbit_versa_4",
+    "https://store.google.com/fr/product/google_health_premium",
+    "https://store.google.com/fr/product/pixel_buds_pro_2",
+    "https://store.google.com/fr/product/pixel_buds_2a",
+    "https://store.google.com/fr/product/nest_cam_battery",
+    "https://store.google.com/fr/product/nest_cam_outdoor_wired_2nd_gen",
+    "https://store.google.com/fr/product/nest_cam_floodlight",
+    "https://store.google.com/fr/product/nest_cam_indoor",
+    "https://store.google.com/fr/product/nest_aware",
+    "https://store.google.com/fr/product/nest_doorbell_battery",
+    "https://store.google.com/fr/product/google_home_speaker",
+    "https://store.google.com/fr/product/google_tv_streamer",
+    "https://store.google.com/fr/product/nest_hub_2nd_gen",
+    "https://store.google.com/fr/product/nest_wifi_pro"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Ignorer la navigation L'attente est terminée. Les offres Black Friday sont là.Acheter Smartphone Montres et bracelets d'activité Écouteurs Maison connectée Accessoires Offres Assistance Connexion Câble USB Type-C vers USB Type-C – Google Store Câble Google USB Type-C vers USB Type-C À partir de 25 € Livraison gratuite† Ajouter au panier 1 / 3 Rapide et puissant Connectez votre équipement USB Type-C™ pour transférer des données et charger vos appareils¹. Ce câble est disponible en deux longueurs (1 m et 2 m) pour convenir à vos besoins. Choisissez une taille 1,0 m 1,0 m 25 € 2 m 30 € 25 € 1 Ajouter au panier Dimensions 1 m ou 2 m Poids 1 m : 27,4 g 2 m : 52,3 g Couleurs Blanc Matériaux TPE Connecteurs USB Type-C vers USB Type-C Dans la boîte Câble Google USB Type-C vers USB Type-C Configuration requise Appareil ou chargeur équipé d'un port USB Type-C Recevez les actualités, les offres, des rappels concernant votre panier, des e-mails personnalisés et des enquêtes du Google Store. Se connecter et s'inscrire 1 Conçu conformément aux caractéristiques USB 2.0 : vitesse de transfert de données jusqu'à 480 Mbit/s ; puissance de sortie jusqu'à 3 A. Le taux de charge varie en fonction des capacités de la source d'alimentation et de l'appareil. ™ USB Type-C et USB-C sont des marques de USB Implementers Forum. † La livraison offerte (associée au coût le plus bas) peut être interrompue ou modifiée à tout moment. À propos À propos de Google Store Programme de parrainage C",
+   "json_samples": [
+    {
+     "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
+     "body": "[null, null, null, null, null, null, null, null, null, null, 0]"
+    }
+   ]
+  },
+  {
+   "url": "https://store.google.com/fr/config/pixel_buds_2a?hl=fr",
+   "status": 200,
+   "final_url": "https://store.google.com/fr/config/pixel_buds_2a?hl=fr",
+   "title": "Acheter les Google Pixel Buds 2a",
+   "json_urls": [
+    "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData"
+   ],
+   "links": [
+    "https://store.google.com/fr/product/pixel_11_pro",
+    "https://store.google.com/fr/product/pixel_11_pro_fold",
+    "https://store.google.com/fr/product/pixel_11",
+    "https://store.google.com/fr/product/pixel_10a",
+    "https://store.google.com/fr/product/pixel_watch_5",
+    "https://store.google.com/fr/product/google_fitbit_edge",
+    "https://store.google.com/fr/product/google_fitbit_air",
+    "https://store.google.com/fr/product/fitbit_versa_4",
+    "https://store.google.com/fr/product/google_health_premium",
+    "https://store.google.com/fr/product/pixel_buds_pro_2",
+    "https://store.google.com/fr/product/pixel_buds_2a",
+    "https://store.google.com/fr/product/nest_cam_battery",
+    "https://store.google.com/fr/product/nest_cam_outdoor_wired_2nd_gen",
+    "https://store.google.com/fr/product/nest_cam_floodlight",
+    "https://store.google.com/fr/product/nest_cam_indoor",
+    "https://store.google.com/fr/product/nest_aware",
+    "https://store.google.com/fr/product/nest_doorbell_battery",
+    "https://store.google.com/fr/product/google_home_speaker",
+    "https://store.google.com/fr/product/google_tv_streamer",
+    "https://store.google.com/fr/product/nest_hub_2nd_gen",
+    "https://store.google.com/fr/product/nest_wifi_pro"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Ignorer la navigation L'attente est terminée. Les offres Black Friday sont là.Acheter Smartphone Montres et bracelets d'activité Écouteurs Maison connectée Accessoires Offres Assistance Connexion Google Pixel Buds 2a 119 € 149 € ou 39,67 €/mois en 3 mensualités Prix de vente habituel : 149 € 1 / 4 Google Pixel Buds 2a 119 € 149 € ou 39,67 €/mois en 3 mensualités Prix de vente habituel : 149 € Choisissez votre couleur Brume Rouge Framboise Iris Vert Sauge 119 € 149 € ou 39,67 €/mois en 3 mensualités Prix de vente habituel : 149 € Ajouter au panier Saisissez votre code postal pour savoir quand cet article arrivera À propos À propos de Google Store Programme de parrainage Commandes Disponibilité par pays et restrictions de livraison Gérer une commande Livraison standard gratuite Programme d'échange Financement Politique de retour Annulations d'abonnement renoncer au contrat Assistance Assistance Fitbit Nous contacter Centre d’aide Assistance dédiée au handicap Réparations Envoyer des commentaires Développement durable Recyclage de l'appareil Développement durable France Confidentialité Engagement de Google Nest pour la protection de la vie privée Conditions de vente Conditions d'utilisation Caractéristiques environnementales des produits",
+   "json_samples": [
+    {
+     "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
+     "body": "[null, null, null, null, null, null, null, null, null, null, 0]"
+    }
+   ]
+  },
+  {
+   "url": "https://store.google.com/fr/product/pixel_buds_2a?hl=fr",
+   "status": 200,
+   "final_url": "https://store.google.com/fr/product/pixel_buds_2a?hl=fr",
+   "title": "Google Pixel Buds 2a",
+   "json_urls": [
+    "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData"
+   ],
+   "links": [
+    "https://store.google.com/fr/product/pixel_11_pro",
+    "https://store.google.com/fr/product/pixel_11_pro_fold",
+    "https://store.google.com/fr/product/pixel_11",
+    "https://store.google.com/fr/product/pixel_10a",
+    "https://store.google.com/fr/product/pixel_watch_5",
+    "https://store.google.com/fr/product/google_fitbit_edge",
+    "https://store.google.com/fr/product/google_fitbit_air",
+    "https://store.google.com/fr/product/fitbit_versa_4",
+    "https://store.google.com/fr/product/google_health_premium",
+    "https://store.google.com/fr/product/pixel_buds_pro_2",
+    "https://store.google.com/fr/product/pixel_buds_2a",
+    "https://store.google.com/fr/product/nest_cam_battery",
+    "https://store.google.com/fr/product/nest_cam_outdoor_wired_2nd_gen",
+    "https://store.google.com/fr/product/nest_cam_floodlight",
+    "https://store.google.com/fr/product/nest_cam_indoor",
+    "https://store.google.com/fr/product/nest_aware",
+    "https://store.google.com/fr/product/nest_doorbell_battery",
+    "https://store.google.com/fr/product/google_home_speaker",
+    "https://store.google.com/fr/product/google_tv_streamer",
+    "https://store.google.com/fr/product/nest_hub_2nd_gen",
+    "https://store.google.com/fr/product/nest_wifi_pro",
+    "https://store.google.com/fr/product/pixel_buds_2a_specs",
+    "https://store.google.com/fr/config/pixel_buds_2a",
+    "https://store.google.com/fr/config/pixel_buds_pro_2",
+    "https://store.google.com/fr/config/pixel_11",
+    "https://store.google.com/fr/config/pixel_11_pro_fold",
+    "https://store.google.com/fr/config/pixel_watch_5"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Ignorer la navigation L'attente est terminée. Les offres Black Friday sont là.Acheter Smartphone Montres et bracelets d'activité Écouteurs Maison connectée Accessoires Offres Assistance Connexion Google Pixel Buds 2a Google Pixel Buds 2a Présentation Caractéristiques techniques Comparer 119 €149 € ou 39,67 €/mois en 3 mensualités Prix de vente habituel : 149 € Acheter Confort exceptionnel. Son incroyable. 119 € 149 € Économisez 30 € ou 39,67 €/mois en 3 mensualités Prix de vente habituel : 149 € Acheter Couleur : Brume Diapositive 1 sur 4 1 / 4 Des Pixel Buds 2a couleur Brume. Image 1 sur 4. Économisez 30 € à l'achat des Google Pixel Buds 2a. Offre valable jusqu'au 01/12^. Acheter \"Les Google Pixel Buds 2a sont parmi les meilleurs écouteurs du moment en termes de rapport qualité-prix.\" - David Pierce, The Verge, 8 oct. 2025. Comparer les écouteurs Suppression active du bruit. Ajustez-les en les faisant pivoter pour plus de confort. Jusqu'à 20 heures d'écoute (avec l'étui de recharge).1 Résistants à la transpiration et à l'eau.2 Gardez les mains libres avec l'aide de Gemini.3 Faites pivoter le stabilisateur pour maintenir vos écouteurs en place. Maintenez vos écouteurs Google Pixel Buds 2a bien en place pendant vos entraînements ou vos trajets quotidiens grâce au stabilisateur rotatif, ou tournez-les dans l'autre sens pour un confort optimal. N'entendez que ce qui vous intéresse. La Suppression active du bruit avec Silent Seal™ 1.5 vous aide à bloquer les bruits extérieurs pou",
+   "json_samples": [
+    {
+     "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
+     "body": "[null, null, null, null, null, null, null, null, null, null, 0]"
+    }
+   ]
+  },
+  {
+   "url": "https://store.google.com/fr/config/pixel_buds_pro_2?hl=fr",
+   "status": 200,
+   "final_url": "https://store.google.com/fr/config/pixel_buds_pro_2?hl=fr",
+   "title": "Acheter les Google Pixel Buds Pro 2",
+   "json_urls": [
+    "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData"
+   ],
+   "links": [
+    "https://store.google.com/fr/product/pixel_11_pro",
+    "https://store.google.com/fr/product/pixel_11_pro_fold",
+    "https://store.google.com/fr/product/pixel_11",
+    "https://store.google.com/fr/product/pixel_10a",
+    "https://store.google.com/fr/product/pixel_watch_5",
+    "https://store.google.com/fr/product/google_fitbit_edge",
+    "https://store.google.com/fr/product/google_fitbit_air",
+    "https://store.google.com/fr/product/fitbit_versa_4",
+    "https://store.google.com/fr/product/google_health_premium",
+    "https://store.google.com/fr/product/pixel_buds_pro_2",
+    "https://store.google.com/fr/product/pixel_buds_2a",
+    "https://store.google.com/fr/product/nest_cam_battery",
+    "https://store.google.com/fr/product/nest_cam_outdoor_wired_2nd_gen",
+    "https://store.google.com/fr/product/nest_cam_floodlight",
+    "https://store.google.com/fr/product/nest_cam_indoor",
+    "https://store.google.com/fr/product/nest_aware",
+    "https://store.google.com/fr/product/nest_doorbell_battery",
+    "https://store.google.com/fr/product/google_home_speaker",
+    "https://store.google.com/fr/product/google_tv_streamer",
+    "https://store.google.com/fr/product/nest_hub_2nd_gen",
+    "https://store.google.com/fr/product/nest_wifi_pro"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Ignorer la navigation L'attente est terminée. Les offres Black Friday sont là.Acheter Smartphone Montres et bracelets d'activité Écouteurs Maison connectée Accessoires Offres Assistance Connexion Google Pixel Buds Pro 2 169 € 249 € ou 56,33 €/mois en 3 mensualités Prix de vente habituel : 249 € 1 / 4 Google Pixel Buds Pro 2 169 € 249 € ou 56,33 €/mois en 3 mensualités Prix de vente habituel : 249 € Choisissez votre couleur Porcelaine Olive Rose Pivoine Vert Sauge 169 € 249 € ou 56,33 €/mois en 3 mensualités Prix de vente habituel : 249 € Ajouter au panier Saisissez votre code postal pour savoir quand cet article arrivera À propos À propos de Google Store Programme de parrainage Commandes Disponibilité par pays et restrictions de livraison Gérer une commande Livraison standard gratuite Programme d'échange Financement Politique de retour Annulations d'abonnement renoncer au contrat Assistance Assistance Fitbit Nous contacter Centre d’aide Assistance dédiée au handicap Réparations Envoyer des commentaires Développement durable Recyclage de l'appareil Développement durable France Confidentialité Engagement de Google Nest pour la protection de la vie privée Conditions de vente Conditions d'utilisation Caractéristiques environnementales des produits",
+   "json_samples": [
+    {
+     "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
+     "body": "[null, null, null, null, null, null, null, null, null, null, 0]"
+    }
+   ]
+  },
+  {
+   "url": "https://store.google.com/fr/product/pixel_buds_pro_2?hl=fr",
+   "status": 200,
+   "final_url": "https://store.google.com/fr/product/pixel_buds_pro_2?hl=fr",
+   "title": "Profitez d'un son immersif avec Pixel Buds Pro 2 - Google Store",
+   "json_urls": [
+    "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData"
+   ],
+   "links": [
+    "https://store.google.com/fr/product/pixel_11_pro",
+    "https://store.google.com/fr/product/pixel_11_pro_fold",
+    "https://store.google.com/fr/product/pixel_11",
+    "https://store.google.com/fr/product/pixel_10a",
+    "https://store.google.com/fr/product/pixel_watch_5",
+    "https://store.google.com/fr/product/google_fitbit_edge",
+    "https://store.google.com/fr/product/google_fitbit_air",
+    "https://store.google.com/fr/product/fitbit_versa_4",
+    "https://store.google.com/fr/product/google_health_premium",
+    "https://store.google.com/fr/product/pixel_buds_pro_2",
+    "https://store.google.com/fr/product/pixel_buds_2a",
+    "https://store.google.com/fr/product/nest_cam_battery",
+    "https://store.google.com/fr/product/nest_cam_outdoor_wired_2nd_gen",
+    "https://store.google.com/fr/product/nest_cam_floodlight",
+    "https://store.google.com/fr/product/nest_cam_indoor",
+    "https://store.google.com/fr/product/nest_aware",
+    "https://store.google.com/fr/product/nest_doorbell_battery",
+    "https://store.google.com/fr/product/google_home_speaker",
+    "https://store.google.com/fr/product/google_tv_streamer",
+    "https://store.google.com/fr/product/nest_hub_2nd_gen",
+    "https://store.google.com/fr/product/nest_wifi_pro",
+    "https://store.google.com/fr/product/pixel_buds_pro_2_specs",
+    "https://store.google.com/fr/config/pixel_buds_pro_2",
+    "https://store.google.com/fr/config/pixel_buds_2a",
+    "https://store.google.com/fr/config/pixel_11_pro",
+    "https://store.google.com/fr/config/pixel_11_pro_fold",
+    "https://store.google.com/fr/config/pixel_watch_5",
+    "https://store.google.com/fr/product/pixel_10",
+    "https://store.google.com/fr/product/pixel_10_pro",
+    "https://store.google.com/fr/product/pixel_10_pro_fold",
+    "https://store.google.com/fr/product/pixel_9a",
+    "https://store.google.com/fr/product/pixel_9_pro",
+    "https://store.google.com/fr/product/pixel_9_pro_fold",
+    "https://store.google.com/fr/product/pixel_9",
+    "https://store.google.com/fr/product/pixel_8a",
+    "https://store.google.com/fr/product/pixel_8_pro",
+    "https://store.google.com/fr/product/pixel_8",
+    "https://store.google.com/fr/product/pixel_buds_a_series",
+    "https://store.google.com/fr/product/pixel_tablet",
+    "https://store.google.com/fr/product/pixel_watch_4",
+    "https://store.google.com/fr/product/pixel_watch_3",
+    "https://store.google.com/fr/product/pixel_watch_2",
+    "https://store.google.com/fr/product/fitbit_ace_lte",
+    "https://store.google.com/fr/product/fitbit_sense_2",
+    "https://store.google.com/fr/product/fitbit_charge_6",
+    "https://store.google.com/fr/product/fitbit_inspire_3",
+    "https://store.google.com/fr/product/nest_doorbell",
+    "https://store.google.com/fr/product/chromecast_google_tv",
+    "https://store.google.com/fr/product/google_wifi",
+    "https://store.google.com/fr/product/nest_protect_2nd_gen",
+    "https://store.google.com/fr/product/nest_x_yale_lock"
+   ],
+   "tiles": [],
+   "price_texts": [],
+   "items_by_source": {},
+   "text_sample": "Ignorer la navigation L'attente est terminée. Les offres Black Friday sont là.Acheter Smartphone Montres et bracelets d'activité Écouteurs Maison connectée Accessoires Offres Assistance Connexion Profitez d'un son immersif avec Pixel Buds Pro 2 - Google Store Google Pixel Buds Pro 2 Présentation Caractéristiques techniques Comparer 169 €249 € ou 56,33 €/mois en 3 mensualités Prix de vente habituel : 249 € Acheter Petits, légers, confortables 169 € 249 € Économisez 80 € ou 56,33 €/mois en 3 mensualités Prix de vente habituel : 249 € Acheter Couleur : Porcelaine Diapositive 1 sur 4 1 / 4 Vue de dessus d'une paire de Pixel Buds Pro 2 couleur Porcelaine. Image 1 sur 4. Économisez 80 € à l'achat des Google Pixel Buds Pro 2. Offre valable jusqu'au 01/12^. Acheter Les Pixel Buds les plus avancés à ce jour. Comparer les écouteurs L'audio adaptatif s'ajuste à votre environnement. Google Tensor A1 supprime deux fois plus de bruit1 Ajustez-les en les faisant pivoter pour plus de confort. Jusqu'à 30 heures d'écoute (avec l'étui de recharge).2 Gardez les mains libres grâce à Gemini Live.3 Un son qui s'adapte à votre environnement. L'audio adaptatif s'ajuste automatiquement pour vous aider à réduire les sons et à masquer les distractions dans les environnements bruyants, tout en vous permettant de rester conscient de ce qui vous entoure. Vous pouvez également activer la suppression active du bruit avec Silent Seal™ 2.0 pour bloquer les bruits extérieurs. Profitez d'un son haut de gamme. ",
+   "json_samples": [
+    {
+     "url": "https://ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData",
+     "body": "[null, null, null, null, null, null, null, null, null, null, 0]"
+    }
+   ]
   }
+ ],
+ "watchlist": {
+  "missing_before": [
+   "Pixel Buds 2a",
+   "Pixel Buds Pro 2"
+  ],
+  "sitemaps": [
+   "https://store.google.com/fr/sitemap.xml",
+   "https://store.google.com/sitemap.xml",
+   "https://store.google.com/sitemap/sitemap_at.xml",
+   "https://store.google.com/sitemap/sitemap_au.xml",
+   "https://store.google.com/sitemap/sitemap_be.xml",
+   "https://store.google.com/sitemap/sitemap_ca.xml",
+   "https://store.google.com/sitemap/sitemap_ch.xml",
+   "https://store.google.com/sitemap/sitemap_cz.xml",
+   "https://store.google.com/sitemap/sitemap_de.xml",
+   "https://store.google.com/sitemap/sitemap_default.xml",
+   "https://store.google.com/sitemap/sitemap_dk.xml",
+   "https://store.google.com/sitemap/sitemap_ee.xml",
+   "https://store.google.com/sitemap/sitemap_es.xml",
+   "https://store.google.com/sitemap/sitemap_fi.xml",
+   "https://store.google.com/sitemap/sitemap_fr.xml",
+   "https://store.google.com/sitemap/sitemap_gb.xml",
+   "https://store.google.com/sitemap/sitemap_hu.xml",
+   "https://store.google.com/sitemap/sitemap_ie.xml",
+   "https://store.google.com/sitemap/sitemap_in.xml",
+   "https://store.google.com/sitemap/sitemap_it.xml",
+   "https://store.google.com/sitemap/sitemap_jp.xml",
+   "https://store.google.com/sitemap/sitemap_lt.xml",
+   "https://store.google.com/sitemap/sitemap_lv.xml",
+   "https://store.google.com/sitemap/sitemap_mx.xml",
+   "https://store.google.com/sitemap/sitemap_my.xml",
+   "https://store.google.com/sitemap/sitemap_nl.xml",
+   "https://store.google.com/sitemap/sitemap_no.xml",
+   "https://store.google.com/sitemap/sitemap_nz.xml",
+   "https://store.google.com/sitemap/sitemap_pl.xml",
+   "https://store.google.com/sitemap/sitemap_pr.xml",
+   "https://store.google.com/sitemap/sitemap_pt.xml",
+   "https://store.google.com/sitemap/sitemap_ro.xml",
+   "https://store.google.com/sitemap/sitemap_se.xml",
+   "https://store.google.com/sitemap/sitemap_sg.xml",
+   "https://store.google.com/sitemap/sitemap_si.xml",
+   "https://store.google.com/sitemap/sitemap_sk.xml",
+   "https://store.google.com/sitemap/sitemap_tw.xml",
+   "https://store.google.com/sitemap/sitemap_us.xml",
+   "https://store.google.com/sitemap_index.xml"
+  ],
+  "sitemap_urls": 401,
+  "visit": [
+   "https://store.google.com/fr/config/pixel_buds_2a?hl=fr",
+   "https://store.google.com/fr/product/pixel_buds_2a?hl=fr",
+   "https://store.google.com/fr/config/pixel_buds_pro_2?hl=fr",
+   "https://store.google.com/fr/product/pixel_buds_pro_2?hl=fr"
+  ]
+ },
+ "raw_names": [
+  "Google Fitbit Edge | 179.99 | dom-from",
+  "Google Pixel 10 Pro Fold | 1899.0 | dom-tile",
+  "Google Pixel 10 Pro | 1239.0 | dom-tile",
+  "Google Pixel 10 Pro | 1299.0 | dom-tile",
+  "Google Pixel 10 Pro | 749.0 | dom-tile",
+  "Google Pixel 10 | 599.0 | dom-tile",
+  "Google Pixel 10 | 699.0 | dom-tile",
+  "Google Pixel 10a | 429.0 | dom-tile",
+  "Google Pixel 10a | 529.0 | dom-tile",
+  "Google Pixel 11 Pro Fold | 1999.0 | dom-tile",
+  "Google Pixel 11 Pro Fold | 2129.0 | dom-tile",
+  "Google Pixel 11 Pro | 1029.0 | dom-tile",
+  "Google Pixel 11 Pro | 1289.0 | dom-tile",
+  "Google Pixel 11 Pro | 899.0 | dom-tile",
+  "Google Pixel 11 | 699.0 | dom-tile",
+  "Google Pixel 11 | 829.0 | dom-tile",
+  "Google Pixel Watch 4 | 399.0 | dom-from",
+  "Google Pixel Watch 5 | 349.0 | dom-from"
  ]
 }
