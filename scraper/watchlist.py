@@ -99,5 +99,7 @@ def url_for_model(urls, brand, model, limit=2):
                 if re.match(r"[-_](case|cover|strap|tips|cushion|charger|cable|stand|bag|etui|hulle|coque|custodia)", rest):
                     continue
                 hits.append(u)
+    # '/enco-buds3-pro/specs/' -> the product page itself
+    hits = [re.sub(r"/(specs?|reviews?|support|faq|tech-specs|features)/?$", "/", u, flags=re.I) for u in hits]
     hits = sorted(set(hits), key=len)
     return hits[:limit]

@@ -97,7 +97,7 @@ ACCESSORY = re.compile(
     r"armband|strap|\bloop\b|tastatur|keyboard|pencil|stylus|s pen\b|stift|ständer|halterung|\bstand\b|powerbank|"
     r"smarttag|airtag|magsafe|\bdock\b|tasche|sleeve|wallet|ladestation|netzteil|ohreinsätze|ear ?tips|einsätze|"
     r"fernseher|\btv\b|monitor|staubsauger|vacuum|scooter|router|kamera|camera|"
-    r"ohrpolster|ear ?cushions?|coussinets|cuscinetti|nauszniki|tech21|(für|for|pour|per|do|pentru|için) airpods|"
+    r"ohrpolster|ear ?cushions?|coussinets|cuscinetti|nauszniki|pernițe|yastık|tech21|(für|for|pour|per|do|pentru|için) airpods|"
     r"coque|étui|housse|chargeur|câble|adaptateur|bracelet|clavier|stylet|embouts|"     # fr
     r"custodia|caricatore|cavo|adattatore|cinturino|tastiera|pellicola|pennino|"           # it
     r"etui|pokrowiec|szkło|ładowarka|kabel|pasek|klawiatura|rysik|"                      # pl
@@ -233,6 +233,9 @@ def bad_name(name):
     if any(re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+){2,}", w) for w in name.split()):   # URL slug like 'xiaomi-watch-2-pro'
         return True
     if re.search(r"-global-|-row-|ecom|pdp", name, re.I):
+        return True
+    if re.search(r"aksesuar|zubehör|accessoires|accessori|akcesoria|accesorii|accessories|"
+                 r"kulaklıklar ve hoparlörler|kopfhörer\s*&\s*lautsprecher", name, re.I):   # category-page titles
         return True
     # bundles: 'HONOR Pad2-HONOR Magic V5', 'Magic V6-watch6', 'Magic8 Pro-PC', 'B-HONOR MagicPad4'
     if re.search(r"\b(HONOR|HUAWEI|Xiaomi|Samsung|Galaxy)\b.*\b\1\b", name, re.I) or \

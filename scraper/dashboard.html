@@ -299,7 +299,13 @@ function render() {
       .filter(([k]) => !only || dates.some(d => chgByKD[k + '|' + d] && ['up', 'down'].includes(chgByKD[k + '|' + d].type)));
     rows.sort((a, b) => a[1].brand.localeCompare(b[1].brand) || a[1].model.localeCompare(b[1].model) || ((D.prices[a[0]][today] || [1e12])[0] - (D.prices[b[0]][today] || [1e12])[0]));
     html += `<h2>${esc(label)}</h2><p class="meta">${rows.length} SKUs · ${dates[0] || ''} → ${today || ''}</p>`;
-    if (!rows.length) { html += '<div class="scroll"><div class="empty">暂无数据 / no data</div></div>'; continue; }
+    if (!rows.length) {
+      const live = Object.entries(D.skus).filter(([k, m]) => m.category === cat && !off.has(m.brand) && D.prices[k][today]).length;
+      html += '<div class="scroll"><div class="empty">' + (only && live
+        ? `近 ${dates.length} 天没有调价，所以按"仅显示有价格变动"隐藏了 ${live} 个在售 SKU。<a href="#" class="showall">显示全部 / show all</a>`
+        : '暂无数据 / no data') + '</div></div>';
+      continue;
+    }
     html += '<div class="scroll"><table><tr><th class="l sku">型号 · 版本 / Model · Variant</th><th>排名</th>' + dates.map(d => `<th>${d.slice(5)}</th>`).join('') + '<th>区间变动 / Δ</th><th class="spark">近15天走势</th></tr>';
     for (const [k, m] of rows) {
       const pr = D.prices[k], rk = (D.ranks[m.mkey] || {})[today];
@@ -672,6 +678,7 @@ async function init() {
   $('#modelQ').addEventListener('keydown', e => { if (e.key === 'Enter') showModel(e.target.value); });
   document.addEventListener('click', e => { const a = e.target.closest('a[data-m]'); if (a) { $('#modelQ').value = a.dataset.m; showModel(a.dataset.m); $('#modelQ').scrollIntoView({behavior: 'smooth', block: 'center'}); } });
   ['#range', '#q', '#onlyChanged'].forEach(s => $(s).addEventListener('input', render));
+  $('#sections').addEventListener('click', e => { if (e.target.closest('a.showall')) { e.preventDefault(); $('#onlyChanged').checked = false; render(); } });
   const pickFromInput = () => { const k = skuLabel[$('#skuQ').value]; if (k) { addPick(k); $('#skuQ').value = ''; } };
   $('#skuQ').addEventListener('change', pickFromInput);
   $('#skuQ').addEventListener('keydown', e => { if (e.key === 'Enter') pickFromInput(); });

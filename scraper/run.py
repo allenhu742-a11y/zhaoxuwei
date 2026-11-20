@@ -168,7 +168,12 @@ async def sitemap_urls(ctx, base, max_files=40):
         locs = LOC_RE.findall(txt)
         if "<sitemapindex" in txt[:2000].lower():
             # prefer child sitemaps for this country / products
-            kids = sorted(locs, key=lambda u: (base.split("/")[3] not in u if len(base.split("/")) > 3 else 0, "product" not in u.lower()))
+            seg = base.split("/")[3] if len(base.split("/")) > 4 and base.split("/")[3] else ""
+            def other_country(u):                      # '.../ar/sitemap.xml' when we want '/tr/'
+                m = re.match(r"https?://[^/]+/([a-z]{2,4})/", u)
+                return bool(seg and m and m.group(1) != seg)
+            kids = [u for u in locs if not other_country(u)]
+            kids.sort(key=lambda u: (f"/{seg}/" not in u if seg else 0, "product" not in u.lower()))
             todo = kids + todo
         else:
             urls += [u for u in locs if u.startswith(base)]

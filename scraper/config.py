@@ -152,8 +152,8 @@ AUDIO_BRANDS = {
                   "shopify": ["https://{cc}.soundcore.com", "https://www.soundcore.com/{cc}", "https://soundcore.com/{cc}"]},
     "Shokz": {"countries": ["DE", "FR", "IT", "PL"], "default_cat": "audio",
               "shopify": ["https://{cc}.shokz.com", "https://shokz.com/{cc}", "https://www.shokz.com/{cc}"]},
-    "JBL": {"countries": ["DE", "FR", "IT", "PL", "RO", "TR"], "default_cat": "audio",
-            "sitemap_base": ["https://{cc}.jbl.com/", "https://www.jbl.com/{cc}/", "https://www.jbl.com.tr/"],
+    "JBL": {"countries": ["DE", "FR", "IT", "PL"], "default_cat": "audio",     # no tr./ro.jbl.com store
+            "sitemap_base": ["https://{cc}.jbl.com/"],
             "seeds": {"audio": ["https://{cc}.jbl.com/"]}, "link": r"^https://{cc}\.jbl\.com/[^?#]+\.html$"},
     "Sony": {"countries": ["DE", "FR", "IT", "PL", "RO", "TR"],
              "sitemap_base": ["https://www.sony.{tld}/"],
