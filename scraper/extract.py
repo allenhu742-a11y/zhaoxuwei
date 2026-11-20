@@ -96,7 +96,8 @@ ACCESSORY = re.compile(
     r"hülle|\bcase\b|cover|folie|schutzglas|displayschutz|ladegerät|ladekabel|charger|kabel|cable|adapter|"
     r"armband|strap|\bloop\b|tastatur|keyboard|pencil|stylus|s pen\b|stift|ständer|halterung|\bstand\b|powerbank|"
     r"smarttag|airtag|magsafe|\bdock\b|tasche|sleeve|wallet|ladestation|netzteil|ohreinsätze|ear ?tips|einsätze|"
-    r"fernseher|\btv\b|monitor|staubsauger|vacuum|scooter|router|kamera|camera|lautsprecher|speaker|soundbar|"
+    r"fernseher|\btv\b|monitor|staubsauger|vacuum|scooter|router|kamera|camera|"
+    r"ohrpolster|ear ?cushions?|coussinets|cuscinetti|nauszniki|tech21|(für|for|pour|per|do|pentru|için) airpods|"
     r"coque|étui|housse|chargeur|câble|adaptateur|bracelet|clavier|stylet|embouts|"     # fr
     r"custodia|caricatore|cavo|adattatore|cinturino|tastiera|pellicola|pennino|"           # it
     r"etui|pokrowiec|szkło|ładowarka|kabel|pasek|klawiatura|rysik|"                      # pl
@@ -109,7 +110,10 @@ BUY_WORDS = re.compile(r"\s+(kaufen|jetzt kaufen|acheter|kup(?:uj)?|cumpără|cu
 
 CATS = [
     ("audio", re.compile(r"buds|airpods|freebuds|freeclip|earbuds|earphones?|kopfhörer|headphones?|beats|\bpods\b|freelace|"
-                         r"écouteurs|casque|auricolari|cuffie|słuchawki|căști|casti|kulaklık", re.I)),
+                         r"écouteurs|casque|auricolari|cuffie|słuchawki|căști|casti|kulaklık|"
+                         r"speaker|lautsprecher|enceinte|altoparlante|głośnik|glosnik|boxă|boxa|hoparlör|soundbar|homepod|earpods|"
+                         r"partybox|boombox|bandbox|easysing|\bsound\s(pocket|outdoor|party|play)\b|openrun|openfit|openswim|openmove|"
+                         r"opencomm|opendots|openmeet|linkbuds|\bult\s(field|tower)|\bw[hf]-|\bliberty\b|aeroclip|aerofit|\benco\b", re.I)),
     ("wear", re.compile(r"watch|\bring\b|galaxy fit|\bfit\s?\d|smart\s?band|mi band|\bband\s?\d|honor band|huawei band|"
                         r"montre|orologio|zegarek|smartwatch", re.I)),
     ("tablet", re.compile(r"\bpad\b|\bpad\s?\d|ipad|matepad|galaxy tab|\btab\b|tablet|magicpad|tablette", re.I)),
@@ -151,7 +155,8 @@ def has_storage(variant):
 
 # ---------------------------------------------------------------- model-name canonicalisation
 BRAND_PREFIX = {"Apple": "", "Samsung": "Samsung", "Google": "Google", "Xiaomi": "Xiaomi", "Huawei": "HUAWEI",
-                "Honor": "HONOR", "Motorola": "Motorola", "OnePlus": "OnePlus"}
+                "Honor": "HONOR", "Motorola": "Motorola", "OnePlus": "OnePlus", "vivo": "vivo", "OPPO": "OPPO",
+                "Shokz": "Shokz", "Sony": "Sony", "JBL": "JBL", "Soundcore": "Soundcore"}
 
 
 def _cut_outside_parens(s, ch=","):
@@ -550,18 +555,29 @@ def normalize_variant(v):
     return re.sub(r"\s{2,}", " ", v).strip()
 
 
-def clean_rows(brand, raw, fx=1.0):
-    """raw items -> one row per (model, variant); also re-cleans rows from older snapshots."""
+def clean_rows(brand, raw, fx=1.0, default_cat=None):
+    """raw items -> one row per (model, variant); also re-cleans rows from older snapshots.
+    default_cat: category for single-category brands (JBL, Soundcore, Shokz) when the name has no category word."""
+    from . import watchlist as W
+    wl = [w for w in W.load() if w["brand"].lower() == brand.lower()]
     best = {}
     for it in raw:
         name = (it.get("name") or it.get("model") or "").strip()
-        cat = classify(name)
+        if not name or ACCESSORY.search(name) or REFURB.search(name):
+            continue
+        hit = W.match(brand, name, wl) if wl else None
+        if hit:
+            # bundle such as 'HUAWEI MatePad + FreeBuds Neo': the rest of the name names another product type
+            rest = (" " + W.norm(name) + " ").replace(" " + W._core(hit["brand"], hit["model"]) + " ", " ")
+            if any(c != hit["category"] and rx.search(rest) for c, rx in CATS):
+                continue
+        cat = hit["category"] if hit else (classify(name) or default_cat)
         if not cat or re.search(r"-global-|-row-|ecom|pdp", name, re.I) or len(name.split()) > 14:
             continue
         price = it.get("price")
-        if not price or price / fx < MIN_EUR[cat]:
+        if not price or price / fx < (8 if hit else MIN_EUR[cat]):
             continue
-        model = canonical_model(brand, name)
+        model = canonical_model(brand, hit["model"] if hit else name)
         if not model or bad_name(model):
             continue
         variant = normalize_variant(it.get("variant") or "")

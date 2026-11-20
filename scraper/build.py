@@ -13,7 +13,8 @@ import shutil
 from collections import defaultdict
 
 from . import extract as X
-from .config import BRAND_COLORS, CATEGORY_LABELS, COUNTRIES, FX_FALLBACK
+from . import watchlist as W
+from .config import BRAND_COLORS, BRANDS, CATEGORY_LABELS, COUNTRIES, FX_FALLBACK
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -43,7 +44,7 @@ def reclean(s):
         by_brand[it["brand"]].append({**it, "name": it.get("model")})
     rows = []
     for b, items in by_brand.items():
-        rows += X.clean_rows(b, items, fx)
+        rows += X.clean_rows(b, items, fx, BRANDS.get(b, {}).get("default_cat"))
     return rows
 
 
@@ -167,11 +168,23 @@ def build_country(cc, snaps):
         for mk, r in (s.get("ranks") or {}).items():
             ranks[mk][d] = r
     mark_suspects(changes, prices, dates)
+    # watchlist coverage on the latest day: which target models this country's official stores list
+    last_d = dates[-1]
+    live = [m for k, m in skus.items() if last_d in prices[k]]
+    coverage = {}
+    status = snaps[-1].get("status", {})
+    for w in W.load():
+        if w["brand"] not in status and w["brand"] not in BRANDS:
+            continue
+        hit = any(m["brand"] == w["brand"] and (W.match(m["brand"], m["model"]) or {}).get("model") == w["model"] for m in live)
+        b = coverage.setdefault(w["category"], {}).setdefault(w["brand"], {"found": [], "missing": [], "tracked": w["brand"] in status})
+        b["found" if hit else "missing"].append(w["model"])
     c = COUNTRIES.get(cc, {"cur": "EUR", "name": cc})
     return {
         "country": cc, "name": c["name"], "currency": snaps[-1].get("currency", c["cur"]), "dates": dates, "fx": fx,
         "skus": skus, "prices": prices, "ranks": ranks, "changes": changes,
         "status": snaps[-1].get("status", {}), "generated_at": snaps[-1].get("generated_at"),
+        "coverage": coverage,
     }
 
 

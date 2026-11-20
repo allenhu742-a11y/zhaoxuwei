@@ -19,6 +19,7 @@ import requests
 from playwright.async_api import async_playwright
 
 from . import extract as X
+from . import watchlist as W
 from .config import BRANDS, COUNTRIES, FX_FALLBACK, SAMSUNG_API, SAMSUNG_TYPES, tpl
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -87,12 +88,105 @@ def samsung_api(cc, cur):
     return items, dbg
 
 
+# ------------------------------------------------------------------ Shopify stores (/products.json)
+def shopify_products(bases, cc, cur):
+    """Shopify exposes every product with variant prices at /products.json - no browser needed."""
+    dbg = []
+    s = requests.Session()
+    s.headers.update({"User-Agent": UA, "Accept": "application/json"})
+    for base in bases:
+        base = tpl(base, cc).rstrip("/")
+        items, page = [], 1
+        while page <= 12:
+            url = f"{base}/products.json?limit=250&page={page}"
+            try:
+                r = s.get(url, timeout=30, allow_redirects=True)
+                if not same_country(base, r.url, cc):
+                    dbg.append({"url": url, "skipped": f"redirected to {r.url[:80]}"}); break
+                prods = r.json().get("products", [])
+            except Exception as e:  # noqa: BLE001
+                dbg.append({"url": url, "error": str(e)[:160]}); break
+            dbg.append({"url": url, "status": r.status_code, "products": len(prods)})
+            if not prods:
+                break
+            for i, p in enumerate(prods):
+                vs = [v for v in p.get("variants", []) if v.get("available", True)] or p.get("variants", [])
+                if not vs:
+                    continue
+                v = min(vs, key=lambda v: float(v.get("price") or 1e9))
+                price = X.parse_price(v.get("price"), cur)
+                lst = X.parse_price(v.get("compare_at_price"), cur)
+                if price:
+                    items.append({"name": p.get("title", ""), "variant": X.storage_variant(v.get("title", "")), "price": price,
+                                  "list_price": lst if lst and lst > price else None, "sku": v.get("sku") or "",
+                                  "url": f"{base}/products/{p.get('handle')}", "source": "jsonld", "pos": (page - 1) * 250 + i})
+            if len(prods) < 250:
+                break
+            page += 1
+        if items:
+            return items, dbg
+    return [], dbg
+
+
+# ------------------------------------------------------------------ sitemap discovery for watchlist models
+LOC_RE = re.compile(r"<loc>\s*([^<\s]+)\s*</loc>", re.I)
+
+
+async def fetch_text(ctx, url):
+    try:
+        r = requests.get(url, headers={"User-Agent": UA}, timeout=30)
+        if r.status_code == 200 and len(r.content) < 40_000_000:
+            if url.endswith(".gz"):
+                import gzip
+                return gzip.decompress(r.content).decode("utf-8", "ignore")
+            return r.text
+    except Exception:  # noqa: BLE001
+        pass
+    try:                                           # some CDNs only answer a real browser
+        page = await ctx.new_page()
+        resp = await page.goto(url, timeout=30000)
+        txt = await resp.text() if resp else ""
+        await page.close()
+        return txt
+    except Exception:  # noqa: BLE001
+        return ""
+
+
+async def sitemap_urls(ctx, base, max_files=40):
+    """All page URLs under `base` listed in the site's sitemaps (robots.txt 'Sitemap:' lines first)."""
+    root = re.match(r"https?://[^/]+", base).group(0)
+    todo, seen, urls = [], set(), []
+    robots = await fetch_text(ctx, root + "/robots.txt")
+    todo += [l.split(":", 1)[1].strip() for l in robots.splitlines() if l.lower().startswith("sitemap:")]
+    todo += [base.rstrip("/") + "/sitemap.xml", root + "/sitemap.xml", root + "/sitemap_index.xml"]
+    while todo and len(seen) < max_files:
+        sm = todo.pop(0)
+        if sm in seen:
+            continue
+        seen.add(sm)
+        txt = await fetch_text(ctx, sm)
+        locs = LOC_RE.findall(txt)
+        if "<sitemapindex" in txt[:2000].lower():
+            # prefer child sitemaps for this country / products
+            kids = sorted(locs, key=lambda u: (base.split("/")[3] not in u if len(base.split("/")) > 3 else 0, "product" not in u.lower()))
+            todo = kids + todo
+        else:
+            urls += [u for u in locs if u.startswith(base)]
+    return list(dict.fromkeys(urls)), sorted(seen)
+
+
 # ------------------------------------------------------------------ browser page visit
 def same_country(url, final_url, cc):
-    """Stores redirect unsupported countries elsewhere; don't record those prices."""
-    want = f"/{cc.lower()}"
+    """Stores redirect unsupported countries elsewhere; don't record those prices.
+    Country can sit in the path (/de/...), the subdomain (de.jbl.com) or the TLD (sony.de, sony.com.tr)."""
+    c = cc.lower()
     p = urlparse(final_url or url)
-    return p.path.lower().startswith(want + "/") or p.path.lower() == want
+    host, path = (p.hostname or "").lower(), p.path.lower()
+    if path.startswith(f"/{c}/") or path == f"/{c}" or path.startswith(f"/{c}-"):
+        return True
+    if host.startswith(c + ".") or host.endswith("." + c) or host.endswith(".com." + c):
+        return True
+    return False
 
 
 async def visit(ctx, url, brand, link_rx, cc, cur, seed_pos=None):
@@ -188,6 +282,11 @@ async def scrape_brand(pw, brand, cfg, cc):
         raw += got
         debug["api"] = dbg
         log(f"   samsung api items: {len(got)}")
+    if cfg.get("shopify"):
+        got, dbg = shopify_products(cfg["shopify"], cc, cur)
+        raw += got
+        debug["shopify"] = dbg
+        log(f"   shopify items: {len(got)}")
 
     launch = {"args": ["--disable-blink-features=AutomationControlled"]}
     if cfg.get("headful") and os.environ.get("DISPLAY"):
@@ -219,7 +318,7 @@ async def scrape_brand(pw, brand, cfg, cc):
     if cfg.get("api") == "samsung" and len(raw) > 20:
         targets = {}
     chosen = sorted(targets.items(), key=lambda kv: kv[1])[: cfg.get("max_pages", 40)]
-    sem = asyncio.Semaphore(3)
+    sem = asyncio.Semaphore(4)
 
     async def one(u, pos):
         async with sem:
@@ -231,6 +330,34 @@ async def scrape_brand(pw, brand, cfg, cc):
     for items, rec in await asyncio.gather(*(one(u, p) for u, p in chosen)):
         raw += items; debug["pages"].append(rec)
     log(f"   product pages: {len(chosen)}, raw items: {len(raw)}")
+
+    # watchlist models still missing -> look them up in the sitemap and visit their product pages
+    wl = [w for w in W.load() if w["brand"].lower() == brand.lower()]
+    found = {W.match(brand, it.get("name", ""), wl)["model"] for it in raw if W.match(brand, it.get("name", ""), wl)}
+    missing = [w for w in wl if w["model"] not in found]
+    bases = cfg.get("sitemap_base") or []
+    bases = [bases] if isinstance(bases, str) else bases
+    if missing and bases:
+        visited = {r["url"] for r in debug["pages"]}
+        urls, sms = [], []
+        for b in bases:
+            b = tpl(b, cc)
+            got_urls, got_sms = await sitemap_urls(ctx, b)
+            urls += got_urls; sms += got_sms
+            if got_urls:
+                break
+        want = []
+        for w in missing:
+            for u in W.url_for_model(urls, brand, w["model"]):
+                if u not in visited and u not in want:
+                    want.append(u)
+        want = want[: cfg.get("watch_max", 60)]
+        debug["watchlist"] = {"missing_before": [w["model"] for w in missing], "sitemaps": sms[:40],
+                              "sitemap_urls": len(urls), "visit": want}
+        log(f"   watchlist: {len(missing)} missing, {len(urls)} sitemap URLs, visiting {len(want)}")
+        for items, rec in await asyncio.gather(*(one(u, 9_000_000) for u in want)):
+            raw += items; debug["pages"].append(rec)
+    debug["raw_names"] = sorted({f"{it.get('name', '')[:70]} | {it.get('price')} | {it.get('source')}" for it in raw})[:400]
     await browser.close()
     return raw, debug
 
@@ -275,7 +402,7 @@ async def main():
         for brand in brands:
             try:
                 raw, debug = await scrape_brand(pw, brand, BRANDS[brand], cc)
-                rows = X.clean_rows(brand, raw, rate)
+                rows = X.clean_rows(brand, raw, rate, BRANDS[brand].get("default_cat"))
                 snap["ranks"].update(listing_ranks(rows))
                 for r in rows:
                     r.pop("pos", None)
