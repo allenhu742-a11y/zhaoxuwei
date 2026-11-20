@@ -9,25 +9,25 @@
    "title": "All smartphones | motorola",
    "json_urls": [
     "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1&searchabran=1",
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983964&v=1.720.0&sl=0&si=74d77a64-dda0-42ae-9888-c15728a89813-to",
     "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/program?programKey=ngwAGv&programVersion=241",
-    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite?programKey=ngwAGv&inviteId=1646&programVersion=241",
-    "https://api.motorola.com/ro/ro/online/moto/getMotoPictureSwitch?subseriesCodes=pmipmht41mf,pmipmhq40mz,pmipmgz38mq,pmipmgx38ml,pmipmgy39md,pmipmgq37ml",
     "https://api.motorola.com/ro/ro/online/moto/getMotoPictureSwitch?subseriesCodes=pmipmjj43mx,pmipmjk44m2,pmipmhv41mm,pmipmgu37my,pmipmgs37ms",
-    "https://api.motorola.com/ro/ro/detail/price/batch/get?preSelect=1&mcode=PMIPMHT41MF%2CPMIPMHQ40MZ%2CPMIPMGZ38MQ%2CPMIPMGX38ML%2CPMIPMGY39MD%2CPMIPMGQ37ML&config",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983951&v=1.720.0&sl=0&si=2df8b016-0cb7-4b73-b46d-17dc3c9c6820-to",
+    "https://api.motorola.com/ro/ro/online/moto/getMotoPictureSwitch?subseriesCodes=pmipmht41mf,pmipmhq40mz,pmipmgz38mq,pmipmgx38ml,pmipmgy39md,pmipmgq37ml",
+    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://api.motorola.com/ro/ro/online/moto/getMotoPictureSwitch?subseriesCodes=pmipmjf43mj,pmipmhy43m6,pmipmhs42m7,pmipmhu41mg,pmipmha38mv,pmipmhc38m9,pmipmhk40",
     "https://api.motorola.com/ro/ro/detail/price/batch/get?preSelect=1&mcode=PMIPMJJ43MX%2CPMIPMJK44M2%2CPMIPMHV41MM%2CPMIPMGU37MY%2CPMIPMGS37MS&configId=&enteredCod",
+    "https://api.motorola.com/ro/ro/detail/price/batch/get?preSelect=1&mcode=PMIPMHT41MF%2CPMIPMHQ40MZ%2CPMIPMGZ38MQ%2CPMIPMGX38ML%2CPMIPMGY39MD%2CPMIPMGQ37ML&config",
     "https://api.motorola.com/ro/ro/detail/price/batch/get?preSelect=1&mcode=PMIPMJF43MJ%2CPMIPMHY43M6%2CPMIPMHS42M7%2CPMIPMHU41MG%2CPMIPMHA38MV%2CPMIPMHC38M9%2CPMIP",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
-    "https://api.ipify.org/?format=json",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
     "https://api.ipify.org/?format=json",
     "https://cdn.equalweb.com/assets/data/methods.json",
+    "https://api.ipify.org/?format=json",
     "https://cdn.equalweb.com/assets/data/lang.json",
+    "https://cdn.equalweb.com/assets/locale/ro.json",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
-    "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
-    "https://cdn.equalweb.com/assets/locale/ro.json"
+    "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json"
    ],
    "links": [
     "https://www.motorola.com/ro/ro/p/pmipmje43mf",
@@ -80,19 +80,19 @@
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1&searchabran=1",
-     "body": "{\"xrid\": \"11b2471a76d860fb308b386807f9df2c\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
+     "body": "{\"xrid\": \"f8fbe402e0c493cc82ca534e44c6566e\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
+    },
+    {
+     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoPictureSwitch?subseriesCodes=pmipmjj43mx,pmipmjk44m2,pmipmhv41mm,pmipmgu37my,pmipmgs37ms",
+     "body": "{\"xrid\": \"5c6d9133d391cb0df82d76034389366f\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": [{\"summary\": \"motorola razr fold\", \"subseriesCode\": \"PMIPMJJ43MX\", \"marketingName\": null, \"subseriesData\": {\"summary\": \"motorola razr fold\", \"subseriesCode\": \"PMIPMJJ43MX\", \"productName\": \"motorola razr fold\", \"productCode\": \"PMIPMJJ43MX\", \"description\": null, \"productType\": 2, \"marketingStatus\": \"Available\", \"inventoryStatus\": 1, \"url\": \"/p/phones/razr/razr-fold/pmipmjj43mx\", \"media\": {\"listImage\": [{\"imageAddress\": \"//p3-ofp.static.pub//fes/cms/2026/03/01/aoshcul1338siy5xa1s2zvm4z2nfo7335762.png\", \"imageName\": \"aoshcul1338siy5xa1s2zvm4z2nfo7335762.png\", \"imageCaption\": null, \"imageAlt\": null}], \"logo\": null}, \"flCode\": \"phones\", \"flName\": \"buy moto smartphones - shop all models | motorola US\", \"color\": null, \"colorName\": null, \"storage\": null, \"learnMoreLink\": null, \"merchandisingFlag\": {\"flagId\": null, \"bgColor\": null, \"text\": null, \"priceTime\": null, \"type\": null, \"expireTime\": null, \"gameBackgroundColor\": null, \"b2bFlagType\": null}, \"marketingPage\": null, \"energyRatingDTO\": null, \"motoGift\": null, \"motoMultiGift\": []}, \"models\": null}, {\"summary\": \"motorola razr 70 ultra\", \"subseriesCode\": \"PMIPMJK44M2\", \"marketingName\": null, \"subseriesData\": {\"summary\": \"motorola razr 70 ultra\", \"subseriesCode\": \"PMIPMJK44M2\", \"productName\": \"motorola razr 70 ultra\", \"productCode\": \"PMIPMJK44M2\", \"description\": null, \"productType\": 2, \"marketingStatus\": \"Available\", \"inventoryStatus\": 1, \"url\": \"/p/phones/razr/razr-70-ultra/pmipmjk44m2\", \"media\": {\"listImage\": [{\"imageAddress\": \"//p1-ofp.static.pub//fes/cms/2026/04/27/8cyuum99e47yaiiivwkhmkq521msm3693354.png\", \"imageName\": \"motorola-razr-70-ultra-pdp-ecom-render-06-color1-.png\", \"imageCaption\": null, \"imageAlt\": null}], \"logo\": null}, \"flCode\": \"phones\", \"flName\": \"buy moto smartphones - shop all models | motorola US\", \"color\": null, \"colorName\": null, \"storage\": null, \"learnMoreLink\": null, \"merchandisingFlag\": {\"flagId\": null, \"bgColor\": null, \"text\": null, \"priceTime\": null, \"type\": null, \"expireTime\": null, \"gameBackgroundColor\": null, \"b2bFlagType\": null}, \"marketingPage\": null, \"energyRatingDTO\": null, \"motoGift\": null, \"motoMultiGift\": []}, \"models\": null}, {\"summary\": \"motorola razr 60\", \"subseriesCode\": \"PMIPMHV41MM\", \"marketingName\": null, \"subseriesData\": {\"summary\": \"motorola razr 60\", \"subseriesCode\": \"PMIPMHV41MM\", \"productName\": \"motorola razr 60\", \"productCode\": \"PMIPMHV41MM\", \"description"
+    },
+    {
+     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoPictureSwitch?subseriesCodes=pmipmht41mf,pmipmhq40mz,pmipmgz38mq,pmipmgx38ml,pmipmgy39md,pmipmgq37ml",
+     "body": "{\"xrid\": \"3ed9eb90f6dec8cb1d45827121a0ea5e\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": [{\"summary\": \"motorola edge 60 pro\", \"subseriesCode\": \"PMIPMHT41MF\", \"marketingName\": null, \"subseriesData\": {\"summary\": \"motorola edge 60 pro\", \"subseriesCode\": \"PMIPMHT41MF\", \"productName\": \"motorola edge 60 pro\", \"productCode\": \"PMIPMHT41MF\", \"description\": null, \"productType\": 2, \"marketingStatus\": \"Available\", \"inventoryStatus\": 1, \"url\": \"/p/phones/motorola-edge/60-pro/pmipmht41mf\", \"media\": {\"listImage\": [{\"imageAddress\": \"//p2-ofp.static.pub/MOTO/edge60-pro/moto_edge_60_PRO.png\", \"imageName\": \"moto_edge_60_PRO.png\", \"imageCaption\": null, \"imageAlt\": null}, {\"imageAddress\": \"//p4-ofp.static.pub//fes/cms/2025/04/23/kvk2m3cf074swywfqi5wevpr8db47o063322.png\", \"imageName\": \"kvk2m3cf074swywfqi5wevpr8db47o063322.png\", \"imageCaption\": null, \"imageAlt\": null}, {\"imageAddress\": \"//p4-ofp.static.pub//fes/cms/2025/04/23/2lz4cgjlrewrjfsbnrtqc40ufw6owg667173.png\", \"imageName\": \"2lz4cgjlrewrjfsbnrtqc40ufw6owg667173.png\", \"imageCaption\": null, \"imageAlt\": null}, {\"imageAddress\": \"//p4-ofp.static.pub//fes/cms/2025/04/23/fy1kkw0hnlygsflb9js4ccjw0pb7gg698044.png\", \"imageName\": \"fy1kkw0hnlygsflb9js4ccjw0pb7gg698044.png\", \"imageCaption\": null, \"imageAlt\": null}], \"logo\": null}, \"flCode\": \"phones\", \"flName\": \"buy moto smartphones - shop all models | motorola US\", \"color\": null, \"colorName\": null, \"storage\": null, \"learnMoreLink\": null, \"merchandisingFlag\": {\"flagId\": null, \"bgColor\": null, \"text\": null, \"priceTime\": null, \"type\": null, \"expireTime\": null, \"gameBackgroundColor\": null, \"b2bFlagType\": null}, \"marketingPage\": null, \"energyRatingDTO\": null, \"motoGift\": null, \"motoMultiGift\": []}, \"models\": null}, {\"summary\": \"motorola edge 60 fusion\", \"subseriesCode\": \"PMIPMHQ40MZ\", \"marketingName\": null, \"subseriesData\": {\"summary\": \"motorola edge 60 fusion\", \"subseriesCode\": \"PMIPMHQ40MZ\", \"productName\": \"motorola edge 60 fusion\", \"productCode\": \"PMIPMHQ40MZ\", \"description\": null, \"productType\": 2, \"marketingStatus\": \"Available\", \"inventoryStatus\": 1, \"url\": \"/p/phones/motorola-edge/smartphones-motorola-edge-60-fusion/pmipmhq40mz\", \"media\": {\"listImage\": [{\"imageAddress\": \"//p1-ofp.static.pub/ShareResource/edge60fusion/edge60fusion.png\", \"imageName\": \"edge60fusion.png\", \"imageCaption\": null, \"imageAlt\": null}, {\"imageAddress\": \"https://p4-ofp.static.pub//fes/cms/2025/04/02/4c51opbbhu8vx3sokx4btnk10llv5j218737.png\", \"imageName\": \"4c51opbbhu8vx3sokx4btnk10llv5j218"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
      "body": "{\"success\": true}"
-    },
-    {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoPictureSwitch?subseriesCodes=pmipmht41mf,pmipmhq40mz,pmipmgz38mq,pmipmgx38ml,pmipmgy39md,pmipmgq37ml",
-     "body": "{\"xrid\": \"5eea6227e42d30f684b0dc73a33fa01f\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": [{\"summary\": \"motorola edge 60 pro\", \"subseriesCode\": \"PMIPMHT41MF\", \"marketingName\": null, \"subseriesData\": {\"summary\": \"motorola edge 60 pro\", \"subseriesCode\": \"PMIPMHT41MF\", \"productName\": \"motorola edge 60 pro\", \"productCode\": \"PMIPMHT41MF\", \"description\": null, \"productType\": 2, \"marketingStatus\": \"Available\", \"inventoryStatus\": 1, \"url\": \"/p/phones/motorola-edge/60-pro/pmipmht41mf\", \"media\": {\"listImage\": [{\"imageAddress\": \"//p2-ofp.static.pub/MOTO/edge60-pro/moto_edge_60_PRO.png\", \"imageName\": \"moto_edge_60_PRO.png\", \"imageCaption\": null, \"imageAlt\": null}, {\"imageAddress\": \"//p4-ofp.static.pub//fes/cms/2025/04/23/kvk2m3cf074swywfqi5wevpr8db47o063322.png\", \"imageName\": \"kvk2m3cf074swywfqi5wevpr8db47o063322.png\", \"imageCaption\": null, \"imageAlt\": null}, {\"imageAddress\": \"//p4-ofp.static.pub//fes/cms/2025/04/23/2lz4cgjlrewrjfsbnrtqc40ufw6owg667173.png\", \"imageName\": \"2lz4cgjlrewrjfsbnrtqc40ufw6owg667173.png\", \"imageCaption\": null, \"imageAlt\": null}, {\"imageAddress\": \"//p4-ofp.static.pub//fes/cms/2025/04/23/fy1kkw0hnlygsflb9js4ccjw0pb7gg698044.png\", \"imageName\": \"fy1kkw0hnlygsflb9js4ccjw0pb7gg698044.png\", \"imageCaption\": null, \"imageAlt\": null}], \"logo\": null}, \"flCode\": \"phones\", \"flName\": \"buy moto smartphones - shop all models | motorola US\", \"color\": null, \"colorName\": null, \"storage\": null, \"learnMoreLink\": null, \"merchandisingFlag\": {\"flagId\": null, \"bgColor\": null, \"text\": null, \"priceTime\": null, \"type\": null, \"expireTime\": null, \"gameBackgroundColor\": null, \"b2bFlagType\": null}, \"marketingPage\": null, \"energyRatingDTO\": null, \"motoGift\": null, \"motoMultiGift\": []}, \"models\": null}, {\"summary\": \"motorola edge 60 fusion\", \"subseriesCode\": \"PMIPMHQ40MZ\", \"marketingName\": null, \"subseriesData\": {\"summary\": \"motorola edge 60 fusion\", \"subseriesCode\": \"PMIPMHQ40MZ\", \"productName\": \"motorola edge 60 fusion\", \"productCode\": \"PMIPMHQ40MZ\", \"description\": null, \"productType\": 2, \"marketingStatus\": \"Available\", \"inventoryStatus\": 1, \"url\": \"/p/phones/motorola-edge/smartphones-motorola-edge-60-fusion/pmipmhq40mz\", \"media\": {\"listImage\": [{\"imageAddress\": \"//p1-ofp.static.pub/ShareResource/edge60fusion/edge60fusion.png\", \"imageName\": \"edge60fusion.png\", \"imageCaption\": null, \"imageAlt\": null}, {\"imageAddress\": \"https://p4-ofp.static.pub//fes/cms/2025/04/02/4c51opbbhu8vx3sokx4btnk10llv5j218737.png\", \"imageName\": \"4c51opbbhu8vx3sokx4btnk10llv5j218"
-    },
-    {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoPictureSwitch?subseriesCodes=pmipmjj43mx,pmipmjk44m2,pmipmhv41mm,pmipmgu37my,pmipmgs37ms",
-     "body": "{\"xrid\": \"1770928c90a0cd9f6a1cfe6861288b99\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": [{\"summary\": \"motorola razr fold\", \"subseriesCode\": \"PMIPMJJ43MX\", \"marketingName\": null, \"subseriesData\": {\"summary\": \"motorola razr fold\", \"subseriesCode\": \"PMIPMJJ43MX\", \"productName\": \"motorola razr fold\", \"productCode\": \"PMIPMJJ43MX\", \"description\": null, \"productType\": 2, \"marketingStatus\": \"Available\", \"inventoryStatus\": 1, \"url\": \"/p/phones/razr/razr-fold/pmipmjj43mx\", \"media\": {\"listImage\": [{\"imageAddress\": \"//p3-ofp.static.pub//fes/cms/2026/03/01/aoshcul1338siy5xa1s2zvm4z2nfo7335762.png\", \"imageName\": \"aoshcul1338siy5xa1s2zvm4z2nfo7335762.png\", \"imageCaption\": null, \"imageAlt\": null}], \"logo\": null}, \"flCode\": \"phones\", \"flName\": \"buy moto smartphones - shop all models | motorola US\", \"color\": null, \"colorName\": null, \"storage\": null, \"learnMoreLink\": null, \"merchandisingFlag\": {\"flagId\": null, \"bgColor\": null, \"text\": null, \"priceTime\": null, \"type\": null, \"expireTime\": null, \"gameBackgroundColor\": null, \"b2bFlagType\": null}, \"marketingPage\": null, \"energyRatingDTO\": null, \"motoGift\": null, \"motoMultiGift\": []}, \"models\": null}, {\"summary\": \"motorola razr 70 ultra\", \"subseriesCode\": \"PMIPMJK44M2\", \"marketingName\": null, \"subseriesData\": {\"summary\": \"motorola razr 70 ultra\", \"subseriesCode\": \"PMIPMJK44M2\", \"productName\": \"motorola razr 70 ultra\", \"productCode\": \"PMIPMJK44M2\", \"description\": null, \"productType\": 2, \"marketingStatus\": \"Available\", \"inventoryStatus\": 1, \"url\": \"/p/phones/razr/razr-70-ultra/pmipmjk44m2\", \"media\": {\"listImage\": [{\"imageAddress\": \"//p1-ofp.static.pub//fes/cms/2026/04/27/8cyuum99e47yaiiivwkhmkq521msm3693354.png\", \"imageName\": \"motorola-razr-70-ultra-pdp-ecom-render-06-color1-.png\", \"imageCaption\": null, \"imageAlt\": null}], \"logo\": null}, \"flCode\": \"phones\", \"flName\": \"buy moto smartphones - shop all models | motorola US\", \"color\": null, \"colorName\": null, \"storage\": null, \"learnMoreLink\": null, \"merchandisingFlag\": {\"flagId\": null, \"bgColor\": null, \"text\": null, \"priceTime\": null, \"type\": null, \"expireTime\": null, \"gameBackgroundColor\": null, \"b2bFlagType\": null}, \"marketingPage\": null, \"energyRatingDTO\": null, \"motoGift\": null, \"motoMultiGift\": []}, \"models\": null}, {\"summary\": \"motorola razr 60\", \"subseriesCode\": \"PMIPMHV41MM\", \"marketingName\": null, \"subseriesData\": {\"summary\": \"motorola razr 60\", \"subseriesCode\": \"PMIPMHV41MM\", \"productName\": \"motorola razr 60\", \"productCode\": \"PMIPMHV41MM\", \"description"
     }
    ]
   },
@@ -103,16 +103,16 @@
    "title": "404 | motorola",
    "json_urls": [
     "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/program?programKey=ngwAGv&programVersion=241",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
-    "https://api.ipify.org/?format=json",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://api.ipify.org/?format=json",
     "https://cdn.equalweb.com/assets/data/methods.json",
     "https://cdn.equalweb.com/assets/data/lang.json",
-    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite?programKey=ngwAGv&inviteId=1646&programVersion=241",
+    "https://api.ipify.org/?format=json",
     "https://cdn.equalweb.com/assets/locale/ro.json",
     "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/program?programKey=ngwAGv&programVersion=241",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite?programKey=ngwAGv&inviteId=1646&programVersion=241",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA"
    ],
    "links": [
@@ -143,7 +143,7 @@
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"92980eab7407ce8550db5ca2ffa8aa72\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
+     "body": "{\"xrid\": \"725e7b425a80ede9da051f69fbe34683\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
@@ -162,16 +162,16 @@
    "title": "404 | motorola",
    "json_urls": [
     "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
+    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://api.ipify.org/?format=json",
     "https://api.ipify.org/?format=json",
     "https://cdn.equalweb.com/assets/data/methods.json",
     "https://cdn.equalweb.com/assets/data/lang.json",
     "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/program?programKey=ngwAGv&programVersion=241",
     "https://cdn.equalweb.com/assets/locale/ro.json",
-    "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
     "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite?programKey=ngwAGv&inviteId=1646&programVersion=241",
+    "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA"
    ],
    "links": [
@@ -202,7 +202,7 @@
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"3d01e74e65a52b76cdda574d55b9718f\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
+     "body": "{\"xrid\": \"2b469adf4a3d6f34df7995520c3754ca\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
@@ -221,17 +221,17 @@
    "title": "Wearables | motorola",
    "json_urls": [
     "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983964&v=1.720.0&sl=1&si=d2c29efb-3751-4b6d-8033-4922ed990526-to",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
-    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/program?programKey=ngwAGv&programVersion=241",
     "https://api.ipify.org/?format=json",
     "https://api.ipify.org/?format=json",
     "https://cdn.equalweb.com/assets/data/methods.json",
-    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite?programKey=ngwAGv&inviteId=1646&programVersion=241",
     "https://cdn.equalweb.com/assets/data/lang.json",
     "https://cdn.equalweb.com/assets/locale/ro.json",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/program?programKey=ngwAGv&programVersion=241",
     "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983951&v=1.720.0&sl=1&si=d9770728-8723-4240-94fd-b55df2251dee-to",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite?programKey=ngwAGv&inviteId=1646&programVersion=241",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA"
    ],
    "links": [
@@ -262,7 +262,7 @@
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"957c778425d34fdb48f0038efeb0ca7b\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
+     "body": "{\"xrid\": \"a73b8c19b76345d1f976c55dcf38da9b\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
@@ -280,20 +280,20 @@
    "final_url": "https://www.motorola.com/ro/ro/p/phones/motorola-signature/signature/pmipmje43mf?pn=PMIPMJE43MF",
    "title": "Snartphone flagship premium cu cameră de 50 MP și Dolby Vision avansat | motorola signature | motorola RO | motorola",
    "json_urls": [
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983964&v=1.720.0&sl=1&si=d2c29efb-3751-4b6d-8033-4922ed990526-to",
     "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJE43MF",
     "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJE43MF",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983951&v=1.720.0&sl=1&si=d9770728-8723-4240-94fd-b55df2251dee-to",
-    "https://embed.binkies3d.com/content/xEVkjBp7/NvCBkHdW/motorola-signature-pantone-carbon",
+    "https://embed.binkies3d.com/content/xEVkjBp7/2QA3uE66/motorola-signature-pantone-carbon",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
-    "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
     "https://api.ipify.org/?format=json",
     "https://api.ipify.org/?format=json",
     "https://cdn.equalweb.com/assets/data/methods.json",
     "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/program?programKey=ngwAGv&programVersion=241",
     "https://cdn.equalweb.com/assets/data/lang.json",
     "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
+    "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
     "https://cdn.equalweb.com/assets/locale/ro.json",
     "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite?programKey=ngwAGv&inviteId=1646&programVersion=241"
    ],
@@ -326,7 +326,7 @@
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"9dad4020cd0a923da000b6a66cb9175c\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
+     "body": "{\"xrid\": \"e791a0af546002cf70b9f052cb6dd43a\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
@@ -334,11 +334,11 @@
     },
     {
      "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJE43MF",
-     "body": "{\"xrid\": \"91e6f8ea583c379b3d6d32b416e80a03\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
+     "body": "{\"xrid\": \"d633d2620e909f86a1a0e64bde694c4c\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
     },
     {
      "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJE43MF",
-     "body": "{\"xrid\": \"1fade6a0c5ab6259da03adcf032809dd\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
+     "body": "{\"xrid\": \"e703de844ead7d58ebbcc24104a41271\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
     }
    ]
   },
@@ -349,18 +349,18 @@
    "title": "Descoperă telefonul pliabil Motorola, cu un ecran pliabil de 8,1 inch | motorola razr fold | motorola RO | motorola",
    "json_urls": [
     "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983964&v=1.720.0&sl=1&si=d2c29efb-3751-4b6d-8033-4922ed990526-to",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJJ43MX",
     "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJJ43MX",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983951&v=1.720.0&sl=1&si=d9770728-8723-4240-94fd-b55df2251dee-to",
-    "https://embed.binkies3d.com/content/xEVkjBp7/JT4eQDbX/motorola-razr-fold-pantone-blackened-blue",
+    "https://api.ipify.org/?format=json",
+    "https://api.ipify.org/?format=json",
+    "https://embed.binkies3d.com/content/xEVkjBp7/sCNWb2gk/motorola-razr-fold-pantone-blackened-blue",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
-    "https://api.ipify.org/?format=json",
-    "https://api.ipify.org/?format=json",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
     "https://cdn.equalweb.com/assets/data/methods.json",
-    "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
     "https://cdn.equalweb.com/assets/data/lang.json",
+    "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
     "https://cdn.equalweb.com/assets/locale/ro.json"
    ],
    "links": [
@@ -392,7 +392,7 @@
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"e455e9f9037e4a1ffb3fc4561730fd20\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
+     "body": "{\"xrid\": \"6ed02ae5fa1ccfdec191443d8c5b0c92\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
@@ -400,11 +400,11 @@
     },
     {
      "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJJ43MX",
-     "body": "{\"xrid\": \"22b1c2497b8303cb463f0ea1c655265d\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
+     "body": "{\"xrid\": \"733571a0fb3b076dfd7b6b6af8ff7ecc\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
     },
     {
      "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJJ43MX",
-     "body": "{\"xrid\": \"6a4cdc09bfe1c6b65c39c916a2828e7b\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
+     "body": "{\"xrid\": \"b27b9dfc1f7b49c565a4a30becfe6b49\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
     }
    ]
   },
@@ -415,13 +415,13 @@
    "title": "Telefon flip cu ecran exterior de 4 inch l Telefon cu cameră triplă de 50 MP | motorola RO| motorola razr 70 ultra | motorola",
    "json_urls": [
     "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983951&v=1.720.0&sl=1&si=d9770728-8723-4240-94fd-b55df2251dee-to",
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983964&v=1.720.0&sl=1&si=d2c29efb-3751-4b6d-8033-4922ed990526-to",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
-    "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJK44M2",
     "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJK44M2",
+    "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJK44M2",
     "https://api.ipify.org/?format=json",
     "https://api.ipify.org/?format=json",
-    "https://embed.binkies3d.com/content/xEVkjBp7/jdMRTG3j/motorola-razr-70-ultra-pantone-cocoa",
+    "https://embed.binkies3d.com/content/xEVkjBp7/eH3ScdpL/motorola-razr-70-ultra-pantone-cocoa",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
     "https://cdn.equalweb.com/assets/data/methods.json",
@@ -458,19 +458,19 @@
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"2ceb7692e11ff6c6f1298421398dcc42\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
+     "body": "{\"xrid\": \"c215968865e3c1147bbeee776777da1a\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
      "body": "{\"success\": true}"
     },
     {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJK44M2",
-     "body": "{\"xrid\": \"108c9a1b9f30c1b24b8db9dc69f88207\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
+     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJK44M2",
+     "body": "{\"xrid\": \"c30478ba60e88c6c57aa61470c69f3a3\", \"success\": false, \"status\": 500, \"msg\": \"all products can‘t pass display rule\", \"params\": \"-\", \"data\": null}"
     },
     {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJK44M2",
-     "body": "{\"xrid\": \"09c621c82d733b3ac6c2b420f4bf4e8b\", \"success\": false, \"status\": 500, \"msg\": \"all products can‘t pass display rule\", \"params\": \"-\", \"data\": null}"
+     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJK44M2",
+     "body": "{\"xrid\": \"f4ed200d3abce35e6f0e80ef030f759c\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
     }
    ]
   },
@@ -484,15 +484,15 @@
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJP44MP",
     "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJP44MP",
-    "https://embed.binkies3d.com/content/xEVkjBp7/dk9RSTcK/motorola-edge-70-pro-pantone-titan",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983951&v=1.720.0&sl=1&si=d9770728-8723-4240-94fd-b55df2251dee-to",
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983964&v=1.720.0&sl=1&si=d2c29efb-3751-4b6d-8033-4922ed990526-to",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
+    "https://embed.binkies3d.com/content/xEVkjBp7/sRg6VcJf/motorola-edge-70-pro-pantone-titan",
     "https://api.ipify.org/?format=json",
     "https://api.ipify.org/?format=json",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
+    "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
     "https://cdn.equalweb.com/assets/data/methods.json",
     "https://cdn.equalweb.com/assets/data/lang.json",
-    "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
     "https://cdn.equalweb.com/assets/locale/ro.json"
    ],
    "links": [
@@ -524,7 +524,7 @@
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"feb43db1abfb732d442f0fee3921b3fb\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
+     "body": "{\"xrid\": \"a17871ee8fcc441f0d0da4a9e0969386\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
@@ -532,11 +532,11 @@
     },
     {
      "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJP44MP",
-     "body": "{\"xrid\": \"51727c2452870bf30af72e676692f06f\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
+     "body": "{\"xrid\": \"aaf9fc0ef96175eab83225fe4f6dec7e\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
     },
     {
      "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJP44MP",
-     "body": "{\"xrid\": \"cad5341ef8936b4aad9a23e1ca93bea3\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
+     "body": "{\"xrid\": \"5163d7732205891ea7d9f198b89c68aa\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
     }
    ]
   },
@@ -548,19 +548,19 @@
    "json_urls": [
     "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
-    "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJH44MO",
     "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJH44MO",
-    "https://embed.binkies3d.com/content/xEVkjBp7/E8Qf3gOU/moto-g87-pantone-overture",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983951&v=1.720.0&sl=1&si=d9770728-8723-4240-94fd-b55df2251dee-to",
-    "https://api.ipify.org/?format=json",
+    "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJH44MO",
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983965&v=1.720.0&sl=1&si=d2c29efb-3751-4b6d-8033-4922ed990526-to",
+    "https://embed.binkies3d.com/content/xEVkjBp7/Lrzub2SU/moto-g87-pantone-overture",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
-    "https://api.ipify.org/?format=json",
     "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/program?programKey=ngwAGv&programVersion=241",
+    "https://api.ipify.org/?format=json",
     "https://cdn.equalweb.com/assets/data/methods.json",
+    "https://api.ipify.org/?format=json",
     "https://cdn.equalweb.com/assets/data/lang.json",
-    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
     "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite?programKey=ngwAGv&inviteId=1646&programVersion=241",
+    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://cdn.equalweb.com/assets/locale/ro.json"
    ],
    "links": [
@@ -592,19 +592,19 @@
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"a55af8c4973e68baf02eeb0ff9e18748\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
+     "body": "{\"xrid\": \"c8001ffc133fd2de93d84bbf5802ce4a\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
      "body": "{\"success\": true}"
     },
     {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJH44MO",
-     "body": "{\"xrid\": \"b4618e1f0ee5666f254c146192030173\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
+     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJH44MO",
+     "body": "{\"xrid\": \"62d5e62d02c4eb1bb83b2b76873be83c\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
     },
     {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJH44MO",
-     "body": "{\"xrid\": \"073a88ac349506c6a36b0f2e2704b6b6\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
+     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJH44MO",
+     "body": "{\"xrid\": \"90bdd00319fccf7a134455934cdc7d60\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
     }
    ]
   },
@@ -615,21 +615,21 @@
    "title": "motorola signature 27 | cel mai rapid telefon Android | motorola signature 2027 | motorola",
    "json_urls": [
     "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
+    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMKA46MM",
     "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMKA46MM",
-    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
-    "https://embed.binkies3d.com/content/xEVkjBp7/Zsjp4h6p/motorola-signature-27-pantone-capulet-olive",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983951&v=1.720.0&sl=1&si=d9770728-8723-4240-94fd-b55df2251dee-to",
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983965&v=1.720.0&sl=1&si=d2c29efb-3751-4b6d-8033-4922ed990526-to",
     "https://api.ipify.org/?format=json",
     "https://api.ipify.org/?format=json",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
     "https://cdn.equalweb.com/assets/data/methods.json",
+    "https://embed.binkies3d.com/content/xEVkjBp7/dQBazCkF/motorola-signature-27-pantone-capulet-olive",
     "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/program?programKey=ngwAGv&programVersion=241",
     "https://cdn.equalweb.com/assets/data/lang.json",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
-    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite?programKey=ngwAGv&inviteId=1646&programVersion=241",
-    "https://cdn.equalweb.com/assets/locale/ro.json"
+    "https://cdn.equalweb.com/assets/locale/ro.json",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite?programKey=ngwAGv&inviteId=1646&programVersion=241"
    ],
    "links": [
     "https://www.motorola.com/ro/ro/p/pmipmje43mf",
@@ -660,19 +660,19 @@
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"31ed90fdd194edc3d7c5238cc959eb8a\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
-    },
-    {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMKA46MM",
-     "body": "{\"xrid\": \"1e3df6d3d1957f7c5fe124f9a609d41d\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
-    },
-    {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMKA46MM",
-     "body": "{\"xrid\": \"89eb55fd71cbbce2c5f2dd0e3ab25ae2\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
+     "body": "{\"xrid\": \"7e6fdfd3191ef9f88021b6e5943b9d85\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
      "body": "{\"success\": true}"
+    },
+    {
+     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMKA46MM",
+     "body": "{\"xrid\": \"6388839b7b2fc0165296067164b94765\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
+    },
+    {
+     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMKA46MM",
+     "body": "{\"xrid\": \"8b137cc78fb7085a9a77781b3c8f5f87\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
     }
    ]
   },
@@ -686,16 +686,16 @@
     "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJL44M6",
     "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJL44M6",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983951&v=1.720.0&sl=1&si=d9770728-8723-4240-94fd-b55df2251dee-to",
-    "https://embed.binkies3d.com/content/xEVkjBp7/yiqTEQ4c/motorola-razr-70-pantone-hematite",
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983965&v=1.720.0&sl=1&si=d2c29efb-3751-4b6d-8033-4922ed990526-to",
+    "https://embed.binkies3d.com/content/xEVkjBp7/xUzxiVjO/motorola-razr-70-pantone-hematite",
     "https://api.ipify.org/?format=json",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
     "https://api.ipify.org/?format=json",
     "https://cdn.equalweb.com/assets/data/methods.json",
     "https://cdn.equalweb.com/assets/data/lang.json",
     "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
-    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
-    "https://cdn.equalweb.com/assets/locale/ro.json"
+    "https://cdn.equalweb.com/assets/locale/ro.json",
+    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA"
    ],
    "links": [
     "https://www.motorola.com/ro/ro/p/pmipmje43mf",
@@ -726,15 +726,15 @@
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"f18b61b628928d08e9c3fe39b8c18b93\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
+     "body": "{\"xrid\": \"204e7ab54c2a5e87b0c29a65659aee1e\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJL44M6",
-     "body": "{\"xrid\": \"e46cc0748e8d34e8a879b77532788bc5\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
+     "body": "{\"xrid\": \"a65afbd90b7264e712546545f60acd7a\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
     },
     {
      "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJL44M6",
-     "body": "{\"xrid\": \"72697366412e1cbf9ad2c8f7b74a1cf9\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
+     "body": "{\"xrid\": \"90ee8c2d33d873a67fcc45d886f99af3\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
@@ -752,15 +752,15 @@
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMHN42M1",
     "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMHN42M1",
-    "https://embed.binkies3d.com/content/xEVkjBp7/RDxmAb3K/motorola-razr-60-ultra-pantone-scarab",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983951&v=1.720.0&sl=1&si=d9770728-8723-4240-94fd-b55df2251dee-to",
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983965&v=1.720.0&sl=1&si=d2c29efb-3751-4b6d-8033-4922ed990526-to",
     "https://api.ipify.org/?format=json",
+    "https://api.ipify.org/?format=json",
+    "https://embed.binkies3d.com/content/xEVkjBp7/iodqPLgU/motorola-razr-60-ultra-pantone-scarab",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
-    "https://api.ipify.org/?format=json",
     "https://cdn.equalweb.com/assets/data/methods.json",
+    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://cdn.equalweb.com/assets/data/lang.json",
     "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
-    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://cdn.equalweb.com/assets/locale/ro.json"
    ],
    "links": [
@@ -792,7 +792,7 @@
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"c8862afd1c05a065259c8e48d4b869a7\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
+     "body": "{\"xrid\": \"03c7a607d6a6d893d2f3734ea1c37af3\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
@@ -800,11 +800,11 @@
     },
     {
      "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMHN42M1",
-     "body": "{\"xrid\": \"87ce4fedbdb943eae39084ae414498a1\", \"success\": false, \"status\": 500, \"msg\": \"all products can‘t pass display rule\", \"params\": \"-\", \"data\": null}"
+     "body": "{\"xrid\": \"0f5d839f24fcf0576eda93735be61908\", \"success\": false, \"status\": 500, \"msg\": \"all products can‘t pass display rule\", \"params\": \"-\", \"data\": null}"
     },
     {
      "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMHN42M1",
-     "body": "{\"xrid\": \"733297015ae0eb057c86114994fd9279\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
+     "body": "{\"xrid\": \"f3080106f91406903c36be648c38aecc\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
     }
    ]
   },
@@ -815,11 +815,11 @@
    "title": "motorola edge 70 max | Asistent smartphone AI | Baterie de 7.100 mAh | motorola",
    "json_urls": [
     "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
+    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJT45MC",
     "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJT45MC",
-    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
-    "https://embed.binkies3d.com/content/xEVkjBp7/mot3Vrhv/motorola-edge-70-max-pantone-aqua-gray",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983951&v=1.720.0&sl=1&si=d9770728-8723-4240-94fd-b55df2251dee-to",
+    "https://embed.binkies3d.com/content/xEVkjBp7/VQmULMBv/motorola-edge-70-max-pantone-aqua-gray",
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983965&v=1.720.0&sl=1&si=d2c29efb-3751-4b6d-8033-4922ed990526-to",
     "https://api.ipify.org/?format=json",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
     "https://api.ipify.org/?format=json",
@@ -858,19 +858,19 @@
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"27fd5310645dae17eadb288d8502ac44\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
-    },
-    {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJT45MC",
-     "body": "{\"xrid\": \"404bf746ab1d26874df497a974b2bcf5\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
-    },
-    {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJT45MC",
-     "body": "{\"xrid\": \"d4f64596c4b4eef125024f4dcfe10a0b\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": [{\"headLine\": \"Valore dei regali gratis 40 €\", \"text\": \"\", \"cta\": \"\", \"ctaLink\": \"\", \"textLink\": \"\", \"textLinkUrl\": \"\", \"image\": \"//p4-ofp.static.pub//fes/cms/2026/05/20/vjmb4qcmoao60gytb3ko5vuovye7m1817773.png\", \"imageAltTag\": \"\", \"caption\": \"moto tag e verranno aggiunti con questo telefono\", \"backgroundColor\": null}, {\"headLine\": \"Protezione schermo a 1 €\", \"text\": \"SDP\", \"cta\": \"\", \"ctaLink\": \"\", \"textLink\": \"\", \"textLinkUrl\": \"\", \"image\": \"//p4-ofp.static.pub//fes/cms/2026/05/20/7d518ran1xbw1mtex9jxlcm4gk0m4p618931.png\", \"imageAltTag\": \"\", \"caption\": \"un anno di protezione contro i danni allo schermo\", \"backgroundColor\": null}]}"
+     "body": "{\"xrid\": \"03db88d38fb7b0f049fb9a21ced6b751\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
      "body": "{\"success\": true}"
+    },
+    {
+     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJT45MC",
+     "body": "{\"xrid\": \"300a05d15d711a2b85a8a548fcca6829\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
+    },
+    {
+     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJT45MC",
+     "body": "{\"xrid\": \"94ea461438bc8df2988248fc96655dd4\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": [{\"headLine\": \"Valore dei regali gratis 40 €\", \"text\": \"\", \"cta\": \"\", \"ctaLink\": \"\", \"textLink\": \"\", \"textLinkUrl\": \"\", \"image\": \"//p4-ofp.static.pub//fes/cms/2026/05/20/vjmb4qcmoao60gytb3ko5vuovye7m1817773.png\", \"imageAltTag\": \"\", \"caption\": \"moto tag e verranno aggiunti con questo telefono\", \"backgroundColor\": null}, {\"headLine\": \"Protezione schermo a 1 €\", \"text\": \"SDP\", \"cta\": \"\", \"ctaLink\": \"\", \"textLink\": \"\", \"textLinkUrl\": \"\", \"image\": \"//p4-ofp.static.pub//fes/cms/2026/05/20/7d518ran1xbw1mtex9jxlcm4gk0m4p618931.png\", \"imageAltTag\": \"\", \"caption\": \"un anno di protezione contro i danni allo schermo\", \"backgroundColor\": null}]}"
     }
    ]
   },
@@ -882,10 +882,10 @@
    "json_urls": [
     "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
-    "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJP44MP",
     "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJP44MP",
-    "https://embed.binkies3d.com/content/xEVkjBp7/NGEPm0Wd/motorola-edge-70-pro-pantone-titan",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983951&v=1.720.0&sl=1&si=d9770728-8723-4240-94fd-b55df2251dee-to",
+    "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJP44MP",
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983965&v=1.720.0&sl=1&si=d2c29efb-3751-4b6d-8033-4922ed990526-to",
+    "https://embed.binkies3d.com/content/xEVkjBp7/ugLABFUq/motorola-edge-70-pro-pantone-titan",
     "https://api.ipify.org/?format=json",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
     "https://api.ipify.org/?format=json",
@@ -924,19 +924,19 @@
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"4eac84a5e915be1ad93959fa89a9f8e6\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
+     "body": "{\"xrid\": \"da83daa3068fdcde65bacdd8625b47e0\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
      "body": "{\"success\": true}"
     },
     {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJP44MP",
-     "body": "{\"xrid\": \"80fe1754c8865ebe0745936862bb0ddc\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
+     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJP44MP",
+     "body": "{\"xrid\": \"e0ca5b65330579dcba7c2d4dcaebf175\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
     },
     {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJP44MP",
-     "body": "{\"xrid\": \"24153650cb93f6f4a272ae9aa29d62fa\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
+     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJP44MP",
+     "body": "{\"xrid\": \"6dfec745d11446c7a8d316c49845a669\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
     }
    ]
   },
@@ -946,20 +946,20 @@
    "final_url": "https://www.motorola.com/ro/ro/p/phones/motorola-edge/motorola-edge-70-fusion-7000mah/pmipmjm44md?pn=PMIPMJM44MD",
    "title": "Smartphone cu Moto AI, ecran cu margini curbate și rezistență certificată | motorola edge 70 fusion | motorola RO | motorola",
    "json_urls": [
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983965&v=1.720.0&sl=1&si=d2c29efb-3751-4b6d-8033-4922ed990526-to",
     "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
-    "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJM44MD",
     "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJM44MD",
+    "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJM44MD",
     "https://api.ipify.org/?format=json",
     "https://api.ipify.org/?format=json",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983951&v=1.720.0&sl=1&si=d9770728-8723-4240-94fd-b55df2251dee-to",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
+    "https://embed.binkies3d.com/content/xEVkjBp7/fhAtqh9E/motorola-edge-70-fusion-(7000-mah)-pantone-silhouette",
     "https://cdn.equalweb.com/assets/data/methods.json",
-    "https://embed.binkies3d.com/content/xEVkjBp7/WFU69rVu/motorola-edge-70-fusion-(7000-mah)-pantone-silhouette",
     "https://cdn.equalweb.com/assets/data/lang.json",
     "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
-    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
-    "https://cdn.equalweb.com/assets/locale/ro.json"
+    "https://cdn.equalweb.com/assets/locale/ro.json",
+    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA"
    ],
    "links": [
     "https://www.motorola.com/ro/ro/p/pmipmje43mf",
@@ -990,19 +990,19 @@
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"185602b8afecb79595fdb1e27bc4bf43\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
+     "body": "{\"xrid\": \"775eb865629bf92179a45ed1e571a339\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
      "body": "{\"success\": true}"
     },
     {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJM44MD",
-     "body": "{\"xrid\": \"c6dc08d38589b170ca8fd43631669283\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
+     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJM44MD",
+     "body": "{\"xrid\": \"9f0ab1feffa09e5e4e417eaf85756f9e\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
     },
     {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJM44MD",
-     "body": "{\"xrid\": \"fbe051ed8e937546b8c9db2d2dd114cd\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
+     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJM44MD",
+     "body": "{\"xrid\": \"865d92ad947e6bf9b867e772cb0fb221\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
     }
    ]
   },
@@ -1016,8 +1016,8 @@
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJU45ML",
     "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJU45ML",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983951&v=1.720.0&sl=1&si=d9770728-8723-4240-94fd-b55df2251dee-to",
-    "https://embed.binkies3d.com/content/xEVkjBp7/xz2pqYDR/motorola-edge-70-plus-pantone-mountain-view",
+    "https://embed.binkies3d.com/content/xEVkjBp7/L4Z3jZrJ/motorola-edge-70-plus-pantone-mountain-view",
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983965&v=1.720.0&sl=1&si=d2c29efb-3751-4b6d-8033-4922ed990526-to",
     "https://api.ipify.org/?format=json",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
     "https://api.ipify.org/?format=json",
@@ -1056,7 +1056,7 @@
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"74b1d01220259869799ede463dcf575c\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
+     "body": "{\"xrid\": \"542b70438d6f9383535394e4a9dd81df\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
@@ -1064,11 +1064,11 @@
     },
     {
      "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJU45ML",
-     "body": "{\"xrid\": \"506e6acdf41563cdf53f89c4d634bfd0\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
+     "body": "{\"xrid\": \"ff4e7b4e65a2114b56ad0c641572fbe1\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
     },
     {
      "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJU45ML",
-     "body": "{\"xrid\": \"0f699184f8590f2db9dac463492597b2\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
+     "body": "{\"xrid\": \"06b1756a98b90dd412aa737b77d2ad70\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
     }
    ]
   },
@@ -1080,17 +1080,17 @@
    "json_urls": [
     "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
-    "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJH43MW",
     "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJH43MW",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983951&v=1.720.0&sl=1&si=d9770728-8723-4240-94fd-b55df2251dee-to",
-    "https://embed.binkies3d.com/content/xEVkjBp7/yQTMFV2a/moto-g77-pantone-black-olive",
+    "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJH43MW",
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983965&v=1.720.0&sl=1&si=d2c29efb-3751-4b6d-8033-4922ed990526-to",
+    "https://embed.binkies3d.com/content/xEVkjBp7/CgwvzGwQ/moto-g77-pantone-black-olive",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
     "https://api.ipify.org/?format=json",
     "https://api.ipify.org/?format=json",
-    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/program?programKey=ngwAGv&programVersion=241",
     "https://cdn.equalweb.com/assets/data/methods.json",
-    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/program?programKey=ngwAGv&programVersion=241",
     "https://cdn.equalweb.com/assets/data/lang.json",
+    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
     "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite?programKey=ngwAGv&inviteId=1646&programVersion=241",
     "https://cdn.equalweb.com/assets/locale/ro.json"
@@ -1124,19 +1124,19 @@
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"3bf8616df48d9b52dceea70415c53aa8\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
+     "body": "{\"xrid\": \"cfceb1ca344e99cfe99108abaf1c6896\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
      "body": "{\"success\": true}"
     },
     {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJH43MW",
-     "body": "{\"xrid\": \"3e6e39393a63649dceadfb510dff9a76\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
+     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJH43MW",
+     "body": "{\"xrid\": \"7c690b1927278a273ef93b0af995cf28\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
     },
     {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJH43MW",
-     "body": "{\"xrid\": \"ae3d507fb7052253a4c9015354817bba\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
+     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJH43MW",
+     "body": "{\"xrid\": \"68afc8ea0af96afac19be2e7b4b5ff25\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
     }
    ]
   },
@@ -1147,21 +1147,21 @@
    "title": "Cel mai nou smartphone cu cameră AI de 50 MP și baterie de 7000 mAh cu autonomie de lungă durată | moto g57 power | motorola RO | motorola",
    "json_urls": [
     "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983965&v=1.720.0&sl=1&si=d2c29efb-3751-4b6d-8033-4922ed990526-to",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJF43ML",
     "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJF43ML",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983951&v=1.720.0&sl=1&si=d9770728-8723-4240-94fd-b55df2251dee-to",
-    "https://embed.binkies3d.com/content/xEVkjBp7/CbZCD8Cq/moto-g57-power-pantone-corsair",
     "https://api.ipify.org/?format=json",
+    "https://embed.binkies3d.com/content/xEVkjBp7/q9SAXZTA/moto-g57-power-pantone-corsair",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
     "https://api.ipify.org/?format=json",
     "https://cdn.equalweb.com/assets/data/methods.json",
     "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/program?programKey=ngwAGv&programVersion=241",
     "https://cdn.equalweb.com/assets/data/lang.json",
     "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
+    "https://cdn.equalweb.com/assets/locale/ro.json",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
-    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite?programKey=ngwAGv&inviteId=1646&programVersion=241",
-    "https://cdn.equalweb.com/assets/locale/ro.json"
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite?programKey=ngwAGv&inviteId=1646&programVersion=241"
    ],
    "links": [
     "https://www.motorola.com/ro/ro/p/pmipmje43mf",
@@ -1192,7 +1192,7 @@
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"22c185ea1c454e59c2f68e8018469150\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
+     "body": "{\"xrid\": \"d115820d1b2a90ebd11d9a93f731fb16\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
@@ -1200,11 +1200,11 @@
     },
     {
      "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJF43ML",
-     "body": "{\"xrid\": \"a8f3b6456b250d06143bc18c8cdb358f\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
+     "body": "{\"xrid\": \"de3f0aa3fbe1579f276fa6bfa22783df\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
     },
     {
      "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJF43ML",
-     "body": "{\"xrid\": \"83854f54eb079084dead6f8846357f45\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
+     "body": "{\"xrid\": \"08abc16c76c6694dc4b46860c401f470\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
     }
    ]
   },
@@ -1215,21 +1215,21 @@
    "title": "Telefon cu 24 GB RAM de mare viteză, cu TurboPower | moto g17 power | motorola RO | motorola",
    "json_urls": [
     "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
+    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJN44ML",
     "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJN44ML",
-    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983951&v=1.720.0&sl=1&si=d9770728-8723-4240-94fd-b55df2251dee-to",
-    "https://embed.binkies3d.com/content/xEVkjBp7/hKkQgZCA/moto-g17-power-pantone-alaskan-blue",
     "https://api.ipify.org/?format=json",
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983965&v=1.720.0&sl=1&si=d2c29efb-3751-4b6d-8033-4922ed990526-to",
+    "https://embed.binkies3d.com/content/xEVkjBp7/fLoIkB74/moto-g17-power-pantone-alaskan-blue",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
     "https://api.ipify.org/?format=json",
     "https://cdn.equalweb.com/assets/data/methods.json",
     "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/program?programKey=ngwAGv&programVersion=241",
     "https://cdn.equalweb.com/assets/data/lang.json",
     "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
+    "https://cdn.equalweb.com/assets/locale/ro.json",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
-    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite?programKey=ngwAGv&inviteId=1646&programVersion=241",
-    "https://cdn.equalweb.com/assets/locale/ro.json"
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite?programKey=ngwAGv&inviteId=1646&programVersion=241"
    ],
    "links": [
     "https://www.motorola.com/ro/ro/p/pmipmje43mf",
@@ -1260,19 +1260,19 @@
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"5063799af7b8eb49eb4e049d4635ded3\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
-    },
-    {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJN44ML",
-     "body": "{\"xrid\": \"f6aa733937f57d41dd98f83561b1d08b\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
-    },
-    {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJN44ML",
-     "body": "{\"xrid\": \"890490e7165129d4d05acd0f5499417f\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
+     "body": "{\"xrid\": \"51293c09e4b97808fb3fd7194937fe03\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
      "body": "{\"success\": true}"
+    },
+    {
+     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJN44ML",
+     "body": "{\"xrid\": \"4afde4e29f4d874d9651788db73a47a7\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
+    },
+    {
+     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJN44ML",
+     "body": "{\"xrid\": \"cf39b17ab4a5911e0a9a7be5696d322c\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
     }
    ]
   },
@@ -1283,21 +1283,21 @@
    "title": "moto e15 | motorola",
    "json_urls": [
     "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983965&v=1.720.0&sl=1&si=d2c29efb-3751-4b6d-8033-4922ed990526-to",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMHK40MB",
     "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMHK40MB",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983951&v=1.720.0&sl=1&si=d9770728-8723-4240-94fd-b55df2251dee-to",
-    "https://embed.binkies3d.com/content/xEVkjBp7/TkVtAduf/moto-e15-denim-blue",
+    "https://api.ipify.org/?format=json",
+    "https://embed.binkies3d.com/content/xEVkjBp7/aBDpOVSB/moto-e15-denim-blue",
     "https://api.ipify.org/?format=json",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
-    "https://api.ipify.org/?format=json",
     "https://cdn.equalweb.com/assets/data/methods.json",
     "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/program?programKey=ngwAGv&programVersion=241",
     "https://cdn.equalweb.com/assets/data/lang.json",
     "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
-    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
+    "https://cdn.equalweb.com/assets/locale/ro.json",
     "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite?programKey=ngwAGv&inviteId=1646&programVersion=241",
-    "https://cdn.equalweb.com/assets/locale/ro.json"
+    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA"
    ],
    "links": [
     "https://www.motorola.com/ro/ro/p/pmipmje43mf",
@@ -1328,7 +1328,7 @@
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"9bf7112d4a8e05471441f9569b4ba6bd\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
+     "body": "{\"xrid\": \"50c630f809c54063a1ab0657f3a2e0d4\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
@@ -1336,11 +1336,11 @@
     },
     {
      "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMHK40MB",
-     "body": "{\"xrid\": \"36daabfa6d0bce944e6752548a6ca1b6\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
+     "body": "{\"xrid\": \"00c2c70dc10aefb5205ce5bc7d7879e8\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
     },
     {
      "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMHK40MB",
-     "body": "{\"xrid\": \"daa0669a39c7aa6d199c695e00d54b8b\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
+     "body": "{\"xrid\": \"123de49a1b5187aabd1da669c6aee3cf\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
     }
    ]
   },
@@ -1352,18 +1352,18 @@
    "json_urls": [
     "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
-    "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PG39C08958",
     "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PG39C08958",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983951&v=1.720.0&sl=1&si=d9770728-8723-4240-94fd-b55df2251dee-to",
+    "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PG39C08958",
     "https://api.ipify.org/?format=json",
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983965&v=1.720.0&sl=1&si=d2c29efb-3751-4b6d-8033-4922ed990526-to",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
     "https://api.ipify.org/?format=json",
     "https://cdn.equalweb.com/assets/data/methods.json",
     "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/program?programKey=ngwAGv&programVersion=241",
     "https://cdn.equalweb.com/assets/data/lang.json",
     "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
-    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite?programKey=ngwAGv&inviteId=1646&programVersion=241",
     "https://cdn.equalweb.com/assets/locale/ro.json",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite?programKey=ngwAGv&inviteId=1646&programVersion=241",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA"
    ],
    "links": [
@@ -1395,19 +1395,19 @@
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"5812bfda9bfae0a915973eeb350c7211\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
+     "body": "{\"xrid\": \"9ff17555f29ff52790e20f77e20abcf5\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
      "body": "{\"success\": true}"
     },
     {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PG39C08958",
-     "body": "{\"xrid\": \"90d48d1f3177c8bb2346244574b2c8ad\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
+     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PG39C08958",
+     "body": "{\"xrid\": \"7e3f0bfd3a1f583cc8708624f00dbf7e\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
     },
     {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PG39C08958",
-     "body": "{\"xrid\": \"89309a635d21d3e9f5a4087b36a42d4f\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
+     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PG39C08958",
+     "body": "{\"xrid\": \"6dae941c01eb314f3144044bfab4a218\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
     }
    ]
   },
@@ -1419,17 +1419,17 @@
    "json_urls": [
     "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
-    "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PG39C08783",
     "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PG39C08783",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983951&v=1.720.0&sl=1&si=d9770728-8723-4240-94fd-b55df2251dee-to",
+    "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PG39C08783",
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983965&v=1.720.0&sl=1&si=d2c29efb-3751-4b6d-8033-4922ed990526-to",
     "https://api.ipify.org/?format=json",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
-    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/program?programKey=ngwAGv&programVersion=241",
     "https://api.ipify.org/?format=json",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/program?programKey=ngwAGv&programVersion=241",
     "https://cdn.equalweb.com/assets/data/methods.json",
     "https://cdn.equalweb.com/assets/data/lang.json",
-    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite?programKey=ngwAGv&inviteId=1646&programVersion=241",
     "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite?programKey=ngwAGv&inviteId=1646&programVersion=241",
     "https://cdn.equalweb.com/assets/locale/ro.json",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA"
    ],
@@ -1462,19 +1462,19 @@
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"99a746869ab6912bb0fc541aaace6d12\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
+     "body": "{\"xrid\": \"1228a0e5edfa198d16b0fe9ef3b5b5ae\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
      "body": "{\"success\": true}"
     },
     {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PG39C08783",
-     "body": "{\"xrid\": \"f5fad9ce3faf5d279ae4c4b35fcc6058\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
+     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PG39C08783",
+     "body": "{\"xrid\": \"d11c0744ce697c1d87a86e4ef148b814\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
     },
     {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PG39C08783",
-     "body": "{\"xrid\": \"719fc84e31d7f4c6c1fc9b886a82cc40\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
+     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PG39C08783",
+     "body": "{\"xrid\": \"91ddbbfae20c821cf0561d4d697def6e\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
     }
    ]
   },
@@ -1485,20 +1485,20 @@
    "title": "LTE Fitness Smartwatch | Cumpără acum | Polar Fitness Tracking | motorola RO | moto watch ultra | motorola",
    "json_urls": [
     "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983951&v=1.720.0&sl=1&si=d9770728-8723-4240-94fd-b55df2251dee-to",
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983965&v=1.720.0&sl=1&si=d2c29efb-3751-4b6d-8033-4922ed990526-to",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PWIPWIA11W5",
     "https://api.ipify.org/?format=json",
     "https://api.ipify.org/?format=json",
-    "https://embed.binkies3d.com/content/xEVkjBp7/67S9Kgtx/moto-watch-ultra-2026-gun-metal",
+    "https://embed.binkies3d.com/content/xEVkjBp7/n3VMZZUw/moto-watch-ultra-2026-gun-metal",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
     "https://cdn.equalweb.com/assets/data/methods.json",
     "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/program?programKey=ngwAGv&programVersion=241",
+    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://cdn.equalweb.com/assets/data/lang.json",
     "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
-    "https://cdn.equalweb.com/assets/locale/ro.json",
     "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite?programKey=ngwAGv&inviteId=1646&programVersion=241",
-    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA"
+    "https://cdn.equalweb.com/assets/locale/ro.json"
    ],
    "links": [
     "https://www.motorola.com/ro/ro/p/pmipmje43mf",
@@ -1530,7 +1530,7 @@
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"fd062b72dbe25da3f4c0800647743de2\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
+     "body": "{\"xrid\": \"dbf7ff529629a7418fa28232b0b9ac94\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
@@ -1538,7 +1538,7 @@
     },
     {
      "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PWIPWIA11W5",
-     "body": "{\"xrid\": \"4fede23116f00c9719de436cfcaa59bd\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
+     "body": "{\"xrid\": \"e54ffab8803f9380c7e5ccc5d8f2fde0\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
@@ -1554,15 +1554,15 @@
    "json_urls": [
     "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
-    "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJJ43MX",
     "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJJ43MX",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983951&v=1.720.0&sl=1&si=d9770728-8723-4240-94fd-b55df2251dee-to",
-    "https://embed.binkies3d.com/content/xEVkjBp7/AmKe2KpO/motorola-razr-fold-pantone-blackened-blue",
-    "https://api.ipify.org/?format=json",
+    "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJJ43MX",
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983965&v=1.720.0&sl=1&si=d2c29efb-3751-4b6d-8033-4922ed990526-to",
+    "https://embed.binkies3d.com/content/xEVkjBp7/cMAttf9P/motorola-razr-fold-pantone-blackened-blue",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
-    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
+    "https://api.ipify.org/?format=json",
     "https://api.ipify.org/?format=json",
     "https://cdn.equalweb.com/assets/data/methods.json",
+    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://cdn.equalweb.com/assets/data/lang.json",
     "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
     "https://cdn.equalweb.com/assets/locale/ro.json"
@@ -1596,19 +1596,19 @@
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"b8efc1903b6ac941a0488b49498728aa\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
+     "body": "{\"xrid\": \"a85483ee7919444d8a1cde77210b477a\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
      "body": "{\"success\": true}"
     },
     {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJJ43MX",
-     "body": "{\"xrid\": \"b816e7f354f0985c17ba8f793e190879\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
+     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJJ43MX",
+     "body": "{\"xrid\": \"3a2b3038e03c2cb1aa8d709eae6320f6\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
     },
     {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJJ43MX",
-     "body": "{\"xrid\": \"7157cb8b7a507c01f36b0d6259beada1\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
+     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJJ43MX",
+     "body": "{\"xrid\": \"61891a569a8c44772b61fef511805cda\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
     }
    ]
   },
@@ -1622,14 +1622,14 @@
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJK44M2",
     "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJK44M2",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983951&v=1.720.0&sl=1&si=d9770728-8723-4240-94fd-b55df2251dee-to",
-    "https://embed.binkies3d.com/content/xEVkjBp7/EDaeD3yQ/motorola-razr-70-ultra-pantone-cocoa",
+    "https://embed.binkies3d.com/content/xEVkjBp7/0rIVxmsT/motorola-razr-70-ultra-pantone-cocoa",
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983965&v=1.720.0&sl=1&si=d2c29efb-3751-4b6d-8033-4922ed990526-to",
+    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
+    "https://api.ipify.org/?format=json",
     "https://api.ipify.org/?format=json",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
-    "https://api.ipify.org/?format=json",
     "https://cdn.equalweb.com/assets/data/methods.json",
     "https://cdn.equalweb.com/assets/data/lang.json",
-    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
     "https://cdn.equalweb.com/assets/locale/ro.json"
    ],
@@ -1662,7 +1662,7 @@
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"2321f07e0181fdd9deffb879dd2819cd\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
+     "body": "{\"xrid\": \"2695dda42c7cc4116e6d9d567cd6756b\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
@@ -1670,11 +1670,11 @@
     },
     {
      "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMJK44M2",
-     "body": "{\"xrid\": \"c551787c687507abe0b3987077222edc\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
+     "body": "{\"xrid\": \"137bd599f8e9b9f6ea6bd095c3af7d7c\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
     },
     {
      "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMJK44M2",
-     "body": "{\"xrid\": \"caebcbdd9faeece8757d187b06b472af\", \"success\": false, \"status\": 500, \"msg\": \"all products can‘t pass display rule\", \"params\": \"-\", \"data\": null}"
+     "body": "{\"xrid\": \"8e2614815c6b0429ff9d7a5cf105f703\", \"success\": false, \"status\": 500, \"msg\": \"all products can‘t pass display rule\", \"params\": \"-\", \"data\": null}"
     }
    ]
   },
@@ -1685,19 +1685,19 @@
    "title": "moto-global-row-razr-60 | motorola",
    "json_urls": [
     "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983951&v=1.720.0&sl=1&si=d9770728-8723-4240-94fd-b55df2251dee-to",
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983965&v=1.720.0&sl=1&si=d2c29efb-3751-4b6d-8033-4922ed990526-to",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
-    "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMHV41MM",
     "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMHV41MM",
+    "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMHV41MM",
     "https://api.ipify.org/?format=json",
-    "https://api.ipify.org/?format=json",
-    "https://embed.binkies3d.com/content/xEVkjBp7/NE6oQiZ0/motorola-razr-60-pantone-spring-bud",
+    "https://embed.binkies3d.com/content/xEVkjBp7/SHhKWmaV/motorola-razr-60-pantone-spring-bud",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
-    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
+    "https://api.ipify.org/?format=json",
     "https://cdn.equalweb.com/assets/data/methods.json",
-    "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
     "https://cdn.equalweb.com/assets/data/lang.json",
-    "https://cdn.equalweb.com/assets/locale/ro.json"
+    "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
+    "https://cdn.equalweb.com/assets/locale/ro.json",
+    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA"
    ],
    "links": [
     "https://www.motorola.com/ro/ro/p/pmipmje43mf",
@@ -1728,19 +1728,19 @@
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"bd272d62a0d0347822cba3b224b28711\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
+     "body": "{\"xrid\": \"5c20db9f0d8418dce00de3f4231a1c83\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
      "body": "{\"success\": true}"
     },
     {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMHV41MM",
-     "body": "{\"xrid\": \"41c8286c9e220daa19aae855afbb7fad\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
+     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMHV41MM",
+     "body": "{\"xrid\": \"d60ee224e5ecb3c39c20010f600c26f6\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
     },
     {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMHV41MM",
-     "body": "{\"xrid\": \"35637842cbf44cf967f0b2b086b0c87c\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
+     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMHV41MM",
+     "body": "{\"xrid\": \"cdca7cccac0e641aef680fcbea26f9ca\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
     }
    ]
   },
@@ -1752,18 +1752,18 @@
    "json_urls": [
     "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
-    "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMGU37MY",
     "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMGU37MY",
-    "https://embed.binkies3d.com/content/xEVkjBp7/DpMuxyur/motorola-razr-50-koala-grey",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983952&v=1.720.0&sl=1&si=d9770728-8723-4240-94fd-b55df2251dee-to",
+    "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMGU37MY",
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983965&v=1.720.0&sl=1&si=d2c29efb-3751-4b6d-8033-4922ed990526-to",
+    "https://api.ipify.org/?format=json",
+    "https://embed.binkies3d.com/content/xEVkjBp7/3pEgHfiA/motorola-razr-50-koala-grey",
     "https://api.ipify.org/?format=json",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
-    "https://api.ipify.org/?format=json",
     "https://cdn.equalweb.com/assets/data/methods.json",
     "https://cdn.equalweb.com/assets/data/lang.json",
     "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
-    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
-    "https://cdn.equalweb.com/assets/locale/ro.json"
+    "https://cdn.equalweb.com/assets/locale/ro.json",
+    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA"
    ],
    "links": [
     "https://www.motorola.com/ro/ro/p/pmipmje43mf",
@@ -1794,19 +1794,19 @@
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"b3aea915c7c157710295e59882c09dd8\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
+     "body": "{\"xrid\": \"2e96bd5b60a32804a00e828c97aa57b6\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
      "body": "{\"success\": true}"
     },
     {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMGU37MY",
-     "body": "{\"xrid\": \"5085eb484c4cedacf94f042e3035708d\", \"success\": false, \"status\": 500, \"msg\": \"all products can‘t pass display rule\", \"params\": \"-\", \"data\": null}"
+     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMGU37MY",
+     "body": "{\"xrid\": \"241285e942e5418ab68e6ad7f24e411a\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
     },
     {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMGU37MY",
-     "body": "{\"xrid\": \"98220eeebaff719292a59c4a4ed9c024\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
+     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMGU37MY",
+     "body": "{\"xrid\": \"857d83d9347ec87a1bbfc9d8808f1c56\", \"success\": false, \"status\": 500, \"msg\": \"all products can‘t pass display rule\", \"params\": \"-\", \"data\": null}"
     }
    ]
   },
@@ -1818,18 +1818,18 @@
    "json_urls": [
     "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
-    "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMGS37MS",
     "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMGS37MS",
+    "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMGS37MS",
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983965&v=1.720.0&sl=1&si=d2c29efb-3751-4b6d-8033-4922ed990526-to",
+    "https://embed.binkies3d.com/content/xEVkjBp7/AzLR87Wv/motorola-razr-50-ultra-mocha-mousse",
     "https://api.ipify.org/?format=json",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983952&v=1.720.0&sl=1&si=d9770728-8723-4240-94fd-b55df2251dee-to",
     "https://api.ipify.org/?format=json",
-    "https://embed.binkies3d.com/content/xEVkjBp7/N6NtgfS3/motorola-razr-50-ultra-mocha-mousse",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
     "https://cdn.equalweb.com/assets/data/methods.json",
+    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://cdn.equalweb.com/assets/data/lang.json",
     "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
-    "https://cdn.equalweb.com/assets/locale/ro.json",
-    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA"
+    "https://cdn.equalweb.com/assets/locale/ro.json"
    ],
    "links": [
     "https://www.motorola.com/ro/ro/p/pmipmje43mf",
@@ -1860,19 +1860,19 @@
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"81b8de8bc8dec615df2dcb1018234e7c\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
+     "body": "{\"xrid\": \"bd0ef791a00016d169bbf70581649a8e\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
      "body": "{\"success\": true}"
     },
     {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMGS37MS",
-     "body": "{\"xrid\": \"67a9549aee953f3bdc011b6559ccb036\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
+     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMGS37MS",
+     "body": "{\"xrid\": \"440c9ea9fa1e1bf8e22e168bfcb15706\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
     },
     {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMGS37MS",
-     "body": "{\"xrid\": \"6d5c6fcf812f8930a4f9539adee150ef\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
+     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMGS37MS",
+     "body": "{\"xrid\": \"073c544b10dec0761287c43b74f6860f\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
     }
    ]
   },
@@ -1883,19 +1883,19 @@
    "title": "moto-global-row-edge-60-pro | motorola",
    "json_urls": [
     "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMHT41MF",
     "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMHT41MF",
-    "https://embed.binkies3d.com/content/xEVkjBp7/Nhwxt9Db/motorola-edge-60-pro-pantone-dazzling-blue",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983952&v=1.720.0&sl=1&si=d9770728-8723-4240-94fd-b55df2251dee-to",
+    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983965&v=1.720.0&sl=1&si=d2c29efb-3751-4b6d-8033-4922ed990526-to",
+    "https://embed.binkies3d.com/content/xEVkjBp7/7KwI3yrU/motorola-edge-60-pro-pantone-dazzling-blue",
     "https://api.ipify.org/?format=json",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
     "https://api.ipify.org/?format=json",
     "https://cdn.equalweb.com/assets/data/methods.json",
     "https://cdn.equalweb.com/assets/data/lang.json",
     "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
-    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
-    "https://cdn.equalweb.com/assets/locale/ro.json"
+    "https://cdn.equalweb.com/assets/locale/ro.json",
+    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA"
    ],
    "links": [
     "https://www.motorola.com/ro/ro/p/pmipmje43mf",
@@ -1922,23 +1922,23 @@
    "tiles": [],
    "price_texts": [],
    "items_by_source": {},
-   "text_sample": "Telefoane accesorii servicii moto-ai părerile utilizatorilor motoverse Asistență Selectează culoarea - PANTONE Dazzling Blue Prezentare generală Descoperă motorola edge 60 pro. Cu designul său quad-curved frumos conturat, finisajele soft-touch și culorile selectate de Pantone®, este expresia supremă a stilului și confortului. Capturează .... Mai multe Obține-l de la partenerii noștri. Vezi toate specificațiile Extraordinarul începe cu Edge Cameră cu moto AI | Rezistenta certificată IP68/IP69 Inovația care ține pasul cu tine Încadrezi și fotografiezi perfecțiunea Ajutor inteligent, printr-o simplă atingere Conceput să îndeplinească standarde militare de durabilitate Energie supremă, pentru libertate totală Item 1 of 4 Eleganță fără efort, confort toată ziua PANTONE Dazzling Blue Fiecare fotografie, fiecare videoclip,surprins cu încredere Item 4 of 4 Luminează fiecare cadru Mai multă lumină, mai multe detalii, mai multă strălucire. Surprinde cadre superbe în orice situație, cu senzorul Sony LYTIA™ 700C. Calitate de nivel profesional De la fotografii clare, la videoclipuri cinematografice, funcția de optimizare a fotografiilor și noile îmbunătățiri aduse videoclipurilor fac ca fiecare moment să arate impecabil. Portrete perfecte Încadrează fiecare portret caun profesionișt. Reglează estomparea, alege una dintre cele patru distanțe focale și lasă funcția Bokeh dinamic că creeze profunzime naturală. ALFĂ MAI MULTE Niciun moment în afara razei de acțiune. Surprinde mai mul",
+   "text_sample": "Telefoane accesorii servicii moto-ai părerile utilizatorilor motoverse Asistență Selectează culoarea - PANTONE Dazzling Blue Prezentare generală Descoperă motorola edge 60 pro. Cu designul său quad-curved frumos conturat, finisajele soft-touch și culorile selectate de Pantone®, este expresia supremă a stilului și confortului. Capturează .... Mai multe Obține-l de la partenerii noștri. Vezi toate specificațiile Extraordinarul începe cu Edge Cameră cu moto AI | Rezistenta certificată IP68/IP69 Inovația care ține pasul cu tine Încadrezi și fotografiezi perfecțiunea Ajutor inteligent, printr-o simplă atingere Conceput să îndeplinească standarde militare de durabilitate Energie supremă, pentru libertate totală Item 1 of 4 Eleganță fără efort, confort toată ziua PANTONE Dazzling Blue Fiecare fotografie, fiecare videoclip,surprins cu încredere Item 2 of 4 Luminează fiecare cadru Mai multă lumină, mai multe detalii, mai multă strălucire. Surprinde cadre superbe în orice situație, cu senzorul Sony LYTIA™ 700C. Calitate de nivel profesional De la fotografii clare, la videoclipuri cinematografice, funcția de optimizare a fotografiilor și noile îmbunătățiri aduse videoclipurilor fac ca fiecare moment să arate impecabil. Portrete perfecte Încadrează fiecare portret caun profesionișt. Reglează estomparea, alege una dintre cele patru distanțe focale și lasă funcția Bokeh dinamic că creeze profunzime naturală. ALFĂ MAI MULTE Niciun moment în afara razei de acțiune. Surprinde mai mul",
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"fb9ad781a4160863ba5305fd98b4b64a\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
+     "body": "{\"xrid\": \"f3b62de45b197823c334395b3dbd2e77\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
+    },
+    {
+     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMHT41MF",
+     "body": "{\"xrid\": \"cef276af8f63b458ce7570359b2d1c7b\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
+    },
+    {
+     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMHT41MF",
+     "body": "{\"xrid\": \"2caf2cd34175ab32cd665a909a056ef7\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
      "body": "{\"success\": true}"
-    },
-    {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMHT41MF",
-     "body": "{\"xrid\": \"c98d8bfe66dd06299a54b474cf500b3d\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
-    },
-    {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMHT41MF",
-     "body": "{\"xrid\": \"43dd6486ad27b77401577e2afbe89eb9\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
     }
    ]
   },
@@ -1948,19 +1948,19 @@
    "final_url": "https://www.motorola.com/ro/ro/p/phones/motorola-edge/smartphones-motorola-edge-60-fusion/pmipmhq40mz?pn=PMIPMHQ40MZ",
    "title": "edge-60-fusion | motorola",
    "json_urls": [
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983965&v=1.720.0&sl=1&si=d2c29efb-3751-4b6d-8033-4922ed990526-to",
     "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMHQ40MZ",
     "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMHQ40MZ",
-    "https://embed.binkies3d.com/content/xEVkjBp7/9Mrrcs2q/motorola-edge-60-fusion-pantone-amazonite",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983952&v=1.720.0&sl=1&si=d9770728-8723-4240-94fd-b55df2251dee-to",
-    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
+    "https://api.ipify.org/?format=json",
+    "https://embed.binkies3d.com/content/xEVkjBp7/FwxcjXFs/motorola-edge-60-fusion-pantone-amazonite",
     "https://api.ipify.org/?format=json",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
-    "https://api.ipify.org/?format=json",
     "https://cdn.equalweb.com/assets/data/methods.json",
     "https://cdn.equalweb.com/assets/data/lang.json",
     "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
+    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://cdn.equalweb.com/assets/locale/ro.json"
    ],
    "links": [
@@ -1992,7 +1992,7 @@
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"5dad17ab74798f7faafa848f186ad439\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
+     "body": "{\"xrid\": \"a41dae7aeb10e179ae9262d93dd09d6a\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
@@ -2000,11 +2000,11 @@
     },
     {
      "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMHQ40MZ",
-     "body": "{\"xrid\": \"b080c350139043da1462db7457bc6f18\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
+     "body": "{\"xrid\": \"0a499ade48a31a9d4daaf2afe75f7b72\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
     },
     {
      "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMHQ40MZ",
-     "body": "{\"xrid\": \"00bf635b79afa84786d1f003fef82819\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
+     "body": "{\"xrid\": \"3c66b6d9f5a188ba398dda72e214f6ba\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
     }
    ]
   },
@@ -2018,11 +2018,11 @@
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMGZ38MQ",
     "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMGZ38MQ",
-    "https://embed.binkies3d.com/content/xEVkjBp7/pVF8JRJL/motorola-edge-50-neo-pantone-grisaille",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983952&v=1.720.0&sl=1&si=d9770728-8723-4240-94fd-b55df2251dee-to",
     "https://api.ipify.org/?format=json",
+    "https://api.ipify.org/?format=json",
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983965&v=1.720.0&sl=1&si=d2c29efb-3751-4b6d-8033-4922ed990526-to",
+    "https://embed.binkies3d.com/content/xEVkjBp7/XUHroADu/motorola-edge-50-neo-pantone-grisaille",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
-    "https://api.ipify.org/?format=json",
     "https://cdn.equalweb.com/assets/data/methods.json",
     "https://cdn.equalweb.com/assets/data/lang.json",
     "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
@@ -2054,11 +2054,11 @@
    "tiles": [],
    "price_texts": [],
    "items_by_source": {},
-   "text_sample": "Telefoane accesorii servicii moto-ai părerile utilizatorilor motoverse Asistență Selectează culoarea - PANTONE Grisaille Obține-l de la partenerii noștri Vezi toate specificațiile ARTA ÎN MÂINILE TALE TEHNOLOGIA SE INTERSECTEAZĂ CU ARTA Caracteristici principale Creează povești frumoase Extrem de elegant Divertisment cinematografic Energie pentru mai mult timp Item 1 of 4 Creează povești frumoase Surprinde fără efort Obiectiv profesional în propriul buzunar Extrem de elegant. Conceput să dureze. PANTONE Mocha Mousse AFLĂ MAI MULTE DETALII Culori selectate de PANTONE™ PANTONE Mocha Mousse Îmbrățișați micile luxuri ale vieții cu acest maro moale, care îmbină căldura și eleganța pentru o notă de glamour de zi cu zi. Cu o incrustație de piele vegană cu materiale pe bază de bio și zaț de cafea pentru o notă unică. Huse bio, în culorile telefonului, marca agood company Motorola colaborează cu agood company pentru realizarea husei lui edge 50 neo, îmbinând astfel tehnologia, designul și sustenabilitatea. Husa este inclusă în cutia telefonului și vine în cele 4 culori ale lui edge 50 neo. Este moale la atingere, confortabilă și subțire, astfel încât telefonul să nu se simtă voluminos în mână sau în buzunar. Ușoară și durabilă, husa protejează telefonul împotriva zgârieturilor. Divertisment cinematografic Always On Display Vezi ceea ce contează cel mai mult, dintr-o privire, datorită funcției Always On Display (AOD). De asemenea, poți să potrivești designul AOD cu",
+   "text_sample": "Telefoane accesorii servicii moto-ai părerile utilizatorilor motoverse Asistență Selectează culoarea - PANTONE Grisaille Obține-l de la partenerii noștri Vezi toate specificațiile ARTA ÎN MÂINILE TALE TEHNOLOGIA SE INTERSECTEAZĂ CU ARTA Caracteristici principale Creează povești frumoase Extrem de elegant Divertisment cinematografic Energie pentru mai mult timp Item 1 of 4 Creează povești frumoase Surprinde fără efort Obiectiv profesional în propriul buzunar Extrem de elegant. Conceput să dureze. PANTONE Mocha Mousse AFLĂ MAI MULTE DETALII Culori selectate de PANTONE™ PANTONE Mocha Mousse Îmbrățișați micile luxuri ale vieții cu acest maro moale, care îmbină căldura și eleganța pentru o notă de glamour de zi cu zi. Cu o incrustație de piele vegană cu materiale pe bază de bio și zaț de cafea pentru o notă unică. Huse bio, în culorile telefonului, marca agood company Motorola colaborează cu agood company pentru realizarea husei lui edge 50 neo, îmbinând astfel tehnologia, designul și sustenabilitatea. Husa este inclusă în cutia telefonului și vine în cele 4 culori ale lui edge 50 neo. Este moale la atingere, confortabilă și subțire, astfel încât telefonul să nu se simtă voluminos în mână sau în buzunar. Ușoară și durabilă, husa protejează telefonul împotriva zgârieturilor. Divertisment cinematografic Clar și vibrant Bucură-te de divertisment superior pe un ecran OLED compact, de 6,36\", cu rată de reîmprospătare de 120 Hz3. Rezoluția Super HD (1220p) garanteaz",
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"822ba2ba52ffd4563373f4ea87ce3eb8\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
+     "body": "{\"xrid\": \"e4c4e703d1928d8bc04f2a1ef789cf84\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
@@ -2066,11 +2066,11 @@
     },
     {
      "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMGZ38MQ",
-     "body": "{\"xrid\": \"a8efe12c058c04080a64c096e7ef6c0e\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
+     "body": "{\"xrid\": \"6520696ef87277cb7b615b7eb796cc13\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
     },
     {
      "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMGZ38MQ",
-     "body": "{\"xrid\": \"cd516747721bf4d4f79f05dfc0d0a952\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
+     "body": "{\"xrid\": \"b7c05d461aad41c13a0a966724854781\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
     }
    ]
   },
@@ -2081,11 +2081,11 @@
    "title": "HD Android-smartphone | motorola edge 50 | motorola | motorola",
    "json_urls": [
     "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-    "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMGX38ML",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMGX38ML",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983952&v=1.720.0&sl=1&si=d9770728-8723-4240-94fd-b55df2251dee-to",
-    "https://embed.binkies3d.com/content/xEVkjBp7/uKLcjIHk/motorola-edge-50-jungle-green",
+    "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMGX38ML",
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983965&v=1.720.0&sl=1&si=d2c29efb-3751-4b6d-8033-4922ed990526-to",
+    "https://embed.binkies3d.com/content/xEVkjBp7/T8Rf10PU/motorola-edge-50-jungle-green",
     "https://api.ipify.org/?format=json",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
     "https://api.ipify.org/?format=json",
@@ -2120,15 +2120,11 @@
    "tiles": [],
    "price_texts": [],
    "items_by_source": {},
-   "text_sample": "Telefoane accesorii servicii moto-ai părerile utilizatorilor motoverse Asistență Selectează culoarea - Jungle Green Ia-l de la partenerii noștri Vezi toate specificațiile Repere Creativitate la îndemână Stil sofisticat Fără griji pentru autonomia bateriei Ecran Super HD clar Item 1 of 4 Tot ce vrei de la o cameră foto Creează fără efort Surprinde excelența Google Foto Design perfect echilibrat Jungle Green Culori remarcabile Realizat cu grijă AFLĂ MAI MULTE DETALII Energie pentru căutările tale Du-te mai departe cu mai puține încărcări sau încarcăre wireless2. Viața este mai bună fără cabluri Nu întrerupe fluxul creativității cu tehnologia TurboPower™ la 68 W. Încarcă-ți telefonul pentru toată ziua în doar 15 minute3. Baterie pentru toată ziua O baterie imensă, de 5000 mAh, oferă peste 30 de ore de utilizare cu o singură încărcare3. Distracție infinită Iubește fiecare sunet Scufundă-te în sunetul multidimensional al tehnologiei Dolby Atmos® și ascultă muzică tare și clar, cu două difuzoare stereo mari. Energie pentru fiecare zi Performanță pentru ceea ce contează Proiectat cu Snapdragon® 7 Gen 1 Accelerated Edition, pentru a-ți stimula creativitatea. Deblochează experiențe uimitoare cu inteligența artificială, folosește caracteristicile pentru fotografii de calitate profesională și multe altele. Păstrează tot ce vrei Ai suficient spațiu pentru seriale, filme, muzică, aplicații și jocuri, cu spațiul de stocare de până la 512 GB5. Viteză extra cu RA",
+   "text_sample": "Telefoane accesorii servicii moto-ai părerile utilizatorilor motoverse Asistență Selectează culoarea - Jungle Green Ia-l de la partenerii noștri Vezi toate specificațiile Repere Creativitate la îndemână Stil sofisticat Fără griji pentru autonomia bateriei Ecran Super HD clar Item 1 of 4 Tot ce vrei de la o cameră foto Creează fără efort Surprinde excelența Google Foto Design perfect echilibrat Jungle Green Culori remarcabile Realizat cu grijă AFLĂ MAI MULTE DETALII Energie pentru căutările tale Du-te mai departe cu mai puține încărcări sau încarcăre wireless2. Viața este mai bună fără cabluri Nu întrerupe fluxul creativității cu tehnologia TurboPower™ la 68 W. Încarcă-ți telefonul pentru toată ziua în doar 15 minute3. Baterie pentru toată ziua O baterie imensă, de 5000 mAh, oferă peste 30 de ore de utilizare cu o singură încărcare3. Distracție infinită Claritate impecabilă Bucură-te de transmisii în flux perfect pe ecranul nostru cel mai clar de până acum, de 6,67”, cu rezoluție Super HD (1220p) și o rată de reîmprospătare extrem de rapidă, de 120 Hz4. Energie pentru fiecare zi Performanță pentru ceea ce contează Proiectat cu Snapdragon® 7 Gen 1 Accelerated Edition, pentru a-ți stimula creativitatea. Deblochează experiențe uimitoare cu inteligența artificială, folosește caracteristicile pentru fotografii de calitate profesională și multe altele. Păstrează tot ce vrei Ai suficient spațiu pentru seriale, filme, muzică, aplicații și jocuri, cu spațiu",
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"a0f84582f1abba68f71d6d84baf7b5ab\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
-    },
-    {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMGX38ML",
-     "body": "{\"xrid\": \"95c7895de55463630c0bdb755eff0bf8\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
+     "body": "{\"xrid\": \"44585c12b909b7d4e76cf825f5a04cd8\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
@@ -2136,7 +2132,11 @@
     },
     {
      "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMGX38ML",
-     "body": "{\"xrid\": \"68b67f1824b67184e2302baf6e85df9b\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
+     "body": "{\"xrid\": \"4aa1e8a55337ac70a9927a3f3012482e\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
+    },
+    {
+     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMGX38ML",
+     "body": "{\"xrid\": \"a9ad96b3fd69d5728976bf6eb6671d85\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
     }
    ]
   },
@@ -2148,12 +2148,12 @@
    "json_urls": [
     "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
-    "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMGY39MD",
     "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMGY39MD",
-    "https://embed.binkies3d.com/content/xEVkjBp7/UNIDKagd/motorola-edge-50-fusion-forest-blue",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983952&v=1.720.0&sl=1&si=d9770728-8723-4240-94fd-b55df2251dee-to",
-    "https://api.ipify.org/?format=json",
+    "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMGY39MD",
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983965&v=1.720.0&sl=1&si=d2c29efb-3751-4b6d-8033-4922ed990526-to",
+    "https://embed.binkies3d.com/content/xEVkjBp7/B8E8zV8G/motorola-edge-50-fusion-forest-blue",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
+    "https://api.ipify.org/?format=json",
     "https://api.ipify.org/?format=json",
     "https://cdn.equalweb.com/assets/data/methods.json",
     "https://cdn.equalweb.com/assets/data/lang.json",
@@ -2186,23 +2186,23 @@
    "tiles": [],
    "price_texts": [],
    "items_by_source": {},
-   "text_sample": "Telefoane accesorii servicii moto-ai părerile utilizatorilor motoverse Asistență Selectează culoarea - Forest Blue Obține-l de la partenerii noștri Vezi toate specificațiile Artaîn mâiniletale Redefinirea eleganței Marginile curbate, contururile line, capacul perfect al camerei și designul extrem de subțire al telefonului motorola edge 50 fusion îți oferă o experiență tactilă premium. Alege între finisajul din piele vegană Hot Pink sau Marshmallow Blue ori optează pentru un finisaj mat sofisticat, Forest Blue. Margini incredibil de subțiri Świetnie wykonana i miękka w dotyku Ecran rezistent la zgârieturi Elementul de protecție Fă pe plac laturii tale aventuroase - motorola edge 50 fusion este rezistent la praf și la scufundarea în apă conform standardului IP681. În plus, sticla Corning® Gorilla® Glass 5 menține ecranul protejat față de loviturile și zgârieturile zilnice. Creativitate fără limite Oferă inspirației tale un avantaj cu funcțiile incitante și ușor de folosit ale camerei. Etalează-ți stilul Explorează-ți creativitatea cu o varietate de caracteristici inovatoare ale camerelor. Deblochează magia fotografiilor Accesează și mai multe instrumente uimitoare de editare și bazate pe inteligența artificială, direct de pe smartphone-ul tău, prin intermediul Google Foto. Caracteristicile Editor magic, Gumă magică, Clarificare foto și multe altele vor fi disponibile pentru utilizatorii Motorola începând cu 15 mai 2024. Divertisment cinematografic O nouă dimensi",
+   "text_sample": "Telefoane accesorii servicii moto-ai părerile utilizatorilor motoverse Asistență Selectează culoarea - Forest Blue Obține-l de la partenerii noștri Vezi toate specificațiile Artaîn mâiniletale Redefinirea eleganței Marginile curbate, contururile line, capacul perfect al camerei și designul extrem de subțire al telefonului motorola edge 50 fusion îți oferă o experiență tactilă premium. Alege între finisajul din piele vegană Hot Pink sau Marshmallow Blue ori optează pentru un finisaj mat sofisticat, Forest Blue. Margini incredibil de subțiri Świetnie wykonana i miękka w dotyku Ecran rezistent la zgârieturi Elementul de protecție Fă pe plac laturii tale aventuroase - motorola edge 50 fusion este rezistent la praf și la scufundarea în apă conform standardului IP681. În plus, sticla Corning® Gorilla® Glass 5 menține ecranul protejat față de loviturile și zgârieturile zilnice. Creativitate fără limite Oferă inspirației tale un avantaj cu funcțiile incitante și ușor de folosit ale camerei. Etalează-ți stilul Explorează-ți creativitatea cu o varietate de caracteristici inovatoare ale camerelor. Deblochează magia fotografiilor Accesează și mai multe instrumente uimitoare de editare și bazate pe inteligența artificială, direct de pe smartphone-ul tău, prin intermediul Google Foto. Caracteristicile Editor magic, Gumă magică, Clarificare foto și multe altele vor fi disponibile pentru utilizatorii Motorola începând cu 15 mai 2024. Divertisment cinematografic Cu adevărat pe",
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"577b2cc3cf3ce2a4e0f979ea917da543\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
+     "body": "{\"xrid\": \"2e3a1637f8e64b601ac1bb19b487e2c2\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
      "body": "{\"success\": true}"
     },
     {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMGY39MD",
-     "body": "{\"xrid\": \"1524b1fd671a6741b1fc2d6383b562c3\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
+     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMGY39MD",
+     "body": "{\"xrid\": \"7a793747490b62cc384a75157d280e31\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
     },
     {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMGY39MD",
-     "body": "{\"xrid\": \"dfc03c40dbbad012b9c388dd82a35b4c\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
+     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMGY39MD",
+     "body": "{\"xrid\": \"cd9ae3e0e3759674991c9c963581b4a7\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
     }
    ]
   },
@@ -2213,19 +2213,19 @@
    "title": "Telefoane cu cel mai bun design | motorola edge 50 pro | motorola România | motorola",
    "json_urls": [
     "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983952&v=1.720.0&sl=1&si=d9770728-8723-4240-94fd-b55df2251dee-to",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
-    "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMGQ37ML",
     "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMGQ37ML",
+    "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMGQ37ML",
+    "https://embed.binkies3d.com/content/xEVkjBp7/whKpQseT/motorola-edge-50-pro-black-beauty",
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983966&v=1.720.0&sl=1&si=d2c29efb-3751-4b6d-8033-4922ed990526-to",
     "https://api.ipify.org/?format=json",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
     "https://api.ipify.org/?format=json",
     "https://cdn.equalweb.com/assets/data/methods.json",
     "https://cdn.equalweb.com/assets/data/lang.json",
-    "https://embed.binkies3d.com/content/xEVkjBp7/wDkXaRsS/motorola-edge-50-pro-black-beauty",
     "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
-    "https://cdn.equalweb.com/assets/locale/ro.json",
-    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA"
+    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
+    "https://cdn.equalweb.com/assets/locale/ro.json"
    ],
    "links": [
     "https://www.motorola.com/ro/ro/p/pmipmje43mf",
@@ -2256,19 +2256,19 @@
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"c90fcea803abf8130350950e981f6db4\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
+     "body": "{\"xrid\": \"1fd109c8bc14011f57d67736e8970dd3\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
      "body": "{\"success\": true}"
     },
     {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMGQ37ML",
-     "body": "{\"xrid\": \"4a3abca96b93332b6f35bc56703f9fed\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
+     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMGQ37ML",
+     "body": "{\"xrid\": \"6d62c5d7075ab5a2d5eddd84a15401e2\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
     },
     {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMGQ37ML",
-     "body": "{\"xrid\": \"b7cda5ff5089faf88bf4af88cef947f9\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
+     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMGQ37ML",
+     "body": "{\"xrid\": \"d7f27449a43e1ab40a86f85711ed8bfc\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
     }
    ]
   },
@@ -2280,14 +2280,14 @@
    "json_urls": [
     "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
-    "https://api.ipify.org/?format=json",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
     "https://api.ipify.org/?format=json",
+    "https://api.ipify.org/?format=json",
     "https://cdn.equalweb.com/assets/data/methods.json",
-    "https://cdn.equalweb.com/assets/data/lang.json",
-    "https://cdn.equalweb.com/assets/locale/ro.json",
     "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/program?programKey=ngwAGv&programVersion=241",
+    "https://cdn.equalweb.com/assets/data/lang.json",
     "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
+    "https://cdn.equalweb.com/assets/locale/ro.json",
     "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite?programKey=ngwAGv&inviteId=1646&programVersion=241",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA"
    ],
@@ -2320,7 +2320,7 @@
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"7625f4dc8a04055a468421d97cbffc1e\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
+     "body": "{\"xrid\": \"2ee47f4a67fa29025deb177f90005a82\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
@@ -2339,21 +2339,21 @@
    "title": "Telefoane moto cu ecran mare, cu cameră de 50 MP cu inteligență artificială | moto g06 | motorola RO | motorola",
    "json_urls": [
     "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983966&v=1.720.0&sl=1&si=d2c29efb-3751-4b6d-8033-4922ed990526-to",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMHY43M6",
     "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMHY43M6",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983952&v=1.720.0&sl=1&si=d9770728-8723-4240-94fd-b55df2251dee-to",
-    "https://embed.binkies3d.com/content/xEVkjBp7/s1xCIPaT/moto-g06-pantone-arabesque",
-    "https://api.ipify.org/?format=json",
+    "https://embed.binkies3d.com/content/xEVkjBp7/rgfUnB0M/moto-g06-pantone-arabesque",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
+    "https://api.ipify.org/?format=json",
     "https://api.ipify.org/?format=json",
     "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/program?programKey=ngwAGv&programVersion=241",
     "https://cdn.equalweb.com/assets/data/methods.json",
     "https://cdn.equalweb.com/assets/data/lang.json",
-    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
     "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite?programKey=ngwAGv&inviteId=1646&programVersion=241",
-    "https://cdn.equalweb.com/assets/locale/ro.json"
+    "https://cdn.equalweb.com/assets/locale/ro.json",
+    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA"
    ],
    "links": [
     "https://www.motorola.com/ro/ro/p/pmipmje43mf",
@@ -2384,7 +2384,7 @@
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"e654f2636332550d04c0b3a8e80e47ba\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
+     "body": "{\"xrid\": \"1e1d901b4c80bb53a8ceede34ecccfed\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
@@ -2392,11 +2392,11 @@
     },
     {
      "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMHY43M6",
-     "body": "{\"xrid\": \"b5266b2c68c492489c319633b10d488d\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
+     "body": "{\"xrid\": \"5b900c48ad627c149e1230473814b016\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
     },
     {
      "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMHY43M6",
-     "body": "{\"xrid\": \"cf95c8df07cc63d3a028fd6944f8195a\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
+     "body": "{\"xrid\": \"269149553e0ba36e49a269e723c8326a\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
     }
    ]
   },
@@ -2410,18 +2410,18 @@
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMHS42M7",
     "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMHS42M7",
-    "https://embed.binkies3d.com/content/xEVkjBp7/MchKxgpp/moto-g86-power-5g-pantone-chrysanthemum",
-    "https://api.ipify.org/?format=json",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983952&v=1.720.0&sl=1&si=d9770728-8723-4240-94fd-b55df2251dee-to",
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983966&v=1.720.0&sl=1&si=d2c29efb-3751-4b6d-8033-4922ed990526-to",
+    "https://embed.binkies3d.com/content/xEVkjBp7/fPSrY6QV/moto-g86-power-5g-pantone-chrysanthemum",
     "https://api.ipify.org/?format=json",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
-    "https://cdn.equalweb.com/assets/data/methods.json",
-    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/program?programKey=ngwAGv&programVersion=241",
+    "https://api.ipify.org/?format=json",
+    "https://cdn.equalweb.com/assets/data/methods.json",
     "https://cdn.equalweb.com/assets/data/lang.json",
     "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite?programKey=ngwAGv&inviteId=1646&programVersion=241",
     "https://cdn.equalweb.com/assets/locale/ro.json",
-    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite?programKey=ngwAGv&inviteId=1646&programVersion=241"
+    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA"
    ],
    "links": [
     "https://www.motorola.com/ro/ro/p/pmipmje43mf",
@@ -2452,7 +2452,7 @@
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"52679f9756bba4651a1e4d920c5b81c1\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
+     "body": "{\"xrid\": \"fcb5d627f644c967a1dc332f483caf87\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
@@ -2460,11 +2460,11 @@
     },
     {
      "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMHS42M7",
-     "body": "{\"xrid\": \"0bf2b1ee71942816d99cbaa8ecc7e47b\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
+     "body": "{\"xrid\": \"62e07411d2518b4eb9cfe4384a2499bc\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
     },
     {
      "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMHS42M7",
-     "body": "{\"xrid\": \"6d508e7d5b44b08dabf3c6bc818a6848\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
+     "body": "{\"xrid\": \"ec8839d32816ef88bc37515cb7168a06\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
     }
    ]
   },
@@ -2478,18 +2478,18 @@
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMHU41MG",
     "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMHU41MG",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983952&v=1.720.0&sl=1&si=d9770728-8723-4240-94fd-b55df2251dee-to",
-    "https://embed.binkies3d.com/content/xEVkjBp7/pIGTeprD/moto-g56-5g-pantone-dazzling-blue",
     "https://api.ipify.org/?format=json",
+    "https://embed.binkies3d.com/content/xEVkjBp7/pXIjmkR7/moto-g56-5g-pantone-dazzling-blue",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983966&v=1.720.0&sl=1&si=d2c29efb-3751-4b6d-8033-4922ed990526-to",
     "https://api.ipify.org/?format=json",
     "https://cdn.equalweb.com/assets/data/methods.json",
     "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/program?programKey=ngwAGv&programVersion=241",
     "https://cdn.equalweb.com/assets/data/lang.json",
     "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
+    "https://cdn.equalweb.com/assets/locale/ro.json",
     "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite?programKey=ngwAGv&inviteId=1646&programVersion=241",
-    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
-    "https://cdn.equalweb.com/assets/locale/ro.json"
+    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA"
    ],
    "links": [
     "https://www.motorola.com/ro/ro/p/pmipmje43mf",
@@ -2520,7 +2520,7 @@
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"f738ee4c2ca97b665c6851d8035aae9c\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
+     "body": "{\"xrid\": \"c3481e0cdaa7e07375455654a6353901\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
@@ -2528,11 +2528,11 @@
     },
     {
      "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMHU41MG",
-     "body": "{\"xrid\": \"5d48a25c0ff12feb9b7a7b0b95d5a25a\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
+     "body": "{\"xrid\": \"a369de1b59b60c49077e670c3ab815f8\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
     },
     {
      "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMHU41MG",
-     "body": "{\"xrid\": \"0ffafb2fb1e8685ce3a7ebacc8b85f7a\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
+     "body": "{\"xrid\": \"6c9e2300f06796bf2a46ab49eb1ba855\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
     }
    ]
   },
@@ -2543,37 +2543,39 @@
    "title": "Corning Gorilla Glass 3 Phone | motorola g04s | motorola | motorola",
    "json_urls": [
     "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983952&v=1.720.0&sl=1&si=d9770728-8723-4240-94fd-b55df2251dee-to",
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983966&v=1.720.0&sl=1&si=d2c29efb-3751-4b6d-8033-4922ed990526-to",
+    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMHA38MV",
     "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMHA38MV",
-    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
-    "https://player.vimeo.com/cdn-cgi/challenge-platform/h/b/precursor/f8df4d4a0cd6/0.16563063836348646:1795180837:AThCSHqtqa2Ajbx0hRagsjndwdZ56s7hzRgBZQzlvFA/a5d836",
-    "https://player.vimeo.com/cdn-cgi/challenge-platform/h/b/precursor/f8df4d4a0cd6/0.16563063836348646:1795180837:AThCSHqtqa2Ajbx0hRagsjndwdZ56s7hzRgBZQzlvFA/a5d836",
-    "https://vod-adaptive-ak.vimeocdn.com/exp=1795189250~acl=%2Fec00dd31-9a8b-4cab-be45-94ed966297f7%2Fpsid%3D069425bdb0c601eb0d6862cc21230b5a7f16904d1795185650%2F%2",
-    "https://vod-adaptive-ak.vimeocdn.com/exp=1795189250~acl=%2Fec00dd31-9a8b-4cab-be45-94ed966297f7%2Fpsid%3D4ddeec8062461f3f37e669ea20ce8eb76ef2bf411795185650%2F%2",
-    "https://player.vimeo.com/cdn-cgi/challenge-platform/h/b/precursor/f8df4d4a0cd6/0.16563063836348646:1795180837:AThCSHqtqa2Ajbx0hRagsjndwdZ56s7hzRgBZQzlvFA/a5d836",
-    "https://vod-adaptive-ak.vimeocdn.com/exp=1795189250~acl=%2Fec00dd31-9a8b-4cab-be45-94ed966297f7%2Fpsid%3D875aec58823c78bfcd1c7fd05ad48cb80bb043eb1795185650%2F%2",
-    "https://embed.binkies3d.com/content/xEVkjBp7/veo7eXkv/moto-phone-xt2421-8-sea-green",
-    "https://player.vimeo.com/cdn-cgi/challenge-platform/h/b/precursor/f8df4d4a0cd6/0.16563063836348646:1795180837:AThCSHqtqa2Ajbx0hRagsjndwdZ56s7hzRgBZQzlvFA/a5d836",
     "https://api.ipify.org/?format=json",
-    "https://vod-adaptive-ak.vimeocdn.com/exp=1795189250~acl=%2F103295e5-7a65-4bb5-964d-3b2e54aa5919%2Fpsid%3D44126f88d0305b2b66d314054e5f9401a58ebd861795185650%2F%2",
+    "https://api.ipify.org/?format=json",
+    "https://embed.binkies3d.com/content/xEVkjBp7/4mOugRYK/moto-phone-xt2421-8-sea-green",
+    "https://player.vimeo.com/cdn-cgi/challenge-platform/h/b/precursor/f8df4d4a0cd6/0.3322908517644322:1795188040:6TWR-ihxrh_6w0b6rUPAgKMb5qzDssWPTGhK_FwyzZo/a5d8991",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
-    "https://vimeo.com/flarepoint/orion/v3/identity/settings",
-    "https://api.ipify.org/?format=json",
+    "https://vod-adaptive-ak.vimeocdn.com/exp=1795193297~acl=%2Fec00dd31-9a8b-4cab-be45-94ed966297f7%2Fpsid%3D3ca37207b707f0ef727c9c030a477c05a56725881795189697%2F%2",
+    "https://player.vimeo.com/cdn-cgi/challenge-platform/h/b/precursor/f8df4d4a0cd6/0.3322908517644322:1795188040:6TWR-ihxrh_6w0b6rUPAgKMb5qzDssWPTGhK_FwyzZo/a5d8991",
+    "https://player.vimeo.com/cdn-cgi/challenge-platform/h/b/precursor/f8df4d4a0cd6/0.3322908517644322:1795188040:6TWR-ihxrh_6w0b6rUPAgKMb5qzDssWPTGhK_FwyzZo/a5d8991",
     "https://cdn.equalweb.com/assets/data/methods.json",
+    "https://player.vimeo.com/cdn-cgi/challenge-platform/h/b/precursor/f8df4d4a0cd6/0.3322908517644322:1795188040:6TWR-ihxrh_6w0b6rUPAgKMb5qzDssWPTGhK_FwyzZo/a5d8991",
+    "https://vod-adaptive-ak.vimeocdn.com/exp=1795193297~acl=%2Fec00dd31-9a8b-4cab-be45-94ed966297f7%2Fpsid%3D06edcb16f2ffaeef5cfcd78b628619935bd2748c1795189697%2F%2",
+    "https://vod-adaptive-ak.vimeocdn.com/exp=1795193297~acl=%2F103295e5-7a65-4bb5-964d-3b2e54aa5919%2Fpsid%3D61d3fd3f3730495e242327bd56352b85427c2e001795189697%2F%2",
+    "https://vod-adaptive-ak.vimeocdn.com/exp=1795193297~acl=%2Fec00dd31-9a8b-4cab-be45-94ed966297f7%2Fpsid%3Dfdc8d18dec99f46c873807cc07eaba7f552d05d71795189697%2F%2",
+    "https://vimeo.com/flarepoint/orion/v3/identity/settings",
     "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/program?programKey=ngwAGv&programVersion=241",
     "https://cdn.equalweb.com/assets/data/lang.json",
-    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
-    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite?programKey=ngwAGv&inviteId=1646&programVersion=241",
+    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://cdn.equalweb.com/assets/locale/ro.json",
-    "https://vimeo.com/flarepoint/LGJIdiJG",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite?programKey=ngwAGv&inviteId=1646&programVersion=241",
+    "https://vimeo.com/flarepoint/xCATJUoq",
+    "https://player.vimeo.com/video/933427460/outro?on_site=0&type=beginning&h=97d928acf8",
+    "https://vimeo.com/flarepoint/xCATJUoq",
+    "https://player.vimeo.com/video/933427460/outro?on_site=0&type=beginning&h=97d928acf8",
+    "https://player.vimeo.com/video/933427460/outro?on_site=0&type=beginning&h=97d928acf8",
     "https://player.vimeo.com/video/938198222/outro?on_site=0&type=beginning&h=396c42c082",
-    "https://player.vimeo.com/video/933427460/outro?on_site=0&type=beginning&h=97d928acf8",
-    "https://vimeo.com/flarepoint/LGJIdiJG",
-    "https://player.vimeo.com/video/933427460/outro?on_site=0&type=beginning&h=97d928acf8",
-    "https://player.vimeo.com/video/933427460/outro?on_site=0&type=beginning&h=97d928acf8",
-    "https://vimeo.com/flarepoint/LGJIdiJG"
+    "https://vimeo.com/flarepoint/xCATJUoq",
+    "https://vimeo.com/flarepoint/xCATJUoq",
+    "https://vimeo.com/flarepoint/xCATJUoq"
    ],
    "links": [
     "https://www.motorola.com/ro/ro/p/pmipmje43mf",
@@ -2604,19 +2606,19 @@
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"110e9353d184a66f513ff52a951dfe7d\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
-    },
-    {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMHA38MV",
-     "body": "{\"xrid\": \"c13242f241fa4e79373fabcb3105dec2\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
-    },
-    {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMHA38MV",
-     "body": "{\"xrid\": \"a2e67382329b270c0e68e434be7703bf\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
+     "body": "{\"xrid\": \"72babca5131384457525f0f9e7bac79b\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
      "body": "{\"success\": true}"
+    },
+    {
+     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMHA38MV",
+     "body": "{\"xrid\": \"31c608ef256981ee072eb01e0ffc6565\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
+    },
+    {
+     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMHA38MV",
+     "body": "{\"xrid\": \"cf168b4341d70e0b0e02e17e01db267f\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
     }
    ]
   },
@@ -2628,20 +2630,20 @@
    "json_urls": [
     "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
-    "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMHC38M9",
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983966&v=1.720.0&sl=1&si=d2c29efb-3751-4b6d-8033-4922ed990526-to",
     "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMHC38M9",
-    "https://embed.binkies3d.com/content/xEVkjBp7/7s2663U4/moto-g35-5g-guava-red",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983952&v=1.720.0&sl=1&si=d9770728-8723-4240-94fd-b55df2251dee-to",
+    "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMHC38M9",
     "https://api.ipify.org/?format=json",
+    "https://api.ipify.org/?format=json",
+    "https://embed.binkies3d.com/content/xEVkjBp7/GNyeNcOm/moto-g35-5g-guava-red",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
-    "https://api.ipify.org/?format=json",
     "https://cdn.equalweb.com/assets/data/methods.json",
     "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/program?programKey=ngwAGv&programVersion=241",
     "https://cdn.equalweb.com/assets/data/lang.json",
     "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
+    "https://cdn.equalweb.com/assets/locale/ro.json",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
-    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite?programKey=ngwAGv&inviteId=1646&programVersion=241",
-    "https://cdn.equalweb.com/assets/locale/ro.json"
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite?programKey=ngwAGv&inviteId=1646&programVersion=241"
    ],
    "links": [
     "https://www.motorola.com/ro/ro/p/pmipmje43mf",
@@ -2668,23 +2670,23 @@
    "tiles": [],
    "price_texts": [],
    "items_by_source": {},
-   "text_sample": "Telefoane accesorii servicii moto-ai părerile utilizatorilor motoverse Asistență Selectează culoarea - Guava Red Obține-l de la partenerii noștri Vezi toate specificațiile E timpul să duci distracția mai departe Imaginea de ansamblu Simte magia conținutului tău preferat care prinde viață pe un ecran Full HD+ mare, luminos, de 6.7\". Îmbunătățește imaginea Obține imagini clare și luminoase, chiar și afară, în zilele însorite, grație caracteristicii Display Color Boost, pentru calitatea culorilor și o vizibilitate îmbunătățită a ecranului. Zonele întunecate par mai luminoase, iar culorile arată mai saturate, făcând ca tot ce este pe ecran să fie mai ușor de văzut. Editează fără efort Google Foto este locul unde se află toate fotografiile și videoclipurile tale, care beneficiază de o copie de siguranță automată și de organizare, astfel încât să fie ușor de vizualizat, de editat și de partajat pe orice dispozitiv. Elimină elementele de fundal nedorite cu doar câteva atingeri. Sau cu funcția Camouflage din Magic Eraser, poți schimba culoarea obiectelor deranjante, pentru a se pierde în imagine. Transformă siguranța confortului în eleganță Un design elegant, extrem de subțire. Alege între un finisaj mat sau unul de lux, din piele vegană, care se potrivesc stilului tău. Nu lăsa lichidele vărsate accidental sau stropirile să îți stea în cale grație designului rezistent la apă și trăiește-ți ziua în confortul siguranței, datorită sticlei Corning® Gorilla® Glass 3. Viteze 5",
+   "text_sample": "Telefoane accesorii servicii moto-ai părerile utilizatorilor motoverse Asistență Selectează culoarea - Guava Red Obține-l de la partenerii noștri Vezi toate specificațiile E timpul să duci distracția mai departe Simte diferența Bucură-te de conținut și de jocuri fără întreruperi, cu o rată de reîmprospătare de 120 Hz, incredibil de rapidă și de fluidă1. Îmbunătățește imaginea Obține imagini clare și luminoase, chiar și afară, în zilele însorite, grație caracteristicii Display Color Boost, pentru calitatea culorilor și o vizibilitate îmbunătățită a ecranului. Zonele întunecate par mai luminoase, iar culorile arată mai saturate, făcând ca tot ce este pe ecran să fie mai ușor de văzut. Editează fără efort Google Foto este locul unde se află toate fotografiile și videoclipurile tale, care beneficiază de o copie de siguranță automată și de organizare, astfel încât să fie ușor de vizualizat, de editat și de partajat pe orice dispozitiv. Elimină elementele de fundal nedorite cu doar câteva atingeri. Sau cu funcția Camouflage din Magic Eraser, poți schimba culoarea obiectelor deranjante, pentru a se pierde în imagine. Transformă siguranța confortului în eleganță Un design elegant, extrem de subțire. Alege între un finisaj mat sau unul de lux, din piele vegană, care se potrivesc stilului tău. Nu lăsa lichidele vărsate accidental sau stropirile să îți stea în cale grație designului rezistent la apă și trăiește-ți ziua în confortul siguranței, datorită sticlei Corning® Gorilla",
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"2fe997753db040951362ec935a18a736\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
+     "body": "{\"xrid\": \"58b2602236b3e514a2ddd0a8ffe7e1a8\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
      "body": "{\"success\": true}"
     },
     {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMHC38M9",
-     "body": "{\"xrid\": \"7beb8a1f7929f14f7779254fc3f426d3\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
+     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMHC38M9",
+     "body": "{\"xrid\": \"a92ff391ba4220ff9530f8e5d49b1f30\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
     },
     {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMHC38M9",
-     "body": "{\"xrid\": \"2f75999b800c734643485b6beb324677\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
+     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMHC38M9",
+     "body": "{\"xrid\": \"05b20c9bda005aa7dd58327697fd0e9a\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
     }
    ]
   },
@@ -2696,20 +2698,20 @@
    "json_urls": [
     "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
-    "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMHK40M8",
     "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMHK40M8",
+    "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMHK40M8",
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983966&v=1.720.0&sl=1&si=d2c29efb-3751-4b6d-8033-4922ed990526-to",
+    "https://embed.binkies3d.com/content/xEVkjBp7/0grmUoIO/moto-g05-plum-red",
     "https://api.ipify.org/?format=json",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983952&v=1.720.0&sl=1&si=d9770728-8723-4240-94fd-b55df2251dee-to",
-    "https://api.ipify.org/?format=json",
-    "https://embed.binkies3d.com/content/xEVkjBp7/ee9Znso4/moto-g05-plum-red",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
-    "https://cdn.equalweb.com/assets/data/methods.json",
+    "https://api.ipify.org/?format=json",
     "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/program?programKey=ngwAGv&programVersion=241",
+    "https://cdn.equalweb.com/assets/data/methods.json",
     "https://cdn.equalweb.com/assets/data/lang.json",
     "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
-    "https://cdn.equalweb.com/assets/locale/ro.json",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite?programKey=ngwAGv&inviteId=1646&programVersion=241",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
-    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite?programKey=ngwAGv&inviteId=1646&programVersion=241"
+    "https://cdn.equalweb.com/assets/locale/ro.json"
    ],
    "links": [
     "https://www.motorola.com/ro/ro/p/pmipmje43mf",
@@ -2740,19 +2742,19 @@
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"1e58fca10c528478f97aaf7567ae9725\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
+     "body": "{\"xrid\": \"ae74a9b49b07935a681d87822aed18b6\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
      "body": "{\"success\": true}"
     },
     {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMHK40M8",
-     "body": "{\"xrid\": \"a0ef9904139c76c2b65f69d30f4da255\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
+     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMHK40M8",
+     "body": "{\"xrid\": \"6d7681fca160cd7ad5b5d48ca7f11461\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
     },
     {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMHK40M8",
-     "body": "{\"xrid\": \"27a3bd678e0172a13bc5d97e85b85d3a\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
+     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMHK40M8",
+     "body": "{\"xrid\": \"0a2fba268703e7944ab66cde6ed56f8b\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
     }
    ]
   },
@@ -2763,21 +2765,21 @@
    "title": "Mobil cu ecran Full HD | moto g15 | Motorola RO - motorola RO | Telefoane Android și Razr | motorola",
    "json_urls": [
     "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-    "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMHJ40M2",
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983966&v=1.720.0&sl=1&si=d2c29efb-3751-4b6d-8033-4922ed990526-to",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
+    "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMHJ40M2",
     "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMHJ40M2",
-    "https://embed.binkies3d.com/content/xEVkjBp7/R6cOJVWM/moto-g15-gravity-grey",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983952&v=1.720.0&sl=1&si=d9770728-8723-4240-94fd-b55df2251dee-to",
+    "https://api.ipify.org/?format=json",
+    "https://embed.binkies3d.com/content/xEVkjBp7/GOo4nkAL/moto-g15-gravity-grey",
     "https://api.ipify.org/?format=json",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
-    "https://api.ipify.org/?format=json",
-    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/program?programKey=ngwAGv&programVersion=241",
     "https://cdn.equalweb.com/assets/data/methods.json",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/program?programKey=ngwAGv&programVersion=241",
     "https://cdn.equalweb.com/assets/data/lang.json",
     "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
-    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite?programKey=ngwAGv&inviteId=1646&programVersion=241",
-    "https://cdn.equalweb.com/assets/locale/ro.json"
+    "https://cdn.equalweb.com/assets/locale/ro.json",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite?programKey=ngwAGv&inviteId=1646&programVersion=241"
    ],
    "links": [
     "https://www.motorola.com/ro/ro/p/pmipmje43mf",
@@ -2808,19 +2810,19 @@
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"a25524ac8eef2cd529de730cab3060f0\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
-    },
-    {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMHJ40M2",
-     "body": "{\"xrid\": \"70c9103099fc735d29fd76d68602c76e\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
+     "body": "{\"xrid\": \"6db9126f86ae00c5daba3cbd567dbc3e\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
      "body": "{\"success\": true}"
     },
     {
+     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMHJ40M2",
+     "body": "{\"xrid\": \"84f6f5dbb19619b1899a6b563d565f94\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
+    },
+    {
      "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMHJ40M2",
-     "body": "{\"xrid\": \"23bc00d99e3e52bc662662513cc40e6b\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
+     "body": "{\"xrid\": \"333db3e319fd57982b01ab7dffa3ad49\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
     }
    ]
   },
@@ -2831,21 +2833,21 @@
    "title": "Telefon mobil pe Android, cu ecran Full HD+ și Dolby Atmos® | moto g75 5G | Motorola RO | motorola",
    "json_urls": [
     "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983966&v=1.720.0&sl=1&si=d2c29efb-3751-4b6d-8033-4922ed990526-to",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
-    "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMHD39MI",
     "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMHD39MI",
-    "https://embed.binkies3d.com/content/xEVkjBp7/ypd4LNts/moto-g75-5g-charcoal-grey",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983952&v=1.720.0&sl=1&si=d9770728-8723-4240-94fd-b55df2251dee-to",
-    "https://api.ipify.org/?format=json",
+    "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMHD39MI",
+    "https://embed.binkies3d.com/content/xEVkjBp7/0omXrrF0/moto-g75-5g-charcoal-grey",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
+    "https://api.ipify.org/?format=json",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
     "https://api.ipify.org/?format=json",
     "https://cdn.equalweb.com/assets/data/methods.json",
-    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/program?programKey=ngwAGv&programVersion=241",
     "https://cdn.equalweb.com/assets/data/lang.json",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/program?programKey=ngwAGv&programVersion=241",
     "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
-    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite?programKey=ngwAGv&inviteId=1646&programVersion=241",
-    "https://cdn.equalweb.com/assets/locale/ro.json"
+    "https://cdn.equalweb.com/assets/locale/ro.json",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite?programKey=ngwAGv&inviteId=1646&programVersion=241"
    ],
    "links": [
     "https://www.motorola.com/ro/ro/p/pmipmje43mf",
@@ -2876,19 +2878,19 @@
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"5dbcbb90282cb293db7d31640d250ef2\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
+     "body": "{\"xrid\": \"4ee510c9cdf2a41bac49f3a5e13e46bf\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
      "body": "{\"success\": true}"
     },
     {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMHD39MI",
-     "body": "{\"xrid\": \"39fece88545d6ede9e435a93729e2e68\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
+     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMHD39MI",
+     "body": "{\"xrid\": \"ea3dac8087306e6d3b82c3d881921287\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
     },
     {
-     "url": "https://api.motorola.com/ro/ro/online/moto/getProductOffer?productNumber=PMIPMHD39MI",
-     "body": "{\"xrid\": \"02ba25c8d56715100e67086e1fc95592\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": null}"
+     "url": "https://api.motorola.com/ro/ro/online/moto/getMotoCare?productNumber=PMIPMHD39MI",
+     "body": "{\"xrid\": \"ec9750930243d490251525c3e7977d77\", \"success\": true, \"status\": 200, \"msg\": null, \"params\": \"-\", \"data\": []}"
     }
    ]
   },
@@ -2900,17 +2902,17 @@
    "json_urls": [
     "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
     "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
-    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983952&v=1.720.0&sl=1&si=d9770728-8723-4240-94fd-b55df2251dee-to",
+    "https://c.go-mpulse.net/api/config.json?key=QR4MV-WWCTC-337JB-3LT7K-9RBLH&d=www.motorola.com&t=5983966&v=1.720.0&sl=1&si=d2c29efb-3751-4b6d-8033-4922ed990526-to",
     "https://api.ipify.org/?format=json",
     "https://pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
     "https://api.ipify.org/?format=json",
     "https://cdn.equalweb.com/assets/data/methods.json",
     "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/program?programKey=ngwAGv&programVersion=241",
     "https://cdn.equalweb.com/assets/data/lang.json",
-    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
     "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
     "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite?programKey=ngwAGv&inviteId=1646&programVersion=241",
-    "https://cdn.equalweb.com/assets/locale/ro.json"
+    "https://cdn.equalweb.com/assets/locale/ro.json",
+    "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA"
    ],
    "links": [
     "https://www.motorola.com/ro/ro/p/pmipmje43mf",
@@ -2937,11 +2939,11 @@
    "tiles": [],
    "price_texts": [],
    "items_by_source": {},
-   "text_sample": "Telefoane accesorii servicii moto-ai părerile utilizatorilor motoverse Asistență < > Item 1 of 5 Culoare: Forest Grey Smoky Green Twilight Purple Fișă informativă a produsului Ia-l de la partenerii noștri Vezi toate specificațiile Distracția la nivelul următor Sunetul așa cum ar trebui să fie Sunetul curge lin de la un difuzor stereo la celălalt, potrivindu-se perfect cu emoția de pe ecran. Rezultate perfecte Surprinde magia vizuală într-o clipă, folosind camera avansată de 50 MP, cu tehnologii OIS și Quad Pixel3. Chiar și în condiții de luminozitate scăzută, claritatea și detaliile strălucesc. Fotografii nemaipomenite într-o clipă Creativitatea la un alt nivel, cu o varietate minunată de caracteristici inovatoare ale camerei. Noaptea este doar a ta Învinge puterea întunericului și scoate la iveală mai multe detalii cu Night Vision. Fotografiile tale sunt luminoase și clare, chiar și în condiții de luminozitate redusă. • • • Conceput să iasă în evidență Du-ți stilul la alt nivel cu designul elegant al lui moto g55 5G. Alege între un finisaj similar cu sticla sau unul din piele vegană catifelată și dintre cele trei culori progresiste. Stai departe de lichidele vărsate accidental, cu ajutorul unui design rezistent la apă4 și protejează-te de zgârieturi cu sticla Corning® Gorilla® Glass5. Twilight Purple (piele vegană) FOREST GREY (PMMA) Smoky Green (piele vegană) Bateria uriașă de 5000 mAh îți permite să te scufunzi în sunetul muzicii tale, să discuți pe chat cu",
+   "text_sample": "Telefoane accesorii servicii moto-ai părerile utilizatorilor motoverse Asistență < > Item 1 of 5 Culoare: Forest Grey Smoky Green Twilight Purple Fișă informativă a produsului Ia-l de la partenerii noștri Vezi toate specificațiile Distracția la nivelul următor Detalii uluitoare Vizionarea conținutului preferat pe un ecran de 6,49\" cu rezoluție Full HD+ îți va oferi o experiență complet nouă. Rezultate perfecte Surprinde magia vizuală într-o clipă, folosind camera avansată de 50 MP, cu tehnologii OIS și Quad Pixel3. Chiar și în condiții de luminozitate scăzută, claritatea și detaliile strălucesc. Fotografii nemaipomenite într-o clipă Creativitatea la un alt nivel, cu o varietate minunată de caracteristici inovatoare ale camerei. Noaptea este doar a ta Învinge puterea întunericului și scoate la iveală mai multe detalii cu Night Vision. Fotografiile tale sunt luminoase și clare, chiar și în condiții de luminozitate redusă. • • • Conceput să iasă în evidență Du-ți stilul la alt nivel cu designul elegant al lui moto g55 5G. Alege între un finisaj similar cu sticla sau unul din piele vegană catifelată și dintre cele trei culori progresiste. Stai departe de lichidele vărsate accidental, cu ajutorul unui design rezistent la apă4 și protejează-te de zgârieturi cu sticla Corning® Gorilla® Glass5. Twilight Purple (piele vegană) FOREST GREY (PMMA) Smoky Green (piele vegană) Bateria uriașă de 5000 mAh îți permite să te scufunzi în sunetul muzicii tale, să discuți pe chat c",
    "json_samples": [
     {
      "url": "https://api.motorola.com/ro/ro/auth/assign_cookie?wishlistpns=1",
-     "body": "{\"xrid\": \"486e183b80cc87c037f7d980a4833a2a\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
+     "body": "{\"xrid\": \"a85e3fb71f6dcf38f151201c50fe4374\", \"status\": \"200\", \"msg\": null, \"params\": \"\", \"data\": null, \"msgKey\": \"\"}"
     },
     {
      "url": "https://www.motorola.com/bd0Awu/r/L/x6_4eeCHKQ/DafacDVwY3LDQr5N/FHd7eUwB/Qw9NRRZ/VdiA",
