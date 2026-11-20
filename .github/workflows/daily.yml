@@ -50,7 +50,7 @@ jobs:
     needs: prep
     if: needs.prep.outputs.skip != 'true'
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 170
     strategy:
       fail-fast: false
       matrix:
