@@ -10,38 +10,57 @@
    "json_urls": [
     "https://www.samsung.com/aemapi/v6/common/i18n/dict.fr_FR.b2c.json",
     "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01010000&siteCode=fr&start=1&num=12&sort=newest&onlyFilterInfoYN=N&keySummaryYN=Y&onlyR",
-    "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01010000&siteCode=fr&start=1&num=10&sort=recommended&onlyFilterInfoYN=Y&keySummaryYN=Y",
     "https://api.shop.samsung.com/tokocommercewebservices/v2/fr/tnc?context=PRODUCT&value=stock_alert_tc",
     "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
-    "https://c.go-mpulse.net/api/config.json?key=VRZKC-5BSTD-4EWS3-R2J59-B8GYB&d=www.samsung.com&t=5983715&v=1.766.0&if=&sl=0&si=a3f94141-86b4-49d4-9b4b-e34a7a44ab01",
-    "https://smetrics.samsung.com/ee/v1/identity/acquire?configId=e3fda900-4785-4503-8c3f-139fb50ec12f&requestId=44df04ff-9d0e-4547-96d8-a3f7f28adb4d",
+    "https://smetrics.samsung.com/ee/v1/identity/acquire?configId=e3fda900-4785-4503-8c3f-139fb50ec12f&requestId=8a1fbee6-7150-4878-8f57-69696a633dc1",
+    "https://smetrics.samsung.com/ee/va6/v1/interact?configId=e3fda900-4785-4503-8c3f-139fb50ec12f&requestId=dd4e378e-0fa7-44ee-a79e-8d16432a8447",
+    "https://c.go-mpulse.net/api/config.json?key=VRZKC-5BSTD-4EWS3-R2J59-B8GYB&d=www.samsung.com&t=5983772&v=1.766.0&if=&sl=0&si=0cc2ea6a-6f54-4c55-8ace-0246fe6219d5",
+    "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01010000&siteCode=fr&start=1&num=10&sort=recommended&onlyFilterInfoYN=Y&keySummaryYN=Y",
     "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01010000&siteCode=fr&start=1&num=10&sort=recommended&onlyFilterInfoYN=N&keySummaryYN=Y",
-    "https://smetrics.samsung.com/ee/or2/v1/interact?configId=e3fda900-4785-4503-8c3f-139fb50ec12f&requestId=5a875fb5-296c-49d9-9d12-a6a5e0a52563",
-    "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01010000&siteCode=fr&start=11&num=10&sort=recommended&onlyFilterInfoYN=N&keySummaryYN=Y"
+    "https://consent.trustarc.com/cm/samsung.fr/opt-out/domains?type=samsung_scrollbar_fr_v4&layout=gdpr&domain=samsung.fr&locale=fr&behavior=implied&country=us&uid=",
+    "https://www.samsung.com/aemapi/v6/common/i18n/dict.fr_FR.b2c.json",
+    "https://smetrics.samsung.com/ee/va6/v1/interact?configId=e3fda900-4785-4503-8c3f-139fb50ec12f&requestId=3c9a4902-5d64-47f2-9386-8a5827094a01",
+    "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01010000&siteCode=fr&start=1&num=12&sort=newest&onlyFilterInfoYN=N&keySummaryYN=Y&onlyR",
+    "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+    "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01010000&siteCode=fr&start=1&num=10&sort=recommended&onlyFilterInfoYN=Y&keySummaryYN=Y",
+    "https://api.shop.samsung.com/tokocommercewebservices/v2/fr/tnc?context=PRODUCT&value=stock_alert_tc",
+    "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01010000&siteCode=fr&start=1&num=10&sort=recommended&onlyFilterInfoYN=N&keySummaryYN=Y",
+    "https://smetrics.samsung.com/ee/va6/v1/interact?configId=e3fda900-4785-4503-8c3f-139fb50ec12f&requestId=05a6f7ee-79cb-4464-b9b4-f08285a28d5f",
+    "https://bzrcdn.openai.com/pixel-config/v1/19jhdsgLmJno3Tmcw85QWE.json",
+    "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
+    "https://c.go-mpulse.net/api/config.json?key=VRZKC-5BSTD-4EWS3-R2J59-B8GYB&d=www.samsung.com&t=5983772&v=1.766.0&if=&sl=0&si=050d13bc-5ccb-40b0-8963-b964f98742a8",
+    "https://resources.digital-cloud-west.medallia.com/wdcwest/469337/onsite/onsiteData1793171152318.json",
+    "https://ct.pinterest.com/user/?tid=2614094550066&pd=%7B%22em%22%3A%2224aba99b2defbb47ee981b4200313f61f3ae31541d8717bdac1e463c838939b0%22%7D&cb=1795131723727&dep",
+    "https://ct.pinterest.com/user/?event=pagevisit&ed=%7B%22product_category%22%3A%22mobile%22%2C%22product_ids%22%3A%22%22%2C%22product_name%22%3A%22%22%2C%22value",
+    "https://ct.pinterest.com/user/?event=viewcategory&ed=%7B%22product_category%22%3A%22mobile%22%7D&tid=2614094550066&cb=1795131723729&dep=5%2CEVENT_TAGS_ABSENT",
+    "https://gum.criteo.com/sid/json?origin=onetag&domain=samsung.com&sn=ChromeSyncframe&so=undefined&topUrl=www.samsung.com&ceid=8e3d3c4c-7cba-4f15-b96a-38c80849fbd",
+    "https://locationv2.api.useinsider.com/?v=2&pId=10007673&",
+    "https://segment.api.useinsider.com/v4/segments/17951317246168d7b74ecb2.0473ecd6?partnerid=10007673&fields=94596344974679e4c849a38e5d9b3156,8b9f5553dd3555ebe90bf",
+    "https://cdn1-api.fireworktv.com/embed/v2/channels/samsung_france?n=1&_=1795131724418",
+    "https://carrier.useinsider.com/y/v2/z",
+    "https://cdn1-api.fireworktv.com/embed/v2/playlists/from_cohort_params?channel=samsung_france&cohort_url=https%3A%2F%2Fwww.samsung.com%2Ffr%2Fsmartphones%2Fall-s",
+    "https://www.samsung.com/chat/api/livechat/handshake/v2/appHandshake",
+    "https://cdn1-api.fireworktv.com/embed/v2/playlists/oQB3KO/feeds?page_size=10&n=1&channel=samsung_france&_=1795131725439",
+    "https://live-chat-static.sprinklr.com/externalLocaleData/60a50b8751fd8259a109b6c5_app_941883/fr.json",
+    "https://fireworkadservices1.com/api/ad_setting?ad_target_platform=desktop_web&playlist_id=oQB3KO&_=1795131725437",
+    "https://www.samsung.com/chat/api/livechat/conversation/fetch?sortKey=lastInteractionTime",
+    "https://www.samsung.com/chat/api/livechat/event/fetch-notifications?cursor=A_6aff894d0000000000000000",
+    "https://www.samsung.com/chat/api/livechat/prompt/candidatePrompts",
+    "https://insight.adsrvr.org/track/realtimeconversion",
+    "https://insight.adsrvr.org/track/realtimeconversion"
    ],
    "links": [
     "https://www.samsung.com/fr/smartphones/galaxy-s26-ultra/buy/",
     "https://www.samsung.com/fr/smartphones/galaxy-z-fold8/buy/"
    ],
    "tiles": [],
-   "price_texts": [
-    "Prix total: 599,00€ Save Price: Économisez 303,05 €",
-    "Économisez 303,05 €",
-    "Prix ​​d'origine: 902,05 €",
-    "902,05 €",
-    "Prix total: 1 899,00€ Save Price: Économisez 100,00 €",
-    "Économisez 100,00 €",
-    "Prix ​​d'origine: 1 999,00 €",
-    "1 999,00 €",
-    "Prix total: 2 099,00€ Save Price: Économisez 100,00 €",
-    "Économisez 100,00 €"
-   ],
+   "price_texts": [],
    "items_by_source": {
-    "samsung-api": 95,
+    "samsung-api": 122,
     "jsonld": 27,
-    "json": 95
+    "json": 122
    },
-   "text_sample": "Skip to content Choisissez votre pays et votre langue. France Continuer Fermer la bannière de localisation et de langue global navigation bar Offres Offres Smartphones & Tablettes Smartphones & Tablettes Nouveau Objets connectés Objets connectés TV & AV TV & AV Électroménager Électroménager Audio Audio PC & Écrans PC & Écrans Black Friday Assistance Pour les professionnels Recherche Recherche Panier Se connecter/S’inscrire Découvrez les Smartphones Galaxy Smartphones Galaxy Galaxy Tab Galaxy Book Galaxy Watch Galaxy Buds Galaxy Ring Accessoires Galaxy Reconditionné par Samsung Précédent Suivant Tout Galaxy S Galaxy Z Galaxy A Comparer Accessoires pour Smartphone Galaxy Filtres 29 résultats Trier par Recommandé Coup d'oeil Galaxy S25 Notes sur les produits : 4.8 ( Nombre de notes : 9,999+) Open Tooltip Layer couleur : Bleu Nuit Vert d'eau Bleu Clair Gris Noir Absolu Bleu Nuit selected 512 Go 256 Go 128 Go selected Fiche d’information sur le produit B Charger not included NaN Prix total: 599,00€ Save Price: Économisez 303,05 € Prix ​​d'origine: 902,05 € Acheter Découvrir Comparer Galaxy S25 300€ remboursés Coup d'oeil Galaxy Z Fold8 Notes sur les produits : 4.8 ( Nombre de notes : 6,761) Open Tooltip Layer couleur : Lavande Blanc Graphite Lavande selected 1 To 512 Go 256 Go selected Fiche d’information sur le produit A Charger not included NaN Prix total: 1 899,00€ Save Price: Économisez 100,00 € Prix ​​d'origine: 1 999,00 € Acheter Décou"
+   "text_sample": "Skip to content Choisissez votre pays et votre langue. France Continuer Fermer la bannière de localisation et de langue global navigation bar Offres Offres Smartphones & Tablettes Smartphones & Tablettes Nouveau Objets connectés Objets connectés TV & AV TV & AV Électroménager Électroménager Audio Audio PC & Écrans PC & Écrans Black Friday Assistance Pour les professionnels Recherche Recherche Panier Se connecter/S’inscrire Black Friday : financement jusqu'à 36x disponible. Attention ! Un crédit coûte de l'argent et doit être remboursé. › Découvrez les Smartphones Galaxy Smartphones Galaxy Galaxy Tab Galaxy Book Galaxy Watch Galaxy Buds Galaxy Ring Accessoires Galaxy Reconditionné par Samsung Précédent Suivant Tout Galaxy S Galaxy Z Galaxy A Comparer Accessoires pour Smartphone Galaxy Filtres 29 résultats Trier par Recommandé Voir plus Acheter en direct. Avantages exclusifs. Samsung Rewards Cumulez des points avec le programme Samsung Rewards. Découvrir Assurance Samsung Care+ Gardez l’esprit tranquille avec Samsung Care+. Découvrir Livraison et retour offerts Livraison offerte à domicile ou en point relais. Découvrir Financement Payez vos achats en 3x ou 4x par carte bancaire.* Découvrir *Attention ! Un crédit coûte de l'argent et doit être remboursé. * Consultez et retrouvez toutes les informations et conditions concernant les offres sur les pages d'achat. * Couleur exclusive disponible sur samsung.com. * Disponible seulement sur Samsung.com"
   },
   {
    "url": "https://www.samsung.com/fr/tablets/all-tablets/",
@@ -51,13 +70,37 @@
    "json_urls": [
     "https://www.samsung.com/aemapi/v6/common/i18n/dict.fr_FR.b2c.json",
     "https://api.shop.samsung.com/tokocommercewebservices/v2/fr/tnc?context=PRODUCT&value=stock_alert_tc",
+    "https://smetrics.samsung.com/ee/va6/v1/interact?configId=e3fda900-4785-4503-8c3f-139fb50ec12f&requestId=28bd5d98-fdcd-4703-9f15-5ff9657d0b25",
     "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01020000&siteCode=fr&start=1&num=12&sort=newest&onlyFilterInfoYN=N&keySummaryYN=Y&onlyR",
-    "https://smetrics.samsung.com/ee/or2/v1/interact?configId=e3fda900-4785-4503-8c3f-139fb50ec12f&requestId=c43a99f4-537e-439a-a753-9d34d0a6b389",
     "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
-    "https://c.go-mpulse.net/api/config.json?key=VRZKC-5BSTD-4EWS3-R2J59-B8GYB&d=www.samsung.com&t=5983715&v=1.766.0&if=&sl=0&si=2e0e2f47-fdda-4f60-8f10-1f3e8fd97b90",
+    "https://smetrics.samsung.com/ee/va6/v1/interact?configId=e3fda900-4785-4503-8c3f-139fb50ec12f&requestId=6dd6e3ff-75f0-4764-9be2-5875355781ac",
+    "https://c.go-mpulse.net/api/config.json?key=VRZKC-5BSTD-4EWS3-R2J59-B8GYB&d=www.samsung.com&t=5983772&v=1.766.0&if=&sl=1&si=d3ba1826-3d77-4372-a578-13d2911573d7",
     "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01020000&siteCode=fr&start=1&num=10&sort=recommended&onlyFilterInfoYN=Y&keySummaryYN=Y",
     "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01020000&siteCode=fr&start=1&num=10&sort=recommended&onlyFilterInfoYN=N&keySummaryYN=Y",
-    "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01020000&siteCode=fr&start=11&num=10&sort=recommended&onlyFilterInfoYN=N&keySummaryYN=Y"
+    "https://cdn1-api.fireworktv.com/embed/v2/channels/samsung_france?n=1&_=1795131732656",
+    "https://eu-data.kameleoon.io/visit/visitor?siteCode=0xun7fmw7g&engine=true&currentVisit=true&format=ENGINE&maxNumberPreviousVisits=25&version=3&visitorCode=91pg",
+    "https://cdn1-api.fireworktv.com/embed/v2/playlists/from_cohort_params?channel=samsung_france&cohort_url=https%3A%2F%2Fwww.samsung.com%2Ffr%2Ftablets%2Fall-table",
+    "https://bzrcdn.openai.com/pixel-config/v1/19jhdsgLmJno3Tmcw85QWE.json",
+    "https://resources.digital-cloud-west.medallia.com/wdcwest/469337/onsite/onsiteData1793171152318.json",
+    "https://cdn1-api.fireworktv.com/embed/v2/playlists/o8Nw4w/feeds?page_size=10&n=1&channel=samsung_france&_=1795131734067",
+    "https://fireworkadservices1.com/api/ad_setting?ad_target_platform=desktop_web&playlist_id=o8Nw4w&_=1795131734066",
+    "https://ct.pinterest.com/user/?event=pagevisit&ed=%7B%22product_category%22%3A%22mobile%22%2C%22product_ids%22%3A%22%22%2C%22product_name%22%3A%22%22%2C%22value",
+    "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
+    "https://ct.pinterest.com/user/?tid=2614094550066&pd=%7B%22em%22%3A%2224aba99b2defbb47ee981b4200313f61f3ae31541d8717bdac1e463c838939b0%22%2C%22pin_unauth%22%3A%2",
+    "https://ct.pinterest.com/user/?event=viewcategory&ed=%7B%22product_category%22%3A%22mobile%22%7D&tid=2614094550066&cb=1795131734436&dep=5%2CEVENT_TAGS_ABSENT",
+    "https://insight.adsrvr.org/track/realtimeconversion",
+    "https://gum.criteo.com/sid/json?origin=onetag&domain=samsung.com&sn=ChromeSyncframe&so=undefined&topUrl=www.samsung.com&bundle=o3SBgl82UXV4dFJaWmRBd2ZTM041SWoyQ",
+    "https://insight.adsrvr.org/track/realtimeconversion",
+    "https://www.samsung.com/chat/api/livechat/handshake/v2/appHandshake",
+    "https://fireworkapi1.com/embed/v2/experiments?business_id=5Eb3Po&guest_id=e6130d1c-17a9-4ce7-a0a8-eaed7ced2265&channel_id=xDzlXLq",
+    "https://live-chat-static.sprinklr.com/externalLocaleData/60a50b8751fd8259a109b6c5_app_941883/fr.json",
+    "https://fireworkapi1.com/api/live_streams/oAj1YP/detail?_=1795131735763",
+    "https://www.samsung.com/chat/api/livechat/conversation/fetch?sortKey=lastInteractionTime",
+    "https://www.samsung.com/chat/api/livechat/prompt/candidatePrompts",
+    "https://www.samsung.com/chat/api/livechat/event/fetch-notifications?cursor=A_6aff89570000000000000000",
+    "https://fireworkapi1.com/api/live_streams/oAj1YP/state_snapshot?since=560.220459&_=1795131736765",
+    "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01020000&siteCode=fr&start=11&num=10&sort=recommended&onlyFilterInfoYN=N&keySummaryYN=Y",
+    "https://prod.ivs-device-config.live-video.net/player-web-v1.json?version=1.0"
    ],
    "links": [
     "https://www.samsung.com/fr/tablets/galaxy-tab-s12/buy/",
@@ -81,7 +124,7 @@
     "jsonld": 15,
     "json": 32
    },
-   "text_sample": "Skip to content Choisissez votre pays et votre langue. France Continuer Fermer la bannière de localisation et de langue global navigation bar Offres Offres Smartphones & Tablettes Smartphones & Tablettes Nouveau Objets connectés Objets connectés TV & AV TV & AV Électroménager Électroménager Audio Audio PC & Écrans PC & Écrans Black Friday Assistance Pour les professionnels Recherche Recherche Panier Se connecter/S’inscrire Découvrez les tablettes Galaxy Tab Smartphones Galaxy Galaxy Tab Galaxy Book Galaxy Watch Galaxy Buds Galaxy Ring Accessoires Galaxy Précédent Suivant Tout Galaxy Tab S Galaxy Tab A Comparer Accessoires Galaxy Tab Filtres 23 résultats Trier par Recommandé Nouveauté Coup d'oeil Galaxy Tab S12 Ultra Wi-Fi (14,6\") Notes sur les produits : 4.9 ( Nombre de notes : 263) Open Tooltip Layer couleur : Anthracite Argent Anthracite selected 1 To 512 Go 256 Go selected Fiche d’information sur le produit G Charger not included NaN Prix total: 1 539,00€ Acheter Découvrir Comparer Galaxy Tab S12 Ultra Wi-Fi (14,6\\\") Nouveauté Coup d'oeil Galaxy Tab S12+ Wi-Fi (12,6\") Notes sur les produits : 4.8 ( Nombre de notes : 150) Open Tooltip Layer couleur : Anthracite Argent Anthracite selected 512 Go 256 Go selected Fiche d’information sur le produit G Charger not included NaN Prix total: 1 319,00€ Acheter Découvrir Comparer Galaxy Tab S12+ Wi-Fi (12,6\\\") Nouveauté Coup d'oeil Galaxy Tab S12 Ultra 5G (14,6\") Notes sur les produits : 4.9 ( Nombre de notes "
+   "text_sample": "Skip to content Choisissez votre pays et votre langue. France Continuer Fermer la bannière de localisation et de langue global navigation bar Offres Offres Smartphones & Tablettes Smartphones & Tablettes Nouveau Objets connectés Objets connectés TV & AV TV & AV Électroménager Électroménager Audio Audio PC & Écrans PC & Écrans Black Friday Assistance Pour les professionnels Recherche Recherche Panier Se connecter/S’inscrire Découvrez les avantages exclusifs Samsung.com pendant Black Friday ! Découvrez les tablettes Galaxy Tab Smartphones Galaxy Galaxy Tab Galaxy Book Galaxy Watch Galaxy Buds Galaxy Ring Accessoires Galaxy Précédent Suivant Tout Galaxy Tab S Galaxy Tab A Comparer Accessoires Galaxy Tab Filtres 23 résultats Trier par Recommandé PayPal -50€ Cover Keyboard offert Coup d'oeil Galaxy Tab S12 Ultra Wi-Fi (14,6\") Notes sur les produits : 4.9 ( Nombre de notes : 263) Open Tooltip Layer couleur : Anthracite Argent Anthracite selected 1 To 512 Go 256 Go selected Fiche d’information sur le produit G Charger not included NaN Prix total: 1 539,00€ Acheter Découvrir Comparer Galaxy Tab S12 Ultra Wi-Fi (14,6\\\") PayPal -50€ Cover Keyboard offert Coup d'oeil Galaxy Tab S12+ Wi-Fi (12,6\") Notes sur les produits : 4.8 ( Nombre de notes : 150) Open Tooltip Layer couleur : Anthracite Argent Anthracite selected 512 Go 256 Go selected Fiche d’information sur le produit G Charger not included NaN Prix total: 1 319,00€ Acheter Découvrir Comparer Galaxy Tab S1"
   },
   {
    "url": "https://www.samsung.com/fr/watches/all-watches/",
@@ -90,18 +133,39 @@
    "title": "Toutes les montres - Montres et bracelets connectés | Samsung FR",
    "json_urls": [
     "https://www.samsung.com/aemapi/v6/common/i18n/dict.fr_FR.b2c.json",
-    "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01030000&siteCode=fr&start=1&num=12&sort=newest&onlyFilterInfoYN=N&keySummaryYN=Y&onlyR",
-    "https://c.go-mpulse.net/api/config.json?key=VRZKC-5BSTD-4EWS3-R2J59-B8GYB&d=www.samsung.com&t=5983715&v=1.766.0&if=&sl=0&si=6a1eb325-d60e-4328-a6e8-53aecdfc1b2b",
     "https://api.shop.samsung.com/tokocommercewebservices/v2/fr/tnc?context=PRODUCT&value=stock_alert_tc",
-    "https://smetrics.samsung.com/ee/or2/v1/interact?configId=e3fda900-4785-4503-8c3f-139fb50ec12f&requestId=5a86fc2e-594c-44d9-8a74-7f244126b82b",
+    "https://smetrics.samsung.com/ee/va6/v1/interact?configId=e3fda900-4785-4503-8c3f-139fb50ec12f&requestId=84a91376-8d67-46d6-9966-d9582abbfd0f",
+    "https://smetrics.samsung.com/ee/va6/v1/interact?configId=e3fda900-4785-4503-8c3f-139fb50ec12f&requestId=91056c51-eb30-41a7-9913-efd660e93508",
     "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+    "https://c.go-mpulse.net/api/config.json?key=VRZKC-5BSTD-4EWS3-R2J59-B8GYB&d=www.samsung.com&t=5983773&v=1.766.0&if=&sl=1&si=d3ba1826-3d77-4372-a578-13d2911573d7",
+    "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01030000&siteCode=fr&start=1&num=12&sort=newest&onlyFilterInfoYN=N&keySummaryYN=Y&onlyR",
+    "https://cdn1-api.fireworktv.com/embed/v2/channels/samsung_france?n=1&_=1795131752052",
+    "https://bzrcdn.openai.com/pixel-config/v1/19jhdsgLmJno3Tmcw85QWE.json",
+    "https://gum.criteo.com/sid/json?origin=onetag&domain=samsung.com&sn=ChromeSyncframe&so=undefined&topUrl=www.samsung.com&bundle=P8lcSl82UXV4dFJaWmRBd2ZTM041SWoyQ",
     "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01030000&siteCode=fr&start=1&num=10&sort=recommended&onlyFilterInfoYN=Y&keySummaryYN=Y",
+    "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
+    "https://cdn1-api.fireworktv.com/embed/v2/playlists/from_cohort_params?channel=samsung_france&cohort_url=https%3A%2F%2Fwww.samsung.com%2Ffr%2Fwatches%2Fall-watch",
+    "https://resources.digital-cloud-west.medallia.com/wdcwest/469337/onsite/onsiteData1793171152318.json",
+    "https://cdn1-api.fireworktv.com/embed/v2/playlists/ojEerL/feeds?page_size=10&n=1&channel=samsung_france&_=1795131752271",
+    "https://fireworkadservices1.com/api/ad_setting?ad_target_platform=desktop_web&playlist_id=ojEerL&_=1795131752270",
+    "https://www.samsung.com/chat/api/livechat/handshake/v2/appHandshake",
+    "https://live-chat-static.sprinklr.com/externalLocaleData/60a50b8751fd8259a109b6c5_app_941883/fr.json",
+    "https://fireworkapi1.com/api/live_streams/oy7DnO/detail?_=1795131752750",
     "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01030000&siteCode=fr&start=1&num=10&sort=recommended&onlyFilterInfoYN=N&keySummaryYN=Y",
-    "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01030000&siteCode=fr&start=11&num=10&sort=recommended&onlyFilterInfoYN=N&keySummaryYN=Y"
+    "https://www.samsung.com/chat/api/livechat/conversation/fetch?sortKey=lastInteractionTime",
+    "https://eu-data.kameleoon.io/visit/visitor?siteCode=0xun7fmw7g&engine=true&currentVisit=true&format=ENGINE&maxNumberPreviousVisits=25&version=3&visitorCode=91pg",
+    "https://ct.pinterest.com/user/?tid=2614094550066&pd=%7B%22em%22%3A%2224aba99b2defbb47ee981b4200313f61f3ae31541d8717bdac1e463c838939b0%22%2C%22pin_unauth%22%3A%2",
+    "https://ct.pinterest.com/user/?event=pagevisit&ed=%7B%22product_category%22%3A%22mobile%22%2C%22product_ids%22%3A%22%22%2C%22product_name%22%3A%22%22%2C%22value",
+    "https://insight.adsrvr.org/track/realtimeconversion",
+    "https://www.samsung.com/chat/api/livechat/prompt/candidatePrompts",
+    "https://www.samsung.com/chat/api/livechat/event/fetch-notifications?cursor=A_6aff89680000000000000000",
+    "https://fireworkapi1.com/api/live_streams/oy7DnO/state_snapshot?since=821.70562&_=1795131755668",
+    "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01030000&siteCode=fr&start=11&num=10&sort=recommended&onlyFilterInfoYN=N&keySummaryYN=Y",
+    "https://insight.adsrvr.org/track/realtimeconversion"
    ],
    "links": [
-    "https://www.samsung.com/fr/watches/galaxy-watch8/buy/",
-    "https://www.samsung.com/fr/watches/galaxy-watch-ultra2/buy/"
+    "https://www.samsung.com/fr/watches/galaxy-watch-ultra2/buy/",
+    "https://www.samsung.com/fr/watches/galaxy-watch8/buy/"
    ],
    "tiles": [],
    "price_texts": [
@@ -121,7 +185,7 @@
     "jsonld": 11,
     "json": 21
    },
-   "text_sample": "Skip to content Choisissez votre pays et votre langue. France Continuer Fermer la bannière de localisation et de langue global navigation bar Offres Offres Smartphones & Tablettes Smartphones & Tablettes Nouveau Objets connectés Objets connectés TV & AV TV & AV Électroménager Électroménager Audio Audio PC & Écrans PC & Écrans Black Friday Assistance Pour les professionnels Recherche Recherche Panier Se connecter/S’inscrire Découvrez les Galaxy Watch Smartphones Galaxy Galaxy Tab Galaxy Book Galaxy Watch Galaxy Buds Galaxy Ring Accessoires Galaxy Précédent Suivant Tout Galaxy Watch Ultra Galaxy Watch Galaxy Watch Classic Comparer Accessoires Galaxy Watch Filtres 12 résultats Trier par Recommandé Coup d'oeil Galaxy Watch Ultra2 Notes sur les produits : 4.7 ( Nombre de notes : 3,224) Open Tooltip Layer couleur : Argent Titane Noir Titane Argent Titane selected Prix total: 749,00€ Acheter Découvrir Comparer Galaxy Watch Ultra2 Coup d'oeil Galaxy Watch9 (Bluetooth, 40 mm) Notes sur les produits : 4.5 ( Nombre de notes : 790) Open Tooltip Layer couleur : Crème Graphite Crème selected Prix total: 409,00€ Acheter Découvrir Comparer Galaxy Watch9 (Bluetooth, 40 mm) Coup d'oeil Galaxy Watch8 Bluetooth (40 mm) Notes sur les produits : 4.6 ( Nombre de notes : 5,160) Open Tooltip Layer couleur : Argent Graphite Argent selected Prix total: 229,00€ Save Price: Économisez 100,00 € Prix ​​d'origine: 329,00 € Acheter Découvrir Comparer Galaxy Watch8 Bluetooth (40 mm) Cou"
+   "text_sample": "Skip to content Choisissez votre pays et votre langue. France Continuer Fermer la bannière de localisation et de langue global navigation bar Offres Offres Smartphones & Tablettes Smartphones & Tablettes Nouveau Objets connectés Objets connectés TV & AV TV & AV Électroménager Électroménager Audio Audio PC & Écrans PC & Écrans Black Friday Assistance Pour les professionnels Recherche Recherche Panier Se connecter/S’inscrire Découvrez les Galaxy Watch Smartphones Galaxy Galaxy Tab Galaxy Book Galaxy Watch Galaxy Buds Galaxy Ring Accessoires Galaxy Précédent Suivant Tout Galaxy Watch Ultra Galaxy Watch Galaxy Watch Classic Comparer Accessoires Galaxy Watch Filtres 12 résultats Trier par Recommandé PayPal -200€ Coup d'oeil Galaxy Watch Ultra2 Notes sur les produits : 4.7 ( Nombre de notes : 3,234) Open Tooltip Layer couleur : Argent Titane Noir Titane Argent Titane selected Prix total: 749,00€ Acheter Découvrir Comparer Galaxy Watch Ultra2 PayPal -60€ Coup d'oeil Galaxy Watch9 (Bluetooth, 40 mm) Notes sur les produits : 4.5 ( Nombre de notes : 800) Open Tooltip Layer couleur : Crème Graphite Crème selected Prix total: 409,00€ Acheter Découvrir Comparer Galaxy Watch9 (Bluetooth, 40 mm) Coup d'oeil Galaxy Watch8 Bluetooth (40 mm) Notes sur les produits : 4.6 ( Nombre de notes : 5,165) Open Tooltip Layer couleur : Argent Graphite Argent selected Prix total: 229,00€ Save Price: Économisez 100,00 € Prix ​​d'origine: 329,00 € Acheter Découvrir Comparer Galaxy Wat"
   },
   {
    "url": "https://www.samsung.com/fr/audio-sound/all-audio-sound/",
@@ -131,12 +195,31 @@
    "json_urls": [
     "https://www.samsung.com/aemapi/v6/common/i18n/dict.fr_FR.b2c.json",
     "https://api.shop.samsung.com/tokocommercewebservices/v2/fr/tnc?context=PRODUCT&value=stock_alert_tc",
+    "https://smetrics.samsung.com/ee/va6/v1/interact?configId=e3fda900-4785-4503-8c3f-139fb50ec12f&requestId=78f3fb1d-5be2-4195-a7a9-9aef6e711384",
     "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01040000&siteCode=fr&start=1&num=12&sort=newest&onlyFilterInfoYN=N&keySummaryYN=Y&onlyR",
-    "https://smetrics.samsung.com/ee/or2/v1/interact?configId=e3fda900-4785-4503-8c3f-139fb50ec12f&requestId=bea4cb98-4900-4859-aaf0-3e5c4a21ff4f",
-    "https://c.go-mpulse.net/api/config.json?key=VRZKC-5BSTD-4EWS3-R2J59-B8GYB&d=www.samsung.com&t=5983715&v=1.766.0&if=&sl=0&si=5ac6b1d7-e99b-4a4e-acd8-b58cdaf37c87",
     "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01040000&siteCode=fr&start=1&num=10&sort=recommended&onlyFilterInfoYN=Y&keySummaryYN=Y",
     "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
-    "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01040000&siteCode=fr&start=1&num=10&sort=recommended&onlyFilterInfoYN=N&keySummaryYN=Y&"
+    "https://smetrics.samsung.com/ee/va6/v1/interact?configId=e3fda900-4785-4503-8c3f-139fb50ec12f&requestId=775c69c4-7995-4cd2-b810-1b2200cf18b6",
+    "https://c.go-mpulse.net/api/config.json?key=VRZKC-5BSTD-4EWS3-R2J59-B8GYB&d=www.samsung.com&t=5983773&v=1.766.0&if=&sl=1&si=d3ba1826-3d77-4372-a578-13d2911573d7",
+    "https://searchapi.samsung.com/v6/front/b2c/product/finder/newhybris?type=01040000&siteCode=fr&start=1&num=10&sort=recommended&onlyFilterInfoYN=N&keySummaryYN=Y&",
+    "https://cdn1-api.fireworktv.com/embed/v2/channels/samsung_france?n=1&_=1795131764578",
+    "https://gum.criteo.com/sid/json?origin=onetag&domain=samsung.com&sn=ChromeSyncframe&so=undefined&topUrl=www.samsung.com&bundle=TRcO7F82UXV4dFJaWmRBd2ZTM041SWoyQ",
+    "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
+    "https://bzrcdn.openai.com/pixel-config/v1/19jhdsgLmJno3Tmcw85QWE.json",
+    "https://cdn1-api.fireworktv.com/embed/v2/playlists/from_cohort_params?channel=samsung_france&cohort_url=https%3A%2F%2Fwww.samsung.com%2Ffr%2Faudio-sound%2Fall-a",
+    "https://cdn1-api.fireworktv.com/embed/v2/playlists/gwYP8m/feeds?page_size=10&n=1&channel=samsung_france&_=1795131764821",
+    "https://fireworkadservices1.com/api/ad_setting?ad_target_platform=desktop_web&playlist_id=gwYP8m&_=1795131764820",
+    "https://www.samsung.com/chat/api/livechat/handshake/v2/appHandshake",
+    "https://eu-data.kameleoon.io/visit/visitor?siteCode=0xun7fmw7g&engine=true&currentVisit=true&format=ENGINE&maxNumberPreviousVisits=25&version=3&visitorCode=91pg",
+    "https://live-chat-static.sprinklr.com/externalLocaleData/60a50b8751fd8259a109b6c5_app_941883/fr.json",
+    "https://www.samsung.com/chat/api/livechat/conversation/fetch?sortKey=lastInteractionTime",
+    "https://www.samsung.com/chat/api/livechat/prompt/candidatePrompts",
+    "https://www.samsung.com/chat/api/livechat/event/fetch-notifications?cursor=A_6aff89740000000000000000",
+    "https://resources.digital-cloud-west.medallia.com/wdcwest/469337/onsite/onsiteData1793171152318.json",
+    "https://insight.adsrvr.org/track/realtimeconversion",
+    "https://ct.pinterest.com/user/?tid=2614094550066&pd=%7B%22em%22%3A%2224aba99b2defbb47ee981b4200313f61f3ae31541d8717bdac1e463c838939b0%22%2C%22pin_unauth%22%3A%2",
+    "https://ct.pinterest.com/user/?event=pagevisit&ed=%7B%22product_category%22%3A%22mobile%22%2C%22product_ids%22%3A%22%22%2C%22product_name%22%3A%22%22%2C%22value",
+    "https://insight.adsrvr.org/track/realtimeconversion"
    ],
    "links": [
     "https://www.samsung.com/fr/audio-sound/galaxy-buds4-pro/buy/"
@@ -159,7 +242,7 @@
     "jsonld": 4,
     "json": 7
    },
-   "text_sample": "Skip to content Choisissez votre pays et votre langue. France Continuer Fermer la bannière de localisation et de langue global navigation bar Offres Offres Smartphones & Tablettes Smartphones & Tablettes Nouveau Objets connectés Objets connectés TV & AV TV & AV Électroménager Électroménager Audio Audio PC & Écrans PC & Écrans Black Friday Assistance Pour les professionnels Recherche Recherche Panier Se connecter/S’inscrire Découvrez les Galaxy Buds Smartphones Galaxy Galaxy Tab Galaxy Book Galaxy Watch Galaxy Buds Galaxy Ring Accessoires Galaxy Précédent Suivant Tout Galaxy Buds Pro Galaxy Buds Galaxy Buds FE Comparer Accessoires Galaxy Buds Filtres (1) 4 résultats Trier par Recommandé Coup d'oeil Galaxy Buds4 Pro Notes sur les produits : 4.8 ( Nombre de notes : 2,785) Open Tooltip Layer couleur : Noir Blanc Noir selected Charger not included Charger 2.5-4.5w Prix total: 169,00€ Save Price: Économisez 80,00 € Prix ​​d'origine: 249,00 € Acheter Découvrir Comparer Galaxy Buds4 Pro Coup d'oeil Galaxy Buds4 Pro (Couleur exclusive) Notes sur les produits : 4.8 ( Nombre de notes : 2,785) Open Tooltip Layer couleur : Or Rose Or Rose selected Charger not included Charger 2.5-4.5w Prix total: 169,00€ Save Price: Économisez 80,00 € Prix ​​d'origine: 249,00 € Acheter Découvrir Comparer Galaxy Buds4 Pro (Couleur exclusive) Coup d'oeil Galaxy Buds3 FE Notes sur les produits : 4.6 ( Nombre de notes : 538) Open Tooltip Layer couleur : Noir Gris Noir selected Charger n"
+   "text_sample": "Skip to content Choisissez votre pays et votre langue. France Continuer Fermer la bannière de localisation et de langue global navigation bar Offres Offres Smartphones & Tablettes Smartphones & Tablettes Nouveau Objets connectés Objets connectés TV & AV TV & AV Électroménager Électroménager Audio Audio PC & Écrans PC & Écrans Black Friday Assistance Pour les professionnels Recherche Recherche Panier Se connecter/S’inscrire Découvrez les Galaxy Buds Smartphones Galaxy Galaxy Tab Galaxy Book Galaxy Watch Galaxy Buds Galaxy Ring Accessoires Galaxy Précédent Suivant Tout Galaxy Buds Pro Galaxy Buds Galaxy Buds FE Comparer Accessoires Galaxy Buds Filtres (1) 4 résultats Trier par Recommandé Coup d'oeil Galaxy Buds4 Pro Notes sur les produits : 4.8 ( Nombre de notes : 2,794) Open Tooltip Layer couleur : Noir Blanc Noir selected Charger not included Charger 2.5-4.5w Prix total: 169,00€ Save Price: Économisez 80,00 € Prix ​​d'origine: 249,00 € Acheter Découvrir Comparer Galaxy Buds4 Pro Coup d'oeil Galaxy Buds4 Pro (Couleur exclusive) Notes sur les produits : 4.8 ( Nombre de notes : 2,794) Open Tooltip Layer couleur : Or Rose Or Rose selected Charger not included Charger 2.5-4.5w Prix total: 169,00€ Save Price: Économisez 80,00 € Prix ​​d'origine: 249,00 € Acheter Découvrir Comparer Galaxy Buds4 Pro (Couleur exclusive) Coup d'oeil Galaxy Buds3 FE Notes sur les produits : 4.6 ( Nombre de notes : 540) Open Tooltip Layer couleur : Noir Gris Noir selected Charger n"
   }
  ],
  "api": [
