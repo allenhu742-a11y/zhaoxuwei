@@ -10,23 +10,31 @@
    "json_urls": [
     "https://www.honor.com/libs/cq/i18n/dict.pl-PL.json",
     "https://www.honor.com/bin/eCommerce/countryCodes.json",
+    "https://selfservice-eu.honor.com/ccpcmd/services/dispatch/secured/CCPC/EN/eCommerce/loginInfo/1000?siteCode=PL&loginFrom=1&_=1795365779565",
     "https://www.honor.com/pl/jcr:content.products.json",
-    "https://selfservice-eu.honor.com/ccpcmd/services/dispatch/secured/CCPC/EN/eCommerce/loginInfo/1000?siteCode=PL&loginFrom=1&_=1795217507015",
     "https://www.honor.com/content/honor/global/jcr:content.expectedcountry.json",
-    "https://consent.trustarc.com/cm/honor.com/opt-out/domains?type=honor_gdpr_v10&layout=gdpr&domain=honor.com&locale=pl&behavior=implied&country=us&uid=dec9cbb6-3c",
     "https://eu-app.quickcep.com/im-visitor/event/settings",
+    "https://eu-app.quickcep.com/im-visitor/chatSession/visitorSocketConnectCheck2",
+    "https://quicki18n.quickcep.com/chat/prod/en.json?t=1795365782135",
+    "https://consent.trustarc.com/cm/honor.com/opt-out/domains?type=honor_gdpr_v10&layout=gdpr&domain=honor.com&locale=pl&behavior=implied&country=us&state=va&uid=34",
+    "https://eu-app.quickcep.com/im/message/visitor/v2?chatSessionId=2603766668430147585&pageNum=1&lastMsgId=&pageSize=20",
+    "https://eu-app.quickcep.com/im-visitor/event/settings",
+    "https://eu-app-alb.quickcep.com/cdp-collect/cdp/collect/event?ip=1&_=1795365783189",
+    "https://eu-app-alb.quickcep.com/cdp-collect/cdp/collect/event?verbose=1&ip=1&_=1795365783274",
     "https://www.honor.com/libs/cq/i18n/dict.pl-PL.json",
     "https://www.honor.com/bin/eCommerce/countryCodes.json",
+    "https://eu-app.quickcep.com/im-visitor/event/settings",
+    "https://selfservice-eu.honor.com/ccpcmd/services/dispatch/secured/CCPC/EN/eCommerce/loginInfo/1000?siteCode=PL&loginFrom=1&_=1795365783874",
     "https://www.honor.com/content/honor/global/jcr:content.expectedcountry.json",
-    "https://selfservice-eu.honor.com/ccpcmd/services/dispatch/secured/CCPC/EN/eCommerce/loginInfo/1000?siteCode=PL&loginFrom=1&_=1795217511206",
-    "https://eu-app.quickcep.com/im-visitor/event/settings",
-    "https://quicki18n.quickcep.com/chat/prod/en.json?t=1795217512265",
     "https://eu-app.quickcep.com/im-visitor/chatSession/visitorSocketConnectCheck2",
+    "https://quicki18n.quickcep.com/chat/prod/en.json?t=1795365784398",
     "https://eu-app.quickcep.com/im-visitor/event/settings",
-    "https://eu-app.quickcep.com/im/message/visitor/v2?chatSessionId=2603129857924014080&pageNum=1&lastMsgId=&pageSize=20",
-    "https://eu-app-alb.quickcep.com/cdp-collect/cdp/collect/event?ip=1&_=1795217514455",
-    "https://eu-app-alb.quickcep.com/cdp-collect/cdp/collect/event?verbose=1&ip=1&_=1795217514542",
-    "https://eu-app-alb.quickcep.com/cdp-collect/cdp/collect/event?verbose=1&ip=1&_=1795217519938"
+    "https://eu-app-alb.quickcep.com/cdp-collect/cdp/collect/event?ip=1&_=1795365785305",
+    "https://eu-app.quickcep.com/im/message/visitor/v2?chatSessionId=2603766668430147585&pageNum=1&lastMsgId=&pageSize=20",
+    "https://eu-app-alb.quickcep.com/cdp-collect/cdp/collect/event?verbose=1&ip=1&_=1795365785377",
+    "https://eu-app-alb.quickcep.com/cdp-collect/cdp/collect/event?verbose=1&ip=1&_=1795365785471",
+    "https://eu-app-alb.quickcep.com/cdp-collect/cdp/collect/event?verbose=1&ip=1&_=1795365790566",
+    "https://eu-app-alb.quickcep.com/cdp-collect/cdp/collect/event?verbose=1&ip=1&_=1795365795662"
    ],
    "links": [],
    "tiles": [],
@@ -43,12 +51,12 @@
      "body": "[{\"country\": \"Greece\", \"countryCode\": \"GR\", \"portalCode\": \"+30\", \"backgroundCode\": \"0030\"}, {\"country\": \"Netherlands\", \"countryCode\": \"NL\", \"portalCode\": \"+31\", \"backgroundCode\": \"0031\"}, {\"country\": \"Belgium\", \"countryCode\": \"BE/BE-FR\", \"portalCode\": \"+32\", \"backgroundCode\": \"0032\"}, {\"country\": \"France\", \"countryCode\": \"FR\", \"portalCode\": \"+33\", \"backgroundCode\": \"0033\"}, {\"country\": \"Spain\", \"countryCode\": \"ES\", \"portalCode\": \"+34\", \"backgroundCode\": \"0034\"}, {\"country\": \"Portugal\", \"countryCode\": \"PT\", \"portalCode\": \"+351\", \"backgroundCode\": \"00351\"}, {\"country\": \"Luxembourg\", \"countryCode\": \"\", \"portalCode\": \"+352\", \"backgroundCode\": \"00352\"}, {\"country\": \"Ireland\", \"countryCode\": \"IE\", \"portalCode\": \"+353\", \"backgroundCode\": \"00353\"}, {\"country\": \"Iceland\", \"countryCode\": \"\", \"portalCode\": \"+354\", \"backgroundCode\": \"00354\"}, {\"country\": \"Malta\", \"countryCode\": \"\", \"portalCode\": \"+356\", \"backgroundCode\": \"00356\"}, {\"country\": \"Cyprus\", \"countryCode\": \"\", \"portalCode\": \"+357\", \"backgroundCode\": \"00357\"}, {\"country\": \"Finland\", \"countryCode\": \"FI\", \"portalCode\": \"+358\", \"backgroundCode\": \"00358\"}, {\"country\": \"Bulgaria\", \"countryCode\": \"BG\", \"portalCode\": \"+359\", \"backgroundCode\": \"00359\"}, {\"country\": \"Hungary\", \"countryCode\": \"HU\", \"portalCode\": \"+36\", \"backgroundCode\": \"0036\"}, {\"country\": \"Lithuania\", \"countryCode\": \"LT\", \"portalCode\": \"+370\", \"backgroundCode\": \"00370\"}, {\"country\": \"Latvia\", \"countryCode\": \"LV\", \"portalCode\": \"+371\", \"backgroundCode\": \"00371\"}, {\"country\": \"Estonia\", \"countryCode\": \"EE\", \"portalCode\": \"+372\", \"backgroundCode\": \"00372\"}, {\"country\": \"Croatia\", \"countryCode\": \"HR\", \"portalCode\": \"+385\", \"backgroundCode\": \"00385\"}, {\"country\": \"Slovenia\", \"countryCode\": \"SI\", \"portalCode\": \"+386\", \"backgroundCode\": \"00386\"}, {\"country\": \"Italy\", \"countryCode\": \"IT\", \"portalCode\": \"+39\", \"backgroundCode\": \"0039\"}, {\"country\": \"Romania\", \"countryCode\": \"RO\", \"portalCode\": \"+40\", \"backgroundCode\": \"0040\"}, {\"country\": \"Czech\", \"countryCode\": \"CZ\", \"portalCode\": \"+420\", \"backgroundCode\": \"00420\"}, {\"country\": \"Slovakia\", \"countryCode\": \"SK\", \"portalCode\": \"+421\", \"backgroundCode\": \"00421\"}, {\"country\": \"Liechtenstein\", \"countryCode\": \"\", \"portalCode\": \"+423\", \"backgroundCode\": \"00423\"}, {\"country\": \"Austria\", \"countryCode\": \"AT\", \"portalCode\": \"+43\", \"backgroundCode\": \"0043\"}, {\"country\": \"United Kingdom\", \"countryCode\": \"UK\", \"portalCode\": \"+44\", \"backgroundCode\": \"0044\"}, {\"country\": \"Denmark\", \"countryCode\": \"DK\", \"portalCode\": \"+45\", "
     },
     {
-     "url": "https://www.honor.com/pl/jcr:content.products.json",
-     "body": "{\"18244585667252\": {\"type\": \"default\", \"category\": \"phones\", \"productId\": \"18244585667252\", \"popLink\": \"\", \"pdpLink\": \"/pl/phones/honor-400-pro/\", \"specLink\": \"/pl/phones/honor-400-pro/spec/\", \"colors\": [{\"color\": \"#e5e5e5\", \"colorName\": \"Księżycowa szarość\", \"colorDescription\": \"\", \"colorImagePath\": \"\", \"isIndividualProductColor\": false, \"individualColorIconPath\": \"\"}, {\"color\": \"#000000\", \"colorName\": \"Nocna Czerń\", \"colorDescription\": \"\", \"colorImagePath\": \"\", \"isIndividualProductColor\": false, \"individualColorIconPath\": \"\"}]}, \"18244165609174\": {\"type\": \"default\", \"category\": \"phones\", \"productId\": \"18244165609174\", \"popLink\": \"\", \"pdpLink\": \"/pl/phones/honor-90-lite/\", \"specLink\": \"/pl/phones/honor-90-lite/spec/\", \"colors\": [{\"color\": \"#6197ab\", \"colorName\": \"Zielony\", \"colorDescription\": \"\", \"colorImagePath\": \"/content/dam/honor/pl/product-list/smartphone/honor-90-lite/cyan-id.jpg\", \"isIndividualProductColor\": false, \"individualColorIconPath\": \"\"}, {\"color\": \"#000000\", \"colorName\": \"Czarny\", \"colorDescription\": \"\", \"colorImagePath\": \"\", \"isIndividualProductColor\": false, \"individualColorIconPath\": \"\"}]}, \"18244404528294\": {\"type\": \"default\", \"category\": \"phones\", \"productId\": \"18244404528294\", \"popLink\": \"\", \"pdpLink\": \"/pl/phones/honor-x6b/\", \"specLink\": \"/pl/phones/honor-x6b/spec/\", \"colors\": [{\"color\": \"#6b8588\", \"colorName\": \"Zielony\", \"colorDescription\": \"\", \"colorImagePath\": \"\", \"isIndividualProductColor\": false, \"individualColorIconPath\": \"\"}, {\"color\": \"#000000\", \"colorName\": \"Czarny\", \"colorDescription\": \"\", \"colorImagePath\": \"\", \"isIndividualProductColor\": false, \"individualColorIconPath\": \"\"}]}, \"18133558962266\": {\"type\": \"default\", \"category\": \"phones\", \"productId\": \"18133558962266\", \"popLink\": \"\", \"pdpLink\": \"/pl/phones/honor-magic6-lite/\", \"specLink\": \"/pl/phones/honor-magic6-lite/spec/\", \"colors\": [{\"color\": \"#6b8588\", \"colorName\": \"Emerald Green\", \"colorDescription\": \"\", \"colorImagePath\": \"\", \"isIndividualProductColor\": false, \"individualColorIconPath\": \"\"}, {\"color\": \"#ffa500\", \"colorName\": \"Sunrise Orange\", \"colorDescription\": \"\", \"colorImagePath\": \"\", \"isIndividualProductColor\": false, \"individualColorIconPath\": \"\"}, {\"color\": \"#000000\", \"colorName\": \"Midnight Black\", \"colorDescription\": \"\", \"colorImagePath\": \"\", \"isIndividualProductColor\": false, \"individualColorIconPath\": \"\"}]}, \"10060385464185\": {\"type\": \"default\", \"category\": \"phones\", \"productId\": \"10060385464185\", \"popLink\": \"/global/phones/honor-x7/buy/\", \"pdpLink\": \"/pl/pho"
+     "url": "https://selfservice-eu.honor.com/ccpcmd/services/dispatch/secured/CCPC/EN/eCommerce/loginInfo/1000?siteCode=PL&loginFrom=1&_=1795365779565",
+     "body": "{\"data\": null, \"resultCode\": 401, \"message\": \"not login\", \"timestamp\": \"2026-11-22T16:43:00.597+00:00\"}"
     },
     {
-     "url": "https://selfservice-eu.honor.com/ccpcmd/services/dispatch/secured/CCPC/EN/eCommerce/loginInfo/1000?siteCode=PL&loginFrom=1&_=1795217507015",
-     "body": "{\"data\": null, \"resultCode\": 401, \"message\": \"not login\", \"timestamp\": \"2026-11-20T23:31:47.985+00:00\"}"
+     "url": "https://www.honor.com/pl/jcr:content.products.json",
+     "body": "{\"18244585667252\": {\"type\": \"default\", \"category\": \"phones\", \"productId\": \"18244585667252\", \"popLink\": \"\", \"pdpLink\": \"/pl/phones/honor-400-pro/\", \"specLink\": \"/pl/phones/honor-400-pro/spec/\", \"colors\": [{\"color\": \"#e5e5e5\", \"colorName\": \"Księżycowa szarość\", \"colorDescription\": \"\", \"colorImagePath\": \"\", \"isIndividualProductColor\": false, \"individualColorIconPath\": \"\"}, {\"color\": \"#000000\", \"colorName\": \"Nocna Czerń\", \"colorDescription\": \"\", \"colorImagePath\": \"\", \"isIndividualProductColor\": false, \"individualColorIconPath\": \"\"}]}, \"18244165609174\": {\"type\": \"default\", \"category\": \"phones\", \"productId\": \"18244165609174\", \"popLink\": \"\", \"pdpLink\": \"/pl/phones/honor-90-lite/\", \"specLink\": \"/pl/phones/honor-90-lite/spec/\", \"colors\": [{\"color\": \"#6197ab\", \"colorName\": \"Zielony\", \"colorDescription\": \"\", \"colorImagePath\": \"/content/dam/honor/pl/product-list/smartphone/honor-90-lite/cyan-id.jpg\", \"isIndividualProductColor\": false, \"individualColorIconPath\": \"\"}, {\"color\": \"#000000\", \"colorName\": \"Czarny\", \"colorDescription\": \"\", \"colorImagePath\": \"\", \"isIndividualProductColor\": false, \"individualColorIconPath\": \"\"}]}, \"18244404528294\": {\"type\": \"default\", \"category\": \"phones\", \"productId\": \"18244404528294\", \"popLink\": \"\", \"pdpLink\": \"/pl/phones/honor-x6b/\", \"specLink\": \"/pl/phones/honor-x6b/spec/\", \"colors\": [{\"color\": \"#6b8588\", \"colorName\": \"Zielony\", \"colorDescription\": \"\", \"colorImagePath\": \"\", \"isIndividualProductColor\": false, \"individualColorIconPath\": \"\"}, {\"color\": \"#000000\", \"colorName\": \"Czarny\", \"colorDescription\": \"\", \"colorImagePath\": \"\", \"isIndividualProductColor\": false, \"individualColorIconPath\": \"\"}]}, \"18133558962266\": {\"type\": \"default\", \"category\": \"phones\", \"productId\": \"18133558962266\", \"popLink\": \"\", \"pdpLink\": \"/pl/phones/honor-magic6-lite/\", \"specLink\": \"/pl/phones/honor-magic6-lite/spec/\", \"colors\": [{\"color\": \"#6b8588\", \"colorName\": \"Emerald Green\", \"colorDescription\": \"\", \"colorImagePath\": \"\", \"isIndividualProductColor\": false, \"individualColorIconPath\": \"\"}, {\"color\": \"#ffa500\", \"colorName\": \"Sunrise Orange\", \"colorDescription\": \"\", \"colorImagePath\": \"\", \"isIndividualProductColor\": false, \"individualColorIconPath\": \"\"}, {\"color\": \"#000000\", \"colorName\": \"Midnight Black\", \"colorDescription\": \"\", \"colorImagePath\": \"\", \"isIndividualProductColor\": false, \"individualColorIconPath\": \"\"}]}, \"10060385464185\": {\"type\": \"default\", \"category\": \"phones\", \"productId\": \"10060385464185\", \"popLink\": \"/global/phones/honor-x7/buy/\", \"pdpLink\": \"/pl/pho"
     }
    ]
   },
@@ -61,17 +69,17 @@
     "https://www.honor.com/pl/jcr:content.products.json",
     "https://www.honor.com/libs/cq/i18n/dict.pl-PL.json",
     "https://www.honor.com/bin/eCommerce/countryCodes.json",
+    "https://selfservice-eu.honor.com/ccpcmd/services/dispatch/secured/CCPC/EN/eCommerce/loginInfo/1000?siteCode=PL&loginFrom=1&_=1795365798627",
     "https://www.honor.com/content/honor/global/jcr:content.expectedcountry.json",
-    "https://selfservice-eu.honor.com/ccpcmd/services/dispatch/secured/CCPC/EN/eCommerce/loginInfo/1000?siteCode=PL&loginFrom=1&_=1795217525275",
     "https://eu-app.quickcep.com/im-visitor/event/settings",
-    "https://quicki18n.quickcep.com/chat/prod/en.json?t=1795217526558",
     "https://eu-app.quickcep.com/im-visitor/chatSession/visitorSocketConnectCheck2",
+    "https://quicki18n.quickcep.com/chat/prod/en.json?t=1795365799478",
     "https://eu-app.quickcep.com/im-visitor/event/settings",
-    "https://eu-app.quickcep.com/im/message/visitor/v2?chatSessionId=2603129857924014080&pageNum=1&lastMsgId=&pageSize=20",
-    "https://eu-app-alb.quickcep.com/cdp-collect/cdp/collect/event?ip=1&_=1795217528164",
-    "https://eu-app-alb.quickcep.com/cdp-collect/cdp/collect/event?verbose=1&ip=1&_=1795217528280",
-    "https://eu-app-alb.quickcep.com/cdp-collect/cdp/collect/event?verbose=1&ip=1&_=1795217533419",
-    "https://eu-app-alb.quickcep.com/cdp-collect/cdp/collect/event?verbose=1&ip=1&_=1795217538557"
+    "https://eu-app.quickcep.com/im/message/visitor/v2?chatSessionId=2603766668430147585&pageNum=1&lastMsgId=&pageSize=20",
+    "https://eu-app-alb.quickcep.com/cdp-collect/cdp/collect/event?ip=1&_=1795365800399",
+    "https://eu-app-alb.quickcep.com/cdp-collect/cdp/collect/event?verbose=1&ip=1&_=1795365800488",
+    "https://eu-app-alb.quickcep.com/cdp-collect/cdp/collect/event?verbose=1&ip=1&_=1795365805583",
+    "https://eu-app-alb.quickcep.com/cdp-collect/cdp/collect/event?verbose=1&ip=1&_=1795365810678"
    ],
    "links": [],
    "tiles": [],
@@ -92,8 +100,8 @@
      "body": "[{\"country\": \"Greece\", \"countryCode\": \"GR\", \"portalCode\": \"+30\", \"backgroundCode\": \"0030\"}, {\"country\": \"Netherlands\", \"countryCode\": \"NL\", \"portalCode\": \"+31\", \"backgroundCode\": \"0031\"}, {\"country\": \"Belgium\", \"countryCode\": \"BE/BE-FR\", \"portalCode\": \"+32\", \"backgroundCode\": \"0032\"}, {\"country\": \"France\", \"countryCode\": \"FR\", \"portalCode\": \"+33\", \"backgroundCode\": \"0033\"}, {\"country\": \"Spain\", \"countryCode\": \"ES\", \"portalCode\": \"+34\", \"backgroundCode\": \"0034\"}, {\"country\": \"Portugal\", \"countryCode\": \"PT\", \"portalCode\": \"+351\", \"backgroundCode\": \"00351\"}, {\"country\": \"Luxembourg\", \"countryCode\": \"\", \"portalCode\": \"+352\", \"backgroundCode\": \"00352\"}, {\"country\": \"Ireland\", \"countryCode\": \"IE\", \"portalCode\": \"+353\", \"backgroundCode\": \"00353\"}, {\"country\": \"Iceland\", \"countryCode\": \"\", \"portalCode\": \"+354\", \"backgroundCode\": \"00354\"}, {\"country\": \"Malta\", \"countryCode\": \"\", \"portalCode\": \"+356\", \"backgroundCode\": \"00356\"}, {\"country\": \"Cyprus\", \"countryCode\": \"\", \"portalCode\": \"+357\", \"backgroundCode\": \"00357\"}, {\"country\": \"Finland\", \"countryCode\": \"FI\", \"portalCode\": \"+358\", \"backgroundCode\": \"00358\"}, {\"country\": \"Bulgaria\", \"countryCode\": \"BG\", \"portalCode\": \"+359\", \"backgroundCode\": \"00359\"}, {\"country\": \"Hungary\", \"countryCode\": \"HU\", \"portalCode\": \"+36\", \"backgroundCode\": \"0036\"}, {\"country\": \"Lithuania\", \"countryCode\": \"LT\", \"portalCode\": \"+370\", \"backgroundCode\": \"00370\"}, {\"country\": \"Latvia\", \"countryCode\": \"LV\", \"portalCode\": \"+371\", \"backgroundCode\": \"00371\"}, {\"country\": \"Estonia\", \"countryCode\": \"EE\", \"portalCode\": \"+372\", \"backgroundCode\": \"00372\"}, {\"country\": \"Croatia\", \"countryCode\": \"HR\", \"portalCode\": \"+385\", \"backgroundCode\": \"00385\"}, {\"country\": \"Slovenia\", \"countryCode\": \"SI\", \"portalCode\": \"+386\", \"backgroundCode\": \"00386\"}, {\"country\": \"Italy\", \"countryCode\": \"IT\", \"portalCode\": \"+39\", \"backgroundCode\": \"0039\"}, {\"country\": \"Romania\", \"countryCode\": \"RO\", \"portalCode\": \"+40\", \"backgroundCode\": \"0040\"}, {\"country\": \"Czech\", \"countryCode\": \"CZ\", \"portalCode\": \"+420\", \"backgroundCode\": \"00420\"}, {\"country\": \"Slovakia\", \"countryCode\": \"SK\", \"portalCode\": \"+421\", \"backgroundCode\": \"00421\"}, {\"country\": \"Liechtenstein\", \"countryCode\": \"\", \"portalCode\": \"+423\", \"backgroundCode\": \"00423\"}, {\"country\": \"Austria\", \"countryCode\": \"AT\", \"portalCode\": \"+43\", \"backgroundCode\": \"0043\"}, {\"country\": \"United Kingdom\", \"countryCode\": \"UK\", \"portalCode\": \"+44\", \"backgroundCode\": \"0044\"}, {\"country\": \"Denmark\", \"countryCode\": \"DK\", \"portalCode\": \"+45\", "
     },
     {
-     "url": "https://www.honor.com/content/honor/global/jcr:content.expectedcountry.json",
-     "body": "{\"continueText\": \"Continue\", \"chooseCountryText\": \"Change Your Country/Region\", \"tipsContent\": \"Choose your country or region to see content related to you and shop directly.\", \"language\": \"English\", \"countryName\": \"Global\"}"
+     "url": "https://selfservice-eu.honor.com/ccpcmd/services/dispatch/secured/CCPC/EN/eCommerce/loginInfo/1000?siteCode=PL&loginFrom=1&_=1795365798627",
+     "body": "{\"data\": null, \"resultCode\": 401, \"message\": \"not login\", \"timestamp\": \"2026-11-22T16:43:19.108+00:00\"}"
     }
    ]
   },
@@ -107,16 +115,16 @@
     "https://www.honor.com/libs/cq/i18n/dict.pl-PL.json",
     "https://www.honor.com/bin/eCommerce/countryCodes.json",
     "https://www.honor.com/content/honor/global/jcr:content.expectedcountry.json",
-    "https://selfservice-eu.honor.com/ccpcmd/services/dispatch/secured/CCPC/EN/eCommerce/loginInfo/1000?siteCode=PL&loginFrom=1&_=1795217542197",
+    "https://selfservice-eu.honor.com/ccpcmd/services/dispatch/secured/CCPC/EN/eCommerce/loginInfo/1000?siteCode=PL&loginFrom=1&_=1795365815846",
     "https://eu-app.quickcep.com/im-visitor/event/settings",
     "https://eu-app.quickcep.com/im-visitor/chatSession/visitorSocketConnectCheck2",
-    "https://quicki18n.quickcep.com/chat/prod/en.json?t=1795217543547",
+    "https://quicki18n.quickcep.com/chat/prod/en.json?t=1795365816656",
     "https://eu-app.quickcep.com/im-visitor/event/settings",
-    "https://eu-app.quickcep.com/im/message/visitor/v2?chatSessionId=2603129857924014080&pageNum=1&lastMsgId=&pageSize=20",
-    "https://eu-app-alb.quickcep.com/cdp-collect/cdp/collect/event?ip=1&_=1795217545144",
-    "https://eu-app-alb.quickcep.com/cdp-collect/cdp/collect/event?verbose=1&ip=1&_=1795217545255",
-    "https://eu-app-alb.quickcep.com/cdp-collect/cdp/collect/event?verbose=1&ip=1&_=1795217550394",
-    "https://eu-app-alb.quickcep.com/cdp-collect/cdp/collect/event?verbose=1&ip=1&_=1795217555533"
+    "https://eu-app.quickcep.com/im/message/visitor/v2?chatSessionId=2603766668430147585&pageNum=1&lastMsgId=&pageSize=20",
+    "https://eu-app-alb.quickcep.com/cdp-collect/cdp/collect/event?ip=1&_=1795365817748",
+    "https://eu-app-alb.quickcep.com/cdp-collect/cdp/collect/event?verbose=1&ip=1&_=1795365817827",
+    "https://eu-app-alb.quickcep.com/cdp-collect/cdp/collect/event?verbose=1&ip=1&_=1795365822923",
+    "https://eu-app-alb.quickcep.com/cdp-collect/cdp/collect/event?verbose=1&ip=1&_=1795365828019"
    ],
    "links": [],
    "tiles": [],
@@ -152,16 +160,16 @@
     "https://www.honor.com/libs/cq/i18n/dict.pl-PL.json",
     "https://www.honor.com/bin/eCommerce/countryCodes.json",
     "https://www.honor.com/content/honor/global/jcr:content.expectedcountry.json",
-    "https://selfservice-eu.honor.com/ccpcmd/services/dispatch/secured/CCPC/EN/eCommerce/loginInfo/1000?siteCode=PL&loginFrom=1&_=1795217559374",
+    "https://selfservice-eu.honor.com/ccpcmd/services/dispatch/secured/CCPC/EN/eCommerce/loginInfo/1000?siteCode=PL&loginFrom=1&_=1795365833143",
     "https://eu-app.quickcep.com/im-visitor/event/settings",
-    "https://quicki18n.quickcep.com/chat/prod/en.json?t=1795217560601",
     "https://eu-app.quickcep.com/im-visitor/chatSession/visitorSocketConnectCheck2",
+    "https://quicki18n.quickcep.com/chat/prod/en.json?t=1795365833969",
     "https://eu-app.quickcep.com/im-visitor/event/settings",
-    "https://eu-app.quickcep.com/im/message/visitor/v2?chatSessionId=2603129857924014080&pageNum=1&lastMsgId=&pageSize=20",
-    "https://eu-app-alb.quickcep.com/cdp-collect/cdp/collect/event?ip=1&_=1795217562200",
-    "https://eu-app-alb.quickcep.com/cdp-collect/cdp/collect/event?verbose=1&ip=1&_=1795217562308",
-    "https://eu-app-alb.quickcep.com/cdp-collect/cdp/collect/event?verbose=1&ip=1&_=1795217567447",
-    "https://eu-app-alb.quickcep.com/cdp-collect/cdp/collect/event?verbose=1&ip=1&_=1795217572707"
+    "https://eu-app.quickcep.com/im/message/visitor/v2?chatSessionId=2603766668430147585&pageNum=1&lastMsgId=&pageSize=20",
+    "https://eu-app-alb.quickcep.com/cdp-collect/cdp/collect/event?ip=1&_=1795365834893",
+    "https://eu-app-alb.quickcep.com/cdp-collect/cdp/collect/event?verbose=1&ip=1&_=1795365834991",
+    "https://eu-app-alb.quickcep.com/cdp-collect/cdp/collect/event?verbose=1&ip=1&_=1795365840087",
+    "https://eu-app-alb.quickcep.com/cdp-collect/cdp/collect/event?verbose=1&ip=1&_=1795365845183"
    ],
    "links": [],
    "tiles": [],
