@@ -8,20 +8,25 @@
    "final_url": "https://www.oneplus.com/de/store/phone",
    "title": "OnePlus Phone Store - OnePlus (Deutschland)",
    "json_urls": [
-    "https://cdn0.forter.com/e38666f12941/0e2a8a8a80224b07a67d147b1a8ff09a/prop.json?_=1795366821202",
-    "https://cdn0.forter.com/e38666f12941/0e2a8a8a80224b07a67d147b1a8ff09a/prop.json?_=1795366821396",
-    "https://cdn0.forter.com/e38666f12941/0e2a8a8a80224b07a67d147b1a8ff09a/prop.json?_=1795366821528",
-    "https://cdn0.forter.com/e38666f12941/0e2a8a8a80224b07a67d147b1a8ff09a/wpt.json",
     "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/config/fetch",
+    "https://cdn0.forter.com/e38666f12941/65a8e199ef1a4abea3d89cad4655ccfc/prop.json?_=1795467452274",
+    "https://cdn0.forter.com/e38666f12941/65a8e199ef1a4abea3d89cad4655ccfc/prop.json?_=1795467452534",
     "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
+    "https://cdn0.forter.com/e38666f12941/65a8e199ef1a4abea3d89cad4655ccfc/prop.json?_=1795467452594",
+    "https://cdn0.forter.com/e38666f12941/65a8e199ef1a4abea3d89cad4655ccfc/wpt.json",
     "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
-    "https://mallapi-eu.oneplus.com/v2/api/router"
+    "https://mallapi-eu.oneplus.com/v2/api/router",
+    "https://ct.pinterest.com/user/?tid=2612444634775&cb=1795467454175&dep=2%2CPAGE_LOAD",
+    "https://onepluscom.pxf.io/xur/12532",
+    "https://recommender.scarabresearch.com/merchants/16FD35672367412C/?pv=637506359&xp=1&cv=1&ca=&vc=store%20%3E%20phone&cp=1",
+    "https://pixel-config.reddit.com/pixels/t2_u5n2mmw0/config",
+    "https://insight.adsrvr.org/track/realtimeconversion"
    ],
    "links": [],
    "tiles": [],
    "price_texts": [],
    "items_by_source": {},
-   "text_sample": "Skip to main content You are visiting Deutschland (Deutsch/EUR) site. Switch to United States (English/USD) 【Important】Notice of OnePlus Business Adjustment >> Shop Telefon Tablet Wearables Audioprodukt Weitere Produkte OneTopia Community Unterstützung OnePlus Phone Store Shop Telefon Tablet Wearables Audioprodukt Hüllen und Schutz Ladegeräte und Kabel Pakete Lifestyle Angebote Mit Geschenk Im Angebot Sortieren nach Empfohlen Oh-oh! Nichts gefunden. Versuchen Sie, mit anderen Filtern zu suchen. Startseite Phone Smartphones OnePlus 15 OnePlus 15R OnePlus 13 OnePlus Nord 5 OnePlus Nord CE5 Zubehör Tablet Wearables Audioprodukt Hüllen und Schutz Ladegeräte und Kabel Pakete Lifestyle Programme Verbinde deine OnePlus-Geräte Rabattprogramm Partnerprogramm OnePlus Trade-In Unterstützung FAQs zum Thema Kauf Software-Upgrade Reparaturservice Benutzerhandbücher Kontakt Fehlerbehebung Bedienungshilfen EU-Datenschutzgesetz Unternehmen Über OnePlus Community Red Cable Club OnePlus Store-App OxygenOS Karriere Nachhaltigkeit Presse Support von OnePlus erhalten Datenschutzerklärung Benutzervereinbarung Verkaufsbedingungen gelesen und stimme ihnen zu Security Response Center (OneSRC) Cookies Cookie Settings © 2013 - 2026 OnePlus. All Rights Reserved. Deutschland (Deutsch) Diese Website verwendet Cookies und verwandte Technologien, wie in unserer Cookie-Richtlinie beschrieben, für Zwecke, die den Betrieb der Website, Analysen, ein verbessertes Nutzererlebnis oder Werbung umfassen können",
+   "text_sample": "Skip to main content You are visiting Deutschland (Deutsch/EUR) site. Switch to United States (English/USD) 【Important】Notice of OnePlus Business Adjustment >> Shop Telefon Tablet Wearables Audioprodukt Weitere Produkte OneTopia Community Unterstützung OnePlus Phone Store Shop Telefon Tablet Wearables Audioprodukt Hüllen und Schutz Ladegeräte und Kabel Pakete Lifestyle Angebote Mit Geschenk Im Angebot Sortieren nach Empfohlen Oh-oh! Nichts gefunden. Versuchen Sie, mit anderen Filtern zu suchen. Startseite Phone Smartphones OnePlus 15 OnePlus 15R OnePlus 13 OnePlus Nord 5 OnePlus Nord CE5 Zubehör Tablet Wearables Audioprodukt Hüllen und Schutz Ladegeräte und Kabel Pakete Lifestyle Programme Verbinde deine OnePlus-Geräte Rabattprogramm Partnerprogramm OnePlus Trade-In Unterstützung FAQs zum Thema Kauf Software-Upgrade Reparaturservice Benutzerhandbücher Kontakt Fehlerbehebung Bedienungshilfen EU-Datenschutzgesetz Unternehmen Über OnePlus Community Red Cable Club OnePlus Store-App OxygenOS Karriere Nachhaltigkeit Presse Support von OnePlus erhalten Datenschutzerklärung Benutzervereinbarung Verkaufsbedingungen gelesen und stimme ihnen zu Security Response Center (OneSRC) Cookies Cookie Settings © 2013 - 2026 OnePlus. All Rights Reserved. Deutschland (Deutsch)",
    "json_samples": [
     {
      "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/config/fetch",
@@ -29,15 +34,15 @@
     },
     {
      "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
-     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"ef6165ffaf481d20aaaad60bfeb2be47-117\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": {\"totalRecord\": 0, \"totalPage\": 0, \"startRec\": 0, \"endRec\": 0, \"currentPage\": 1, \"pageSize\": 12}}"
+     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"2dcd907f10c73b1ad93b673e14791252-154\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": {\"totalRecord\": 0, \"totalPage\": 0, \"startRec\": 0, \"endRec\": 0, \"currentPage\": 1, \"pageSize\": 12}}"
     },
     {
      "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
-     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"e907e23dd13039ad03928256271037ab-230\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
+     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"b5663b07bbe061494d636520279ad11b-208\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
     },
     {
      "url": "https://mallapi-eu.oneplus.com/v2/api/router",
-     "body": "{\"success\": true, \"data\": null, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"a4202096b496d797d691f8e8b6d136c0-117\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
+     "body": "{\"success\": true, \"data\": null, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"42b535f30ba6d696a2ee4bf477bfc0a2-208\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
     }
    ]
   },
@@ -50,17 +55,20 @@
     "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/config/fetch",
     "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
     "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
-    "https://cdn0.forter.com/e38666f12941/0e2a8a8a80224b07a67d147b1a8ff09a/prop.json?_=1795366850799",
-    "https://cdn0.forter.com/e38666f12941/0e2a8a8a80224b07a67d147b1a8ff09a/prop.json?_=1795366851070",
-    "https://cdn0.forter.com/e38666f12941/0e2a8a8a80224b07a67d147b1a8ff09a/prop.json?_=1795366851126",
-    "https://cdn0.forter.com/e38666f12941/0e2a8a8a80224b07a67d147b1a8ff09a/wpt.json",
-    "https://mallapi-eu.oneplus.com/v2/api/router"
+    "https://mallapi-eu.oneplus.com/v2/api/rest/mallapp/common/module/fetch",
+    "https://recommender.scarabresearch.com/merchants/16FD35672367412C/?pv=472288297&xp=1&cv=1&ca=&vc=store%20%3E%20tablet&cp=1&vi=D5E20643F3B567",
+    "https://cdn0.forter.com/e38666f12941/65a8e199ef1a4abea3d89cad4655ccfc/prop.json?_=1795467471324",
+    "https://cdn0.forter.com/e38666f12941/65a8e199ef1a4abea3d89cad4655ccfc/prop.json?_=1795467471526",
+    "https://cdn0.forter.com/e38666f12941/65a8e199ef1a4abea3d89cad4655ccfc/prop.json?_=1795467471600",
+    "https://cdn0.forter.com/e38666f12941/65a8e199ef1a4abea3d89cad4655ccfc/wpt.json",
+    "https://mallapi-eu.oneplus.com/v2/api/router",
+    "https://insight.adsrvr.org/track/realtimeconversion"
    ],
    "links": [],
    "tiles": [],
    "price_texts": [],
    "items_by_source": {},
-   "text_sample": "Skip to main content You are visiting Deutschland (Deutsch/EUR) site. Switch to United States (English/USD) 【Important】Notice of OnePlus Business Adjustment >> Shop Telefon Tablet Wearables Audioprodukt Weitere Produkte OneTopia Community Unterstützung OnePlus Tablet Store Shop Telefon Tablet Wearables Audioprodukt Hüllen und Schutz Ladegeräte und Kabel Pakete Lifestyle Angebote Im Angebot Mit Geschenk Sortieren nach Neueste Oh-oh! Nichts gefunden. Versuchen Sie, mit anderen Filtern zu suchen. Startseite Tablet Smartphones OnePlus 15 OnePlus 15R OnePlus 13 OnePlus Nord 5 OnePlus Nord CE5 Zubehör Tablet Wearables Audioprodukt Hüllen und Schutz Ladegeräte und Kabel Pakete Lifestyle Programme Verbinde deine OnePlus-Geräte Rabattprogramm Partnerprogramm OnePlus Trade-In Unterstützung FAQs zum Thema Kauf Software-Upgrade Reparaturservice Benutzerhandbücher Kontakt Fehlerbehebung Bedienungshilfen EU-Datenschutzgesetz Unternehmen Über OnePlus Community Red Cable Club OnePlus Store-App OxygenOS Karriere Nachhaltigkeit Presse Support von OnePlus erhalten Datenschutzerklärung Benutzervereinbarung Verkaufsbedingungen gelesen und stimme ihnen zu Security Response Center (OneSRC) Cookies Cookie Settings © 2013 - 2026 OnePlus. All Rights Reserved. Deutschland (Deutsch) Diese Website verwendet Cookies und verwandte Technologien, wie in unserer Cookie-Richtlinie beschrieben, für Zwecke, die den Betrieb der Website, Analysen, ein verbessertes Nutzererlebnis oder Werbung umfassen können",
+   "text_sample": "Skip to main content Abonnieren Sie den Newsletter, um aktuelle Nachrichten, Top-Angebote und mehr zu erhalten. Sei unter den Ersten, die unsere neuesten Nachrichten, Angebote, Einkaufserinnerungen und Produktveröffentlichungen von OnePlus erhalten. Abonnieren Abonniere, um Marketinginformationen zu erhalten. Melden Sie sich an, um Neuigkeiten, Sonderangebote und Empfehlungen zu OnePlus-Produkten und -Dienstleistungen von OnePlus, seinen Agenturen und Partnern zu erhalten. Schließen You are visiting Deutschland (Deutsch/EUR) site. Switch to United States (English/USD) 【Important】Notice of OnePlus Business Adjustment >> Shop Telefon Tablet Wearables Audioprodukt Weitere Produkte OneTopia Community Unterstützung OnePlus Tablet Store Shop Telefon Tablet Wearables Audioprodukt Hüllen und Schutz Ladegeräte und Kabel Pakete Lifestyle Angebote Im Angebot Mit Geschenk Sortieren nach Neueste Oh-oh! Nichts gefunden. Versuchen Sie, mit anderen Filtern zu suchen. Startseite Tablet Smartphones OnePlus 15 OnePlus 15R OnePlus 13 OnePlus Nord 5 OnePlus Nord CE5 Zubehör Tablet Wearables Audioprodukt Hüllen und Schutz Ladegeräte und Kabel Pakete Lifestyle Programme Verbinde deine OnePlus-Geräte Rabattprogramm Partnerprogramm OnePlus Trade-In Unterstützung FAQs zum Thema Kauf Software-Upgrade Reparaturservice Benutzerhandbücher Kontakt Fehlerbehebung Bedienungshilfen EU-Datenschutzgesetz Unternehmen Über OnePlus Community Red Cable Club OnePlus Store-App OxygenOS Karriere Nachhaltigkei",
    "json_samples": [
     {
      "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/config/fetch",
@@ -68,15 +76,15 @@
     },
     {
      "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
-     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"ae5f44825afbaf90717df7eff961c4b2-208\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": {\"totalRecord\": 0, \"totalPage\": 0, \"startRec\": 0, \"endRec\": 0, \"currentPage\": 1, \"pageSize\": 12}}"
+     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"9027a2cc97b9e49a53a68ebe8aa3a261-154\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": {\"totalRecord\": 0, \"totalPage\": 0, \"startRec\": 0, \"endRec\": 0, \"currentPage\": 1, \"pageSize\": 12}}"
     },
     {
      "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
-     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"cbf699b523ca94d92f6ea40842df8d2d-154\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
+     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"1568beb14436b6bad0eece2c6c7558a9-154\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
     },
     {
-     "url": "https://mallapi-eu.oneplus.com/v2/api/router",
-     "body": "{\"success\": true, \"data\": null, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"7a6de47a1dfef2d776893a1046ff873d-154\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
+     "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallapp/common/module/fetch",
+     "body": "{\"success\": true, \"data\": null, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"5391279f698849380930b06fd970bf47-117\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
     }
    ]
   },
@@ -87,35 +95,42 @@
    "title": "OnePlus Audio Store - OnePlus (Deutschland)",
    "json_urls": [
     "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/config/fetch",
+    "https://mallapi-eu.oneplus.com/v2/api/rest/mallapp/common/module/fetch",
     "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
-    "https://cdn0.forter.com/e38666f12941/0e2a8a8a80224b07a67d147b1a8ff09a/prop.json?_=1795366884781",
-    "https://cdn0.forter.com/e38666f12941/0e2a8a8a80224b07a67d147b1a8ff09a/prop.json?_=1795366884957",
-    "https://cdn0.forter.com/e38666f12941/0e2a8a8a80224b07a67d147b1a8ff09a/prop.json?_=1795366885012",
-    "https://cdn0.forter.com/e38666f12941/0e2a8a8a80224b07a67d147b1a8ff09a/wpt.json",
+    "https://recommender.scarabresearch.com/merchants/16FD35672367412C/?pv=57902509&xp=1&cv=1&ca=&vc=store%20%3E%20audio&cp=1&vi=D5E20643F3B567",
+    "https://cdn0.forter.com/e38666f12941/65a8e199ef1a4abea3d89cad4655ccfc/prop.json?_=1795467488354",
+    "https://cdn0.forter.com/e38666f12941/65a8e199ef1a4abea3d89cad4655ccfc/prop.json?_=1795467488605",
     "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
-    "https://mallapi-eu.oneplus.com/v2/api/router"
+    "https://cdn0.forter.com/e38666f12941/65a8e199ef1a4abea3d89cad4655ccfc/prop.json?_=1795467488671",
+    "https://cdn0.forter.com/e38666f12941/65a8e199ef1a4abea3d89cad4655ccfc/wpt.json",
+    "https://cdn0.forter.com/e38666f12941/65a8e199ef1a4abea3d89cad4655ccfc/prop.json?_=1795467489306",
+    "https://cdn0.forter.com/e38666f12941/65a8e199ef1a4abea3d89cad4655ccfc/prop.json?_=1795467489386",
+    "https://cdn0.forter.com/e38666f12941/65a8e199ef1a4abea3d89cad4655ccfc/prop.json?_=1795467489460",
+    "https://cdn0.forter.com/e38666f12941/65a8e199ef1a4abea3d89cad4655ccfc/wpt.json",
+    "https://mallapi-eu.oneplus.com/v2/api/router",
+    "https://insight.adsrvr.org/track/realtimeconversion"
    ],
    "links": [],
    "tiles": [],
    "price_texts": [],
    "items_by_source": {},
-   "text_sample": "Skip to main content You are visiting Deutschland (Deutsch/EUR) site. Switch to United States (English/USD) 【Important】Notice of OnePlus Business Adjustment >> Shop Telefon Tablet Wearables Audioprodukt Weitere Produkte OneTopia Community Unterstützung OnePlus Audio Store Shop Telefon Tablet Wearables Audioprodukt Hüllen und Schutz Ladegeräte und Kabel Pakete Lifestyle Angebote Im Angebot Mit Geschenk Sortieren nach Empfohlen Oh-oh! Nichts gefunden. Versuchen Sie, mit anderen Filtern zu suchen. Startseite Audio Smartphones OnePlus 15 OnePlus 15R OnePlus 13 OnePlus Nord 5 OnePlus Nord CE5 Zubehör Tablet Wearables Audioprodukt Hüllen und Schutz Ladegeräte und Kabel Pakete Lifestyle Programme Verbinde deine OnePlus-Geräte Rabattprogramm Partnerprogramm OnePlus Trade-In Unterstützung FAQs zum Thema Kauf Software-Upgrade Reparaturservice Benutzerhandbücher Kontakt Fehlerbehebung Bedienungshilfen EU-Datenschutzgesetz Unternehmen Über OnePlus Community Red Cable Club OnePlus Store-App OxygenOS Karriere Nachhaltigkeit Presse Support von OnePlus erhalten Datenschutzerklärung Benutzervereinbarung Verkaufsbedingungen gelesen und stimme ihnen zu Security Response Center (OneSRC) Cookies Cookie Settings © 2013 - 2026 OnePlus. All Rights Reserved. Deutschland (Deutsch) Diese Website verwendet Cookies und verwandte Technologien, wie in unserer Cookie-Richtlinie beschrieben, für Zwecke, die den Betrieb der Website, Analysen, ein verbessertes Nutzererlebnis oder Werbung umfassen können",
+   "text_sample": "Skip to main content Abonnieren Sie den Newsletter, um aktuelle Nachrichten, Top-Angebote und mehr zu erhalten. Sei unter den Ersten, die unsere neuesten Nachrichten, Angebote, Einkaufserinnerungen und Produktveröffentlichungen von OnePlus erhalten. Abonnieren Abonniere, um Marketinginformationen zu erhalten. Melden Sie sich an, um Neuigkeiten, Sonderangebote und Empfehlungen zu OnePlus-Produkten und -Dienstleistungen von OnePlus, seinen Agenturen und Partnern zu erhalten. Schließen You are visiting Deutschland (Deutsch/EUR) site. Switch to United States (English/USD) 【Important】Notice of OnePlus Business Adjustment >> Shop Telefon Tablet Wearables Audioprodukt Weitere Produkte OneTopia Community Unterstützung OnePlus Audio Store Shop Telefon Tablet Wearables Audioprodukt Hüllen und Schutz Ladegeräte und Kabel Pakete Lifestyle Angebote Im Angebot Mit Geschenk Sortieren nach Empfohlen Oh-oh! Nichts gefunden. Versuchen Sie, mit anderen Filtern zu suchen. Startseite Audio Smartphones OnePlus 15 OnePlus 15R OnePlus 13 OnePlus Nord 5 OnePlus Nord CE5 Zubehör Tablet Wearables Audioprodukt Hüllen und Schutz Ladegeräte und Kabel Pakete Lifestyle Programme Verbinde deine OnePlus-Geräte Rabattprogramm Partnerprogramm OnePlus Trade-In Unterstützung FAQs zum Thema Kauf Software-Upgrade Reparaturservice Benutzerhandbücher Kontakt Fehlerbehebung Bedienungshilfen EU-Datenschutzgesetz Unternehmen Über OnePlus Community Red Cable Club OnePlus Store-App OxygenOS Karriere Nachhaltigkei",
    "json_samples": [
     {
      "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/config/fetch",
      "body": "{\"success\": true, \"data\": {\"categoryList\": [{\"categoryName\": \"Shop\", \"categoryCode\": \"CAT00001010\", \"urlKey\": \"store/all\", \"categoryImage\": {\"whiteCategoryImage\": \"https://image01-eu.oneplus.net/ebp/202207/25/1-M00-53-95-rBpB6mLeodeAMO_oAABPSqotiPU128.svg\", \"blankCategoryImage\": \"https://image01-eu.oneplus.net/ebp/202207/25/1-M00-53-95-rBpB6mLeodeAMO_oAABPSqotiPU128.svg\"}, \"filterGroups\": [{\"groupName\": \"Angebote\", \"groupType\": null, \"groupMutilSelect\": null, \"filterOptions\": [{\"storeViewCode\": null, \"optCode\": \"OFFER_BUY_WITH_GIFT\", \"optName\": \"Mit Geschenk\", \"optCatOrTagCodes\": null, \"optSort\": \"1\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": \"\", \"defaultName\": \"With Gift\", \"customOpt\": null}, {\"storeViewCode\": null, \"optCode\": \"OFFER_DISCOUNTED\", \"optName\": \"Im Angebot\", \"optCatOrTagCodes\": null, \"optSort\": \"4\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": \"\", \"defaultName\": \"On Sale\", \"customOpt\": null}], \"groupCode\": \"OFFER\", \"groupSortCode\": 1, \"customGroup\": null}], \"sortOptions\": [{\"storeViewCode\": null, \"optCode\": \"LATEST\", \"optName\": \"Neueste\", \"optCatOrTagCodes\": null, \"optSort\": \"2\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": null, \"defaultName\": \"Newest\", \"customOpt\": null}, {\"storeViewCode\": null, \"optCode\": \"PRICEL2H\", \"optName\": \"Preis (aufsteigend)\", \"optCatOrTagCodes\": null, \"optSort\": \"3\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": null, \"defaultName\": \"Price(Low to High)\", \"customOpt\": null}, {\"storeViewCode\": null, \"optCode\": \"PRICEH2L\", \"optName\": \"Preis (absteigend)\", \"optCatOrTagCodes\": null, \"optSort\": \"4\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": null, \"defaultName\": \"Price(High to Low)\", \"customOpt\": null}, {\"storeViewCode\": null, \"optCode\": \"DISCOUNT\", \"optName\": \"Höhe des Rabatts\", \"optCatOrTagCodes\": null, \"optSort\": \"5\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": null, \"defaultName\": \"Discount Rate\", \"customOpt\": null}, {\"storeViewCode\": null, \"optCode\": \"RECOMMENDED\", \"optName\": \"Empfohlen\", \"optCatOrTagCodes\": null, \"optSort\": \"1\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": null, \"defaultName\": \"Recommended\", \"customOpt\": null}], \"compareAction\": {\"type\": \"H5_INNER\", \"uri\": \"\", \"uriDesc\": null, \"appUri\": null, \"appUriDesc\": null, \"text\": null, \"img\": null, \"fontColor\": null, \"buttonColor\": null, \"backgroundColor\": null, \"eventKey\": null, \"eventParams\": null, \"params\": null, \"checkLogin\": false, \"show\": false, \"summ"
     },
     {
-     "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
-     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"17430151649594562eba0f9bd6b47127-208\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": {\"totalRecord\": 0, \"totalPage\": 0, \"startRec\": 0, \"endRec\": 0, \"currentPage\": 1, \"pageSize\": 12}}"
+     "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallapp/common/module/fetch",
+     "body": "{\"success\": true, \"data\": null, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"339795fc5577779bd460bc69b232f945-208\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
     },
     {
      "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
-     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"dd3d3c78cc8906339a692ade4c8c6cb0-230\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
+     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"030bc227993685ea81ea160a989e5da3-154\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": {\"totalRecord\": 0, \"totalPage\": 0, \"startRec\": 0, \"endRec\": 0, \"currentPage\": 1, \"pageSize\": 12}}"
     },
     {
-     "url": "https://mallapi-eu.oneplus.com/v2/api/router",
-     "body": "{\"success\": true, \"data\": null, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"ff8ebc77edb164bea4a343244c71e490-208\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
+     "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
+     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"1754057c3e89b79ed3b091f0247695f1-154\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
     }
    ]
   },
@@ -126,35 +141,42 @@
    "title": "OnePlus Wearables Store - OnePlus (Deutschland)",
    "json_urls": [
     "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/config/fetch",
+    "https://mallapi-eu.oneplus.com/v2/api/rest/mallapp/common/module/fetch",
     "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
-    "https://cdn0.forter.com/e38666f12941/0e2a8a8a80224b07a67d147b1a8ff09a/prop.json?_=1795366916974",
+    "https://cdn0.forter.com/e38666f12941/65a8e199ef1a4abea3d89cad4655ccfc/prop.json?_=1795467506399",
+    "https://recommender.scarabresearch.com/merchants/16FD35672367412C/?pv=790317948&xp=1&cv=1&ca=&vc=store%20%3E%20wearables&cp=1&vi=D5E20643F3B567",
     "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
-    "https://cdn0.forter.com/e38666f12941/0e2a8a8a80224b07a67d147b1a8ff09a/prop.json?_=1795366917240",
-    "https://cdn0.forter.com/e38666f12941/0e2a8a8a80224b07a67d147b1a8ff09a/prop.json?_=1795366917295",
-    "https://cdn0.forter.com/e38666f12941/0e2a8a8a80224b07a67d147b1a8ff09a/wpt.json",
-    "https://mallapi-eu.oneplus.com/v2/api/router"
+    "https://cdn0.forter.com/e38666f12941/65a8e199ef1a4abea3d89cad4655ccfc/prop.json?_=1795467506557",
+    "https://cdn0.forter.com/e38666f12941/65a8e199ef1a4abea3d89cad4655ccfc/prop.json?_=1795467507006",
+    "https://cdn0.forter.com/e38666f12941/65a8e199ef1a4abea3d89cad4655ccfc/wpt.json",
+    "https://cdn0.forter.com/e38666f12941/65a8e199ef1a4abea3d89cad4655ccfc/prop.json?_=1795467507268",
+    "https://cdn0.forter.com/e38666f12941/65a8e199ef1a4abea3d89cad4655ccfc/prop.json?_=1795467507413",
+    "https://cdn0.forter.com/e38666f12941/65a8e199ef1a4abea3d89cad4655ccfc/prop.json?_=1795467507488",
+    "https://cdn0.forter.com/e38666f12941/65a8e199ef1a4abea3d89cad4655ccfc/wpt.json",
+    "https://mallapi-eu.oneplus.com/v2/api/router",
+    "https://insight.adsrvr.org/track/realtimeconversion"
    ],
    "links": [],
    "tiles": [],
    "price_texts": [],
    "items_by_source": {},
-   "text_sample": "Skip to main content You are visiting Deutschland (Deutsch/EUR) site. Switch to United States (English/USD) 【Important】Notice of OnePlus Business Adjustment >> Shop Telefon Tablet Wearables Audioprodukt Weitere Produkte OneTopia Community Unterstützung OnePlus Wearables Store Shop Telefon Tablet Wearables Audioprodukt Hüllen und Schutz Ladegeräte und Kabel Pakete Lifestyle Angebote Im Angebot Mit Geschenk Sortieren nach Neueste Oh-oh! Nichts gefunden. Versuchen Sie, mit anderen Filtern zu suchen. Startseite Wearables Smartphones OnePlus 15 OnePlus 15R OnePlus 13 OnePlus Nord 5 OnePlus Nord CE5 Zubehör Tablet Wearables Audioprodukt Hüllen und Schutz Ladegeräte und Kabel Pakete Lifestyle Programme Verbinde deine OnePlus-Geräte Rabattprogramm Partnerprogramm OnePlus Trade-In Unterstützung FAQs zum Thema Kauf Software-Upgrade Reparaturservice Benutzerhandbücher Kontakt Fehlerbehebung Bedienungshilfen EU-Datenschutzgesetz Unternehmen Über OnePlus Community Red Cable Club OnePlus Store-App OxygenOS Karriere Nachhaltigkeit Presse Support von OnePlus erhalten Datenschutzerklärung Benutzervereinbarung Verkaufsbedingungen gelesen und stimme ihnen zu Security Response Center (OneSRC) Cookies Cookie Settings © 2013 - 2026 OnePlus. All Rights Reserved. Deutschland (Deutsch) Diese Website verwendet Cookies und verwandte Technologien, wie in unserer Cookie-Richtlinie beschrieben, für Zwecke, die den Betrieb der Website, Analysen, ein verbessertes Nutzererlebnis oder Werbung umfassen ",
+   "text_sample": "Skip to main content Abonnieren Sie den Newsletter, um aktuelle Nachrichten, Top-Angebote und mehr zu erhalten. Sei unter den Ersten, die unsere neuesten Nachrichten, Angebote, Einkaufserinnerungen und Produktveröffentlichungen von OnePlus erhalten. Abonnieren Abonniere, um Marketinginformationen zu erhalten. Melden Sie sich an, um Neuigkeiten, Sonderangebote und Empfehlungen zu OnePlus-Produkten und -Dienstleistungen von OnePlus, seinen Agenturen und Partnern zu erhalten. Schließen You are visiting Deutschland (Deutsch/EUR) site. Switch to United States (English/USD) 【Important】Notice of OnePlus Business Adjustment >> Shop Telefon Tablet Wearables Audioprodukt Weitere Produkte OneTopia Community Unterstützung OnePlus Wearables Store Shop Telefon Tablet Wearables Audioprodukt Hüllen und Schutz Ladegeräte und Kabel Pakete Lifestyle Angebote Im Angebot Mit Geschenk Sortieren nach Neueste Oh-oh! Nichts gefunden. Versuchen Sie, mit anderen Filtern zu suchen. Startseite Wearables Smartphones OnePlus 15 OnePlus 15R OnePlus 13 OnePlus Nord 5 OnePlus Nord CE5 Zubehör Tablet Wearables Audioprodukt Hüllen und Schutz Ladegeräte und Kabel Pakete Lifestyle Programme Verbinde deine OnePlus-Geräte Rabattprogramm Partnerprogramm OnePlus Trade-In Unterstützung FAQs zum Thema Kauf Software-Upgrade Reparaturservice Benutzerhandbücher Kontakt Fehlerbehebung Bedienungshilfen EU-Datenschutzgesetz Unternehmen Über OnePlus Community Red Cable Club OnePlus Store-App OxygenOS Karriere Nachhal",
    "json_samples": [
     {
      "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/config/fetch",
      "body": "{\"success\": true, \"data\": {\"categoryList\": [{\"categoryName\": \"Shop\", \"categoryCode\": \"CAT00001010\", \"urlKey\": \"store/all\", \"categoryImage\": {\"whiteCategoryImage\": \"https://image01-eu.oneplus.net/ebp/202207/25/1-M00-53-95-rBpB6mLeodeAMO_oAABPSqotiPU128.svg\", \"blankCategoryImage\": \"https://image01-eu.oneplus.net/ebp/202207/25/1-M00-53-95-rBpB6mLeodeAMO_oAABPSqotiPU128.svg\"}, \"filterGroups\": [{\"groupName\": \"Angebote\", \"groupType\": null, \"groupMutilSelect\": null, \"filterOptions\": [{\"storeViewCode\": null, \"optCode\": \"OFFER_BUY_WITH_GIFT\", \"optName\": \"Mit Geschenk\", \"optCatOrTagCodes\": null, \"optSort\": \"1\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": \"\", \"defaultName\": \"With Gift\", \"customOpt\": null}, {\"storeViewCode\": null, \"optCode\": \"OFFER_DISCOUNTED\", \"optName\": \"Im Angebot\", \"optCatOrTagCodes\": null, \"optSort\": \"4\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": \"\", \"defaultName\": \"On Sale\", \"customOpt\": null}], \"groupCode\": \"OFFER\", \"groupSortCode\": 1, \"customGroup\": null}], \"sortOptions\": [{\"storeViewCode\": null, \"optCode\": \"LATEST\", \"optName\": \"Neueste\", \"optCatOrTagCodes\": null, \"optSort\": \"2\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": null, \"defaultName\": \"Newest\", \"customOpt\": null}, {\"storeViewCode\": null, \"optCode\": \"PRICEL2H\", \"optName\": \"Preis (aufsteigend)\", \"optCatOrTagCodes\": null, \"optSort\": \"3\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": null, \"defaultName\": \"Price(Low to High)\", \"customOpt\": null}, {\"storeViewCode\": null, \"optCode\": \"PRICEH2L\", \"optName\": \"Preis (absteigend)\", \"optCatOrTagCodes\": null, \"optSort\": \"4\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": null, \"defaultName\": \"Price(High to Low)\", \"customOpt\": null}, {\"storeViewCode\": null, \"optCode\": \"DISCOUNT\", \"optName\": \"Höhe des Rabatts\", \"optCatOrTagCodes\": null, \"optSort\": \"5\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": null, \"defaultName\": \"Discount Rate\", \"customOpt\": null}, {\"storeViewCode\": null, \"optCode\": \"RECOMMENDED\", \"optName\": \"Empfohlen\", \"optCatOrTagCodes\": null, \"optSort\": \"1\", \"displayRange\": null, \"priceRanges\": null, \"displayLabel\": null, \"defaultName\": \"Recommended\", \"customOpt\": null}], \"compareAction\": {\"type\": \"H5_INNER\", \"uri\": \"\", \"uriDesc\": null, \"appUri\": null, \"appUriDesc\": null, \"text\": null, \"img\": null, \"fontColor\": null, \"buttonColor\": null, \"backgroundColor\": null, \"eventKey\": null, \"eventParams\": null, \"params\": null, \"checkLogin\": false, \"show\": false, \"summ"
     },
     {
-     "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
-     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"f5857d4ce48ddc0c2d70fb7682fcd362-208\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": {\"totalRecord\": 0, \"totalPage\": 0, \"startRec\": 0, \"endRec\": 0, \"currentPage\": 1, \"pageSize\": 12}}"
+     "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallapp/common/module/fetch",
+     "body": "{\"success\": true, \"data\": null, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"cb9b50c7819a05b7a94846906fa672b1-154\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
     },
     {
      "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
-     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"fb7646dd5002095d2ff92adab3ae2f3e-117\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
+     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"9fa6f6d233b0b7bc8893c3cda202bfd3-117\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": {\"totalRecord\": 0, \"totalPage\": 0, \"startRec\": 0, \"endRec\": 0, \"currentPage\": 1, \"pageSize\": 12}}"
     },
     {
-     "url": "https://mallapi-eu.oneplus.com/v2/api/router",
-     "body": "{\"success\": true, \"data\": null, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"f6355a96dfea1304f36b7bd0e6c8072b-208\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
+     "url": "https://mallapi-eu.oneplus.com/v2/api/rest/mallweb/category/goods/fetch",
+     "body": "{\"success\": true, \"data\": {\"productList\": null, \"recommendProductList\": null}, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"7184d90ee443141de1f2d48775d0fb23-208\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
     }
    ]
   }

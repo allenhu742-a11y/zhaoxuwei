@@ -9,10 +9,10 @@
    "title": "Accessoires | OPPO France",
    "json_urls": [
     "https://www.oppo.com/api/country?",
-    "https://www.oppo.com/content/dam/oppo_com/content-fragment/common/site-language-tip.json?v=1795367041678?",
+    "https://www.oppo.com/content/dam/oppo_com/content-fragment/common/site-language-tip.json?v=1795467600029?",
     "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/basicdata/web/store/list?storeViewCode=fr",
-    "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
     "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/trade/cart/fetch",
+    "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
     "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/product/page/list/price"
    ],
    "links": [
@@ -46,17 +46,18 @@
     "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/trade/cart/fetch",
     "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
     "https://opsg-gateway-eu.oppo.com/v2/api/rest/media/file/public/fetchImageAltBySource",
-    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/product/page/list/price",
-    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/product/page/list/price",
-    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/product/page/list/price",
-    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/product/page/list/price",
-    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/product/page/list/price",
-    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/product/page/list/price",
-    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/product/page/list/price",
-    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/product/page/list/price",
     "https://opsg-gateway-eu.oppo.com/v2/api/rest/amp/query/activity/engine/notifyme",
     "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/product/page/list/price",
-    "https://opsg-statics-eu.heytapimg.com/static-data/store-config/fr/config.json?t=1795367055130",
+    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/product/page/list/price",
+    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/product/page/list/price",
+    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/product/page/list/price",
+    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/product/page/list/price",
+    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/product/page/list/price",
+    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/product/page/list/price",
+    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/product/page/list/price",
+    "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/product/page/list/price",
+    "https://opsg-gateway-eu.oppo.com/v2/api/rest/media/file/public/fetchImageAlt",
+    "https://opsg-statics-eu.heytapimg.com/static-data/store-config/fr/config.json?t=1795467610926",
     "https://opsg-gateway-eu.oppo.com/v2/api/rest/media/file/public/fetchImageAlt",
     "https://opsg-gateway-eu.oppo.com/v2/api/rest/media/file/public/fetchImageAlt",
     "https://opsg-gateway-eu.oppo.com/v2/api/rest/media/file/public/createImageAlt"
@@ -94,7 +95,7 @@
     "https://cm.teads.tv/v2/advertiser?referer=https%3A%2F%2Fwww.oppo.com%2Ffr%2Faccessories%2Fenco-x3i%2F&tag_version=8.17.4_9ff4999&buyer_pixel_id=2534&gtm_consent",
     "https://insight.adsrvr.org/track/realtimeconversion",
     "https://insight.adsrvr.org/track/realtimeconversion",
-    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795366800000"
+    "https://insight.adsrvr.org/track/realtimeconversion"
    ],
    "links": [
     "https://www.oppo.com/fr/accessories/enco-x3i/",
@@ -111,15 +112,11 @@
     },
     {
      "url": "https://opsg-gateway-eu.oppo.com/v2/api/rest/mall/trade/cart/fetch",
-     "body": "{\"success\": true, \"data\": null, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"8472c34ea9f3c3fa9aa1a6e077dbc60b-240\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
+     "body": "{\"success\": true, \"data\": null, \"code\": \"000000\", \"subCode\": null, \"message\": null, \"responseId\": \"012128064d2b5ca8fa318d1969602816-133\", \"ret\": \"1\", \"errCode\": null, \"errMsg\": null, \"page\": null}"
     },
     {
      "url": "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
-     "body": "{\"msg\": \"Login fail\", \"code\": \"40302\", \"data\": {\"codeChallenge\": \"d74b04bb7ee468169e44320b0fb47522a229a4064b9952a0c6851a2025cbadf4\"}}"
-    },
-    {
-     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795366800000",
-     "body": "{\"columnOrder\": [\"cookie\", \"name\", \"domain\", \"purpose\", \"validity\"], \"columns\": {\"cookie\": \"Cookie type\", \"name\": \"Name\", \"domain\": \"Domain\", \"purpose\": \"Purpose\", \"validity\": \"Validity Period\"}, \"rows\": [{\"cookie\": \"Essential\", \"name\": \"frontend\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"heytap_authorized\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"HEYTAPID\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"ssoid\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"username\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"avatar\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"createtime\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberLevel\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberInfo\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"encryptId\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"acIdAuthSession\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"codeVerifier\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"Session\"}, {\"cookie\": \"Essential\", \"name\": \"cookiesaccepted\", \"domain\": \"www.oppo.com\", \"purpose\": \"Used to remember the choice of the user\", \"validity\": \"90 days\"}, {\"cookie\": \"Essential\", \"name\": \"g8vtl5_cmapi_cookie_privacy\", \"domain\": \".oppo.com\", \"purpose\": \"Used to remember how the user accepte cookies\", \"validity\": \"395 days\"}, {\"cookie\": \"Essential\", \"nam"
+     "body": "{\"msg\": \"Login fail\", \"code\": \"40302\", \"data\": {\"codeChallenge\": \"594aa82e2fe9080ab67ad363f599bd28293c34d3cc33423e6a49aa857b5dd63d\"}}"
     }
    ]
   }
