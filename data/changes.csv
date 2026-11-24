@@ -2955,9 +2955,6 @@ date,country,type,brand,category,model,variant,currency,old,new,delta,pct,key
 2026-11-22,RO,suspect,Huawei,tablet,HUAWEI MatePad 12 2026 Launch,—,RON,4499.0,5499.0,1000.0,22.2,huawei-huawei-matepad-12-2026-launch|
 2026-11-22,RO,suspect,Huawei,wear,HUAWEI WATCH 6 Series Nov,—,RON,1999.0,3399.0,1400.0,70.0,huawei-huawei-watch-6-series-nov|
 2026-11-22,TR,gone,Xiaomi,phone,Xiaomi REDMI Note 17,6GB+128GB,TRY,22999.0,,,,xiaomi-xiaomi-redmi-note-17|128gb
-2026-11-23,DE,down,Huawei,wear,HUAWEI WATCH 6 46mm,—,EUR,629.0,439.0,-190.0,-30.2,huawei-huawei-watch-6-46mm|
-2026-11-23,DE,down,Huawei,wear,HUAWEI WATCH FIT 5/Pro,—,EUR,259.0,169.0,-90.0,-34.7,huawei-huawei-watch-fit-5-pro|
-2026-11-23,DE,down,Huawei,wear,HUAWEI WATCH GT 6 Pro,—,EUR,279.0,199.0,-80.0,-28.7,huawei-huawei-watch-gt-6-pro|
 2026-11-23,DE,down,Motorola,phone,Motorola edge 70,—,EUR,548.99,449.0,-99.99,-18.2,motorola-motorola-edge-70|
 2026-11-23,DE,down,Motorola,phone,Motorola edge 70 max,—,EUR,649.0,529.0,-120.0,-18.5,motorola-motorola-edge-70-max|
 2026-11-23,DE,down,Motorola,phone,Motorola edge 70 plus,—,EUR,548.99,399.0,-149.99,-27.3,motorola-motorola-edge-70-plus|
@@ -2986,6 +2983,9 @@ date,country,type,brand,category,model,variant,currency,old,new,delta,pct,key
 2026-11-23,DE,gone,Xiaomi,wear,Xiaomi Smart Band 9 Pro,—,EUR,44.99,,,,xiaomi-xiaomi-smart-band-9-pro|
 2026-11-23,DE,gone,Xiaomi,wear,Xiaomi Watch S5 46mm Ceramic,—,EUR,199.99,,,,xiaomi-xiaomi-watch-s5-46mm-ceramic|
 2026-11-23,DE,new,Huawei,wear,HUAWEI Band 11,—,EUR,,54.9,,,huawei-huawei-band-11|
+2026-11-23,DE,suspect,Huawei,wear,HUAWEI WATCH 6 46mm,—,EUR,629.0,439.0,-190.0,-30.2,huawei-huawei-watch-6-46mm|
+2026-11-23,DE,suspect,Huawei,wear,HUAWEI WATCH FIT 5/Pro,—,EUR,259.0,169.0,-90.0,-34.7,huawei-huawei-watch-fit-5-pro|
+2026-11-23,DE,suspect,Huawei,wear,HUAWEI WATCH GT 6 Pro,—,EUR,279.0,199.0,-80.0,-28.7,huawei-huawei-watch-gt-6-pro|
 2026-11-23,DE,up,Motorola,phone,Motorola edge 70 pro,—,EUR,599.0,649.0,50.0,8.3,motorola-motorola-edge-70-pro|
 2026-11-23,DE,up,Motorola,phone,Motorola moto g67,—,EUR,199.0,239.0,40.0,20.1,motorola-motorola-moto-g67|
 2026-11-23,DE,up,Samsung,tablet,"Samsung Galaxy Tab S10 FE+ 5G (13,1"")",—,EUR,639.0,669.0,30.0,4.7,samsung-samsung-galaxy-tab-s10-fe+-5g-13-1|
@@ -3059,7 +3059,7 @@ date,country,type,brand,category,model,variant,currency,old,new,delta,pct,key
 2026-11-23,IT,new,Honor,phone,HONOR Magic8 Lite 11.23,—,EUR,,319.9,,,honor-honor-magic8-lite-11-23|
 2026-11-23,IT,new,Huawei,wear,HUAWEI WATCH GT 7,—,EUR,,269.0,,,huawei-huawei-watch-gt-7|
 2026-11-23,IT,new,Huawei,wear,HUAWEI WATCH GT 7 Pro,—,EUR,,379.0,,,huawei-huawei-watch-gt-7-pro|
-2026-11-23,IT,up,Motorola,phone,Motorola moto g77,—,EUR,259.01,369.0,109.99,42.5,motorola-motorola-moto-g77|
+2026-11-23,IT,suspect,Motorola,phone,Motorola moto g77,—,EUR,259.01,369.0,109.99,42.5,motorola-motorola-moto-g77|
 2026-11-23,IT,up,Samsung,phone,Samsung Galaxy S26,512GB,EUR,899.0,1009.0,110.0,12.2,samsung-samsung-galaxy-s26|512gb
 2026-11-23,IT,up,Samsung,phone,Samsung Galaxy S26 Ultra,1TB,EUR,1729.0,1749.0,20.0,1.2,samsung-samsung-galaxy-s26-ultra|1tb
 2026-11-23,PL,down,Huawei,audio,HUAWEI FreeArc,—,PLN,399.0,299.0,-100.0,-25.1,huawei-huawei-freearc|
@@ -3165,3 +3165,54 @@ date,country,type,brand,category,model,variant,currency,old,new,delta,pct,key
 2026-11-23,TR,gone,Xiaomi,wear,Xiaomi Watch S5 46mm Seramik,—,TRY,9149.0,,,,xiaomi-xiaomi-watch-s5-46mm-seramik|
 2026-11-23,TR,up,Huawei,wear,HUAWEI WATCH ULTIMATE DESIGN Royal Edition,—,TRY,289999.0,309999.0,20000.0,6.9,huawei-huawei-watch-ultimate-design-royal-edition|
 2026-11-23,TR,up,Huawei,wear,HUAWEI WATCH ULTIMATE DESIGN Spring Edition,—,TRY,289999.0,309999.0,20000.0,6.9,huawei-huawei-watch-ultimate-design-spring-edition|
+2026-11-24,DE,down,Xiaomi,phone,Xiaomi POCO M7 Pro 5G,—,EUR,209.9,189.9,-20.0,-9.5,xiaomi-xiaomi-poco-m7-pro-5g|
+2026-11-24,DE,gone,Huawei,wear,HUAWEI Band 11,—,EUR,54.9,,,,huawei-huawei-band-11|
+2026-11-24,DE,gone,Huawei,wear,HUAWEI WATCH FIT 4/Pro,—,EUR,149.0,,,,huawei-huawei-watch-fit-4-pro|
+2026-11-24,DE,gone,Huawei,wear,HUAWEI WATCH GT 5 / Pro 46mm,—,EUR,139.0,,,,huawei-huawei-watch-gt-5-pro-46mm|
+2026-11-24,DE,gone,Xiaomi,audio,Xiaomi Bluetooth Speaker,—,EUR,49.99,,,,xiaomi-xiaomi-bluetooth-speaker|
+2026-11-24,DE,gone,Xiaomi,phone,Xiaomi 18 Pro Max,12GB+256GB,EUR,1599.9,,,,xiaomi-xiaomi-18-pro-max|256gb
+2026-11-24,DE,gone,Xiaomi,phone,Xiaomi POCO C81 Pro,4GB+256GB,EUR,159.9,,,,xiaomi-xiaomi-poco-c81-pro|256gb
+2026-11-24,DE,gone,Xiaomi,tablet,Xiaomi Pad 8 Pro,—,EUR,509.9,,,,xiaomi-xiaomi-pad-8-pro|
+2026-11-24,DE,new,Xiaomi,phone,Xiaomi POCO X8 Pro Iron Man Edition,12GB+512GB,EUR,,449.9,,,xiaomi-xiaomi-poco-x8-pro-iron-man-edition|512gb
+2026-11-24,DE,suspect,Huawei,wear,HUAWEI WATCH 6 46mm,—,EUR,439.0,629.0,190.0,43.3,huawei-huawei-watch-6-46mm|
+2026-11-24,DE,suspect,Huawei,wear,HUAWEI WATCH FIT 5/Pro,—,EUR,169.0,259.0,90.0,53.3,huawei-huawei-watch-fit-5-pro|
+2026-11-24,DE,suspect,Huawei,wear,HUAWEI WATCH GT 6 Pro,—,EUR,199.0,279.0,80.0,40.2,huawei-huawei-watch-gt-6-pro|
+2026-11-24,DE,up,Xiaomi,phone,Xiaomi POCO M8 5G,—,EUR,209.9,259.9,50.0,23.8,xiaomi-xiaomi-poco-m8-5g|
+2026-11-24,DE,up,Xiaomi,tablet,Xiaomi Pad 8,—,EUR,399.9,429.9,30.0,7.5,xiaomi-xiaomi-pad-8|
+2026-11-24,FR,gone,Xiaomi,phone,Xiaomi 18 Pro,12GB+512GB,EUR,1403.0,,,,xiaomi-xiaomi-18-pro|512gb
+2026-11-24,FR,gone,Xiaomi,phone,Xiaomi POCO X8 Pro,8GB+256GB,EUR,359.0,,,,xiaomi-xiaomi-poco-x8-pro|256gb
+2026-11-24,FR,gone,Xiaomi,phone,Xiaomi REDMI Note 17,6GB+256GB,EUR,249.0,,,,xiaomi-xiaomi-redmi-note-17|256gb
+2026-11-24,FR,gone,Xiaomi,wear,Xiaomi Smart Band 10,—,EUR,44.99,,,,xiaomi-xiaomi-smart-band-10|
+2026-11-24,FR,new,Xiaomi,audio,Xiaomi Sound Party,—,EUR,,79.9,,,xiaomi-xiaomi-sound-party|
+2026-11-24,FR,suspect,Huawei,tablet,HUAWEI MatePad 11.5''S 2026,—,EUR,319.99,80.0,-239.99,-75.0,huawei-huawei-matepad-11-5-s-2026|
+2026-11-24,FR,up,Motorola,phone,Motorola moto g57 power,—,EUR,199.0,249.0,50.0,25.1,motorola-motorola-moto-g57-power|
+2026-11-24,IT,down,Samsung,phone,Samsung Galaxy Z Fold8,512GB,EUR,2299.0,2009.0,-290.0,-12.6,samsung-samsung-galaxy-z-fold8|512gb
+2026-11-24,IT,down,Samsung,phone,Samsung Galaxy Z Fold8 Ultra,1TB,EUR,2699.0,2599.0,-100.0,-3.7,samsung-samsung-galaxy-z-fold8-ultra|1tb
+2026-11-24,IT,down,Samsung,phone,Samsung Galaxy Z Fold8 Ultra,256GB,EUR,1999.0,1949.0,-50.0,-2.5,samsung-samsung-galaxy-z-fold8-ultra|256gb
+2026-11-24,IT,down,Samsung,phone,Samsung Galaxy Z Fold8 Ultra,512GB,EUR,2299.0,2149.0,-150.0,-6.5,samsung-samsung-galaxy-z-fold8-ultra|512gb
+2026-11-24,IT,gone,Huawei,wear,HUAWEI Smartwatch e Band,—,EUR,679.0,,,,huawei-huawei-smartwatch-e-band|
+2026-11-24,IT,gone,Huawei,wear,HUAWEI WATCH GT 5 46mm 02.11 - 03.12,—,EUR,129.0,,,,huawei-huawei-watch-gt-5-46mm-02-11-03-12|
+2026-11-24,IT,gone,Huawei,wear,HUAWEI WATCH GT 7,—,EUR,269.0,,,,huawei-huawei-watch-gt-7|
+2026-11-24,IT,gone,Huawei,wear,HUAWEI WATCH GT 7 Pro,—,EUR,379.0,,,,huawei-huawei-watch-gt-7-pro|
+2026-11-24,IT,gone,Xiaomi,phone,Xiaomi POCO X8 Pro,—,EUR,369.9,,,,xiaomi-xiaomi-poco-x8-pro|
+2026-11-24,IT,gone,Xiaomi,phone,Xiaomi POCO X8 Pro Max,—,EUR,489.9,,,,xiaomi-xiaomi-poco-x8-pro-max|
+2026-11-24,IT,gone,Xiaomi,phone,Xiaomi REDMI Note 17 Pro Max 5G,—,EUR,449.9,,,,xiaomi-xiaomi-redmi-note-17-pro-max-5g|
+2026-11-24,IT,gone,Xiaomi,tablet,Xiaomi REDMI Pad 2 Pro,8GB+256GB,EUR,329.9,,,,xiaomi-xiaomi-redmi-pad-2-pro|256gb
+2026-11-24,IT,suspect,Huawei,wear,HUAWEI WATCH 6 Pro,—,EUR,629.0,679.0,50.0,7.9,huawei-huawei-watch-6-pro|
+2026-11-24,IT,suspect,Motorola,phone,Motorola moto g77,—,EUR,369.0,259.01,-109.99,-29.8,motorola-motorola-moto-g77|
+2026-11-24,IT,up,Huawei,wear,HUAWEI Watch 6 Pro 46mm 04.11 - 03.12,—,EUR,629.0,679.0,50.0,7.9,huawei-huawei-watch-6-pro-46mm-04-11-03-12|
+2026-11-24,PL,gone,Huawei,phone,HUAWEI Pura 90s Pro,12GB+512GB,PLN,4999.0,,,,huawei-huawei-pura-90s-pro|512gb
+2026-11-24,PL,gone,Xiaomi,phone,Xiaomi 17T,12GB+256GB,PLN,2299.0,,,,xiaomi-xiaomi-17t|256gb
+2026-11-24,PL,gone,Xiaomi,phone,Xiaomi 18 Pro Max,12GB+512GB,PLN,7599.0,,,,xiaomi-xiaomi-18-pro-max|512gb
+2026-11-24,PL,gone,Xiaomi,phone,Xiaomi POCO C95 Pro,—,PLN,799.0,,,,xiaomi-xiaomi-poco-c95-pro|
+2026-11-24,PL,gone,Xiaomi,phone,Xiaomi REDMI Note 15 Pro 5G,8GB+256GB,PLN,1259.0,,,,xiaomi-xiaomi-redmi-note-15-pro-5g|256gb
+2026-11-24,RO,gone,Huawei,wear,HUAWEI WATCH D2,—,RON,1199.0,,,,huawei-huawei-watch-d2|
+2026-11-24,RO,gone,Xiaomi,audio,Xiaomi REDMI Buds 6 Pro,—,RON,249.99,,,,xiaomi-xiaomi-redmi-buds-6-pro|
+2026-11-24,RO,suspect,Huawei,wear,HUAWEI WATCH 6 Series Nov,—,RON,1999.0,3399.0,1400.0,70.0,huawei-huawei-watch-6-series-nov|
+2026-11-24,RO,up,Xiaomi,phone,Xiaomi 17 Ultra,16GB+512GB,RON,5699.99,7199.99,1500.0,26.3,xiaomi-xiaomi-17-ultra|512gb
+2026-11-24,RO,up,Xiaomi,phone,Xiaomi 17T Pro,12GB+256GB,RON,3599.99,4399.99,800.0,22.2,xiaomi-xiaomi-17t-pro|256gb
+2026-11-24,RO,up,Xiaomi,tablet,Xiaomi Pad 8,—,RON,1849.99,2199.99,350.0,18.9,xiaomi-xiaomi-pad-8|
+2026-11-24,TR,gone,Xiaomi,phone,Xiaomi REDMI 17,4GB+128GB,TRY,17999.0,,,,xiaomi-xiaomi-redmi-17|128gb
+2026-11-24,TR,gone,Xiaomi,phone,Xiaomi REDMI 17 5G Canlı,4GB+256GB,TRY,20999.0,,,,xiaomi-xiaomi-redmi-17-5g-canl|256gb
+2026-11-24,TR,gone,Xiaomi,phone,Xiaomi REDMI Note 17 Pro 5G,8GB+256GB,TRY,36999.0,,,,xiaomi-xiaomi-redmi-note-17-pro-5g|256gb
+2026-11-24,TR,gone,Xiaomi,phone,Xiaomi REDMI Note 17 Pro Max 5G,8GB+256GB,TRY,46999.0,,,,xiaomi-xiaomi-redmi-note-17-pro-max-5g|256gb
