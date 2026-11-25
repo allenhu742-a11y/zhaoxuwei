@@ -9,9 +9,9 @@
    "title": "Accessori per dispositivi mobili OPPO | OPPO Italia",
    "json_urls": [
     "https://api.ipify.org/?format=json",
-    "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
     "https://www.oppo.com/api/country?",
-    "https://www.oppo.com/content/dam/oppo_com/content-fragment/common/site-language-tip.json?v=1795481693488?",
+    "https://www.oppo.com/content/dam/oppo_com/content-fragment/common/site-language-tip.json?v=1795572715990?",
+    "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
     "https://cm.teads.tv/v2/advertiser?referer=https%3A%2F%2Fwww.oppo.com%2Fit%2Faccessories%2F&tag_version=8.17.4_9ff4999&buyer_pixel_id=2534&gtm_consent=true&has_c",
     "https://insight.adsrvr.org/track/realtimeconversion",
     "https://insight.adsrvr.org/track/realtimeconversion"
@@ -31,16 +31,16 @@
    "text_sample": "Accessori per dispositivi mobili OPPO | OPPO Italia Skip to main content Select your country or region Global Smartphones Tablet Audio Accessori Wearables Scopri OPPO ColorOS Community Acquista Online Supporto Accessories OPPO Bubble Vista Selfie Posteriore Ultra Nitida Scopri di più OPPO Bubble Vista Selfie Posteriore Ultra Nitida, E-Badge Personalizzabile Scopri di più Smartphone OPPO Find X10 Pro Max OPPO Find X10 OPPO Find X9 Ultra OPPO Reno16 Pro 5G OPPO Reno16 5G OPPO Reno16 F 5G OPPO Reno16 FS 5G OPPO A7 Pro Max 5G OPPO A7 Pro 5G OPPO A6 OPPO A6x OPPO A6k Tutti gli smartphone Tablet OPPO Pad 5 Pro OPPO Pad 5 OPPO Pad SE OPPO Pad 3 Pro OPPO Pad 2 OPPO Pad Air Prodotti IoT OPPO Watch X3 OPPO Watch S OPPO Watch X2 Mini OPPO Watch X2 OPPO Watch X OPPO Enco X4 OPPO Enco Air5 OPPO Enco Air5s OPPO Enco Clip2 Open Earbuds OPPO Enco Air5 Pro OPPO Enco X3s OPPO Enco X3i OPPO Bubble Dove acquistare Acquista online Cerca un negozio Promozioni Supporto Contattaci Centro di assistenza Screen Protection Centro di supporto Security Response Center OPPO Informazioni di garanzia Programma riciclo rifiuti elettronici Parental Control Regolamento UE sull'uso dei dati Scopri OPPO La nostra storia Tecnologia OPPO Apex Guard Notizie Contattaci Privacy Cookie Gestisci i cookie Termini e condizioni Note legali Cookie Settings Copyright © 2004-2026 OPPO. All rights reserved. Italy (Italiano)",
    "json_samples": [
     {
-     "url": "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
-     "body": "{\"msg\": \"Login fail\", \"code\": \"40302\", \"data\": {\"codeChallenge\": \"5236bffb573cf92a567e29d324f701edb989b8e41b716457a67299e826fb8bf5\"}}"
-    },
-    {
      "url": "https://www.oppo.com/api/country?",
      "body": "{\"countryCode\": \"US\"}"
     },
     {
-     "url": "https://www.oppo.com/content/dam/oppo_com/content-fragment/common/site-language-tip.json?v=1795481693488?",
+     "url": "https://www.oppo.com/content/dam/oppo_com/content-fragment/common/site-language-tip.json?v=1795572715990?",
      "body": "{\"OTHER\": {\"tip\": \"Select your country or region\", \"goto\": \"goto\", \"another\": \"Select another site\", \"isArabic\": \"0\", \"language\": {\"en\": \"Global\"}}, \"CN\": {\"tip\": \"根据您的位置信息，选择合适的语言:\", \"goto\": \"前往\", \"another\": \"更多其他地区语言\", \"isArabic\": \"0\", \"language\": {\"cn\": \"简体中文\"}}, \"HK\": {\"tip\": \"根據您的位置信息，選擇合適的語言:\", \"goto\": \"前往\", \"another\": \"其他語言\", \"isArabic\": \"0\", \"language\": {\"hk\": \"繁體中文\"}}, \"MY\": {\"tip\": \"You can visit a site that is same from your current location\", \"goto\": \"go\", \"another\": \"Select another site\", \"isArabic\": \"0\", \"language\": {\"my\": \"Malaysia\"}}, \"TW\": {\"tip\": \"根據您的位置信息，選擇合適的語言:\", \"goto\": \"前往\", \"another\": \"其他語言\", \"isArabic\": \"0\", \"language\": {\"tw\": \"繁體中文\"}}, \"AE\": {\"tip\": \"You can visit a site that is same from your current location\", \"goto\": \"go\", \"another\": \"Select another site\", \"isArabic\": \"0\", \"language\": {\"ae\": \"UAE\"}}, \"AU\": {\"tip\": \"You can visit a site that is same from your current location\", \"goto\": \"go\", \"another\": \"Select another site\", \"isArabic\": \"0\", \"language\": {\"au\": \"Australia\"}}, \"BD\": {\"tip\": \"You can visit a site that is same from your current location\", \"goto\": \"go\", \"another\": \"Select another site\", \"isArabic\": \"0\", \"language\": {\"bd\": \"Bangladesh\"}}, \"BE\": {\"tip\": \"Vous pouvez visiter un site qui est le même que celui où vous vous trouvez actuellement\", \"goto\": \"Acceder\", \"another\": \"Sélectionnez un autre site\", \"isArabic\": \"0\", \"language\": {\"befr\": \"Belgique\", \"benl\": \"België\"}}, \"CH\": {\"tip\": \"Besuche eine Website, die deinem aktuellen Standort entspricht\", \"goto\": \"Los\", \"another\": \"Eine andere Seite wählen\", \"isArabic\": \"0\", \"language\": {\"chde\": \"Schweiz\", \"chfr\": \"Suisse\"}}, \"CZ\": {\"tip\": \"Chcete navštívit stránky přizpůsobené vaší aktuální poloze?\", \"goto\": \"Pokračovat\", \"another\": \"Vyberte jinou lokalitu\", \"isArabic\": \"0\", \"language\": {\"cz\": \"Česko\"}}, \"DE\": {\"tip\": \"Besuche eine Website, die deinem aktuellen Standort entspricht\", \"goto\": \"Los\", \"another\": \"Eine andere Seite wählen\", \"isArabic\": \"0\", \"language\": {\"de\": \"Deutsch\"}}, \"DZ\": {\"tip\": \"Vous pouvez visiter un site identique à partir de votre position actuelle\", \"goto\": \"Aller\", \"another\": \"Sélectionner un autre site\", \"isArabic\": \"0\", \"language\": {\"dz\": \"Algérie\"}}, \"EG\": {\"tip\": \" يمكنك زيارة الموقع من نفس  موقعك الحالي\", \"goto\": \" اذهب\", \"another\": \" اختر موقع آخر\", \"isArabic\": \"1\", \"language\": {\"eg\": \"مصر \", \"eg-en\": \"Egypt\"}}, \"ES\": {\"tip\": \"Puedes visitar un sitio que es el mismo de tu ubicación actual\", \"goto\": \"ir a\", \"another\": \"Seleccione otro sitio\", \""
+    },
+    {
+     "url": "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
+     "body": "{\"msg\": \"Login fail\", \"code\": \"40302\", \"data\": {\"codeChallenge\": \"61d6df152d47f5ca4aa2cd26e65cf8e65eb12199bbdabe05dc9d4b80f7faf587\"}}"
     }
    ]
   },
@@ -51,16 +51,16 @@
    "title": "OPPO - OPPO Store (Global)",
    "json_urls": [
     "https://opsg-gateway-sg.oppo.com/v2/api/rest/mall/basicdata/web/store/list",
-    "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
     "https://opsg-gateway-sg.oppo.com/v2/api/rest/mall/basicdata/web/store/list?storeViewCode=id",
+    "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
     "https://obus-jssdk-sg.heytapmobile.com/api/checkUpdate?body=%7B%22itemList%22%3A%5B%7B%22configCode%22%3A%22BUSINESS_WEB_106002_CONFIG%22%2C%22version%22%3A0%7D",
     "https://obus-jssdk-sg.heytapmobile.com/api/fetchCdnFile?url=https%3A%2F%2Fappconf-ocs-sgp.heytapdl.com%2Fcloud-config%2Fcompass_106002%2FBUSINESS_WEB_106002_CON",
-    "https://opsg-statics-sg.heytapimg.com/oppo-json/thor-pc/id/base-maps.json?t=29924695",
-    "https://obus-sg.dc.heytapmobile.com/v3/track/js/106002?app_key=1360&timestamp=1795481713363",
-    "https://opsg-statics-sg.heytapimg.com/oppo-json/thor-pc/id/p-a11y-messages-d0cc473fd74e4c167a1d423e4cebdcdd.json",
-    "https://opsg-statics-sg.heytapimg.com/oppo-json/thor-pc/id/p-404-v2-f2584552563bca49060463f9a4b07328.json",
+    "https://opsg-statics-sg.heytapimg.com/oppo-json/thor-pc/id/base-maps.json?t=29926212",
     "https://opsg-statics-sg.heytapimg.com/oppo-json/thor-pc/id/c-cookie-tips-v2-70599a0a0900080f22b3ca786a00cfe8.json",
-    "https://obus-sg.dc.heytapmobile.com/v3/track/js/106002?app_key=1360&timestamp=1795481716259"
+    "https://opsg-statics-sg.heytapimg.com/oppo-json/thor-pc/id/p-404-v2-f2584552563bca49060463f9a4b07328.json",
+    "https://opsg-statics-sg.heytapimg.com/oppo-json/thor-pc/id/p-a11y-messages-d0cc473fd74e4c167a1d423e4cebdcdd.json",
+    "https://obus-sg.dc.heytapmobile.com/v3/track/js/106002?app_key=1360&timestamp=1795572735029",
+    "https://obus-sg.dc.heytapmobile.com/v3/track/js/106002?app_key=1360&timestamp=1795572737930"
    ],
    "links": [
     "https://www.oppo.com/it/accessories/enco-x4/",
@@ -81,12 +81,12 @@
      "body": "{\"code\": \"310000\", \"errCode\": \"cant find merchantCode by StoreViewCode\", \"errMsg\": \"cant find merchantCode by StoreViewCode\", \"message\": \"cant find merchantCode by StoreViewCode\", \"ret\": \"0\", \"success\": false}"
     },
     {
-     "url": "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
-     "body": "{\"msg\": \"Login fail\", \"code\": \"40302\", \"data\": {\"codeChallenge\": \"5236bffb573cf92a567e29d324f701edb989b8e41b716457a67299e826fb8bf5\"}}"
-    },
-    {
      "url": "https://opsg-gateway-sg.oppo.com/v2/api/rest/mall/basicdata/web/store/list?storeViewCode=id",
      "body": "{\"success\": true, \"data\": [{\"storeViewCode\": \"id\", \"countryCode\": \"ID\", \"symbol\": \"Rp\", \"format\": \"%s%v\", \"decimal\": \".\", \"thousand\": \".\", \"precision\": \"0\", \"zero\": \"Free\", \"symbolInFront\": 1, \"hasSpace\": 0, \"cur\": \"ID\", \"languageCode\": \"id\", \"lang\": \"Indonesian\", \"name\": \"Indonesia\", \"currencyCode\": \"IDR\", \"prefix\": \"+62\", \"reg\": \"^0?8\\\\d{8,11}$\", \"pinCodeReg\": \"^[0-9]{5}$\", \"maxLength\": 13, \"apiDomain\": \"opsg-gateway-sg.oppo.com\", \"storeDomain\": \"https://www.oppo.com\", \"cookieDomain\": [\".wanyol.com\", \".oppo.com\"], \"countryImgUrl\": \"https://oasis.opstatics.com/content/dam/oasis/heytap-indonesia/id.png\", \"address\": {\"addressList\": [{\"key\": \"firstName\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"regionId\", \"nameKey\": \"region\", \"type\": \"select\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": true}, {\"key\": \"cityId\", \"nameKey\": \"city\", \"type\": \"select\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": true}, {\"key\": \"areaId\", \"nameKey\": \"areaName\", \"type\": \"select\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": true}, {\"key\": \"streetId\", \"nameKey\": \"street1\", \"type\": \"select\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": true, \"select\": true}, {\"key\": \"postCode\", \"nameKey\": \"postcode\", \"type\": \"input\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"street2\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}, {\"key\": \"telephone\", \"nameKey\": null, \"type\": \"input\", \"value\": null, \"maxLength\": null, \"regexList\": null, \"regex\": null, \"specialWords\": null, \"postCodeTag\": null, \"select\": false}], \"addressSort\": [\"street2\", \"postCode\", \"streetId\", \"areaName\", \"city\", \"region\", \"countryCode\"]}, \"pickupEnable\": true, \"visitorBuyDisable\": false, \"tradeInDisable\": false, \"memberBuyDisable\": false, \"showCoins\": true, \"homeUrl\": \"https://www.oppo.com/id/store/\", \"cartUrl\": \"https://www.oppo.com/id/store/cart\", \"officialWebsite\": \"https://www.oppo.com/id\", \"appStoreFlag\": "
+    },
+    {
+     "url": "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
+     "body": "{\"msg\": \"Login fail\", \"code\": \"40302\", \"data\": {\"codeChallenge\": \"61d6df152d47f5ca4aa2cd26e65cf8e65eb12199bbdabe05dc9d4b80f7faf587\"}}"
     }
    ]
   },
@@ -96,11 +96,11 @@
    "final_url": "https://www.oppo.com/it/accessories/enco-x4/",
    "title": "OPPO Enco X4 - Auricolari True Wireless con Cancellazione del Rumore | OPPO Italia",
    "json_urls": [
-    "https://cm.teads.tv/v2/advertiser?referer=https%3A%2F%2Fwww.oppo.com%2Fit%2Faccessories%2Fenco-x4%2F&tag_version=8.17.4_9ff4999&buyer_pixel_id=2534&gtm_consent=",
     "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
+    "https://cm.teads.tv/v2/advertiser?referer=https%3A%2F%2Fwww.oppo.com%2Fit%2Faccessories%2Fenco-x4%2F&tag_version=8.17.4_9ff4999&buyer_pixel_id=2534&gtm_consent=",
     "https://api.ipify.org/?format=json",
     "https://insight.adsrvr.org/track/realtimeconversion",
-    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795478400000"
+    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795572000000"
    ],
    "links": [
     "https://www.oppo.com/it/accessories/enco-x4/",
@@ -119,10 +119,10 @@
    "json_samples": [
     {
      "url": "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
-     "body": "{\"msg\": \"Login fail\", \"code\": \"40302\", \"data\": {\"codeChallenge\": \"5236bffb573cf92a567e29d324f701edb989b8e41b716457a67299e826fb8bf5\"}}"
+     "body": "{\"msg\": \"Login fail\", \"code\": \"40302\", \"data\": {\"codeChallenge\": \"61d6df152d47f5ca4aa2cd26e65cf8e65eb12199bbdabe05dc9d4b80f7faf587\"}}"
     },
     {
-     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795478400000",
+     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795572000000",
      "body": "{\"columnOrder\": [\"cookie\", \"name\", \"domain\", \"purpose\", \"validity\"], \"columns\": {\"cookie\": \"Cookie type\", \"name\": \"Name\", \"domain\": \"Domain\", \"purpose\": \"Purpose\", \"validity\": \"Validity Period\"}, \"rows\": [{\"cookie\": \"Essential\", \"name\": \"frontend\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"heytap_authorized\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"HEYTAPID\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"ssoid\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"username\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"avatar\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"createtime\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberLevel\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberInfo\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"encryptId\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"acIdAuthSession\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"codeVerifier\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"Session\"}, {\"cookie\": \"Essential\", \"name\": \"cookiesaccepted\", \"domain\": \"www.oppo.com\", \"purpose\": \"Used to remember the choice of the user\", \"validity\": \"90 days\"}, {\"cookie\": \"Essential\", \"name\": \"g8vtl5_cmapi_cookie_privacy\", \"domain\": \".oppo.com\", \"purpose\": \"Used to remember how the user accepte cookies\", \"validity\": \"395 days\"}, {\"cookie\": \"Essential\", \"nam"
     }
    ]
@@ -133,11 +133,11 @@
    "final_url": "https://www.oppo.com/it/accessories/enco-clip2-open-earbuds/",
    "title": "OPPO Enco Clip2 Auricolari Open-Ear - EarHug Vestibilità Confortevole | OPPO Italia",
    "json_urls": [
-    "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
     "https://cm.teads.tv/v2/advertiser?referer=https%3A%2F%2Fwww.oppo.com%2Fit%2Faccessories%2Fenco-clip2-open-earbuds%2F&tag_version=8.17.4_9ff4999&buyer_pixel_id=2",
+    "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
     "https://api.ipify.org/?format=json",
-    "https://insight.adsrvr.org/track/realtimeconversion",
-    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795478400000"
+    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795572000000",
+    "https://insight.adsrvr.org/track/realtimeconversion"
    ],
    "links": [
     "https://www.oppo.com/it/accessories/enco-clip2-open-earbuds/",
@@ -156,10 +156,10 @@
    "json_samples": [
     {
      "url": "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
-     "body": "{\"msg\": \"Login fail\", \"code\": \"40302\", \"data\": {\"codeChallenge\": \"5236bffb573cf92a567e29d324f701edb989b8e41b716457a67299e826fb8bf5\"}}"
+     "body": "{\"msg\": \"Login fail\", \"code\": \"40302\", \"data\": {\"codeChallenge\": \"61d6df152d47f5ca4aa2cd26e65cf8e65eb12199bbdabe05dc9d4b80f7faf587\"}}"
     },
     {
-     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795478400000",
+     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795572000000",
      "body": "{\"columnOrder\": [\"cookie\", \"name\", \"domain\", \"purpose\", \"validity\"], \"columns\": {\"cookie\": \"Cookie type\", \"name\": \"Name\", \"domain\": \"Domain\", \"purpose\": \"Purpose\", \"validity\": \"Validity Period\"}, \"rows\": [{\"cookie\": \"Essential\", \"name\": \"frontend\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"heytap_authorized\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"HEYTAPID\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"ssoid\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"username\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"avatar\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"createtime\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberLevel\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberInfo\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"encryptId\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"acIdAuthSession\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"codeVerifier\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"Session\"}, {\"cookie\": \"Essential\", \"name\": \"cookiesaccepted\", \"domain\": \"www.oppo.com\", \"purpose\": \"Used to remember the choice of the user\", \"validity\": \"90 days\"}, {\"cookie\": \"Essential\", \"name\": \"g8vtl5_cmapi_cookie_privacy\", \"domain\": \".oppo.com\", \"purpose\": \"Used to remember how the user accepte cookies\", \"validity\": \"395 days\"}, {\"cookie\": \"Essential\", \"nam"
     }
    ]
@@ -170,11 +170,11 @@
    "final_url": "https://www.oppo.com/it/accessories/enco-air5/",
    "title": "OPPO Enco Air5 – Cancellazione Adattiva del Rumore fino a 52 dB | OPPO Italia",
    "json_urls": [
-    "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
     "https://cm.teads.tv/v2/advertiser?referer=https%3A%2F%2Fwww.oppo.com%2Fit%2Faccessories%2Fenco-air5%2F&tag_version=8.17.4_9ff4999&buyer_pixel_id=2534&gtm_consen",
+    "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
     "https://api.ipify.org/?format=json",
-    "https://insight.adsrvr.org/track/realtimeconversion",
-    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795478400000"
+    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795572000000",
+    "https://insight.adsrvr.org/track/realtimeconversion"
    ],
    "links": [
     "https://www.oppo.com/it/accessories/enco-air5/",
@@ -193,10 +193,10 @@
    "json_samples": [
     {
      "url": "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
-     "body": "{\"msg\": \"Login fail\", \"code\": \"40302\", \"data\": {\"codeChallenge\": \"5236bffb573cf92a567e29d324f701edb989b8e41b716457a67299e826fb8bf5\"}}"
+     "body": "{\"msg\": \"Login fail\", \"code\": \"40302\", \"data\": {\"codeChallenge\": \"61d6df152d47f5ca4aa2cd26e65cf8e65eb12199bbdabe05dc9d4b80f7faf587\"}}"
     },
     {
-     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795478400000",
+     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795572000000",
      "body": "{\"columnOrder\": [\"cookie\", \"name\", \"domain\", \"purpose\", \"validity\"], \"columns\": {\"cookie\": \"Cookie type\", \"name\": \"Name\", \"domain\": \"Domain\", \"purpose\": \"Purpose\", \"validity\": \"Validity Period\"}, \"rows\": [{\"cookie\": \"Essential\", \"name\": \"frontend\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"heytap_authorized\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"HEYTAPID\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"ssoid\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"username\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"avatar\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"createtime\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberLevel\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberInfo\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"encryptId\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"acIdAuthSession\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"codeVerifier\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"Session\"}, {\"cookie\": \"Essential\", \"name\": \"cookiesaccepted\", \"domain\": \"www.oppo.com\", \"purpose\": \"Used to remember the choice of the user\", \"validity\": \"90 days\"}, {\"cookie\": \"Essential\", \"name\": \"g8vtl5_cmapi_cookie_privacy\", \"domain\": \".oppo.com\", \"purpose\": \"Used to remember how the user accepte cookies\", \"validity\": \"395 days\"}, {\"cookie\": \"Essential\", \"nam"
     }
    ]
@@ -207,11 +207,11 @@
    "final_url": "https://www.oppo.com/it/accessories/enco-air5s/",
    "title": "OPPO Enco Air5s - Silenzia il mondo, sblocca l'immersione | OPPO Italia",
    "json_urls": [
-    "https://cm.teads.tv/v2/advertiser?referer=https%3A%2F%2Fwww.oppo.com%2Fit%2Faccessories%2Fenco-air5s%2F&tag_version=8.17.4_9ff4999&buyer_pixel_id=2534&gtm_conse",
     "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
+    "https://cm.teads.tv/v2/advertiser?referer=https%3A%2F%2Fwww.oppo.com%2Fit%2Faccessories%2Fenco-air5s%2F&tag_version=8.17.4_9ff4999&buyer_pixel_id=2534&gtm_conse",
     "https://api.ipify.org/?format=json",
     "https://insight.adsrvr.org/track/realtimeconversion",
-    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795478400000"
+    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795572000000"
    ],
    "links": [
     "https://www.oppo.com/it/accessories/enco-air5s/",
@@ -230,10 +230,10 @@
    "json_samples": [
     {
      "url": "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
-     "body": "{\"msg\": \"Login fail\", \"code\": \"40302\", \"data\": {\"codeChallenge\": \"5236bffb573cf92a567e29d324f701edb989b8e41b716457a67299e826fb8bf5\"}}"
+     "body": "{\"msg\": \"Login fail\", \"code\": \"40302\", \"data\": {\"codeChallenge\": \"61d6df152d47f5ca4aa2cd26e65cf8e65eb12199bbdabe05dc9d4b80f7faf587\"}}"
     },
     {
-     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795478400000",
+     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795572000000",
      "body": "{\"columnOrder\": [\"cookie\", \"name\", \"domain\", \"purpose\", \"validity\"], \"columns\": {\"cookie\": \"Cookie type\", \"name\": \"Name\", \"domain\": \"Domain\", \"purpose\": \"Purpose\", \"validity\": \"Validity Period\"}, \"rows\": [{\"cookie\": \"Essential\", \"name\": \"frontend\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"heytap_authorized\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"HEYTAPID\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"ssoid\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"username\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"avatar\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"createtime\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberLevel\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberInfo\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"encryptId\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"acIdAuthSession\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"codeVerifier\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"Session\"}, {\"cookie\": \"Essential\", \"name\": \"cookiesaccepted\", \"domain\": \"www.oppo.com\", \"purpose\": \"Used to remember the choice of the user\", \"validity\": \"90 days\"}, {\"cookie\": \"Essential\", \"name\": \"g8vtl5_cmapi_cookie_privacy\", \"domain\": \".oppo.com\", \"purpose\": \"Used to remember how the user accepte cookies\", \"validity\": \"395 days\"}, {\"cookie\": \"Essential\", \"nam"
     }
    ]
@@ -248,7 +248,7 @@
     "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
     "https://api.ipify.org/?format=json",
     "https://insight.adsrvr.org/track/realtimeconversion",
-    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795478400000"
+    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795572000000"
    ],
    "links": [
     "https://www.oppo.com/it/accessories/enco-air5-pro/",
@@ -267,10 +267,10 @@
    "json_samples": [
     {
      "url": "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
-     "body": "{\"msg\": \"Login fail\", \"code\": \"40302\", \"data\": {\"codeChallenge\": \"5236bffb573cf92a567e29d324f701edb989b8e41b716457a67299e826fb8bf5\"}}"
+     "body": "{\"msg\": \"Login fail\", \"code\": \"40302\", \"data\": {\"codeChallenge\": \"61d6df152d47f5ca4aa2cd26e65cf8e65eb12199bbdabe05dc9d4b80f7faf587\"}}"
     },
     {
-     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795478400000",
+     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795572000000",
      "body": "{\"columnOrder\": [\"cookie\", \"name\", \"domain\", \"purpose\", \"validity\"], \"columns\": {\"cookie\": \"Cookie type\", \"name\": \"Name\", \"domain\": \"Domain\", \"purpose\": \"Purpose\", \"validity\": \"Validity Period\"}, \"rows\": [{\"cookie\": \"Essential\", \"name\": \"frontend\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"heytap_authorized\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"HEYTAPID\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"ssoid\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"username\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"avatar\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"createtime\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberLevel\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberInfo\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"encryptId\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"acIdAuthSession\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"codeVerifier\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"Session\"}, {\"cookie\": \"Essential\", \"name\": \"cookiesaccepted\", \"domain\": \"www.oppo.com\", \"purpose\": \"Used to remember the choice of the user\", \"validity\": \"90 days\"}, {\"cookie\": \"Essential\", \"name\": \"g8vtl5_cmapi_cookie_privacy\", \"domain\": \".oppo.com\", \"purpose\": \"Used to remember how the user accepte cookies\", \"validity\": \"395 days\"}, {\"cookie\": \"Essential\", \"nam"
     }
    ]
@@ -281,11 +281,11 @@
    "final_url": "https://www.oppo.com/it/accessories/enco-x3s/",
    "title": "OPPO Enco X3s – Traduzione AI, Auricolari con Cancellazione del Rumore | OPPO Italia",
    "json_urls": [
-    "https://cm.teads.tv/v2/advertiser?referer=https%3A%2F%2Fwww.oppo.com%2Fit%2Faccessories%2Fenco-x3s%2F&tag_version=8.17.4_9ff4999&buyer_pixel_id=2534&gtm_consent",
     "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
+    "https://cm.teads.tv/v2/advertiser?referer=https%3A%2F%2Fwww.oppo.com%2Fit%2Faccessories%2Fenco-x3s%2F&tag_version=8.17.4_9ff4999&buyer_pixel_id=2534&gtm_consent",
     "https://api.ipify.org/?format=json",
     "https://insight.adsrvr.org/track/realtimeconversion",
-    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795478400000"
+    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795572000000"
    ],
    "links": [
     "https://www.oppo.com/it/accessories/enco-x3s/",
@@ -304,10 +304,10 @@
    "json_samples": [
     {
      "url": "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
-     "body": "{\"msg\": \"Login fail\", \"code\": \"40302\", \"data\": {\"codeChallenge\": \"5236bffb573cf92a567e29d324f701edb989b8e41b716457a67299e826fb8bf5\"}}"
+     "body": "{\"msg\": \"Login fail\", \"code\": \"40302\", \"data\": {\"codeChallenge\": \"61d6df152d47f5ca4aa2cd26e65cf8e65eb12199bbdabe05dc9d4b80f7faf587\"}}"
     },
     {
-     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795478400000",
+     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795572000000",
      "body": "{\"columnOrder\": [\"cookie\", \"name\", \"domain\", \"purpose\", \"validity\"], \"columns\": {\"cookie\": \"Cookie type\", \"name\": \"Name\", \"domain\": \"Domain\", \"purpose\": \"Purpose\", \"validity\": \"Validity Period\"}, \"rows\": [{\"cookie\": \"Essential\", \"name\": \"frontend\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"heytap_authorized\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"HEYTAPID\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"ssoid\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"username\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"avatar\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"createtime\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberLevel\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberInfo\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"encryptId\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"acIdAuthSession\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"codeVerifier\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"Session\"}, {\"cookie\": \"Essential\", \"name\": \"cookiesaccepted\", \"domain\": \"www.oppo.com\", \"purpose\": \"Used to remember the choice of the user\", \"validity\": \"90 days\"}, {\"cookie\": \"Essential\", \"name\": \"g8vtl5_cmapi_cookie_privacy\", \"domain\": \".oppo.com\", \"purpose\": \"Used to remember how the user accepte cookies\", \"validity\": \"395 days\"}, {\"cookie\": \"Essential\", \"nam"
     }
    ]
@@ -318,11 +318,11 @@
    "final_url": "https://www.oppo.com/it/accessories/enco-x3i/",
    "title": "OPPO Enco X3i | OPPO Italia",
    "json_urls": [
-    "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
     "https://cm.teads.tv/v2/advertiser?referer=https%3A%2F%2Fwww.oppo.com%2Fit%2Faccessories%2Fenco-x3i%2F&tag_version=8.17.4_9ff4999&buyer_pixel_id=2534&gtm_consent",
+    "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
     "https://api.ipify.org/?format=json",
     "https://insight.adsrvr.org/track/realtimeconversion",
-    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795478400000"
+    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795572000000"
    ],
    "links": [
     "https://www.oppo.com/it/accessories/enco-x3i/",
@@ -341,10 +341,10 @@
    "json_samples": [
     {
      "url": "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
-     "body": "{\"msg\": \"Login fail\", \"code\": \"40302\", \"data\": {\"codeChallenge\": \"5236bffb573cf92a567e29d324f701edb989b8e41b716457a67299e826fb8bf5\"}}"
+     "body": "{\"msg\": \"Login fail\", \"code\": \"40302\", \"data\": {\"codeChallenge\": \"61d6df152d47f5ca4aa2cd26e65cf8e65eb12199bbdabe05dc9d4b80f7faf587\"}}"
     },
     {
-     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795478400000",
+     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795572000000",
      "body": "{\"columnOrder\": [\"cookie\", \"name\", \"domain\", \"purpose\", \"validity\"], \"columns\": {\"cookie\": \"Cookie type\", \"name\": \"Name\", \"domain\": \"Domain\", \"purpose\": \"Purpose\", \"validity\": \"Validity Period\"}, \"rows\": [{\"cookie\": \"Essential\", \"name\": \"frontend\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"heytap_authorized\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"HEYTAPID\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"ssoid\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"username\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"avatar\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"createtime\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberLevel\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberInfo\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"encryptId\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"acIdAuthSession\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"codeVerifier\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"Session\"}, {\"cookie\": \"Essential\", \"name\": \"cookiesaccepted\", \"domain\": \"www.oppo.com\", \"purpose\": \"Used to remember the choice of the user\", \"validity\": \"90 days\"}, {\"cookie\": \"Essential\", \"name\": \"g8vtl5_cmapi_cookie_privacy\", \"domain\": \".oppo.com\", \"purpose\": \"Used to remember how the user accepte cookies\", \"validity\": \"395 days\"}, {\"cookie\": \"Essential\", \"nam"
     }
    ]
@@ -359,7 +359,7 @@
     "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
     "https://api.ipify.org/?format=json",
     "https://insight.adsrvr.org/track/realtimeconversion",
-    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795478400000"
+    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795572000000"
    ],
    "links": [
     "https://www.oppo.com/it/accessories/enco-air4/",
@@ -379,10 +379,10 @@
    "json_samples": [
     {
      "url": "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
-     "body": "{\"msg\": \"Login fail\", \"code\": \"40302\", \"data\": {\"codeChallenge\": \"5236bffb573cf92a567e29d324f701edb989b8e41b716457a67299e826fb8bf5\"}}"
+     "body": "{\"msg\": \"Login fail\", \"code\": \"40302\", \"data\": {\"codeChallenge\": \"61d6df152d47f5ca4aa2cd26e65cf8e65eb12199bbdabe05dc9d4b80f7faf587\"}}"
     },
     {
-     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795478400000",
+     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795572000000",
      "body": "{\"columnOrder\": [\"cookie\", \"name\", \"domain\", \"purpose\", \"validity\"], \"columns\": {\"cookie\": \"Cookie type\", \"name\": \"Name\", \"domain\": \"Domain\", \"purpose\": \"Purpose\", \"validity\": \"Validity Period\"}, \"rows\": [{\"cookie\": \"Essential\", \"name\": \"frontend\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"heytap_authorized\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"HEYTAPID\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"ssoid\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"username\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"avatar\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"createtime\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberLevel\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberInfo\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"encryptId\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"acIdAuthSession\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"codeVerifier\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"Session\"}, {\"cookie\": \"Essential\", \"name\": \"cookiesaccepted\", \"domain\": \"www.oppo.com\", \"purpose\": \"Used to remember the choice of the user\", \"validity\": \"90 days\"}, {\"cookie\": \"Essential\", \"name\": \"g8vtl5_cmapi_cookie_privacy\", \"domain\": \".oppo.com\", \"purpose\": \"Used to remember how the user accepte cookies\", \"validity\": \"395 days\"}, {\"cookie\": \"Essential\", \"nam"
     }
    ]
@@ -397,7 +397,7 @@
     "https://cm.teads.tv/v2/advertiser?referer=https%3A%2F%2Fwww.oppo.com%2Fit%2Faccessories%2Fenco-air4-pro%2F&tag_version=8.17.4_9ff4999&buyer_pixel_id=2534&gtm_co",
     "https://api.ipify.org/?format=json",
     "https://insight.adsrvr.org/track/realtimeconversion",
-    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795478400000"
+    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795572000000"
    ],
    "links": [
     "https://www.oppo.com/it/accessories/enco-air4-pro/",
@@ -417,10 +417,10 @@
    "json_samples": [
     {
      "url": "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
-     "body": "{\"msg\": \"Login fail\", \"code\": \"40302\", \"data\": {\"codeChallenge\": \"5236bffb573cf92a567e29d324f701edb989b8e41b716457a67299e826fb8bf5\"}}"
+     "body": "{\"msg\": \"Login fail\", \"code\": \"40302\", \"data\": {\"codeChallenge\": \"61d6df152d47f5ca4aa2cd26e65cf8e65eb12199bbdabe05dc9d4b80f7faf587\"}}"
     },
     {
-     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795478400000",
+     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795572000000",
      "body": "{\"columnOrder\": [\"cookie\", \"name\", \"domain\", \"purpose\", \"validity\"], \"columns\": {\"cookie\": \"Cookie type\", \"name\": \"Name\", \"domain\": \"Domain\", \"purpose\": \"Purpose\", \"validity\": \"Validity Period\"}, \"rows\": [{\"cookie\": \"Essential\", \"name\": \"frontend\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"heytap_authorized\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"HEYTAPID\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"ssoid\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"username\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"avatar\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"createtime\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberLevel\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberInfo\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"encryptId\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"acIdAuthSession\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"codeVerifier\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"Session\"}, {\"cookie\": \"Essential\", \"name\": \"cookiesaccepted\", \"domain\": \"www.oppo.com\", \"purpose\": \"Used to remember the choice of the user\", \"validity\": \"90 days\"}, {\"cookie\": \"Essential\", \"name\": \"g8vtl5_cmapi_cookie_privacy\", \"domain\": \".oppo.com\", \"purpose\": \"Used to remember how the user accepte cookies\", \"validity\": \"395 days\"}, {\"cookie\": \"Essential\", \"nam"
     }
    ]
@@ -433,10 +433,10 @@
    "json_urls": [
     "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
     "https://cm.teads.tv/v2/advertiser?referer=https%3A%2F%2Fwww.oppo.com%2Fit%2Fnewsroom%2Fpress%2Foppo-enco-air5s%2F&tag_version=8.17.4_9ff4999&buyer_pixel_id=2534",
-    "https://api.ipify.org/?format=json",
     "https://opsiteapi-sg.oppo.com/api/public/v1/page/query",
+    "https://api.ipify.org/?format=json",
     "https://insight.adsrvr.org/track/realtimeconversion",
-    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795478400000"
+    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795572000000"
    ],
    "links": [
     "https://www.oppo.com/it/accessories/enco-x4/",
@@ -454,14 +454,14 @@
    "json_samples": [
     {
      "url": "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
-     "body": "{\"msg\": \"Login fail\", \"code\": \"40302\", \"data\": {\"codeChallenge\": \"5236bffb573cf92a567e29d324f701edb989b8e41b716457a67299e826fb8bf5\"}}"
+     "body": "{\"msg\": \"Login fail\", \"code\": \"40302\", \"data\": {\"codeChallenge\": \"61d6df152d47f5ca4aa2cd26e65cf8e65eb12199bbdabe05dc9d4b80f7faf587\"}}"
     },
     {
      "url": "https://opsiteapi-sg.oppo.com/api/public/v1/page/query",
      "body": "{\"code\": \"0\", \"msg\": \"ok\", \"data\": {\"total\": 280, \"rows\": [{\"website\": \"www_oppo_com\", \"id\": 16797, \"pageUrl\": \"https://www.oppo.com/it/newsroom/press/oppo-find-x10-series-lancio-globale/\", \"templateCode\": \"apps/oppo-site/news-detail/index\", \"urlKey\": \"newsroom/press/oppo-find-x10-series-lancio-globale\", \"title\": \"OPPO FIND X10 SERIES DEBUTTA A LIVELLO GLOBALE IL 21 OTTOBRE CON LA NUOVA GENERAZIONE DI TRUE-TO-LIFE IMAGING\", \"keywords\": \"OPPO smartphone telefono Find X10 lancio ottobre imaging\", \"module\": \"venus_default\", \"region\": \"it\", \"lang\": \"it-it\", \"customCategory\": \"cmsNewsDetail\", \"customCategoryType\": \"newsroom_press\", \"tags\": null, \"imgAddr\": \"/content/dam/oppo_com/it/mkt/newsroom/press/oppo-find-x10-series-lancio-globale/OPPO-FindX10Series-01.webp\", \"createTime\": null, \"lastUpdateTime\": 1792145367014, \"publishTime\": 1791561600, \"description\": \"OPPO annuncia oggi che la nuova OPPO Find X10 Series farà il debutto globale il 21 ottobre a Maiorca, in Spagna. Progettata come una “Hasselblad True-to-Life Camera”, la nuova serie combina hardware fotografico all’avanguardia con la nuova generazione del LUMO True Image Engine, aprendo un nuovo capitolo nella ricerca di OPPO per un imaging sempre più realistico.\", \"content\": null}, {\"website\": \"www_oppo_com\", \"id\": 16796, \"pageUrl\": \"https://www.oppo.com/it/newsroom/press/find-creator-academy/\", \"templateCode\": \"apps/oppo-site/news-detail/index\", \"urlKey\": \"newsroom/press/find-creator-academy\", \"title\": \"OPPO LANCIA LA CREATOR ACADEMY: LA NUOVA INIZIATIVA DEDICATA AI TALENTI DELLA CONTENT CREATION\", \"keywords\": \"OPPO smartphone telefono innovazione cellulare academy talent content creator tecnologia\", \"module\": \"venus_default\", \"region\": \"it\", \"lang\": \"it-it\", \"customCategory\": \"cmsNewsDetail\", \"customCategoryType\": \"newsroom_press\", \"tags\": null, \"imgAddr\": \"/content/dam/oppo_com/it/mkt/newsroom/press/find-creator-academy/OPPO-FindCreator-Header.webp\", \"createTime\": null, \"lastUpdateTime\": 1792145363934, \"publishTime\": 1790006400, \"description\": \"OPPO annuncia il lancio della Creator Academy, la nuova iniziativa pensata per coinvolgere creator e talenti emergenti in un percorso dedicato a creatività, storytelling e content creation. Il progetto offrirà a 150 creator selezionati l’opportunità di partecipare a due masterclass gratuite a Milano e Napoli, entrare in contatto con la community OPPO e vivere un’esperienza pensata per valorizzare nuove idee, linguaggi e modalità di racconto.\", \"content\": null}, {"
     },
     {
-     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795478400000",
+     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795572000000",
      "body": "{\"columnOrder\": [\"cookie\", \"name\", \"domain\", \"purpose\", \"validity\"], \"columns\": {\"cookie\": \"Cookie type\", \"name\": \"Name\", \"domain\": \"Domain\", \"purpose\": \"Purpose\", \"validity\": \"Validity Period\"}, \"rows\": [{\"cookie\": \"Essential\", \"name\": \"frontend\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"heytap_authorized\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"HEYTAPID\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"ssoid\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"username\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"avatar\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"createtime\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberLevel\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberInfo\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"encryptId\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"acIdAuthSession\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"codeVerifier\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"Session\"}, {\"cookie\": \"Essential\", \"name\": \"cookiesaccepted\", \"domain\": \"www.oppo.com\", \"purpose\": \"Used to remember the choice of the user\", \"validity\": \"90 days\"}, {\"cookie\": \"Essential\", \"name\": \"g8vtl5_cmapi_cookie_privacy\", \"domain\": \".oppo.com\", \"purpose\": \"Used to remember how the user accepte cookies\", \"validity\": \"395 days\"}, {\"cookie\": \"Essential\", \"nam"
     }
    ]
@@ -473,11 +473,11 @@
    "title": "OPPO PRESENTA OPPO ENCO X3S: AURICOLARI CON AVANZATA CANCELLAZIONE DEL RUMORE VOCALE E CALIBRAZIONE SONORA DYNAUDIO | OPPO Italia",
    "json_urls": [
     "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
+    "https://opsiteapi-sg.oppo.com/api/public/v1/page/query",
     "https://cm.teads.tv/v2/advertiser?referer=https%3A%2F%2Fwww.oppo.com%2Fit%2Fnewsroom%2Fpress%2Fenco-x3s%2F&tag_version=8.17.4_9ff4999&buyer_pixel_id=2534&gtm_co",
     "https://api.ipify.org/?format=json",
-    "https://opsiteapi-sg.oppo.com/api/public/v1/page/query",
     "https://insight.adsrvr.org/track/realtimeconversion",
-    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795478400000"
+    "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795572000000"
    ],
    "links": [
     "https://www.oppo.com/it/accessories/enco-x4/",
@@ -495,14 +495,14 @@
    "json_samples": [
     {
      "url": "https://par-sow-cms.oppo.com/oppo-api/token/v1/check",
-     "body": "{\"msg\": \"Login fail\", \"code\": \"40302\", \"data\": {\"codeChallenge\": \"5236bffb573cf92a567e29d324f701edb989b8e41b716457a67299e826fb8bf5\"}}"
+     "body": "{\"msg\": \"Login fail\", \"code\": \"40302\", \"data\": {\"codeChallenge\": \"61d6df152d47f5ca4aa2cd26e65cf8e65eb12199bbdabe05dc9d4b80f7faf587\"}}"
     },
     {
      "url": "https://opsiteapi-sg.oppo.com/api/public/v1/page/query",
      "body": "{\"code\": \"0\", \"msg\": \"ok\", \"data\": {\"total\": 280, \"rows\": [{\"website\": \"www_oppo_com\", \"id\": 16797, \"pageUrl\": \"https://www.oppo.com/it/newsroom/press/oppo-find-x10-series-lancio-globale/\", \"templateCode\": \"apps/oppo-site/news-detail/index\", \"urlKey\": \"newsroom/press/oppo-find-x10-series-lancio-globale\", \"title\": \"OPPO FIND X10 SERIES DEBUTTA A LIVELLO GLOBALE IL 21 OTTOBRE CON LA NUOVA GENERAZIONE DI TRUE-TO-LIFE IMAGING\", \"keywords\": \"OPPO smartphone telefono Find X10 lancio ottobre imaging\", \"module\": \"venus_default\", \"region\": \"it\", \"lang\": \"it-it\", \"customCategory\": \"cmsNewsDetail\", \"customCategoryType\": \"newsroom_press\", \"tags\": null, \"imgAddr\": \"/content/dam/oppo_com/it/mkt/newsroom/press/oppo-find-x10-series-lancio-globale/OPPO-FindX10Series-01.webp\", \"createTime\": null, \"lastUpdateTime\": 1792145367014, \"publishTime\": 1791561600, \"description\": \"OPPO annuncia oggi che la nuova OPPO Find X10 Series farà il debutto globale il 21 ottobre a Maiorca, in Spagna. Progettata come una “Hasselblad True-to-Life Camera”, la nuova serie combina hardware fotografico all’avanguardia con la nuova generazione del LUMO True Image Engine, aprendo un nuovo capitolo nella ricerca di OPPO per un imaging sempre più realistico.\", \"content\": null}, {\"website\": \"www_oppo_com\", \"id\": 16796, \"pageUrl\": \"https://www.oppo.com/it/newsroom/press/find-creator-academy/\", \"templateCode\": \"apps/oppo-site/news-detail/index\", \"urlKey\": \"newsroom/press/find-creator-academy\", \"title\": \"OPPO LANCIA LA CREATOR ACADEMY: LA NUOVA INIZIATIVA DEDICATA AI TALENTI DELLA CONTENT CREATION\", \"keywords\": \"OPPO smartphone telefono innovazione cellulare academy talent content creator tecnologia\", \"module\": \"venus_default\", \"region\": \"it\", \"lang\": \"it-it\", \"customCategory\": \"cmsNewsDetail\", \"customCategoryType\": \"newsroom_press\", \"tags\": null, \"imgAddr\": \"/content/dam/oppo_com/it/mkt/newsroom/press/find-creator-academy/OPPO-FindCreator-Header.webp\", \"createTime\": null, \"lastUpdateTime\": 1792145363934, \"publishTime\": 1790006400, \"description\": \"OPPO annuncia il lancio della Creator Academy, la nuova iniziativa pensata per coinvolgere creator e talenti emergenti in un percorso dedicato a creatività, storytelling e content creation. Il progetto offrirà a 150 creator selezionati l’opportunità di partecipare a due masterclass gratuite a Milano e Napoli, entrare in contatto con la community OPPO e vivere un’esperienza pensata per valorizzare nuove idee, linguaggi e modalità di racconto.\", \"content\": null}, {"
     },
     {
-     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795478400000",
+     "url": "https://www.oppo.com/content/dam/oppo_com/statics/cookie/cookies.json?t=1795572000000",
      "body": "{\"columnOrder\": [\"cookie\", \"name\", \"domain\", \"purpose\", \"validity\"], \"columns\": {\"cookie\": \"Cookie type\", \"name\": \"Name\", \"domain\": \"Domain\", \"purpose\": \"Purpose\", \"validity\": \"Validity Period\"}, \"rows\": [{\"cookie\": \"Essential\", \"name\": \"frontend\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"heytap_authorized\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"HEYTAPID\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"ssoid\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"username\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"avatar\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"createtime\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberLevel\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"memberInfo\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"encryptId\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"15 days\"}, {\"cookie\": \"Essential\", \"name\": \"acIdAuthSession\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"1 days\"}, {\"cookie\": \"Essential\", \"name\": \"codeVerifier\", \"domain\": \".oppo.com\", \"purpose\": \"Used for backend interface processing of user sessions\", \"validity\": \"Session\"}, {\"cookie\": \"Essential\", \"name\": \"cookiesaccepted\", \"domain\": \"www.oppo.com\", \"purpose\": \"Used to remember the choice of the user\", \"validity\": \"90 days\"}, {\"cookie\": \"Essential\", \"name\": \"g8vtl5_cmapi_cookie_privacy\", \"domain\": \".oppo.com\", \"purpose\": \"Used to remember how the user accepte cookies\", \"validity\": \"395 days\"}, {\"cookie\": \"Essential\", \"nam"
     }
    ]
